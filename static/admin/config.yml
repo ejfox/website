@@ -16,4 +16,5 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Audio", name: "audio", widget: "file", required: false}
+      - {label: "Audio", name: "audio", widget: "string", required: false}
+      - {label: "Video", name: "audio", widget: "string", required: false}

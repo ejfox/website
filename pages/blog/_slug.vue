@@ -1,5 +1,7 @@
 <template>
   <article :class="type">
+    <nuxt-link to="/">Home</nuxt-link>
+
     <h1>{{ title }}</h1>
 
     <div id="body">
@@ -28,13 +30,17 @@ export default {
 
 article {
   padding: 2rem;
-  max-width: 32rem
+  margin-top: 2rem;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   font-size: 3rem;
-  line-height: 1.3em;
+  line-height: 1em;
   display: block;
+  margin: 1rem 0;
 }
 
 p {

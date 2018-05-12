@@ -1,6 +1,6 @@
 {
-  "title": "Hello world",
+  "title": "Yet another test post ",
   "type": "words",
   "date": "2018-02-15T19:32:44.767Z",
-  "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \n \n \n At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea **takimata sanctus** est Lorem ipsum dolor sit amet. \n \n \n \n \n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \n\nThis one has an image.\n\n!\\[Test image](http://res.cloudinary.com/ejf/image/upload/c_scale,w_1013/v1525984680/2018-05-10/DSCF9248.jpg)\n\n At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea **takimata sanctus** est Lorem ipsum dolor sit amet. \n\n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 }

@@ -2,11 +2,11 @@
   <section id="post-container">
     <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">Home</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80']">
-      <header class="f2 measure-narrow">
+    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb5', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80']">
+      <header class="f3">
         <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-40', type === 'photos' ? '' : 'tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
         <div class="center pt4-ns ph7-1">
-          <h1 class="f-headline-l lh-title measure-narrow mv0">
+          <h1 class="f-headline-l f2 lh-title mv1">
             <span class="bg-black-10 pa1 tracked-tight">
               {{ title }}
             </span>
@@ -80,7 +80,7 @@ article.photos h1 {
 } */
 
 article.photos img {
-  margin: 2.5rem 0
+  margin: 3.5rem 0
 }
 img {
   max-width: 100%;

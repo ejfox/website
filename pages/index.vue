@@ -56,7 +56,7 @@
       <ul class="db f4">
         <li v-for="post in posts" :key="post.date"
           class="pr3 pb2 dib barlowcondensed">
-          <span class="f7 tracked light-silver">
+          <span class="f7 tracked light-silver db di-ns">
             {{ post.date | moment("YYYY-MM") }}
           </span>
           <nuxt-link :to="post._path" :class="['link dim dark-gray']">

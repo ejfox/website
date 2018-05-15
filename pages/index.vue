@@ -2,22 +2,24 @@
   <section class="w-80 center db border-black f3">
 
     <section class="category pv5 db cf">
-      <h2 class="fl w-third db pr4 lh-title">Photos</h2>
+      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
+          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link dim near-black']">
-            <span class="post-date b f6 db gray barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span> {{ post.title }}
+             {{ post.title }}
           </nuxt-link>
         </li>
       </ul>
     </section>
 
     <section class="category pv5 db cf">
-      <h2 class="fl w-third db pr4 lh-title">Words</h2>
+      <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
+          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link dim near-black']">
-            <span class="post-date b f6 db gray barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span> {{ post.title }}
+            {{ post.title }}
           </nuxt-link>
         </li>
       </ul>
@@ -44,13 +46,13 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl db pr4 pb4 lh-title">Everything</h2>
-      <ul class="db f6">
+      <ul class="db f4">
         <li v-for="post in posts" :key="post.date"
-          class="pr2 pb2 dib barlowcondensed">
+          class="pr3 pb2 dib barlowcondensed">
+          <span class="f6 tracked light-silver">
+            {{ post.date | moment("M/D") }}
+          </span>
           <nuxt-link :to="post._path" :class="['link dim dark-gray']">
-            <span class="gray">
-              {{ post.date | moment("M/D") }}
-            </span>
             <span class="b">
               {{ post.title }}
             </span>

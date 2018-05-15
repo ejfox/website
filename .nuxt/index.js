@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 /* Plugins */
 import nuxt_plugin_markdownit_1af4f1ab from 'nuxt_plugin_markdownit_1af4f1ab' // Source: ./markdown-it.js
+import nuxt_plugin_vuemoment_732aa8ba from 'nuxt_plugin_vuemoment_732aa8ba' // Source: ../plugins/vue-moment.js
 
 
 // Component: <no-ssr>
@@ -135,6 +136,7 @@ async function createApp (ssrContext) {
   // Plugin execution
   
   if (typeof nuxt_plugin_markdownit_1af4f1ab === 'function') await nuxt_plugin_markdownit_1af4f1ab(app.context, inject)
+  if (typeof nuxt_plugin_vuemoment_732aa8ba === 'function') await nuxt_plugin_vuemoment_732aa8ba(app.context, inject)
   
 
   // If server-side, wait for async component to be resolved first

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-near-white">
     <nuxt/>
   </div>
 </template>
@@ -23,7 +23,19 @@ html {
   box-sizing: border-box;
 }
 
+.notoserif {
+  font-family: 'Noto Serif', 'Georgia', serif;
+}
+
+.barlowcondensed {
+  font-family: 'Barlow Condensed', -apple-system, sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6 {
+  font-family: 'Barlow Condensed', -apple-system, sans-serif;
+}
+
+#home-link {
   font-family: 'Barlow Condensed', -apple-system, sans-serif;
 }
 </style>

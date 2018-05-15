@@ -13,6 +13,9 @@ module.exports = {
   modules: [
     '@nuxtjs/markdownit'
   ],
+  plugins: [
+    '~/plugins/vue-moment.js'
+  ],
   markdownit: {
     injected: true
   },

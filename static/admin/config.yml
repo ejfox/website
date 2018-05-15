@@ -8,15 +8,30 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/blog/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     format: 'json'
     card: {type: "alltype", text: "title"}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Type", name: "type", widget: "select", options: ["words", "code", "video", "audio", "photos"]}
-      - {label: "BG Color Class", name: "bgcolorclass", widget: "string", required: false}
-      - {label: "Text Color Class", name: "textcolorclass", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Audio", name: "audio", widget: "string", required: false}
       - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "BG Color Class", name: "bgcolorclass", widget: "string", required: false}
+      - {label: "Text Color Class", name: "textcolorclass", widget: "string", required: false}
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "content/posts/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    format: 'json'
+    card: {type: "alltype", text: "title"}
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Audio", name: "audio", widget: "string", required: false}
+      - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "BG Color Class", name: "bgcolorclass", widget: "string", required: false}
+      - {label: "Text Color Class", name: "textcolorclass", widget: "string", required: false}

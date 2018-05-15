@@ -2,7 +2,7 @@
   <section id="post-container">
     <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">Home</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'measure-wide']">
+    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80']">
       <header class="f2 measure-narrow">
         <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-40', type === 'photos' ? '' : 'tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
         <div class="center pt4-ns ph7-1">
@@ -31,6 +31,15 @@ export default {
     //     );
 
     let post = await import('~/content/blog/posts/' + params.slug + '.json');
+    if(!post.bgcolorclass) {
+      post.bgcolorclass = ''
+    }
+
+    if(!post.textcolorclass) {
+      post.textcolorclass = ''
+    }
+
+
     return post;
   }
 };

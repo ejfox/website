@@ -1,5 +1,12 @@
 <template>
-  <section class="w-80 center db border-black f3">
+  <section class="w-80 center db f3 cf">
+
+    <section class="pt6 pb4 measure-narrow lh-copy center">
+      Hello, my name is <strong>EJ Fox</strong>. I'm a designer at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. I specialize in design, data visualization, and storytelling.
+      <p>
+        <a href="http://portfolio.ejfox.com">Take a look at some of my work.</a>
+      </p>
+    </section>
 
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
@@ -49,8 +56,8 @@
       <ul class="db f4">
         <li v-for="post in posts" :key="post.date"
           class="pr3 pb2 dib barlowcondensed">
-          <span class="f6 tracked light-silver">
-            {{ post.date | moment("M/D") }}
+          <span class="f7 tracked light-silver">
+            {{ post.date | moment("YYYY-MM") }}
           </span>
           <nuxt-link :to="post._path" :class="['link dim dark-gray']">
             <span class="b">
@@ -77,11 +84,13 @@ export default {
     // Using webpacks context to gather all files from a folder
     const context = require.context('~/content/blog/posts/', false, /\.json$/);
 
-    const posts = context.keys().map(key => ({
+    let posts = context.keys().map(key => ({
       ...context(key),
       _path: `/blog/${key.replace('.json', '').replace('./', '')}`
     }));
 
+
+    posts = posts.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
     return { posts };
   }
 };

@@ -23,7 +23,7 @@
       </ul>
     </section>
 
-    <section class="category pv5 db cf">
+    <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third db pr4 lh-title">Everything Else</h2>
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type !== 'photos' && d.type !== 'words')" :key="post.date"
@@ -37,6 +37,24 @@
                 {{ post.date | moment("MMM Do YYYY") }}
               </span>
             </span> {{ post.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section> -->
+
+    <section class="category pv5 db cf">
+      <h2 class="fl db pr4 pb4 lh-title">Everything</h2>
+      <ul class="db f6">
+        <li v-for="post in posts" :key="post.date"
+          class="pr2 pb2 dib barlowcondensed">
+          <nuxt-link :to="post._path" :class="['link dim dark-gray']">
+            <span class="gray">
+              {{ post.date | moment("M/D") }}
+            </span>
+            <span class="b">
+              {{ post.title }}
+            </span>
+
           </nuxt-link>
         </li>
       </ul>

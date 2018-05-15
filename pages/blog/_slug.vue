@@ -2,11 +2,11 @@
   <section id="post-container">
     <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">Home</nuxt-link>
 
-    <article :class="['center', 'w-100', 'pa4', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'washed-blue' : '']">
-      <header class="">
+    <article :class="['center mw7', 'pa4', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'washed-blue' : '', type === 'photos' ? 'w-100' : 'measure-wide']">
+      <header class="f2 measure-narrow">
         <time class="f6 w-100 sans-serif mb2 db ttu tracked tc o-40"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
         <div class="mw9 center pt5-ns ph7-1">
-          <h1 class="f1-m f-headline-l lh-title measure-narrow mv0">
+          <h1 class="f-headline-l lh-title measure-narrow mv0">
             <span class="bg-black-10 pa1 tracked-tight">
               {{ title }}
             </span>
@@ -14,7 +14,7 @@
         </div>
       </header>
 
-      <div id="body" :class="['lh-copy', type !== 'photos' ? 'measure' : '']">
+      <div id="body" :class="['lh-copy notoserif', type !== 'photos' ? 'measure' : '']">
         <div v-html="$md.render(body)" class="contentWrapper content"></div>
       </div>
     </article>
@@ -70,7 +70,7 @@ article.photos h1 {
   text-align: center;
 } */
 
-article.photos img {
+article.photos-post img {
   margin: 2.5rem 0
 }
 img {

@@ -18,4 +18,4 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Audio", name: "audio", widget: "string", required: false}
-      - {label: "Video", name: "audio", widget: "string", required: false}
+      - {label: "Video", name: "video", widget: "string", required: false}

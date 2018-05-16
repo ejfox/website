@@ -14,10 +14,11 @@
         </div>
       </header>
 
-      <div v-if="audio.length > 1" class="w-100">
+      <div v-if="audio" class="w-100">
         <AudioPlayer
           :sources="[audio]"
-          :loop="true"
+          :loop="false"
+          :bg="bgcolorclass.length > 1 ? bgcolorclass : 'bg-gray'"
         />
       </div>
 
@@ -51,6 +52,10 @@ export default {
       post.textcolorclass = ''
     }
 
+    if(!post.audio) {
+      post.audio = null
+    }
+
 
     return post;
   }
@@ -59,7 +64,6 @@ export default {
 
 
 <style>
-
 a:link, a:hover {
   color: black;
   text-decoration: underline;
@@ -93,6 +97,14 @@ article.photos h1 {
 
 article.photos img {
   margin: 3.5rem 0
+}
+
+article.audio {
+  border-radius: 4px;
+  border-top: 1px solid rgba(250,250,250,0.1);
+  border-bottom: 1px solid rgba(25,25,25,0.1);
+
+  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
 }
 
 /* article.photos p {

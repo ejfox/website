@@ -1,14 +1,21 @@
 <template>
-  <div class="">
-    <div class="f3 pv3 f6 mb2 db ttu tracked o-40 barlowcondensed">Total duration: {{ Math.round(duration / 60)  }} minutes</div>
-    <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div>
-    <div class="progress-bar"
+  <div>
+    <div class="f3 pv3 f6 mb2 db ttu tracked o-40 barlowcondensed">
+      <div class="" v-if="Math.round(duration / 60) > 1">
+        Total duration: {{ Math.round(duration / 60)  }} minutes
+      </div>
+      <div class="" v-if="Math.round(duration / 60) < 1">
+        Total duration: {{ duration }} seconds
+      </div>
+    </div>
+    <!-- <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div> -->
+    <div :class="['progress-bar', bg]"
       :style="{width: (progress * 100)+'%'}">
 
     </div>
     <div class="controls">
-      <a class="f1 tc ph3 pa4 mb2 dib white bg-black w-100 br-pill"
-      style="color: white !important;"
+      <a :class="['f1 tc ph3 pa4 mb2 dib white w-100 br-pill ba bw3 b--black-80', playing ? 'bg-black' : 'bg-white']"
+      :style="[{color: playing ? 'white !important' : 'black !important'}]"
       @click="togglePlayback">
         <!-- {{ playing ? 'Pause' : 'Play' }} -->
         <ion-icon
@@ -25,7 +32,8 @@ import VueHowler from 'vue-howler'
 
 export default {
   props: {
-    fileUrl: { type: String, default: null }
+    fileUrl: { type: String, default: null },
+    bg: {type: String, default: 'bg-gray'}
   },
   mixins: [
     VueHowler
@@ -44,7 +52,8 @@ export default {
   top: 0;
   left: 0;
   pointer-events: none;
-  background-color: red;
+  /* opacity: 0.25; */
+  z-index: -1;
 }
 </style>
 

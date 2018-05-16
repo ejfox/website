@@ -1,8 +1,9 @@
 {
   "title": "Photo post with a background color",
+  "hidden": false,
   "type": "photos",
   "date": "2018-05-15T02:31:25-04:00",
-  "body": "![1](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9303.jpg)\n\n![2](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9175.jpg)\n\n![3](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9175.jpg)\n\n\\\n![4](https://res.cloudinary.com/ejf/image/upload/v1525984676/2018-05-10/DSCF9214.jpg)",
+  "body": "![1](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9303.jpg)\n\n![2](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9175.jpg)\n\n![3](https://res.cloudinary.com/ejf/image/upload/v1525984683/2018-05-10/DSCF9175.jpg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet, enim quis pharetra congue, est turpis aliquam nibh, id sagittis dolor enim id enim. Ut tempus velit eu elit sagittis cursus. Mauris euismod rhoncus dui, a sodales diam finibus ut. Vestibulum suscipit porttitor maximus. Praesent aliquam, nunc in varius molestie, velit elit consectetur ligula, non dapibus eros magna quis est. Phasellus tincidunt volutpat efficitur. Sed et cursus velit. Morbi posuere risus ac lectus commodo, vel accumsan erat dapibus. Cras placerat viverra turpis, quis tristique tortor commodo a.\n\n\\\n![4](https://res.cloudinary.com/ejf/image/upload/v1525984676/2018-05-10/DSCF9214.jpg)",
   "bgcolorclass": "bg-washed-yellow",
   "textcolorclass": "black"
 }

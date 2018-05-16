@@ -94,6 +94,7 @@ export default {
 
 
     posts = posts.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
+    posts = posts.filter(post => !post.hidden)
     return { posts };
   }
 };

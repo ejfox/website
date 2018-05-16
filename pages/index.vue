@@ -16,7 +16,7 @@
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
           <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black']">
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
              {{ post.title }}
           </nuxt-link>
         </li>
@@ -28,7 +28,7 @@
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
           <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black']">
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
             {{ post.title }}
           </nuxt-link>
         </li>
@@ -59,7 +59,7 @@
       <ul class="db f5">
         <li v-for="post in posts" :key="post.date"
           :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
-          <span class="f7 tracked light-silver db di-ns ttu">
+          <span class="f7 tracked light-silver db di-ns ttu o-80">
             {{ post.date | moment("YYYY-MM") }} / {{ post.type }}
           </span>
           <nuxt-link :to="post._path" :class="['dim no-underline dark-gray', post.textcolorclass]">

@@ -2,10 +2,10 @@
   <div>
     <div class="f3 pv3 f6 mb2 db ttu tracked o-40 barlowcondensed">
       <div class="" v-if="Math.round(duration / 60) > 1">
-        Total duration: {{ Math.round(duration / 60)  }} minutes
+        {{ Math.round(duration / 60)  }} minutes
       </div>
       <div class="" v-if="Math.round(duration / 60) < 1">
-        Total duration: {{ duration }} seconds
+        {{ Math.round(duration) }} seconds
       </div>
     </div>
     <!-- <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div> -->

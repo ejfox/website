@@ -56,7 +56,7 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl db pr4 pb2 lh-title">Everything</h2>
-      <ul class="db f4">
+      <ul class="db f5">
         <li v-for="post in posts" :key="post.date"
           :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
           <span class="f7 tracked light-silver db di-ns ttu">

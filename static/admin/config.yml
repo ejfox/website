@@ -13,7 +13,7 @@ collections:
     card: {type: "alltype", text: "title"}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hidden", name: "hidden", widget: "boolean"}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Type", name: "type", widget: "select", options: ["words", "code", "video", "audio", "photos"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -30,5 +30,5 @@ collections:
     card: {type: "alltype", text: "title"}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hidden", name: "hidden", widget: "boolean"}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}

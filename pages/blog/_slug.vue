@@ -2,11 +2,11 @@
   <section id="post-container">
     <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">EJFox.com</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb5', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80']">
-      <header class="f3">
-        <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-40', type === 'photos' ? '' : 'tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
+    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb0', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+      <header >
+        <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-40 tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
         <div class="center pt4-ns ph7-1">
-          <h1 class="f-headline-l f2 lh-title mv1-ns">
+          <h1 class="f-headline-m f-headline-l lh-title mv1-ns">
             <span class="bg-black-20 pa1 tracked-tight">
               {{ title }}
             </span>
@@ -64,6 +64,10 @@ export default {
 
 
 <style>
+h1 {
+  word-wrap: break-word;
+  hyphens: auto;
+}
 a:link, a:hover {
   color: black;
   text-decoration: underline;
@@ -99,7 +103,19 @@ article.photos img {
   margin: 3.5rem 0
 }
 
-article.audio {
+article.photos img:first-child {
+  margin-top: 0;
+}
+
+/* article.audio {
+  border-radius: 4px;
+  border-top: 1px solid rgba(250,250,250,0.1);
+  border-bottom: 1px solid rgba(25,25,25,0.1);
+
+  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
+} */
+
+.article-pop {
   border-radius: 4px;
   border-top: 1px solid rgba(250,250,250,0.1);
   border-bottom: 1px solid rgba(25,25,25,0.1);

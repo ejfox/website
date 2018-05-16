@@ -2,9 +2,12 @@
   <section class="w-80 center db f3 cf">
 
     <section class="pt6 pb4 measure-narrow lh-copy center">
-      Hello, my name is <strong>EJ Fox</strong>. I'm a designer at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. I specialize in design, data visualization, and storytelling.
+      <p class="pb4">
+        Hello, my name is <strong>EJ Fox</strong>. I'm a designer at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
+      </p>
+
       <p>
-        <a href="http://portfolio.ejfox.com">Take a look at some of my work.</a>
+        <a class=" tracked-tight" href="http://portfolio.ejfox.com">Take a look at some projects I've worked on.</a>
       </p>
     </section>
 
@@ -13,7 +16,7 @@
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
           <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link dim near-black']">
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black']">
              {{ post.title }}
           </nuxt-link>
         </li>
@@ -24,8 +27,8 @@
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
-          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link dim near-black']">
+          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black']">
             {{ post.title }}
           </nuxt-link>
         </li>
@@ -52,14 +55,14 @@
     </section> -->
 
     <section class="category pv5 db cf">
-      <h2 class="fl db pr4 pb4 lh-title">Everything</h2>
+      <h2 class="fl db pr4 pb2 lh-title">Everything</h2>
       <ul class="db f4">
         <li v-for="post in posts" :key="post.date"
-          class="pr3 pb2 dib barlowcondensed">
-          <span class="f7 tracked light-silver db di-ns">
-            {{ post.date | moment("YYYY-MM") }}
+          :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
+          <span class="f7 tracked light-silver db di-ns ttu">
+            {{ post.date | moment("YYYY-MM") }} / {{ post.type }}
           </span>
-          <nuxt-link :to="post._path" :class="['link dim dark-gray']">
+          <nuxt-link :to="post._path" :class="['dim no-underline dark-gray', post.textcolorclass]">
             <span class="b">
               {{ post.title }}
             </span>

@@ -1,20 +1,27 @@
 <template>
   <section id="post-container">
-    <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">Home</nuxt-link>
+    <nuxt-link to="/" id="home-link" class="tc f2 pv3 db lh-title">EJFox.com</nuxt-link>
 
     <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb5', type, type === 'photos' ? 'bg-black' : '', type === 'photos' ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80']">
       <header class="f3">
         <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-40', type === 'photos' ? '' : 'tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
         <div class="center pt4-ns ph7-1">
-          <h1 class="f-headline-l f2 lh-title mv1">
-            <span class="bg-black-10 pa1 tracked-tight">
+          <h1 class="f-headline-l f2 lh-title mv1-ns">
+            <span class="bg-black-20 pa1 tracked-tight">
               {{ title }}
             </span>
           </h1>
         </div>
       </header>
 
-      <div id="body" :class="['lh-copy notoserif', type !== 'photos' ? 'measure' : 'mw7']">
+      <div v-if="audio.length > 1" class="w-100">
+        <AudioPlayer
+          :sources="[audio]"
+          :loop="true"
+        />
+      </div>
+
+      <div id="body" :class="['lh-copy notoserif pt4-ns', type !== 'photos' ? 'measure' : 'w-100']">
         <div v-html="$md.render(body)" class="contentWrapper content"></div>
       </div>
     </article>
@@ -22,7 +29,12 @@
 </template>
 
 <script>
+import AudioPlayer from '~/components/AudioPlayer.vue';
+
 export default {
+  components: {
+    AudioPlayer
+  },
   async asyncData({ params }) {
     // const postPromise = process.BROWSER_BUILD
     //   ? import('~/content/blog/posts/' + params.slug + '.json')
@@ -82,6 +94,11 @@ article.photos h1 {
 article.photos img {
   margin: 3.5rem 0
 }
+
+/* article.photos p {
+  max-width: 32rem;
+} */
+
 img {
   max-width: 100%;
 }

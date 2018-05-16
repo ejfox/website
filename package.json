@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.1",
+    "howler": "^2.0.12",
     "nuxt": "^1.0.0",
+    "vue-howler": "^0.7.0",
     "vue-moment": "^3.2.0"
   },
   "devDependencies": {

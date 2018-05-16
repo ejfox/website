@@ -1,0 +1,5 @@
+{
+  "title": "Hidden Test Post",
+  "hidden": true,
+  "body": "This is a test post, but it's hidden from the index page"
+}

@@ -5,7 +5,10 @@
 
     <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb0', type, type === 'photos' ? 'bg-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
-        <time :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']"><small>{{ date | moment("MMMM Do, YYYY") }}</small></time>
+        <time v-if="!hidetimestamp"
+          :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
+          <small>{{ date | moment("MMMM Do, YYYY") }}</small>
+        </time>
         <div class="center pt4-ns ph7-1">
           <h1 class="f-headline-m f-headline-l lh-title mv1-ns">
             <span class="bg-black-20 pa1 tracked-tight">

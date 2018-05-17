@@ -4,5 +4,7 @@
   "hidden": false,
   "type": "words",
   "date": "2018-05-16T19:55:08-04:00",
-  "hidetimestamp": true
+  "hidetimestamp": true,
+  "bgcolorclass": "bg-hot-pink",
+  "textcolorclass": "white"
 }

@@ -77,11 +77,8 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue';
-
 export default {
   components: {
-    AppLogo
   },
   data() {
     // Using webpacks context to gather all files from a folder

@@ -17,7 +17,9 @@ module.exports = {
     '~/plugins/vue-moment.js'
   ],
   markdownit: {
-    injected: true
+    injected: true,
+    typographer: true,
+    html: true
   },
   /*
   ** Headers of the page

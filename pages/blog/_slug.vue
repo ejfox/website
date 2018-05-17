@@ -75,6 +75,20 @@ export default {
   }
 }
 
+h2 {
+  font-size: 2.75rem;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.1em;
+}
+
+h3,h4,h5,h6 {
+  opacity: 0.75;
+}
+
 a:link, a:hover {
   color: black;
   text-decoration: underline;
@@ -140,5 +154,10 @@ img {
 
 p {
   margin: 1.5rem 0;
+}
+
+.embed-container {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 </style>

@@ -27,7 +27,7 @@
       </div>
 
       <div id="body" :class="['lh-copy notoserif pt4-ns', type !== 'photos' ? 'measure' : 'w-100 f3-ns']">
-        <div v-html="$md.render(body)" class="contentWrapper content"></div>
+        <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
       </div>
     </article>
   </section>
@@ -35,10 +35,98 @@
 
 <script>
 import AudioPlayer from '~/components/AudioPlayer.vue';
+import cheerio from 'cheerio'
+import URL from 'url-parse'
+import _ from 'lodash'
 
 export default {
   components: {
     AudioPlayer
+  },
+  methods: {
+    parseMarkdown: function(markdown) {
+      let parsedMarkdown = this.$md.render(markdown)
+      const $ = cheerio.load(parsedMarkdown)
+      $('img').each(function(i, el){
+        let $image = $(this)
+        const imgSrc = $image.attr('src')
+        const url = new URL(imgSrc)
+
+        /*
+        Full size: https://res.cloudinary.com/ejf/image/upload/v1526535166/20161227-untitled_shoot-527.jpg
+
+        Scaled to 1290 width http://res.cloudinary.com/ejf/image/upload/c_scale,dpr_auto,w_1290,q_auto:best/v1526535166/20161227-untitled_shoot-527.jpg
+        Scaled to 920 width https://res.cloudinary.com/ejf/image/upload/c_scale,dpr_auto,w_920/v1526535166/20161227-untitled_shoot-527.jpg
+                            https://res.cloudinary.com/ejf/image/upload/v1526535161/c_scale,dpr_auto,w_1080/20161119-untitled_shoot-007.jpg
+
+
+        <img srcset="elva-fairy-320w.jpg 320w,
+                   elva-fairy-480w.jpg 480w,
+                   elva-fairy-800w.jpg 800w"
+           sizes="(max-width: 320px) 280px,
+                  (max-width: 480px) 440px,
+                  800px"
+           src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+
+        */
+
+        if (url.hostname === 'res.cloudinary.com') {
+          // $image.attr('src', 'http://via.placeholder.com/350x150')
+          $image.attr('src', 'http://via.placeholder.com/350x150')
+          // let paths = url.pathname.split('/')
+          // paths[paths.length+1] = 'c_scale,dpr_auto,w_120'
+          // paths.splice(paths.length-2, 0, 'c_scale,dpr_auto,w_120')
+
+          // c_scale,dpr_auto,w_1080,q_auto:best
+
+
+          let urlS = new URL(imgSrc)
+          let urlSPaths = urlS.pathname.split('/')
+          urlSPaths.splice(urlSPaths.length-2, 0, 'c_scale,dpr_auto,w_320')
+          urlS.pathname = urlSPaths.join('/')
+
+          let urlM = new URL(imgSrc)
+          let urlMPaths = urlM.pathname.split('/')
+          urlMPaths.splice(urlMPaths.length-2, 0, 'c_scale,dpr_auto,w_920')
+          urlM.pathname = urlMPaths.join('/')
+
+          let urlL = new URL(imgSrc)
+          let urlLPaths = urlL.pathname.split('/')
+          urlLPaths.splice(urlLPaths.length-2, 0, 'c_scale,dpr_auto,w_1280')
+          urlL.pathname = urlLPaths.join('/')
+
+
+
+          // url.pathname = paths
+          // $image.attr('src', url.toString())
+
+          let srcSet = [
+            urlS.toString() + ' 320w',
+            urlM.toString() + ' 920w',
+            urlL.toString() + ' 1280w',
+          ]
+
+          let sizes = [
+            '(max-width: 320px) 280px',
+            '(max-width: 720px) 980px',
+            '1000px'
+          ]
+
+          // url.pathname = paths.join('/')
+          $image.attr('srcset', srcSet.join(', \n'))
+          $image.attr('sizes', sizes.join(', \n'))
+          $image.attr('src', urlM.toString())
+        } else {
+          $image.attr('src', url.toString())
+        }
+
+        // let newUrl = cloudinary.url(imgSrc, {width: 720, crop: "scale"})
+        // let newUrl = 'http://via.placeholder.com/350x150'
+
+      })
+      return $.html()
+      // return markdown
+    }
   },
   async asyncData({ params }) {
     // const postPromise = process.BROWSER_BUILD

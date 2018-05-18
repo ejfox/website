@@ -3,7 +3,7 @@
     <nuxt-link to="/" id="home-link"
     :class="['w-80 center f3 pb3 pt3 pl1 db lh-solid', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'words' ? 'tc' : '']">EJFox.com</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa4 mb0', type, type === 'photos' ? 'bg-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
@@ -26,7 +26,7 @@
         />
       </div>
 
-      <div id="body" :class="['lh-copy notoserif pt4-ns', type !== 'photos' ? 'measure' : 'w-100 f3-ns']">
+      <div id="body" :class="['lh-copy notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
         <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
       </div>
     </article>
@@ -208,8 +208,12 @@ article.photos h1 {
   text-align: center;
 } */
 
+article.photos h1 {
+  text-align: center;
+}
+
 article.photos img {
-  margin: 3.5rem 0
+  margin: 3rem 0
 }
 
 article.photos img:first-child {

@@ -5,5 +5,6 @@
   "type": "photos",
   "date": "2015-01-01T00:57:00-05:00",
   "hidetimestamp": true,
-  "bgcolorclass": "bg-light-blue"
+  "bgcolorclass": "bg-light-blue",
+  "textcolorclass": "black"
 }

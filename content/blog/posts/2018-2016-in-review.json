@@ -4,5 +4,7 @@
   "hidden": false,
   "type": "photos",
   "date": "2016-01-01T00:42:00-05:00",
-  "hidetimestamp": true
+  "hidetimestamp": true,
+  "bgcolorclass": "bg-washed-yellow",
+  "textcolorclass": "black"
 }

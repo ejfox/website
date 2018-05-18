@@ -1,9 +1,9 @@
 <template>
   <section id="post-container">
     <nuxt-link to="/" id="home-link"
-    :class="['w-80 center f3 pb3 pt3 pl1 db lh-solid', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'words' ? 'tc' : '']">EJFox.com</nuxt-link>
+    :class="['tc w-80 center f3 pa3 db lh-solid', type === 'photos' ? 'w-100' : 'w-80-m w-80-l']">EJFox.com</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
@@ -116,6 +116,7 @@ export default {
           $image.attr('srcset', srcSet.join(', \n'))
           $image.attr('sizes', sizes.join(', \n'))
           $image.attr('src', urlM.toString())
+          $image.addClass('shadow-4-l')
         } else {
           $image.attr('src', url.toString())
         }

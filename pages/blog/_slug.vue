@@ -47,6 +47,17 @@ export default {
     parseMarkdown: function(markdown) {
       let parsedMarkdown = this.$md.render(markdown)
       const $ = cheerio.load(parsedMarkdown)
+
+      $('a').each(function(i, el){
+        let $link = $(this)
+        const linkSrc = $link.attr('href')
+        const url = new URL(linkSrc)
+
+        if (url.hostname === 'api.observablehq.com') {
+
+        }
+      })
+
       $('img').each(function(i, el){
         let $image = $(this)
         const imgSrc = $image.attr('src')

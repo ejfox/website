@@ -1,6 +1,6 @@
 {
   "title": "Test Code Post",
-  "body": "<https://api.observablehq.com/@ejfox/exploring-russian-troll-data.js?key=79eeb3ce8c7291e2>\n\n<script type=\"module\">\n  // Load the Observable runtime and inspector.\n  import {Runtime, Inspector} from \"https://unpkg.com/@observablehq/notebook-runtime?module\";\n\n  // Your notebook, compiled as an ES module.\n  import notebook from \"https://api.observablehq.com/@jashkenas/my-neat-notebook.js?key=ed62e16955cdc185\";\n\n  // Load the notebook, observing its cells with a default Inspector\n  // that simply renders the value of each cell into the provided DOM node.\n  Runtime.load(notebook, Inspector.into(document.querySelector('#observable')));\n</script>\n\n<div id=\"observable\"></div>",
+  "body": "<https://api.observablehq.com/@ejfox/exploring-russian-troll-data.js?key=79eeb3ce8c7291e2>\n\n<script type=\"module\">\n  // Load the Observable runtime and inspector.\n  import {Runtime, Inspector} from \"https://unpkg.com/@observablehq/notebook-runtime?module\";\n\n  // Your notebook, compiled as an ES module.\n  import notebook from \"https://api.observablehq.com/@ejfox/exploring-russian-troll-data.js?key=79eeb3ce8c7291e2\";\n\n  // Load the notebook, observing its cells with a default Inspector\n  // that simply renders the value of each cell into the provided DOM node.\n  Runtime.load(notebook, Inspector.into(document.querySelector('#observable')));\n</script>\n\n<div id=\"observable\"></div>",
   "hidden": false,
   "type": "code",
   "date": "2018-05-27T11:35:20-04:00",

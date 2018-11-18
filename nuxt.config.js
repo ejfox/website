@@ -8,7 +8,6 @@ var dynamicRoutes = getDynamicPaths({
   '/blog': 'blog/posts/*.json'
 });
 
-
 module.exports = {
   modules: [
     '@nuxtjs/markdownit'
@@ -46,6 +45,16 @@ module.exports = {
   */
   generate: {
     routes: dynamicRoutes
+  },
+
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        name: 'shop',
+        path: '/shop',
+        component: resolve(__dirname, 'pages/shop.vue')
+      })
+    }
   },
   /*
   ** Build configuration

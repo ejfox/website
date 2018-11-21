@@ -198,6 +198,17 @@ a:visited, a:focus {
   color: #363636;
   text-decoration: none;
 }
+
+@media (max-width: 640px) {
+  article {
+    border: 0 solid #f4f4f4;
+  }
+}
+@media (min-width: 641px) {
+  article {
+    border: 0.5em solid #f4f4f4;
+  }
+}
 /*
 article {
   padding: 2rem;

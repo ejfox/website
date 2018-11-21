@@ -3,6 +3,10 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_library:
+  name: uploadcare
+  config:
+    publicKey: ac78278cad46e4c5e923
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI

@@ -12,18 +12,16 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/blog/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     format: 'json'
     card: {type: "alltype", text: "title"}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Type", name: "type", widget: "select", options: ["words", "code", "video", "audio", "photos"]}
+      - {label: "Audio", name: "audio", widget: "string", required: false}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Hide Timestamp", name: "hidetimestamp", widget: "boolean", default: false}
-      - {label: "ObserableHQ Notebook", name: "observable", widget: "string", required: false}
-      - {label: "Audio", name: "audio", widget: "string", required: false}
-      - {label: "Video", name: "video", widget: "string", required: false}
-      - {label: "BG Color Class", name: "bgcolorclass", widget: "string", required: false}
-      - {label: "Text Color Class", name: "textcolorclass", widget: "string", required: false}
+      - {label: "BG Tachyon Class", name: "bgcolorclass", widget: "string", required: false}
+      - {label: "Text Tachyon Class", name: "textcolorclass", widget: "string", required: false}

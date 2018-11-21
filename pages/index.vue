@@ -7,7 +7,7 @@
       </p>
 
       <p>
-        <a class=" tracked-tight" href="http://portfolio.ejfox.com">Take a look at some projects I've worked on.</a>
+        <a class="tracked-tight" href="http://portfolio.ejfox.com">Take a look at some of my work</a> or <a href="http://ejfox.com/resume.pdf">my resume</a>
       </p>
     </section>
 

@@ -26,7 +26,7 @@
         />
       </div>
 
-      <div id="body" :class="['lh-copy notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
+      <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
         <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
       </div>
     </article>
@@ -258,6 +258,7 @@ img {
 
 p {
   margin: 1.5rem 0;
+  line-height: 1.72em;
 }
 
 .embed-container {

@@ -3,8 +3,6 @@
 
 <head>
   {{ HEAD }}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:600|Noto+Serif:400,700" rel="stylesheet">
   <link rel="stylesheet"
@@ -14,7 +12,9 @@
 <body {{ BODY_ATTRS }} class="bg-near-white">
   {{ APP }}
 
-<script src="https://unpkg.com/ionicons@4.1.0/dist/ionicons.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" defer></script>
+<!-- <script src="https://unpkg.com/ionicons@4.1.0/dist/ionicons.js"></script> -->
 </body>
 <script>
   if (window.netlifyIdentity) {

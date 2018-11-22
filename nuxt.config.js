@@ -26,11 +26,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'ejfox',
+    title: 'EJ Fox',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'EJFox.com' }
+      { hid: 'description', name: 'description', content: 'EJFox.com' },
+      { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

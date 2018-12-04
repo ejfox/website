@@ -60,7 +60,9 @@
         <li v-for="post in posts" :key="post.date"
           :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
           <span class="f7 tracked light-silver db di-ns ttu o-80">
-            {{ post.date | moment("YYYY-MM") }} / {{ post.type }}
+            {{ post.date | moment("YYYY-MM") }}
+            <!-- {{ post.type }} -->
+            <i :class="['fas', postTypeIcon(post.type)]" />
           </span>
           <nuxt-link :to="post._path" :class="['dim no-underline dark-gray', post.textcolorclass]">
             <span class="b">
@@ -79,6 +81,16 @@
 <script>
 export default {
   components: {
+  },
+  methods: {
+    postTypeIcon: function (postType) {
+      // ["words", "code", "video", "audio", "photos"]
+      if (postType === 'words') { return 'fa-align-right' }
+      if (postType === 'code') { return 'fa-terminal' }
+      if (postType === 'video') { return 'fa-video' }
+      if (postType === 'audio') { return 'fa-volume-up' }
+      if (postType === 'photos') { return 'fa-camera' }
+    }
   },
   data() {
     // Using webpacks context to gather all files from a folder

@@ -1,26 +1,34 @@
 <template>
   <div>
-    <div class="f3 pv3 f6 mb2 db ttu tracked o-40 barlowcondensed">
-      <div class="" v-if="Math.round(duration / 60) > 1">
+    <div class="f3 f6 mb2 db ttu tracked o-40 barlowcondensed">
+      <div class="" v-if="duration === 0">
+        Loading...
+      </div>
+      <div class="" v-else-if="Math.round(duration / 60) > 1">
         {{ Math.round(duration / 60)  }} minutes
       </div>
-      <div class="" v-if="Math.round(duration / 60) < 1">
+      <div class="" v-else-if="Math.round(duration / 60) < 1">
         {{ Math.round(duration) }} seconds
       </div>
     </div>
     <!-- <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div> -->
     <div :class="['progress-bar', bg]"
       :style="{width: (progress * 100)+'%'}">
-
     </div>
-    <div class="controls">
-      <a :class="['f1 tc ph3 pa4 mb2 dib white w-100 br-pill ba bw3 b--black-80', playing ? 'bg-black' : 'bg-white']"
+    <div
+      :class="['controls', (duration === 0) ? 'loading-audio' : '']">
+      <a :class="['playpause-button f1 tc ph3 pa4 mb2 dib dark-gray w-100 br-pill ba bw3 b--black-80', playing ? 'bg-black' : 'bg-white']"
       :style="[{color: playing ? 'white !important' : 'black !important'}]"
       @click="togglePlayback">
         <!-- {{ playing ? 'Pause' : 'Play' }} -->
-        <ion-icon
-        :name="playing ? 'Pause' : 'Play'"></ion-icon>
+        <i
+        :class="['fas', playing ? 'fa-pause' : 'fa-play']"></i>
       </a>
+
+      <canvas id="canvas-viz" v-show="playing">
+
+      </canvas>
+
       <!-- <button class="f6 link dim ph3 pv2 mb2 dib white bg-black w-50"
       @click="stop">Stop</button> -->
     </div>
@@ -38,14 +46,77 @@ export default {
   mixins: [
     VueHowler
   ],
-  onMounted: function() {
+  mounted: function() {
     const sound = new Howl({
-      src: [this.fileUrl]
+      src: [this.fileUrl],
+      preload: true
     });
+
+    console.log('hello world')
+
+    const canvas = document.getElementById('canvas-viz');
+    canvas.width = window.innerWidth * 2
+    canvas.height = window.innerHeight * 2
+
+    const ctx = canvas.getContext('2d');
+
+    let analyser = Howler.ctx.createAnalyser()
+    console.log('analyser', analyser)
+    // analyser.fftSize = 2048
+    analyser.fftSize = 1024
+    analyser.smoothingTimeConstant = 0.95
+    let bufferLength = analyser.frequencyBinCount
+    let dataArray = new Uint8Array(bufferLength)
+    Howler.masterGain.connect(analyser)
+
+    function draw() {
+      console.log('drawing')
+      var drawVisual = requestAnimationFrame(draw)
+      analyser.getByteTimeDomainData(dataArray)
+      // ctx.fillStyle = 'green'
+      // ctx.fillRect(0, 0, canvas.width, canvas.height)
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = 'rgb(0, 0, 0)';
+      ctx.beginPath();
+
+      let sliceWidth = canvas.width * 1.0 / bufferLength
+      let x = 0
+
+      for(var i = 0; i < bufferLength; i++) {
+        var v = dataArray[i] / 128.0;
+        var y = v * canvas.height/1.4;
+
+        if(i === 0) {
+          ctx.moveTo(x, y);
+        } else {
+          ctx.lineTo(x, y);
+        }
+
+        x += sliceWidth;
+      }
+      ctx.lineTo(canvas.width, canvas.height/1.4);
+      ctx.stroke();
+    }
+
+    draw()
   }
 };
 </script>
 <style>
+.controls {
+  transition: all 1.2s ease-in-out;
+}
+.loading-audio {
+  cursor: none;
+  opacity: 0.2;
+  filter: blur(4px);
+}
+
+.playpause-button {
+  cursor: pointer;
+}
 .progress-bar {
   height: 100vh;
   position: fixed;
@@ -54,6 +125,16 @@ export default {
   pointer-events: none;
   /* opacity: 0.25; */
   z-index: -1;
+}
+#canvas-viz {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+
 }
 </style>
 

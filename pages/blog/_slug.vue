@@ -3,19 +3,39 @@
     <nuxt-link to="/" id="home-link"
     :class="['tc w-80 center f3 pa3 db lh-solid', type === 'photos' ? 'w-100' : 'w-80-m w-80-l']">EJFox.com</nuxt-link>
 
-    <article :class="[bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+    <article
+    v-if="type !== 'audio'"
+    :class="['not-audio', bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
           <small>{{ date | moment("MMMM Do, YYYY") }}</small>
         </time>
         <div class="center pt4-ns ph7-1">
-          <h1 class="f-headline-m f-headline-l lh-title mv1-ns">
-            <span class="bg-black-20 pa1 tracked-tight">
+          <h1 :class="['f-headline-m f-headline-l lh-title mv1-ns']">
+            <span :class="['pa1 tracked-tight', audio ? '' : 'bg-black-20']">
               {{ title }}
             </span>
           </h1>
         </div>
+      </header>
+
+      <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
+        <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
+      </div>
+    </article>
+
+    <article
+    v-if="type === 'audio'"
+    :class="['o-90 tc tl-m tl-l', bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-80-m w-80-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+      <header >
+        <h1 :class="['lh-title mv1-ns dib-ns mr2']">
+            {{ title }}
+        </h1>
+        <time v-if="!hidetimestamp"
+          :class="['sans-serif mb2 dib-ns ttu tracked ml0-m o-60']">
+          <small>{{ date | moment("MMMM Do, YYYY") }}</small>
+        </time>
       </header>
 
       <div v-if="audio" class="w-100">
@@ -27,7 +47,8 @@
       </div>
 
       <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
-        <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
+        <div v-if="body"
+        v-html="parseMarkdown(body)" class="contentWrapper content"></div>
       </div>
     </article>
   </section>
@@ -200,12 +221,12 @@ a:visited, a:focus {
 }
 
 @media (max-width: 640px) {
-  article {
+  article.not-audio {
     border: 0 solid #f4f4f4;
   }
 }
 @media (min-width: 641px) {
-  article {
+  article.not-audio {
     border: 0.5em solid #f4f4f4;
   }
 }

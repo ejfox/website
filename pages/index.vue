@@ -11,6 +11,12 @@
       </p>
     </section>
 
+    <!-- <section class="tc m4">
+      <p>
+        <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </p>
+    </section> -->
+
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
       <ul class="fl w-two-thirds db">

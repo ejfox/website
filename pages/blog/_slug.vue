@@ -230,6 +230,9 @@ a:visited, a:focus {
     border: 0.5em solid #f4f4f4;
   }
 }
+
+article li
+  list-style-type circle
 /*
 article {
   padding: 2rem;

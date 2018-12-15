@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="f3 f6 mb2 db ttu tracked o-40 barlowcondensed">
+    <div class="f3 f6 mb2 dib ttu tracked o-40 barlowcondensed">
       <div class="" v-if="duration === 0">
         Loading...
       </div>
@@ -11,6 +11,11 @@
         {{ Math.round(duration) }} seconds
       </div>
     </div>
+
+    <div class="f3 f6 mb2 ml2 dib ttu tracked o-20 barlowcondensed">
+      <a id="download-link" :href="url" target="_blank">Download</a>
+    </div>
+
     <!-- <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div> -->
     <div :class="['progress-bar', bg]"
       :style="{width: (progress * 100)+'%'}">
@@ -43,16 +48,28 @@ export default {
     fileUrl: { type: String, default: null },
     bg: {type: String, default: 'bg-gray'}
   },
+  data: function () {
+    return {
+      url: this.sources[0]
+    }
+  },
   mixins: [
     VueHowler
   ],
   mounted: function() {
+
+    console.log('this', this)
+
     const sound = new Howl({
       src: [this.fileUrl],
       preload: true
     });
 
-    console.log('hello world')
+
+
+    // const downloadLink = document.getElementById('download-link');
+    // downloadLink.setAttribute('href', this.fileUrl)
+    // downloadLink.setAttribute('href', this.fileUrl)
 
     const canvas = document.getElementById('canvas-viz');
     canvas.width = window.innerWidth * 2
@@ -70,7 +87,6 @@ export default {
     Howler.masterGain.connect(analyser)
 
     function draw() {
-      console.log('drawing')
       var drawVisual = requestAnimationFrame(draw)
       analyser.getByteTimeDomainData(dataArray)
       // ctx.fillStyle = 'green'

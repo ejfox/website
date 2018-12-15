@@ -17,7 +17,7 @@
       </p>
     </section> -->
 
-    <section class="category pv5 db cf">
+    <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
       <ul class="fl w-two-thirds db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
@@ -27,7 +27,7 @@
           </nuxt-link>
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>

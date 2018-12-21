@@ -4,6 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const _283ac100 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _3e3b97ab = () => import('../pages/vibes.vue' /* webpackChunkName: "pages/vibes" */).then(m => m.default || m)
 const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
 const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
 
@@ -47,6 +48,11 @@ export function createRouter () {
 			name: "index"
 		},
 		{
+			path: "/vibes",
+			component: _3e3b97ab,
+			name: "vibes"
+		},
+		{
 			path: "/shop",
 			component: _6a135938,
 			name: "shop"
@@ -60,6 +66,11 @@ export function createRouter () {
 			path: "/shop",
 			component: _6a135938,
 			name: "shop"
+		},
+		{
+			path: "/vibes",
+			component: _3e3b97ab,
+			name: "vibes"
 		}
     ],
     fallback: false

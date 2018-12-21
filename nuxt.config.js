@@ -10,7 +10,8 @@ var dynamicRoutes = getDynamicPaths({
 
 module.exports = {
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/axios'
   ],
   plugins: [
     '~/plugins/vue-moment.js'
@@ -20,7 +21,9 @@ module.exports = {
     typographer: true,
     html: true,
     breaks: true,
-
+  },
+  axios: {
+    // proxyHeaders: false
   },
   /*
   ** Headers of the page
@@ -54,6 +57,12 @@ module.exports = {
         name: 'shop',
         path: '/shop',
         component: resolve(__dirname, 'pages/shop.vue')
+      })
+
+      routes.push({
+        name: 'vibes',
+        path: '/vibes',
+        component: resolve(__dirname, 'pages/vibes.vue')
       })
     }
   },

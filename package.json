@@ -14,6 +14,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/markdownit": "^1.2.1",
     "cheerio": "^1.0.0-rc.2",
     "cloudinary": "^1.11.0",
@@ -21,10 +22,12 @@
     "howler": "^2.0.12",
     "lodash": "^4.17.10",
     "nuxt": "^1.0.0",
+    "stylus": "^0.54.5",
     "url-parse": "^1.4.0",
     "vue-howler": "^0.7.0",
     "vue-moment": "^3.2.0",
-    "vue-stripe-elements-plus": "^0.2.9"
+    "vue-stripe-elements-plus": "^0.2.9",
+    "vue-style-loader": "^4.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

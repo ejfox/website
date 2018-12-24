@@ -3,7 +3,7 @@
 
     <section class="intro pt6 pb4 measure-narrow lh-copy center">
       <p class="pb4">
-        Hello, my name is <strong>EJ Fox</strong>. I'm a designer at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
+        Hello, my name is <strong>EJ Fox</strong>. I'm a designer and hacker working at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
       </p>
 
       <p>
@@ -60,7 +60,7 @@
       </ul>
     </section> -->
 
-    <section class="category pv5 db cf">
+    <section id="allposts" class="category pv5 db cf">
       <h2 class="fl db pr4 pb2 lh-title">Everything</h2>
       <ul class="db f5 list">
         <li v-for="post in posts" :key="post.date"

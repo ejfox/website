@@ -70,7 +70,7 @@ export default {
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){
-        $(el).addClass('lh-copy measure center pa2 pa0-m pa0-l')
+        $(el).addClass('lh-copy measure center pa3')
       })
 
       $('ul').each(function(i, el){
@@ -207,7 +207,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 @media (max-width: 640px) {
   h1 {
     word-wrap: break-word;

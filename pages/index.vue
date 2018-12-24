@@ -1,7 +1,7 @@
 <template>
   <section class="w-80 center db f3 cf">
 
-    <section class="pt6 pb4 measure-narrow lh-copy center">
+    <section class="intro pt6 pb4 measure-narrow lh-copy center">
       <p class="pb4">
         Hello, my name is <strong>EJ Fox</strong>. I'm a designer at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
       </p>
@@ -118,4 +118,14 @@ export default {
 <style>
 ul { padding: 0;}
 /* li { list-style-type: none } */
+
+.intro a:link, .intro a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.intro a:visited, .intro a:focus {
+  color: #414346;
+  text-decoration: none;
+}
 </style>

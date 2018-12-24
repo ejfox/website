@@ -73,6 +73,10 @@ export default {
         $(el).addClass('lh-copy measure center pa3')
       })
 
+      $('img').each(function(i, el){
+        $(el).addClass('center mv4')
+      })
+
       $('ul').each(function(i, el){
         $(el).addClass('measure pv1 center pa4 pa0-m pa0-l')
       })

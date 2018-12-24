@@ -10,7 +10,8 @@
       <h2>Loading!</h2>
     </section>
     <section v-for="block in blocks" :key="block.id" class="dib v-mid mw5 ma2">
-      <a :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-wus2iiyauzg'">
+      <a v-if="block.image"
+        :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-wus2iiyauzg'">
         <img :src="block.image.display.url" :alt="block.generated_title">
       </a>
     </section>

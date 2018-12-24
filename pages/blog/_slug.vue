@@ -70,7 +70,7 @@ export default {
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){
-        $(el).addClass('lh-copy measure center pv3')
+        $(el).addClass('lh-copy measure center pv3 ph3 ph0-m ph0-l')
       })
 
       $('img').each(function(i, el){
@@ -312,11 +312,6 @@ article.photos img:first-child {
 
 img {
   max-width: 100%;
-}
-
-p {
-  margin: 1.5rem 0;
-  line-height: 1.72em;
 }
 
 .embed-container {

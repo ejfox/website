@@ -70,7 +70,7 @@ export default {
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){
-        $(el).addClass('lh-copy measure center pa3')
+        $(el).addClass('lh-copy measure center pv3')
       })
 
       $('img').each(function(i, el){

@@ -31,7 +31,7 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
-      <ul class="fl w-two-thirds db">
+      <ul class="fl w-two-thirds db list">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
           <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
@@ -62,7 +62,7 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl db pr4 pb2 lh-title">Everything</h2>
-      <ul class="db f5">
+      <ul class="db f5 list">
         <li v-for="post in posts" :key="post.date"
           :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
           <span class="f7 tracked light-silver db di-ns ttu o-80">
@@ -117,7 +117,5 @@ export default {
 
 <style>
 ul { padding: 0;}
-li {
-  list-style-type: none;
-}
+/* li { list-style-type: none } */
 </style>

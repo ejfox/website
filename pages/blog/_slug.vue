@@ -1,11 +1,11 @@
 <template>
   <section id="post-container">
     <nuxt-link to="/" id="home-link"
-    :class="['tc w-80 center f3 pa3 db lh-solid', type === 'photos' ? 'w-100' : 'w-80-m w-80-l']">EJFox.com</nuxt-link>
+    :class="['tc center f3 pa3 db lh-solid']">EJFox.com</nuxt-link>
 
     <article
     v-if="type !== 'audio'"
-    :class="['not-audio', bgcolorclass, textcolorclass, 'center', 'pa5-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-60-m w-60-l pa2', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+    :class="['not-audio pa5-ns mb0 center', bgcolorclass, textcolorclass, type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
@@ -20,7 +20,7 @@
         </div>
       </header>
 
-      <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
+      <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? '' : 'mw7 center f3-ns']">
         <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
       </div>
     </article>
@@ -69,9 +69,33 @@ export default {
       let parsedMarkdown = this.$md.render(markdown)
       const $ = cheerio.load(parsedMarkdown)
 
-      // $('p').each(function(i, el){
-      //   $(el).addClass('ba')
-      // })
+      $('p').each(function(i, el){
+        $(el).addClass('lh-copy measure center pa2 pa0-m pa0-l')
+      })
+
+      $('ul').each(function(i, el){
+        $(el).addClass('measure pv1 center pa4 pa0-m pa0-l')
+      })
+
+      $('li').each(function(i, el){
+        $(el).addClass('mb2')
+      })
+
+      $('li > p').each(function(i, el){
+        $(el).removeClass('measure')
+      })
+
+      $('h2').each(function(i, el){
+        $(el).addClass('tc mv4')
+      })
+
+      $('h3').each(function(i, el){
+        $(el).addClass('tc mv3 tracked ttu')
+      })
+
+      $('h4').each(function(i, el){
+        $(el).addClass('tc mv2 tracked')
+      })
 
       $('a').each(function(i, el){
         let $link = $(this)

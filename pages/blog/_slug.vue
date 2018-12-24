@@ -5,14 +5,14 @@
 
     <article
     v-if="type !== 'audio'"
-    :class="['not-audio', bgcolorclass, textcolorclass, 'center', 'pa1 pa4-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-60-m w-60-l', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
+    :class="['not-audio', bgcolorclass, textcolorclass, 'center', 'pa5-ns mb0', type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '', type === 'photos' ? 'w-100' : 'w-60-m w-60-l pa2', type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
           <small>{{ date | moment("MMMM Do, YYYY") }}</small>
         </time>
         <div class="center pt4-ns ph7-1">
-          <h1 :class="['f-headline-m f-headline-l lh-title mv1-ns']">
+          <h1 :class="['tc f-headline-m f-headline-l lh-title mv1-ns']">
             <span :class="['pa1 tracked-tight', audio ? '' : 'bg-black-20']">
               {{ title }}
             </span>
@@ -69,6 +69,10 @@ export default {
       let parsedMarkdown = this.$md.render(markdown)
       const $ = cheerio.load(parsedMarkdown)
 
+      // $('p').each(function(i, el){
+      //   $(el).addClass('ba')
+      // })
+
       $('a').each(function(i, el){
         let $link = $(this)
         const linkSrc = $link.attr('href')
@@ -103,14 +107,7 @@ export default {
         */
 
         if (url.hostname === 'res.cloudinary.com') {
-          // $image.attr('src', 'http://via.placeholder.com/350x150')
-          $image.attr('src', 'http://via.placeholder.com/350x150')
-          // let paths = url.pathname.split('/')
-          // paths[paths.length+1] = 'c_scale,dpr_auto,w_120'
-          // paths.splice(paths.length-2, 0, 'c_scale,dpr_auto,w_120')
-
           // c_scale,dpr_auto,w_1080,q_auto:best
-
 
           let urlS = new URL(imgSrc)
           let urlSPaths = urlS.pathname.split('/')
@@ -126,8 +123,6 @@ export default {
           let urlLPaths = urlL.pathname.split('/')
           urlLPaths.splice(urlLPaths.length-2, 0, 'c_scale,dpr_auto,w_1280')
           urlL.pathname = urlLPaths.join('/')
-
-
 
           // url.pathname = paths
           // $image.attr('src', url.toString())

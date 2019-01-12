@@ -11,36 +11,6 @@
       </p>
     </section>
 
-    <!-- <section class="tc m4">
-      <p>
-        <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </p>
-    </section> -->
-
-    <!-- <section class="category pv5 db cf">
-      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
-      <ul class="fl w-two-thirds db">
-        <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
-          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
-             {{ post.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </section> -->
-
-    <section class="category pv5 db cf">
-      <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
-      <ul class="fl w-two-thirds db list">
-        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
-          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
-            {{ post.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </section>
-
     <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third db pr4 lh-title">Everything Else</h2>
       <ul class="fl w-two-thirds db">
@@ -80,6 +50,57 @@
       </ul>
     </section>
 
+    <section class="category pv5 db cf">
+      <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
+      <ul class="fl w-two-thirds db list">
+        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
+          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
+            {{ post.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
+
+    <section class="category pv5 db cf">
+      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
+      <ul class="list fl w-two-thirds db">
+        <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
+          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
+             {{ post.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
+
+    <section class="center db ttu barlowcondensed ma5 f5 tc">
+      <nuxt-link to="/vibes" :class="['link pa3 ba ma2 no-underline gray']">
+        vibes &amp; inspiration
+      </nuxt-link>
+
+      <nuxt-link to="/bookmarks" :class="['link pa3 ba ma2 no-underline gray']">
+        recent bookmarks
+      </nuxt-link>
+
+      <a
+        :class="['link pa3 ba ma2 no-underline gray']"
+        href="https://github.com/ejfox">
+        GitHub
+      </a>
+
+      <a
+        :class="['link pa3 ba ma2 no-underline gray']"
+        href="http://instagram.com/ejfoxphotos">
+        Instagram
+      </a>
+    </section>
+
+    <section class="tc ma4 o-50">
+      <p>
+        <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </p>
+    </section>
 
   </section>
 </template>

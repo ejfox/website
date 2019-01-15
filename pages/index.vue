@@ -94,17 +94,15 @@
         href="http://instagram.com/ejfoxphotos">
         Instagram
       </a>
+
+      <a
+      :class="['link pa3 ba ma2 no-underline gray']"
+      href="https://calendly.com/ejfox/hang">calendar</a>
     </section>
 
     <section class="tc ma4 o-50">
       <p>
         <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </p>
-    </section>
-
-    <section class="tc ma4 o-50">
-      <p>
-        <a href="https://calendly.com/ejfox/hang">calendar</a>
       </p>
     </section>
 

@@ -102,6 +102,12 @@
       </p>
     </section>
 
+    <section class="tc ma4 o-50">
+      <p>
+        <a href="https://calendly.com/ejfox/hang">calendar</a>
+      </p>
+    </section>
+
   </section>
 </template>
 

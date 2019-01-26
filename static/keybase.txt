@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ejfox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ejfox.com
+  * I am ejfox (https://keybase.io/ejfox) on keybase.
+  * I have a public key with fingerprint 5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dbe298ceeef11214063eaa2a726ec7c52ae9861a8960687268917ffab86fb8640a",
+      "fingerprint": "5d30a33e08e35b8915b4c7e2e2078e653fe389cd",
+      "host": "keybase.io",
+      "key_id": "e2078e653fe389cd",
+      "kid": "01011691123f40ce4da09adc0ae31c1095bdf9a7bbb8261042c89e6bdf20cbf703fe0a",
+      "uid": "3c2d35c4225eee3fcd627c1c214b8c19",
+      "username": "ejfox"
+    },
+    "service": {
+      "hostname": "ejfox.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1548534517,
+  "expire_in": 157680000,
+  "prev": "9ab844173e3160acb0ca75a04f3e5896df6e08b0b3968cad954f5c27aab3d7d3",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMNiAnicbVJ/TFVVHH/os4gfgbIy/6DkzsAGg3N/3/syfqxWY8O2JwgO6cG5556L
+l8f7wfsFzJ5CLmcgIkxnYqMwcmvsCcjKLa0QIQ2HkNgQRiGxNNHIAnrCVnQey60/
+utvZ3f2cz+dzP+fzPf3Raw0RYT89eQRnzLw3FHbtUrPXUJTTt7iXUhxqNWXaS1nx
+6guXq9jtKbbqKmWiAM0AVcGMLCGMsUbTDM0BgcUQMlBkBIxExDMQy5JAQ0kWgCAR
+VJJpUdOgIgkaWRyAVAql6fZS7HK6dLuH2PIqCyDLYiBhllcIn1c4JGIGM0CUsMCz
+GmYlGalEuMfhDilIOAW6caruIBj5KF6N9z/8x7kBTQsyyctqHECYUyGQoYoAxCyN
+aCDziqrJUFQURWIEGnAMkmQsEJABSNFEQBxXc3tX7VjEqCyPOIbhSQ2shlSBERGN
+SBuKhGg5RHRjlx3acChVmeaoovwpFIF8OsKhVkPH+O92KnLYiMrpcngcyFFO4D0e
+j9NtCsk81c4QrxIrxf86FCu6XSUNEoUPu9y6w06ZaMJEHj1kSfOcxLMcT4spFK5y
+6i5crIcYvChIgDyh/2AfsZTJUDiOFlnSggAgUgCCIg8Bp7GYJ/NTNYHMRAEKKwsS
+gqrMcxqPGBFChVVFlaVCZ6qwO4g3TXLCUuLp1kvt0ON1Ycrfd6nIaAiLMDyxbk3o
+ahkinop9fOECP8es5HbXDD/fO5t4d4sLLN3wGwd3lqxfGXSfeKcSnOmz3Mn5frQ8
+d61xeihx48OjwWe+uJ1WWTX3alv7ocLbVUXmmIrxglbbQJJp2XDqmOn3YwkNWUq7
+43BT+MKkq+vmvb9nP7u1L6PuxTdMx5Onbbs2Zp2Exy1t8Vn+BO/g0aYkVp+LvJyc
+thyTk5k+YXpt7Otu//mK/b7CT7rCqY7t48FdnpqOVyrNpzPeH3hpydrzVuuFW5kz
+MR0jM2vaYoLZixUFrrvtlXNvR0Z9xHzQc6r5w9L7Ny7etEyZL4DT7Ab+z0dL6fq2
+pKgW7+dL/fuG2+0rvwRqdltadphSzODcoKETNTf2lW4rOMGl1friG66P/Go8/GXe
+VOyzlHFyaFm2xh4oDC4uKrCQiU78YSyz/ul1cEt24HxvWUOd1xY8aeSDYnx6rdny
+oKRta/Z3AVsVF4xbeX0yer5+9Ex+10U1KnDgYNyhzu6Frg5rmK2rJcH8aHzOMP3N
+eurIxP663wamYtXOs2OdUtmbu3vT3r3aGtsykU3XN279KnzAE82njVjuXF5wStfm
+U2d/nI+rrgg8CDwn3i8x5vvDa4/mvrDij8ws3GDMu7djUtj07R8Fysf9w82NB32J
+n768OVBrTp+xXlGNmxgx4qE3e/POpp686y59/Gp7/RXqr/k07GgaTd4unA2es+X/
+A2QGw9k=
+=bIlz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ejfox
+
+==================================================================

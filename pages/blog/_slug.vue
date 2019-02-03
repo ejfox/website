@@ -21,7 +21,7 @@
       </header>
 
       <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? '' : 'mw7 center f3-ns']">
-        <div v-html="parseMarkdown(body)" class="contentWrapper content"></div>
+        <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>
 
@@ -47,8 +47,8 @@
       </div>
 
       <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? 'measure' : 'mw7 center f3-ns']">
-        <div v-if="body"
-        v-html="parseMarkdown(body)" class="contentWrapper content"></div>
+        <Words v-if="body"
+          :bodyMarkdown="body" />
       </div>
     </article>
   </section>
@@ -56,13 +56,15 @@
 
 <script>
 import AudioPlayer from '~/components/AudioPlayer.vue';
+import Words from '~/components/blogtypes/words.vue'
 import cheerio from 'cheerio'
 import URL from 'url-parse'
 import _ from 'lodash'
 
 export default {
   components: {
-    AudioPlayer
+    AudioPlayer,
+    Words
   },
   methods: {
     parseMarkdown: function(markdown) {

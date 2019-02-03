@@ -52,7 +52,7 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
-      <ul class="fl w-two-thirds db list">
+      <ul class="fl w-two-thirds-ns db list">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
           <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
@@ -64,7 +64,7 @@
 
     <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
-      <ul class="list fl w-two-thirds db">
+      <ul class="list fl w-two-thirds-ns db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,3)" :key="post.date" class="pv2">
           <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
@@ -75,28 +75,28 @@
     </section>
 
     <section class="center db ttu barlowcondensed ma5 f5 tc">
-      <nuxt-link to="/vibes" :class="['link pa3 ba ma2 no-underline gray']">
+      <nuxt-link to="/vibes" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
         vibes &amp; inspiration
       </nuxt-link>
 
-      <nuxt-link to="/bookmarks" :class="['link pa3 ba ma2 no-underline gray']">
+      <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
         recent bookmarks
       </nuxt-link>
 
       <a
-        :class="['link pa3 ba ma2 no-underline gray']"
+        :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
         href="https://github.com/ejfox">
         GitHub
       </a>
 
       <a
-        :class="['link pa3 ba ma2 no-underline gray']"
+        :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
         href="http://instagram.com/ejfoxphotos">
         Instagram
       </a>
 
       <a
-      :class="['link pa3 ba ma2 no-underline gray']"
+      :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
       href="https://calendly.com/ejfox/hang">calendar</a>
     </section>
 

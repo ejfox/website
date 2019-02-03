@@ -97,7 +97,7 @@
 
       <a
       :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
-      href="https://calendly.com/ejfox/hangout/02-03-2019">calendar</a>
+      href="https://calendly.com/ejfox/hangout/">calendar</a>
     </section>
 
     <section class="tc ma4 o-50">

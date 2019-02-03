@@ -5,6 +5,7 @@ Vue.use(Router)
 
 const _283ac100 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 const _3e3b97ab = () => import('../pages/vibes.vue' /* webpackChunkName: "pages/vibes" */).then(m => m.default || m)
+const _28df9114 = () => import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */).then(m => m.default || m)
 const _2bb8d1ab = () => import('../pages/bookmarks.vue' /* webpackChunkName: "pages/bookmarks" */).then(m => m.default || m)
 const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
 const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
@@ -52,6 +53,11 @@ export function createRouter () {
 			path: "/vibes",
 			component: _3e3b97ab,
 			name: "vibes"
+		},
+		{
+			path: "/portfolio",
+			component: _28df9114,
+			name: "portfolio"
 		},
 		{
 			path: "/bookmarks",

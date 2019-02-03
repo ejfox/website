@@ -29,24 +29,24 @@ export default {
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){
-        $(el).addClass('lh-copy measure center pv3 ph3 ph0-m ph0-l')
+        $(el).addClass('lh-copy measure pv3 ph3 ph0-m ph0-l')
       })
 
       $('ul').each(function(i, el){
-        $(el).addClass('measure pv1 center pa4 pa0-m pa0-l')
+        $(el).addClass('measure pv1 pa2 pa4-ns pa0-m pa0-l')
       })
 
-      $('img').each(function(i, el){ $(el).addClass('center mv4') })
+      $('img').each(function(i, el){ $(el).addClass('center mv4 pa0') })
 
       $('li').each(function(i, el){ $(el).addClass('mb2') })
 
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
 
-      $('h2').each(function(i, el){ $(el).addClass('tc mv4') })
+      $('h2').each(function(i, el){ $(el).addClass('ph2 mv4') })
 
-      $('h3').each(function(i, el){ $(el).addClass('tc mv3 tracked ttu') })
+      $('h3').each(function(i, el){ $(el).addClass('ph2 mv3 tracked ttu') })
 
-      $('h4').each(function(i, el){ $(el).addClass('tc mv2 tracked') })
+      $('h4').each(function(i, el){ $(el).addClass('ph2 mv2 tracked') })
 
       $('blockquote').each(function(i, el){ $(el).addClass('mv3 f3-l ph2 ph4-ns lh-copy measure center') })
       $('blockquote > p').each(function(i, el){
@@ -124,7 +124,7 @@ export default {
           $image.attr('srcset', srcSet.join(', \n'))
           $image.attr('sizes', sizes.join(', \n'))
           $image.attr('src', urlM.toString())
-          $image.addClass('shadow-4-l')
+          // $image.addClass('shadow-4-l')
         } else {
           $image.attr('src', url.toString())
         }

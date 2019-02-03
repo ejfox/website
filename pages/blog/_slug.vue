@@ -5,22 +5,22 @@
 
     <article
     v-if="type !== 'audio'"
-    :class="['not-audio pa5-ns mb0 center', bgcolorclass, textcolorclass, type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '']">
+    :class="['not-audio pa4-ns mb0 center', bgcolorclass, textcolorclass, type, type === 'photos' ? 'bg-near-black' : '', type === 'photos' && !textcolorclass ? 'white' : '']">
       <header >
         <time v-if="!hidetimestamp"
           :class="['f6 w-100 sans-serif mb2 db ttu tracked o-50 tc']">
           <small>{{ date | moment("MMMM Do, YYYY") }}</small>
         </time>
-        <div class="center pt4-ns ph7-1">
-          <h1 :class="['tc f-headline-m f-headline-l lh-title mv1-ns']">
-            <span :class="['pa1 tracked-tight', audio ? '' : 'bg-black-20']">
+        <div class="center pa3 ph7-1">
+          <h1 :class="['f-headline-m f-headline-l lh-title mv1-ns']">
+            <span :class="['tracked-tight']">
               {{ title }}
             </span>
           </h1>
         </div>
       </header>
 
-      <div id="body" :class="['notoserif pt4-ns', type !== 'photos' ? '' : 'mw7 center f3-ns']">
+      <div id="body" :class="['notoserif pt3-ns', type !== 'photos' ? '' : 'mw7 center f3-ns']">
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>

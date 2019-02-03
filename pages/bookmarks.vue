@@ -39,7 +39,7 @@
           <i v-else-if="block.$.tag.split(' ').indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span>
 
-        <span class="b">
+        <span class="b lh-title">
           {{block.$.description}}
         </span>
 
@@ -47,9 +47,13 @@
           {{block.$.tag}}
         </small>
 
-        <small class="db lh-copy f8 pt1 o-60">
-          {{block.$.extended}}
+        <small v-if="!block.$.extended" class="db ttu f8 o-20 mt1 word-wrap">
+          {{block.$.href}}
         </small>
+
+        <div class="measure lh-copy">
+          <small v-if="block.$.extended" class="bg-light-yellow i">{{block.$.extended}}</small>
+        </div>
       </a>
     </section>
 
@@ -146,5 +150,9 @@ img {
 
 #header a {
   cursor: pointer;
+}
+
+.word-wrap {
+  word-wrap: break-word;
 }
 </style>

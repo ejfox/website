@@ -92,21 +92,18 @@ export default {
 
           let urlS = new URL(imgSrc)
           let urlSPaths = urlS.pathname.split('/')
-          urlSPaths.splice(urlSPaths.length-2, 0, 'c_scale,dpr_auto,w_320')
+          urlSPaths.splice(urlSPaths.length-2, 0, 'fl_progressive:semi,q_jpegmini,c_scale,dpr_auto,w_320')
           urlS.pathname = urlSPaths.join('/')
 
           let urlM = new URL(imgSrc)
           let urlMPaths = urlM.pathname.split('/')
-          urlMPaths.splice(urlMPaths.length-2, 0, 'c_scale,dpr_auto,w_920')
+          urlMPaths.splice(urlMPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_920')
           urlM.pathname = urlMPaths.join('/')
 
           let urlL = new URL(imgSrc)
           let urlLPaths = urlL.pathname.split('/')
-          urlLPaths.splice(urlLPaths.length-2, 0, 'c_scale,dpr_auto,w_1280')
+          urlLPaths.splice(urlLPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_1280')
           urlL.pathname = urlLPaths.join('/')
-
-          // url.pathname = paths
-          // $image.attr('src', url.toString())
 
           let srcSet = [
             urlS.toString() + ' 320w',
@@ -139,3 +136,18 @@ export default {
   }
 };
 </script>
+
+<style>
+a:link, a:hover {
+  opacity: 1;
+  color: black;
+  text-decoration: underline;
+  transition: 300ms all ease-out;
+}
+
+a:visited, a:focus {
+  color: #363636;
+  text-decoration: none;
+  opacity: 0.78;
+}
+</style>

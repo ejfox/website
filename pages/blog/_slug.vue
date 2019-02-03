@@ -47,7 +47,7 @@
             {{ title }}
         </h1>
         <time v-if="!hidetimestamp"
-          :class="['sans-serif mb2 dib-ns ttu tracked ml0-m o-60']">
+          :class="['sans-serif mb3 mb1-ns db ttu tracked ml0-m o-60']">
           <small>{{ date | moment("MMMM Do, YYYY") }}</small>
         </time>
       </header>

@@ -1,7 +1,7 @@
 <template>
   <section class="center db f3 cf tc">
     <section id="header">
-      <small class="db">
+      <small class="db pa1">
         <a href="https://ejfox.com">&lt;- ejfox.com</a>
       </small>
     </section>
@@ -27,24 +27,31 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
+const channelSlug = 'vibes-wus2iiyauzg'
 
 export default {
   components: {
   },
   data() {
     return {
-      channelSlug: 'vibes-wus2iiyauzg',
       blocks: []
     }
   },
   created: function () {
   },
   mounted: function () {
+    axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=1000`)
+    .then((res) => {
+      console.log('setting blocks nowww', res.data.contents)
+      this.blocks = _.reverse(res.data.contents)
+    })
+  },
+  activated: function () {
   },
   methods: {
   },
   asyncData ({ params }) {
-    return axios.get(`https://api.are.na/v2/channels/vibes-wus2iiyauzg`)
+    return axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=1000`)
     .then((res) => {
       return { blocks: _.reverse(res.data.contents) }
     })

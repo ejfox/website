@@ -12,7 +12,7 @@
 
     <h2 class="mv4">Recent Bookmarks</h2>
 
-    <section v-for="block in blocks" :key="block.$.hash" class="sans-serif mb4 tl dib v-mid w-100 w-third-l pa3 pb0 lh-copy overflow-scroll f6 h4-l">
+    <section v-for="block in blocks" :key="block.$.hash" class="sans-serif mb4 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-copy overflow-scroll f6">
       <a :href="block.$.href">
         <span class="o-20">
           <i v-if="linkDomain(block.$.href) === 'youtube.com'" :class="['fab fa-youtube']" />
@@ -39,7 +39,9 @@
           <i v-else-if="block.$.tag.split(' ').indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span>
 
-        {{block.$.description}}
+        <span class="b">
+          {{block.$.description}}
+        </span>
 
         <small class="db ttu f8 o-20 mt1 code">
           {{block.$.tag}}
@@ -74,6 +76,8 @@ import * as URI from 'uri-js'
 const parseString = xml2js.parseString
 const stripPrefix = xml2js.processors.stripPrefix;
 
+const pinboardURI = 'https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=50'
+
 export default {
   components: {
   },
@@ -85,25 +89,31 @@ export default {
   created: function () {
   },
   mounted: function () {
+    axios.get(pinboardURI)
+    .then((res) => {
+      this.blocks = this.parseXML(res.data)
+    })
   },
   methods: {
     linkDomain: function(urlString) {
       let uri = URI.parse(urlString)
       return uri.domain
+    },
+    parseXML: function(xmlString) {
+      let parsedXMLContent
+      const parsedXML = parseString(res.data, { tagNameProcessors: [ stripPrefix ] }, (err, result) => {
+        const links = result.posts.post
+      })
+      return links
     }
   },
   asyncData ({ params }) {
-    return axios.get(`https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=50`)
+    return axios.get(pinboardURI)
     .then((res) => {
       let parsedXMLContent
       const parsedXML = parseString(res.data, { tagNameProcessors: [ stripPrefix ] }, (err, result) => {
-        // console.log('err', err)
-        // console.log('parsedXML', result)
-        // console.log('-----', err)
-        // console.log('result', result.posts)
         const links = result.posts.post
         parsedXMLContent = { blocks: links }
-        // parsedXMLContent = { blocks: [{test: 'hi'}], result }
       })
 
       return parsedXMLContent

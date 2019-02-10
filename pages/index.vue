@@ -75,14 +75,6 @@
     </section>
 
     <section class="center db ttu barlowcondensed ma5 f5 tc">
-      <nuxt-link to="/vibes" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
-        vibes &amp; inspiration
-      </nuxt-link>
-
-      <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
-        recent bookmarks
-      </nuxt-link>
-
       <a
         :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
         href="https://github.com/ejfox">
@@ -95,9 +87,22 @@
         Instagram
       </a>
 
+      <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
+        recent bookmarks
+      </nuxt-link>
+
+      <nuxt-link to="/vibes" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
+        vibes &amp; inspiration
+      </nuxt-link>
+
       <a
       :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
       href="https://calendly.com/ejfox/hangout/">calendar</a>
+
+    </section>
+
+    <section class="center f5 tc courier gray">
+      <p>PGP key: <a href="/keybase.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
     </section>
 
     <section class="tc ma4 o-50">
@@ -105,6 +110,7 @@
         <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </p>
     </section>
+
 
   </section>
 </template>

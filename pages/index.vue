@@ -31,7 +31,7 @@
     </section> -->
 
     <section id="allposts" class="category pv5 db cf">
-      <h2 class="fl db pr4 pb2 lh-title">Everything</h2>
+      <h2 class="fl db pr4 pb2 lh-title">All posts</h2>
       <ul class="db f5 list">
         <li v-for="post in posts" :key="post.date"
           :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
@@ -50,7 +50,7 @@
       </ul>
     </section>
 
-    <section class="category pv5 db cf">
+    <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>
       <ul class="fl w-two-thirds-ns db list">
         <li v-for="post in posts.filter(d => d.type === 'words').slice(0,3)" :key="post.date" class="pv2">
@@ -72,7 +72,7 @@
           </nuxt-link>
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="center db ttu barlowcondensed ma5 f5 tc">
       <a

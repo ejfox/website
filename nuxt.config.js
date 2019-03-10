@@ -64,6 +64,12 @@ module.exports = {
         path: '/vibes',
         component: resolve(__dirname, 'pages/vibes.vue')
       })
+
+      routes.push({
+        name: 'donate',
+        path: '/donate',
+        component: resolve(__dirname, 'pages/donate.vue')
+      })
     }
   },
   /*

@@ -58,7 +58,21 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 5em;
+  line-height: 0.9em;
+}
+
+h3 {
+  font-size: 3em;
+  line-height: 1em
+}
+
 #home-link {
+  font-family: "Knockout 68 A", "Knockout 68 B";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
   /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
 
 }

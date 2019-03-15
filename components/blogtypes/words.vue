@@ -137,7 +137,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped="true">
 a:link, a:hover {
   opacity: 1;
   color: black;

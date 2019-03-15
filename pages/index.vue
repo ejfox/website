@@ -1,5 +1,5 @@
 <template>
-  <section class="w-80 center db f3 cf">
+  <section class="w-80 center db f3 cf mb4">
 
     <section class="intro pt6 pb4 measure-narrow lh-copy center">
       <p class="pb4">
@@ -31,21 +31,20 @@
     </section> -->
 
     <section id="allposts" class="category pv5 db cf">
-      <h2 class="fl db pr4 pb2 lh-title">All posts</h2>
-      <ul class="db f5 list">
+      <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
+      <ul class="db f2 list">
         <li v-for="post in posts" :key="post.date"
-          :class="['pa2 mr1 dib barlowcondensed br1', post.bgcolorclass, post.textcolorclass]">
-          <span class="f7 tracked light-silver db di-ns ttu o-80">
-            {{ post.date | moment("YYYY-MM") }}
-            <!-- {{ post.type }} -->
-            <i :class="['fas', postTypeIcon(post.type)]" />
-          </span>
-          <nuxt-link :to="post._path" :class="['dim no-underline dark-gray', post.textcolorclass]">
+          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif-flyweight br1 no-underline', post.bgcolorclass, post.textcolorclass]">
+          <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray', post.textcolorclass]">
             <span class="b">
               {{ post.title }}
             </span>
-
           </nuxt-link>
+          <span class="f5 light-silver db di-ns ttu o-80 tracked">
+            <i :class="['fas', postTypeIcon(post.type)]" />
+            {{ post.date | moment("YYYY-MM") }}
+            <!-- {{ post.type }} -->
+          </span>
         </li>
       </ul>
     </section>
@@ -74,42 +73,42 @@
       </ul>
     </section> -->
 
-    <section class="center db ttu barlowcondensed ma5 f5 tc">
+    <section class="center db ttu barlowcondensed ma5 f2 tc">
       <a
-        :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
+        :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
         href="https://github.com/ejfox">
         GitHub
       </a>
 
       <a
-        :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
+        :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
         href="http://instagram.com/ejfoxphotos">
         Instagram
       </a>
 
-      <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
+      <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         recent bookmarks
       </nuxt-link>
 
-      <nuxt-link to="/vibes" :class="['db dib-ns link pa3 ba ma2 no-underline gray']">
+      <nuxt-link to="/vibes" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         vibes &amp; inspiration
       </nuxt-link>
 
       <a
-      :class="['db dib-ns link pa3 ba ma2 no-underline gray']"
+      :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
       href="https://calendly.com/ejfox/hangout/">calendar</a>
 
     </section>
 
-    <section class="center f5 tc courier gray">
-      <p>PGP key: <a href="/keybase.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
+    <section class="center f2 tc sans-serif ttu gray mv5 lh-copy">
+      <p>PGP: <a href="/keybase.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
     </section>
 
-    <section class="tc ma4 o-50">
+    <!-- <section class="tc ma4 o-50">
       <p>
         <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </p>
-    </section>
+    </section> -->
 
 
   </section>

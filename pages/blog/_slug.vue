@@ -1,7 +1,7 @@
 <template>
   <section id="post-container">
     <nuxt-link to="/" id="home-link"
-      :class="['pa3 db lh-solid tc']">
+      :class="['pa3 f3 db lh-solid tc']">
       EJFox.com
     </nuxt-link>
 
@@ -14,18 +14,18 @@
               type === 'photos' ? 'bg-near-black' : '',
               type === 'photos' && !textcolorclass ? 'white' : '']">
       <header >
-        <time v-if="!hidetimestamp"
-          :class="['f6 w-100 sans-serif mb2 pa3 pb0 db ttu tracked o-50']">
-          <small>{{ date | moment("MMMM Do, YYYY") }}</small>
-        </time>
-
         <div class="ph3 ph0-ns pv3-ns ph7-1">
-          <h1 :class="['f-headline-m f-headline-l lh-title mv1-ns w-60 w-100-ns']">
-            <span :class="['tracked-tight']">
+          <h1 :class="['f-headline lh-solid mv1-ns w-60 w-100-ns']">
+            <span :class="['']">
               {{ title }}
             </span>
           </h1>
         </div>
+
+        <time v-if="!hidetimestamp"
+          :class="['f5 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
+          <small class="pa3">{{ date | moment("MMMM Do, YYYY") }}</small>
+        </time>
       </header>
 
       <div id="body" :class="['notoserif pt3-ns', type !== 'photos' ? '' : 'ph7-1 f3-ns']">
@@ -100,6 +100,10 @@ export default {
     word-wrap: break-word;
     hyphens: auto;
   }
+}
+
+.f-headline {
+  font-size: 10em;
 }
 /*
 h2 {
@@ -196,6 +200,10 @@ article.photos img:first-child {
 
 img {
   max-width: 100%;
+}
+
+cite {
+
 }
 
 .embed-container {

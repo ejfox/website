@@ -32,5 +32,3 @@ $ npm run keybase
 # generate static project and publish everywhere
 $ npm run publish
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

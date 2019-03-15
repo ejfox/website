@@ -1,6 +1,17 @@
 <template>
   <div class="">
-    <nuxt/>
+    <nuxt-link to="/" id="home-link"
+      :class="['pa3 f3 db lh-solid tc link black underline bn']">
+      EJFox.com
+    </nuxt-link>
+
+    <transition
+      appear
+      mode="out-in"
+      enter-active-class="animated fadeIn"
+      leave-active-class="animated fadeOut">
+      <nuxt/>
+    </transition>
   </div>
 </template>
 
@@ -74,6 +85,10 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
   /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
+}
 
+.animated {
+  animation-duration: 0.2s;
+  /* transition-timing-function: cubic-bezier(0.870, 0.260, 0.425, 0.885); */
 }
 </style>

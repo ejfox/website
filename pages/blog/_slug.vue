@@ -1,9 +1,9 @@
 <template>
   <section id="post-container">
-    <nuxt-link to="/" id="home-link"
+    <!-- <nuxt-link to="/" id="home-link"
       :class="['pa3 f3 db lh-solid tc']">
       EJFox.com
-    </nuxt-link>
+    </nuxt-link> -->
 
     <article
     v-if="type !== 'audio'"

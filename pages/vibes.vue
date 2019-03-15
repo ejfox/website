@@ -11,7 +11,7 @@
     </section>
     <section v-for="block in blocks" :key="block.id" class="dib v-mid mw5 ma2">
       <a v-if="block.image"
-        :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-wus2iiyauzg'">
+        :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-y7fex45foi4'">
         <img :src="block.image.display.url" :alt="block.generated_title">
       </a>
     </section>
@@ -27,7 +27,7 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
-const channelSlug = 'vibes-wus2iiyauzg'
+const channelSlug = 'vibes-y7fex45foi4'
 
 export default {
   components: {
@@ -40,9 +40,8 @@ export default {
   created: function () {
   },
   mounted: function () {
-    axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=1000`)
+    axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=200`)
     .then((res) => {
-      console.log('setting blocks nowww', res.data.contents)
       this.blocks = _.reverse(res.data.contents)
     })
   },
@@ -51,7 +50,7 @@ export default {
   methods: {
   },
   asyncData ({ params }) {
-    return axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=1000`)
+    return axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=200`)
     .then((res) => {
       return { blocks: _.reverse(res.data.contents) }
     })

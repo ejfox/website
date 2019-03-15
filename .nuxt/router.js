@@ -5,9 +5,8 @@ Vue.use(Router)
 
 const _283ac100 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 const _3e3b97ab = () => import('../pages/vibes.vue' /* webpackChunkName: "pages/vibes" */).then(m => m.default || m)
-const _28df9114 = () => import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */).then(m => m.default || m)
-const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
 const _2bb8d1ab = () => import('../pages/bookmarks.vue' /* webpackChunkName: "pages/bookmarks" */).then(m => m.default || m)
+const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
 const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
 const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
 
@@ -56,19 +55,14 @@ export function createRouter () {
 			name: "vibes"
 		},
 		{
-			path: "/portfolio",
-			component: _28df9114,
-			name: "portfolio"
+			path: "/bookmarks",
+			component: _2bb8d1ab,
+			name: "bookmarks"
 		},
 		{
 			path: "/donate",
 			component: _358f3c9e,
 			name: "donate"
-		},
-		{
-			path: "/bookmarks",
-			component: _2bb8d1ab,
-			name: "bookmarks"
 		},
 		{
 			path: "/shop",

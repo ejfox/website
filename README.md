@@ -1,5 +1,6 @@
 # ejfox
 ## Personal website & blog for EJ Fox
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff495492-f06f-44e1-8986-fe4b47981237/deploy-status)](https://app.netlify.com/sites/ejfoxcom/deploys)
 
 Currently powered by:
 + Netlify for web hosting

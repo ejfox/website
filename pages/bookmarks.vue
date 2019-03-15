@@ -12,7 +12,7 @@
 
     <h2 class="mv4">Recent Bookmarks</h2>
 
-    <section v-for="block in blocks" :key="block.$.hash" class="sans-serif mb4 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-copy overflow-scroll f6">
+    <section v-for="block in blocks" :key="block.$.hash" class="sans-serif mb4 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-copy overflow-scroll f4">
       <a :href="block.$.href">
         <span class="o-20">
           <i v-if="linkDomain(block.$.href) === 'youtube.com'" :class="['fab fa-youtube']" />
@@ -39,19 +39,19 @@
           <i v-else-if="block.$.tag.split(' ').indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span>
 
-        <span class="b lh-title">
+        <span class="b lh-title ttu">
           {{block.$.description}}
         </span>
 
-        <small class="db ttu f8 o-20 mt1 code">
+        <small class="db ttu f8 o-20 mt1">
           {{block.$.tag}}
         </small>
 
-        <small v-if="!block.$.extended" class="db ttu f8 o-20 mt1 word-wrap">
+        <small v-if="!block.$.extended" class="db f8 o-20 word-wrap">
           {{block.$.href}}
         </small>
 
-        <div class="measure lh-copy">
+        <div class="measure f5 lh-copy bookmark-description">
           <small v-if="block.$.extended" class="bg-light-yellow i">{{block.$.extended}}</small>
         </div>
       </a>
@@ -154,5 +154,11 @@ img {
 
 .word-wrap {
   word-wrap: break-word;
+}
+
+.bookmark-description {
+  font-family: "Hoefler Text A", "Hoefler Text B";
+  font-style: normal;
+  font-weight: 700;
 }
 </style>

@@ -14,8 +14,8 @@
               type === 'photos' ? 'bg-near-black' : '',
               type === 'photos' && !textcolorclass ? 'white' : '']">
       <header >
-        <div class="ph3 ph0-ns pv3-ns ph7-1">
-          <h1 :class="['f-headline lh-solid mv1-ns w-60 w-100-ns']">
+        <div class="ph2 ph3-ns">
+          <h1 :class="['f-headline lh-solid mv1-ns']">
             <span :class="['']">
               {{ title }}
             </span>
@@ -103,8 +103,12 @@ export default {
 }
 
 .f-headline {
-  font-size: 10em;
+  @media (min-width: 640px) {
+    font-size: 12rem;
+  }
 }
+
+
 /*
 h2 {
   font-size: 2.75rem;
@@ -202,8 +206,12 @@ img {
   max-width: 100%;
 }
 
-cite {
-
+blockquote cite {
+  color: pink;
+  background-color: red;
+  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-style: normal !important;
+  font-weight: 400;
 }
 
 .embed-container {

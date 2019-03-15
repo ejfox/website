@@ -34,8 +34,8 @@
       <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
       <ul class="db f2 list">
         <li v-for="post in posts" :key="post.date"
-          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif-flyweight br1 no-underline', post.bgcolorclass, post.textcolorclass]">
-          <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray', post.textcolorclass]">
+          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif-flyweight br1 no-underline']">
+          <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
             <span class="b">
               {{ post.title }}
             </span>

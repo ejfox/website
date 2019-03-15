@@ -48,7 +48,9 @@ export default {
 
       $('h4').each(function(i, el){ $(el).addClass('ph2 mv2 tracked') })
 
-      $('blockquote').each(function(i, el){ $(el).addClass('mv3 f3-l ph2 ph4-ns lh-copy measure center') })
+      $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
+
+      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv3 f3-l ph2 ph4-ns lh-copy measure center') })
       $('blockquote > p').each(function(i, el){
         $(el).removeClass('lh-copy measure center pv3 ph3 ph0-m ph0-l')
         $(el).addClass('i b')

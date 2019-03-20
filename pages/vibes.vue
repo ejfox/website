@@ -1,11 +1,5 @@
 <template>
   <section class="center db f3 cf tc">
-    <section id="header">
-      <small class="db pa1">
-        <a href="https://ejfox.com">&lt;- ejfox.com</a>
-      </small>
-    </section>
-
     <section v-if="!blocks">
       <h2>Loading!</h2>
     </section>

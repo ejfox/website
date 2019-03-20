@@ -79,16 +79,32 @@ h3 {
   line-height: 1em
 }
 
+
+h4 {
+  font-size: 2.2em;
+  line-height: 1em;
+}
 #home-link {
   font-family: "Knockout 68 A", "Knockout 68 B";
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
+  outline: none;
+  border: 0 !important;
   /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
 }
 
 .animated {
-  animation-duration: 0.2s;
+  animation-duration: 0.3s;
   /* transition-timing-function: cubic-bezier(0.870, 0.260, 0.425, 0.885); */
+}
+
+pre, code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre {
+  overflow-x: auto;
 }
 </style>

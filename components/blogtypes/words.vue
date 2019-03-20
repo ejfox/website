@@ -10,6 +10,8 @@
 import cheerio from 'cheerio'
 import URL from 'url-parse'
 import _ from 'lodash'
+import marked from 'marked'
+
 
 export default {
   props: {
@@ -25,28 +27,50 @@ export default {
   },
   methods: {
     parseMarkdown: function(markdown) {
-      let parsedMarkdown = this.$md.render(markdown)
+      // let parsedMarkdown = this.$md.render(markdown)
+
+      const markdownRenderer = marked.setOptions({
+        renderer: new marked.Renderer(),
+        // highlight: function (code) {
+        //   return require('highlight.js').highlightAuto(code).value
+        // }
+        pedantic: false,
+        gfm: true,
+        tables: true,
+        breaks: false,
+        sanitize: false,
+        smartLists: true,
+        smartypants: true,
+        xhtml: true
+      })
+
+      let parsedMarkdown = markdownRenderer(markdown)
+
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){
-        $(el).addClass('lh-copy measure pv3 ph3 ph0-m ph0-l')
+        $(el).addClass('lh-copy measure pa3')
       })
 
       $('ul').each(function(i, el){
         $(el).addClass('measure pv1 pa2 pa4-ns pa0-m pa0-l')
       })
 
-      $('img').each(function(i, el){ $(el).addClass('center mv4 pa0') })
+      $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
+
+      $('pre').each(function(i, el){ $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns') })
+
+      $('code').each(function(i, el){ $(el).addClass('bg-dark-gray white br1 f6') })
 
       $('li').each(function(i, el){ $(el).addClass('mb2') })
 
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
 
-      $('h2').each(function(i, el){ $(el).addClass('ph2 mv4') })
+      $('h2').each(function(i, el){ $(el).addClass('ph3 mv2 dark-gray') })
 
-      $('h3').each(function(i, el){ $(el).addClass('ph2 mv3 tracked ttu') })
+      $('h3').each(function(i, el){ $(el).addClass('ph3 mv1 tracked ttu dark-gray') })
 
-      $('h4').each(function(i, el){ $(el).addClass('ph2 mv2 tracked') })
+      $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 dark-gray') })
 
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
 
@@ -140,16 +164,4 @@ export default {
 </script>
 
 <style scoped="true">
-a:link, a:hover {
-  opacity: 1;
-  color: black;
-  text-decoration: underline;
-  transition: 300ms all ease-out;
-}
-
-a:visited, a:focus {
-  color: #363636;
-  text-decoration: none;
-  opacity: 0.78;
-}
 </style>

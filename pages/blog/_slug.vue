@@ -7,7 +7,7 @@
 
     <article
     v-if="type !== 'audio'"
-    :class="['not-audio pa5-ns mb0',
+    :class="['not-audio mb0 pa3-ns',
               bgcolorclass,
               textcolorclass,
               type,
@@ -15,7 +15,7 @@
               type === 'photos' && !textcolorclass ? 'white' : '']">
       <header >
         <div class="ph2 ph3-ns">
-          <h1 :class="['f-headline lh-solid mv1-ns']">
+          <h1 :class="['f-headline lh-solid mv0 mv1-ns']">
             <span :class="['']">
               {{ title }}
             </span>
@@ -23,8 +23,8 @@
         </div>
 
         <time v-if="!hidetimestamp"
-          :class="['f5 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
-          <small class="pa3">{{ date | moment("MMMM Do, YYYY") }}</small>
+          :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
+          <small class="mv3 pa3-ns tc tl-ns w-100 db">{{ date | moment("MMMM Do, YYYY") }}</small>
         </time>
       </header>
 
@@ -43,7 +43,7 @@
               type === 'photos' && !textcolorclass ? 'white' : '',
               type === 'audio' && bgcolorclass ? 'article-pop mb3' : '']">
       <header >
-        <h1 :class="['lh-title mv1-ns dib-ns mr2', type === 'photos' ? 'tc center' : '']">
+        <h1 :class="['lh-title mv0 mv1-ns dib-ns mr2', type === 'photos' ? 'tc center' : '']">
             {{ title }}
         </h1>
         <time v-if="!hidetimestamp"
@@ -212,6 +212,19 @@ blockquote cite {
   font-family: "Knockout 66 A", "Knockout 66 B" !important;
   font-style: normal !important;
   font-weight: 400;
+}
+
+
+pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 100vw;
+  overflow: auto;
+}
+
+code {
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .embed-container {

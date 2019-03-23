@@ -12,6 +12,10 @@
       leave-active-class="animated fadeOut">
       <nuxt/>
     </transition>
+
+    <div class="tc mv2-ns">
+      🌞
+    </div>
   </div>
 </template>
 

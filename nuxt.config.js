@@ -34,7 +34,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'EJFox.com' },
-      { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript' }
+      { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

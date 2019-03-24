@@ -16,20 +16,20 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/markdownit": "^1.2.1",
+    "@nuxtjs/axios": "^5.4.1",
+    "@nuxtjs/markdownit": "^1.2.3",
     "cheerio": "^1.0.0-rc.2",
-    "cloudinary": "^1.11.0",
+    "cloudinary": "^1.13.2",
     "fs": "0.0.1-security",
-    "howler": "^2.0.12",
+    "howler": "^2.1.1",
     "libxmljs": "^0.19.5",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "marked": "^0.6.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.5",
     "stylus": "^0.54.5",
     "truncate": "^2.0.1",
     "uri-js": "^4.2.2",
-    "url-parse": "^1.4.0",
+    "url-parse": ">=1.4.3",
     "vue-howler": "^0.7.0",
     "vue-moment": "^3.2.0",
     "vue-stripe-elements-plus": "^0.2.9",
@@ -37,11 +37,11 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "glob": "^7.1.2"
+    "eslint-plugin-vue": "^4.7.1",
+    "glob": "^7.1.3"
   }
 }

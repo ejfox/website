@@ -54,15 +54,15 @@ export default {
       const $ = cheerio.load(parsedMarkdown)
 
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
-      $('ul').each(function(i, el){ $(el).addClass('measure pv1 pa2 pa4-ns pa0-m pa0-l') })
+      $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
       $('pre').each(function(i, el){ $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns') })
       $('code').each(function(i, el){ $(el).addClass('bg-dark-gray white br1 f6') })
       $('li').each(function(i, el){ $(el).addClass('mb2') })
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
       $('h2').each(function(i, el){ $(el).addClass('ph3 mv2 dark-gray') })
-      $('h3').each(function(i, el){ $(el).addClass('ph3 mv1 tracked ttu dark-gray') })
-      $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 dark-gray') })
+      $('h3').each(function(i, el){ $(el).addClass('ph3 mv0 ttu gray') })
+      $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 gray') })
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
       $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv3 f3-l ph2 ph4-ns lh-copy measure center') })
       $('blockquote > p').each(function(i, el){
@@ -134,4 +134,5 @@ export default {
 </script>
 
 <style scoped="true">
+
 </style>

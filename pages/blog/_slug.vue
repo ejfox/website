@@ -1,7 +1,7 @@
 <template>
   <section id="post-container">
 
-    <div v-if="inprogress"
+    <div v-if="inprogress === true"
       class="bg-dark-gray pa4 mv2 tc">
         <h2 class="ma0 pa2 ba br2">This post is in progress</h2>
         <p class="pt3">I would really appreciate your feedback!</p>

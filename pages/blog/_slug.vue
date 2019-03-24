@@ -1,5 +1,14 @@
 <template>
   <section id="post-container">
+
+    <div v-if="inprogress"
+      class="bg-dark-gray pa4 mv2 tc">
+        <h2 class="ma0 pa2 ba br2">This post is in progress</h2>
+        <p class="pt3">I would really appreciate your feedback!</p>
+        <p class="pa3">Get in touch...</p>
+        <h3 class="tracked"><a class="" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
+    </div>
+
     <!-- Article header -->
     <header class="ph3-ns">
       <div class="ph2 ph3-ns">

@@ -13,7 +13,7 @@
       <nuxt/>
     </transition>
 
-    <div class="tc mv2-ns">
+    <div class="tc mv2">
       🌞
     </div>
   </div>

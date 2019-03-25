@@ -1,0 +1,5 @@
+BTC=3DE42VUyUKSikQ9eUeFKv2EkKVms7Pmd1G
+BCH=qrwzlfjhhn8jdx92a8m8e2kuxcchmmvdgguqgy23a7
+ETH=0x63958715F8e9Fd6CF0652394a89bb2AdD0a11686
+LTC=MDvtqRMS6QiiXpYgxtgZKHPrYnLovjdcsZ
+XLM=ejfox*keybase.io

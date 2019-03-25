@@ -12,10 +12,10 @@
     <h2 class="mv5">OR</h2>
 
     <h3>Send directly to BTC address</h3>
-    <img src="coinbase-bitcoin.png" class="w-100 w-50-ns" alt="">
+    <img src="/coinbase-bitcoin.png" class="w-100 w-50-ns" alt="">
 
     <h3>Send directly to BCH address</h3>
-    <img src="coinbase-bitcoin-cash.png" class="w-100 w-50-ns" alt="">
+    <img src="/coinbase-bitcoin-cash.png" class="w-100 w-50-ns" alt="">
   </section>
 </template>
 

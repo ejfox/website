@@ -6,10 +6,10 @@
 
     <h2 class="mv4 moon-gray">Recent Bookmarks</h2>
 
-    <section v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb4 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
+    <section v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
       <a :href="block.u"
-        class="lh-title dark-gray link">
-        <div class="b ttu">
+        class="lh-title f3 dark-gray link">
+        <div class="b ttu lh-title ma0">
           {{block.d}}
         </div>
 
@@ -34,9 +34,12 @@
           <i v-else-if="block.t.indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span> -->
 
-        <small v-if="block.t.length > 1" v-for="tag in block.t" class="ttu f8 o-20 mv0 mr1">
-          {{tag}}
-        </small>
+        <div class="tags lh-copy ma0 pa0">
+          <small v-if="block.t.length > 1" v-for="tag in block.t" class="ttu f8 o-20 mv0 mr1 lh-title pa0">
+            {{tag}}
+          </small>
+        </div>
+
 
         <small v-if="!block.n" class="db f6 word-wrap moon-gray">
           {{block.u}}

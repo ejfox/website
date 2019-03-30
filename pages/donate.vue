@@ -3,7 +3,7 @@
 
     <div class="measure-ns center mv4">
       <p>Your support of <b>$1</b>, <b>$5</b>, or <b>$20</b> helps me have more time and resources to make cool shit.</p>
-      <!-- <p class="mt4">We all like more cool shit.</p> -->
+      <p class="mt4">Donations are used for hosting, servers, domain names, and costs directly related to the work I make.</p>
     </div>
 
     <div class="mb5">

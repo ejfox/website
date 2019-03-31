@@ -101,7 +101,7 @@
     </section>
 
     <section class="center f2 tc sans-serif ttu gray mv5 lh-copy">
-      <p>PGP: <a href="/keybase.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
+      <p>PGP: <a href="/pgp.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
     </section>
 
     <!-- <section class="tc ma4 o-50">

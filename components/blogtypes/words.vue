@@ -1,5 +1,13 @@
 <template>
-  <div class="words contentWrapper content" v-html="bodyHtml">
+  <div
+    v-if="bodyHtml"
+    class="words contentWrapper content" v-html="bodyHtml">
+  </div>
+
+  <div
+    v-if="!bodyHtml"
+    class="words contentWrapper content">
+    {{bodyMarkdown}}
   </div>
 </template>
 

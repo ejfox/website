@@ -77,21 +77,6 @@ export function createRouter () {
 			path: "/",
 			component: _283ac100,
 			name: "index"
-		},
-		{
-			path: "/shop",
-			component: _6a135938,
-			name: "shop"
-		},
-		{
-			path: "/vibes",
-			component: _3e3b97ab,
-			name: "vibes"
-		},
-		{
-			path: "/donate",
-			component: _358f3c9e,
-			name: "donate"
 		}
     ],
     

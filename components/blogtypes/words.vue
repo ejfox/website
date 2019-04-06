@@ -1,13 +1,15 @@
 <template>
-  <div
-    v-if="bodyHtml"
-    class="words contentWrapper content" v-html="bodyHtml">
-  </div>
+  <div class="">
+    <div
+      v-if="bodyHtml"
+      class="words contentWrapper content" v-html="bodyHtml">
+    </div>
 
-  <div
-    v-if="!bodyHtml"
-    class="words contentWrapper content">
-    {{bodyMarkdown}}
+    <div
+      v-if="!bodyHtml"
+      class="words contentWrapper content measure"
+      v-html="bodyMarkdown">
+    </div>
   </div>
 </template>
 
@@ -35,31 +37,14 @@ export default {
   computed: {
   },
   mounted: function () {
-    this.bodyHtml = this.parseMarkdown(this.bodyMarkdown)
+    const parsedMarkdown = this.parseMarkdown(this.bodyMarkdown)
+    this.bodyHtml = this.processMarkdownHtml(parsedMarkdown)
   },
   methods: {
-    parseMarkdown: function(markdown) {
-      // console.log('Parsing markdown...')
-      // Build markdown parser
-      const markdownRenderer = marked.setOptions({
-        renderer: new marked.Renderer(),
-        // highlight: function (code) {
-        //   return require('highlight.js').highlightAuto(code).value
-        // }
-        pedantic: false,
-        gfm: true,
-        tables: true,
-        breaks: false,
-        sanitize: false,
-        smartLists: true,
-        smartypants: true,
-        xhtml: true
-      })
-      let parsedMarkdown = markdownRenderer(markdown)
-
+    processMarkdownHtml: function(markdownHtml) {
       // Load parsed markdown into cheerio so we can do
       // jquery-style manipulations on the HTML
-      const $ = cheerio.load(parsedMarkdown)
+      const $ = cheerio.load(markdownHtml)
 
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
@@ -136,6 +121,25 @@ export default {
 
       // return parsed, sliced, and diced markdown
       return $.html()
+    },
+    parseMarkdown: function(markdown) {
+      // console.log('Parsing markdown...')
+      // Build markdown parser
+      const markdownRenderer = marked.setOptions({
+        renderer: new marked.Renderer(),
+        // highlight: function (code) {
+        //   return require('highlight.js').highlightAuto(code).value
+        // }
+        pedantic: false,
+        gfm: true,
+        tables: true,
+        breaks: false,
+        sanitize: false,
+        smartLists: true,
+        smartypants: true,
+        xhtml: true
+      })
+      return markdownRenderer(markdown)
     }
   }
 };

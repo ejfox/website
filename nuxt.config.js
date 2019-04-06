@@ -78,25 +78,25 @@ module.exports = {
 
       return { x: 0, y: 0 }
     },
-    extendRoutes (routes, resolve) {
-      routes.push({
-        name: 'shop',
-        path: '/shop',
-        component: resolve(__dirname, 'pages/shop.vue')
-      })
-
-      routes.push({
-        name: 'vibes',
-        path: '/vibes',
-        component: resolve(__dirname, 'pages/vibes.vue')
-      })
-
-      routes.push({
-        name: 'donate',
-        path: '/donate',
-        component: resolve(__dirname, 'pages/donate.vue')
-      })
-    }
+    // extendRoutes (routes, resolve) {
+    //   routes.push({
+    //     name: 'shop',
+    //     path: '/shop',
+    //     component: resolve(__dirname, 'pages/shop.vue')
+    //   })
+    //
+    //   routes.push({
+    //     name: 'vibes',
+    //     path: '/vibes',
+    //     component: resolve(__dirname, 'pages/vibes.vue')
+    //   })
+    //
+    //   routes.push({
+    //     name: 'donate',
+    //     path: '/donate',
+    //     component: resolve(__dirname, 'pages/donate.vue')
+    //   })
+    // }
   },
   /*
   ** Build configuration

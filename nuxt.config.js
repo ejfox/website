@@ -10,17 +10,14 @@ var dynamicRoutes = getDynamicPaths({
 
 module.exports = {
   modules: [
-    '@nuxtjs/markdownit',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/google-analytics'
   ],
   plugins: [
     '~/plugins/vue-moment.js'
   ],
-  markdownit: {
-    injected: true,
-    typographer: true,
-    html: true,
-    breaks: true,
+  googleAnalytics: {
+    id: 'UA-319549-1'
   },
   axios: {
     // proxyHeaders: false
@@ -33,7 +30,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'EJFox.com' },
+      { hid: 'description', name: 'description', content: '📧 ejfox@ejfox.com  📺 Interactive Graphics @ NBC News  💻 Hacker-journalist  🔑 PGP: https://ejfox.com/pgp.txt' },
       { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert' },
     ],
     link: [

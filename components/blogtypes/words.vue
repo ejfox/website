@@ -36,7 +36,7 @@ export default {
   },
   computed: {
   },
-  mounted: function () {
+  created: function () {
     const parsedMarkdown = this.parseMarkdown(this.bodyMarkdown)
     this.bodyHtml = this.processMarkdownHtml(parsedMarkdown)
   },

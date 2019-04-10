@@ -104,7 +104,7 @@ export default {
     if(!post.audio) { post.audio = null }
     return post;
   },
-  mounted: function () {
+  created: function () {
     this.bodyHtml = this.parseMarkdown(this.body)
     this.setEmojiIcon()
   },

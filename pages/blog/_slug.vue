@@ -34,7 +34,7 @@
               type === 'photos' ? 'bg-near-black' : '',
               type === 'photos' && !textcolorclass ? 'white' : '']">
 
-      <div id="body" :class="['pt3-ns', type !== 'photos' ? '' : 'ph7-1 f3-ns']">
+      <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns']">
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>

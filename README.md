@@ -10,6 +10,13 @@ Currently powered by:
 + Tachyons for layout and styling
 + Markdown for text formatting
 
+## Backups
+<http://ejfox.keybase.pub>
+
+## To do
++ Properly render Markdown to HTML and perform transformations on server side
++ Add way for people to submit anonymous feedback / tips
++ Add mechanism for automatically archiving linked URLs [a la Gwern](https://www.gwern.net/Archiving-URLs)
 
 ## Build Setup
 

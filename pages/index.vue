@@ -145,7 +145,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul { padding: 0;}
 /* li { list-style-type: none } */
 

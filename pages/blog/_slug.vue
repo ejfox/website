@@ -1,6 +1,6 @@
 <template>
-  <section id="post-container">
-
+<div class="slug-container cf">
+  <section id="post-container w-100 w-two-thirds-ns fl">
     <div v-if="inprogress === true"
       class="bg-dark-gray pa4 mv2 tc">
         <h2 class="ma0 pa2 ba br2">This post is in progress</h2>
@@ -10,7 +10,7 @@
     </div>
 
     <!-- Article header -->
-    <header class="ph3-ns">
+    <header class="ph3-ns w-100">
       <div class="ph2 ph3-ns">
         <h1 :class="['f-headline lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}
@@ -24,17 +24,21 @@
       </time>
     </header>
 
+    <ul class="w-100 w-third-ns fl list pa3 bb bt b--dark-gray bn-ns">
+      <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li>
+      <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
+      <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
+    </ul>
+
     <!-- Non-audio blog post types -->
     <article
     v-if="type !== 'audio'"
-    :class="['not-audio mb0 pa3-ns',
+    :class="['w-100 w-two-thirds-l fl not-audio mb0 pa1 pa3-ns',
               bgcolorclass,
               textcolorclass,
-              type,
-              type === 'photos' ? 'bg-near-black' : '',
-              type === 'photos' && !textcolorclass ? 'white' : '']">
+              type]">
 
-      <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns']">
+      <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>
@@ -54,6 +58,7 @@
       </div>
     </article>
   </section>
+</div>
 </template>
 
 <script>
@@ -102,6 +107,7 @@ export default {
     if(!post.bgcolorclass) { post.bgcolorclass = ''}
     if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }
+    if(!post.inprogress) { post.inprogress = null }
     return post;
   },
   created: function () {
@@ -155,7 +161,7 @@ export default {
 
 <style scoped>
 @media (max-width: 640px) {
-  h1 {
+  h1, h2, h3, h4, h5 {
     word-wrap: break-word;
     hyphens: auto;
   }
@@ -166,45 +172,6 @@ export default {
     font-size: 12rem;
   }
 }
-
-
-/*
-h2 {
-  font-size: 2.75rem;
-  line-height: 1.2em;
-}
-
-h3 {
-  font-size: 1.3rem;
-  line-height: 1.1em;
-}
-
-h3,h4,h5,h6 {
-  opacity: 0.75;
-}
-
-*/
-a:link, a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-a:visited, a:focus {
-  color: #363636;
-  text-decoration: none;
-}
-/*
-
-@media (max-width: 640px) {
-  article.not-audio {
-    border: 0 solid #f4f4f4;
-  }
-}
-@media (min-width: 641px) {
-  article.not-audio {
-    border: 0.5em solid #f4f4f4;
-  }
-} */
 
 article li
   list-style-type circle

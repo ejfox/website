@@ -73,7 +73,7 @@
       </ul>
     </section> -->
 
-    <section class="center db ttu barlowcondensed ma5 f2 tc">
+    <section class="center db ttu sans-serif ma5 f2 tc">
       <a
         :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
         href="https://github.com/ejfox">

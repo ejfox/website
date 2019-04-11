@@ -1,19 +1,19 @@
 var glob = require('glob');
 var path = require('path');
-var marked = require('marked')
+// var marked = require('marked')
 // import marked from 'marked'
 // Build markdown parser
-const markdownRenderer = marked.setOptions({
-  renderer: new marked.Renderer(),
-  pedantic: false,
-  gfm: true,
-  tables: false,
-  breaks: false,
-  sanitize: false,
-  smartLists: false,
-  smartypants: true,
-  xhtml: false
-})
+// const markdownRenderer = marked.setOptions({
+//   renderer: new marked.Renderer(),
+//   pedantic: false,
+//   gfm: true,
+//   tables: false,
+//   breaks: false,
+//   sanitize: false,
+//   smartLists: false,
+//   smartypants: true,
+//   xhtml: false
+// })
 
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
@@ -26,41 +26,41 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/feed'
+    // '@nuxtjs/feed'
   ],
   plugins: [
     '~/plugins/vue-moment.js'
   ],
-  feed: [
-    {
-      path: '/feed.xml',
-      async create(feed) {
-        feed.options = {
-          title: 'EJ Fox',
-          link: 'https://ejfox.com/feed.xml',
-          description: ''
-        }
-
-        dynamicRoutes.forEach(post => {
-          feed.addItem({
-            title: post.title,
-            id: post.url,
-            link: post.url,
-            description: post.description,
-            content: markdownRenderer(post.body),
-          })
-
-          feed.addContributor({
-            name: 'EJ Fox',
-            email: 'ejfox@ejfox.com',
-            link: 'https://ejfox.com'
-          })
-        })
-      },
-      cacheTime: 1000 * 60 * 15,
-      type: 'rss2'
-    }
-  ],
+  // feed: [
+  //   {
+  //     path: '/feed.xml',
+  //     async create(feed) {
+  //       feed.options = {
+  //         title: 'EJ Fox',
+  //         link: 'https://ejfox.com/feed.xml',
+  //         description: ''
+  //       }
+  //
+  //       dynamicRoutes.forEach(post => {
+  //         feed.addItem({
+  //           title: post.title,
+  //           id: post.url,
+  //           link: post.url,
+  //           description: post.description,
+  //           content: markdownRenderer(post.body),
+  //         })
+  //
+  //         feed.addContributor({
+  //           name: 'EJ Fox',
+  //           email: 'ejfox@ejfox.com',
+  //           link: 'https://ejfox.com'
+  //         })
+  //       })
+  //     },
+  //     cacheTime: 1000 * 60 * 15,
+  //     type: 'rss2'
+  //   }
+  // ],
   googleAnalytics: {
     id: 'UA-319549-1'
   },

@@ -40,7 +40,7 @@
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
         <ol
           v-if="toc.length > 0"
-          class="list pv3 ph1 ba b--dark-gray measure o-80">
+          class="list pv3 ph1 ba-ns b--dark-gray measure o-80">
           <li class="ph3-ns"
             v-for="(t, i) in toc">
             <!-- {{t.depth}}:  -->
@@ -96,7 +96,7 @@ export default {
     return {
       emojiIcon: '📓',
       bodyHtml: null,
-      toc: null
+      toc: []
     }
   },
   computed: {
@@ -198,7 +198,7 @@ export default {
 
 .f-headline {
   @media (min-width: 640px) {
-    font-size: 12rem;
+    font-size: 10rem;
   }
 }
 
@@ -233,11 +233,7 @@ img {
 }
 
 blockquote cite {
-  color: pink;
-  background-color: red;
   font-family: "Knockout 66 A", "Knockout 66 B" !important;
-  font-style: normal !important;
-  font-weight: 400;
 }
 
 pre {

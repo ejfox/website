@@ -64,15 +64,27 @@ export default {
       })
 
       // If we wanted to do something special for different links
-      // $('a').each(function(i, el){
-      //   let $link = $(this)
-      //   const linkSrc = $link.attr('href')
-      //   const url = new URL(linkSrc)
-      //
-      //   if (url.hostname === 'api.observablehq.com') {
-      //
-      //   }
-      // })
+      $('a').each(function(i, el){
+        let $link = $(this)
+        const linkSrc = $link.attr('href')
+        const url = new URL(linkSrc)
+        if (url.hostname === 'ejfox.com') {
+          $link.append('<small class="fas fa-angle-double-right"></small>')
+        }
+
+        if (url.hostname === 'en.wikipedia.org') {
+          $link.append(' <small class="fab fa-wikipedia-w"></small>')
+        }
+
+        if (url.hostname === 'github.com') {
+          $link.append(' <small class="fab fa-github"></small>')
+        }
+
+        if (url.hostname === 'twitter.com') {
+          $link.append(' <small class="fab fa-twitter"></small>')
+        }
+
+      })
 
       // Here we go through each image, which is just a link to the fullsize in the CMS
       // We build a responsive srcset and the right queries in the URL so it works well on mobile

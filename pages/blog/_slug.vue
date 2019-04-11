@@ -204,27 +204,6 @@ export default {
 
 article li
   list-style-type circle
-/*
-article {
-  padding: 2rem;
-  margin-top: 2rem;
-  max-width: 32rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-article.photos p {
-  max-width: 32rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-article.photos img {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-article.photos h1 {
-  text-align: center;
-} */
 
 article.photos h1 {
   text-align: center;
@@ -237,14 +216,6 @@ article.photos img {
 article.photos img:first-child {
   margin-top: 0;
 }
-
-/* article.audio {
-  border-radius: 4px;
-  border-top: 1px solid rgba(250,250,250,0.1);
-  border-bottom: 1px solid rgba(25,25,25,0.1);
-
-  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
-} */
 
 .article-pop {
   border-radius: 4px;
@@ -268,7 +239,6 @@ blockquote cite {
   font-style: normal !important;
   font-weight: 400;
 }
-
 
 pre {
   word-wrap: break-word;

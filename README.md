@@ -14,6 +14,7 @@ Currently powered by:
 <http://ejfox.keybase.pub>
 
 ## To do
++ Add status tags for posts ("notes", "draft", "in progress", "finished" )
 + Add way for people to submit anonymous feedback / tips
 + Add mechanism for automatically archiving linked URLs [a la Gwern](https://www.gwern.net/Archiving-URLs)
 

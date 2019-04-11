@@ -40,11 +40,17 @@
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
         <ol
           v-if="toc.length > 0"
-          class="list pv3 ph1 ba b--dark-gray measure">
-          <li class="ph3-ns link black underline"
-            v-for="t in toc">
+          class="list pv3 ph1 ba b--dark-gray measure o-80">
+          <li class="ph3-ns"
+            v-for="(t, i) in toc">
             <!-- {{t.depth}}:  -->
-            <a :href="t.slug">{{t.text}}</a>
+
+            <span class="gray mr2">
+              {{i+1}}
+            </span>
+            <a
+              class="link black underline"
+              :href="t.slug">{{t.text}}</a>
           </li>
         </ol>
 

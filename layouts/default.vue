@@ -41,6 +41,10 @@ html {
   box-sizing: border-box;
 }
 
+a:link,a:visited {
+  outline: none;
+}
+
 b, strong {
   font-family: "Hoefler Text A", "Hoefler Text B";
   font-style: normal;
@@ -50,23 +54,10 @@ b, strong {
 i, em {
   font-family: "Hoefler Text A", "Hoefler Text B";
   font-style: italic;
-  font-weight: 400;
-}
-
-.notoserif {
-  /* font-family: 'Noto Serif', 'Georgia', serif; */
-}
-
-.barlowcondensed {
-  /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
-  /* font-family: "Knockout 68 A", "Knockout 68 B", Courier; */
-  font-family: "Knockout 66 A", "Knockout 66 B";
-  font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 h1,h2,h3,h4,h5,h6 {
-  /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
   font-family: "Knockout 66 A", "Knockout 66 B";
   font-style: normal;
   font-weight: 400;
@@ -83,11 +74,11 @@ h3 {
   line-height: 1em
 }
 
-
 h4 {
   font-size: 2.2em;
   line-height: 1em;
 }
+
 #home-link {
   font-family: "Knockout 68 A", "Knockout 68 B";
   font-style: normal;
@@ -95,7 +86,6 @@ h4 {
   text-transform: uppercase;
   outline: none;
   border: 0 !important;
-  /* font-family: 'Barlow Condensed', -apple-system, sans-serif; */
 }
 
 .animated {

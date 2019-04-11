@@ -29,7 +29,6 @@
       <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
       <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
     </ul>
-
     <!-- Non-audio blog post types -->
     <article
     v-if="type !== 'audio'"
@@ -39,6 +38,16 @@
               type]">
 
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
+        <ol
+          v-if="toc.length > 0"
+          class="list pv3 ph1 ba b--dark-gray measure">
+          <li class="ph3-ns link black underline"
+            v-for="t in toc">
+            <!-- {{t.depth}}:  -->
+            <a :href="t.slug">{{t.text}}</a>
+          </li>
+        </ol>
+
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>
@@ -69,6 +78,7 @@ import _ from 'lodash'
 import marked from 'marked'
 import truncate from 'truncate'
 import cheerio from 'cheerio'
+import slug from 'slug'
 
 export default {
   scrollToTop: true,
@@ -79,7 +89,8 @@ export default {
   data: function () {
     return {
       emojiIcon: '📓',
-      bodyHtml: null
+      bodyHtml: null,
+      toc: null
     }
   },
   computed: {
@@ -113,8 +124,20 @@ export default {
   created: function () {
     this.bodyHtml = this.parseMarkdown(this.body)
     this.setEmojiIcon()
+    this.createTableOfContents()
   },
   methods: {
+    createTableOfContents () {
+      let tokens = marked.lexer(this.body)
+      tokens = _.filter(tokens, (t) => {
+        return t.type === 'heading' && t.depth < 3
+      })
+      tokens.map(t => {
+        t.slug = '#'+slug(t.text, {lower: true})
+        return t
+      })
+      this.toc = tokens
+    },
     createShortDescription () {
       let noHtmlBody = this.body
       noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')

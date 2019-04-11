@@ -101,4 +101,15 @@ pre, code {
 pre {
   overflow-x: auto;
 }
+
+.sans-serif {
+  font-family: "Knockout 68 A", "Knockout 68 B", "Helvetica Neue", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+}
+.sans-serif-flyweight {
+  font-family: "Knockout 66 A", "Knockout 66 B";
+  font-style: normal;
+  font-weight: 400;
+}
 </style>

@@ -57,9 +57,9 @@ export default {
       $('h3').each(function(i, el){ $(el).addClass('ph3 mv0 ttu gray') })
       $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 gray') })
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
-      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv3 f3-l ph2 ph4-ns lh-copy measure center') })
+      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv3 f3-l ph1 ph4-ns lh-copy measure center') })
       $('blockquote > p').each(function(i, el){
-        $(el).removeClass('lh-copy measure center pv3 ph3 ph0-m ph0-l')
+        $(el).removeClass('lh-copy measure center pv3 ph3-ns ph0-m ph0-l')
         $(el).addClass('i b')
       })
 
@@ -87,7 +87,7 @@ export default {
           // Generate SMALL image URL
           let urlS = new URL(imgSrc)
           let urlSPaths = urlS.pathname.split('/')
-          urlSPaths.splice(urlSPaths.length-2, 0, 'fl_progressive:semi,q_jpegmini,c_scale,dpr_auto,w_320')
+          urlSPaths.splice(urlSPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_320')
           urlS.pathname = urlSPaths.join('/')
           // Generate MEDIUM image URL
           let urlM = new URL(imgSrc)

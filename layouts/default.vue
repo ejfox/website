@@ -41,7 +41,7 @@ html {
   box-sizing: border-box;
 }
 
-a:link,a:visited {
+a:link,a:visited,a:active {
   outline: none;
 }
 

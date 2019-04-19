@@ -10,7 +10,7 @@
   <!-- <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:600|Noto+Serif:400,700,700i" rel="stylesheet"> -->
 </head>
 
-<body {{ BODY_ATTRS }} class="bg-near-white">
+<body {{ BODY_ATTRS }} class="bg-near-white serif">
   {{ APP }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,6 +36,10 @@
   }
 </script>
 <style media="screen">
+.serif {
+  font-family: "Hoefler Text A", "Hoefler Text B";
+  font-style: normal;
+}
 .sans-serif {
   font-family: "Knockout 68 A", "Knockout 68 B", "Helvetica Neue", sans-serif !important;
   font-style: normal;

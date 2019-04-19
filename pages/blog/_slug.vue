@@ -1,5 +1,11 @@
 <template>
 <div class="slug-container cf">
+  <ul class="w-100 fl list pa3 bb bt b--dark-gray bn-ns">
+    <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li>
+    <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
+    <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
+  </ul>
+
   <section id="post-container w-100 w-two-thirds-ns fl">
     <div v-if="inprogress === true"
       class="bg-dark-gray pa4 mv2 tc">
@@ -23,12 +29,6 @@
         <small class="mv3 pa3-ns tc tl-ns w-100 db">{{ date | moment("MMMM Do, YYYY") }}</small>
       </time>
     </header>
-
-    <ul class="w-100 w-third-ns fl list pa3 bb bt b--dark-gray bn-ns">
-      <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li>
-      <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
-      <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
-    </ul>
     <!-- Non-audio blog post types -->
     <article
     v-if="type !== 'audio'"
@@ -130,6 +130,9 @@ export default {
   created: function () {
     this.bodyHtml = this.parseMarkdown(this.body)
     this.setEmojiIcon()
+    this.createTableOfContents()
+  },
+  activated: function () {
     this.createTableOfContents()
   },
   methods: {

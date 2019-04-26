@@ -22,12 +22,10 @@
     <!-- <h2 class="mv5">OR</h2> -->
 
     <h3 class="mt5">Send directly to BTC address</h3>
-    <h4 class="courier ttn bg-dark-gray white f2 pa2 br2 break-word mv2">3DE42VUyUKSikQ9eUeFKv2EkKVms7Pmd1G</h4>
-    <img src="/coinbase-bitcoin.png" class="w-100 w-50-ns" alt="">
+    <h4 class="courier ttn bg-dark-gray white f2 pa2 br2 break-word mv2">1JGcqRPKn7eXq4VFBWNdSCXStsfDYrU8q2</h4>
 
     <h3 class="mt5">Send directly to BCH address</h3>
     <h4 class="courier ttn bg-dark-gray white f2 pa2 br2 break-word mv2">qrwzlfjhhn8jdx92a8m8e2kuxcchmmvdgguqgy23a7</h4>
-    <img src="/coinbase-bitcoin-cash.png" class="w-100 w-50-ns" alt="">
 
     <h3 class="mt5">ETH</h3>
     <h4 class="courier ttn bg-dark-gray white f2 pa2 br2 break-word mv2">0x63958715F8e9Fd6CF0652394a89bb2AdD0a11686</h4>

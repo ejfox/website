@@ -4,7 +4,7 @@
     <div class="measure-ns center mv4">
       <p>Your support of <b>$1</b>, <b>$5</b>, or <b>$20</b> helps me have more time and resources to make things.</p>
       <p class="mt4">Donations are used for costs directly related to the work I make (servers, domain names, subscriptions, databases, etc)</p>
-      <p>As an alternative, please consider a donation to my preferred charity <a href="https://archive.org/donate/cryptocurrency/">the Internet Archive</a>.</p>
+      <p class="mt4">As an alternative, please consider a donation to my preferred charity <a href="https://archive.org/donate/cryptocurrency/">the Internet Archive</a>.</p>
     </div>
 
     <div class="mb5">

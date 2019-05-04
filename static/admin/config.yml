@@ -40,5 +40,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Dek", name: "dek", widget: "string", required: false}
+      - {label: "BPM", name: "bpm", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Audio", name: "audio", widget: "string"}

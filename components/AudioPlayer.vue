@@ -19,7 +19,7 @@
     </div>
     <div
       :class="['controls', (duration === 0) ? 'loading-audio' : '']">
-      <a :class="['playpause-button f1 tc ph3 pa4 mb2 dib dark-gray w-100 br-pill ba bw3 b--black-80', playing ? 'bg-black' : 'bg-white']"
+      <a :class="['playpause-button f1 tc ph3 pa4 mb2 dib dark-gray w-100 br-pill ba bw3 b--gray', playing ? 'bg-black' : 'bg-white']"
       :style="[{color: playing ? 'white !important' : 'black !important'}]"
       @click="togglePlayback">
         <!-- {{ playing ? 'Pause' : 'Play' }} -->
@@ -47,7 +47,7 @@ import VueHowler from 'vue-howler'
 export default {
   props: {
     fileUrl: { type: String, default: null },
-    bg: {type: String, default: 'bg-gray'}
+    bg: {type: String, default: 'bg-light-gray'}
   },
   data: function () {
     return {

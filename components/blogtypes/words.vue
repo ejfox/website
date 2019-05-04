@@ -69,6 +69,7 @@ export default {
         const linkSrc = $link.attr('href')
         const url = new URL(linkSrc)
         if (url.hostname === 'ejfox.com') {
+          $link.addClass('no-underline')
           $link.append('<small class="fas fa-angle-double-right"></small>')
         }
 

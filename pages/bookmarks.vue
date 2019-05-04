@@ -45,8 +45,8 @@
           {{block.u}}
         </small>
 
-        <div class="measure f5 lh-copy bookmark-description">
-          <small v-if="block.n" class="bg-light-yellow i">{{block.n}}</small>
+        <div class="measure f5 lh-copy bookmark-description mt2">
+          <small v-if="block.n" class="i" v-html="parseMarkdown(block.n)" />
         </div>
       </a>
     </section>
@@ -71,6 +71,7 @@ import axios from 'axios'
 import _ from 'lodash'
 import xml2js from 'xml2js'
 import * as URI from 'uri-js'
+import marked from 'marked'
 const parseString = xml2js.parseString
 const stripPrefix = xml2js.processors.stripPrefix;
 
@@ -104,6 +105,22 @@ export default {
         const links = result.posts.post
       })
       return links
+    },
+    parseMarkdown: function(markdown) {
+      // console.log('Parsing markdown...')
+      // Build markdown parser
+      const markdownRenderer = marked.setOptions({
+        renderer: new marked.Renderer(),
+        pedantic: false,
+        gfm: true,
+        tables: false,
+        breaks: false,
+        sanitize: true,
+        smartLists: true,
+        smartypants: true,
+        xhtml: true
+      })
+      return markdownRenderer(markdown)
     }
   },
   asyncData ({ params }) {
@@ -149,5 +166,15 @@ img {
   font-family: "Hoefler Text A", "Hoefler Text B";
   font-style: normal;
   font-weight: 700;
+}
+
+.bookmark-description p {
+  display: inline-block;
+  /* border-top: #fbf1a9; */
+}
+
+.bookmark-description code {
+  background-color: black;
+  color: white;
 }
 </style>

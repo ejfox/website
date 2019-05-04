@@ -142,7 +142,7 @@ export default {
         return t.type === 'heading' && t.depth < 3
       })
       tokens.map(t => {
-        t.slug = '#'+slug(t.text, {lower: true})
+        t.slug = '#'+slug(t.text, {lower: true, symbols: false})
         return t
       })
       this.toc = tokens

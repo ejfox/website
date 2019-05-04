@@ -33,11 +33,12 @@ collections:
     label: "Audio" # Used in the UI
     folder: "content/audio/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     format: 'json'
     card: {type: "alltype", text: "title"}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Dek", name: "dek", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Audio", name: "audio", widget: "string"}

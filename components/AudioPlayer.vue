@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="f3 f6 mb2 dib ttu tracked o-40 barlowcondensed">
+    <div class="f3 mv2 dib ttu tracked sans-serif">
       <div class="" v-if="duration === 0">
         Loading...
       </div>
@@ -12,9 +12,6 @@
       </div>
     </div>
 
-    <div class="f3 f6 mb2 ml2 dib ttu tracked o-20 barlowcondensed">
-      <a id="download-link" :href="url" target="_blank">Download</a>
-    </div>
 
     <!-- <div class="f3 pv3">Progress: {{ (progress * 100) }}%</div> -->
     <div :class="['progress-bar', bg]"
@@ -29,6 +26,10 @@
         <i
         :class="['fas', playing ? 'fa-pause' : 'fa-play']"></i>
       </a>
+
+      <a class="f2 db mv2 sans-serif ttu"
+        v-if="duration !== 0"
+        id="download-link" :href="url" target="_blank">Download</a>
 
       <canvas id="canvas-viz" v-show="playing">
 
@@ -102,7 +103,7 @@ export default {
 
       for(var i = 0; i < bufferLength; i++) {
         var v = dataArray[i] / 128.0;
-        var y = v * canvas.height/1.4;
+        var y = v * canvas.height/3.3;
 
         if(i === 0) {
           ctx.moveTo(x, y);
@@ -112,7 +113,7 @@ export default {
 
         x += sliceWidth;
       }
-      ctx.lineTo(canvas.width, canvas.height/1.4);
+      ctx.lineTo(canvas.width, canvas.height/3.3);
       ctx.stroke();
     }
 

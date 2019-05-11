@@ -94,9 +94,15 @@
         vibes &amp; inspiration
       </nuxt-link>
 
+      <nuxt-link to="/books" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
+        books
+      </nuxt-link>
+
       <a
       :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
-      href="https://calendly.com/ejfox/hangout/">calendar</a>
+      href="https://calendly.com/ejfox/hangout/">
+        calendar
+      </a>
 
     </section>
 

@@ -18,6 +18,12 @@ Currently powered by:
 + Add way for people to submit anonymous feedback / tips
 + Add mechanism for automatically archiving linked URLs [a la Gwern](https://www.gwern.net/Archiving-URLs)
 
+### Books
++ Go to [this page](https://www.goodreads.com/review/import) and click "Export Library"
++ Wait for library in email
++ Copy the goodreads CSV to the data folder
++ Run `> npx csvtojson static/data/goodreads_library_export.csv > static/data/goodreads_library_export.json` to convert the CSV into json
+
 ## Build Setup
 
 ``` bash
@@ -39,4 +45,7 @@ $ npm run keybase
 
 # generate static project and publish everywhere
 $ npm run publish
+
+# convert goodreads csv into json
+$ npx csvtojson static/data/goodreads_library_export.csv > static/data/goodreads_library_export.json
 ```

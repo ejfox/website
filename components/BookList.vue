@@ -16,7 +16,7 @@
         {{book.Author}}
       </span>
 
-      <span class="" itemprop="ratingValue"
+      <span class="gray" itemprop="ratingValue"
         :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')">
         {{ratingToStars(book['My Rating'])}}
       </span>

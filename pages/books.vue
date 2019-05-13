@@ -33,6 +33,11 @@
       <BookList :books="toReadLibrary" />
     </section>
 
+    <section id="footer">
+      <small class="db tc">
+        Powered by <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads</a>
+      </small>
+    </section>
 
   </section>
 </template>
@@ -87,5 +92,8 @@ export default {
     padding-top: 5px;
   }
 }
-
+#footer {
+  font-size: 14px;
+  font-family: Courier, 'Courier New', monospace;
+}
 </style>

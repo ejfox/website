@@ -19,10 +19,15 @@ Currently powered by:
 + Add mechanism for automatically archiving linked URLs [a la Gwern](https://www.gwern.net/Archiving-URLs)
 
 ### Books
+
+To get book library for goodreads to the books page:
 + Go to [this page](https://www.goodreads.com/review/import) and click "Export Library"
 + Wait for library in email
 + Copy the goodreads CSV to the data folder
 + Run `> npx csvtojson static/data/goodreads_library_export.csv > static/data/goodreads_library_export.json` to convert the CSV into json
+
+To scrape [highlights](https://www.goodreads.com/notes/9273959-ej-fox):
++ `> scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json`
 
 ## Build Setup
 

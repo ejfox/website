@@ -1,10 +1,13 @@
 <template>
   <section class="center db cf pa3 pa4-l">
-    <h2 class="mb2 dark-gray">Currently reading</h2>
-    <BookList :books="currentReadingLibrary" />
+    <section
+      class="mv4 pa4 pb0 b--gray ba measure center">
+      <h2 class="mb2 dark-gray tc lh-title">Currently reading</h2>
+      <BookList :books="currentReadingLibrary" />
+    </section>
 
     <h2 class="mb2 dark-gray">Books read</h2>
-    <section class="mv3 measure">
+    <section class="mv3 measure dark-gray">
       <p class="mv2">I use the goodreads scale for stars.</p>
       <ul>
         <li>★ did not like it</li>
@@ -24,6 +27,37 @@
     <section class="gray">
       <BookList :books="notFinishedLibrary" />
     </section> -->
+
+    <section class="measure">
+      <h2 class="mv4 dark-gray">Book highlights</h2>
+      <section
+        v-for="book in highlights">
+        <h3
+          class="mt2 pv2 bt b--dark-gray"
+          :id="book.slug">
+            <a :href="'#'+book.slug"
+              class="link black">
+              {{book.title}}
+            </a>
+
+          </h3>
+        <h4 class="gray">{{book.author}}</h4>
+        <section
+          v-for="(highlight, i) in book.highlights"
+          class="mv4"
+          :id="book.slug+'-'+i">
+          <a
+            class="gray db link sans-serif"
+            :href="'/books/#' + book.slug + '-' + i">
+            #{{i+1}}
+          </a>
+          <span
+            class="bg-light-yellow">
+            {{highlight}}
+          </span>
+        </section>
+      </section>
+    </section>
 
     <h2 class="mb2 dark-gray">Want to read</h2>
     <section class="mv3 measure">
@@ -45,6 +79,7 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
+import slug from 'slug'
 import BookList from '~/components/BookList.vue';
 
 export default {
@@ -75,10 +110,22 @@ export default {
 
   },
   methods: {
+    bookTitleSlug: function (bookTitleString) {
+      return slug(bookTitleString, {lower: true, symbols: false})
+    }
   },
   async asyncData ({ params }) {
     let library = await import('~/static/data/goodreads_library_export.json');
-    return { library: library }
+    let highlights = await import('~/static/data/book_highlights.json');
+
+    highlights.map(b => {
+        b.slug = slug(b.title, {lower: true, symbols: false})
+    })
+
+    library.map(b => {
+        b.slug = slug(b.Title, {lower: true, symbols: false})
+    })
+    return { library, highlights }
   }
 };
 </script>

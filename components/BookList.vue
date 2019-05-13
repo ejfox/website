@@ -6,11 +6,12 @@
       itemscope
       itemtype="http://schema.org/Book"
       class="book db mb3 mb4-l pv1">
-      <span class="i b f4-ns lh-title"
+      <a class="i b f4-ns link black"
         itemprop="name"
+        :href="'#'+book.slug"
         :title="book['Number of Pages']+' pages, Avg goodreads rating: '+ratingToStars(book['Average Rating'])">
         {{book.Title}}
-      </span>
+      </a>
 
       <span class="ph2" itemprop="author">
         {{book.Author}}

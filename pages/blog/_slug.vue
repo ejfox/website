@@ -95,8 +95,7 @@ export default {
   data: function () {
     return {
       emojiIcon: '📓',
-      bodyHtml: null,
-      toc: []
+      bodyHtml: null
     }
   },
   computed: {
@@ -125,28 +124,27 @@ export default {
     if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }
     if(!post.inprogress) { post.inprogress = null }
+
+    let toc = marked.lexer(post.body)
+    // console.log(post.body, toc)
+    toc = _.filter(toc, (t) => {
+      return t.type === 'heading' && t.depth < 3
+    })
+    toc.map(t => {
+      t.slug = '#'+slug(t.text, {lower: true, symbols: false})
+      return t
+    })
+
+    post.toc = toc
     return post;
   },
   created: function () {
     this.bodyHtml = this.parseMarkdown(this.body)
     this.setEmojiIcon()
-    this.createTableOfContents()
   },
   activated: function () {
-    this.createTableOfContents()
   },
   methods: {
-    createTableOfContents () {
-      let tokens = marked.lexer(this.body)
-      tokens = _.filter(tokens, (t) => {
-        return t.type === 'heading' && t.depth < 3
-      })
-      tokens.map(t => {
-        t.slug = '#'+slug(t.text, {lower: true, symbols: false})
-        return t
-      })
-      this.toc = tokens
-    },
     createShortDescription () {
       let noHtmlBody = this.body
       noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')

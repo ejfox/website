@@ -48,4 +48,7 @@ $ npm run publish
 
 # convert goodreads csv into json
 $ npx csvtojson static/data/goodreads_library_export.csv > static/data/goodreads_library_export.json
+
+# convert projects csv into json
+$ npx csvtojson static/data/projects.csv > static/data/projects.json
 ```

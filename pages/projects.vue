@@ -1,12 +1,13 @@
 <template>
-  <div class="center db cf pa3 pa4-l">
+  <div class="center db cf w-100 w-two-thirds-l pa3 pa4-l">
     <section
-      class="project mv3"
+      class="project mv3 ph2"
       v-for="project in projects">
       <a
-        class="b lh-title"
+        :title="project.Year + ' for ' + project.Client"
+        class="b lh-title link black underline br1"
         :href="project.URL">{{project['Project Name']}}</a>
-      <small class="ph2 dark-gray">{{project['Client']}}</small>
+      <small class="ph2 dark-gray tr">{{project['Client']}}</small>
     </section>
   </div>
 </template>
@@ -47,5 +48,10 @@ export default {
     padding-top: 5px;
   }
 }
+
+.project:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+
 
 </style>

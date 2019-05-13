@@ -41,8 +41,8 @@ html {
   box-sizing: border-box;
 }
 
-a:link,a:visited,a:active {
-  outline: none;
+a,a:link,a:visited,a:active {
+  outline: 0;
 }
 
 b, strong {

@@ -7,7 +7,10 @@
       </p>
 
       <p>
-        <a class="" href="http://portfolio.ejfox.com">Take a look at some of my work</a> or <a href="/resume.pdf">my resume</a>
+        <nuxt-link to="/projects">
+          Take a look at some of my work
+        </nuxt-link>
+         or <a href="/resume.pdf">my resume</a>
       </p>
     </section>
 

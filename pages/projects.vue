@@ -6,8 +6,15 @@
       <a
         :title="project.Year + ' for ' + project.Client"
         class="b lh-title link black underline br1"
-        :href="project.URL">{{project['Project Name']}}</a>
-      <small class="ph2 dark-gray tr">{{project['Client']}}</small>
+        :href="project.URL">{{project['Project Name']}}
+      </a>
+      <small class="ph2 dark-gray tr">
+        {{project['Client']}}
+        <span class="gray">
+          <!-- '{{project.Year.slice(-2)}} -->
+          {{project.Year}}
+        </span>
+      </small>
     </section>
   </div>
 </template>

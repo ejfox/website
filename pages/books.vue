@@ -1,5 +1,10 @@
 <template>
   <section class="center db cf pa3 pa4-l">
+
+    <section id="nav" class="w-100 db cf">
+
+    </section>
+
     <section
       class="mv4 pa4 pb0 b--gray ba measure center">
       <h2 class="mb2 dark-gray tc lh-title">Currently reading</h2>
@@ -44,12 +49,15 @@
         <h4 class="gray">{{book.author}}</h4>
         <section
           v-for="(highlight, i) in book.highlights"
-          class="mv4"
+          class="mv4 book-highlights"
           :id="book.slug+'-'+i">
           <a
             class="gray db link sans-serif"
             :href="'/books/#' + book.slug + '-' + i">
             #{{i+1}}
+            <span class="book-attribution moon-gray ml1">
+              {{book.title}} by {{book.author}}
+            </span>
           </a>
           <span
             class="bg-light-yellow">
@@ -80,14 +88,33 @@
 import axios from 'axios'
 import _ from 'lodash'
 import slug from 'slug'
-import BookList from '~/components/BookList.vue';
+import BookList from '~/components/BookList.vue'
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    BookList
+    BookList,
+    Nav
   },
   data() {
     return {
+      title: '📕 Books & Highlights | EJ Fox',
+      description: 'A collection of books I\'ve read, ratings, and excerpts.'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [{
+        'name': 'EJ Fox | ' + this.title,
+        'description': this.description,
+        'og:description': this.description,
+        'og:title': this.title,
+        'og:type': 'article',
+        'twitter:title': this.title,
+        'twitter:creator': 'mrejfox',
+        'twitter:description': '📖 ' + this.description
+      }]
     }
   },
   created: function () {
@@ -142,5 +169,22 @@ export default {
 #footer {
   font-size: 14px;
   font-family: Courier, 'Courier New', monospace;
+}
+
+.book-attribution {
+  opacity: 0;
+  transition: all 0.25s ease-out;
+  cursor: default;
+}
+
+.book-highlights:hover .book-attribution {
+  opacity: 1;
+}
+
+#nav {
+  text-align: center;
+}
+#nav li {
+  display: inline-block;
 }
 </style>

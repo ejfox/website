@@ -5,6 +5,8 @@
       EJFox.com
     </nuxt-link>
 
+    <Nav />
+
     <transition
       appear
       mode="out-in"
@@ -18,6 +20,14 @@
     </div>
   </div>
 </template>
+<script>
+import Nav from '~/components/Nav.vue';
+export default {
+  components: {
+    Nav
+  }
+}
+</script>
 
 <style>
 *, *:before, *:after {
@@ -44,6 +54,12 @@ html {
 a,a:link,a:visited,a:active {
   outline: 0;
 }
+/* a:link {
+  color: #00449E;
+}
+a:visited {
+  color: #5E2CA5;
+} */
 
 b, strong {
   font-family: "Hoefler Text A", "Hoefler Text B";
@@ -89,7 +105,7 @@ h4 {
 }
 
 .animated {
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
   /* transition-timing-function: cubic-bezier(0.870, 0.260, 0.425, 0.885); */
 }
 

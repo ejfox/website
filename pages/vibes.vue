@@ -4,6 +4,8 @@
       <h2>Loading!</h2>
     </section>
 
+
+
     <transition-group
       appear
       mode="out-in"
@@ -28,14 +30,18 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
+import Nav from '~/components/Nav.vue'
 const channelSlug = 'vibes-y7fex45foi4'
 
 export default {
   components: {
+    Nav
   },
   data() {
     return {
-      blocks: []
+      blocks: [],
+      title: '🌞 Vibes',
+      shortDescription: ''
     }
   },
   created: function () {
@@ -49,6 +55,21 @@ export default {
   activated: function () {
   },
   methods: {
+  },
+  head () {
+    return {
+      title: this.title + ' | EJ Fox',
+      meta: [{
+        'name': 'EJ Fox | ' + this.title,
+        'description': this.shortDescription,
+        'og:description': this.shortDescription,
+        'og:title': 'EJ Fox | ' + this.title,
+        'og:type': 'article',
+        'twitter:title': 'EJ Fox | ' + this.title,
+        'twitter:creator': 'mrejfox',
+        'twitter:description': this.shortDescription
+      }]
+    }
   },
   asyncData ({ params }) {
     return axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=200`)

@@ -1,10 +1,6 @@
 <template>
 <div class="slug-container cf">
-  <ul class="w-100 fl list pa3 bb bt b--dark-gray bn-ns">
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li>
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
-  </ul>
+
 
   <section id="post-container w-100 w-two-thirds-ns fl">
     <div v-if="inprogress === true"
@@ -79,6 +75,7 @@
 <script>
 import AudioPlayer from '~/components/AudioPlayer.vue';
 import Words from '~/components/blogtypes/words.vue'
+import Nav from '~/components/Nav.vue';
 import URL from 'url-parse'
 import _ from 'lodash'
 import marked from 'marked'
@@ -90,7 +87,8 @@ export default {
   scrollToTop: true,
   components: {
     AudioPlayer,
-    Words
+    Words,
+    Nav
   },
   data: function () {
     return {
@@ -99,22 +97,19 @@ export default {
     }
   },
   computed: {
-    shortDescription: function () {
-      return this.createShortDescription()
-    }
   },
   head () {
     return {
       title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
       meta: [{
         'name': 'EJ Fox | ' + this.title,
-        'description': this.createShortDescription(),
-        'og:description': this.createShortDescription(),
-        'og:title': this.title,
+        'description': this.shortDescription,
+        'og:description': this.shortDescription,
+        'og:title': 'EJ Fox | ' + this.title,
         'og:type': 'article',
-        'twitter:title': this.title,
+        'twitter:title': 'EJ Fox | ' + this.title,
         'twitter:creator': 'mrejfox',
-        'twitter:description': this.emojiIcon + ' ' + this.createShortDescription()
+        'twitter:description': this.emojiIcon + ' ' + this.shortDescription
       }]
     }
   },
@@ -134,8 +129,11 @@ export default {
       t.slug = '#'+slug(t.text, {lower: true, symbols: false})
       return t
     })
-
     post.toc = toc
+
+    let noHtmlBody = post.body
+    noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
+    post.shortDescription = truncate(noHtmlBody, 120)
     return post;
   },
   created: function () {
@@ -145,11 +143,6 @@ export default {
   activated: function () {
   },
   methods: {
-    createShortDescription () {
-      let noHtmlBody = this.body
-      noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
-      return truncate(noHtmlBody, 100)
-    },
     setEmojiIcon () {
       if (this.type === 'photos') {
         this.emojiIcon = '📷'

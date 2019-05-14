@@ -4,12 +4,16 @@
       <h2>Loading!</h2>
     </section>
 
+    <section class="f4 lh-copy tl">
+
+    </section>
+
     <h2 class="mv4 moon-gray">Recent Bookmarks</h2>
 
     <section v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
       <a :href="block.u"
         class="lh-title f3 dark-gray link">
-        <div class="b ttu lh-title ma0">
+        <div class="b ttu lh-title ma0 dark-gray">
           {{block.d}}
         </div>
 
@@ -34,19 +38,18 @@
           <i v-else-if="block.t.indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span> -->
 
-        <div class="tags lh-copy ma0 pa0">
-          <small v-if="block.t.length > 1" v-for="tag in block.t" class="ttu f8 o-20 mv0 mr1 lh-title pa0">
-            {{tag}}
-          </small>
-        </div>
-
-
-        <small v-if="!block.n" class="db f6 word-wrap moon-gray">
+        <small v-if="!block.n" class="db f6 word-wrap moon-gray mv2">
           {{block.u}}
         </small>
 
-        <div class="measure f5 lh-copy bookmark-description mt2">
+        <div class="measure f5 lh-copy bookmark-description ma0 mt2">
           <small v-if="block.n" class="i" v-html="parseMarkdown(block.n)" />
+        </div>
+
+        <div class="tags lh-solid ma0 pa0">
+          <small v-if="block.t.length > 1" v-for="tag in block.t" class="ttu f8 o-20 mv0 mr1 lh-title pa0">
+            {{tag}}
+          </small>
         </div>
       </a>
     </section>
@@ -72,6 +75,7 @@ import _ from 'lodash'
 import xml2js from 'xml2js'
 import * as URI from 'uri-js'
 import marked from 'marked'
+import Nav from '~/components/Nav.vue';
 const parseString = xml2js.parseString
 const stripPrefix = xml2js.processors.stripPrefix;
 
@@ -80,6 +84,7 @@ const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
 
 export default {
   components: {
+    Nav
   },
   data() {
     return {
@@ -174,6 +179,9 @@ img {
 }
 
 .bookmark-description code {
+  font-size: 14px;
+  font-family: 'Inconsolata', Courier, monospace;
+  line-height: 1.1 !important;
   background-color: black;
   color: white;
 }

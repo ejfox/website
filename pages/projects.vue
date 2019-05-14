@@ -1,7 +1,7 @@
 <template>
-  <div class="center db cf w-100 w-two-thirds-l pa3 pa4-l">
+  <div class="center db cf w-100 w-two-thirds-l">
     <section
-      class="project mv3 ph2"
+      class="project mv2 ph3"
       v-for="project in projects">
       <a
         :title="project.Year + ' for ' + project.Client"
@@ -22,9 +22,10 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
-
+import Nav from '~/components/Nav.vue'
 export default {
   components: {
+    Nav
   },
   data() {
     return {

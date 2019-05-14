@@ -86,7 +86,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#CCCCCC' },
+  loading: { color: '#6f6f6f' },
   /*
   ** Route config for pre-rendering
   */

@@ -1,6 +1,8 @@
 <template>
   <section class="w-80 center db f3 cf mb4">
 
+
+
     <section class="intro pv2 pv5-ns measure-narrow lh-copy center">
       <p class="pb4">
         Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist working at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
@@ -124,8 +126,11 @@
 </template>
 
 <script>
+import Nav from '~/components/Nav.vue';
+
 export default {
   components: {
+    Nav
   },
   methods: {
     postTypeIcon: function (postType) {

@@ -10,12 +10,12 @@
 
     <h2 class="mv4 moon-gray">Recent Bookmarks</h2>
 
-    <section v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
+    <li v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
       <a :href="block.u"
         class="lh-title f3 dark-gray link">
-        <div class="b ttu lh-title ma0 dark-gray">
+        <h3 class="b ttu lh-title ma0 dark-gray">
           {{block.d}}
-        </div>
+        </h3>
 
         <!-- <span class="o-20">
           <i v-if="linkDomain(block.u) === 'youtube.com'" :class="['fab fa-youtube']" />
@@ -37,7 +37,8 @@
           <i v-else-if="block.t.indexOf('reference') > 0" :class="['fas fa-book']" />
           <i v-else-if="block.t.indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span> -->
-
+        
+        <!-- If there isn't a description, show URL -->
         <small v-if="!block.n" class="db f6 word-wrap moon-gray mv2">
           {{block.u}}
         </small>
@@ -52,7 +53,7 @@
           </small>
         </div>
       </a>
-    </section>
+    </li>
 
     <h2 class="mv4">
       <a href="https://pinboard.in/u:ejfox/">
@@ -181,8 +182,11 @@ img {
 .bookmark-description code {
   font-size: 14px;
   font-family: 'Inconsolata', Courier, monospace;
-  line-height: 1.1 !important;
+	line-height: 1em !important;
   background-color: black;
   color: white;
+}
+pre, code {
+	line-height: 1em;
 }
 </style>

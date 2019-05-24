@@ -42,3 +42,14 @@ collections:
       - {label: "Dek", name: "dek", widget: "string", required: false}
       - {label: "BPM", name: "bpm", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "photo" # Used in routes, e.g., /admin/collections/blog
+    label: "Photo" # Used in the UI
+    folder: "content/photo/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    format: 'json'
+    card: {type: "alltype", text: "title"}
+    fields: # The fields for each document, usually in front matter
+      - {label: "Photo URL", name: "photo", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Dek", name: "dek", widget: "string", required: false}

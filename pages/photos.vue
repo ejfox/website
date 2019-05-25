@@ -6,7 +6,7 @@
         :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
         <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
           <span class="b">
-            {{ post.title }}
+            <!-- {{ post.title }} -->
             <Photo :url="'https'+post.photo" />
           </span>
         </nuxt-link>

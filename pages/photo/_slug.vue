@@ -5,7 +5,11 @@
     <article
       :class="['tc center pa1 pa4-ns mb0']">
       
-
+      <Photo
+         :url="'https' + photo" />
+      <div v-if="dek" class="measure center pa1 lh-copy">
+        {{ dek }}
+      </div>
       <!-- Timestamp -->
       <time
         :class="['f4 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-20 tc']">
@@ -20,6 +24,7 @@
 <script>
 import AudioPlayer from '~/components/AudioPlayer.vue';
 import Words from '~/components/blogtypes/words.vue'
+import Photo from '~/components/Photo.vue'
 import URL from 'url-parse'
 import _ from 'lodash'
 import marked from 'marked'
@@ -31,7 +36,8 @@ export default {
   scrollToTop: true,
   components: {
     AudioPlayer,
-    Words
+    Words,
+    Photo
   },
   data: function () {
     return {
@@ -56,7 +62,7 @@ export default {
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/audio/' + params.slug + '.json');
+    let post = await import('~/content/photo/' + params.slug + '.json');
     if(!post.bgcolorclass) { post.bgcolorclass = ''}
     if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }

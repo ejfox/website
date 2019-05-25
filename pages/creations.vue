@@ -4,18 +4,19 @@
       <h2>Loading!</h2>
     </section>
 
-
-
     <transition-group
       appear
       mode="out-in"
-      enter-active-class="animated fadeInDown"
+      enter-active-class="animated fadeIn"
       leave-active-class="animated fadeOutDown">
-      <section v-for="block in blocks" :key="block.id" class="dib v-mid mw5 ma2">
+      <section v-for="block in blocks" :key="block.id" class="dib-l v-mid w-100 w-50-l ma0 pa2 pa4-l">
         <a v-if="block.image"
-          :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-y7fex45foi4'">
-          <img :src="block.image.display.url" :alt="block.generated_title">
+          :href="block.source ? block.source.url : 'https://www.are.na/block/'+block.id">
+         <img :src="block.image.large.url" :alt="block.generated_title">
         </a>
+        <div
+           v-if="block.description.length > 1"
+           v-html="block.description_html" />
       </section>
     </transition-group>
 
@@ -31,7 +32,7 @@
 import axios from 'axios'
 import _ from 'lodash'
 import Nav from '~/components/Nav.vue'
-const channelSlug = 'vibes-y7fex45foi4'
+const channelSlug = 'creations'
 
 export default {
   components: {
@@ -40,7 +41,7 @@ export default {
   data() {
     return {
       blocks: [],
-      title: '🌞 Vibes',
+      title: '🌞 Creations',
       shortDescription: ''
     }
   },
@@ -89,7 +90,7 @@ a,a:link,a:hover,a:visited {
   text-decoration: none;
   border: 0;
   outline: none;
-  cursor: default;
+  /*cursor: default;*/
 }
 img {
   width: 100%;

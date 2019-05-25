@@ -12,8 +12,8 @@
 
     <li v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
       <a :href="block.u"
-        class="lh-title f3 dark-gray link">
-        <h3 class="b ttu lh-title ma0 dark-gray">
+        class="lh-copy f5 dark-gray link">
+        <h3 class="b lh-solid tracked ma0 dark-gray">
           {{block.d}}
         </h3>
 
@@ -43,7 +43,7 @@
           {{block.u}}
         </small>
 
-        <div class="measure f5 lh-copy bookmark-description ma0 mt2">
+        <div class="serif measure f5 lh-copy bookmark-description ma0 mt2">
           <small v-if="block.n" class="i" v-html="parseMarkdown(block.n)" />
         </div>
 
@@ -138,7 +138,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   background-color: white !important;
 }

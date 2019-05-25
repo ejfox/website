@@ -5,7 +5,7 @@
 
     <section class="intro pv2 pv5-ns measure-narrow lh-copy center">
       <p class="pb4">
-        Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist working at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>. My work focuses on design, data visualization, and storytelling.
+      Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist working at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a><small class="ml2 f6 gray">(<a href="#pgp">PGP</a>)</small>. My work focuses on design, data visualization, and storytelling.
       </p>
 
       <p>
@@ -13,6 +13,9 @@
           Take a look at some of my work
         </nuxt-link>
          or <a href="/resume.pdf">my resume</a>
+      </p>
+      <p class="f5 lh-copy mt4">
+      I keep a page of my most recent <nuxt-link to="/bookmarks">bookmarks</nuxt-link> from pinboard, and try to consistently highlight quotes to reference later. <nuxt-link to="/vibes">Vibes</nuxt-link> is a constantly updated feed of visual inspiration and a personal moodboard of sorts powered by my <a href="https://www.are.na/ej-fox/creations">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link> which contains every book I've read as an adult, a review, and linkable highlighted selections from each book. I also keep a <nuxt-link to="/photos">feed of photos I've taken recently</nuxt-link>. My blog posts are listed below.
       </p>
     </section>
 
@@ -35,7 +38,7 @@
       </ul>
     </section> -->
 
-    <section id="allposts" class="category pv5 db cf">
+    <section id="allposts" class="category pv4 db cf">
       <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
       <ul class="db f2 list">
         <li v-for="post in posts" :key="post.date"
@@ -90,7 +93,8 @@
         href="http://instagram.com/ejfoxphotos">
         Instagram
       </a>
-
+      
+      <!--
       <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         recent bookmarks
       </nuxt-link>
@@ -102,7 +106,7 @@
       <nuxt-link to="/books" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         books
       </nuxt-link>
-
+      --> 
       <a
       :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
       href="https://calendly.com/ejfox/hangout/">
@@ -111,7 +115,7 @@
 
     </section>
 
-    <section class="center f2 tc sans-serif ttu gray mv5 lh-copy">
+    <section id="pgp" class="center f2 tc sans-serif ttu gray mv5 lh-copy">
       <p>PGP: <a href="/pgp.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
     </section>
 
@@ -170,6 +174,6 @@ ul { padding: 0;}
 
 .intro a:visited, .intro a:focus {
   color: #414346;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 </style>

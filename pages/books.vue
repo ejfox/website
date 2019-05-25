@@ -156,15 +156,12 @@ export default {
   }
 };
 </script>
-
 <style>
-@media screen and (min-width: 620px) {
-  .book {
-    grid-template-columns: 55% 1fr 1fr;
-    display: grid;
-    grid-column-gap: 5px;
-    padding-top: 5px;
-  }
+.book {
+  grid-template-columns: 55% 1fr 1fr;
+  display: grid;
+  grid-column-gap: 5px;
+  padding-top: 5px;
 }
 #footer {
   font-size: 14px;

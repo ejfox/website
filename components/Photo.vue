@@ -2,7 +2,8 @@
   <div>
     <img :src="modifyUrlWithSize(url, 320)"
       :srcset="srcset"
-      :sizes="sizes" />
+      :sizes="sizes"
+      loading="lazy"/>
     <caption
       v-if="dek">
       {{ dek }} 

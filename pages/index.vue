@@ -3,7 +3,7 @@
 
 
 
-    <section class="intro pv2 pv5-ns measure-narrow lh-copy center">
+    <section class="intro pv2 pt3 pv5-ns measure-narrow lh-copy center">
       <p class="pb4">
       Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist working at <a href="http://nbcnews.com/specials/">NBC News</a>. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a><small class="ml2 f6 gray">(<a href="#pgp">PGP</a>)</small>. My work focuses on design, data visualization, and storytelling.
       </p>

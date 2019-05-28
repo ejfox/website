@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="bg-near-white serif">
     <nuxt-link to="/" id="home-link"
       :class="['pa3 f3 db lh-solid tc link black underline bn']">
       EJFox.com

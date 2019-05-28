@@ -27,8 +27,8 @@ var dynamicRoutes = getDynamicPaths({
 module.exports = {
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/google-analytics',
-    'nuxt-purgecss'
+    '@nuxtjs/google-analytics'
+    // 'nuxt-purgecss'
     // '@nuxtjs/feed'
   ],
   plugins: [

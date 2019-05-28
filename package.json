@@ -27,6 +27,7 @@
     "lodash": "^4.17.11",
     "marked": "^0.6.1",
     "nuxt": "^1.4.5",
+    "nuxt-purgecss": "^0.2.1",
     "slug": "^1.1.0",
     "stylus": "^0.54.5",
     "truncate": "^2.0.1",

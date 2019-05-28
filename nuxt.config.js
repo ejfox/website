@@ -28,6 +28,7 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/google-analytics',
+    'nuxt-purgecss'
     // '@nuxtjs/feed'
   ],
   plugins: [

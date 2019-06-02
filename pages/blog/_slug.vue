@@ -1,7 +1,5 @@
 <template>
 <div class="slug-container cf">
-
-
   <section id="post-container w-100 w-two-thirds-ns fl">
     <div v-if="inprogress === true"
       class="bg-dark-gray white pa4 mv2 tc">
@@ -123,6 +121,7 @@ export default {
     if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }
     if(!post.inprogress) { post.inprogress = null }
+    if(!post.dek) { post.dek = null }
 
     let toc = marked.lexer(post.body)
     // console.log(post.body, toc)

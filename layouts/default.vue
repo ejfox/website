@@ -1,7 +1,7 @@
 <template>
   <div class="bg-near-white serif">
     <nuxt-link to="/" id="home-link"
-      :class="['pa3 f3 db lh-solid tc link black underline bn']">
+      :class="['sans-serif pa3 f3 db lh-solid tc link black underline bn']">
       EJFox.com
     </nuxt-link>
 

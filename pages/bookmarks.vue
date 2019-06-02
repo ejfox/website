@@ -13,7 +13,7 @@
     <li v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll f2">
       <a :href="block.u"
         class="lh-copy f5 dark-gray link">
-        <h3 class="b lh-solid tracked ma0 dark-gray">
+        <h3 class="sans-serif b lh-solid tracked ma0 dark-gray">
           {{block.d}}
         </h3>
 

@@ -74,87 +74,87 @@ export default {
         }
 
         if (url.hostname === 'en.wikipedia.org') {
-          $link.append(' <small class="fab fa-wikipedia-w"></small>')
+          $link.append(' <small class="fab fa-wikipedia-w font-half" style="font-size: 0.5em"></small>')
         }
 
         if (url.hostname === 'github.com') {
-          $link.append(' <small class="fab fa-github"></small>')
+          $link.append(' <small class="fab fa-github font-half"></small>')
         }
 
         if (url.hostname === 'twitter.com') {
-          $link.append(' <small class="fab fa-twitter"></small>')
-        }
+          $link.append(' <small class="fab fa-twitter font-half"></small>')
+      }
 
-      })
+    })
 
-      // Here we go through each image, which is just a link to the fullsize in the CMS
-      // We build a responsive srcset and the right queries in the URL so it works well on mobile
-      $('img').each(function(i, el){
-        let $image = $(this)
-        const imgSrc = $image.attr('src')
-        const url = new URL(imgSrc)
+    // Here we go through each image, which is just a link to the fullsize in the CMS
+    // We build a responsive srcset and the right queries in the URL so it works well on mobile
+    $('img').each(function(i, el){
+      let $image = $(this)
+      const imgSrc = $image.attr('src')
+      const url = new URL(imgSrc)
 
-        // If it's a link to cloudinary, perform our operations, otherwise we leave it alone
-        // c_scale,dpr_auto,w_1080,q_auto:best
-        if (url.hostname === 'res.cloudinary.com') {
-          // Generate SMALL image URL
-          let urlS = new URL(imgSrc)
-          let urlSPaths = urlS.pathname.split('/')
-          urlSPaths.splice(urlSPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_320')
-          urlS.pathname = urlSPaths.join('/')
-          // Generate MEDIUM image URL
-          let urlM = new URL(imgSrc)
-          let urlMPaths = urlM.pathname.split('/')
-          urlMPaths.splice(urlMPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_920')
-          urlM.pathname = urlMPaths.join('/')
-          // Generate LARGE image URL
-          let urlL = new URL(imgSrc)
-          let urlLPaths = urlL.pathname.split('/')
-          urlLPaths.splice(urlLPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_1280')
-          urlL.pathname = urlLPaths.join('/')
+      // If it's a link to cloudinary, perform our operations, otherwise we leave it alone
+      // c_scale,dpr_auto,w_1080,q_auto:best
+      if (url.hostname === 'res.cloudinary.com') {
+        // Generate SMALL image URL
+        let urlS = new URL(imgSrc)
+        let urlSPaths = urlS.pathname.split('/')
+        urlSPaths.splice(urlSPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_320')
+        urlS.pathname = urlSPaths.join('/')
+        // Generate MEDIUM image URL
+        let urlM = new URL(imgSrc)
+        let urlMPaths = urlM.pathname.split('/')
+        urlMPaths.splice(urlMPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_920')
+        urlM.pathname = urlMPaths.join('/')
+        // Generate LARGE image URL
+        let urlL = new URL(imgSrc)
+        let urlLPaths = urlL.pathname.split('/')
+        urlLPaths.splice(urlLPaths.length-2, 0, 'fl_progressive:semi,c_scale,dpr_auto,w_1280')
+        urlL.pathname = urlLPaths.join('/')
 
-          let srcSet = [
-            urlS.toString() + ' 320w',
-            urlM.toString() + ' 920w',
-            urlL.toString() + ' 1280w',
-          ]
+        let srcSet = [
+          urlS.toString() + ' 320w',
+          urlM.toString() + ' 920w',
+          urlL.toString() + ' 1280w',
+        ]
 
-          let sizes = [
-            '(max-width: 320px) 280px',
-            '(max-width: 720px) 980px',
-            '1000px'
-          ]
+        let sizes = [
+          '(max-width: 320px) 280px',
+          '(max-width: 720px) 980px',
+          '1000px'
+        ]
 
-          $image.attr('srcset', srcSet.join(', \n'))
-          $image.attr('sizes', sizes.join(', \n'))
-          $image.attr('src', urlM.toString())
-          // $image.addClass('shadow-4-l')
-        }
-      })
+        $image.attr('srcset', srcSet.join(', \n'))
+        $image.attr('sizes', sizes.join(', \n'))
+        $image.attr('src', urlM.toString())
+        // $image.addClass('shadow-4-l')
+      }
+    })
 
-      // return parsed, sliced, and diced markdown
-      return $.html()
-    },
-    parseMarkdown: function(markdown) {
-      // console.log('Parsing markdown...')
-      // Build markdown parser
-      const markdownRenderer = marked.setOptions({
-        renderer: new marked.Renderer(),
-        // highlight: function (code) {
-        //   return require('highlight.js').highlightAuto(code).value
-        // }
-        pedantic: false,
-        gfm: true,
-        tables: true,
-        breaks: false,
-        sanitize: false,
-        smartLists: true,
-        smartypants: true,
-        xhtml: true
-      })
-      return markdownRenderer(markdown)
-    }
+    // return parsed, sliced, and diced markdown
+    return $.html()
+  },
+  parseMarkdown: function(markdown) {
+    // console.log('Parsing markdown...')
+    // Build markdown parser
+    const markdownRenderer = marked.setOptions({
+      renderer: new marked.Renderer(),
+      // highlight: function (code) {
+      //   return require('highlight.js').highlightAuto(code).value
+      // }
+      pedantic: false,
+      gfm: true,
+      tables: true,
+      breaks: false,
+      sanitize: false,
+      smartLists: true,
+      smartypants: true,
+      xhtml: true
+    })
+    return markdownRenderer(markdown)
   }
+}
 };
 </script>
 
@@ -176,5 +176,8 @@ a[href*="wikipedia.org/wiki/"]::after {
 
 a[href$='.pdf']::after, #markdownBody a[href$='/pdf']::after, #markdownBody a[href$='type=pdf']::after, #markdownBody a[href*='.pdf#']::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…4xLTIuNy0yLjUtMTEuOS00Mi44LTkgMzcuMSAxNS44IDQyLjggOSA0Mi44IDl6Ii8+PC9zdmc+);
+}
+.font-half {
+  font-size: 0.5em;
 }
 </style>

@@ -4,11 +4,11 @@
 
   <section id="post-container w-100 w-two-thirds-ns fl">
     <div v-if="inprogress === true"
-      class="bg-dark-gray pa4 mv2 tc">
-        <h2 class="ma0 pa2 ba br2">This post is in progress</h2>
+      class="bg-dark-gray white pa4 mv2 tc">
+        <h2 class="ma0 pa2 ba br2 w-two-thirds-l center">This post is in progress</h2>
         <p class="pt3">I would really appreciate your feedback!</p>
         <p class="pa3">Get in touch...</p>
-        <h3 class="tracked"><a class="" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
+        <h3 class="tracked"><a class="white" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="white" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
     </div>
 
     <!-- Article header -->
@@ -17,6 +17,10 @@
         <h1 :class="['f-headline lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}
         </h1>
+      </div>
+
+      <div v-if="dek">
+        <div class="mv3 i pa3-ns tc tl-ns w-100 db">{{dek}}</div>
       </div>
 
       <!-- Timestamp -->
@@ -36,12 +40,12 @@
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
         <ol
           v-if="toc.length > 0"
-          class="list pv3 ph1 ba-ns b--dark-gray measure o-80">
-          <li class="ph3-ns"
+          class="f6 list ma2 mh3-l fl-l pv3 ph1 ba-ns b--gray mw5 o-60">
+          <li class="ph1 ph3-ns mv2 lh-solid b"
             v-for="(t, i) in toc">
             <!-- {{t.depth}}:  -->
 
-            <span class="gray mr2">
+            <span class="gray mr1 sans-serif">
               {{i+1}}
             </span>
             <a

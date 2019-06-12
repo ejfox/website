@@ -9,10 +9,13 @@
     "serve": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "blog:to-md": "processmd content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source",
+    "blog:md-to-json": "processmd content/blog/md/* --outputDir content/blog/posts/",
+    "dropbox-import": "cp ~/Dropbox/Writing/PUBLISHED/*.md content/blog/md/;npm run blog:md-to-json",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "keybase": "nuxt generate;yes | cp -rf dist/* /keybase/public/ejfox/;echo 'Copied to Keybase public folder'",
-    "publish": "nuxt generate;npm run keybase;git stage -A;git commit -m 'publish';git push;echo 'Published on Keybase and GitHub (Netlify)'",
+    "publish": "npm run dropbox-import;nuxt generate;npm run keybase;git stage -A;git commit -m 'publish';git push;echo 'Published on Keybase and GitHub (Netlify)'",
     "precommit": "npm run lint"
   },
   "dependencies": {

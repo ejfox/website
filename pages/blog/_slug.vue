@@ -117,6 +117,7 @@ export default {
   },
   async asyncData({ params }) {
     let post = await import('~/content/blog/posts/' + params.slug + '.json');
+    if(!post.body && post.bodyContent) { post.body = post.bodyContent }
     if(!post.bgcolorclass) { post.bgcolorclass = ''}
     if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }

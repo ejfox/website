@@ -79,13 +79,15 @@ The coverage of 2001’s presidential election lead to executives from CBS, CNN,
 
 > Tauzin introduced legislation to create a uniform poll closing time across the country and asked the networks to voluntarily resist projecting winners until 9 p.m. EST. In a concession, all the networks said they will refrain from calling a state until all the polls in the particular state have closed.
 
-### Why do we have elections on Tuesdays?
+## Why do we have elections on Tuesdays?
 It could be argued that it would make more sense for elections to be held [on the weekend](https://www.congress.gov/bill/112th-congress/house-bill/4183/text). 
 
-### Resources
+## Resources
 + [Ballotpedia](https://ballotpedia.org/) is an exceptional source of all of the strange little constantly-changing details about elections, freely editable like Wikipedia. 
 
-—
+
+
+
 
 [^0]: This makes sense, when you think about it. There is reason to believe if you could turn on your TV and see how your candidate was doing, if you could see the vote counts live and your candidate was safely ahead, you might decide it’s not even worth going out and casting a vote.
 

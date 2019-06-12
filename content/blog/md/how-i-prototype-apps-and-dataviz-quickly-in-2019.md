@@ -9,6 +9,7 @@ hidetimestamp: false
 # How I prototype apps and dataviz quickly
 
 [[toc]]
+
 I’ve been really enjoying using Vue as a framework for my javascript applications. It allows me to quickly and easily lay out my data structure, some DOM-elements that are controlled by data, and handle any interactions / application state stuff I might need. 
 
 In years past, my development workflow usually started with me cloning my [@ejfox/starter](https://github.com/ejfox/starter) project, which has gulp, webpack, and a handful of other useful frameworks for making things quickly already set up.

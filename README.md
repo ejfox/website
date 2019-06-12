@@ -29,8 +29,25 @@ To get book library for goodreads to the books page:
 To scrape [highlights](https://www.goodreads.com/notes/9273959-ej-fox):
 + `> scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json`
 
-## Build Setup
 
+### Markdown Blog Posts
+
+To convert all JSON blog posts to markdown:
+```
+> processmd content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source
+```
+
+To copy over all PUBLISHED markdown files in Dropbox writing folder to `md` folder in `~/content/blog/`
+```
+> cp ~/Dropbox/Writing/PUBLISHED_*.md content/blog/md/
+```
+
+To convert all markdown posts to JSON files and copy them to the content directory
+```
+processmd content/blog/md/* --outputDir content/blog/posts/
+```
+
+## Build Setup
 ``` bash
 # install dependencies
 $ npm install # Or yarn install

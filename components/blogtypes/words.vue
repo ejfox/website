@@ -45,9 +45,10 @@ export default {
       // Load parsed markdown into cheerio so we can do
       // jquery-style manipulations on the HTML
       const $ = cheerio.load(markdownHtml)
-      const firstTitle = $('h1').first()
 
-      console.log({firstTitle})
+      // Remove to-level header if it is the first element
+      // This prevents repeating the page title
+      const firstTitle = $('h1').first()
       if(!firstTitle[0].prev) firstTitle.remove()
 
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
@@ -142,21 +143,33 @@ export default {
   parseMarkdown: function(markdown) {
     // console.log('Parsing markdown...')
     // Build markdown parser
-    const markdownRenderer = marked.setOptions({
-      renderer: new marked.Renderer(),
-      // highlight: function (code) {
-      //   return require('highlight.js').highlightAuto(code).value
-      // }
-      pedantic: false,
-      gfm: true,
-      tables: true,
-      breaks: false,
-      sanitize: false,
-      smartLists: true,
-      smartypants: true,
-      xhtml: true
+    // const markdownRenderer = marked.setOptions({
+    //   renderer: new marked.Renderer(),
+    //   // highlight: function (code) {
+    //   //   return require('highlight.js').highlightAuto(code).value
+    //   // }
+    //   pedantic: false,
+    //   gfm: true,
+    //   tables: true,
+    //   breaks: false,
+    //   sanitize: false,
+    //   smartLists: true,
+    //   smartypants: true,
+    //   xhtml: true
+    // })
+    // return markdownRenderer(markdown)
+    const MarkdownIt = require('markdown-it')({
+      html: true,
+      breaks: true,
+      typographer: true
+    }).use(require('markdown-it-footnote'))
+    // .use(require('markdown-it-anchor'))
+    .use(require('markdown-it-table-of-contents'), {
+      includeLevel: [1,2,3],
+      listType: 'ol',
+      forceFullToc: true
     })
-    return markdownRenderer(markdown)
+    return MarkdownIt.render(markdown)
   }
 }
 };

@@ -32,21 +32,21 @@ To scrape [highlights](https://www.goodreads.com/notes/9273959-ej-fox):
 
 ### Markdown Blog Posts
 
-To convert all JSON blog posts to markdown:
-```
+```bash
+# To convert all JSON blog posts to markdown:
 processmd content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source
+# or
+npm run blog:to-md
 
-##
-```
-
-To copy over all PUBLISHED markdown files in Dropbox writing folder to `md` folder in `~/content/blog/`
-```
+# To copy over all PUBLISHED markdown files in Dropbox writing folder to `md` folder in `~/content/blog/`
 cp ~/Dropbox/Writing/PUBLISHED/*.md content/blog/md/
-```
+# or
+npm run dropbox-import
 
-To convert all markdown posts to JSON files and copy them to the content directory
-```
+# To convert all markdown posts to JSON files and copy them to the content directory
 processmd content/blog/md/* --outputDir content/blog/posts/
+# or
+npm run blog:md-to-json
 ```
 
 ## Build Setup

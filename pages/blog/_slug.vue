@@ -36,12 +36,11 @@
               type]">
 
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
-        <ol
+        <!-- <ol
           v-if="toc.length > 1"
           class="f6 list ma2 mh3-l fl-l pv3 ph1 ba-ns b--gray mw5 o-60">
           <li class="ph1 ph3-ns mv2 lh-solid b"
             v-for="(t, i) in toc">
-            <!-- {{t.depth}}:  -->
 
             <span class="gray mr1 sans-serif">
               {{i+1}}
@@ -50,7 +49,7 @@
               class="link black underline"
               :href="t.slug">{{t.text}}</a>
           </li>
-        </ol>
+        </ol> -->
 
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
@@ -94,8 +93,7 @@ export default {
   },
   data: function () {
     return {
-      emojiIcon: '📓',
-      bodyHtml: null
+      emojiIcon: '📓'
     }
   },
   computed: {
@@ -124,16 +122,16 @@ export default {
     if(!post.inprogress) { post.inprogress = null }
     if(!post.dek) { post.dek = null }
 
-    let toc = marked.lexer(post.body)
-    // console.log(post.body, toc)
-    toc = _.filter(toc, (t) => {
-      return t.type === 'heading' && t.depth < 3
-    })
-    toc.map(t => {
-      t.slug = '#'+slug(t.text, {lower: true, symbols: false})
-      return t
-    })
-    post.toc = toc
+    // let toc = marked.lexer(post.body)
+    // // console.log(post.body, toc)
+    // toc = _.filter(toc, (t) => {
+    //   return t.type === 'heading' && t.depth < 3
+    // })
+    // toc.map(t => {
+    //   t.slug = '#'+slug(t.text, {lower: true, symbols: false})
+    //   return t
+    // })
+    // post.toc = toc
 
     let noHtmlBody = post.body
     noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
@@ -141,7 +139,6 @@ export default {
     return post;
   },
   created: function () {
-    this.bodyHtml = this.parseMarkdown(this.body)
     this.setEmojiIcon()
   },
   activated: function () {
@@ -155,32 +152,6 @@ export default {
       } else if (this.type === 'audio') {
         this.emojiIcon = '🎵'
       }
-    },
-    parseMarkdown: function(markdown) {
-      // console.log('Parsing markdown...')
-      // Build markdown parser
-      const markdownRenderer = marked.setOptions({
-        renderer: new marked.Renderer(),
-        // highlight: function (code) {
-        //   return require('highlight.js').highlightAuto(code).value
-        // }
-        pedantic: false,
-        gfm: true,
-        tables: true,
-        breaks: false,
-        sanitize: false,
-        smartLists: true,
-        smartypants: true,
-        xhtml: true
-      })
-      let parsedMarkdown = markdownRenderer(markdown)
-
-      // Load parsed markdown into cheerio so we can do
-      // jquery-style manipulations on the HTML
-      const $ = cheerio.load(parsedMarkdown)
-
-      // return parsed, sliced, and diced markdown
-      return $.html()
     }
   },
 };
@@ -249,5 +220,9 @@ code {
 .embed-container {
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.footnotes {
+  margin-bottom: 6vh;
 }
 </style>

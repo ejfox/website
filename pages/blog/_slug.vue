@@ -37,7 +37,7 @@
 
       <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
         <ol
-          v-if="toc.length > 0"
+          v-if="toc.length > 1"
           class="f6 list ma2 mh3-l fl-l pv3 ph1 ba-ns b--gray mw5 o-60">
           <li class="ph1 ph3-ns mv2 lh-solid b"
             v-for="(t, i) in toc">

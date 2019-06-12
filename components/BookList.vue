@@ -18,6 +18,7 @@
       </span>
 
       <span class="gray" itemprop="ratingValue"
+        :class="[book['My Review'].replace(/<(?:.|\n)*?>/gm, '') === '' ? '' : 'yellow pointer']"
         :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')">
         {{ratingToStars(book['My Rating'])}}
       </span>

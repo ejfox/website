@@ -172,21 +172,12 @@ export default {
       includeLevel: [2,3],
       listType: 'ol'
     })
-    .use(require('markdown-it-anchor').default, {
-      permalink: true,
-      permalinkBefore: true,
-      permalinkAfter: false
-    })
+    // .use(require('markdown-it-anchor').default, {
+    //   permalink: true,
+    //   permalinkBefore: true,
+    //   permalinkAfter: false
+    // })
 
-    MarkdownIt.renderer.rules.render_footnote_caption = (token, idx) => {
-      var n = Number(tokens[idx].meta.id + 1).toString();
-
-      if (tokens[idx].meta.subId > 0) {
-        n += ':' + tokens[idx].meta.subId;
-      }
-
-      return n
-    }
     return MarkdownIt.render(markdown)
   }
 }
@@ -194,24 +185,7 @@ export default {
 </script>
 
 <style>
-a::after {
-  background-repeat: no-repeat;
-  background-size: 0.75em;
-  background-position: right 1px top;
-  width: 0.85em;
-  height: 0.85em;
-  display: inline-block;
-  vertical-align: baseline;
-  opacity: 0.85;
-}
-a[href*="wikipedia.org/wiki/"]::after {
-    content: "";
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…42LTIzLjEtMzYuNC0yOC4xLTQ3LjItMjguM1Y0OS42bDEyNy44IDEuMS4yLjV6Ii8+PC9zdmc+);
-}
 
-a[href$='.pdf']::after, #markdownBody a[href$='/pdf']::after, #markdownBody a[href$='type=pdf']::after, #markdownBody a[href*='.pdf#']::after {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…4xLTIuNy0yLjUtMTEuOS00Mi44LTkgMzcuMSAxNS44IDQyLjggOSA0Mi44IDl6Ii8+PC9zdmc+);
-}
 .font-half {
   font-size: 0.5em;
 }

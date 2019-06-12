@@ -18,6 +18,8 @@ Yet that struggle seems to have blossomed into something that encompasses our wh
 
 But what is so crazy is the fundamental building blocks of the internet were designed to avoid monopolization and manipulation. The system is built in a way that leans towards what I believe is a freer world, a place where things are shared instead of commodified. But the struggle between good and evil continues. 
 
+[[toc]]
+
 The tools of self-governance, of self-creation, the ability to control our own destiny- are being robbed of us by certain silicon valley entrepreneurs, scheming suits, and a gang of arrogant money hounds who treat human attention like the new oil. 
 
 The internet has evolved into a place where we have all accept pre-fab houses, presenting ourselves in Facebook blue, homogenized and consumable. Consumable first to corporations and advertisers, secondly to each other. But at best this an abnormal and new way for humans to interact and present ourselves to each other. At worst it is robbing us of something seemingly indefinable- our individuality, our ability to express ourselves, our ability to decide what we see and when. 

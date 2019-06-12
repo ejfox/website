@@ -22,6 +22,8 @@ When I’m in a new place that I’m uncertain of, I don’t know the customs, I
 
 But first I need to find a rough direction to set out towards.
 
+[[toc]]
+
 ## What do I want to create?
 ### A beat
 A traditional hip-hop beat is composed of a few things

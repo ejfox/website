@@ -67,7 +67,7 @@ npm run generate
 # generate static project and publish to keybase
 npm run keybase
 
-# generate static project and publish everywhere
+# pull in markdown from dropbox and generate static project and publish everywhere
 npm run publish
 
 # convert goodreads csv into json

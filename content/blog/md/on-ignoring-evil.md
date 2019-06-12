@@ -46,5 +46,4 @@ There are valid criticisms that coverage should be more honest, more obedient to
 
 Idealogical battles are waged in reality. In bars, in coffee shops, in dimly lit Michelin star restaurants expensed by lobbyists, in clashes on the street, in riots, and especially at uncomfortable family dinners. 
 
-The coverage of these radical speakers is not unimportant, but it is also not the epicenter of certain waves of change. The people they are talking to, and what makes those people listen, are much more interesting and difficult to grapple with. 
-
+The coverage of these radical speakers is not unimportant, but it is also not the epicenter of certain waves of change. The people they are talking to, and what makes those people listen, are much more interesting and difficult to grapple with.

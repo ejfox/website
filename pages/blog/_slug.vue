@@ -221,8 +221,4 @@ code {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
-.footnotes {
-  margin-bottom: 6vh;
-}
 </style>

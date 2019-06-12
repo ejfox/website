@@ -7,6 +7,8 @@ hidetimestamp: false
 ---
 
 # How I prototype apps and dataviz quickly
+
+[[toc]]
 I’ve been really enjoying using Vue as a framework for my javascript applications. It allows me to quickly and easily lay out my data structure, some DOM-elements that are controlled by data, and handle any interactions / application state stuff I might need. 
 
 In years past, my development workflow usually started with me cloning my [@ejfox/starter](https://github.com/ejfox/starter) project, which has gulp, webpack, and a handful of other useful frameworks for making things quickly already set up.
@@ -87,4 +89,4 @@ If I need to host really big files that I don’t want to put into a git repo, I
 
 From start to finish, I can do everything described in this guide in about 30 minutes.
 
-The lack of friction with this workflow causes me to try and start new things more often. This is really important to me right now as I experiment with different technologies and approaches. I have definitely had ideas and hesitated to start giving them a try because I knew I would need to spin up a new project, set up my IDE, etc. Code that exists is better than a good idea. I’d rather have a dozen half-built prototypes than a hundred good ideas. 
+The lack of friction with this workflow causes me to try and start new things more often. This is really important to me right now as I experiment with different technologies and approaches. I have definitely had ideas and hesitated to start giving them a try because I knew I would need to spin up a new project, set up my IDE, etc. Code that exists is better than a good idea. I’d rather have a dozen half-built prototypes than a hundred good ideas.

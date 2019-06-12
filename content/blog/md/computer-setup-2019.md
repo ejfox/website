@@ -15,6 +15,8 @@ My technological set-up is similar. There are a lot of things in place that one 
 > There are about a hundred little tricks like this that Hiro wouldn't know about if he hadn't been programming avatars for people like Vitaly Chernobyl for the last couple of years. To write a really good invisible avatar from scratch would take a long time, but he puts one together in several hours by recycling bits and pieces of old projects left behind in his computer. Which is how hackers usually do it.
 > <cite>Neal Stephenson, Snow Crash, 1992</cite>
 
+[[toc]]
+
 #### Why?
 The motivations behind doing this are not always clear to me. But in the end it comes from a core belief that computers can allow us to do amazing things. As I discover new pockets of knowledge, I also find new ways to string them together. Occasionally an idea will come to me and I can see how I would put it together because I had already experimented with some of the elements without necessarily even knowing why.
 

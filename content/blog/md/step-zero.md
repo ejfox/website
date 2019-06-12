@@ -1,11 +1,14 @@
 ---
-dek: In which the author makes the case for the merits of a certain approach to preparation
+dek: >-
+  In which the author makes the case for the merits of a certain approach to
+  preparation
 type: words
 hidden: false
 inprogress: false
 date: '2019-06-12T17:40:00-04:00'
 hidetimestamp: false
 ---
+
 # Step Zero
 
 This can also be called <em>[mise en place](https://en.wikipedia.org/wiki/Mise_en_place)</em>. It’s a concept from cooking that describes advanced preparation for a meal. You cut your onions and carrots beforehand and keep them in an accessible place. You gather all the spices you will need. You make your sauces.
@@ -21,4 +24,3 @@ When talking to friends about ideas or projects, I often find myself saying some
 With the right preparation not only can you accomplish the task better, but you can enjoy yourself more as you do it. 
 
 [^1]: As [Carl Sagan said](https://www.youtube.com/watch?v=7s664NsLeFM) “If you wish to make an apple pie from scratch, you must first invent the universe.”
-

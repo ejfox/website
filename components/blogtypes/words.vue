@@ -45,6 +45,10 @@ export default {
       // Load parsed markdown into cheerio so we can do
       // jquery-style manipulations on the HTML
       const $ = cheerio.load(markdownHtml)
+      const firstTitle = $('h1').first()
+
+      console.log({firstTitle})
+      if(!firstTitle[0].prev) firstTitle.remove()
 
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })

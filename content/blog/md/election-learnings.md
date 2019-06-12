@@ -14,6 +14,8 @@ Elections are all edge cases. Votes are cast and tallied by a wide variety of Am
 
 This great country contains lots of different people with lots of different ways about going things. 
 
+[[toc]]
+
 ## Election day
 We have grown accustomed to live results of elections. This is definitely not something our grandfathers had and is mind-bogglingly complex once you start to think about it. 
 

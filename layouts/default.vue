@@ -50,6 +50,9 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+body {
+  scroll-behavior: smooth;
+}
 
 a,a:link,a:visited,a:active {
   outline: 0;

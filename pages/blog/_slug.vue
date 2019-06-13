@@ -12,7 +12,7 @@
     <!-- Article header -->
     <header class="ph3-ns w-100">
       <div class="ph2 ph3-ns">
-        <h1 :class="['f-headline lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
+        <h1 :class="['f-headline sans-serif lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}
         </h1>
       </div>

@@ -22,7 +22,7 @@ import URL from 'url-parse'
 import _ from 'lodash'
 import marked from 'marked'
 import truncate from 'truncate'
-
+import slug from 'slug'
 
 export default {
   data: function  () {
@@ -51,24 +51,30 @@ export default {
       const firstTitle = $('h1').first()
       if(!firstTitle[0].prev) firstTitle.remove()
 
+      $('h1, h2, h3, h4, h5').each(function(i, el){
+        const headerID = $(el).text()
+        const encodedHeaderID = slug(headerID)
+        $(el).attr('id', encodedHeaderID)
+      })
+
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
       $('pre').each(function(i, el){ $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns') })
       $('code').each(function(i, el){ $(el).addClass('bg-dark-gray white br1 f6') })
-      $('ul li').each(function(i, el){ $(el).addClass('mb2') })
+      $('p > ul li').each(function(i, el){ $(el).addClass('mb2') })
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
       $('h2').each(function(i, el){ $(el).addClass('ph3 mv2 dark-gray') })
       $('h3').each(function(i, el){ $(el).addClass('ph3 mv0 ttu gray') })
       $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 gray') })
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
-      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv3 f3-l ph1 ph4-ns lh-copy measure center') })
+      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv2 f4-l ph1 ph4-ns lh-copy measure pl5-ns ml1 bl bw2 b--light-gray') })
       $('blockquote > p').each(function(i, el){
         $(el).removeClass('lh-copy measure center pv3 ph3-ns ph0-m ph0-l')
         $(el).addClass('i b')
       })
 
-      $('.table-of-contents').first().addClass('f6 list ma2 mh3-l fr-l pv3 ph1 ba-ns b--gray mw5')
+      $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv3 ph1 ba-ns b--gray mw5')
       $('.footnotes').first().addClass('')
 
       $('.footnote-ref a').each(function(i, el){ $(el).addClass('link sans-serif o-50-ns') })
@@ -163,21 +169,23 @@ export default {
     //   xhtml: true
     // })
     // return markdownRenderer(markdown)
+
+    console.log('markdown-it-footnote', require('markdown-it-footnote'))
+
+    console.log('markdown-it-anchor', require('markdown-it-anchor').default)
+
     const MarkdownIt = require('markdown-it')({
       html: true,
       breaks: true,
       typographer: true
-    }).use(require('markdown-it-footnote'))
+    }).use(require('markdown-it-footnote'))  
     .use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
-      listType: 'ol'
+      listType: 'ol',
+      slugify: slug
     })
-    // .use(require('markdown-it-anchor').default, {
-    //   permalink: true,
-    //   permalinkBefore: true,
-    //   permalinkAfter: false
-    // })
-
+    .use(require('markdown-it-strikethrough-alt'))
+    
     return MarkdownIt.render(markdown)
   }
 }
@@ -201,15 +209,18 @@ export default {
 .footnotes {
   font-size: 0.85em;
   line-height: 1em;
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
 }
-
-a.header-anchor {
+.footnotes-sep {
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+a.header-anchor, a.markdownIt-Anchor {
   color: #999 !important;
   text-decoration: none;
   opacity: 0.3;
   position: absolute;
   left: 1vw;
-  font-size: 13px;
+  font-size: 15px;
 }
 </style>

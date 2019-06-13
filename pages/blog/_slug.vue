@@ -1,6 +1,6 @@
 <template>
 <div class="slug-container cf">
-  <section id="post-container w-100 w-two-thirds-ns fl">
+  <section id="post-container w-100 fl">
     <div v-if="inprogress === true"
       class="bg-dark-gray white pa4 mv2 tc">
         <h2 class="ma0 pa2 ba br2 w-two-thirds-l center">This post is in progress</h2>
@@ -30,7 +30,7 @@
     <!-- Non-audio blog post types -->
     <article
     v-if="type !== 'audio'"
-    :class="['w-100 w-two-thirds-l fl not-audio mb0 pa1 pa3-ns',
+    :class="['w-100  not-audio mb0 pa1 pa3-ns',
               bgcolorclass,
               textcolorclass,
               type]">

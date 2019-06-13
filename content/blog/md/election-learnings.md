@@ -1,5 +1,5 @@
 ---
-dek: In which we discover the knotted beauty of American democracy
+dek: In which we explore the knotted beauty of American democracy
 type: words
 hidden: false
 inprogress: true
@@ -32,7 +32,7 @@ Here’s what we can agree on: A **race** is run by *n* number of **candidates**
 
 Every [eligible(!)](https://en.wikipedia.org/wiki/Voting_rights_in_the_United_States) person who lives in the area that candidate [represents](https://ballotpedia.org/Who_represents_me) (districts for the house, states for senators, the entire country for presidents) gets to vote between the candidates running for each office that represents them. [^4]
 
-For example the [2016 Presidential Race](https://ballotpedia.org/Presidential_election,_2016) had four[^3] candidates; Clinton (D), Trump (R), Stein (G), and Johnson (L) running for the office of president.
+For example the [2016 Presidential Race](https://ballotpedia.org/Presidential_election,_2016) had four[^3] candidates; Clinton, Trump, Stein, and Johnson running for the office of president.
 
 ## Voting
 Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx). [39 states](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx#overview) have mechanisms for early voting, 28 allow no-excuse absentee votes, 19 allow voting with an accepted excuse. [36 million people voted early in the midterm election.](https://www.politico.com/story/2018/11/05/early-voting-turnout-2018-elections-midterms-963149) - that’s about 30% of the [117 million](http://www.electproject.org/2018g) total votes cast. 
@@ -61,15 +61,15 @@ I think it is worthwhile to listen to those criticisms and [think of ways](http:
 
 But we have a rat’s nests of problems to untangle from [horse race](https://en.wikipedia.org/wiki/Horse_race_journalism) coverage (which [might be good!](https://journals.sagepub.com/doi/abs/10.1177/1081180x98003004004)) to televised debates, [election polling](https://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/) methodologies, and the ways polls should be covered. 
 
-#### Horse race election coverage
+### Horse race election coverage
 Jack Shafer wrote in Politico about why [horse race election coverage might be good](https://www.politico.com/magazine/story/2019/01/09/why-horse-race-political-journalism-awesome-223867). 
 
  > By giving voters a window on the closed world of insider politics, horse-race stories help focus reader attention on the races. Without the work of election handicappers, coverage would come to resemble an endless series of policy white papers that nobody reads. The presidential campaign has another 22 months to run, leaving plenty of time and space to explore the contest from multiple perspectives. 
 
-#### 2001 election night
+### 2001 election night
 A CNN internal report called their own election night coverage in 2001 [“a disaster”](https://www.nytimes.com/2001/02/03/us/report-calls-networks-election-night-coverage-a-disaster.html).
 
-> Following the election night coverage -- in which CNN, ABC, CBS, NBC, Fox and MSNBC all made wrong calls on the Florida vote -- several networks ordered investigations of their coverage.
+> Following the election night coverage – in which CNN, ABC, CBS, NBC, Fox and MSNBC all made wrong calls on the Florida vote – several networks ordered investigations of their coverage.
 
 > Based largely on exit polling, the networks first declared Mr. Gore the winner in Florida, only to give the state to Mr. Bush later. Ultimately the networks backed off again, declaring the race undecided.
 

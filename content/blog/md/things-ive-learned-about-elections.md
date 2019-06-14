@@ -37,10 +37,35 @@ For example the [2016 Presidential Race](https://ballotpedia.org/Presidential_el
 ## Voting
 Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx). [39 states](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx#overview) have mechanisms for early voting, 28 allow no-excuse absentee votes, 19 allow voting with an accepted excuse. [36 million people voted early in the midterm election.](https://www.politico.com/story/2018/11/05/early-voting-turnout-2018-elections-midterms-963149) - that’s about 30% of the [117 million](http://www.electproject.org/2018g) total votes cast. 
 
-## Election data
-Once a vote is cast, ballots are counted and the counts are delivered to a central location and the numbers are reported in regular intervals (usually). That is all handled by state and local governments. 
+### Voting systems
++ [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 
++ [Runoff voting](https://en.wikipedia.org/wiki/Two-round_system) works similarly, but there is a minimum amount of votes required. If no candidate exceeds that minimum, some candidates are eliminated and a second round of the election is held (usually with the top 2 ranked candidates).
++ A [Louisiana primary](https://en.wikipedia.org/wiki/Louisiana_primary) is similar to an [open primary](https://ballotpedia.org/Open_primary) where all candidates running for an office appear together on the same ballot, including multiples per party (instead of a party picking a single candidate to run in a race). The race goes to runoff if no candidate wins by simple majority. 
++ Maine is the first U.S. state to enact [instant-runoff or “ranked choice” voting](https://en.wikipedia.org/wiki/Instant-runoff_voting)[^A variety of [major U.S. cities](https://en.wikipedia.org/wiki/Instant-runoff_voting_in_the_United_States) use ranked choice voting for local elections.] Instead of voting for one candidate over another, voters rank the candidates in order of preference. 
 
-The media (and by extension, the public) are given access to the vote counts at this point. Often times you can find a website run by the Secretary of State which will have the latest results for different statewide elections. 
+![Maine ranked-choice voting ballot](//ej-fox.s3.amazonaws.com/blog/maine-ranked-choice-ballot.png)
+
+The Center for Civic Design has a [great guide](https://civicdesign.org/fieldguides/designing-usable-ballots/) for designing ballots so they are usable, which [they are often not](https://www.propublica.org/article/disenfranchised-by-bad-design). 
+
+## Reporting units
+The term “reporting unit” can refer to a boundary division of any size used to aggregate votes in an election. This can be a [town](https://en.wikipedia.org/wiki/New_England_town), [parish](https://en.wikipedia.org/wiki/List_of_parishes_in_Louisiana), [precinct](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html), county, or state. 
+
+Presidential, senate, and gubernatorial races are organized by county and state.
+
+House races are organized by house districts. The borders of these house districts are [primarily decided by state legislatures](https://ballotpedia.org/State-by-state_redistricting_procedures) but some <small>(AZ, CA, ID, WA)</small> are made by independent commissions. [538 did an excellent piece](https://projects.fivethirtyeight.com/redistricting-maps/) on congressional redistricting and gerrymandering.  
+
+## Election data
+Once a vote is cast, ballots are counted and the counts are delivered to a central location and the numbers are reported in regular intervals (usually). That is all handled by state and local governments, often by county and state boards of elections. 
+
+The media (and by extension, the public) are given access to the vote counts at this point. Often times you can find a website run by the Secretary of State which will have the latest results for different statewide elections. Data services will pay reporters or [stringers](https://news.ycombinator.com/item?id=12912528) to go to the places where votes are counted to and send the results back to competing data services which then resell that data to news organizations. 
+
+Election day vote and [exit poll](https://ballotpedia.org/Exit_polling) [result data](https://www.pewresearch.org/fact-tank/2016/11/02/just-how-does-the-general-election-exit-poll-work-anyway/) is provided to ABC, CBS, CNN, NBC and NBC News in a consortium called the **National Election Pool**. The data is fed by [Edison Research](https://www.edisonresearch.com/election-polling/). 
+
+Alternatives for live data include [Decision Desk HQ](https://decisiondeskhq.com/) or the [AP Elections API](https://developer.ap.org/ap-elections-api/). 
+
+Live election results are not cheap. 
+
+Historical data can be found from the above sources as well as from [MIT](https://electionlab.mit.edu/data), [OpenElections](http://www.openelections.net/)
 
 ## Primary elections
 In addition to the general elections that gather the most attention, parties hold their own elections to decide who will run against the other party, the [primaries](https://en.wikipedia.org/wiki/Primary_election). 
@@ -48,7 +73,7 @@ In addition to the general elections that gather the most attention, parties hol
 These primaries can take [various forms](https://en.wikipedia.org/wiki/Primary_election#Primaries_in_the_United_States) including: uncontested (no challenger) or runoff/[Louisiana](https://en.wikipedia.org/wiki/Louisiana_primary)/[blanket](https://en.wikipedia.org/wiki/Nonpartisan_blanket_primary). They can be [open or closed, partially open, partially closed, etc…](http://www.ncsl.org/research/elections-and-campaigns/primary-types.aspx) - remember, [edge cases](#edge-cases).
 
 ## Voting machines
-Voting machine security in the United States is currently [a joke](https://www.wired.com/story/voting-machine-vulnerabilities-defcon-voting-village/).[^5] The joke is not funny when you consider the real-world impact of such an important lever of our society left comically unguarded. 
+[Voting machine](https://ballotpedia.org/Voting_methods_and_equipment_by_state)[^There are 4 main types of voting machines: **Optical Scan Paper Ballot** (little bubbles you fill out by hand), **Direct Recording Electronic** (computers with touch screens or buttons), **Ballot Marking** (a computer marks paper), and **Punch Card** (voters punch holes and avoid whatever [“hanging chads”](https://en.wikipedia.org/wiki/Chad_(paper)) are)] security in the United States is currently [a joke](https://www.wired.com/story/voting-machine-vulnerabilities-defcon-voting-village/).[^5] The joke is not funny when you consider the real-world impact of such an important lever of our society left comically unguarded. 
 
 The [OSET Institute](https://www.osetfoundation.org/) has compiled some data and an excellent team to work on the technology used for American elections, including defending from [threats of cyberterrorism](https://www.osetfoundation.org/research/2019/02/10/electioncyberterrorism). 
 
@@ -82,9 +107,14 @@ The coverage of 2001’s presidential election lead to executives from CBS, CNN,
 ## Why do we have elections on Tuesdays?
 It could be argued that it would make more sense for elections to be held [on the weekend](https://www.congress.gov/bill/112th-congress/house-bill/4183/text). 
 
-## Resources
-+ [Ballotpedia](https://ballotpedia.org/) is an exceptional source of all of the strange little constantly-changing details about elections, freely editable like Wikipedia. 
+[Erin McCarthy wrote for Mentalfloss:](https://mentalfloss.com/article/12901/why-are-elections-held-tuesdays)
+> Monday was out, because it would require people to travel to the polls by buggy on the Sunday Sabbath. Wednesday was also not an option, because it was market day, and farmers wouldn’t be able to make it to the polls. So it was decided that Tuesday would be the day that Americans would vote in elections, and in 1845, Congress passed a law.
 
+## Resources
++ [Ballotpedia](https://ballotpedia.org/) is an exceptional source of all of the strange little constantly-changing details about elections, --freely editable like Wikipedia-- edited by [Ballotpedia staff](https://ballotpedia.org/Ballotpedia:Staff). 
++ [election-geodata](https://github.com/nvkelso/election-geodata) is a great collection of geographic precinct shape data for mapping election results. 
++ [OpenElections](http://www.openelections.net/) is an open-source project made to create a “free, comprehensive, standardized, linked set of election data for the United States, including federal and statewide offices” which is a pretty incredible goal if you ask me. 
++ [270toWin](https://www.270towin.com/historical-presidential-elections/) has great maps and information on historical elections. 
 
 
 

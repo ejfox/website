@@ -23,7 +23,7 @@ With American elections “live” does not mean getting the results of votes im
 
 The basic rules around voting are laid out in the constitution[^1] but a remarkable amount of the nitty-gritty details are [left up to each state](https://www.brennancenter.org/analysis/voting-laws-roundup-2019) to figure out. 
 
-On election day in America, polls open [at a particular time and close at a particular time. Those times, like almost everything else, [depend on where you’re talking about](https://ballotpedia.org/State_Poll_Opening_and_Closing_Times_(2019)) and can vary even within a single state and could change any year. 
+On election day in America, polls open at a particular time and close at a particular time. Those times, like almost everything else, [depend on where you’re talking about](https://ballotpedia.org/State_Poll_Opening_and_Closing_Times_(2019)) and can vary even within a single state and could change any year. 
 
 ## Races
 Any particular office (be it a Senate or a President or local Sheriff) has a variety of candidates from a variety of parties. Generally we think of races as between two front runners. But this is more a matter of culture and simplification than reality. 
@@ -41,7 +41,7 @@ Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl
 + [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 
 + [Runoff voting](https://en.wikipedia.org/wiki/Two-round_system) works similarly, but there is a minimum amount of votes required. If no candidate exceeds that minimum, some candidates are eliminated and a second round of the election is held (usually with the top 2 ranked candidates).
 + A [Louisiana primary](https://en.wikipedia.org/wiki/Louisiana_primary) is similar to an [open primary](https://ballotpedia.org/Open_primary) where all candidates running for an office appear together on the same ballot, including multiples per party (instead of a party picking a single candidate to run in a race). The race goes to runoff if no candidate wins by simple majority. 
-+ Maine is the first U.S. state to enact [instant-runoff or “ranked choice” voting](https://en.wikipedia.org/wiki/Instant-runoff_voting)[^A variety of [major U.S. cities](https://en.wikipedia.org/wiki/Instant-runoff_voting_in_the_United_States) use ranked choice voting for local elections.] Instead of voting for one candidate over another, voters rank the candidates in order of preference. 
++ Maine is the first U.S. state to enact [instant-runoff or “ranked choice” voting](https://en.wikipedia.org/wiki/Instant-runoff_voting)^[A variety of [major U.S. cities](https://en.wikipedia.org/wiki/Instant-runoff_voting_in_the_United_States) use ranked choice voting for local elections.] Instead of voting for one candidate over another, voters rank the candidates in order of preference. 
 
 ![Maine ranked-choice voting ballot](//ej-fox.s3.amazonaws.com/blog/maine-ranked-choice-ballot.png)
 
@@ -67,13 +67,18 @@ Live election results are not cheap.
 
 Historical data can be found from the above sources as well as from [MIT](https://electionlab.mit.edu/data), [OpenElections](http://www.openelections.net/)
 
+### Mapping live election results
+At NBC the Big Board is commanded by Steve Kornacki, who is the best in the business if you ask me. He stands by an enormous touch screen showing the latest vote results and explains what is happening and why it is interesting. 
+
+
+
 ## Primary elections
 In addition to the general elections that gather the most attention, parties hold their own elections to decide who will run against the other party, the [primaries](https://en.wikipedia.org/wiki/Primary_election). 
 
 These primaries can take [various forms](https://en.wikipedia.org/wiki/Primary_election#Primaries_in_the_United_States) including: uncontested (no challenger) or runoff/[Louisiana](https://en.wikipedia.org/wiki/Louisiana_primary)/[blanket](https://en.wikipedia.org/wiki/Nonpartisan_blanket_primary). They can be [open or closed, partially open, partially closed, etc…](http://www.ncsl.org/research/elections-and-campaigns/primary-types.aspx) - remember, [edge cases](#edge-cases).
 
 ## Voting machines
-[Voting machine](https://ballotpedia.org/Voting_methods_and_equipment_by_state)[^There are 4 main types of voting machines: **Optical Scan Paper Ballot** (little bubbles you fill out by hand), **Direct Recording Electronic** (computers with touch screens or buttons), **Ballot Marking** (a computer marks paper), and **Punch Card** (voters punch holes and avoid whatever [“hanging chads”](https://en.wikipedia.org/wiki/Chad_(paper)) are)] security in the United States is currently [a joke](https://www.wired.com/story/voting-machine-vulnerabilities-defcon-voting-village/).[^5] The joke is not funny when you consider the real-world impact of such an important lever of our society left comically unguarded. 
+[Voting machine](https://ballotpedia.org/Voting_methods_and_equipment_by_state)^[There are 4 main types of voting machines: **Optical Scan Paper Ballot** (little bubbles you fill out by hand), **Direct Recording Electronic** (computers with touch screens or buttons), **Ballot Marking** (a computer marks paper), and **Punch Card** (voters punch holes and avoid whatever [“hanging chads”](https://en.wikipedia.org/wiki/Chad_(paper)) are)] security in the United States is currently [a joke](https://www.wired.com/story/voting-machine-vulnerabilities-defcon-voting-village/).[^5] The joke is not funny when you consider the real-world impact of such an important lever of our society left comically unguarded. 
 
 The [OSET Institute](https://www.osetfoundation.org/) has compiled some data and an excellent team to work on the technology used for American elections, including defending from [threats of cyberterrorism](https://www.osetfoundation.org/research/2019/02/10/electioncyberterrorism). 
 

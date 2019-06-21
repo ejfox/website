@@ -8,9 +8,11 @@ hidetimestamp: false
 ---
 
 # Computer setup
-There is some part of my personality that identifies with “preppers” who assemble “go bags” in case of emergency. It’s the same part that made me want to buy a manual Honda as my first car, so I could be sure I could drive any car I encountered.
+I’m a big fan of [preparation](https://ejfox.com/blog/step-zero/). There is some part of my personality that identifies with preppers who assemble “go bags” in case of emergency. It’s the same instinct that made me want to buy a manual transmission for my first car. That way I could be sure I could drive any car I encountered.
 
-My technological set-up is similar. There are a lot of things in place that one could argue I don’t need right now, or don’t use regularly. But it makes me feel better because they are already configured and set up in case I need them.
+My technological set-up is similar. There are a lot of things in place that one could argue I don’t need right now, or don’t use regularly, or could be done a bit more automatically. 
+
+But it makes me feel better because they are already configured and set up in case I need them, and I can get fine-tuned control when I need it.
 
 > There are about a hundred little tricks like this that Hiro wouldn't know about if he hadn't been programming avatars for people like Vitaly Chernobyl for the last couple of years. To write a really good invisible avatar from scratch would take a long time, but he puts one together in several hours by recycling bits and pieces of old projects left behind in his computer. Which is how hackers usually do it.
 > <cite>Neal Stephenson, Snow Crash, 1992</cite>
@@ -31,37 +33,65 @@ I’ve also been watching a lot of Mr. Robot lately and it frankly just feels co
 
 The iPhone with Face ID makes opening 1password on-the-go incredibly fast. On the desktop, I open 1password with Alfred, search for the login, and use the “CMD-shift-C” hotkey to copy the password which can be done exclusively from the keyboard relatively quickly.
 
-I use two-factor authentication on every service that offers it. Wherever possible, I [avoid 2FA that uses my phone number](https://authy.com/blog/understanding-2fa-the-authy-app-and-sms/). I really like Authy. The app is designed intelligently and importantly they have planned for the occasion when you upgrade your phone. I recently had to go through the process of removing 2FA from all of my services when I upgraded my iPhone because I was using Google Authenticator which does not support backups. I’m not doing that again.
+I use two-factor authentication on every service that offers it. Wherever possible, I [avoid 2FA that uses my phone number](https://authy.com/blog/understanding-2fa-the-authy-app-and-sms/). I really like Authy. The app is designed intelligently and importantly they have planned for the occasion when I upgrade my phone. I recently had to go through the process of removing 2FA from all of my services when I upgraded my iPhone because I was using Google Authenticator which does not support backups. I’m not doing that again.
 
 ## Using the command line
 I’ve spent a long time halfway comfortable with the command line. Essentially swimming in shallow water with a `cd` here and and `ls` there. I wanted to take some concentrated time to become more familiar with the command line. The eventual goal would be to be able to sign onto any *nix command line and be able to navigate and get stuff done.
 
 For now, I’m just focusing on using the command line more in my everyday life. I am finding there are certain tasks I prefer to tackle in different ways, but part of the process is exposing myself to all the different potential tools I could use.
 
-#### iTerm hotkey window
+### iTerm hotkey window
 At any time I can [easily conjure a terminal](https://www.typefloundry.com/1-800-iterm-bling.html) by pressing “cmd-shift-I” which makes it easier to jump in and out of the CLI with basically no friction.
 
-#### tmux
-I’m also running [tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340) so creating a new window is a quick “ctrl-a c” and I’m off and running. I’ve also been using “ctrl-a w” which is basically a tmux version of alt-tab and lets you go between your different windows with the arrow keys.
+### tmux
+I’m also running [tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340) so creating a new window is a quick “ctrl-a c” and I’m off and running. I’ve also been using “ctrl-a w” which is basically a tmux version of alt-tab and lets me go between my different windows with the arrow keys.
+
+### vim
+I only just started using vim, and it required setting it up *just* right for [my personal setup](https://github.com/ejfox/dotfiles/blob/master/.vimrc “My vim configuration file is hosted on GitHub with the rest of my dotfiles”). I’ve been collecting helpful commands or tools with the [**vim** tag on pinboard](https://pinboard.in/u:ejfox/t:vim)
+- [nerdtree](https://github.com/scrooloose/nerdtree) for a file explorer
+- [fzf](https://github.com/junegunn/fzf#respecting-gitignore-hgignore-and-svnignore) which I’ve remapped to ctrl-p (like Atom) so I can quickly search files in my directory to open
+- [lightline](https://github.com/itchyny/lightline.vim) is a statusline for vim that makes it easy to see what mode I’m in
 
 ### cli tools
 - [lazygit](https://github.com/jesseduffield/lazygit) is an amazing tool for doing most git-related tasks easily and sanely without memorizing tons of commands - I use it all the time in combination with vim
 - [mackup](https://github.com/lra/mackup) has been instrumental for me. It allows you to back up your application settings and dotfiles through Dropbox. It lets a lot of my hotkey and app settings stay the same between my personal and work machine without having to set everything up all the time. It also makes it really easy to spin up on new machines/VMs.
 - [jsonfui](https://github.com/AdrianSchneider/jsonfui) is a great CLI interface for JSON data, and a way more performant way of exploring large datasets than loading them into a Atom or a browser and waiting for the prettification. It's also nice to be able to pipe outputs of node scripts to a quick UI.
+- [fd](https://github.com/sharkdp/fd) as a fast alternative to the native `find` command 
 - [catimg](https://github.com/posva/catimg) allows you to preview images in the terminal which is pretty rad and marginally useful
 - [mutt](https://medium.com/@stessyco/gmail-from-the-command-line-with-mutt-mac-os-x-92d047bcd74f) lets me send and receive email from the command line which is rad and a nice no-frills interface that makes one feel like a Real Hacker
 - [newsboat](https://github.com/newsboat/newsboat) is like mutt for RSS feeds
 - [recon-ng](https://bitbucket.org/LaNMaSteR53/recon-ng) is a tool used for OSINT research, using a variety of Python scripts and APIs to look up publicly available information for research purposes
-- Guys have you heard of this [vim](https://vim.rtorr.com/) thing? Turns out it’s pretty useful (I’d been using nano/textmate/atom for 10+ years, intimidated by seemingly incomprehensible commands).
 
 ## Communicating
 I really love [Keybase](https://keybase.io/)! They make getting started with cryptography really fun. I’ve understood the concepts and methodology of PGP before, and even generated a key and promptly never used it. But Keybase bridged the gap for me.
 
-I now have a [keybase profile](https://keybase.io/ejfox) that lists a handful of verified identities and addresses that are provably me. I am also now hosting my public PGP key at <https://ejfox.com/pgp.txt> so that people who want to send me encrypted messages can do so. It is easy to import with `curl https://ejfox.com/pgp.txt | gpg --import` It’s also nice that, even as much as I trust keybase, the PGP key is [hosted on an HTTPS website that I exclusively control](https://jacob.hoffman-andrews.com/README/the-safe-way-to-put-a-pgp-key-in-your-twitter-bio/).
+I now have a [keybase profile](https://keybase.io/ejfox) that lists a handful of verified identities and addresses that are provably me. I am also now hosting my public PGP key at <https://ejfox.com/pgp.txt> so that people who want to send me encrypted messages can do so. It is easy to import with `curl https://ejfox.com/pgp.txt | gpg --import` 
+
+It’s also nice that, even as much as I trust keybase, the PGP key is [hosted on an HTTPS website that I exclusively control](https://jacob.hoffman-andrews.com/README/the-safe-way-to-put-a-pgp-key-in-your-twitter-bio/). 
+
+My key is also hosted in multiple places, so you can confirm my public key [on GitHub](https://github.com/ejfox.gpg) is the same as the one [I host](https://ejfox.com/pgp.txt) which is the same as the one [on Keybase](https://keybase.io/ejfox/pgp_keys.asc).
+
+A semi-automated way to do this comparison is by appending all 3 keys to a txt file and comparing them[^Or you can just run [this gist](https://gist.github.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542) as a one-liner: `sh -c "$(curl -fsSL https://gist.githubusercontent.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542/raw/0c5724ab43ea5af6a25d3544e43fcfe75bce8d41/verify-pgp.sh)"`]. 
+```bash
+curl https://github.com/ejfox.gpg | gpg --with-colons --import-options import-show --dry-run --import >> fp.txt
+
+curl https://ejfox.com/pgp.txt | gpg --with-colons --import-options import-show --dry-run --import >> fp.txt
+
+curl https://keybase.io/ejfox/pgp_keys.asc | gpg --with-colons --import-options import-show --dry-run --import >> fp.txt
+
+grep 89CD fp.txt
+```
+
+Which should return the same matching fingerprint from all 3 files. [^If any of my publicly-posted keys (or fingerprints) do not match please [contact me immediately](mailto:ejfox@ejfox.com) because something weird is afoot.]
+```
+fpr:::::::::5D30A33E08E35B8915B4C7E2E2078E653FE389CD:
+fpr:::::::::5D30A33E08E35B8915B4C7E2E2078E653FE389CD:
+fpr:::::::::5D30A33E08E35B8915B4C7E2E2078E653FE389CD:
+```
 
 My [website is backed up](https://ejfox.keybase.pub/) on the [Keybase filesystem](https://keybase.io/docs/kbfs) as part of my [site’s deploy process](https://github.com/ejfox/website/blob/master/package.json#L14).
 
-I’ve got the [GPG Suite](https://gpgtools.org/) for OS X which makes it so you can store your PGP key passphrase in the keychain. This makes it easier to do a handful of things, including [signing git commits](https://help.github.com/en/articles/signing-commits) with your key without having to enter your passphrase every time.
+I’ve got the [GPG Suite](https://gpgtools.org/) for OS X which makes it so you can store your PGP key passphrase in the keychain. This makes it easier to do a handful of things, including [signing git commits](https://help.github.com/en/articles/signing-commits) with my key without having to enter my passphrase every time.
 
 I’m also using [FlowCrypt](https://flowcrypt.com/) which makes it easy to encrypt and decrypt emails in gmail through a Chrome extension. Like Keybase, it makes something that has been really complicated before really easy and accessible and low-friction.
 

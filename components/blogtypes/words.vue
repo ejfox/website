@@ -170,9 +170,9 @@ export default {
     // })
     // return markdownRenderer(markdown)
 
-    console.log('markdown-it-footnote', require('markdown-it-footnote'))
+    // console.log('markdown-it-footnote', require('markdown-it-footnote'))
 
-    console.log('markdown-it-anchor', require('markdown-it-anchor').default)
+    // console.log('markdown-it-anchor', require('markdown-it-anchor').default)
 
     const MarkdownIt = require('markdown-it')({
       html: true,

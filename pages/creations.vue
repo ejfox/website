@@ -12,7 +12,9 @@
       <section v-for="block in blocks" :key="block.id" class="dib-l v-mid w-100 w-50-l ma0 pa2 pa4-l">
         <a v-if="block.image"
           :href="block.source ? block.source.url : 'https://www.are.na/block/'+block.id">
-         <img :src="block.image.large.url" :alt="block.generated_title">
+         <img :src="block.image.large.url" 
+          :alt="block.generated_title" 
+          loading="lazy">
         </a>
         <div
            v-if="block.description.length > 1"

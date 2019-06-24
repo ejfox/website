@@ -4,8 +4,6 @@
       <h2>Loading!</h2>
     </section>
 
-
-
     <transition-group
       appear
       mode="out-in"
@@ -14,7 +12,9 @@
       <section v-for="block in blocks" :key="block.id" class="dib v-mid mw5 ma2">
         <a v-if="block.image"
           :href="block.source ? block.source.url : 'https://www.are.na/ej-fox/vibes-y7fex45foi4'">
-          <img :src="block.image.display.url" :alt="block.generated_title">
+          <img :src="block.image.display.url" 
+               :alt="block.generated_title"
+               loading="lazy">
         </a>
       </section>
     </transition-group>

@@ -71,7 +71,7 @@ It’s also nice that, even as much as I trust keybase, the PGP key is [hosted o
 
 My key is also hosted in multiple places, so you can confirm my public key [on GitHub](https://github.com/ejfox.gpg) is the same as the one [I host](https://ejfox.com/pgp.txt) which is the same as the one [on Keybase](https://keybase.io/ejfox/pgp_keys.asc).
 
-A semi-automated way to do this comparison is by appending all 3 keys to a txt file and comparing them[^Or you can just run [this gist](https://gist.github.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542) as a one-liner: `sh -c "$(curl -fsSL https://gist.githubusercontent.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542/raw/0c5724ab43ea5af6a25d3544e43fcfe75bce8d41/verify-pgp.sh)"`]. 
+A semi-automated way to do this comparison is by appending all 3 keys to a txt file and comparing them ^[Or you can just run [this gist](https://gist.github.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542) as a one-liner: `sh -c "$(curl -fsSL https://gist.githubusercontent.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542/raw/0c5724ab43ea5af6a25d3544e43fcfe75bce8d41/verify-pgp.sh)"`]. 
 ```bash
 curl https://github.com/ejfox.gpg | gpg --with-colons --import-options import-show --dry-run --import >> fp.txt
 
@@ -82,7 +82,7 @@ curl https://keybase.io/ejfox/pgp_keys.asc | gpg --with-colons --import-options 
 grep 89CD fp.txt
 ```
 
-Which should return the same matching fingerprint from all 3 files. [^If any of my publicly-posted keys (or fingerprints) do not match please [contact me immediately](mailto:ejfox@ejfox.com) because something weird is afoot.]
+Which should return the same matching fingerprint from all 3 files. ^[If any of my publicly-posted keys (or fingerprints) do not match please [contact me immediately](mailto:ejfox@ejfox.com) because something weird is afoot.]
 ```
 fpr:::::::::5D30A33E08E35B8915B4C7E2E2078E653FE389CD:
 fpr:::::::::5D30A33E08E35B8915B4C7E2E2078E653FE389CD:

@@ -68,10 +68,11 @@ export default {
       $('h3').each(function(i, el){ $(el).addClass('ph3 mv0 ttu gray') })
       $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 gray') })
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
-      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv2 f4-l ph1 ph4-ns lh-copy measure pl5-ns ml1 bl bw2 b--light-gray') })
+
+      $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv2 f4-l ph1 ph4-ns lh-copy measure pl4-ns ml1 bl bw2 b--light-gray') })
       $('blockquote > p').each(function(i, el){
         $(el).removeClass('lh-copy measure center pv3 ph3-ns ph0-m ph0-l')
-        $(el).addClass('i b')
+        $(el).addClass('i')
       })
 
       $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv3 ph1 ba-ns b--gray mw5')
@@ -178,14 +179,14 @@ export default {
       html: true,
       breaks: true,
       typographer: true
-    }).use(require('markdown-it-footnote'))  
+    }).use(require('markdown-it-footnote'))
     .use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
       listType: 'ol',
       slugify: slug
     })
     .use(require('markdown-it-strikethrough-alt'))
-    
+
     return MarkdownIt.render(markdown)
   }
 }

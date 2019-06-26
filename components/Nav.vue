@@ -1,5 +1,7 @@
 <template>
-  <ul id="navigation" class="w-100 list pv3 ph1 bn">
+  <ul
+    role="navigation" aria-label="Site navigation"
+    id="navigation" class="w-100 list pv3 ph1 bn">
     <!-- <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li> -->
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/projects">Projects</nuxt-link></li>
 

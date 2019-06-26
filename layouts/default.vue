@@ -7,13 +7,15 @@
 
     <Nav />
 
-    <transition
-      appear
-      mode="out-in"
-      enter-active-class="animated fadeIn"
-      leave-active-class="animated fadeOut">
-      <nuxt/>
-    </transition>
+    <main>
+      <transition
+        appear
+        mode="out-in"
+        enter-active-class="animated fadeIn"
+        leave-active-class="animated fadeOut">
+        <nuxt/>
+      </transition>
+    </main>
 
     <div class="tc mv2">
       🌞

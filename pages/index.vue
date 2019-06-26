@@ -78,7 +78,7 @@
       </ul>
     </section> -->
 
-    <section class="center db ttu sans-serif ma5 f2 tc">
+    <footer class="center db ttu sans-serif ma5 f2 tc">
       <a
         :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
         href="https://github.com/ejfox">
@@ -90,7 +90,15 @@
         href="http://instagram.com/ejfoxphotos">
         Instagram
       </a>
-      
+
+      <a
+        :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
+        href="https://www.linkedin.com/in/ejfox/">
+        LinkedIn
+      </a>
+
+
+
       <!--
       <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         recent bookmarks
@@ -103,14 +111,13 @@
       <nuxt-link to="/books" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
         books
       </nuxt-link>
-      --> 
+      -->
       <a
       :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
       href="https://calendly.com/ejfox/hangout/">
         calendar
       </a>
-
-    </section>
+    </footer>
 
     <section id="pgp" class="center f2 tc sans-serif ttu gray mv5 lh-copy">
       <p>PGP: <a href="/pgp.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>

@@ -67,6 +67,10 @@ Live election results are not cheap.
 
 Historical data can be found from the above sources as well as from [MIT](https://electionlab.mit.edu/data), [OpenElections](http://www.openelections.net/)
 
+### Geographic Identifiers
+
+#### FIPs Codes
+
 ### Mapping live election results
 At NBC the Big Board is commanded by Steve Kornacki, who is the best in the business if you ask me. He stands by an enormous touch screen showing the latest vote results and explains what is happening and why it is interesting. 
 

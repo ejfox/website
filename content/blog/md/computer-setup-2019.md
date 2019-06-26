@@ -69,7 +69,7 @@ I now have a [keybase profile](https://keybase.io/ejfox) that lists a handful of
 
 It’s also nice that, even as much as I trust keybase, the PGP key is [hosted on an HTTPS website that I exclusively control](https://jacob.hoffman-andrews.com/README/the-safe-way-to-put-a-pgp-key-in-your-twitter-bio/). 
 
-My key is also hosted in multiple places, so you can confirm my public key [on GitHub](https://github.com/ejfox.gpg) is the same as the one [I host](https://ejfox.com/pgp.txt) which is the same as the one [on Keybase](https://keybase.io/ejfox/pgp_keys.asc).
+My key is also hosted in multiple places, so you can confirm my public key [on GitHub](https://github.com/ejfox.gpg)^[Which I use to [sign my commits](https://medium.com/@rwbutler/signing-commits-using-gpg-on-macos-7210362d15)] is the same as the one [I host](https://ejfox.com/pgp.txt) which is the same as the one [on Keybase](https://keybase.io/ejfox/pgp_keys.asc) which is the same as the one [on Wikipedia](https://en.wikipedia.org/wiki/User:Ejfox/Key).
 
 A semi-automated way to do this comparison is by appending all 3 keys to a txt file and comparing them ^[Or you can just run [this gist](https://gist.github.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542) as a one-liner: `sh -c "$(curl -fsSL https://gist.githubusercontent.com/ejfox/d64a7da835ef51ef67c376fdf6d0b542/raw/0c5724ab43ea5af6a25d3544e43fcfe75bce8d41/verify-pgp.sh)"`]. 
 ```bash

@@ -19,7 +19,7 @@ Now, since it’s upgrade to 3.0, I pretty much exclusively use
 
 Mine, for example, automatically pulls in the Router, Vuex, Linter, and Stylus. 
 
-This upgrade also means that my default is now back to Javascript instead of Coffeescript. I still prefer writing Coffeescript, but running it with Vue is annoying, and at least I have fat arrow functions now. My coworkers rejoice. 
+I [recorded a video of myself spinning up a prototype](https://www.youtube.com/watch?v=Q6e4pQccMH4) of a D3 force layout using the techniques I describe below, it’s around 90 minutes but you can tell YouTube to play it double-speed and click around - if you’re curious.  
 
 ## Pulling in data
 In my old starter project, I would pull in data with [d3.queue](https://github.com/ejfox/starter/blob/master/src/coffee/app.coffee#L19) which was super easy and very little code.

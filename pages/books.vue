@@ -87,7 +87,8 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
-import slug from 'slug'
+// import slug from 'slug'
+import slugify from 'slugify'
 import BookList from '~/components/BookList.vue'
 import Nav from '~/components/Nav.vue'
 
@@ -138,7 +139,7 @@ export default {
   },
   methods: {
     bookTitleSlug: function (bookTitleString) {
-      return slug(bookTitleString, {lower: true, symbols: false})
+      return slugify(bookTitleString, {lower: true, symbols: false})
     }
   },
   async asyncData ({ params }) {
@@ -146,11 +147,11 @@ export default {
     let highlights = await import('~/static/data/book_highlights.json');
 
     highlights.map(b => {
-        b.slug = slug(b.title, {lower: true, symbols: false})
+        b.slug = slugify(b.title, {lower: true, symbols: false})
     })
 
     library.map(b => {
-        b.slug = slug(b.Title, {lower: true, symbols: false})
+        b.slug = slugify(b.Title, {lower: true, symbols: false})
     })
     return { library, highlights }
   }

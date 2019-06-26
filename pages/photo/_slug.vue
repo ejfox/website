@@ -22,15 +22,15 @@
 </template>
 
 <script>
-import AudioPlayer from '~/components/AudioPlayer.vue';
-import Words from '~/components/blogtypes/words.vue'
+// import AudioPlayer from '~/components/AudioPlayer.vue';
+// import Words from '~/components/blogtypes/words.vue'
 import Photo from '~/components/Photo.vue'
-import URL from 'url-parse'
-import _ from 'lodash'
-import marked from 'marked'
-import truncate from 'truncate'
-import cheerio from 'cheerio'
-import slug from 'slug'
+// import URL from 'url-parse'
+// import _ from 'lodash'
+// import marked from 'marked'
+// import truncate from 'truncate'
+// import cheerio from 'cheerio'
+// import slug from 'slug'
 
 export default {
   scrollToTop: true,

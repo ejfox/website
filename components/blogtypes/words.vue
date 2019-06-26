@@ -19,11 +19,10 @@
 <script>
 import cheerio from 'cheerio'
 import URL from 'url-parse'
-import _ from 'lodash'
-import marked from 'marked'
+// import _ from 'lodash'
+// import marked from 'marked'
 import truncate from 'truncate'
-import slug from 'slug'
-
+import slugify from 'slugify'
 export default {
   data: function  () {
     return {
@@ -53,7 +52,7 @@ export default {
 
       $('h1, h2, h3, h4, h5').each(function(i, el){
         const headerID = $(el).text()
-        const encodedHeaderID = slug(headerID)
+        const encodedHeaderID = slugify(headerID)
         $(el).attr('id', encodedHeaderID)
       })
 
@@ -182,7 +181,7 @@ export default {
     .use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
       listType: 'ol',
-      slugify: slug
+      slugify: slugify
     })
     .use(require('markdown-it-strikethrough-alt'))
     

@@ -6,17 +6,18 @@
       loading="lazy"/>
     <caption
       v-if="dek">
-      {{ dek }} 
+      {{ dek }}
     </caption>
   </div>
 </template>
 
 <script>
 import URL from 'url-parse'
-import _ from 'lodash' 
+import _ from 'lodash'
 export default {
   props: {
-    url: String
+    url: String,
+    dek: String
   },
   data: function () {
     return {
@@ -36,20 +37,18 @@ export default {
       return srcSet.join(', \n')
     },
     sizes: function () {
-      return `(max-width: 320px) 280px, 
-        (max-width: 720px) 980px, 
+      return `(max-width: 320px) 280px,
+        (max-width: 720px) 980px,
         1000px`
     }
   },
   methods: {
     modifyUrlWithSize: function(url, width, srcset = false) {
       let mURL = new URL(url)
-      console.log('EM URL 1', mURL, url)
       let mURLPaths = mURL.pathname.split('/')
       let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_'+width
       mURLPaths.splice(mURLPaths.length-2, 0, urlAppendString)
       mURL.pathname = mURLPaths.join('/')
-      console.log('EM URL', mURL)
       if (srcset) {
         return mURL.toString() + ` ${width}w`
       } else {
@@ -62,7 +61,7 @@ export default {
 };
 </script>
 <style scoped="true">
-#navigation 
+#navigation
   font-size: 1rem !important;
 
 ul {

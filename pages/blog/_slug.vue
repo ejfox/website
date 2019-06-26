@@ -1,13 +1,7 @@
 <template>
 <div class="slug-container cf">
-  <section id="post-container w-100 fl">
-    <div v-if="inprogress === true"
-      class="bg-dark-gray white pa4 mv2 tc">
-        <h2 class="ma0 pa2 ba br2 w-two-thirds-l center">This post is in progress</h2>
-        <p class="pt3">I would really appreciate your feedback!</p>
-        <p class="pa3">Get in touch...</p>
-        <h3 class="tracked"><a class="white" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="white" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
-    </div>
+  <article id="post-container w-100 fl">
+
 
     <!-- Article header -->
     <header class="ph3-ns w-100">
@@ -21,6 +15,14 @@
         <div class="mv3 i pa3-ns tc tl-ns w-100 db">{{dek}}</div>
       </div>
 
+      <div v-if="inprogress === true"
+        class="bg-dark-gray white pa4 mv2 tc">
+          <h2 class="ma0 pa2 ba br2 w-two-thirds-l center">This post is in progress</h2>
+          <p class="pt3">I would really appreciate your feedback!</p>
+          <p class="pa3">Get in touch...</p>
+          <h3 class="tracked"><a class="white" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="white" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
+      </div>
+
       <!-- Timestamp -->
       <time v-if="!hidetimestamp"
         :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
@@ -28,7 +30,7 @@
       </time>
     </header>
     <!-- Non-audio blog post types -->
-    <article
+    <section
     v-if="type !== 'audio'"
     :class="['w-100  not-audio mb0 pa1 pa3-ns',
               bgcolorclass,
@@ -53,10 +55,10 @@
 
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
-    </article>
+    </section>
 
     <!-- Audio post types -->
-    <article
+    <section
       v-if="type === 'audio'"
       :class="['tc center pa1 pa4-ns mb0']">
       <div v-if="audio" class="w-100">
@@ -68,8 +70,8 @@
       <div id="body" :class="['tl pt4-ns center f3-ns']">
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
-    </article>
-  </section>
+    </section>
+  </article>
 </div>
 </template>
 

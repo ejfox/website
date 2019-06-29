@@ -16,7 +16,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "keybase": "nuxt generate;yes | cp -rf dist/* /keybase/public/ejfox/;echo 'Copied to Keybase public folder'",
-    "publish": "npm run dropbox-import;nuxt generate;npm run keybase;git stage -A;git commit -m 'publish';git push;echo 'Published on Keybase and GitHub (Netlify)'",
+    "publish": "npm run dropbox-import;npm run keybase;git stage -A;git commit -m 'publish';git push;echo 'Published on Keybase and GitHub (Netlify)'",
     "precommit": "npm run lint"
   },
   "dependencies": {

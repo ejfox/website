@@ -31,7 +31,7 @@
     "lodash": "^4.17.11",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.4",
-    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-footnote": "github:ejfox/markdown-it-footnote",
     "markdown-it-github-headings": "^1.1.1",
     "markdown-it-strikethrough-alt": "^1.0.0",
     "markdown-it-table-of-contents": "^0.4.4",

@@ -19,7 +19,7 @@ This great country contains lots of different people with lots of different ways
 ## Election day
 We have grown accustomed to live results of elections. This is definitely not something our grandfathers had and is mind-bogglingly complex once you start to think about it. 
 
-With American elections “live” does not mean getting the results of votes immediately after they are cast. The closest we can get for now is seeing vote results as they are counted after polls close. [^0] 
+With American elections “live” does not mean getting the results of votes immediately after they are cast. The closest we can get for now is seeing vote results as they are counted after . [^0] 
 
 The basic rules around voting are laid out in the constitution[^1] but a remarkable amount of the nitty-gritty details are [left up to each state](https://www.brennancenter.org/analysis/voting-laws-roundup-2019) to figure out. 
 

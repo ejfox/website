@@ -178,7 +178,9 @@ export default {
       html: true,
       breaks: true,
       typographer: true
-    }).use(require('@ejfox/markdown-it-footnote'))
+    })
+    .use(require('markdown-it-footnote'))
+    //.use(require('../../helpers/footnote.js'))
     .use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
       listType: 'ol',

@@ -8,7 +8,7 @@ hidetimestamp: false
 ---
 
 # Computer setup
-I’m a big fan of [preparation](https://ejfox.com/blog/step-zero/). There is some part of my personality that identifies with preppers who assemble “go bags” in case of emergency. It’s the same instinct that made me want to buy a manual transmission for my first car. That way I could be sure I could drive any car I encountered.
+I’m a big fan of [preparation](https://ejfox.com/blog/step-zero/). There is some part of my personality that identifies with preppers who assemble [go bags](https://en.wikipedia.org/wiki/Survival_kit) in case of emergency. It’s the same instinct that made me want to buy a manual transmission for my first car. That way I could be sure I could drive any car I encountered.
 
 My technological set-up is similar. There are a lot of things in place that one could argue I don’t need right now, or don’t use regularly, or could be done a bit more automatically. 
 
@@ -56,6 +56,7 @@ I only just started using vim, and it required setting it up *just* right for [m
 - [lazygit](https://github.com/jesseduffield/lazygit) is an amazing tool for doing most git-related tasks easily and sanely without memorizing tons of commands - I use it all the time in combination with vim
 - [mackup](https://github.com/lra/mackup) has been instrumental for me. It allows you to back up your application settings and dotfiles through Dropbox. It lets a lot of my hotkey and app settings stay the same between my personal and work machine without having to set everything up all the time. It also makes it really easy to spin up on new machines/VMs.
 - [jsonfui](https://github.com/AdrianSchneider/jsonfui) is a great CLI interface for JSON data, and a way more performant way of exploring large datasets than loading them into a Atom or a browser and waiting for the prettification. It's also nice to be able to pipe outputs of node scripts to a quick UI.
+- [things.sh](https://github.com/alexanderwillner/things.sh/) lets me check my [Things](https://culturedcode.com/) to-do list from the command line. [^I have two aliases: `alias todo="things.sh"` and `alias today="todo today | awk 'BEGIN{FS=OFS=\"|\"}{\$1=\$3=\"\";gsub(/[|]+/,\"|\")}1' | tr -d '|'"` to quickly show today’s tasks with `today`.]
 - [fd](https://github.com/sharkdp/fd) as a fast alternative to the native `find` command 
 - [catimg](https://github.com/posva/catimg) allows you to preview images in the terminal which is pretty rad and marginally useful
 - [mutt](https://medium.com/@stessyco/gmail-from-the-command-line-with-mutt-mac-os-x-92d047bcd74f) lets me send and receive email from the command line which is rad and a nice no-frills interface that makes one feel like a Real Hacker

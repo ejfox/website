@@ -16,14 +16,14 @@ This is a list of all of those movies, cultural touchstones, that I should proba
 Wish me luck.
 
 - The Godfather 1
-- The godfather 2
+- The Godfather 2
 - Mulholland drive (1999)
-- —Annie hall—
+- --Annie hall--
 - Duck soup
 - Idiocracy
-- The third man
+- The Third Man
 - Groundhog day
-- The shining
+- The Shining
 - The great Gatsby 
 - Schindler’s List
 - Pulp Fiction
@@ -56,7 +56,6 @@ Wish me luck.
 - The Crying Game
 - Safe
 - Metropolitan (1990)
-- Annie Hall
 - My Own Private Idaho
 - Eternal Sunshine of the Spotless Mind
 - Gummo
@@ -74,17 +73,17 @@ Wish me luck.
 - Life Itself (2014)
 - Deliver Us from Evil (2006)
 - Seymour: An Introduction
-- Rebel without a cause 
-- A fistful of dollars (1964)
+- Rebel Without A Cause 
+- A Fistful Of Dollars (1964)
 - Sunrise (1927)
 - Bringing up baby (1938)
 - The day the earth stood still
 - 8 1/2 (1963)
-- The cabinet of Dr caligari (1920)
-- The phantom carriage (1921)
-- The gold rush (1925)
-- The oyster princess (1919)
+- The Cabinet of Dr Caligari (1920)
+- The Phantom Carriage (1921)
+- The Gold Rush (1925)
+- The Oyster Princess (1919)
 - Sherlock Jr. (1924)
-- Man with a movie camera (1929)
+- Man With A Movie Camera (1929)
 - An Andalusian Dog (1928)
 - Rosemarys Baby

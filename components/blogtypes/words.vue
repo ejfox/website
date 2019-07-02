@@ -60,14 +60,16 @@ export default {
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
       $('pre').each(function(i, el){ $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns') })
-      $('code').each(function(i, el){ $(el).addClass('bg-dark-gray white br1 f6') })
+      $('code').each(function(i, el){ $(el).addClass('bg-dark-gray ph1 white br1 f6') })
       $('p > ul li').each(function(i, el){ $(el).addClass('mb2') })
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
       $('h2').each(function(i, el){ $(el).addClass('ph3 mv2 dark-gray') })
       $('h3').each(function(i, el){ $(el).addClass('ph3 mv0 ttu gray') })
       $('h4').each(function(i, el){ $(el).addClass('ph3 mv0 gray') })
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
-
+      $('hr').each(function(i, el){
+        $(el).addClass('center ma4 b--light-gray bt bw1')
+      })
       $('blockquote').each(function(i, el){ $(el).addClass('dark-gray mv2 f4-l ph1 ph4-ns lh-copy measure pl4-ns ml1 bl bw2 b--light-gray') })
       $('blockquote > p').each(function(i, el){
         $(el).removeClass('lh-copy measure center pv3 ph3-ns ph0-m ph0-l')

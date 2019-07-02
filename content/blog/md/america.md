@@ -35,11 +35,11 @@ The powers that be seem to have fracked out every possible wedge that could be d
 
 Can you imagine people used to ask their neighbors for sugar?
 
--
+---
 
 On May 1st in New York City in 2017 I found a group of Trump supporters surrounded by police, yelling insults and joking chants at the much larger crowd passing, assembled to celebrate [May Day](https://en.wikipedia.org/wiki/International_Workers%27_Day) or International Workers’ Day (celebrated by socialists, communists, and all stripes of leftists). 
 
-The vulgar teenagers I encountered waved around a variety of flags and signs with symbols that referenced Trump and very online alt-right 4chan memes in equal measure. One was a green [flag for “kekistan”](https://www.bustle.com/p/what-is-the-kekistan-flag-heres-whats-behind-that-obscure-alt-lite-banner-2367689) a meme-joke-fictional country. The flag’s design modeled on [a 1930s Nazi war flag](https://en.wikipedia.org/wiki/Reichskriegsflagge#/media/File:War_Ensign_of_Germany_(1935-1938\).svg), a wink to very-online wannabe fascists in the know. 
+The vulgar teenagers I encountered waved around a variety of flags and signs with symbols that referenced Trump and very online alt-right 4chan memes in equal measure. One was a green [flag for “kekistan”](https://www.bustle.com/p/what-is-the-kekistan-flag-heres-whats-behind-that-obscure-alt-lite-banner-2367689) a meme-joke-fictional country. The flag’s design modeled on a 1930s Nazi war flag^[<https://en.wikipedia.org/wiki/Reichskriegsflagge#/media/File:War_Ensign_of_Germany_(1935-1938\).svg>], a wink to very-online wannabe fascists in the know. 
 
 They were all young men, some white, a few latino, a few with yarmulkes on their heads. They laughed with glee as they shouted meta self-referential memes. 
 

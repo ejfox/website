@@ -87,3 +87,10 @@ Wish me luck.
 - Man With A Movie Camera (1929)
 - An Andalusian Dog (1928)
 - Rosemarys Baby
+
+<style>
+li { 
+	font-weight: bold; 
+	text-transform: capitalize;
+}
+</style>

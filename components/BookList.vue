@@ -5,19 +5,21 @@
       itemprop="mainEntity"
       itemscope
       itemtype="http://schema.org/Book"
-      class="book db mb3 mb4-l pv1">
-      <a class="i b f4-ns link black"
+      :class="['book db mb3 mb4-l pa1 ph3-l', current ? 'current' : '']">
+      <a class="b link black"
         itemprop="name"
         :href="'#'+book.slug"
         :title="book['Number of Pages']+' pages, Avg goodreads rating: '+ratingToStars(book['Average Rating'])">
         {{book.Title}}
       </a>
 
-      <span class="ph2" itemprop="author">
+      <span class="pl2 gray" itemprop="author">
         {{book.Author}}
       </span>
 
-      <span class="gray" itemprop="ratingValue"
+      <span 
+        v-if="!current"
+        class="gray" itemprop="ratingValue"
         :class="[book['My Review'].replace(/<(?:.|\n)*?>/gm, '') === '' ? '' : 'yellow pointer']"
         :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')">
         {{ratingToStars(book['My Rating'])}}
@@ -42,6 +44,12 @@
 <script>
 export default {
   props: {
+    current: {
+      type: Boolean,
+      default: function () {
+        return false
+      }
+    },
     books: { type: Array, default: function () { return []} }
   },
   data: function () {

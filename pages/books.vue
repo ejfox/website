@@ -6,9 +6,9 @@
     </section>
 
     <section
-      class="mv4 pa4 pb0 b--gray ba measure center">
+      class="mv4 ph2 pb1 black b--gray bn bg-moon-gray f6 lh-solid w-two-thirds-ns center">
       <h2 class="mb2 dark-gray tc lh-title">Currently reading</h2>
-      <BookList :books="currentReadingLibrary" />
+      <BookList :current="true" :books="currentReadingLibrary" />
     </section>
 
     <h2 class="mb2 dark-gray">Books read</h2>
@@ -164,6 +164,10 @@ export default {
   grid-column-gap: 5px;
   padding-top: 5px;
 }
+.book.current {
+  grid-template-columns: 65% 1fr;
+}
+
 #footer {
   font-size: 14px;
   font-family: Courier, 'Courier New', monospace;

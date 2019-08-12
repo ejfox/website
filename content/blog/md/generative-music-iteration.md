@@ -25,22 +25,7 @@ But first I need to find a rough direction to set out towards.
 [[toc]]
 
 ## What do I want to create?
-### A beat
-A traditional hip-hop beat is composed of a few things
-+ A sample of another piece of music, often strings
-+ A beat composed of kick, snare, and hi-hat samples
-+ Some swing or groove
-+ Trap beats often have 16th and 32nd note hi-hats
 
-What are the building blocks of the system we are working in?
-
-## Music systems
-
-#### Rhythm
-
-#### Scales
-
-#### Loops
 
 ## Mise-en-place
 
@@ -55,3 +40,5 @@ To begin, let’s make ourselves a sandbox to play in and get everything in plac
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
+
+## What are the building blocks of the system we are working in?

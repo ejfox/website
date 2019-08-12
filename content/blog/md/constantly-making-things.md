@@ -20,7 +20,7 @@ My mantra has been "seedlings"; planting, growing, absorbing one's environment.
 
 I basically spent the last 2 years making [one thing](https://www.newscaststudio.com/2018/11/05/nbc-big-board-update/). One big, complicated, amazing thing. I made lots of other little things on the side, but it was almost like cheating. It sometimes felt like I was stealing energy away from my big project to work on something small, creative, and different on the weekend. 
 
-I have always focused on working on whatever people will pay me for. I am a designer after all. [^That has always been the central difference –in my understanding – between an *artist* and a *designer*. **Artists make whatever they want** and hope someone buys it. **Designers work with a client**, iterate, and ensure they are enacting a client’s vision. The lines are blurry, but this is my rudimentary understanding.]
+I have always focused on working on whatever people will pay me for. I am a designer after all. ^ge[That has always been the central difference –in my understanding – between an *artist* and a *designer*. **Artists make whatever they want** and hope someone buys it. **Designers work with a client**, iterate, and ensure they are enacting a client’s vision. The lines are blurry, but this is my rudimentary understanding.]
 
 Sometimes it feels futile, as it is tempting to be drawn into a hole of past goals and dreams that have not yet been attained. 
 

@@ -1,5 +1,5 @@
 ---
-dek: In which the author works to define the Yin and Yang of New York, the history of oscillation between urban and rural, upstate and the city. 
+dek: In which the author works to define the Yin and Yang of New York– the history of oscillation between upstate (rural) and the city (urban)
 type: words
 hidden: true
 inprogress: false
@@ -9,11 +9,17 @@ hidetimestamp: false
 
 # Finding balance
 
-I’m smoking a new strain this morning. In my experiment with reducing my intake of internet and increasing my intake of books I decided to find the book on my shelf with large photographs of beautiful cannabis buds and descriptions of their lineage. The zip loc bag full of beautiful green buds in front of me is labeled “G-13, 1/2”. I flip my book past D, E, and F, slowing down at G and eventually finding my desired page describing the half ounce I purchased a few days ago. 
+I’m smoking a new strain this morning. In my experiment with reducing my intake of internet and increasing my intake of books I decided to find the book on my shelf with large photographs of beautiful cannabis buds and descriptions of their lineage. 
 
-G-13 is a strain, it is said, originally developed by the government. This is likely folklore or good marketing, reinforced by an excellent mock-historical scene in the movie Pineapple Express. My book describes it as a “rare daytime indica”. 
+The zip loc bag full of beautiful green flowers in front of me is labeled “G-13, 1/2”. I flip my book past D, E, and F, slowing down at G and finding my desired page describing the half ounce I purchased a few days ago. 
 
-This is interesting because I was just having a conversation with a friend of mine on my stoop last night about that particular thing. I had taken the train back down from the Hudson Valley where I had spent the weekend for a friend’s annual birthday party held in a beautiful remote corner of Orange County where you are surrounded by lush green fields and woods you could spend a lifetime exploring. I was back in Brooklyn, carrying a heavy backpack with everything I need to live and sleep for a while and a tote bag of books I had purchased at the Newburgh Barnes & Noble. I had finally mad it home and walked eagerly to my front door, sprawling my heavy bags aside to free my hands to open the door. At that moment, I realized that my apartment keys were sitting nearly 100 miles away on the dashboard of my Honda Element parked in the driveway of my parent’s house. 
+G-13 is a strain, it is said, originally developed by the government. This is likely apocryphal, reinforced by an excellent mock-historical scene in the movie Pineapple Express. My book describes it as a “rare daytime indica”. 
+
+This is interesting because I was  having a conversation with a friend of mine on my stoop last night about that particular thing. I had taken the train back down from the Hudson Valley where I had spent the weekend for a friend’s annual birthday party held in a beautiful remote corner of Orange County where you are surrounded by lush green fields and woods you could spend a lifetime exploring. 
+
+Back in Brooklyn, carrying a heavy backpack with everything I need to live and sleep for a while plus a tote bag of books I had purchased at the Newburgh Barnes & Noble. 
+
+I finally made it home and walked eagerly to my front door, sprawling my heavy bags aside to free my hands to grab my keys. At that moment, I realized that my apartment keys were sitting nearly 100 miles away on the dashboard of my Honda Element parked in the driveway of my parent’s house. 
 
 Normally I have prepared secretive entry methods in case of this particular emergency. I could, of course, wait for my neighbors to come home and let me into the backyard where I have prepared additional secretive entry methods- but our last conversation was my displeasure at their sound levels which ultimately concluded in the landlord sending them an email to either be quieter or have their beautiful hardwood floors reduced to carpeting. They have been quieter since, but I notice them slowly increasing the default volume of the stereo on which they place hideously bad country music with plodding aimless basslines that occasionally pervade my apartment, filling me with misguided rage. I am disinclined to ask them for a favor unless I really need to at this point. 
 

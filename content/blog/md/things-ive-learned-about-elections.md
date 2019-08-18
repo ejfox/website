@@ -114,14 +114,14 @@ Jack Shafer wrote in Politico about why [horse race election coverage might be g
 
  > By giving voters a window on the closed world of insider politics, horse-race stories help focus reader attention on the races. Without the work of election handicappers, coverage would come to resemble an endless series of policy white papers that nobody reads. The presidential campaign has another 22 months to run, leaving plenty of time and space to explore the contest from multiple perspectives. 
 
-### 2001 election night
-A CNN internal report called their own election night coverage in 2001 [“a disaster”](https://www.nytimes.com/2001/02/03/us/report-calls-networks-election-night-coverage-a-disaster.html).
+### 2000 election night
+A CNN internal report called their own election night coverage in 2000 [“a disaster”](https://www.nytimes.com/2001/02/03/us/report-calls-networks-election-night-coverage-a-disaster.html).
 
 > Following the election night coverage – in which CNN, ABC, CBS, NBC, Fox and MSNBC all made wrong calls on the Florida vote – several networks ordered investigations of their coverage.
 
 > Based largely on exit polling, the networks first declared Mr. Gore the winner in Florida, only to give the state to Mr. Bush later. Ultimately the networks backed off again, declaring the race undecided.
 
-The coverage of 2001’s presidential election lead to executives from CBS, CNN, Fox, NBC, and the AP being [called to testify in front of congress](https://www.rcfp.org/networks-answer-congress-election-night-coverage/) by committee chair “Billy” Tauzin (R-La.). 
+The coverage of 2000’s presidential election lead to executives from CBS, CNN, Fox, NBC, and the AP being [called to testify in front of congress](https://www.rcfp.org/networks-answer-congress-election-night-coverage/) by committee chair “Billy” Tauzin (R-La.). 
 
 > Much of the testimony focused on the networks’ reliance on exit polls and the flaws in the VNS system of conducting the polls.
 

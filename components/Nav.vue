@@ -5,7 +5,7 @@
     <!-- <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li> -->
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/projects">Projects</nuxt-link></li>
 
-    <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/bookmarks">Bookmarks</nuxt-link></li>
+    <!-- <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/bookmarks">Bookmarks</nuxt-link></li> -->
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/books">Books</nuxt-link></li>
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/vibes">Vibes</nuxt-link></li>
     <!-- <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/creations">Creations</nuxt-link></li> -->

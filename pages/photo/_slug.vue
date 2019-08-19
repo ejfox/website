@@ -1,7 +1,6 @@
 <template>
 <div class="slug-container cf">
   <section id="post-container w-100">
-    <!-- Audio post types -->
     <article
       :class="['tc center pa1 pa4-ns mb0']">
       
@@ -15,7 +14,6 @@
         :class="['f4 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-20 tc']">
         <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
       </time>
-      
     </article>
   </section>
 </div>
@@ -35,7 +33,6 @@ import Photo from '~/components/Photo.vue'
 export default {
   scrollToTop: true,
   components: {
-    AudioPlayer,
     Words,
     Photo
   },

@@ -1,11 +1,5 @@
 <template>
 <div class="slug-container cf">
-  <ul class="dn w-100 fl list pa3 bb bt b--dark-gray bn-ns">
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/">Home</nuxt-link></li>
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/bookmarks">Bookmarks</nuxt-link></li>
-    <li class="ph3-ns"><nuxt-link class="link underline" to="/vibes">Vibes</nuxt-link></li>
-  </ul>
-
   <section id="post-container w-100">
     <!-- Article header -->
     <header class="ph3-ns w-100">
@@ -54,7 +48,6 @@ export default {
   scrollToTop: true,
   components: {
     AudioPlayer,
-    Words
   },
   data: function () {
     return {
@@ -113,13 +106,13 @@ export default {
         xhtml: true
       })
       let parsedMarkdown = markdownRenderer(markdown)
+      return parsedMarkdown
 
       // Load parsed markdown into cheerio so we can do
       // jquery-style manipulations on the HTML
-      const $ = cheerio.load(parsedMarkdown)
-
+      // const $ = cheerio.load(parsedMarkdown)
       // return parsed, sliced, and diced markdown
-      return $.html()
+      //return $.html()
     }
   },
 };

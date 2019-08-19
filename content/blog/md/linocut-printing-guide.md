@@ -42,7 +42,7 @@ In a world different but very similar to ours I can imagine that our networks ha
 ### Creating your image
 The easiest method I have found for creating an image that you want to print by hand is to start the drawing on tracing paper. It is cheap, plentiful, and to iterate you can lay one sheet over the other. You can rearrange things slightly until everything is proportioned to your liking. (You can also use a projector to project the image onto your tracing paper or the reversed image directly onto the linoleum)
 
-<img src=“https://res.cloudinary.com/ejf/image/upload/v1566227287/Screenshot_2019-08-19_10.58.23.png” />
+![The design for the 30th anniversary print, created in Illustrator for easy iteration and reversing](https://res.cloudinary.com/ejf/image/upload/v1566227287/Screenshot_2019-08-19_10.58.23.png)
 
 Once I am happy with the design I retrace over the outlines pressing hard with a soft pencil. When the tracing paper is flipped and laid on top of the linoleum you can see the reversed design. The pencil side is touching the block, so you can carefully rub on your outlines. This leaves an imprint of the lines and you hope that enough pencil residue is left that you can properly trace them. 
 
@@ -60,7 +60,7 @@ You focus on very mechanical and physical things; the placement of your fingers,
 
 By the way, the carving process takes a while. On a recent 11 x 18 poster-sized project, I forgot exactly how long and ended up carving from **noon to 10pm on day one, and 10am to 6pm on day two**. That is not very long to create an object that can be used to distribute information in huge quantities without electricity but it’s not a short amount of time either. 
 
-<img src=“//res.cloudinary.com/ejf/image/upload/v1566227082/58619413690__0265EC66-47DB-41FB-9236-18FEC827D42A.jpg” />
+![The carving stage, starting with smaller blades and working up to wider scoops for big areas. Ideally carving in the same direction maintains consistency and looks better, but it isn’t always possible.](https://res.cloudinary.com/ejf/image/upload/v1566227082/58619413690__0265EC66-47DB-41FB-9236-18FEC827D42A.jpg)
 
 This leads one to think very deeply and carefully about the things that deserve being committed to linoleum. If it took two days to carve out your 280 characters on twitter it would likely be a very different place. This is another gift of the medium. 
 
@@ -75,7 +75,7 @@ I don’t think that is necessarily a better way to create, but it is undeniably
 ### Printing
 The process of printing a linocut, once you have [assembled your mise en place](https://ejfox.com/blog/step-zero), is astoundingly easy and efficient. I have also done the field research and the entire process of laying out ink, laying the paper, rubbing it, and slowly unpeeling the print can be conducted by a reasonably intelligent child. I say this as a form of the strongest encouragement to try it yourself.
 
-<img src=“//res.cloudinary.com/ejf/image/upload/v1566227086/IMG_3293.jpg”>
+![A few prints on watercolor drying on the clothesline](https://res.cloudinary.com/ejf/image/upload/v1566227086/IMG_3293.jpg)
 
 The linocut I had created- the largest one I’ve done yet– was created for the 30th anniversary of the [summer camp](freespiritnaturecamp.com) owns and runs in New York’s Hudson Valley. I attended my entire childhood and made lifelong friends there. The 30th anniversary seemed like the type of thing that would make the cut <small>(sorry)</small> for committing to a physical form. I also thought it would be cool for people to print their own posters– each one comes out one of a kind <small>(just like us, aw!)</small>. 
 

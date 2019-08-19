@@ -56,6 +56,7 @@ export default {
         $(el).attr('id', encodedHeaderID)
       })
 
+      $('iframe').each(function(i, el){ $(el).addClass('mh3-ns') })
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
@@ -76,7 +77,7 @@ export default {
         $(el).addClass('i')
       })
 
-      $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv3 ph1 ba-ns b--gray mw5')
+      $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv1 ph1 ba-ns b--gray mw5')
       $('.footnotes').first().addClass('')
 
       $('.footnote-ref a').each(function(i, el){ $(el).addClass('link sans-serif o-50-ns') })

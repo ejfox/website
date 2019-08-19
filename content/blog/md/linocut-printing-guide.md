@@ -60,7 +60,7 @@ You focus on very mechanical and physical things; the placement of your fingers,
 
 By the way, the carving process takes a while. On a recent 11 x 18 poster-sized project, I forgot exactly how long and ended up carving from **noon to 10pm on day one, and 10am to 6pm on day two**. That is not very long to create an object that can be used to distribute information in huge quantities without electricity but it’s not a short amount of time either. 
 
-<img src=“https://res.cloudinary.com/ejf/image/upload/v1566227082/58619413690__0265EC66-47DB-41FB-9236-18FEC827D42A.jpg” />
+<img src=“//res.cloudinary.com/ejf/image/upload/v1566227082/58619413690__0265EC66-47DB-41FB-9236-18FEC827D42A.jpg” />
 
 This leads one to think very deeply and carefully about the things that deserve being committed to linoleum. If it took two days to carve out your 280 characters on twitter it would likely be a very different place. This is another gift of the medium. 
 
@@ -75,7 +75,7 @@ I don’t think that is necessarily a better way to create, but it is undeniably
 ### Printing
 The process of printing a linocut, once you have [assembled your mise en place](https://ejfox.com/blog/step-zero), is astoundingly easy and efficient. I have also done the field research and the entire process of laying out ink, laying the paper, rubbing it, and slowly unpeeling the print can be conducted by a reasonably intelligent child. I say this as a form of the strongest encouragement to try it yourself.
 
-<img src=“https://res.cloudinary.com/ejf/image/upload/v1566227086/IMG_3293.jpg”>
+<img src=“//res.cloudinary.com/ejf/image/upload/v1566227086/IMG_3293.jpg”>
 
 The linocut I had created- the largest one I’ve done yet– was created for the 30th anniversary of the [summer camp](freespiritnaturecamp.com) owns and runs in New York’s Hudson Valley. I attended my entire childhood and made lifelong friends there. The 30th anniversary seemed like the type of thing that would make the cut <small>(sorry)</small> for committing to a physical form. I also thought it would be cool for people to print their own posters– each one comes out one of a kind <small>(just like us, aw!)</small>. 
 
@@ -100,8 +100,3 @@ Plus, it draws a crowd. People seem to have an innate respect for any message th
 It was a really interesting experience watch children make prints. They would lay down the ink and then together, we would line the paper up, with them carefully pulling things into symmetry. As you rub the paper you can begin to see the shapes of the letters emerge, and I taught them to carefully check and go over any areas that looked like they needed more work. 
 
 As they lifted the print up they all smiled. They had a clear sense of making a physical object. They had put the work in and all of their choices and mistakes were reflected in their creation. I really liked that they got that without even needing to carve it. It comes from putting the work into making something exist that didn’t exist before. 
-
-<video controls>
-	<source src=“https://res.cloudinary.com/ejf/video/upload/v1566227104/IMG_3224.mp4” type=“video/mp4”>
-	<p><a href=“https://res.cloudinary.com/ejf/video/upload/v1566227104/IMG_3224.mp4”>Watch video of a print being lifted</a>
-</video controls>

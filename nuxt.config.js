@@ -78,7 +78,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '📧 ejfox@ejfox.com  📺 Interactive Graphics @ NBC News  💻 Hacker-journalist  🔑 PGP: https://ejfox.com/pgp.txt' },
+      { hid: 'description', name: 'description', content: '💻 Hacker-journalist – 📧 ejfox@ejfox.com ' },
       { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert' },
     ],
     link: [

@@ -100,16 +100,16 @@ export default {
   head () {
     return {
       title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
-      meta: [{
-        'name': 'EJ Fox | ' + this.title,
-        'description': this.shortDescription,
-        'og:description': this.shortDescription,
-        'og:title': 'EJ Fox | ' + this.title,
-        'og:type': 'article',
-        'twitter:title': 'EJ Fox | ' + this.title,
-        'twitter:creator': 'mrejfox',
-        'twitter:description': this.emojiIcon + ' ' + this.shortDescription
-      }]
+      meta: [
+        { 'name': this.title },
+        { 'description': this.shortDescription },
+        { 'og:description': this.shortDescription },
+        { 'og:title': 'EJ Fox | ' + this.title },
+        { 'og:type': 'article' },
+        { 'twitter:title': 'EJ Fox | ' + this.title },
+        { 'twitter:creator': 'mrejfox' },
+        { 'twitter:description': this.emojiIcon + ' ' + this.shortDescription }
+      ]
     }
   },
   async asyncData({ params }) {

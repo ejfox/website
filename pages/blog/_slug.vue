@@ -104,9 +104,9 @@ export default {
         { property: 'name', content: this.title },
         { property: 'description', content: this.shortDescription },
         { property: 'og:description', content: this.shortDescription },
-        { property: 'og:title', content: 'EJ Fox | ' + this.title },
+        { property: 'og:title', content: this.title },
         { property: 'og:type', content: 'article' },
-        { property: 'twitter:title', content: 'EJ Fox | ' + this.title },
+        { property: 'twitter:title', content: this.title },
         { property: 'twitter:creator', content: 'mrejfox' },
         { property: 'twitter:description', content: this.emojiIcon + ' ' + this.shortDescription }
       ]

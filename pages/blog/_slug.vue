@@ -132,9 +132,13 @@ export default {
     // })
     // post.toc = toc
 
-    let noHtmlBody = post.body
-    noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
-    post.shortDescription = truncate(noHtmlBody, 120)
+    if(!post.dek) {
+      let noHtmlBody = post.body
+      noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
+      post.shortDescription = truncate(noHtmlBody, 120)
+    } else {
+      post.shortDescription = post.dek
+    }
     return post;
   },
   created: function () {

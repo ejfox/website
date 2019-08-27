@@ -101,14 +101,14 @@ export default {
     return {
       title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
       meta: [
-        { 'name': this.title },
-        { 'description': this.shortDescription },
-        { 'og:description': this.shortDescription },
-        { 'og:title': 'EJ Fox | ' + this.title },
-        { 'og:type': 'article' },
-        { 'twitter:title': 'EJ Fox | ' + this.title },
-        { 'twitter:creator': 'mrejfox' },
-        { 'twitter:description': this.emojiIcon + ' ' + this.shortDescription }
+        { property: 'name', content: this.title },
+        { property: 'description', content: this.shortDescription },
+        { property: 'og:description', content: this.shortDescription },
+        { property: 'og:title', content: 'EJ Fox | ' + this.title },
+        { property: 'og:type', content: 'article' },
+        { property: 'twitter:title', content: 'EJ Fox | ' + this.title },
+        { property: 'twitter:creator', content: 'mrejfox' },
+        { property: 'twitter:description', content: this.emojiIcon + ' ' + this.shortDescription }
       ]
     }
   },

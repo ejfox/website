@@ -161,15 +161,15 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   h1, h2, h3, h4, h5 {
     word-wrap: break-word;
     hyphens: auto;
   }
 }
 
-.f-headline {
-  @media (min-width: 640px) {
+@media screen and (min-width: 640px) {
+  .f-headline {
     font-size: 10rem;
   }
 }

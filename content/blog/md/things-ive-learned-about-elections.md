@@ -39,6 +39,8 @@ For example the [2016 Presidential Race](https://ballotpedia.org/Presidential_el
 ## Voting
 Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx). [39 states](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx#overview) have mechanisms for early voting, 28 allow no-excuse absentee votes, 19 allow voting with an “accepted excuse”. [36 million people voted early in the midterm election.](https://www.politico.com/story/2018/11/05/early-voting-turnout-2018-elections-midterms-963149) - that’s about 30% of the [117 million](http://www.electproject.org/2018g) total votes cast. 
 
+When reporting votes, absentee votes are typically only available at the county-level and not be precinct. 
+
 ### Voting systems
 + [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 
 + [Runoff voting](https://en.wikipedia.org/wiki/Two-round_system) works similarly, but there is a minimum amount of votes required. If no candidate exceeds that minimum, some candidates are eliminated and a second round of the election is held (usually with the top 2 ranked candidates).

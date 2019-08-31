@@ -77,7 +77,7 @@ The process of printing a linocut, once you have [assembled your mise en place](
 
 ![A few prints on watercolor drying on the clothesline](https://res.cloudinary.com/ejf/image/upload/v1566227086/IMG_3293.jpg)
 
-The linocut I had created- the largest one I’ve done yet– was created for the 30th anniversary of the [summer camp](freespiritnaturecamp.com) owns and runs in New York’s Hudson Valley. I attended my entire childhood and made lifelong friends there. The 30th anniversary seemed like the type of thing that would make the cut <small>(sorry)</small> for committing to a physical form. I also thought it would be cool for people to print their own posters– each one comes out one of a kind <small>(just like us, aw!)</small>. 
+The linocut I had created- the largest one I’ve done yet– was created for the 30th anniversary of the [summer camp](http://freespiritnaturecamp.com) owns and runs in New York’s Hudson Valley. I attended my entire childhood and made lifelong friends there. The 30th anniversary seemed like the type of thing that would make the cut <small>(sorry)</small> for committing to a physical form. I also thought it would be cool for people to print their own posters– each one comes out one of a kind <small>(just like us, aw!)</small>. 
 
 You spread the ink out on a very flat and smooth surface- I bought a speedball device that doubles as a hook for your desk, holding the linoleum close without you having to hold it from slipping (very handy). 
 

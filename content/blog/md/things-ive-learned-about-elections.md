@@ -41,6 +41,18 @@ Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl
 
 When reporting votes, absentee votes are typically only available at the county-level and not be precinct. 
 
+### Voter Registration
+In order to vote, an eligible potential voter must register. Voter registration is handled by government officials on the county and state level.
+
+Once registered on voter records, voters can be removed for any of the following reason:
+Voters can be removed from records for a few reasons:
+- Disenfranchising criminal conviction
+- Mental incapacity
+- Death
+- Change in residence
+- Never eligible: under 18 or noncitizen
+- Voter self-requests removal
+
 ### Voting systems
 + [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 
 + [Runoff voting](https://en.wikipedia.org/wiki/Two-round_system) works similarly, but there is a minimum amount of votes required. If no candidate exceeds that minimum, some candidates are eliminated and a second round of the election is held (usually with the top 2 ranked candidates).
@@ -52,11 +64,13 @@ When reporting votes, absentee votes are typically only available at the county-
 The Center for Civic Design has a [great guide](https://civicdesign.org/fieldguides/designing-usable-ballots/) for designing ballots so they are usable, which [they are often not](https://www.propublica.org/article/disenfranchised-by-bad-design). 
 
 ## Reporting units
-The term “reporting unit” can refer to a boundary division of any size used to aggregate votes in an election. This can be a [town](https://en.wikipedia.org/wiki/New_England_town), [parish](https://en.wikipedia.org/wiki/List_of_parishes_in_Louisiana), [precinct](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html), county, or state. 
+The term “reporting unit” can refer to a boundary division of any size used to aggregate votes in an election. This can be a [town](https://en.wikipedia.org/wiki/New_England_town), [parish](https://en.wikipedia.org/wiki/List_of_parishes_in_Louisiana), [precinct](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html), county, [county sub-division](https://www.policymap.com/2015/09/county-subdivisions-the-secret-geography/) or state. 
 
 Presidential, senate, and gubernatorial races are organized by county and state.
 
 House races are organized by house districts. The borders of these house districts are [primarily decided by state legislatures](https://ballotpedia.org/State-by-state_redistricting_procedures) but some <small>(AZ, CA, ID, WA)</small> are made by independent commissions. [538 did an excellent piece](https://projects.fivethirtyeight.com/redistricting-maps/) on congressional redistricting and gerrymandering.  
+
+
 
 ## Election data
 Once a vote is cast, ballots are counted and the counts are delivered to a central location and the numbers are reported in regular intervals (usually). That is all handled by state and local governments, often by county and state boards of elections. 

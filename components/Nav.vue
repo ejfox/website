@@ -9,7 +9,7 @@
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/books">Books</nuxt-link></li>
     <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/vibes">Vibes</nuxt-link></li>
     <!-- <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/creations">Creations</nuxt-link></li> -->
-    <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/photos">Photos</nuxt-link></li>
+    <!-- <li class="pr2 ph3-ns"><nuxt-link class="link underline blue" to="/photos">Photos</nuxt-link></li> -->
   </ul>
 </template>
 

@@ -12,7 +12,7 @@
          or <a href="/resume.pdf">my resume</a>
       </p>
       <p class="f5 lh-copy mt4">
-       <nuxt-link to="/vibes">Vibes</nuxt-link> is a constantly updated feed of visual inspiration and a personal moodboard of sorts powered by my <a href="https://www.are.na/ej-fox/creations">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link> which contains every book I've read as an adult, a review, and linkable highlighted selections from each book. I also keep a <nuxt-link to="/photos">feed of photos I've taken recently</nuxt-link>. My blog posts are listed below.
+       <nuxt-link to="/vibes">Vibes</nuxt-link> is a constantly updated feed of visual inspiration and a personal moodboard of sorts powered by my <a href="https://www.are.na/ej-fox/creations">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link> which contains every book I've read as an adult, a review, and highlighted selections.
       </p>
     </section>
 

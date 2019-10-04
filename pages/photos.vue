@@ -19,6 +19,25 @@
         --> 
       </li>
     </ul>
+    <ul class="db f2 list">
+      <li v-for="post in photo2" :key="post.date"
+        :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
+        <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
+          <span class="b">
+            <!-- {{ post.title }} -->
+            <Photo :url="'https'+post.photo" />
+          </span>
+        </nuxt-link>
+        <!-- 
+          <span class="f5 light-silver db di-ns ttu o-80 tracked">
+          {{ post.date | moment("YYYY-MM") }}
+        </span>
+        
+        <img :src="'https'+post.photo" />
+        --> 
+      </li>
+    </ul>
+
   </section>
 </template>
 
@@ -40,9 +59,17 @@ export default {
       _path: `/photo/${key.replace('.json', '').replace('./', '')}`
     }));
 
-
     photo = photo.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
-    return { photo };
+
+
+    const context2 = require.context('~/content/blog/posts/', false, /\.json$/);
+    let photo2 = context2.keys().map(key => ({
+      ...context(key),
+      _path: `/photo/${key.replace('.json', '').replace('./', '')}`
+    }));
+
+    photo2 = photo2.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
+    return { photo, photo2 };
   }
 };
 </script>

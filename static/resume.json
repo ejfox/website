@@ -1,0 +1,71 @@
+{
+  "basics": {
+    "name": "EJ Fox",
+    "label": "Designer & Developer",
+    "email": "ejfox@ejfox.com",
+    "phone": "(260) 673-5369",
+    "website": "http://ejfox.com",
+    "summary": "Data visualization expert working at the intersection of design, journalism, and data. Experience working with a wide variety of clients and datasets to create work that makes complicated things easy to understand. Focusing on iterating quickly, building toolsets and teams, and telling important stories.",
+    "location": {
+      "city": "Brooklyn",
+      "region": "New York",
+      "countryCode": "US"      
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "mrejfox",
+      "url": "http://twitter.com/mrejfox"
+    },
+    {
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ejfox/"
+    }]
+  },
+  "work": [{
+    "company": "NBC News",
+    "position": "Senior Interactive Graphics Specialist",
+    "website": "http://nbcnews.com/specials",
+    "startDate": "2016-09-01",
+    "endDate": "2019-07-01",
+    "summary": "Worked across NBC News Digital and Broadcast teams to re-develop the “Big Board” application used by Chuck Todd (NBC News) and Steve Kornacki (MSNBC) to call elections on air. Helped lead the team that re-designed the app and updated it to use D3, Vue, and TopoJSON resulting in 'a newly juiced-up model of the board that can zoom in on the most obscure House districts' (NYTimes)."
+  },
+  {
+    "company": "Vocativ",
+    "position": "Graphics Editor",
+    "website": "http://vocativ.com",
+    "startDate": "2014-10-01",
+    "endDate": "2016-05-01",
+    "summary": "Helped build Vocativ’s visual news team with a focus on data visualization and storytelling. Worked across the newsroom to find, create, analyze, and visualize a wide variety of datasets and stories. Created tools and processes to respond to a fast-paced news cycle with a small team."
+  },
+  {
+    "company": "Visual.ly",
+    "position": "Staff Designer",
+    "website": "http://visual.ly",
+    "startDate": "2012-03-01",
+    "endDate": "2011-03-01"
+  }],
+  "skills": [{
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "SVG",
+      "Canvas",
+      "D3",
+      "TopoJSON",
+      "Illustrator",
+      "Photoshop",
+      "After Effects",
+      "Premiere",
+      "Node",
+      "Vue",
+      "Data analysis",
+      "Information architecture",
+      "Project management"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }]
+}

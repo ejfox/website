@@ -1,5 +1,5 @@
 ---
-dek: Look for a freelancer to work with immediately
+dek: Who wants to make cool stuff with me?
 type: words
 hidden: false
 inprogress: false

@@ -3,16 +3,17 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _ee50acbc = () => import('../pages/creations.vue' /* webpackChunkName: "pages/creations" */).then(m => m.default || m)
+const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
 const _3e3b97ab = () => import('../pages/vibes.vue' /* webpackChunkName: "pages/vibes" */).then(m => m.default || m)
 const _94f66088 = () => import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */).then(m => m.default || m)
-const _bc5203f4 = () => import('../pages/sounds.vue' /* webpackChunkName: "pages/sounds" */).then(m => m.default || m)
 const _5bcfe250 = () => import('../pages/books.vue' /* webpackChunkName: "pages/books" */).then(m => m.default || m)
-const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
 const _d001727a = () => import('../pages/photos.vue' /* webpackChunkName: "pages/photos" */).then(m => m.default || m)
 const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
-const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
+const _bc5203f4 = () => import('../pages/sounds.vue' /* webpackChunkName: "pages/sounds" */).then(m => m.default || m)
+const _ee50acbc = () => import('../pages/creations.vue' /* webpackChunkName: "pages/creations" */).then(m => m.default || m)
+const _7edd8367 = () => import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */).then(m => m.default || m)
 const _7a6d643f = () => import('../pages/audio/_slug.vue' /* webpackChunkName: "pages/audio/_slug" */).then(m => m.default || m)
+const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
 const _4b6e78ca = () => import('../pages/photo/_slug.vue' /* webpackChunkName: "pages/photo/_slug" */).then(m => m.default || m)
 const _283ac100 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
@@ -55,9 +56,9 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/creations",
-			component: _ee50acbc,
-			name: "creations"
+			path: "/donate",
+			component: _358f3c9e,
+			name: "donate"
 		},
 		{
 			path: "/vibes",
@@ -70,19 +71,9 @@ export function createRouter () {
 			name: "projects"
 		},
 		{
-			path: "/sounds",
-			component: _bc5203f4,
-			name: "sounds"
-		},
-		{
 			path: "/books",
 			component: _5bcfe250,
 			name: "books"
-		},
-		{
-			path: "/donate",
-			component: _358f3c9e,
-			name: "donate"
 		},
 		{
 			path: "/photos",
@@ -95,14 +86,29 @@ export function createRouter () {
 			name: "shop"
 		},
 		{
-			path: "/blog/:slug?",
-			component: _7d26e21f,
-			name: "blog-slug"
+			path: "/sounds",
+			component: _bc5203f4,
+			name: "sounds"
+		},
+		{
+			path: "/creations",
+			component: _ee50acbc,
+			name: "creations"
+		},
+		{
+			path: "/blog",
+			component: _7edd8367,
+			name: "blog"
 		},
 		{
 			path: "/audio/:slug?",
 			component: _7a6d643f,
 			name: "audio-slug"
+		},
+		{
+			path: "/blog/:slug",
+			component: _7d26e21f,
+			name: "blog-slug"
 		},
 		{
 			path: "/photo/:slug?",

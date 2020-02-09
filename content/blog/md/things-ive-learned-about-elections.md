@@ -3,7 +3,7 @@ dek: In which we explore the knotted beauty of American democracy
 type: words
 hidden: false
 inprogress: true
-date: '2019-06-01T23:53:38.761Z'
+date: '2020-04-09T03:19:38.761Z'
 hidetimestamp: false
 ---
 
@@ -16,14 +16,13 @@ This great country contains lots of different people with lots of different ways
 
 [[toc]]
 
-## Election day
-We have grown accustomed to live results of elections. This is definitely not something our grandfathers had and is mind-bogglingly complex once you start to think about it. 
-
-With American elections “live” does not mean getting the results of votes immediately after they are cast. The closest we can get for now is seeing vote results as they are counted after polls close. ^[This makes sense, when you think about it. There is reason to believe if you could turn on your TV and see how your candidate was doing, if you could see the vote counts live and your candidate was safely ahead, you might decide it’s not even worth going out and casting a vote.] 
-
 The basic rules around voting are laid out in the constitution^[[Article 1 of the Constitution](https://constitutioncenter.org/interactive-constitution/articles/article-i#elections-clause) “The House of Representatives shall be composed of Members chosen every second Year by the People of the several States…” - [Section 4](https://www.usconstitution.net/xconst_A1Sec4.html): “The Times, Places and Manner of holding Elections for Senators and Representatives, shall be prescribed in each State by the Legislature thereof; but the Congress may at any time by Law make or alter such Regulations, except as to the Places of chusing Senators.”] but a remarkable amount of the nitty-gritty details are [left up to each state](https://www.brennancenter.org/analysis/voting-laws-roundup-2019) to figure out. 
 
 On election day in America, polls open at a particular time and close at a particular time. Those times, like almost everything else, [depend on where you’re talking about](https://ballotpedia.org/State_Poll_Opening_and_Closing_Times_(2019)) and can vary even within a single state and could change any year. 
+
+We have grown accustomed to live results of elections. This is definitely not something our grandfathers had and is mind-bogglingly complex once you start to think about it. 
+
+With American elections “live” does not mean getting the results of votes immediately after they are cast. The closest we can get for now is seeing vote results as they are counted after polls close. ^[This makes sense, when you think about it. There is reason to believe if you could turn on your TV and see how your candidate was doing, if you could see the vote counts live and your candidate was safely ahead, you might decide it’s not even worth going out and casting a vote.] 
 
 ## Races
 Any particular office (be it a Senate or a President or local Sheriff) has a variety of candidates from a variety of parties. Generally we think of races as between two front runners, but people often vote for third parties or [write in candidate’s names](https://en.wikipedia.org/wiki/Write-in_candidate) and those votes need to be accounted for. 
@@ -33,8 +32,6 @@ Here’s what we can agree on: A **race** is run by *n* number of **candidates**
 You might say "at least we can assume the candidates are human" - but [you would be wrong](https://en.wikipedia.org/wiki/Non-human_electoral_candidates). Never assume in elections. 
 
 Every [eligible(!)](https://en.wikipedia.org/wiki/Voting_rights_in_the_United_States) person who lives in the area that candidate [represents](https://ballotpedia.org/Who_represents_me) (districts for the house, states for senators, the entire country for presidents) gets to vote between the candidates running for each office that represents them. ^[The election of Senators was not always given to the population in general. The framer’s constitution [left that to the states](https://www.senate.gov/artandhistory/history/common/generic/Feature_Homepage_ElectedStateLegislatures.htm). “The framers believed that in electing senators, state legislatures would cement their ties with the national government. They also expected that senators elected by state legislatures would be freed from pressures of public opinion and therefore better able to concentrate on legislative business and serve the needs of each state. In essence, senators would serve as “states’ ambassadors” to the federal government.” - it turned out to not work well because states never got around to electing them.]
-
-For example the [2016 Presidential Race](https://ballotpedia.org/Presidential_election,_2016) had four candidates; Clinton, Trump, Stein, and Johnson running for the office of president.
 
 ## Voting
 Constituents show up to their polling place. Or, well, [sort of](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx). [39 states](http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx#overview) have mechanisms for early voting, 28 allow no-excuse absentee votes, 19 allow voting with an “accepted excuse”. [36 million people voted early in the midterm election.](https://www.politico.com/story/2018/11/05/early-voting-turnout-2018-elections-midterms-963149) - that’s about 30% of the [117 million](http://www.electproject.org/2018g) total votes cast. 
@@ -70,20 +67,16 @@ Presidential, senate, and gubernatorial races are organized by county and state.
 
 House races are organized by house districts. The borders of these house districts are [primarily decided by state legislatures](https://ballotpedia.org/State-by-state_redistricting_procedures) but some <small>(AZ, CA, ID, WA)</small> are made by independent commissions. [538 did an excellent piece](https://projects.fivethirtyeight.com/redistricting-maps/) on congressional redistricting and gerrymandering.  
 
-
-
 ## Election data
 Once a vote is cast, ballots are counted and the counts are delivered to a central location and the numbers are reported in regular intervals (usually). That is all handled by state and local governments, often by county and state boards of elections. 
 
-The media (and by extension, the public) are given access to the vote counts at this point. Often times you can find a website run by the Secretary of State which will have the latest results for different statewide elections. Data services will pay reporters or [stringers](https://news.ycombinator.com/item?id=12912528) to go to the places where votes are counted to and send the results back to competing data services which then resell that data to news organizations. 
+The media (and by extension, the public) are given access to the vote counts at this point. Often times you can find a website run by the Secretary of State which will have the latest results for different statewide elections. Data services will pay reporters or [stringers](https://news.ycombinator.com/item?id=12912528) to go to the places where votes are counted to and send the results back to competing data services which then resell that data to news organizations (live election results are not cheap). 
 
 Election day vote and [exit poll](https://ballotpedia.org/Exit_polling) [result data](https://www.pewresearch.org/fact-tank/2016/11/02/just-how-does-the-general-election-exit-poll-work-anyway/) is provided to ABC, CBS, CNN, and NBC News in a consortium called the **National Election Pool**. The data is fed by [Edison Research](https://www.edisonresearch.com/election-polling/). 
 
 Alternatives for live data include [Decision Desk HQ](https://decisiondeskhq.com/) or the [AP Elections API](https://developer.ap.org/ap-elections-api/).
 
-Live election results are not cheap. 
-
-Historical data can be found from the above sources as well as from [MIT](https://electionlab.mit.edu/data) or [OpenElections](http://www.openelections.net/).
+Historical data can be found from the above sources as well as from [MIT](https://electionlab.mit.edu/data) or [OpenElections](http://www.openelections.net/). [MapBox](https://www.mapbox.com/elections) also has pre-bound boundaries with historical data.
 
 County-level presidential results 2008-2016 have been [collected in this GitHub repo](https://github.com/tonmcg/US_County_Level_Election_Results_08-16)
 
@@ -130,8 +123,8 @@ Jack Shafer wrote in Politico about why [horse race election coverage might be g
 
  > By giving voters a window on the closed world of insider politics, horse-race stories help focus reader attention on the races. Without the work of election handicappers, coverage would come to resemble an endless series of policy white papers that nobody reads. The presidential campaign has another 22 months to run, leaving plenty of time and space to explore the contest from multiple perspectives. 
 
-### 2000 election night
-A CNN internal report called their own election night coverage in 2000 [“a disaster”](https://www.nytimes.com/2001/02/03/us/report-calls-networks-election-night-coverage-a-disaster.html).
+### Election night 2000
+At NBC the old heads would whisper to never fuck up as bad as they did back in 2000. A CNN internal report called their own election night coverage in 2000 [“a disaster”](https://www.nytimes.com/2001/02/03/us/report-calls-networks-election-night-coverage-a-disaster.html).
 
 > Following the election night coverage – in which CNN, ABC, CBS, NBC, Fox and MSNBC all made wrong calls on the Florida vote – several networks ordered investigations of their coverage.
 

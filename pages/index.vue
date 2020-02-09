@@ -1,7 +1,7 @@
 <template>
-  <section class="w-80 center db f3 cf mb4">
-    <section class="intro pv2 pt3 pv5-ns measure-narrow lh-copy center">
-      <p class="pb4">
+  <section class="pa3 pa4-ns db cf mb4">
+    <section class="intro pt2 measure-narrow lh-copy">
+      <p class="pv2">
       Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist available for contract work. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a><small class="ml2 f6 gray">(<a href="#pgp">PGP</a>)</small>. My work focuses on design, data visualization, and storytelling.
       </p>
 
@@ -9,44 +9,26 @@
         <nuxt-link to="/projects">
           Take a look at some of my work
         </nuxt-link>
-         or <a href="/resume.pdf">my resume</a>
+         or <a href="/resume.pdf">my resume</a>.
       </p>
-      <p class="f5 lh-copy mt4">
-       <nuxt-link to="/vibes">Vibes</nuxt-link> is a constantly updated feed of visual inspiration and a personal moodboard of sorts powered by my <a href="https://www.are.na/ej-fox/creations">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link> which contains every book I've read as an adult, a review, and highlighted selections.
+      <p class="lh-copy pv3 mt3 mt4-ns">
+       <h3 class="mv2">About this site</h3>
+       <nuxt-link to="/vibes">Vibes</nuxt-link> is a feed of recent snapshots and inspiration powered by my <a href="https://www.are.na/ej-fox/index">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link>.
       </p>
     </section>
 
-    <!-- <section class="category pv5 db cf">
-      <h2 class="fl w-third db pr4 lh-title">Everything Else</h2>
-      <ul class="fl w-two-thirds db">
-        <li v-for="post in posts.filter(d => d.type !== 'photos' && d.type !== 'words')" :key="post.date"
-          class="pv2">
-          <nuxt-link :to="post._path" :class="['link dim dark-gray']">
-            <span class="post-date b f6 db barlowcondensed no-underline">
-              <span class="moon-gray">
-                {{ post.date | moment("ha") }}
-              </span>
-              <span class="gray">
-                {{ post.date | moment("MMM Do YYYY") }}
-              </span>
-            </span> {{ post.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </section> -->
-
-    <section id="allposts" class="category pv4 db cf">
-      <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
-      <ul class="db f2 list">
+   <section id="allposts" class="category pv4 db cf f4">
+     <h3 class="mv1 mv2-ns dark-gray">Posts</h3>
+      <ul class="db list">
         <li v-for="post in posts" :key="post.date"
-          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif-flyweight br1 no-underline']">
+          :class="['tracked lh-title pv3 mr3 mr4-ns dib ttu sans-serif br1 no-underline']">
           <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
             <span class="b">
               {{ post.title }}
             </span>
           </nuxt-link>
-          <span class="f5 light-silver db di-ns ttu o-80 tracked">
-            <i :class="['fas', postTypeIcon(post.type)]" />
+          <span class="light-silver db di-ns ttu o-80 f6">
+            <!-- <i :class="['fas', postTypeIcon(post.type)]" /> -->
             {{ post.date | moment("YYYY-MM") }}
             <!-- {{ post.type }} -->
           </span>
@@ -79,10 +61,6 @@
     </section> -->
 
     <Footer />
-
-    <section id="pgp" class="center f2 tc sans-serif ttu gray mv5 lh-copy">
-      <p>PGP: <a href="/pgp.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
-    </section>
 
     <!-- <section class="tc ma4 o-50">
       <p>

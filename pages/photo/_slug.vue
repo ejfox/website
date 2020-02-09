@@ -2,18 +2,18 @@
 <div class="slug-container cf">
   <section id="post-container w-100">
     <article
-      :class="['tc center pa1 pa4-ns mb0']">
-      
+      :class="['pa1 pa2-ns mb0']">
+      <!-- Timestamp -->
+      <time
+        :class="['f4 w-100 sans-serif mv1 pl0 pb0 db ttu tracked gray']">
+        <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
+      </time>
+     
       <Photo
-         :url="'https' + photo" />
+         :url="photo" />
       <div v-if="dek" class="measure center pa1 lh-copy">
         {{ dek }}
       </div>
-      <!-- Timestamp -->
-      <time
-        :class="['f4 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-20 tc']">
-        <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
-      </time>
     </article>
   </section>
 </div>
@@ -33,7 +33,6 @@ import Photo from '~/components/Photo.vue'
 export default {
   scrollToTop: true,
   components: {
-    Words,
     Photo
   },
   data: function () {

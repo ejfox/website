@@ -19,12 +19,35 @@
         </li>
       </ul>
     </section> -->
+    <section class="category pv5 db cf">
+      <h2 class="fl-ns w-third-ns db pr4 lh-title">Words</h2>
+      <ul class="fl-ns w-two-thirds-ns db list">
+        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,10)" :key="post.date" class="pv2">
+          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
+            {{ post.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
+
+    <section class="category pv5 db cf">
+      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
+      <ul class="list fl w-two-thirds-ns db">
+        <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,10)" :key="post.date" class="pv2">
+          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
+          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
+             {{ post.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
 
     <section id="allposts" class="category pv4 db cf">
       <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
-      <ul class="db f2 list">
+      <ul class="db list">
         <li v-for="post in posts" :key="post.date"
-          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif-flyweight br1 no-underline']">
+          :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
           <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
             <span class="b">
               {{ post.title }}
@@ -39,29 +62,6 @@
       </ul>
     </section>
 
-    <section class="category pv5 db cf">
-      <h2 class="fl-ns w-third-ns db pr4 lh-title">Words</h2>
-      <ul class="fl-ns w-two-thirds-ns db list">
-        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,4)" :key="post.date" class="pv2">
-          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
-            {{ post.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </section>
-
-    <section class="category pv5 db cf">
-      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
-      <ul class="list fl w-two-thirds-ns db">
-        <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,4)" :key="post.date" class="pv2">
-          <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
-             {{ post.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </section>
 
   <!-- <Footer /> -->
 

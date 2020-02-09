@@ -1,43 +1,27 @@
 <template>
-  <section id="allposts" class="category pa2 pa5-ns db cf tc">
-    <h2 class="dark-gray">Photos</h2>
-    <ul class="db f2 list">
+  <section id="allposts" class="category pa4 db cf ">
+    <h2 class="dark-gray">Recent Photos</h2>
+    <h4 class="dark-gray dn">Also on <a href="http://instagram.com/ejfox" class="dark-gray link underline">instagram at @ejfox</a></h4>
+    <ul class="db list">
       <li v-for="post in photo" :key="post.date"
         :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
         <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
           <span class="b">
-            <!-- {{ post.title }} -->
-            <Photo :url="'https'+post.photo" />
-          </span>
-        </nuxt-link>
-        <!-- 
-          <span class="f5 light-silver db di-ns ttu o-80 tracked">
-          {{ post.date | moment("YYYY-MM") }}
-        </span>
-        
-        <img :src="'https'+post.photo" />
-        --> 
-      </li>
-    </ul>
-    <ul class="db f2 list">
-      <li v-for="post in photo2" :key="post.date"
-        :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
-        <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
-          <span class="b">
-            <!-- {{ post.title }} -->
-            <Photo :url="'https'+post.photo" />
-          </span>
-        </nuxt-link>
-        <!-- 
-          <span class="f5 light-silver db di-ns ttu o-80 tracked">
-          {{ post.date | moment("YYYY-MM") }}
-        </span>
-        
-        <img :src="'https'+post.photo" />
-        --> 
-      </li>
-    </ul>
 
+            <Photo :url="post.photo" />
+            <!-- <strong class="sans-serif">{{ post.title }}</strong> -->
+            <span class="sans-serif">{{ post.date | moment("MMMM DD, YYYY") }}</span>
+          </span>
+        </nuxt-link>
+        <!-- 
+          <span class="f5 light-silver db di-ns ttu o-80 tracked">
+
+        </span>
+        
+        <img :src="'https'+post.photo" />
+        --> 
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -60,16 +44,9 @@ export default {
     }));
 
     photo = photo.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
+    
 
-
-    const context2 = require.context('~/content/blog/posts/', false, /\.json$/);
-    let photo2 = context2.keys().map(key => ({
-      ...context(key),
-      _path: `/photo/${key.replace('.json', '').replace('./', '')}`
-    }));
-
-    photo2 = photo2.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
-    return { photo, photo2 };
+   return { photo };
   }
 };
 </script>

@@ -12,7 +12,7 @@ hidetimestamp: false
 ## Edge cases
 Elections are all edge cases. Votes are cast and tallied by a wide variety of Americans who all have the same goal but often different ideas about how to go about it. Votes are cast in cities and rural areas, in places with millions of constituents or dozens. Many elections are run locally by someone you should mentally picture as your well-meaning aunt. The sheer scale of such an operation is astounding. We live in a country that spans a continent and [9 time zones](https://en.wikipedia.org/wiki/File:US-Timezones-post-2007.png). 
 
-This great country contains lots of different people with lots of different ways about going things. 
+This great country contains lots of different people with lots of different ways of going about things. 
 
 [[toc]]
 

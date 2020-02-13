@@ -2,13 +2,13 @@
 <div class="slug-container tc pa2">
   <div
     v-for="post in posts">  
-    <router-link 
-    :to="`/photo/${post.slug}`"
+    <nuxt-link 
+    :to="`/photo/${post.slug}/`"
     class="sans-serif ttu black f2 lh-title">
       {{post.title}}
 
       <img :src="post.files[post.files.length-1].cloudinaryUrl" class="w-auto ma2 h4 db center br1" />
-    </router-link>
+    </nuxt-link>
     <div class="courier f6 gray">      
       <span v-if="post.date">
         {{ post.date | moment("MMM Do YYYY") }}

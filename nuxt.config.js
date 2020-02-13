@@ -21,7 +21,7 @@ var path = require('path');
 var dynamicRoutes = getDynamicPaths({
   '/blog': 'blog/posts/*.json',
   '/audio': 'audio/*.json',
-  '/photo': 'photo/*.json'
+  '/photo': 'photos/*.json'
 });
 
 module.exports = {

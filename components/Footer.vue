@@ -1,5 +1,5 @@
 <template>
-<footer class="center db ttu sans-serif ma0 f3 tc">
+<footer class="center db ttu sans-serif ma0 mt2 mt5-ns f3 tc">
   <a
     :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
     href="https://github.com/ejfox">

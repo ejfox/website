@@ -11,13 +11,13 @@
         </nuxt-link>
          or <a href="/resume.pdf">my resume</a>.
       </p>
-      <p class="lh-copy pv3 mt3 mt4-ns">
+      <p class="lh-copy pv3 mv3 mv4-ns">
        <h3 class="mv2">About this site</h3>
        <nuxt-link to="/vibes">Vibes</nuxt-link> is a feed of recent snapshots and inspiration powered by my <a href="https://www.are.na/ej-fox/index">are.na channel</a>. I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link>.
       </p>
     </section>
 
-   <section id="allposts" class="category pv4 db cf f4">
+   <!-- <section id="allposts" class="category pv4 db cf f4">
      <h3 class="mv1 mv2-ns dark-gray">Posts</h3>
       <ul class="db list">
         <li v-for="post in posts" :key="post.date"
@@ -28,13 +28,11 @@
             </span>
           </nuxt-link>
           <span class="light-silver db di-ns ttu o-80 f6">
-            <!-- <i :class="['fas', postTypeIcon(post.type)]" /> -->
             {{ post.date | moment("YYYY-MM") }}
-            <!-- {{ post.type }} -->
           </span>
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third-ns db pr4 lh-title">Words</h2>

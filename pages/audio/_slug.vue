@@ -2,9 +2,9 @@
 <div class="slug-container cf">
   <section id="post-container w-100">
     <!-- Article header -->
-    <header class="ph3-ns w-100">
+    <header class="ph3-ns w-100 mb0 mt4">
       <div class="ph2 ph3-ns pv0">
-        <h1 class="tc f1 lh-title">
+        <h1 class="tc f1 lh-title mv0">
           {{ title }}
         </h1>
       </div>
@@ -13,8 +13,8 @@
     <article
       :class="['tc center pa1 pa4-ns mb0']">
       <div v-if="audio" class="w-100">
-        <AudioPlayer
-          :sources="[audio]"
+        <AudioPlayer2
+          :fileUrl="audio"
           :loop="false"
           :bg="'bg-gray'"/>
       </div>
@@ -34,7 +34,8 @@
 </template>
 
 <script>
-import AudioPlayer from '~/components/AudioPlayer.vue';
+// import AudioPlayer from '~/components/AudioPlayer.vue';
+import AudioPlayer2 from '~/components/AudioPlayer2.vue';
 // import Words from '~/components/blogtypes/words.vue'
 import URL from 'url-parse'
 // import _ from 'lodash'
@@ -47,7 +48,7 @@ import marked from 'marked'
 export default {
   scrollToTop: true,
   components: {
-    AudioPlayer,
+    AudioPlayer2
   },
   data: function () {
     return {

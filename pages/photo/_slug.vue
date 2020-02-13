@@ -1,21 +1,16 @@
 <template>
 <div class="slug-container cf">
-  <section id="post-container w-100">
-    <article
-      :class="['pa1 pa2-ns mb0']">
-      <!-- Timestamp -->
-      <time
-        :class="['f4 w-100 sans-serif mv1 pl0 pb0 db ttu tracked gray']">
-        <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
-      </time>
-     
-      <Photo
-         :url="photo" />
-      <div v-if="dek" class="measure center pa1 lh-copy">
-        {{ dek }}
-      </div>
-    </article>
-  </section>
+  <h1 class="pl1 tl tc-ns ttu title f1 mv4 mv5-ns near-black">{{title}}</h1>
+  <div
+    v-for="photo in files">
+
+  <Photo 
+    photo-class="bw2-ns bw3-l b--near-black ba-ns mv0"
+    :url="photo.cloudinaryUrl"
+    :caption="photo.caption"
+    :date="photo.date"
+    :tags="photo.tags"/>
+  </div>
 </div>
 </template>
 
@@ -37,7 +32,8 @@ export default {
   },
   data: function () {
     return {
-      emojiIcon: '📷'
+      emojiIcon: '📷',
+      post: {}
     }
   },
   computed: {
@@ -48,7 +44,7 @@ export default {
       meta: [{
         'name': 'EJ Fox | ' + this.title,
         'description': this.emojiIcon,
-        'og:description': this.emojiIcon,
+        'og:description': this.emojiIcon + this.files.length + ' photos',
         'og:title': this.title,
         'og:type': 'article',
         'twitter:title': this.title,
@@ -58,11 +54,7 @@ export default {
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/photo/' + params.slug + '.json');
-    if(!post.bgcolorclass) { post.bgcolorclass = ''}
-    if(!post.textcolorclass) { post.textcolorclass = '' }
-    if(!post.audio) { post.audio = null }
-    if(!post.inprogress) { post.inprogress = null }
+    let post = await import('~/content/photos/' + params.slug + '.json');
     return post;
   },
   created: function () {

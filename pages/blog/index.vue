@@ -20,25 +20,43 @@
       </ul>
     </section> -->
     <section class="category pv5 db cf">
-      <h2 class="fl-ns w-third-ns db pr4 lh-title">Words</h2>
-      <ul class="fl-ns w-two-thirds-ns db list">
-        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,10)" :key="post.date" class="pv2">
-          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM YYYY") }}</span>
+      <h2 class="fl-ns w-third-l db pr4 lh-title">Words</h2>
+      <ul class="fl-ns w-two-thirds-l db list">
+        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,10)" :key="post.date" class="pv2">          
           <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
             {{ post.title }}
           </nuxt-link>
+
+          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("from", "now") }}</span>
         </li>
       </ul>
     </section>
 
-    <section class="category pv5 db cf">
-      <h2 class="fl w-third-ns db pr4 lh-title">Photos</h2>
-      <ul class="list fl w-two-thirds-ns db">
+    <!-- <section class="category pv5 db cf">
+      <h2 class="fl w-third-l db pr4 lh-title">Photos</h2>
+      <ul class="list fl w-two-thirds-l db">
         <li v-for="post in posts.filter(d => d.type === 'photos').slice(0,10)" :key="post.date" class="pv2">
           <span class="post-date tracked b f6 db light-silver barlowcondensed no-underline">{{ post.date | moment("MMMM YYYY") }}</span>
           <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
              {{ post.title }}
           </nuxt-link>
+        </li>
+      </ul>
+    </section> -->
+
+    <section class="category pv5 db cf">
+      <h2 class="fl w-third-l db pr4 lh-title">Photos</h2>
+      <ul class="list fl w-two-thirds-l db">
+        <li v-for="post in photos" :key="post.date" class="pv2">
+          <div class="">
+            <span :class="['post-date b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("MMMM Do YYYY") }} – {{post.files.length}} photos</span>
+          </div>
+
+          <nuxt-link 
+          :to="`/photo/${post.slug}`"
+          class="near-black link underline">
+            {{post.title}}
+          </nuxt-link>          
         </li>
       </ul>
     </section>
@@ -99,7 +117,15 @@ export default {
 
     posts = posts.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
     posts = posts.filter(post => !post.hidden)
-    return { posts };
+
+    const context2 = require.context('~/content/photos/', false, /\.json$/);
+
+    let photos = context2.keys().map(key => ({
+      ...context2(key),
+      _path: `/photos/${key.replace('.json', '').replace('./', '')}`
+    }))
+
+    return { posts, photos };
   }
 };
 </script>

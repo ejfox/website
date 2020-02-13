@@ -3,7 +3,7 @@ dek: In which we explore the knotted beauty of American democracy
 type: words
 hidden: false
 inprogress: true
-date: '2020-04-09T03:19:38.761Z'
+date: '2020-02-09T03:19:38.761Z'
 hidetimestamp: false
 ---
 
@@ -49,6 +49,7 @@ Voters can be removed from records for a few reasons:
 - Change in residence
 - Never eligible: under 18 or noncitizen
 - Voter self-requests removal
+
 
 ### Voting systems
 + [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 

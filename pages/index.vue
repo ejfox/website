@@ -12,7 +12,7 @@
          or <a href="/resume.pdf">my resume</a>.
       </p>
       <p class="lh-copy pv3 mv3 mv4-ns">
-       I post things I've made on <nuxt-link to="/creations">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books">books page</nuxt-link>.
+       I post things I've made on <nuxt-link to="/creations/">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books/">books page</nuxt-link>. My <nuxt-link to="/bookmarks/">recent bookmarks</nuxt-link> are also available. Sometimes I make <nuxt-link to="/photo/">photos</nuxt-link> or <nuxt-link to="/audio/">sounds</nuxt-link>.
       </p>
     </section>
 

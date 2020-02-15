@@ -3,19 +3,20 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _2bb8d1ab = () => import('../pages/bookmarks.vue' /* webpackChunkName: "pages/bookmarks" */).then(m => m.default || m)
+const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
 const _3e3b97ab = () => import('../pages/vibes.vue' /* webpackChunkName: "pages/vibes" */).then(m => m.default || m)
 const _7c240587 = () => import('../pages/audio/index.vue' /* webpackChunkName: "pages/audio/index" */).then(m => m.default || m)
-const _5bcfe250 = () => import('../pages/books.vue' /* webpackChunkName: "pages/books" */).then(m => m.default || m)
-const _358f3c9e = () => import('../pages/donate.vue' /* webpackChunkName: "pages/donate" */).then(m => m.default || m)
+const _2bb8d1ab = () => import('../pages/bookmarks.vue' /* webpackChunkName: "pages/bookmarks" */).then(m => m.default || m)
 const _7edd8367 = () => import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */).then(m => m.default || m)
-const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
+const _ee50acbc = () => import('../pages/creations.vue' /* webpackChunkName: "pages/creations" */).then(m => m.default || m)
 const _94f66088 = () => import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */).then(m => m.default || m)
 const _4801363a = () => import('../pages/photo/index.vue' /* webpackChunkName: "pages/photo/index" */).then(m => m.default || m)
-const _ee50acbc = () => import('../pages/creations.vue' /* webpackChunkName: "pages/creations" */).then(m => m.default || m)
+const _6a135938 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
+const _2d64135b = () => import('../pages/books/index.vue' /* webpackChunkName: "pages/books/index" */).then(m => m.default || m)
 const _4b6e78ca = () => import('../pages/photo/_slug.vue' /* webpackChunkName: "pages/photo/_slug" */).then(m => m.default || m)
-const _7a6d643f = () => import('../pages/audio/_slug.vue' /* webpackChunkName: "pages/audio/_slug" */).then(m => m.default || m)
 const _7d26e21f = () => import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */).then(m => m.default || m)
+const _7a6d643f = () => import('../pages/audio/_slug.vue' /* webpackChunkName: "pages/audio/_slug" */).then(m => m.default || m)
+const _2bad7213 = () => import('../pages/books/_slug.vue' /* webpackChunkName: "pages/books/_slug" */).then(m => m.default || m)
 const _283ac100 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -57,9 +58,9 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/bookmarks",
-			component: _2bb8d1ab,
-			name: "bookmarks"
+			path: "/donate",
+			component: _358f3c9e,
+			name: "donate"
 		},
 		{
 			path: "/vibes",
@@ -72,14 +73,9 @@ export function createRouter () {
 			name: "audio"
 		},
 		{
-			path: "/books",
-			component: _5bcfe250,
-			name: "books"
-		},
-		{
-			path: "/donate",
-			component: _358f3c9e,
-			name: "donate"
+			path: "/bookmarks",
+			component: _2bb8d1ab,
+			name: "bookmarks"
 		},
 		{
 			path: "/blog",
@@ -87,9 +83,9 @@ export function createRouter () {
 			name: "blog"
 		},
 		{
-			path: "/shop",
-			component: _6a135938,
-			name: "shop"
+			path: "/creations",
+			component: _ee50acbc,
+			name: "creations"
 		},
 		{
 			path: "/projects",
@@ -102,9 +98,14 @@ export function createRouter () {
 			name: "photo"
 		},
 		{
-			path: "/creations",
-			component: _ee50acbc,
-			name: "creations"
+			path: "/shop",
+			component: _6a135938,
+			name: "shop"
+		},
+		{
+			path: "/books",
+			component: _2d64135b,
+			name: "books"
 		},
 		{
 			path: "/photo/:slug",
@@ -112,14 +113,19 @@ export function createRouter () {
 			name: "photo-slug"
 		},
 		{
+			path: "/blog/:slug",
+			component: _7d26e21f,
+			name: "blog-slug"
+		},
+		{
 			path: "/audio/:slug",
 			component: _7a6d643f,
 			name: "audio-slug"
 		},
 		{
-			path: "/blog/:slug",
-			component: _7d26e21f,
-			name: "blog-slug"
+			path: "/books/:slug",
+			component: _2bad7213,
+			name: "books-slug"
 		},
 		{
 			path: "/",

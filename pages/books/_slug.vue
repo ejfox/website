@@ -1,86 +1,39 @@
 <template>
   <section class="center db cf pa3 pa4-l">
+    <section class="measure" v-if="book">
+      <h2 class="mv4 dark-gray">
+        <span class="">{{book.title}}</span> 
+        <span class="gray ma0 ml2 ml0-ns db-ns">by {{book.author}}</span>         
+      </h2>
+      <nuxt-link to="/books/#highlights" class="black">
+        Back to list of books with highlights
+      </nuxt-link>
 
-    <section id="nav" class="w-100 db cf">
+      <h4 class="mt4">Highlights</h4>      
 
-    </section>
-
-    <section
-      class="mv4 ph2 pb1 black b--gray bn bg-moon-gray f6 lh-solid w-two-thirds-ns center">
-      <h2 class="mb2 dark-gray tc lh-title">Currently reading</h2>
-      <BookList :current="true" :books="currentReadingLibrary" />
-    </section>
-
-    <h2 class="mb2 dark-gray">Books read</h2>
-    <section class="mv3 measure dark-gray">
-      <p class="mv2">I use the goodreads scale for stars.</p>
-      <ul>
-        <li>★ did not like it</li>
-        <li>★★ it was ok</li>
-        <li>★★★ liked it</li>
-        <li>★★★★ really liked it</li>
-        <li>★★★★★ it was amazing</li>
-      </ul>
-      <p class="mv2">Hovering on stars will show my review in a tooltip, if available.</p>
-    </section>
-    <BookList :books="readLibrary" />
-
-    <!-- <h2 class="mb2 dark-gray">Not finished</h2>
-    <section class="mv3 measure">
-      <p>Books I've started but I'm not actively reading.</p>
-    </section>
-    <section class="gray">
-      <BookList :books="notFinishedLibrary" />
-    </section> -->
-
-    <section class="measure">
-      <h2 class="mv4 dark-gray">Book highlights</h2>
-      <section
-        v-for="book in highlights">
-        <h3
-          class="mt2 pv2 bt b--dark-gray"
-          :id="book.slug">
-            <a :href="'#'+book.slug"
-              class="link black">
-              {{book.title}}
-            </a>
-
-          </h3>
-        <h4 class="gray">{{book.author}}</h4>
         <section
           v-for="(highlight, i) in book.highlights"
           class="mv4 book-highlights"
-          :id="book.slug+'-'+i">
-          <a
-            class="gray db link sans-serif"
-            :href="'/books/#' + book.slug + '-' + i">
-            #{{i+1}}
-            <span class="book-attribution moon-gray ml1">
-              {{book.title}} by {{book.author}}
-            </span>
-          </a>
+          :id="i+1">
+          <h5 class="serif">
+            <a
+              class="gray db link sans-serif"
+              :href="'/books/' + book.slug + '/#' + (+i + 1)">
+              #{{i+1}}
+            </a>
+          </h5>
           <span
             class="bg-light-yellow">
             {{highlight}}
           </span>
         </section>
-      </section>
-    </section>
+      </section>      
 
-    <h2 class="mb2 dark-gray">Want to read</h2>
-    <section class="mv3 measure">
-      <p>These are books that I've acquired or have come up in my research but that I haven't had a chance to read yet.</p>
+      <section id="footer">
+        <small class="db tc">
+          Powered by <a class="link black underline" href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads</a>
+        </small>
     </section>
-    <section class="gray">
-      <BookList :books="toReadLibrary" />
-    </section>
-
-    <section id="footer">
-      <small class="db tc">
-        Powered by <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads</a>
-      </small>
-    </section>
-
   </section>
 </template>
 
@@ -146,6 +99,8 @@ export default {
     let library = await import('~/static/data/goodreads_library_export.json');
     let highlights = await import('~/static/data/book_highlights.json');
 
+    const bookSlug = params.slug    
+
     highlights.map(b => {
         b.slug = slugify(b.title, {lower: true, symbols: false})
     })
@@ -153,7 +108,11 @@ export default {
     library.map(b => {
         b.slug = slugify(b.Title, {lower: true, symbols: false})
     })
-    return { library, highlights }
+
+    const book = _.find(highlights, (h) => {
+      return h.slug === bookSlug
+    })
+    return { library, highlights, book }
   }
 };
 </script>

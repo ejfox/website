@@ -24,7 +24,13 @@
       <!-- Timestamp -->
       <time v-if="!hidetimestamp"
         :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
-        <small class="mv3 pa3-ns tc tl-ns w-100 db">{{ date | moment("MMMM Do, YYYY") }}</small>
+        <small class="mv3 pa3-ns tc tl-ns w-100 db">
+          {{ date | moment("MMMM Do, YYYY") }}
+          <span class="ml3 gray" v-if="isToday(date)">
+            {{ date | moment("from", "now") }}
+          </span>
+        </small>        
+        
       </time>
     </header>
     <!-- Non-audio blog post types -->
@@ -82,6 +88,7 @@ import URL from 'url-parse'
 import marked from 'marked'
 import truncate from 'truncate'
 import cheerio from 'cheerio'
+import moment from 'moment'
 
 export default {
   scrollToTop: true,
@@ -155,6 +162,15 @@ export default {
       } else if (this.type === 'audio') {
         this.emojiIcon = '🎵'
       }
+    },
+    isToday (date) {
+      console.log(date)
+      const today = moment()
+      // 2020-02-14T21:19:39-04:00
+      date = moment(date)
+      return date.date() == today.date() &&
+        date.month() == today.month() &&
+        date.year() == today.year()
     }
   },
 };

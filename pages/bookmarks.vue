@@ -1,20 +1,16 @@
 <template>
   <section class="center db f3 cf tc">
     <section v-if="!blocks">
-      <h2>Loading!</h2>
-    </section>
-
-    <section class="f4 lh-copy tl">
-
+      <h2>Loading bookmarks</h2>
     </section>
 
     <h2 class="mv4 moon-gray">Recent Bookmarks</h2>
 
-    <li v-for="(block, i) in blocks" :key="block.u" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll-l f2">
-      <a :href="block.u"
+    <li v-for="(block, i) in blocks" :key="block.href" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll-l f2">
+      <a :href="block.href"
         class="lh-copy f5 dark-gray link">
-        <h3 :class="['sans-serif b lh-solid tracked ma0 dark-gray', block.d.length < 18 ? 'f2 ' : 'f3 ']">
-          {{block.d}}
+        <h3 :class="['sans-serif lh-solid ma0 dark-gray', block.description.length < 18 ? 'f2 ' : 'f3 ']">
+          {{block.description}}
         </h3>
 
         <!-- <span class="o-20">
@@ -39,23 +35,23 @@
         </span> -->
         
         <!-- If there isn't a description, show URL -->
-        <small v-if="!block.n" class="db f6 word-wrap moon-gray mv2">
-          {{block.u}}
+        <small v-if="!block.extended" class="db f7 word-wrap moon-gray mv2">
+          {{block.href}}
         </small>
 
-        <div class="serif measure f5 lh-copy bookmark-description ma0 mt2">
-          <small v-if="block.n" class="i" v-html="parseMarkdown(block.n)" />
+        <div class="serif measure f5 lh-copy bookmark-description ma0 mt2 gray">
+          <small v-if="block.extended" class="i" v-html="parseMarkdown(block.extended)" />
         </div>
 
         <div class="tags lh-solid ma0 pa0">
-          <small v-if="block.t.length > 1" v-for="tag in block.t" class="ttu f8 o-20 mv0 mr1 lh-title pa0">
-            {{tag}}
+          <small class="ttu f8 o-20 mv0 mr1 lh-title pa0">
+            {{block.tags}}
           </small>
         </div>
       </a>
     </li>
 
-    <h2 class="mv4">
+    <h2 class="mv4 f2">
       <a href="https://pinboard.in/u:ejfox/">
         View All Bookmarks
         <i :class="['fas fa-arrow-alt-circle-right']" />
@@ -73,15 +69,15 @@
 <script>
 import axios from 'axios'
 import _ from 'lodash'
-import xml2js from 'xml2js'
+// import xml2js from 'xml2js'
 import * as URI from 'uri-js'
 import marked from 'marked'
 import Nav from '~/components/Nav.vue';
-const parseString = xml2js.parseString
-const stripPrefix = xml2js.processors.stripPrefix;
+// const parseString = xml2js.parseString
+// const stripPrefix = xml2js.processors.stripPrefix;
 
-// const pinboardURI = 'https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=50'
-const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
+const pinboardURI = 'https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json'
+// const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
 
 export default {
   components: {
@@ -97,6 +93,7 @@ export default {
   mounted: function () {
     axios.get(pinboardURI)
     .then((res) => {
+      console.lot(res.data[0])
       this.blocks = res.data
     })
   },

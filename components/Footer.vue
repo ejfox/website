@@ -8,7 +8,7 @@
 
   <a
     :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
-    href="http://instagram.com/ejfoxphotos">
+    href="http://instagram.com/ejfox">
     Instagram
   </a>
 

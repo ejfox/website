@@ -1,7 +1,7 @@
 <template>
   <ul
     role="navigation" aria-label="Site navigation"
-    id="navigation" class="w-100 list ph3 bn">
+    id="navigation" class="w-100 list ph3 bn mv1">
     <li class="ph3-ns pr2">
       <nuxt-link class="link underline" to="/">Home</nuxt-link>
     </li>

@@ -2,7 +2,7 @@
 <div class="slug-container cf">
   <article id="post-container w-100 fl">
     <!-- Article header -->
-    <header class="ph3-ns w-100">
+    <header class="mv2 ph3-ns w-100">
       <div class="ph2 ph3-ns">
         <h1 :class="['f-headline sans-serif-flyweight lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}

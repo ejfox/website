@@ -7,7 +7,7 @@ date: '2012-02-14T21:19:39-04:00'
 hidetimestamp: false
 ---
 
-# Online Nazis Have Figured Out How To Game Twitter Moderators
+# Online Nazis Have Figured Out How To Game Twitter
 
 One of the newest weaknesses online trolls are exploiting is one of the mechanisms built to defend against them, Twitter’s system for reporting tweets that violate their Terms of Service.
 

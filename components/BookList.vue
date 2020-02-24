@@ -5,7 +5,7 @@
       itemprop="mainEntity"
       itemscope
       itemtype="http://schema.org/Book"
-      :class="['book db mb3 mb4-l pa1 ph3-l', current ? 'current' : '']">
+      :class="['book db mb1 mb4-l pa1', current ? 'current' : '']">
       <span class="b link black"
         itemprop="name"
         :title="book['Number of Pages']+' pages, Avg goodreads rating: '+ratingToStars(book['Average Rating'])">

@@ -60,7 +60,7 @@ export default {
 }
 
 .project:nth-child(odd) {
-  background-color: #EEEEEE;
+  background-color: rgba(5,5,5,0.1)
 }
 
 

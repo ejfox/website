@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus">
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -132,5 +132,39 @@ pre {
   font-family: "Knockout 66 A", "Knockout 66 B";
   font-style: normal;
   font-weight: 400;
+}
+
+
+// Dark mode overrides for Tachyon
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: black; 
+  }
+
+  .bg-near-white {
+    background-color #000
+    color white
+  }
+
+  h1,h2,h3,h4,h5 {
+    color: white !important
+  }
+
+  .bg-white, .bg-light-gray {
+    background-color #000
+    color white
+  }
+
+  a {
+    color: white !important;
+  }
+
+  .black, .near-black, .dark-gray {
+    color white !important
+  }
+  .white {
+    color white !important
+  }    
 }
 </style>

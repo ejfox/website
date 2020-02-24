@@ -6,8 +6,8 @@
     </section>
 
     <section
-      class="mv4 ph2 pb1 black b--gray bn bg-moon-gray f6 lh-solid w-two-thirds-ns center">
-      <h2 class="mb2 dark-gray tc lh-title">Currently reading</h2>
+      class="mv4 ph2 pb1 black b--gray bn f6 lh-solid">
+      <h2 class="mb2 dark-gray lh-title">Currently reading</h2>
       <BookList :current="true" :books="currentReadingLibrary" />
     </section>
 

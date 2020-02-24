@@ -38,9 +38,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-import _ from 'lodash'
-// import slug from 'slug'
 import slugify from 'slugify'
 import BookList from '~/components/BookList.vue'
 import Nav from '~/components/Nav.vue'

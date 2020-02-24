@@ -1,5 +1,8 @@
 var glob = require('glob');
 var path = require('path');
+var webpack = require('webpack');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 // var marked = require('marked')
 // import marked from 'marked'
 // Build markdown parser
@@ -27,23 +30,23 @@ var dynamicRoutes = getDynamicPaths({
 module.exports = {
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/google-analytics'
-    // 'nuxt-purgecss'
+    '@nuxtjs/google-analytics',
     // '@nuxtjs/feed'
+    // 'nuxt-purgecss'    
   ],
   plugins: [
-    '~/plugins/vue-moment.js'
+    '~/plugins/vue-moment.js'    
   ],
   // feed: [
   //   {
   //     path: '/feed.xml',
   //     async create(feed) {
-  //       feed.options = {
-  //         title: 'EJ Fox',
-  //         link: 'https://ejfox.com/feed.xml',
-  //         description: ''
-  //       }
-  //
+  //       // feed.options = {
+  //       //   title: 'EJ Fox',
+  //       //   link: 'https://ejfox.com/feed.xml',
+  //       //   description: ''
+  //       // }
+  
   //       dynamicRoutes.forEach(post => {
   //         feed.addItem({
   //           title: post.title,
@@ -52,7 +55,7 @@ module.exports = {
   //           description: post.description,
   //           content: markdownRenderer(post.body),
   //         })
-  //
+  
   //         feed.addContributor({
   //           name: 'EJ Fox',
   //           email: 'ejfox@ejfox.com',
@@ -147,6 +150,31 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    hardSource: true,
+    cache: true,
+    parallel: true,
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+          decodeEntities: true,
+          minifyCSS: false,
+          minifyJS: false,
+          processConditionalComments: true,
+          removeEmptyAttributes: true,
+          removeRedundantAttributes: true,
+          trimCustomFragments: true,
+          useShortDoctype: true
+      },
+    },
+    plugins: [
+      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+      new BundleAnalyzerPlugin({
+        analyzerMode: 'static',
+        generateStatsFile: true,
+        openAnalyzer: false,
+        logLevel: 'info'
+      })
+    ],
     //analyze: true,
     // /*
     // ** Run ESLint on save

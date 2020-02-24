@@ -22,8 +22,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-import _ from 'lodash'
 import Nav from '~/components/Nav.vue'
 export default {
   components: {

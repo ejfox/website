@@ -83,11 +83,8 @@
 import AudioPlayer from '~/components/AudioPlayer.vue';
 import Words from '~/components/blogtypes/words.vue'
 import Nav from '~/components/Nav.vue';
-import URL from 'url-parse'
-// import _ from 'lodash'
-import marked from 'marked'
+// import marked from 'marked'
 import truncate from 'truncate'
-import cheerio from 'cheerio'
 import moment from 'moment'
 
 export default {

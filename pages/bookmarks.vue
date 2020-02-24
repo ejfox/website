@@ -68,13 +68,9 @@
 
 <script>
 import axios from 'axios'
-import _ from 'lodash'
-// import xml2js from 'xml2js'
 import * as URI from 'uri-js'
 import marked from 'marked'
 import Nav from '~/components/Nav.vue';
-// const parseString = xml2js.parseString
-// const stripPrefix = xml2js.processors.stripPrefix;
 
 const pinboardURI = 'https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json'
 // const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
@@ -101,13 +97,6 @@ export default {
     linkDomain: function(urlString) {
       let uri = URI.parse(urlString)
       return uri.domain
-    },
-    parseXML: function(xmlString) {
-      let parsedXMLContent
-      const parsedXML = parseString(res.data, { tagNameProcessors: [ stripPrefix ] }, (err, result) => {
-        const links = result.posts.post
-      })
-      return links
     },
     parseMarkdown: function(markdown) {
       // console.log('Parsing markdown...')

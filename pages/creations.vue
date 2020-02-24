@@ -32,7 +32,7 @@
 
 <script>
 import axios from 'axios'
-import _ from 'lodash'
+import reverse from 'lodash/reverse'
 import Nav from '~/components/Nav.vue'
 const channelSlug = 'creations'
 
@@ -52,7 +52,7 @@ export default {
   mounted: function () {
     axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=200`)
     .then((res) => {
-      this.blocks = _.reverse(res.data.contents)
+      this.blocks = reverse(res.data.contents)
     })
   },
   activated: function () {
@@ -77,7 +77,7 @@ export default {
   asyncData ({ params }) {
     return axios.get(`https://api.are.na/v2/channels/${channelSlug}?per=200`)
     .then((res) => {
-      return { blocks: _.reverse(res.data.contents) }
+      return { blocks: reverse(res.data.contents) }
     })
   }
 };

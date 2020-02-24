@@ -42,8 +42,6 @@
 </template>
 
 <script>
-import VueHowler from 'vue-howler'
-
 export default {
   props: {
     fileUrl: { type: String, default: null },

@@ -26,7 +26,7 @@
 
 <script>
 import URL from 'url-parse'
-import _ from 'lodash'
+import each from 'lodash/each'
 export default {
   props: {
     url: String,
@@ -45,7 +45,7 @@ export default {
       const imgSrc = this.url
       const sizes = [320, 920, 1280]
       const srcSet = []
-      _.each(sizes, (size) => {
+      each(sizes, (size) => {
         let nURL = this.modifyUrlWithSize(imgSrc, size, true)
         srcSet.push(nURL)
       })

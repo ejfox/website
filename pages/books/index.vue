@@ -94,6 +94,7 @@
 
 <script>
 import slugify from 'slugify'
+import filter from 'lodash/filter'
 import BookList from '~/components/BookList.vue'
 import Nav from '~/components/Nav.vue'
 
@@ -129,16 +130,16 @@ export default {
   },
   computed: {
     readLibrary: function () {
-      return _.filter(this.library, _.matchesProperty('Exclusive Shelf', 'read'))
+      return filter(this.library, _.matchesProperty('Exclusive Shelf', 'read'))
     },
     toReadLibrary: function () {
-      return _.filter(this.library, _.matchesProperty('Exclusive Shelf', 'to-read'))
+      return filter(this.library, _.matchesProperty('Exclusive Shelf', 'to-read'))
     },
     currentReadingLibrary: function () {
-      return _.filter(this.library, _.matchesProperty('Exclusive Shelf', 'currently-reading'))
+      return filter(this.library, _.matchesProperty('Exclusive Shelf', 'currently-reading'))
     },
     notFinishedLibrary: function () {
-      return _.filter(this.library, _.matchesProperty('Exclusive Shelf', 'not-finished'))
+      return filter(this.library, _.matchesProperty('Exclusive Shelf', 'not-finished'))
     }
 
   },

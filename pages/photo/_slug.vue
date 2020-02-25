@@ -15,7 +15,6 @@
 </template>
 
 <script>
-// import AudioPlayer from '~/components/AudioPlayer.vue';
 // import Words from '~/components/blogtypes/words.vue'
 import Photo from '~/components/Photo.vue'
 // import URL from 'url-parse'

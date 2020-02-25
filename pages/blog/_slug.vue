@@ -66,7 +66,7 @@
       v-if="type === 'audio'"
       :class="['tc center pa1 pa4-ns mb0']">
       <div v-if="audio" class="w-100">
-        <AudioPlayer
+        <AudioPlayer2
           :sources="[audio]"
           :loop="false"
           :bg="'bg-gray'"/>
@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import AudioPlayer from '~/components/AudioPlayer.vue';
+import AudioPlayer2 from '~/components/AudioPlayer2.vue';
 import Words from '~/components/blogtypes/words.vue'
 import Nav from '~/components/Nav.vue';
 // import marked from 'marked'
@@ -90,7 +90,7 @@ import moment from 'moment'
 export default {
   scrollToTop: true,
   components: {
-    AudioPlayer,
+    AudioPlayer2,
     Words,
     Nav
   },

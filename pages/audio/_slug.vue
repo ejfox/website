@@ -12,12 +12,12 @@
     <!-- Audio post types -->
     <article
       :class="['tc center pa1 pa4-ns mb0']">
-      <div v-if="audio" class="w-100">
+      <!-- <div v-if="audio" class="w-100">
         <AudioPlayer2
           :fileUrl="audio"
           :loop="false"
           :bg="'bg-gray'"/>
-      </div>
+      </div> -->
 
       <!-- Timestamp -->
       <time
@@ -34,16 +34,9 @@
 </template>
 
 <script>
-// import AudioPlayer from '~/components/AudioPlayer.vue';
-import AudioPlayer2 from '~/components/AudioPlayer2.vue';
-// import Words from '~/components/blogtypes/words.vue'
 import URL from 'url-parse'
-// import _ from 'lodash'
 import marked from 'marked'
-
-// import truncate from 'truncate'
-// import cheerio from 'cheerio'
-// import slug from 'slug'
+import AudioPlayer2 from '~/components/AudioPlayer2.vue';
 
 export default {
   scrollToTop: true,

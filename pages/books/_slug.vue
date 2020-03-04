@@ -39,7 +39,10 @@
 
 <script>
 import slugify from 'slugify'
-import filter from 'lodash/filter'
+import {
+  filter,
+  find
+} from 'lodash/filter'
 import matchesProperty from 'lodash/matchesProperty'
 import BookList from '~/components/BookList.vue'
 import Nav from '~/components/Nav.vue'
@@ -108,7 +111,7 @@ export default {
         b.slug = slugify(b.Title, {lower: true, symbols: false})
     })
 
-    const book = _.find(highlights, (h) => {
+    const book = find(highlights, (h) => {
       return h.slug === bookSlug
     })
     return { library, highlights, book }

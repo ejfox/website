@@ -39,10 +39,8 @@
 
 <script>
 import slugify from 'slugify'
-import {
-  filter,
-  find
-} from 'lodash/filter'
+import filter from 'lodash/filter'
+import find from 'lodash/find'
 import matchesProperty from 'lodash/matchesProperty'
 import BookList from '~/components/BookList.vue'
 import Nav from '~/components/Nav.vue'

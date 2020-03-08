@@ -1,5 +1,5 @@
 ---
-dek: In which we explore the author’s perspective on the meaning of life and work
+dek: In which the author explores the meaning of life and work
 type: words
 hidden: false
 inprogress: false
@@ -42,8 +42,6 @@ I think a lot about traveling and offering to make little 30 second commercials 
 
 ## What does money have to do with it? 
 I think the goal is to make as much money possible while maintaining a good, pleasurable life. Enough money to not have to think about money. To not have money as either an obstacle or an object of desire. To move through the world with other goals and thoughts. 
-
----
 
 ## Why are we here? 
 

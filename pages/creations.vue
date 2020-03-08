@@ -13,10 +13,16 @@
         <a v-if="block.image"
           :href="block.source ? block.source.url : 'https://www.are.na/block/'+block.id">
          <img :src="block.image.large.url" 
-          :alt="block.generated_title" 
+          :alt="block.generated_title"
+          class="br1"
           loading="lazy">
         </a>
+        <span class="sans-serif f6 o-50 ma0 pa0">
+
+          {{ block.created_at | moment("MMMM Do") }}
+        </span>
         <div
+          class="f5 sans-serif"
            v-if="block.description.length > 1"
            v-html="block.description_html" />
       </section>

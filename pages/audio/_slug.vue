@@ -12,12 +12,12 @@
     <!-- Audio post types -->
     <article
       :class="['tc center pa1 pa4-ns mb0']">
-      <!-- <div v-if="audio" class="w-100">
+      <div v-if="audio" class="w-100">
         <AudioPlayer2
           :fileUrl="audio"
           :loop="false"
-          :bg="'bg-gray'"/>
-      </div> -->
+          bg="bg-gray"/>
+      </div>
 
       <!-- Timestamp -->
       <time

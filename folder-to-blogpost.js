@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config()
 
 const path = require('path')
 const fs = require('fs')
@@ -8,11 +9,12 @@ const exifErrors = ExifReader.errors
 const _ = require('lodash')
 const exifDate = require('exif-date').parse
 
+
 // TODO: Get this from .env
 cloudinary.config({
-  cloud_name: 'ejf',
-  api_key: '772121974764543',
-  api_secret: 'OaPOrn409H_wXnhS3eR6Y8B-4WY'
+  cloud_name: process.env.cloud_name,
+  api_key: process.env.api_key,
+  api_secret: process.env.api_secret
 })
 
 const photoFolderObject = {

@@ -12,3 +12,6 @@ dist
 static/.DS_Store
 .DS_Store
 *.swp
+
+# .env file
+.env

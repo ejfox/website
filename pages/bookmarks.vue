@@ -68,11 +68,12 @@
 
 <script>
 import axios from 'axios'
+import insane from 'insane'
 import * as URI from 'uri-js'
 import marked from 'marked'
 import Nav from '~/components/Nav.vue';
 
-const pinboardURI = 'https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json'
+const pinboardURI = `https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json`
 // const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
 
 export default {
@@ -89,6 +90,9 @@ export default {
   mounted: function () {
     axios.get(pinboardURI)
     .then((res) => {
+      console.log({
+        res
+      })
       console.lot(res.data[0])
       this.blocks = res.data
     })
@@ -112,7 +116,9 @@ export default {
         smartypants: true,
         xhtml: true
       })
-      return markdownRenderer(markdown)
+      return insane(markdownRenderer(markdown), {
+        allowedTags: ['h2', 'h3', 'h4', 'ul', 'li', 'p']
+      })
     }
   },
   asyncData ({ params }) {

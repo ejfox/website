@@ -1,5 +1,5 @@
 <template>
-  <div class="center db cf w-100 pa2 pa5-ns">
+  <div class="center db cf w-100 pa2 pa3-ns">
     <section
       class="project mv2 ph3"
       v-for="project in projects">

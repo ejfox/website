@@ -1,18 +1,22 @@
 <template>
   <section class="pa3 pa4-ns db cf mb4">
-    <section class="intro pt2 measure-narrow lh-copy">
+    <section class="intro pt2 measure-narrow lh-copy tj">
       <p class="pv2">
-      Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist available for contract work. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a><small class="ml2 f6 gray">(<a href="#pgp">PGP</a>)</small>. My work focuses on data visualization, systems, and politics.
+      Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist available for contract work. My work focuses on data visualization, systems, and politics. You can send me an email at <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> <small class="ml2 f6 gray">(<a href="#pgp">PGP</a>)</small>.
       </p>
 
-      <p>
+      <p class="tl">
         <nuxt-link to="/projects">
           Take a look at some of my work
         </nuxt-link>
          or <a href="/resume.pdf">my resume</a>.
       </p>
-      <p class="lh-copy pv3 mv3 mv4-ns">
-       I post things I've made on <nuxt-link to="/creations/">creations</nuxt-link>. I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books/">books page</nuxt-link>. My <nuxt-link to="/bookmarks/">recent bookmarks</nuxt-link> are also available. Sometimes I make <nuxt-link to="/photo/">photos</nuxt-link> or <nuxt-link to="/audio/">sounds</nuxt-link>.
+      <p class="lh-copy pv2 tj">
+       <!-- I post things I've made on <nuxt-link to="/creations/">creations</nuxt-link>.  -->
+       
+       I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books/">books page</nuxt-link>. Sometimes I make <nuxt-link to="/photo/">photos</nuxt-link> or <nuxt-link to="/audio/">sounds</nuxt-link>. 
+       
+       <!-- My <nuxt-link to="/bookmarks/">recent pinboard bookmarks</nuxt-link> are also available. -->
       </p>
     </section>
 

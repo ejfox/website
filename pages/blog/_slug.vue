@@ -1,6 +1,6 @@
 <template>
 <div class="slug-container cf">
-  <article id="post-container w-100 fl">
+  <article id="post-container w-100 mt2">
     <!-- Article header -->
     <header class="mv2 ph3-ns w-100">
       <div class="ph2 ph3-ns">
@@ -14,11 +14,12 @@
       </div>
 
       <div v-if="inprogress === true"
-        class="bg-dark-gray white pa4 mv2 tc">
-          <h2 class="ma0 pa2 ba br2 w-two-thirds-l center">This post is in progress</h2>
-          <p class="pt3">I would really appreciate your feedback!</p>
-          <p class="pa3">Get in touch...</p>
-          <h3 class="tracked"><a class="white" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a class="white" href="http://twitter.com/mrejfox">@mrejfox</a> </h3>
+        class="bg-dark-gray white pa4 mv2 br2 f6">
+          <h3 class="ma0 pa2 pv3 ba br2 tc">This post is in progress</h3>
+          <p class="pt3">I would really appreciate your feedback for things I could improve.</p>
+          <p class="pt3">Get in touch via email or Twitter...</p>
+
+          <h4 class="link"><a class="white link lh-title" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> <br /> or <a class="white link lh-title" href="http://twitter.com/mrejfox">@mrejfox</a> </h4>
       </div>
 
       <!-- Timestamp -->
@@ -173,7 +174,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="stylus">
 @media screen and (max-width: 640px) {
   h1, h2, h3, h4, h5 {
     word-wrap: break-word;
@@ -183,11 +184,13 @@ export default {
 
 @media screen and (min-width: 640px) {
   .f-headline {
-    font-size: 10rem;
+    margin-top: 0.12em;
+    font-size: 5.4rem;
+    line-height: 0.92em;
   }
 }
 
-article li
+li
   list-style-type circle
 
 article.photos h1 {

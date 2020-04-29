@@ -4,12 +4,15 @@
       class="project mv2 ph3"
       v-for="project in projects">
       <a
+        v-if="project.URL"
         target="_blank" 
         rel="noopener"
         :title="project.Year + ' for ' + project.Client"
         class="b lh-title link black underline br1"
-        :href="project.URL">{{project['Project Name']}}
+        :href="project.URL">
+          {{project['Project Name']}}        
       </a>
+      <span class="b br1 black" v-else>{{project['Project Name']}}</span>
       <small class="ph2 dark-gray tr">
         {{project['Client']}}
         <span class="gray">

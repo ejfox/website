@@ -59,6 +59,20 @@
 
     <Footer />
 
+    <div id="hcard-EJ-Fox" class="vcard w-100 f6 tc dn">
+      <img src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7" alt="photo of EJ Fox" class="photo dn"/>
+      <a class="url fn db" href="https://ejfox.com">EJ Fox</a>
+      <a class="email db" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
+      <div class="adr">
+        <span class="locality">Brooklyn</span>, 
+        <span class="region">New York</span> 
+
+        <span class="country-name ml1 b">United States</span>
+      </div>
+      
+      <div class="tel sans-serif">(260) 673-5369</div>
+    </div>
+
     <!-- <section class="tc ma4 o-50">
       <p>
         <a href="https://twitter.com/mrejfox?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow me on Twitter (@mrejfox)</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

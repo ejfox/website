@@ -1,5 +1,5 @@
 <template>
-  <section class="w-80 center db f3 cf mb4">
+  <section class="pl4 db f3 cf mb4">
 
     <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third db pr4 lh-title">Everything Else</h2>
@@ -19,15 +19,14 @@
         </li>
       </ul>
     </section> -->
-    <section class="category pv5 db cf">
-      <h2 class="fl-ns w-third-l db pr4 lh-title">Words</h2>
+    <section class="category pv3 db cf">
       <ul class="fl-ns w-two-thirds-l db list">
-        <li v-for="post in posts.filter(d => d.type === 'words').slice(0,10)" :key="post.date" class="pv2">          
-          <nuxt-link :to="post._path" :class="[post.type, 'link underline dim near-black lh-solid']">
+        <li v-for="post in posts.filter(d => d.type === 'words')" :key="post.date" class="pv2">          
+          <nuxt-link :to="post._path" :class="[post.type, 'ttc link underline dim near-black lh-solid']">
             {{ post.title }}
           </nuxt-link>
 
-          <span :class="['post-date tracked b f6 db light-silver barlowcondensed no-underline']">{{ post.date | moment("from", "now") }}</span>
+          <span :class="['post-date tracked b f6 db light-silver no-underline']">{{ post.date | moment("from", "now") }}</span>
         </li>
       </ul>
     </section>
@@ -44,7 +43,7 @@
       </ul>
     </section> -->
 
-    <section class="category pv5 db cf">
+    <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third-l db pr4 lh-title">Photos</h2>
       <ul class="list fl w-two-thirds-l db">
         <li v-for="post in photos" :key="post.date" class="pv2">
@@ -59,10 +58,10 @@
           </nuxt-link>          
         </li>
       </ul>
-    </section>
+    </section> -->
 
-    <section id="allposts" class="category pv4 db cf">
-      <!-- <h2 class="fl f1 pl2 db mr4 lh-title">All posts</h2> -->
+    <!-- <section id="allposts" class="category pv4 db cf">
+      <h2 class="fl f1 db mr4 lh-title">All posts</h2>
       <ul class="db list">
         <li v-for="post in posts" :key="post.date"
           :class="['tracked lh-title pv3 mr4-ns dib ttu sans-serif br1 no-underline']">
@@ -71,14 +70,13 @@
               {{ post.title }}
             </span>
           </nuxt-link>
-          <span class="f5 light-silver db di-ns ttu o-80 tracked">
+          <span class="f5 light-silver db di-ns ttu o-80 tracked dn">
             <i :class="['fas', postTypeIcon(post.type)]" />
             {{ post.date | moment("YYYY-MM") }}
-            <!-- {{ post.type }} -->
           </span>
         </li>
       </ul>
-    </section>
+    </section> -->
 
 
   <!-- <Footer /> -->

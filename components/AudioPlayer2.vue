@@ -26,5 +26,8 @@ export default {
 };
 </script>
 <style>
+audio {
+  outline: none;
+}
 
 </style>

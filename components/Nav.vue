@@ -40,6 +40,8 @@ export default {
 <style scoped="true">
 #navigation {
   font-size: 1rem !important;
+  z-index: 100;
+  margin-bottom: 18px;
 }
 
 ul li {

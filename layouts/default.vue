@@ -32,13 +32,21 @@ export default {
 </script>
 
 <style lang="stylus">
+
+$serif = Georgia, 'Times New Roman', Times, serif;
+$sans-serif = 'Oswald', Arial, Helvetica, sans-serif;
+
+.serif { font-family: $serif; }
+
+.sans-serif { font-family: $sans-serif; }
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
 }
 
 html {
-  font-family: "Hoefler Text A", "Hoefler Text B";
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
 
@@ -67,21 +75,22 @@ a:visited {
 } */
 
 b, strong {
-  font-family: "Hoefler Text A", "Hoefler Text B";
   font-style: normal;
   font-weight: 700;
 }
 
 i, em {
-  font-family: "Hoefler Text A", "Hoefler Text B";
   font-style: italic;
   /* font-weight: 400; */
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Knockout 66 A", "Knockout 66 B";
+h1,h2,h3,h4,h5,h6 {  
   font-style: normal;
   font-weight: 400;
+  font-family: $sans-serif;
+}
+
+h1,h2,h3 {
   text-transform: uppercase;
 }
 
@@ -101,7 +110,6 @@ h4 {
 }
 
 #home-link {
-  font-family: "Knockout 68 A", "Knockout 68 B";
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -123,27 +131,20 @@ pre {
   overflow-x: auto;
 }
 
-.sans-serif {
-  font-family: "Knockout 68 A", "Knockout 68 B", "Helvetica Neue", sans-serif !important;
-  font-style: normal;
-  font-weight: 400;
-}
-.sans-serif-flyweight {
-  font-family: "Knockout 66 A", "Knockout 66 B";
-  font-style: normal;
-  font-weight: 400;
-}
+
+$black = #292A2B
 
 
 // Dark mode overrides for Tachyon
 @media (prefers-color-scheme: dark) {
 
   body {
-    background-color: black; 
+    // background-color: black; 
+    background-color: $black
   }
 
   .bg-near-white {
-    background-color #000
+    background-color: $black
     color white
   }
 
@@ -152,7 +153,7 @@ pre {
   }
 
   .bg-white, .bg-light-gray {
-    background-color #000
+    background-color: $black
     color white
   }
 

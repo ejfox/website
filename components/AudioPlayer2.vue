@@ -36,31 +36,43 @@ export default {
     const ctx = this.$refs.canvas.getContext('2d')
     
 
-    const audioCtx = new AudioContext()
+    // const audioCtx = new AudioContext()
+    let audioCtx
+    let analyser
+    let dataArray
+    let darkMode
+    let bufferLength
     // const audio = document.getElementById('audio')    
 
     // const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
     // const myAudio = document.getElementById('audio')
     const myAudio = this.$refs.audio
 
+    let firstPlay = true
     myAudio.onplay = (event) => {
-      const audioSrc = audioCtx.createMediaElementSource(myAudio)
-      let analyser = audioCtx.createAnalyser()
-      audioSrc.connect(analyser)
-      audioSrc.connect(audioCtx.destination)
+      if(firstPlay) {
+        audioCtx = new AudioContext()
+        const audioSrc = audioCtx.createMediaElementSource(myAudio)
+        analyser = audioCtx.createAnalyser()
+        audioSrc.connect(analyser)
+        audioSrc.connect(audioCtx.destination)
 
-      analyser.fftSize = 2048
-      // analyser.fftSize = 1024
-      analyser.smoothingTimeConstant = 0.95
-      let bufferLength = analyser.frequencyBinCount
-      let dataArray = new Uint8Array(bufferLength)
+        analyser.fftSize = 2048
+        // analyser.fftSize = 1024
+        analyser.smoothingTimeConstant = 0.95
+        bufferLength = analyser.frequencyBinCount
+        dataArray = new Uint8Array(bufferLength)
 
-      let darkMode = true
-
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         darkMode = true
-      } else {
-        darkMode = false
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          darkMode = true
+        } else {
+          darkMode = false
+        }
+
+        firstPlay = false
+        draw()
       }
 
       let t = 0
@@ -105,10 +117,10 @@ export default {
 
           x += sliceWidth;
         }
-        ctx.lineTo(canvas.width, canvas.height/3.3);
+        ctx.lineTo(canvas.width, canvas.height/3);
         ctx.stroke();
       }
-      draw()
+      // draw()
     }
 
   }

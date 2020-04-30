@@ -48,7 +48,9 @@ export default {
       // Remove to-level header if it is the first element
       // This prevents repeating the page title
       const firstTitle = $('h1').first()
-      if(!firstTitle[0].prev) firstTitle.remove()
+      if (firstTitle[0]) {
+        if(!firstTitle[0].prev) firstTitle.remove()
+      }      
 
       $('h1, h2, h3, h4, h5').each(function(i, el){
         const headerID = $(el).text()

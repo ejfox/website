@@ -25,8 +25,8 @@
         <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
       </time>
       
-      <div v-if="body" id="body" :class="['tl pt4-ns center f3-ns']">
-        <Words :bodyMarkdown="body" />
+      <div v-if="bodyHtml" id="body" :class="['tl pt4-ns center f3-ns']">
+        <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </article>
   </section>
@@ -36,12 +36,14 @@
 <script>
 import URL from 'url-parse'
 import marked from 'marked'
-import AudioPlayer2 from '~/components/AudioPlayer2.vue';
+import AudioPlayer2 from '~/components/AudioPlayer2.vue'
+import Words from '~/components/blogtypes/words.vue'
 
 export default {
   scrollToTop: true,
   components: {
-    AudioPlayer2
+    AudioPlayer2,
+    Words
   },
   data: function () {
     return {

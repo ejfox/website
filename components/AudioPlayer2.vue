@@ -42,72 +42,72 @@ export default {
     // const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
     // const myAudio = document.getElementById('audio')
     const myAudio = this.$refs.audio
-    const audioSrc = audioCtx.createMediaElementSource(myAudio)
-    let analyser = audioCtx.createAnalyser()
-    audioSrc.connect(analyser)
-    audioSrc.connect(audioCtx.destination)
-
-    analyser.fftSize = 2048
-    // analyser.fftSize = 1024
-    analyser.smoothingTimeConstant = 0.95
-    let bufferLength = analyser.frequencyBinCount
-    let dataArray = new Uint8Array(bufferLength)
-
-    let darkMode = true
-
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      darkMode = true
-    } else {
-      darkMode = false
-    }
-
-    let t = 0
-    function draw() {
-      t++
-      // console.log('drawing')
-      var drawVisual = requestAnimationFrame(draw)
-      analyser.getByteTimeDomainData(dataArray)
-      // analyser.getByteFrequencyData(dataArray)
-      // console.log('dataArray', dataArray)
-      // ctx.clearRect(0, 0, canvas.width, canvas.height)
-      // ctx.fillStyle = 'rgba(0,0,0,0.02)'
-      if (darkMode) {
-        ctx.fillStyle = 'rgba(41, 42, 43, 0.02)'
-      } else {
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.01)'
-      }
-      
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-      ctx.lineWidth = 2;      
-      if (darkMode) {
-        ctx.strokeStyle = 'rgb(127, 127, 127)'
-      } else {
-        ctx.strokeStyle = 'rgb(24, 24, 24)'
-      }      
-      
-      ctx.beginPath();
-
-      let sliceWidth = canvas.width * 1.0 / bufferLength
-      let x = 0
-
-      for(var i = 0; i < bufferLength; i++) {        
-        var v = dataArray[i] / 128.0;
-        var y = v * canvas.height/3.3;
-
-        if(i === 0) {
-          ctx.moveTo(x, y);
-        } else {
-          ctx.lineTo(x, y);
-        }
-
-        x += sliceWidth;
-      }
-      ctx.lineTo(canvas.width, canvas.height/3.3);
-      ctx.stroke();
-    }
 
     myAudio.onplay = (event) => {
+      const audioSrc = audioCtx.createMediaElementSource(myAudio)
+      let analyser = audioCtx.createAnalyser()
+      audioSrc.connect(analyser)
+      audioSrc.connect(audioCtx.destination)
+
+      analyser.fftSize = 2048
+      // analyser.fftSize = 1024
+      analyser.smoothingTimeConstant = 0.95
+      let bufferLength = analyser.frequencyBinCount
+      let dataArray = new Uint8Array(bufferLength)
+
+      let darkMode = true
+
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        darkMode = true
+      } else {
+        darkMode = false
+      }
+
+      let t = 0
+      function draw() {
+        t++
+        // console.log('drawing')
+        var drawVisual = requestAnimationFrame(draw)
+        analyser.getByteTimeDomainData(dataArray)
+        // analyser.getByteFrequencyData(dataArray)
+        // console.log('dataArray', dataArray)
+        // ctx.clearRect(0, 0, canvas.width, canvas.height)
+        // ctx.fillStyle = 'rgba(0,0,0,0.02)'
+        if (darkMode) {
+          ctx.fillStyle = 'rgba(41, 42, 43, 0.02)'
+        } else {
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.01)'
+        }
+        
+        ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+        ctx.lineWidth = 2;      
+        if (darkMode) {
+          ctx.strokeStyle = 'rgb(127, 127, 127)'
+        } else {
+          ctx.strokeStyle = 'rgb(24, 24, 24)'
+        }      
+        
+        ctx.beginPath();
+
+        let sliceWidth = canvas.width * 1.0 / bufferLength
+        let x = 0
+
+        for(var i = 0; i < bufferLength; i++) {        
+          var v = dataArray[i] / 128.0;
+          var y = v * canvas.height/3.3;
+
+          if(i === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
+
+          x += sliceWidth;
+        }
+        ctx.lineTo(canvas.width, canvas.height/3.3);
+        ctx.stroke();
+      }
       draw()
     }
 

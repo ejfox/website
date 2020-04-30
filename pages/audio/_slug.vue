@@ -25,9 +25,9 @@
         <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
       </time>
       
-      <!-- <div id="body" :class="['tl pt4-ns center f3-ns']">
-        <Words v-if="body" :bodyMarkdown="body" />
-      </div> -->
+      <div v-if="body" id="body" :class="['tl pt4-ns center f3-ns']">
+        <Words :bodyMarkdown="body" />
+      </div>
     </article>
   </section>
 </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="pl4 db f3 cf mb4">
+  <section class="pl4-ns db f3 cf mb4">
 
     <!-- <section class="category pv5 db cf">
       <h2 class="fl w-third db pr4 lh-title">Everything Else</h2>

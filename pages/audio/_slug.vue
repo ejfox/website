@@ -178,4 +178,8 @@ code {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
+header h1 {
+  text-shadow: 0 2px 0.25em rgba(0,0,0,0.5)
+}
 </style>

@@ -84,7 +84,7 @@ export default {
         analyser.getByteTimeDomainData(dataArray)
         // analyser.getByteFrequencyData(dataArray)
         // console.log('dataArray', dataArray)
-        // ctx.clearRect(0, 0, canvas.width, canvas.height)
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
         // ctx.fillStyle = 'rgba(0,0,0,0.02)'
         if (darkMode) {
           ctx.fillStyle = 'rgba(41, 42, 43, 0.02)'
@@ -108,7 +108,7 @@ export default {
 
         for(var i = 0; i < bufferLength; i++) {        
           var v = dataArray[i] / 128.0;
-          var y = v * canvas.height/3.3;
+          var y = v * ( canvas.height * 0.5);
 
           if(i === 0) {
             ctx.moveTo(x, y);

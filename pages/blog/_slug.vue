@@ -4,13 +4,13 @@
     <!-- Article header -->
     <header class="mv2 ph3-ns w-100">
       <div class="ph2 ph3-ns">
-        <h1 :class="['f-headline sans-serif-flyweight lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
+        <h1 :class="['f1 f-subheadline-ns sans-serif-flyweight lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}
         </h1>
       </div>
 
       <div v-if="dek">
-        <div class="mv3 i pa3-ns tc tl-ns w-100 db">{{dek}}</div>
+        <div class="mv3 i pa1 pa3-ns tc tl-ns w-100 db">{{dek}}</div>
       </div>
 
       <div v-if="inprogress === true"

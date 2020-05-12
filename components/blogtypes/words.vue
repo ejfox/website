@@ -190,11 +190,11 @@ export default {
     })
     .use(require('markdown-it-footnote'))
     //.use(require('../../helpers/footnote.js'))
-    .use(require('markdown-it-table-of-contents'), {
+    /*.use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
       listType: 'ol',
       slugify: slugify
-    })
+    })*/
     .use(require('markdown-it-strikethrough-alt'))
 
     return MarkdownIt.render(markdown)

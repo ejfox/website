@@ -51,6 +51,7 @@ export default {
     let firstPlay = true
     myAudio.onplay = (event) => {
       if(firstPlay) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext
         audioCtx = new AudioContext()
         const audioSrc = audioCtx.createMediaElementSource(myAudio)
         analyser = audioCtx.createAnalyser()

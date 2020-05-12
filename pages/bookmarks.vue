@@ -1,5 +1,5 @@
 <template>
-  <section class="center db f3 cf tc">
+  <section class="center db cf tc">
     <section v-if="!blocks">
       <h2>Loading bookmarks</h2>
     </section>

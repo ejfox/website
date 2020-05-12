@@ -1,19 +1,19 @@
 <template>
-<footer class="center db ttu sans-serif ma0 mt2 mt5-ns f3 tc">
+<footer class="db ttu pa0 sans-serif ma0 mt2 mt5-ns">
   <a
-    :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
+    :class="['dib mr2 pa0 link bn underline gray bg-light-gray']"
     href="https://github.com/ejfox">
     GitHub
   </a>
 
   <a
-    :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
+    :class="['dib mr2 pa0 link bn underline gray bg-light-gray']"
     href="http://instagram.com/ejfox">
     Instagram
   </a>
 
   <a
-    :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
+    :class="['dib mr2 pa0 link bn underline gray bg-light-gray']"
     href="https://www.linkedin.com/in/ejfox/">
     LinkedIn
   </a>
@@ -33,14 +33,14 @@
     books
   </nuxt-link>
   -->
-  <a
-  :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']"
+  <!-- <a
+  :class="['db pa0 link bn no-underline gray bg-light-gray']"
   href="https://calendly.com/ejfox/hangout/">
     calendar
-  </a>
+  </a> -->
 
-  <section id="pgp" class="center tc sans-serif ttu gray mv1 mv5-ns lh-copy">
-    <p>PGP: <a href="/pgp.txt" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
+  <section id="pgp" class="sans-serif ttu gray mv1 mv5-ns lh-copy">
+    <p>PGP: <a href="/pgp.txt" title="PGP Public Key" class="link underline gray">5D30 A33E 08E3 5B89 15B4  C7E2 E207 8E65 3FE3 89CD</a> </p>
   </section>
 </footer>
 </template>

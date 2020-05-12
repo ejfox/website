@@ -179,7 +179,9 @@ code {
   margin-top: 2rem;
 }
 
-header h1 {
-  text-shadow: 0 2px 0.25em rgba(0,0,0,0.5)
+@media (prefers-color-scheme: dark) {
+  header h1 {
+    text-shadow: 0 2px 0.25em rgba(0,0,0,0.5);
+  }
 }
 </style>

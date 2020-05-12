@@ -26,7 +26,7 @@
             {{ post.title }}
           </nuxt-link>
 
-          <span :class="['post-date tracked b f6 db light-silver no-underline']">{{ post.date | moment("from", "now") }}</span>
+          <span :class="['post-date tracked f6 db light-silver no-underline']">{{ post.date | moment("from", "now") }}</span>
         </li>
       </ul>
     </section>

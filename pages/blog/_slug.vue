@@ -21,18 +21,6 @@
 
           <h4 class="link"><a class="white link lh-title" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> <br /> or <a class="white link lh-title" href="http://twitter.com/mrejfox">@mrejfox</a> </h4>
       </div>
-
-      <!-- Timestamp -->
-      <time v-if="!hidetimestamp"
-        :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
-        <small class="mv3 pa3-ns tc tl-ns w-100 db">
-          {{ date | moment("MMMM Do, YYYY") }}
-          <span class="ml3 gray" v-if="isToday(date)">
-            {{ date | moment("from", "now") }}
-          </span>
-        </small>        
-        
-      </time>
     </header>
     <!-- Non-audio blog post types -->
     <section
@@ -76,6 +64,17 @@
         <Words v-if="body" :bodyMarkdown="body" />
       </div>
     </section>
+
+    <!-- Timestamp -->
+    <time v-if="!hidetimestamp"
+      :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
+      <small class="mv3 pa3-ns tc tl-ns w-100 db">
+        {{ date | moment("MMMM Do, YYYY") }}
+        <span class="ml3 gray" v-if="isToday(date)">
+          {{ date | moment("from", "now") }}
+        </span>
+      </small>                
+    </time>
   </article>
 </div>
 </template>

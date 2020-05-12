@@ -83,10 +83,10 @@ export default {
         $(el).addClass('i')
       })
 
-      $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv1 ph1 ba-ns b--gray mw5')
+      $('.table-of-contents').first().addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv1 ph1 bn mw5')
       $('.footnotes').first().addClass('')
 
-      $('.footnote-ref a').each(function(i, el){ $(el).addClass('link sans-serif o-50-ns') })
+      $('.footnote-ref a').each(function(i, el){ $(el).addClass('link o-50') })
 
       // If we wanted to do something special for different links
       $('a').each(function(i, el){
@@ -190,11 +190,12 @@ export default {
     })
     .use(require('markdown-it-footnote'))
     //.use(require('../../helpers/footnote.js'))
-    /*.use(require('markdown-it-table-of-contents'), {
+    .use(require('markdown-it-table-of-contents'), {
       includeLevel: [2,3],
       listType: 'ol',
-      slugify: slugify
-    })*/
+      slugify: slugify,
+      containerHeaderHtml: `<h4 class="ttu tc f4 f3-ns">Table of Contents</h4>`
+    })
     .use(require('markdown-it-strikethrough-alt'))
 
     return MarkdownIt.render(markdown)

@@ -41,7 +41,7 @@
     "markdown-it-strikethrough-alt": "^1.0.0",
     "markdown-it-table-of-contents": "^0.4.4",
     "markdown-it-toc-and-anchor": "^4.2.0",
-    "marked": "^0.6.1",
+    "marked": "^0.7.0",
     "nuxt": "^1.4.5",
     "nuxt-purgecss": "^0.2.1",
     "slug": "^1.1.0",

@@ -103,7 +103,7 @@ export default {
   },
   head () {
     return {
-      title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
+      title:  this.title + ' ' + this.emojiIcon + ' EJ Fox',
       meta: [
         { property: 'name', content: this.title },
         { property: 'description', content: this.shortDescription },

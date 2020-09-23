@@ -21,6 +21,6 @@ You aren’t worried about where the salt is (it’s placed perfectly within arm
 
 When talking to friends about ideas or projects, I often find myself saying some version of “well the step zero for that is…” by which I mean, the task(s) that precede the actual task.[^1] All the work that comes before even beginning. 
 
-With the right preparation not only can you accomplish the task better, but you can enjoy yourself more as you do it. 
+With the right [preparation](https://www.darkreading.com/the-state-of-hacktivism-in-2020-/d/d-id/1338382) not only can you accomplish the task better, but you can enjoy yourself more as you do it. 
 
 [^1]: As [Carl Sagan said](https://www.youtube.com/watch?v=7s664NsLeFM) “If you wish to make an apple pie from scratch, you must first invent the universe.”

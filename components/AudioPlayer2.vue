@@ -49,7 +49,7 @@ export default {
     const myAudio = this.$refs.audio
 
     let firstPlay = true
-    myAudio.onplay = (event) => {
+    myAudio.addEventListener('click', (event) => {
       if(firstPlay) {
         const AudioContext = window.AudioContext || window.webkitAudioContext
         audioCtx = new AudioContext()
@@ -122,7 +122,7 @@ export default {
         ctx.stroke();
       }
       // draw()
-    }
+    })
 
   }
 };

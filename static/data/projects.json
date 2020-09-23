@@ -1,8 +1,9 @@
 [
+{"Year":"2020","Project Name":"COVIDcast","Client":"Carnegie Mellon University","Role":"Designer, developer","URL":"https://covidcast.cmu.edu/","Short Description":"","Expanded Description":""},
 {"Year":"2020","Project Name":"CBS Election Touchscreen Proof-of-Concept","Client":"CBS News","Role":"Lead Developer & Designer","URL":"","Short Description":"","Expanded Description":""},
 {"Year":"2020","Project Name":"David Byler’s Interactive Election Simulator","Client":"Washington Post","Role":"Lead Developer","URL":"https://www.washingtonpost.com/pr/2020/01/09/washington-post-opinions-launches-interactive-election-simulator/","Short Description":"","Expanded Description":""}
 ,
-{"Year":"2018","Project Name":"2018 Midterm Election Big Board","Client":"NBC News / MSNBC","Role":"Lead Developer","URL":"https://www.vulture.com/2018/11/steve-kornacki-msnbc-appreciation.html","Short Description":"","Expanded Description":""},
+{"Year":"2018","Project Name":"2018 Midterm Election Big Board","Client":"NBC News & MSNBC","Role":"Lead Developer","URL":"https://www.newscaststudio.com/2018/11/05/nbc-big-board-update/","Short Description":"","Expanded Description":""},
 {"Year":"2018","Project Name":"Does America Need Another Prison?","Client":"NBC News Special","Role":"Designer","URL":"https://www.nbcnews.com/specials/kentucky-prison-coal-country","Short Description":"","Expanded Description":""},
 {"Year":"2017","Project Name":"Post Bail","Client":"NBC News Special","Role":"Designer","URL":"https://www.nbcnews.com/specials/bail-reform","Short Description":"","Expanded Description":""},
 {"Year":"2017","Project Name":"Making of an Astronaut","Client":"NBC News Special","Role":"Designer","URL":"https://www.nbcnews.com/specials/making-of-an-astronaut","Short Description":"","Expanded Description":""},
@@ -10,8 +11,7 @@
 {"Year":"2017","Project Name":"Trump’s First 100 Days","Client":"NBC News Special","Role":"Graphics editor, designer","URL":"https://www.nbcnews.com/specials/donald-trump-first-100-days","Short Description":"","Expanded Description":""}
 ,
 {"Year":"2016","Project Name":"How Trump Won","Client":"NBC News Special","Role":"Graphics editor, designer","URL":"https://www.nbcnews.com/specials/donald-trump-republican-party/presidency","Short Description":"","Expanded Description":""},
-{"Year":"2016","Project Name":"2016 Election County-Level Election Maps","Client":"NBC News & MSNBC","Role":" \"Designer developer\"","URL":"https://www.youtube.com/watch?v=p4KIMQsVkt8","Short Description":"","Expanded Description":""},
-{"Year":"2016","Project Name":"Dataproofer","Client":"Open Source / Knight Prototype Fund","Role":"Project manager, designer, creator","URL":"http://dataproofer.org","Short Description":"","Expanded Description":""},
+{"Year":"2016","Project Name":"2016 Election County-Level Election Maps","Client":"NBC News & MSNBC","Role":"Designer, developer","URL":"https://www.youtube.com/watch?v=p4KIMQsVkt8","Short Description":"","Expanded Description":""},
 {"Year":"2016","Project Name":"Kanye Fashion Universe","Client":"Vocativ","Role":"Creator, designer","URL":"http://www.vocativ.com/282689/the-road-to-yeezy-mapping-kanyes-fashion-universe/","Short Description":"","Expanded Description":""},
 {"Year":"2016","Project Name":"Spotifinder","Client":"Vocativ","Role":"Project manager, creator","URL":"http://www.vocativ.com/297798/tailor-your-sxsw-music-schedule-with-vocativs-spotifinder-app/","Short Description":"","Expanded Description":""},
 {"Year":"2016","Project Name":"Blame-Obama-Tron","Client":"Vocativ","Role":"Creator, designer, developer","URL":"http://www.vocativ.com/274351/everything-everywhere-is-obamas-fault/","Short Description":"","Expanded Description":""},
@@ -19,7 +19,6 @@
 {"Year":"2014","Project Name":"Presidential Readability","Client":"Vocativ","Role":"Creator, designer, developer","URL":"http://www.theatlantic.com/politics/archive/2014/10/have-presidential-speeches-gotten-less-sophisticated-over-time/381410/","Short Description":"","Expanded Description":""},
 {"Year":"2013","Project Name":"GitHub Octoverse 2013","Client":"GitHub","Role":"Designer, Developer","URL":"https://github.com/blog/1773-state-of-the-octoverse-2013-edition","Short Description":"","Expanded Description":""},
 {"Year":"2012","Project Name":"Dark Money Universe","Client":"Mother Jones","Role":"Developer","URL":"http://www.motherjones.com/politics/2012/06/interactive-chart-super-pac-election-money","Short Description":"","Expanded Description":""},
-{"Year":"2012","Project Name":"sStory","Client":"Open Source","Role":"Creator, developer","URL":"https://github.com/ejfox/sStory","Short Description":"","Expanded Description":""},
 {"Year":"2016","Project Name":"Jordanian Beauty Queen Leaves Anonymous, Goes Legit To Hack ISIS","Client":"Vocativ","Role":"Writer","URL":"http://www.vocativ.com/247400/anonymous-affiliate-grows-up-to-fight-isis/","Short Description":"","Expanded Description":""},
 {"Year":"2015","Project Name":"4Chan Users Trolled Minneapolis Protest For Days Before Shooting","Client":"Vocativ","Role":"Creator, writer","URL":"http://www.vocativ.com/254449/4chan-users-had-trolled-minneapolis-protest-for-days-before-shooting/","Short Description":"","Expanded Description":""},
 {"Year":"2015","Project Name":"Wall Street Bonuses Could Pay Off These States’ Student Loans","Client":"Vocativ","Role":"Designer","URL":"http://www.vocativ.com/money/the1/wall-street-student-loans/","Short Description":"","Expanded Description":""}
@@ -28,8 +27,6 @@
 {"Year":"2015","Project Name":"The Birds (And Deer) Behind Thousands Of Airplane Emergencies","Client":"Vocativ","Role":"Creator, designer","URL":"http://www.vocativ.com/culture/science/bird-strikes-airplane-faa-database/","Short Description":"","Expanded Description":""},
 {"Year":"2015","Project Name":"Mystery Cop Pulls Gun on Crowd of Anti-Police-Brutality Protesters","Client":"Vocativ","Role":"Creator, writer","URL":"http://www.vocativ.com/usa/race/cop-pulls-gun-on-protestors-oakland/","Short Description":"","Expanded Description":""},
 {"Year":"2015","Project Name":"Which Days Of The Week Have Inspired The Most Hit Songs?","Client":"Vocativ","Role":"Designer","URL":"http://www.vocativ.com/culture/music/days-of-the-week-songs/","Short Description":"","Expanded Description":""},
-{"Year":"2013","Project Name":"The Magazine Experience","Client":"","Role":"Creator, writer","URL":"http://ejfox.com/magazine_experience/","Short Description":"","Expanded Description":""},
-{"Year":"2013","Project Name":"My Wishlist For A Modern News Organization","Client":"","Role":"Creator, writer","URL":"https://medium.com/@mrejfox/my-wishlist-for-a-modern-news-organization-7dd8b1ce63de#.fgyn2z9jc","Short Description":"","Expanded Description":""},
 {"Year":"2012","Project Name":"Tributary.io","Client":"Open Source","Role":"Designer","URL":"http://tributary.io","Short Description":"","Expanded Description":""},
 {"Year":"2012","Project Name":"Stop SOPA","Client":"Freelance","Role":"Creator, designer","URL":"http://visual.ly/stop-sopa","Short Description":"","Expanded Description":""},
 {"Year":"2011","Project Name":"Solvate SXSW Booth","Client":"Solvate","Role":"Creator, designer","URL":"https://www.facebook.com/Solvate/photos/a.187226797987825.41460.106446489399190/187227051321133/?type=3&theater","Short Description":"","Expanded Description":""},

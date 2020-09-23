@@ -1,20 +1,14 @@
 <template>
   <section class="center db cf pa3 pa4-l">
-
-    <section id="nav" class="w-100 db cf">
-
-    </section>
-
-    <section
-      class="mv4 ph2 pb1 black b--gray bn f6 lh-solid">
+    <!-- <section
+      class="mv4 ph2 pb1 black b--gray bn lh-solid">
       <h2 class="mb2 dark-gray lh-title">Currently reading</h2>
       <BookList :current="true" :books="currentReadingLibrary" />
-    </section>
+    </section> -->
 
     <h2 class="mb2 dark-gray">Books read</h2>
-    <section class="mv3 measure dark-gray">
-      <p class="mv2">I use the goodreads scale for stars.</p>
-      <ul>
+    <section class="mv3 measure dark-gray pa2">
+      <ul class="list ma0 pa0">
         <li>★ did not like it</li>
         <li>★★ it was ok</li>
         <li>★★★ liked it</li>
@@ -22,66 +16,11 @@
         <li>★★★★★ it was amazing</li>
       </ul>      
     </section>
-    <p class="ma2 mv4">Hovering on stars will show my review in a tooltip, if available (indicated by yellow stars).</p>
-    <BookList :books="readLibrary" />
 
-    <!-- <h2 class="mb2 dark-gray">Not finished</h2>
-    <section class="mv3 measure">
-      <p>Books I've started but I'm not actively reading.</p>
-    </section>
-    <section class="gray">
-      <BookList :books="notFinishedLibrary" />
-    </section> -->
+    <nuxt-link class="link underline " to="/books/highlights">View all book highlights</nuxt-link>
 
-    <section class="" id="highlights">
-      <h2 class="mv2 yellow pa3 dib bg-black">Book highlights</h2>
-      <section
-        v-for="book in highlights">
-        <h3
-          class="mt2 mt4-ns pv2 b--dark-gray"
-          :id="book.slug">
-          <nuxt-link 
-            :to="'/books/'+book.slug+'/'"
-            class="link black underline">
-            {{book.title}}            
-          </nuxt-link>
-          <span class="gray ml2 ml3-ns">{{book.author}}</span>
-          </h3>
-          <div v-if="book.highlights.length === 1">
-            {{book.highlights.length}} highlight
-          </div>
-
-          <div v-else>
-            {{book.highlights.length}} highlighted passages
-          </div>
-        
-        <!-- <section
-          v-for="(highlight, i) in book.highlights"
-          class="mv4 book-highlights"
-          :id="book.slug+'-'+i">
-          <a
-            class="gray db link sans-serif"
-            :href="'/books/#' + book.slug + '-' + i">
-            #{{i+1}}
-            <span class="book-attribution moon-gray ml1">
-              {{book.title}} by {{book.author}}
-            </span>
-          </a>
-          <span
-            class="bg-light-yellow">
-            {{highlight}}
-          </span>
-        </section> -->
-      </section>
-    </section>
-
-    <!-- <h2 class="mb2 dark-gray">Want to read</h2>
-    <section class="mv3 measure">
-      <p>These are books that I've acquired or have come up in my research but that I haven't had a chance to read yet.</p>
-    </section>
-    <section class="gray">
-      <BookList :books="toReadLibrary" />
-    </section> -->
+    <!-- <p class="ma2 mv4">Hovering on stars will show my review in a tooltip, if available (indicated by yellow stars).</p> -->
+    <BookList class="db" :books="readLibrary" />
 
     <section id="footer">
       <small class="db tc">

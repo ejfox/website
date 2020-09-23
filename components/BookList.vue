@@ -5,28 +5,41 @@
       itemprop="mainEntity"
       itemscope
       itemtype="http://schema.org/Book"
-      :class="['book db mb1 mb4-l pa1', current ? 'current' : '']">
-      <span class="b link black"
+      :class="['book db mv2 mv4-l pa1', current ? 'current' : '']"
+    >
+      <span
+        class="b link black"
         itemprop="name"
-        :title="book['Number of Pages']+' pages, Avg goodreads rating: '+ratingToStars(book['Average Rating'])">
-        {{book.Title}}
+        :title="
+          book['Number of Pages'] +
+            ' pages, Avg goodreads rating: ' +
+            ratingToStars(book['Average Rating'])
+        "
+      >
+        {{ book.Title }}
       </span>
+
+      <small class="system-sans-serif gray dn dib-ns" itemprop="dateCreated">
+        {{ book["Original Publication Year"] }}
+      </small>
 
       <span class="pl2 gray" itemprop="author">
-        {{book.Author}}
+        {{ book.Author }}
       </span>
 
-      <span 
+      <span
         v-if="!current"
-        class="gray" itemprop="ratingValue"
-        :class="[book['My Review'].replace(/<(?:.|\n)*?>/gm, '') === '' ? '' : 'yellow pointer']"
-        :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')">
-        {{ratingToStars(book['My Rating'])}}
+        class="gray dn db-ns"
+        itemprop="ratingValue"
+        :class="[
+          book['My Review'].replace(/<(?:.|\n)*?>/gm, '') === ''
+            ? ''
+            : 'yellow pointer',
+        ]"
+        :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')"
+      >
+        {{ ratingToStars(book["My Rating"]) }}
       </span>
-
-      <!-- <small class="system-sans-serif gray" itemprop="dateCreated">
-        {{book['Original Publication Year']}}
-      </small> -->
 
       <!-- <span
         class="f5" itemprop="numberOfPages">
@@ -35,7 +48,6 @@
           {{book['Number of Pages']}}
         </span>
       </span> -->
-
     </section>
   </div>
 </template>
@@ -45,30 +57,31 @@ export default {
   props: {
     current: {
       type: Boolean,
-      default: function () {
-        return false
-      }
+      default: function() {
+        return false;
+      },
     },
-    books: { type: Array, default: function () { return []} }
+    books: {
+      type: Array,
+      default: function() {
+        return [];
+      },
+    },
   },
-  data: function () {
-    return {
-    }
+  data: function() {
+    return {};
   },
   methods: {
-    ratingToStars (rating) {
-      const star = '★'
-      let starString = ''
+    ratingToStars(rating) {
+      const star = "★";
+      let starString = "";
       for (var i = 0; i < rating; i++) {
-        starString += star
+        starString += star;
       }
-      return starString
-    }
+      return starString;
+    },
   },
-  mounted: function() {
-  }
+  mounted: function() {},
 };
 </script>
-<style>
-
-</style>
+<style></style>

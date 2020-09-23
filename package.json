@@ -53,7 +53,7 @@
     "url-parse": ">=1.4.3",
     "uslug": "^1.0.4",
     "vue-howler": "^0.7.0",
-    "vue-moment": "^3.2.0",
+    "vue-moment": "^4.1.0",
     "vue-style-loader": "^4.1.2",
     "xml2js": "^0.4.19"
   },

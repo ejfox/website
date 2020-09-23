@@ -8,13 +8,13 @@
       loading="lazy"/>
     <div v-if="tags" class="photo-tags ma0 mh0 courier ttu tr">
       <span class="mr1 mr2-ns b">{{tags.Model.description}}</span>
-      <span class="mr1 mr2-ns">ISO {{tags.ISOSpeedRatings.description}}</span>
-      <span class="mr1 mr2-ns">{{tags.FocalLengthIn35mmFilm.description}}mm</span>
+      <span v-if="exposureNumberFormat" class="mr1 mr2-ns">1/{{exposureNumberFormat(+tags.ExposureTime.description)}}</span>
       <span class="mr1 mr2-ns">f{{tags.FNumber.description}}</span>
-      <!-- <span class="mr1 mr2-ns">{{+tags.ExposureTime.description}}</span> -->
+      <span class="mr1 mr2-ns">ISO {{tags.ISOSpeedRatings.description}}</span>
+      <span class="mr1 mr2-ns">{{tags.FocalLengthIn35mmFilm.description}}mm lens</span>
       <span class="">
         {{ tags.date| moment("MMM Do YYYY") }}
-        – {{ tags.date| moment("ha") }}
+        {{ tags.date| moment("ha") }}
       </span>
     </div>
     <figcaption v-if="caption" class="f6 lh-copy b tr measure mt2 mb4 ml-auto near-black">
@@ -36,6 +36,7 @@ export default {
   },
   data: function () {
     return {
+      exposureFormat: null,
     }
   },
   computed: {
@@ -58,6 +59,10 @@ export default {
     }
   },
   methods: {
+    exposureNumberFormat(exp){
+      const speed = 1/exp
+      return speed
+    },
     modifyUrlWithSize: function(url, width, srcset = false) {
       let mURL = new URL(url)
       let mURLPaths = mURL.pathname.split('/')
@@ -100,9 +105,9 @@ figure {
   transition: color 0.5s ease-in-out;
   cursor: default;
 }
-.photo-tags:hover {
+/* .photo-tags:hover {
   color: black !important;
-}
+} */
 
 @media screen and (min-width: 600px) {
   .photo-tags {
@@ -111,20 +116,20 @@ figure {
     position: absolute;  
     transform: rotateZ(90deg);
     transform-origin: top left;
-    top: 0.8em;
-    left: 1.1em;
+    top: 4.3em;
+    left: 2.72em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .photo-tags {
-    font-size: 0.42em;
+    font-size: 0.6em;
     padding-left: 0.4em;
     position: absolute;  
     transform: rotateZ(90deg);
     transform-origin: top left;
-    top: 4.3em;
-    left: 2.72em;
+    top: 3.2em;
+    left: 2.em;
   }
 }
 </style>

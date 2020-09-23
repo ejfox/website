@@ -7,7 +7,7 @@
     class="sans-serif ttu black f2 lh-title">
       {{post.title}}
 
-      <img :src="post.files[post.files.length-1].cloudinaryUrl" class="w-auto ma2 h4 db center br1" />
+      <img :src="randomPhoto(post.files).cloudinaryUrl" class="w-auto ma2 h4 db center br1" />
     </nuxt-link>
     <div class="courier f6 gray">      
       <span v-if="post.date">
@@ -25,6 +25,7 @@
 
 <script>
 import Photo from '~/components/Photo.vue'
+import Chance from 'chance'
 
 export default {
   scrollToTop: true,
@@ -38,11 +39,8 @@ export default {
     let posts = context.keys().map(key => ({
       ...context(key),
       _path: `/photos/${key.replace('.json', '').replace('./', '')}`
-    }));
+    }))
 
-
-    posts = posts.sort(function(a,b) { return new Date(b.date) - new Date(a.date) })
-    posts = posts.filter(post => !post.hidden)
     return { 
       posts,
       emojiIcon: '📷'
@@ -56,7 +54,7 @@ export default {
       meta: [{
         'name': 'EJ Fox | Photos',
         'description': this.emojiIcon,
-        'og:description': this.emojiIcon + this.posts.length + ' photoblog posts', 
+        'og:description': this.emojiIcon + '' + this.posts.length + ' photoblog posts', 
         'og:title': this.title,
         'og:type': 'article',
         'twitter:title': this.title,
@@ -65,11 +63,14 @@ export default {
     }
   },
   created: function () {
+    this.chance = new Chance()
   },
   activated: function () {
   },
   methods: {
-    
+    randomPhoto(files){
+      return this.chance.pick(files)
+    }
   },
 };
 </script>
@@ -119,7 +120,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  /* font-family: "Knockout 66 A", "Knockout 66 B" !important; */
 }
 
 pre {

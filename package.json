@@ -23,6 +23,7 @@
     "@nuxtjs/axios": "^5.4.1",
     "@nuxtjs/feed": "^1.1.0",
     "@nuxtjs/google-analytics": "^2.2.0",
+    "chance": "^1.1.7",
     "cheerio": "^1.0.0-rc.2",
     "cloudinary": "^1.19.0",
     "d3": "^5.9.2",

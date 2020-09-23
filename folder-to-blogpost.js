@@ -9,12 +9,14 @@ const exifErrors = ExifReader.errors
 const _ = require('lodash')
 const exifDate = require('exif-date').parse
 
+console.log('process', JSON.stringify(process.env))
+
 
 // TODO: Get this from .env
 cloudinary.config({
-  cloud_name: process.env.cloud_name,
-  api_key: process.env.api_key,
-  api_secret: process.env.api_secret
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET
 })
 
 const photoFolderObject = {
@@ -31,7 +33,7 @@ if (process.argv.length < 3) {
 //const filePath = process.argv[2]
 const folderPath = process.argv[2]
 const splitPath = folderPath.split('/')
-const folder = splitPath[splitPath.length - 2]
+const folder = splitPath[splitPath.length - 1]
 
 if (!process.argv[3]) {
   photoFolderObject.title = folder
@@ -84,7 +86,7 @@ fs.readdir(folderPath, function(err, files) {
 
     newPhotoFolderObj.date = newPhotoFolderObj.files[0].date
 
-    fs.writeFileSync(photoPostDestination + folder + '.json', JSON.stringify(newPhotoFolderObj, null, '\t'))
+    fs.writeFileSync(photoPostDestination + folder + '.json', JSON.stringify(photoFolderObject, null, '\t'))
 
     process.exit(0)
   })
@@ -131,15 +133,18 @@ function uploadAllPhotosToCloudinary(photoFolderObject, cb) {
     console.log('Uploading ', file.path)
     // console.log('')    
     cloudinary.uploader.upload(file.path, (err, res) => {
-      photoFolderObject.files[i].cloudinaryUrl = res.url     
       if(err) console.log('Error uploading: ', err)
-      // console.log('Files uploaded: ', filesUploaded)
-      // console.log('Length: ', filesWithUrls.length)
-      if (filesUploaded === filesWithUrls.length - 1) {
-        console.log(`Successfully uploaded ${filesUploaded} files`)
-        cb(photoFolderObject)
+      else {
+        photoFolderObject.files[i].cloudinaryUrl = res.url     
+        // console.log('Files uploaded: ', filesUploaded)
+        // console.log('Length: ', filesWithUrls.length)
+        if (filesUploaded === filesWithUrls.length - 1) {
+          console.log(`Successfully uploaded ${filesUploaded} files`)
+          cb(photoFolderObject)
+        }
+        filesUploaded++
       }
-      filesUploaded++
+
     })
     
   })
@@ -185,7 +190,10 @@ function processFile(filePath) {
     ShutterSpeedValue,
     ExposureTime
   }
-  photoObject.caption = tags['Caption/Abstract'].description
+  if(tags['Caption/Abstract']){
+    photoObject.caption = tags['Caption/Abstract'].description   
+  }
+  
   photoObject.date = exifDate(tags['DateTime'].value[0])
   photoObject.tags.date = photoObject.date
   photoObject.path = filePath

@@ -153,6 +153,7 @@ module.exports = {
     hardSource: true,
     cache: true,
     parallel: true,
+    cssSourceMap: false,
     html: {
       minify: {
         collapseBooleanAttributes: true,

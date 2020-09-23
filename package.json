@@ -10,8 +10,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "books:scrape-highlights": "scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json",
-    "blog:to-md": "processmd content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source",
-    "blog:md-to-json": "processmd content/blog/md/* --outputDir content/blog/posts/",
+    "blog:to-md": "node_modules/processmd/cli.js content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source",
+    "blog:md-to-json": "node_modules/processmd/cli.js content/blog/md/* --outputDir content/blog/posts/",
     "dropbox-import": "cp ~/Dropbox/Writing/PUBLISHED/*.md content/blog/md/;npm run blog:md-to-json",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
@@ -65,6 +65,7 @@
     "eslint-plugin-vue": "^4.7.1",
     "glob": "^7.1.3",
     "highlights-scraper": "0.0.10",
+    "processmd": "^4.5.0",
     "webpack-bundle-analyzer": "^3.6.0"
   }
 }

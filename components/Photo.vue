@@ -66,6 +66,7 @@ export default {
     modifyUrlWithSize: function(url, width, srcset = false) {
       let mURL = new URL(url)
       let mURLPaths = mURL.pathname.split('/')
+      mURL.protocol = 'https'
       let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_'+width
       mURLPaths.splice(mURLPaths.length-2, 0, urlAppendString)
       mURL.pathname = mURLPaths.join('/')

@@ -44,7 +44,9 @@ export default {
       let srcURL = new URL(this.url)
       if (srcURL.hostname !== 'res.cloudinary.com') return false
       const imgSrc = this.url
-      const sizes = [320, 920, 1280]
+
+      // TO ADD A NEW SIZE, ADD IT HERE
+      const sizes = [320, 640, 1280, 1600]
       const srcSet = []
       each(sizes, (size) => {
         let nURL = this.modifyUrlWithSize(imgSrc, size, true)
@@ -53,9 +55,11 @@ export default {
       return srcSet.join(', \n')
     },
     sizes: function () {
-      return `(max-width: 320px) 280px,
-        (max-width: 720px) 980px,
-        1000px`
+      // AND ALSO ADD THE NEW SIZE HERE
+      return `(max-width: 320px) 320px,
+        (max-width: 640px) 640px,
+        (max-width: 1280px) 1280px,
+        1600px`
     }
   },
   methods: {

@@ -34,8 +34,10 @@ I wake up. It is Sunday morning. Fuck yeah, Sunday morning ritual. I get up and 
 
 After reading the paper, it’s time to go get some records to sample. I was very lucky (though it was also on purpose) to live in a neighborhood in Brooklyn with like 3 different very excellent record shops within a spliff’s distance from my apartment. Walk to the record shop, maybe get another macchiato on the way. Find a few records (ideally before 1980, cool looking cover, under $5) and walk home with a pep in my step. At least that was before the pandemic hit, and the option of going to get coffee or records seemed suddenly alien and anxiety-ridden. Now I pick up my delivery of coffee and records off the front porch, delivered by my hero the postman. 
 
-With my records (and coffee) and all their potential in hand, it’s at this moment, every time, that I remember a portion of a Mass Appeal video that features Mac Miller in an episode of Rhythm Roulette. Every episode has a different producer making a beat, and in Mac’s we are in the garage of his house, musical equipment splayed about. 
+With my records (and coffee) and all their potential in hand, it’s at this moment, every time, that I remember a portion of [an episode of Rhythm Roulette that features Mac Miller](an episode of Rhythm Roulette). Every episode has a different producer making a beat, and in Mac’s we are in the garage of his house, musical equipment splayed about. 
 
-The concept of Rhythm Roulette is that the producers are brought to a record shop, blindfolded, and told to choose 3 records. Then they need to make a beat from samples from those blindly-chosen records. “You can make something great from anything” is the optimistic subtext, and it’s a show I love. The moment that sticks with me is after Mac has chosen his records and taken them back, and it’s time to listen to them. He drops the needle on the first record and kicks up his feet and lights his spliff. 
+> Before I get started, when I'm working on a beat, I like to start with a good, just, listen. And some reading. Like so…
 
-I drop the needle on the first record and kick up my feet and light my spliff. 
+The concept of Rhythm Roulette is that the producers are brought to a record shop, blindfolded, and told to choose 3 records. Then they need to make a beat from samples from those blindly-chosen records. “You can make something great from anything” is the optimistic subtext, and it’s a show I love. The moment that sticks with me is after Mac has chosen his records and taken them back, and it’s time to listen to them. He drops the needle on the first record and kicks up his feet. 
+
+I drop the needle on the first record and kick up my feet.

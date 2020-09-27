@@ -34,7 +34,7 @@ I wake up. It is Sunday morning. Fuck yeah, Sunday morning ritual. I get up and 
 
 After reading the paper, it’s time to go get some records to sample. I was very lucky (though it was also on purpose) to live in a neighborhood in Brooklyn with like 3 different very excellent record shops within a spliff’s distance from my apartment. Walk to the record shop, maybe get another macchiato on the way. Find a few records (ideally before 1980, cool looking cover, under $5) and walk home with a pep in my step. At least that was before the pandemic hit, and the option of going to get coffee or records seemed suddenly alien and anxiety-ridden. Now I pick up my delivery of coffee and records off the front porch, delivered by my hero the postman. 
 
-With my records (and coffee) and all their potential in hand, it’s at this moment, every time, that I remember a portion of [an episode of Rhythm Roulette that features Mac Miller](an episode of Rhythm Roulette). Every episode has a different producer making a beat, and in Mac’s we are in the garage of his house, musical equipment splayed about. 
+With my records (and coffee) and all their potential in hand, it’s at this moment, every time, that I remember a portion of [an episode of Rhythm Roulette that features Mac Miller](https://www.youtube.com/watch?v=X-R47DwZWkU). Every episode has a different producer making a beat, and in Mac’s we are in the garage of his house, musical equipment splayed about. 
 
 > Before I get started, when I'm working on a beat, I like to start with a good, just, listen. And some reading. Like so…
 

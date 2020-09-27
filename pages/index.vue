@@ -14,7 +14,7 @@
       <p class="lh-copy pv2 tj">
        <!-- I post things I've made on <nuxt-link to="/creations/">creations</nuxt-link>.  -->
        
-       I export my <a href="https://www.goodreads.com/user/show/9273959-ej-fox">goodreads profile</a> to create my <nuxt-link to="/books/">books page</nuxt-link>. Sometimes I make <nuxt-link to="/photo/">photos</nuxt-link> or <nuxt-link to="/audio/">sounds</nuxt-link>. 
+       Sometimes I take <nuxt-link to="/photo/">photos</nuxt-link>, make <nuxt-link to="/audio/">sounds</nuxt-link>, or read <nuxt-link to="/books/">books</nuxt-link>. 
        
        <!-- My <nuxt-link to="/bookmarks/">recent pinboard bookmarks</nuxt-link> are also available. -->
       </p>

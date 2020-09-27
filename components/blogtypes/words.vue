@@ -62,6 +62,14 @@ export default {
       $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
+
+      $('img').each(function(i, el){ 
+        if ($(el).hasClass('fullwidth')) {
+          $(el).parent().removeClass('measure') 
+        }        
+        })
+
+      
       $('pre').each(function(i, el){ $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns') })
       $('code').each(function(i, el){ $(el).addClass('bg-dark-gray ph1 white br1 f6') })
       $('p > ul li').each(function(i, el){ $(el).addClass('mv2') })
@@ -235,4 +243,10 @@ a.header-anchor, a.markdownIt-Anchor {
   left: 1vw;
   font-size: 15px;
 }
+/* 
+img {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+} */
 </style>

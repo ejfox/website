@@ -1,7 +1,5 @@
 ---
-dek: >-
-  In which the author makes the case for the merits of a certain approach to
-  preparation
+dek: In which the author makes the case for the merits of a certain approach to preparation
 type: words
 hidden: false
 inprogress: false

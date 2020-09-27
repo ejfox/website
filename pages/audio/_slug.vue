@@ -1,9 +1,10 @@
 <template>
 <div class="slug-container cf">
+  <nuxt-link to="/audio/" class="pa4">Back to list of sounds</nuxt-link>
   <section id="post-container w-100">
     <!-- Article header -->
     <header class="ph3-ns w-100 mb0 mt4">
-      <div class="ph2 ph3-ns pv0">
+      <div class="ph3 ph3-ns pv0">
         <h1 class="tc f1 lh-title mv0">
           {{ title }}
         </h1>
@@ -21,9 +22,14 @@
 
       <!-- Timestamp -->
       <time
-        :class="['f4 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-20 tc']">
-        <small class="">{{ date | moment("MMMM Do, YYYY") }}</small>
+        :class="['f5 w-100 sans-serif mv3 pl0 pb0 pt3 db ttu tracked o-20 tc']">
+        <small class="">{{ date | moment("MMMM Do YYYY") }}</small>
       </time>
+
+      <div >
+        <a class="link f5 w-100 sans-serif mv3 pl0 pb0 underline db ttu tracked o-20 tc"
+        :href="audio">Download</a>
+      </div>
       
       <div v-if="bodyHtml" id="body" :class="['tl pt4-ns center f3-ns']">
         <Words v-if="body" :bodyMarkdown="body" />

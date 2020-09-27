@@ -3,15 +3,15 @@
     <h2 class="dark-gray mt0 mb3 mb4-ns">Sounds</h2>
     <ul class="db f2 list">
       <li v-for="post in audio" :key="post.date"
-        :class="['lh-title pv3 db ttu sans-serif br1 underline']">
+        :class="['pv3 pr2 db dib-l w-100 w-50-l ttu sans-serif br1 lh-title v-top']">
         <nuxt-link :to="post._path" :class="['link dim no-underline dark-gray']">
           <span class="b">
             {{ post.title }}
           </span>
         </nuxt-link>
-        <!-- <span class="f5 light-silver db di-ns ttu o-80 tracked">
-          {{ post.date | moment("YYYY-MM") }}
-        </span> -->
+        <span class="f6 light-silver db ttu no-underline o-80 tracked">
+          {{ post.date | moment("MMMM Do YYYY") }}
+        </span>
       </li>
     </ul>
   </section>

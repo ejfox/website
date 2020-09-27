@@ -154,6 +154,12 @@ module.exports = {
     cache: true,
     parallel: true,
     cssSourceMap: false,
+    devMiddleware: {
+      headers: {
+        'Cache-Control': 'no-store',
+        Vary: '*'
+      }
+    },
     html: {
       minify: {
         collapseBooleanAttributes: true,

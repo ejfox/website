@@ -36,6 +36,9 @@ export default {
 $serif = Georgia, 'Times New Roman', Times, serif;
 $sans-serif = 'Oswald', Arial, Helvetica, sans-serif;
 
+
+$black = #292A2B
+
 .serif { font-family: $serif; }
 
 .sans-serif { font-family: $sans-serif; }
@@ -130,9 +133,6 @@ pre, code {
 pre {
   overflow-x: auto;
 }
-
-
-$black = #292A2B
 
 
 // Dark mode overrides for Tachyon

@@ -6,7 +6,7 @@
       <BookList :current="true" :books="currentReadingLibrary" />
     </section> -->
 
-    <h2 class="mb2 dark-gray">Books read</h2>
+    <h2 class="mb2 dark-gray">Books I've read</h2>
     <section class="mv3 measure dark-gray pa2">
       <ul class="list ma0 pa0">
         <li>★ did not like it</li>

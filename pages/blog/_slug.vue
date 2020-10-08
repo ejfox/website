@@ -66,7 +66,7 @@
     </section>
 
     <!-- Timestamp -->
-    <time v-if="!hidetimestamp"
+    <time
       :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
       <small class="mv3 pa3-ns tc tl-ns w-100 db">
         {{ date | moment("MMMM Do, YYYY") }}

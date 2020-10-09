@@ -2,7 +2,7 @@
 <div class="slug-container cf">
   <article id="post-container w-100 mt2">
     <!-- Article header -->
-    <header class="mv2 ph3-ns w-100">
+    <header class="mt2 ph3-ns w-100">
       <div class="ph2 ph3-ns">
         <h1 :class="['f1 f-subheadline-ns sans-serif-flyweight lh-solid mv0 mv1-ns', (type === 'photos') || (type === 'audio') ? 'tc' : '']">
           {{ title }}
@@ -76,6 +76,9 @@
       </small>                
     </time>
   </article>
+
+  <nuxt-link class="link underline pa3" to="/blog">Want to see what else I've written?</nuxt-link>
+
 </div>
 </template>
 
@@ -174,13 +177,6 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@media screen and (max-width: 640px) {
-  h1, h2, h3, h4, h5 {
-    word-wrap: break-word;
-    hyphens: auto;
-  }
-}
-
 @media screen and (min-width: 640px) {
   .f-headline {
     margin-top: 0.12em;

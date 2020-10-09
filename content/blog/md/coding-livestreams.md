@@ -6,7 +6,7 @@ inprogress: false
 dek: In which the skill of broadcasting yourself writing code to the entire internet is explored 
 ---
 
-#  A summer of coding livestreams
+#  A summer of live streamed coding
 For the past few months, Ian and I have been experimenting with [livestreaming ourselves working on dataviz projects](https://www.twitch.tv/enjalot) on Twitch and calling it **Coding With Fire**.
 
 These experiments evolved from the rough shape of how Ian and I have hung out since we met nearly 10 years ago as coworkers at a dataviz startup in San Francisco. During coffee breaks and after work we would hang out and hack on projects that didn't fit into our day jobs. 

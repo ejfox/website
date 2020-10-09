@@ -59,7 +59,7 @@ export default {
       })
 
       $('iframe').each(function(i, el){ $(el).addClass('mh3-ns') })
-      $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3') })
+      $('p').each(function(i, el){ $(el).addClass('lh-copy measure pa3 pt0') })
       $('ul').each(function(i, el){ $(el).addClass('measure ph3') })
       $('img').each(function(i, el){ $(el).addClass('center mt4 pa0 w-100') })
 
@@ -75,9 +75,9 @@ export default {
       $('p > ul li').each(function(i, el){ $(el).addClass('mv2') })
       $('li > p').each(function(i, el){ $(el).removeClass('measure') })
       
-      $('h2').each(function(i, el){ $(el).addClass('ph3 mv2 dark-gray') })
-      $('h3').each(function(i, el){ $(el).addClass('ph3 mv2 ttu gray') })
-      $('h4').each(function(i, el){ $(el).addClass('ph3 mv2 gray') })
+      $('h2').each(function(i, el){ $(el).addClass('pl3 pb2 mv2 dark-gray') })
+      $('h3').each(function(i, el){ $(el).addClass('pl3 pb2 mv2 ttu gray') })
+      $('h4').each(function(i, el){ $(el).addClass('pl3 pb2 mv2 gray') })
 
       $('cite').each(function(i, el){ $(el).addClass('db sans-serif ttu gray tracked mt2') })
       $('hr').each(function(i, el){

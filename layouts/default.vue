@@ -91,6 +91,14 @@ h1,h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 400;
   font-family: $sans-serif;
+  color: red !important;
+}
+
+@media screen and (max-width: 640px) {
+  h2, h3, h4, h5 {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
 }
 
 h1,h2,h3 {
@@ -98,8 +106,14 @@ h1,h2,h3 {
 }
 
 h2 {
-  font-size: 5em;
+  font-size: 4.72em;
   line-height: 0.9em;
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 3.25em;
+  }
 }
 
 h3 {

@@ -50,6 +50,9 @@ Voters can be removed from records for a few reasons:
 - Never eligible: under 18 or noncitizen
 - Voter self-requests removal
 
+### EAVS (Election Administration and Voting Survey)
+[EAVS](https://www.eac.gov/research-and-data/studies-and-reports) is a report created from a survey of every state in the US with information about how elections are carried out. 
+
 
 ### Voting systems
 + [First past the post](https://en.wikipedia.org/wiki/First_past_the_post) is what most people think of. Voters mark a ballot with the candidate they want to win, and the candidate who receives the most votes wins. 

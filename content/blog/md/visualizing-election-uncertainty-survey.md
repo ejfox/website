@@ -1,5 +1,5 @@
 ---
-date: '2020-10-13T13:02:50-04:00'
+date: '2020-20-13T13:02:50-04:00'
 type: words
 hidden: false
 inprogress: false
@@ -23,15 +23,8 @@ In collaboration with the [Open Source Election Technology Foundation](https://w
 
 I want to gather and summarize best practices and approaches across industries and disciplines. I hope to find a breadth of solutions that can be shared, discussed, and reused. 
 
-#### Survey Questions
-- Who do you get your election result data from?
-- Do you report the % of vote reporting?
-- What data source(s) do you use to calculate how many votes are remaining to be counted?
-- How do you calculate how many votes are remaining?
-- How are you visualizing votes remaining?
-- How are you visualizing uncertainty around the election in general?
+## Take the survey
+You can [find the survey here](https://forms.gle/f3cE2BQCnvnCuFgj6)
 
-Please send your responses to [ej@osetfoundation.org](mailto:ej@osetfoundation.org). 
-
-Responses will be edited for brevity and shared publicly. 
+Responses will be edited, summarized, and shared publicly. 
 

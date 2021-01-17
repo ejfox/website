@@ -36,7 +36,7 @@ The iPhone with Face ID makes opening 1password on-the-go incredibly fast. On th
 I use two-factor authentication on every service that offers it. Wherever possible, I [avoid 2FA that uses my phone number](https://authy.com/blog/understanding-2fa-the-authy-app-and-sms/). I really like Authy. The app is designed intelligently and importantly they have planned for the occasion when I upgrade my phone. I recently had to go through the process of removing 2FA from all of my services when I upgraded my iPhone because I was using Google Authenticator which does not support backups. I’m not doing that again.
 
 ## Using the command line
-I’ve spent a long time halfway comfortable with the command line. Essentially swimming in shallow water with a `cd` here and and `ls` there. I wanted to take some concentrated time to become more familiar with the command line. The eventual goal would be to be able to sign onto any *nix command line and be able to navigate and get stuff done.
+I’ve spent a long time halfway comfortable with the command line. Essentially swimming in shallow water with a `cd` here and and `ls` there. I wanted to take some concentrated time to become more familiar with the command line. The eventual goal would be to be able to sign onto any \*nix command line and be able to navigate and get stuff done.
 
 For now, I’m just focusing on using the command line more in my everyday life. I am finding there are certain tasks I prefer to tackle in different ways, but part of the process is exposing myself to all the different potential tools I could use.
 

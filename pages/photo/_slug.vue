@@ -2,7 +2,8 @@
 <div class="slug-container cf">
   <h1 class="pl1 tl tc-ns ttu title f1 mv4 mv5-ns near-black">{{title}}</h1>
   <div
-    v-for="photo in files">
+	    v-for="photo in files"
+			v-bind:key="photo.cloudinaryUrl">
 
   <Photo 
     photo-class="bw2-ns bw3-l b--near-black ba-ns mv0"

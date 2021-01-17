@@ -1,35 +1,39 @@
 <template>
 <div class="slug-container tc pa2">
-	<h2 class="tl mb5" >Darkroom Prints For Sale</h2>
+	<h2>Hello world selling prints</h2>
 	<!-- 
 	TODO: Figure out a place to store information about products being sold
 	CSV? Google sheets? 
 
 	Need gumroad info and a photo (hosted on S3 / Cloudinary)
 	-->
-	<div
-		class="pa1 pa4-ns"
-		v-for="print in prints"
-		v-bind:key="print.id">
-		<a :href="'https://gumroad.com/l/' + print.id+'?wanted=true'" class="gumroad-button">Buy this print</a>
-	</div>
 </div>
 </template>
 
 <script>
+import Photo from '~/components/Photo.vue'
+import Chance from 'chance'
+
 export default {
   scrollToTop: true,
   components: {
+    Photo
   },
-	data() {
-		return {
-			emojiIcon: '🖼️ '
-		}
+  data() {
+    // Using webpacks context to gather all files from a folder
+    const context = require.context('~/content/photos/', false, /\.json$/);
+
+    let posts = context.keys().map(key => ({
+      ...context(key),
+      _path: `/photos/${key.replace('.json', '').replace('./', '')}`
+    }))
+		
+
+    return { 
+      posts,
+      emojiIcon: '📷'
+    };
   },
-	async asyncData ({params}) {
-		let prints = await import('~/static/data/prints4sale.json')
-		return { prints }
-	},
   computed: {
   },
   head () {
@@ -38,7 +42,7 @@ export default {
       meta: [{
         'name': 'EJ Fox | Photos',
         'description': this.emojiIcon,
-        'og:description': this.emojiIcon + ' prints for sale', 
+        'og:description': this.emojiIcon + '' + this.posts.length + ' photoblog posts', 
         'og:title': this.title,
         'og:type': 'article',
         'twitter:title': this.title,
@@ -47,11 +51,14 @@ export default {
     }
   },
   created: function () {
+    this.chance = new Chance()
   },
   activated: function () {
   },
   methods: {
-    
+    randomPhoto(files){
+      return this.chance.pick(files)
+    }
   },
 };
 </script>

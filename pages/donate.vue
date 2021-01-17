@@ -8,7 +8,7 @@
     </div>
 
     <div class="mb5">
-      <h2>Cash app: <a class="link green underline"href="https://cash.me/$ejfox">$ejfox</a></h2>
+      <h2>Cash app: <a class="link green underline" href="https://cash.me/$ejfox">$ejfox</a></h2>
     </div>
 
     <div>

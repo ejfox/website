@@ -1,9 +1,10 @@
 <template>
   <div class="bg-near-white serif">
-    <nuxt-link to="/" id="home-link"
+    <!-- <nuxt-link to="/" id="home-link"
       :class="['sans-serif pa3 ph4-ns f3 db lh-solid link dark-gray underline bn']">
-      EJFox.com
-    </nuxt-link>
+     EJ Fox 
+    </nuxt-link> -->
+    <h1 class="ph4">EJ Fox</h1>
 
     <Nav />
 

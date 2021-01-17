@@ -6,11 +6,19 @@
 
     <h2 class="mv4 moon-gray">Recent Bookmarks</h2>
 
-    <li v-for="(block, i) in blocks" :key="block.href" class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll-l f2">
-      <a :href="block.href"
-        class="lh-copy f5 dark-gray link">
-        <h3 :class="['sans-serif lh-solid ma0 dark-gray', block.description.length < 18 ? 'f2 ' : 'f3 ']">
-          {{block.description}}
+    <li
+      v-for="(block, i) in blocks"
+      :key="block.href"
+      class="sans-serif mb1 tl dib v-top w-100 w-third-l pa3 pa4-l pb0 lh-title overflow-scroll-l f2"
+    >
+      <a :href="block.href" class="lh-copy f5 dark-gray link">
+        <h3
+          :class="[
+            'sans-serif lh-solid ma0 dark-gray',
+            block.description.length < 18 ? 'f2 ' : 'f3 ',
+          ]"
+        >
+          {{ block.description }}
         </h3>
 
         <!-- <span class="o-20">
@@ -33,19 +41,23 @@
           <i v-else-if="block.t.indexOf('reference') > 0" :class="['fas fa-book']" />
           <i v-else-if="block.t.indexOf('facebook') > 0" :class="['fab fa-facebook']" />
         </span> -->
-        
+
         <!-- If there isn't a description, show URL -->
         <small v-if="!block.extended" class="db f7 word-wrap moon-gray mv2">
-          {{block.href}}
+          {{ block.href }}
         </small>
 
         <div class="serif measure f5 lh-copy bookmark-description ma0 mt2 gray">
-          <small v-if="block.extended" class="i" v-html="parseMarkdown(block.extended)" />
+          <small
+            v-if="block.extended"
+            class="i"
+            v-html="parseMarkdown(block.extended)"
+          />
         </div>
 
         <div class="tags lh-solid ma0 pa0">
           <small class="ttu f8 o-20 mv0 mr1 lh-title pa0">
-            {{block.tags}}
+            {{ block.tags }}
           </small>
         </div>
       </a>
@@ -67,40 +79,38 @@
 </template>
 
 <script>
-import axios from 'axios'
-import insane from 'insane'
-import * as URI from 'uri-js'
-import marked from 'marked'
-import Nav from '~/components/Nav.vue';
+import axios from "axios";
+import insane from "insane";
+import * as URI from "uri-js";
+import marked from "marked";
+import Nav from "~/components/Nav.vue";
 
-const pinboardURI = `https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json`
+const pinboardURI = `https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json`;
 // const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
 
 export default {
   components: {
-    Nav
+    Nav,
   },
   data() {
     return {
-      blocks: []
-    }
+      blocks: [],
+    };
   },
-  created: function () {
-  },
-  mounted: function () {
-    axios.get(pinboardURI)
-    .then((res) => {
+  created: function() {},
+  mounted: function() {
+    axios.get(pinboardURI).then((res) => {
       console.log({
-        res
-      })
-      console.lot(res.data[0])
-      this.blocks = res.data
-    })
+        res,
+      });
+      console.lot(res.data[0]);
+      this.blocks = res.data;
+    });
   },
   methods: {
     linkDomain: function(urlString) {
-      let uri = URI.parse(urlString)
-      return uri.domain
+      let uri = URI.parse(urlString);
+      return uri.domain;
     },
     parseMarkdown: function(markdown) {
       // console.log('Parsing markdown...')
@@ -114,19 +124,18 @@ export default {
         sanitize: true,
         smartLists: true,
         smartypants: true,
-        xhtml: true
-      })
+        xhtml: true,
+      });
       return insane(markdownRenderer(markdown), {
-        allowedTags: ['h2', 'h3', 'h4', 'ul', 'li', 'p']
-      })
-    }
+        allowedTags: ["h2", "h3", "h4", "ul", "li", "p"],
+      });
+    },
   },
-  asyncData ({ params }) {
-    return axios.get(pinboardURI)
-    .then((res) => {
-      return { blocks: res.data }
-    })
-  }
+  asyncData({ params }) {
+    return axios.get(pinboardURI).then((res) => {
+      return { blocks: res.data };
+    });
+  },
 };
 </script>
 
@@ -134,7 +143,10 @@ export default {
 body {
   background-color: white !important;
 }
-a,a:link,a:hover,a:visited {
+a,
+a:link,
+a:hover,
+a:visited {
   color: black;
   text-decoration: none;
   border: 0;
@@ -147,9 +159,10 @@ img {
   /* border: 1px solid rgba(0,0,0,0.1); */
 }
 
-#footer, #header {
+#footer,
+#header {
   font-size: 14px;
-  font-family: Courier, 'Courier New', monospace;
+  font-family: Courier, "Courier New", monospace;
 }
 
 #header a {
@@ -173,12 +186,13 @@ img {
 
 .bookmark-description code {
   font-size: 14px;
-  font-family: 'Inconsolata', Courier, monospace;
-	line-height: 1em !important;
+  font-family: "Inconsolata", Courier, monospace;
+  line-height: 1em !important;
   background-color: black;
   color: white;
 }
-pre, code {
-	line-height: 1em;
+pre,
+code {
+  line-height: 1em;
 }
 </style>

@@ -1,7 +1,8 @@
-var glob = require('glob');
-var path = require('path');
-var webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+var glob = require("glob");
+var path = require("path");
+var webpack = require("webpack");
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
 
 // var marked = require('marked')
 // import marked from 'marked'
@@ -22,109 +23,85 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 // automatically and match it to the path of your Nuxt routes.
 // The Nuxt routes are generate by Nuxt automatically based on the pages folder.
 var dynamicRoutes = getDynamicPaths({
-  '/blog': 'blog/posts/*.json',
-  '/audio': 'audio/*.json',
-  '/photo': 'photos/*.json'
+  "/blog": "blog/posts/*.json",
+  "/audio": "audio/*.json",
+  "/photo": "photos/*.json",
 });
 
 module.exports = {
   modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/google-analytics',
-    // '@nuxtjs/feed'
-    // 'nuxt-purgecss'    
+    "@nuxtjs/axios",
+    "@nuxtjs/google-analytics",
   ],
-  plugins: [
-    '~/plugins/vue-moment.js'    
-  ],
-  // feed: [
-  //   {
-  //     path: '/feed.xml',
-  //     async create(feed) {
-  //       // feed.options = {
-  //       //   title: 'EJ Fox',
-  //       //   link: 'https://ejfox.com/feed.xml',
-  //       //   description: ''
-  //       // }
-  
-  //       dynamicRoutes.forEach(post => {
-  //         feed.addItem({
-  //           title: post.title,
-  //           id: post.url,
-  //           link: post.url,
-  //           description: post.description,
-  //           content: markdownRenderer(post.body),
-  //         })
-  
-  //         feed.addContributor({
-  //           name: 'EJ Fox',
-  //           email: 'ejfox@ejfox.com',
-  //           link: 'https://ejfox.com'
-  //         })
-  //       })
-  //     },
-  //     cacheTime: 1000 * 60 * 15,
-  //     type: 'rss2'
-  //   }
-  // ],
+  plugins: ["~/plugins/vue-moment.js"],
   googleAnalytics: {
-    id: 'UA-319549-1'
+    id: "UA-319549-1",
   },
   axios: {
     // proxyHeaders: false
   },
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
-    title: 'EJ Fox',
+    title: "EJ Fox",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '💻 Hacker-journalist – 📧 ejfox@ejfox.com ' },
-      { hid: 'keywords', name: 'keywords', content: 'design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "💻 Hacker-journalist – 📧 ejfox@ejfox.com ",
+      },
+      {
+        hid: "keywords",
+        name: "keywords",
+        content:
+          "design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert",
+      },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   /*
-  ** Customize the progress bar color
-  */
-  loading: { color: '#6f6f6f' },
+   ** Customize the progress bar color
+   */
+  loading: { color: "#6f6f6f" },
   /*
-  ** Route config for pre-rendering
-  */
+   ** Route config for pre-rendering
+   */
   generate: {
-    routes: dynamicRoutes
+    routes: dynamicRoutes,
   },
-
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
       if (savedPosition) {
-        return savedPosition
+        return savedPosition;
       }
 
       const findEl = async (hash, x) => {
-        return document.querySelector(hash) ||
+        return (
+          document.querySelector(hash) ||
           new Promise((resolve, reject) => {
             if (x > 50) {
-              return resolve()
+              return resolve();
             }
-            setTimeout(() => { resolve(findEl(hash, ++x || 1)) }, 100)
+            setTimeout(() => {
+              resolve(findEl(hash, ++x || 1));
+            }, 100);
           })
-      }
+        );
+      };
 
       if (to.hash) {
-        let el = await findEl(to.hash)
-        if ('scrollBehavior' in document.documentElement.style) {
-          return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' })
+        let el = await findEl(to.hash);
+        if ("scrollBehavior" in document.documentElement.style) {
+          return window.scrollTo({ top: el.offsetTop, behavior: "smooth" });
         } else {
-          return window.scrollTo(0, el.offsetTop)
+          return window.scrollTo(0, el.offsetTop);
         }
       }
 
-      return { x: 0, y: 0 }
+      return { x: 0, y: 0 };
     },
     // extendRoutes (routes, resolve) {
     //   routes.push({
@@ -147,8 +124,8 @@ module.exports = {
     // }
   },
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     hardSource: true,
     cache: true,
@@ -156,51 +133,43 @@ module.exports = {
     cssSourceMap: false,
     devMiddleware: {
       headers: {
-        'Cache-Control': 'no-store',
-        Vary: '*'
-      }
+        "Cache-Control": "no-store",
+        Vary: "*",
+      },
     },
     html: {
       minify: {
         collapseBooleanAttributes: true,
-          decodeEntities: true,
-          minifyCSS: false,
-          minifyJS: false,
-          processConditionalComments: true,
-          removeEmptyAttributes: true,
-          removeRedundantAttributes: true,
-          trimCustomFragments: true,
-          useShortDoctype: true
+        decodeEntities: true,
+        minifyCSS: false,
+        minifyJS: false,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true,
       },
     },
     plugins: [
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
       new BundleAnalyzerPlugin({
-        analyzerMode: 'static',
-        generateStatsFile: true,
+        analyzerMode: "static",
+        generateStatsFile: false,
         openAnalyzer: false,
-        logLevel: 'info'
-      })
+        logLevel: "info",
+      }),
     ],
     //analyze: true,
     // /*
     // ** Run ESLint on save
     // */
     extend(config, { isDev, isClient }) {
-      // if (isDev && isClient) {
-      //   config.module.rules.push({
-      //     enforce: 'pre',
-      //     test: /\.(js|vue)$/,
-      //     loader: 'eslint-loader',
-      //     exclude: /(node_modules)/
-      //   })
-      // }
       node: {
-        fs: 'empty'
+        fs: "empty";
       }
-    }
-  }
-}
+    },
+  },
+};
 
 /**
  * Create an array of URLs from a list of files
@@ -208,11 +177,11 @@ module.exports = {
  */
 function getDynamicPaths(urlFilepathTable) {
   return [].concat(
-    ...Object.keys(urlFilepathTable).map(url => {
+    ...Object.keys(urlFilepathTable).map((url) => {
       var filepathGlob = urlFilepathTable[url];
       return glob
-        .sync(filepathGlob, { cwd: 'content' })
-        .map(filepath => `${url}/${path.basename(filepath, '.json')}`);
+        .sync(filepathGlob, { cwd: "content" })
+        .map((filepath) => `${url}/${path.basename(filepath, ".json")}`);
     })
   );
 }

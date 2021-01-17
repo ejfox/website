@@ -10,9 +10,7 @@
 				<a href="mailto:ejfox@ejfox.com"
 					>ejfox@ejfox.com</a
 				>
-				<small class="ml2 f6 gray"
-					>(<a href="#pgp">PGP</a>)</small
-				>.
+				
 			</p>
 
 			<p class="tl">

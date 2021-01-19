@@ -6,7 +6,7 @@
       :sizes="sizes"
       :class="photoClass"
       loading="lazy"/>
-    <div v-if="tags" class="photo-tags ma0 mh0 courier ttu tr">
+    <div v-if="tags" class="photo-tags ma0 mh0 courier ttu tr o-20">
       <span class="mr1 mr2-ns b">{{tags.Model.description}}</span>
       <span v-if="exposureNumberFormat" class="mr1 mr2-ns">1/{{exposureNumberFormat(+tags.ExposureTime.description)}}</span>
       <span class="mr1 mr2-ns">f{{tags.FNumber.description}}</span>
@@ -17,7 +17,7 @@
         {{ tags.date| moment("ha") }}
       </span>
     </div>
-    <figcaption v-if="caption" class="f6 lh-copy b tr measure mt2 mb4 ml-auto near-black">
+    <figcaption v-if="caption" class="f7 lh-copy b tr measure mt2 mb4 ml-auto near-black">
       {{caption}}
     </figcaption>
   </figure>
@@ -103,7 +103,7 @@ figure {
 
 .photo-tags {
   font-size: 0.33em;  
-  color: #565656;
+  color: #ffffff;
   margin: 0;
   line-height: 1em;
   /* text-shadow: 0 1px 1px 2px black; */  
@@ -121,8 +121,9 @@ figure {
     position: absolute;  
     transform: rotateZ(90deg);
     transform-origin: top left;
-    top: 4.3em;
-    left: 2.72em;
+    top: 2.3em;
+    /* left: 2.72em; */
+    left:3.3em;
   }
 }
 

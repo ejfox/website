@@ -1,0 +1,727 @@
+{
+	"files": [
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:46"
+					],
+					"description": "2021:01:19 12:05:46"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 4,
+					"description": 4
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 6400,
+					"description": 6400
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 27,
+					"description": 27
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 12.965784,
+					"description": 12.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.000125,
+					"description": 0.000125
+				},
+				"date": "2021-01-19T12:05:46.000Z"
+			},
+			"caption": "A man walks east in Old Oakland on an early morning",
+			"date": "2021-01-19T12:05:46.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200113-679.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078200/svnhbqivioajwt85onuw.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:47"
+					],
+					"description": "2021:01:19 12:05:47"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 8,
+					"description": 8
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 800,
+					"description": 800
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 27,
+					"description": 27
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 12.398744,
+					"description": 12.398744
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.00018518518518518518,
+					"description": 0.00018518518518518518
+				},
+				"date": "2021-01-19T12:05:47.000Z"
+			},
+			"caption": "Crossing the street in downtown Oakland",
+			"date": "2021-01-19T12:05:47.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200113-701.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078205/oqe2tieecjn3wxrevopf.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:44"
+					],
+					"description": "2021:01:19 12:05:44"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 4,
+					"description": 4
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 3200,
+					"description": 3200
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 6.321928,
+					"description": 6.321928
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.0125,
+					"description": 0.0125
+				},
+				"date": "2021-01-19T12:05:44.000Z"
+			},
+			"caption": "Subway riders avoid a mess of coffee and newspaper on their morning commute",
+			"date": "2021-01-19T12:05:44.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200122-133.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078207/schk2hgufzvi1qgngkro.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:45"
+					],
+					"description": "2021:01:19 12:05:45"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 800,
+					"description": 800
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 11.550747,
+					"description": 11.550747
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.0003333333333333333,
+					"description": 0.0003333333333333333
+				},
+				"date": "2021-01-19T12:05:45.000Z"
+			},
+			"caption": "Walking north on 8th Ave, near CBS Studios",
+			"date": "2021-01-19T12:05:45.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200124-153.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078204/jb32ciog3irfcxkuxmzy.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:50"
+					],
+					"description": "2021:01:19 12:05:50"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 3.2,
+					"description": 3.2
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 8000,
+					"description": 8000
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 6.965784,
+					"description": 6.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.008,
+					"description": 0.008
+				},
+				"date": "2021-01-19T12:05:50.000Z"
+			},
+			"caption": "A man sticks out from the crowd crossing the street in midtown Manhattan",
+			"date": "2021-01-19T12:05:50.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200128-263.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078207/dqp3q57kiamcxhrayacv.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:53"
+					],
+					"description": "2021:01:19 12:05:53"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 3.2,
+					"description": 3.2
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 6400,
+					"description": 6400
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 8.965784,
+					"description": 8.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.002,
+					"description": 0.002
+				},
+				"date": "2021-01-19T12:05:53.000Z"
+			},
+			"caption": "Lady Liberty holds up her torch of progress while a citygoer holds up her umbrella in the rain",
+			"date": "2021-01-19T12:05:53.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200202-11.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078201/lwy6ul19qhu5brnvbetf.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:51"
+					],
+					"description": "2021:01:19 12:05:51"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 8000,
+					"description": 8000
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 12.965784,
+					"description": 12.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.000125,
+					"description": 0.000125
+				},
+				"date": "2021-01-19T12:05:51.000Z"
+			},
+			"caption": "A man checks his phone in a sunbeam on 5th Ave.",
+			"date": "2021-01-19T12:05:51.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200203-79.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078206/bdgbtiz0xfn9wlxufprl.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:54"
+					],
+					"description": "2021:01:19 12:05:54"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 8000,
+					"description": 8000
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 12.965784,
+					"description": 12.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.000125,
+					"description": 0.000125
+				},
+				"date": "2021-01-19T12:05:54.000Z"
+			},
+			"caption": "A woman reads a letter while walking north on 5th Ave.",
+			"date": "2021-01-19T12:05:54.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200203-84.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078197/krtckimuqumiazutkm36.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:58"
+					],
+					"description": "2021:01:19 12:05:58"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 8000,
+					"description": 8000
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 12.287712,
+					"description": 12.287712
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.0002,
+					"description": 0.0002
+				},
+				"date": "2021-01-19T12:05:58.000Z"
+			},
+			"caption": "Hair caught in light in SoHo",
+			"date": "2021-01-19T12:05:58.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200203-89.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078204/jjvwvwxt8k6kjhjiikbd.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:06:00"
+					],
+					"description": "2021:01:19 12:06:00"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 8000,
+					"description": 8000
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 9.228819,
+					"description": 9.228819
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.0016666666666666668,
+					"description": 0.0016666666666666668
+				},
+				"date": "2021-01-19T12:06:00.000Z"
+			},
+			"caption": "A bunch of unassociated associates",
+			"date": "2021-01-19T12:06:00.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200203-96.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078203/ricpfnqv1wnkapomxqid.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:59"
+					],
+					"description": "2021:01:19 12:05:59"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 2.8,
+					"description": 2.8
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 1600,
+					"description": 1600
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 35,
+					"description": 35
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 6.228819,
+					"description": 6.228819
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.013333333333333334,
+					"description": 0.013333333333333334
+				},
+				"date": "2021-01-19T12:05:59.000Z"
+			},
+			"caption": "Walking north on 6th Ave. in the rain",
+			"date": "2021-01-19T12:05:59.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200206-255.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078205/jrvmwx8d2fw1wf3csdf0.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:05:59"
+					],
+					"description": "2021:01:19 12:05:59"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 1600,
+					"description": 1600
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 53,
+					"description": 53
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 7.965784,
+					"description": 7.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.004,
+					"description": 0.004
+				},
+				"date": "2021-01-19T12:05:59.000Z"
+			},
+			"caption": "Looking both ways before crossing, under protection of an umbrella",
+			"date": "2021-01-19T12:05:59.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200210-28.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078190/sa8god0oxjdiitbs5suh.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:06:02"
+					],
+					"description": "2021:01:19 12:06:02"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 4,
+					"description": 4
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 1600,
+					"description": 1600
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 53,
+					"description": 53
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 7.965784,
+					"description": 7.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.004,
+					"description": 0.004
+				},
+				"date": "2021-01-19T12:06:02.000Z"
+			},
+			"caption": "Walking south near Seaman Schepps, a jewelry store closed amidst the COVID pandemic",
+			"date": "2021-01-19T12:06:02.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200210-45.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078201/eu3poo6pnva77moqi3fe.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:06:02"
+					],
+					"description": "2021:01:19 12:06:02"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 1600,
+					"description": 1600
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 53,
+					"description": 53
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 7.965784,
+					"description": 7.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.004,
+					"description": 0.004
+				},
+				"date": "2021-01-19T12:06:02.000Z"
+			},
+			"caption": "Fog drifts across the street as pedestrians wait to cross on a rainy day",
+			"date": "2021-01-19T12:06:02.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200210-53.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078201/wxwdx0nfh4spmg4betk6.jpg"
+		},
+		{
+			"tags": {
+				"Model": {
+					"id": 272,
+					"value": [
+						"X-Pro3"
+					],
+					"description": "X-Pro3"
+				},
+				"DateTime": {
+					"id": 306,
+					"value": [
+						"2021:01:19 12:06:02"
+					],
+					"description": "2021:01:19 12:06:02"
+				},
+				"FNumber": {
+					"id": 33437,
+					"value": 5.6,
+					"description": 5.6
+				},
+				"ISOSpeedRatings": {
+					"id": 34855,
+					"value": 1600,
+					"description": 1600
+				},
+				"FocalLengthIn35mmFilm": {
+					"id": 41989,
+					"value": 53,
+					"description": 53
+				},
+				"ShutterSpeedValue": {
+					"id": 37377,
+					"value": 7.965784,
+					"description": 7.965784
+				},
+				"ExposureTime": {
+					"id": 33434,
+					"value": 0.004,
+					"description": 0.004
+				},
+				"date": "2021-01-19T12:06:02.000Z"
+			},
+			"caption": "A woman plunges through a thick fog on a rainy day",
+			"date": "2021-01-19T12:06:02.000Z",
+			"path": "/Users/ejfox/Desktop/2020-in-review/untitled shoot_20200210-69.jpg",
+			"cloudinaryUrl": "http://res.cloudinary.com/ejf/image/upload/v1611078203/wovb7et90piepzzdzk1g.jpg"
+		}
+	],
+	"title": "2020-in-review",
+	"slug": "2020-in-review",
+	"date": "2021-01-19T12:05:46.000Z"
+}

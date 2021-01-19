@@ -79,10 +79,12 @@ with a tool like `pwd`, as we will need to pass it to our script.
 
 In the root of this website, you want to run
 ```bash
-node folder-to-blogpost.js ~/PATH/TO/IMAGES/
+node folder-to-blogpost.js ~/PATH/TO/IMAGES/ post-slug
 ```
 
-This will take every photo and process it by uploading the image to
+If no post-slug is provided, the slug of the folder will be used. This generates a file in ~/website/content/photos/SLUG.json - these files are automatically detected and shown as photoblog posts.
+
+This will also take every photo and process it by uploading the image to
 Cloudinary, and then writing the public uploaded Clouindary URL as well
 as the relevant EXIF data (most importantly captions) and writes it to a 
 JSON file. That JSON file will be moved to `content/photos/` so it can be

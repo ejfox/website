@@ -148,6 +148,9 @@ pre {
   overflow-x: auto;
 }
 
+body {
+  background-color: #f4f4f4;
+}
 
 // Dark mode overrides for Tachyon
 @media (prefers-color-scheme: dark) {

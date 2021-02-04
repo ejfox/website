@@ -3,23 +3,22 @@
     <h2 class="mb4">Services</h2>
     <p class="measure">
       Hire me to do work for you! Just shoot me an email at
-      <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
+      <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a href="https://calendly.com/ejfox/sync">grab a spot on my calendar</a>.
     </p>
-    <section class="w-50-ns dib v-top">
+    <section class="w-50-ns dib v-top pr2">
       <h3>Data Visualization Design</h3>
       <p>
-        I started my career making static infographics in Illustrator, and it
-        still brings me a lot of pleasure. Nowadays I will make multiple
-        versions of a graphic using ai2html so that it can be responsive. These
-        static graphics are used to add context to a written piece, and I love
-        partnering with journalists to help them tell their story. I like every
-        step of the process, from scraping and data gathering, exploratory
-        analysis and visualization to creating a beautiful responsive final
-        product.
+        I make responsive infographics quickly. I started my career making
+        static infographics in Illustrator, and after a decade of client work it
+        still brings me a lot of pleasure. These static graphics are used to add
+        context to a written piece, and I love partnering with journalists to
+        help them tell their story. I like every step of the process, from
+        scraping and data gathering, exploratory analysis and visualization to
+        creating a beautiful responsive final product.
       </p>
     </section>
 
-    <section class="w-50-ns dib">
+    <section class="w-50-ns dib v-top pr2">
       <h3>Interactive Development</h3>
       <p>
         Sometimes to tell a data story, it's easier to make understandable
@@ -28,7 +27,7 @@
         broadcast.
       </p>
     </section>
-    <section class="w-50-ns dib v-top">
+    <section class="w-50-ns dib v-top pr2">
       <h3>Cartography</h3>
       <p>
         I love making both static and interactive maps. Mostly I use QGIS,
@@ -36,7 +35,7 @@
         exploring alternatives to choropleths.
       </p>
     </section>
-    <section class="w-50-ns dib v-top">
+    <section class="w-50-ns dib v-top pr2">
       <h3>Prototyping</h3>
       <p>
         I really love the challenge of making ideas exist quickly in new spaces,
@@ -46,8 +45,8 @@
         focused and comprehensive minimum viable products.
       </p>
     </section>
-    <section class="w-50-ns dib v-top">
-      <h3>Video Production and Motion Graphics</h3>
+    <section class="w-50-ns dib v-top pr2">
+      <h3>Video Production &amp; Motion Graphics</h3>
       <p>
         For the past year, I have been working more to create motion graphics
         for explanation and data visualization. Videos are a really cool
@@ -58,7 +57,7 @@
       </p>
     </section>
 
-    <section class="w-50-ns dib v-top">
+    <section class="w-50-ns dib v-top pr2">
       <h3>Livestream Production</h3>
       <p>
         I co-host the livecoding stream <strong>Coding With Fire</strong> with

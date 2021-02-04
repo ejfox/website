@@ -3,10 +3,15 @@
     <h2 class="mb4">Services</h2>
     <p class="measure">
       Hire me to do work for you! Just shoot me an email at
-      <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or <a href="https://calendly.com/ejfox/sync">grab a spot on my calendar</a>.
+      <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or
+      <a href="https://calendly.com/ejfox/sync">grab a spot on my calendar</a>.
     </p>
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Data Visualization Design</h3>
+      <img
+        src="images/service-images_datavizdesign-01.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
       <p>
         I make responsive infographics quickly. I started my career making
         static infographics in Illustrator, and after a decade of client work it
@@ -18,8 +23,13 @@
       </p>
     </section>
 
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Interactive Development</h3>
+      <img
+        src="images/service-images_interactive-02.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
+
       <p>
         Sometimes to tell a data story, it's easier to make understandable
         through interactive graphics. I've spent the last 10 years or so working
@@ -27,26 +37,39 @@
         broadcast.
       </p>
     </section>
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Cartography</h3>
+      <img
+        src="images/service-images_cartography-03.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
+
       <p>
-        I love making both static and interactive maps. Mostly I use QGIS,
-        Mapbox, and Cinema 4D. I enjoy making maps with election data, and
-        exploring alternatives to choropleths.
+        I primarily use QGIS, Mapbox, and Cinema 4D to create maps for both
+        personal projects and commissioned work. I enjoy making maps with
+        election data, and exploring alternatives to choropleths.
       </p>
     </section>
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Prototyping</h3>
+      <img
+        src="images/service-images_prototyping-04.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
       <p>
-        I really love the challenge of making ideas exist quickly in new spaces,
-        frameworks, or technologies. I pride myself in getting myself up to
-        speed in new systems quickly. These prototypes might be little scripts,
-        Observable notebooks, or pitch decks. But I pride myself in creating
-        focused and comprehensive minimum viable products.
+        I pride myself in getting up to speed in new systems and making things
+        exist quickly. These prototypes might be little scripts, Observable
+        notebooks, or pitch decks. But I pride myself in creating focused and
+        comprehensive minimum viable products from design and documentation to
+        code.
       </p>
     </section>
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Video Production &amp; Motion Graphics</h3>
+      <img
+        src="images/service-images_motiongraphics-05.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
       <p>
         For the past year, I have been working more to create motion graphics
         for explanation and data visualization. Videos are a really cool
@@ -57,14 +80,18 @@
       </p>
     </section>
 
-    <section class="w-50-ns dib v-top pr2">
+    <section class="measure v-top pr2">
       <h3>Livestream Production</h3>
+      <img
+        src="images/service-images_livestream-06.png"
+        class="w-100 mt3 mb3 db center br2"
+      />
       <p>
         I co-host the livecoding stream <strong>Coding With Fire</strong> with
         my friend Ian Johnson
         <a href="https://twitch.tv/enjalot">on his Twitch</a>. I really enjoy
-        the process of livestream production, from creating graphics and scenes
-        in OBS to helping produce segments and prepare guests.
+        the entire process of livestream production, from creating graphics and
+        scenes in OBS to helping produce segments and prepare guests.
       </p>
     </section>
     <p class="measure pt4">
@@ -76,6 +103,8 @@
       work pulls from these backgrounds equally, and there are times where I am
       mostly journalist or mostly hacker.
     </p>
+
+    <hr class="mv5" />
 
     <p class="measure">
       My favorite moments are when someone says "I am not sure this is possible,
@@ -135,6 +164,12 @@ export default {
 </script>
 
 <style scoped>
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: invert(1);
+  }
+}
+
 h1,
 h2,
 h3,

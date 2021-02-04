@@ -16,6 +16,11 @@
     <li class="pr2 ph3-ns">
       <nuxt-link class="link underline " to="/blog">Writing</nuxt-link>
     </li>
+
+    <li class="pr2 ph3-ns">
+      <nuxt-link class="link underline " to="/services">Services</nuxt-link>
+    </li>
+
   </ul>
 </template>
 

@@ -1,16 +1,16 @@
 <template>
   <section class="pa3 pa4-ns db cf mb4">
     <h2 class="mb4">Services</h2>
-    <p class="measure">
+    <p class="measure pv4">
       Hire me to do work for you! Just shoot me an email at
       <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or
       <a href="https://calendly.com/ejfox/sync">grab a spot on my calendar</a>.
     </p>
     <section class="measure v-top pr2">
       <h3>Data Visualization Design</h3>
-      <img
-        src="images/service-images_datavizdesign-01.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_datavizdesign-01.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
         I make responsive infographics quickly. I started my career making
@@ -25,9 +25,9 @@
 
     <section class="measure v-top pr2">
       <h3>Interactive Development</h3>
-      <img
-        src="images/service-images_interactive-02.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_interactive-02.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
 
       <p>
@@ -39,9 +39,9 @@
     </section>
     <section class="measure v-top pr2">
       <h3>Cartography</h3>
-      <img
-        src="images/service-images_cartography-03.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_cartography-03.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
 
       <p>
@@ -52,9 +52,9 @@
     </section>
     <section class="measure v-top pr2">
       <h3>Prototyping</h3>
-      <img
-        src="images/service-images_prototyping-04.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_prototyping-04.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
         I pride myself in getting up to speed in new systems and making things
@@ -66,9 +66,9 @@
     </section>
     <section class="measure v-top pr2">
       <h3>Video Production &amp; Motion Graphics</h3>
-      <img
-        src="images/service-images_motiongraphics-05.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_motiongraphics-05.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
         For the past year, I have been working more to create motion graphics
@@ -82,9 +82,9 @@
 
     <section class="measure v-top pr2">
       <h3>Livestream Production</h3>
-      <img
-        src="images/service-images_livestream-06.png"
-        class="w-100 mt3 mb3 db center br2"
+      <CloudinaryPhoto
+        src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_livestream-06.png"
+        cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
         I co-host the livecoding stream <strong>Coding With Fire</strong> with
@@ -137,13 +137,10 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
-import Footer from "~/components/Footer.vue";
-
+import CloudinaryPhoto from "~/components/CloudinaryPhoto.vue";
 export default {
   components: {
-    Nav,
-    Footer,
+    CloudinaryPhoto,
   },
   methods: {},
   data() {

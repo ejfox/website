@@ -64,6 +64,7 @@ function createFeed(feed) {
 }
 
 module.exports = {
+  target: "static",
   modules: ["@nuxtjs/axios", 
     "@nuxtjs/google-analytics", 
     "@nuxtjs/feed"

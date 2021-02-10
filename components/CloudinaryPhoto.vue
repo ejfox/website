@@ -24,7 +24,9 @@ export default {
     tags: Object,
   },
   data: function() {
-    return {};
+    return {
+      url: ''
+    };
   },
   computed: {
     srcset: function() {

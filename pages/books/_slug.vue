@@ -116,7 +116,7 @@ export default {
   }
 };
 </script>
-<style lang="stylus">
+<style>
 .book {
   grid-template-columns: 55% 1fr 1fr;
   display: grid;
@@ -151,7 +151,7 @@ export default {
 
 @media (prefers-color-scheme: dark) {
   .bg-light-yellow {
-    background-color rgba(255,255,255,0.1) !important
+    background-color: rgba(255,255,255,0.1) !important;
   }    
 }
 </style>

@@ -28,10 +28,53 @@ var dynamicRoutes = getDynamicPaths({
   "/photo": "photos/*.json",
 });
 
+function createFeed(feed) {
+  feed.options = {
+    title: "EJ Fox: Writing",
+    link: "https://ejfox.com/writing.xml",
+    description: "All writing posted on EJFox.com",
+  };
+  const context = require.context("~/content/blog/posts/", false, /\.json$/);
+
+  let posts = context.keys().map((key) => ({
+    ...context(key),
+    _path: `/blog/${key.replace(".json", "").replace("./", "")}`,
+  }));
+
+  posts = posts.sort(function(a, b) {
+    return new Date(b.date) - new Date(a.date);
+  });
+  posts = posts.filter((post) => !post.hidden);
+  posts.forEach((post) => {
+    feed.addItem({
+      title: post.title,
+      description: post.dek,
+      link: `https://ejfox.com/blog/${post.base.split(".")[0]}`,
+      id: post.sourceBase,
+      content: post.bodyContent,
+    });
+  });
+
+  feed.addContributor({
+    name: "EJ Fox",
+    email: "ejfox@ejfox.com",
+    link: "https://ejfox.com",
+  });
+  return feed;
+}
+
 module.exports = {
-  modules: [
-    "@nuxtjs/axios",
-    "@nuxtjs/google-analytics",
+  modules: ["@nuxtjs/axios", 
+    "@nuxtjs/google-analytics", 
+    "@nuxtjs/feed"
+  ],
+  feed: [
+    {
+      path: '/writing.xml',
+      createFeed,
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2'
+    }
   ],
   plugins: ["~/plugins/vue-moment.js"],
   googleAnalytics: {
@@ -103,6 +146,7 @@ module.exports = {
 
       return { x: 0, y: 0 };
     },
+    // Add a custom route (everything in /pages/ is automatically added)
     // extendRoutes (routes, resolve) {
     //   routes.push({
     //     name: 'shop',
@@ -110,18 +154,6 @@ module.exports = {
     //     component: resolve(__dirname, 'pages/shop.vue')
     //   })
     //
-    //   routes.push({
-    //     name: 'vibes',
-    //     path: '/vibes',
-    //     component: resolve(__dirname, 'pages/vibes.vue')
-    //   })
-    //
-    //   routes.push({
-    //     name: 'donate',
-    //     path: '/donate',
-    //     component: resolve(__dirname, 'pages/donate.vue')
-    //   })
-    // }
   },
   /*
    ** Build configuration
@@ -160,9 +192,6 @@ module.exports = {
       }),
     ],
     //analyze: true,
-    // /*
-    // ** Run ESLint on save
-    // */
     extend(config, { isDev, isClient }) {
       node: {
         fs: "empty";

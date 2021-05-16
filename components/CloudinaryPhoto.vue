@@ -1,5 +1,5 @@
 <template>
-  <figure>
+  <figure :class="containerClass" >
     <img
       :class="cssClass"
       :src="modifyUrlWithSize(url, 320)"
@@ -22,6 +22,7 @@ export default {
     caption: String,
     cssClass: String,
     tags: Object,
+    containerClass: String
   },
   data: function() {
     return {

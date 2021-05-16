@@ -6,7 +6,7 @@
       <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or
       <a href="https://calendly.com/ejfox/sync">grab a spot on my calendar</a>.
     </p>
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Data Visualization Design</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_datavizdesign-01.png"
@@ -21,9 +21,19 @@
         scraping and data gathering, exploratory analysis and visualization to
         creating a beautiful responsive final product.
       </p>
+
+      <p class="f6 sans-serif">
+        <a href="https://www.nbcnews.com/specials/kentucky-prison-coal-country/"
+          >NBC News: Does America Need Another Prison?</a
+        >,
+        <a
+          href="https://www.nbcnews.com/tech/social-media/russian-trolls-went-attack-during-key-election-moments-n827176"
+          >NBC News: Russian Twitter Trolls</a
+        >
+      </p>
     </section>
 
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Interactive Development</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_interactive-02.png"
@@ -32,12 +42,25 @@
 
       <p>
         Sometimes to tell a data story, it's easier to make understandable
-        through interactive graphics. I've spent the last 10 years or so working
-        in D3 to create interactive data visualizations for mobile, desktop, and
+        through interactive graphics. I've spent the last 10 years working in D3
+        to create interactive data visualizations for mobile, desktop, and
         broadcast.
       </p>
+      <p class="f6 sans-serif">
+        <a
+          href="https://www.washingtonpost.com/pr/2020/01/09/washington-post-opinions-launches-interactive-election-simulator/"
+          >WaPo: David Byler Post Opinions 2020 Democratic Primary Simulator</a
+        >,
+        <a
+          href="https://www.motherjones.com/politics/2012/06/interactive-chart-super-pac-election-money/"
+          >Mother Jones: A Map of the Dark-Money Universe</a
+        >,
+        <a href="https://www.nbcnews.com/specials/bail-reform/"
+          >NBC News: Post Bail</a
+        >
+      </p>
     </section>
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Cartography</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_cartography-03.png"
@@ -50,7 +73,7 @@
         election data, and exploring alternatives to choropleths.
       </p>
     </section>
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Prototyping</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_prototyping-04.png"
@@ -63,8 +86,12 @@
         comprehensive minimum viable products from design and documentation to
         code.
       </p>
+      <p class="f6 sans-serif">
+        <a href="https://delphi.cmu.edu/covidcast/">CMU: CovidCast</a>, CBS:
+        Democratic Primary Big Board
+      </p>
     </section>
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Video Production &amp; Motion Graphics</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889034/service-images_motiongraphics-05.png"
@@ -78,9 +105,14 @@
         really challenging and rewarding, and a place I would like to continue
         to practice and grow.
       </p>
+      <p class="f6 sans-serif">
+        <a href="https://www.youtube.com/watch?v=nanFCgG0Evs"
+          >Observable: Thank you #d3js community!</a
+        >
+      </p>
     </section>
 
-    <section class="measure v-top pr2">
+    <section class="measure v-top mv4 pr2">
       <h3>Livestream Production</h3>
       <CloudinaryPhoto
         src="https://res.cloudinary.com/ejf/image/upload/v1612889033/service-images_livestream-06.png"
@@ -93,7 +125,14 @@
         the entire process of livestream production, from creating graphics and
         scenes in OBS to helping produce segments and prepare guests.
       </p>
+
+      <p class="f6 sans-serif">
+        <a href="https://twitch.tv/enjalot">Coding with Fire</a>
+      </p>
     </section>
+
+    <hr class="mv5" />
+
     <p class="measure pt4">
       I call myself a <strong>hacker-journalist</strong>. I am a
       <strong>hacker</strong> in the sense that much of my time is spent
@@ -103,8 +142,6 @@
       work pulls from these backgrounds equally, and there are times where I am
       mostly journalist or mostly hacker.
     </p>
-
-    <hr class="mv5" />
 
     <p class="measure">
       My favorite moments are when someone says "I am not sure this is possible,
@@ -157,7 +194,11 @@ export default {
         { property: "description", content: this.shortDescription },
         { property: "og:description", content: this.shortDescription },
         { property: "og:title", content: this.title },
-        { property: "og:image", content: "https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png"},
+        {
+          property: "og:image",
+          content:
+            "https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png",
+        },
         { property: "og:type", content: "article" },
         { property: "twitter:title", content: this.title },
         { property: "twitter:creator", content: "mrejfox" },

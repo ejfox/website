@@ -45,8 +45,6 @@
         v-if="type !== 'audio'"
         :class="[
           'w-100  not-audio mb0 pa1 pa3-ns',
-          bgcolorclass,
-          textcolorclass,
           type,
         ]"
       >
@@ -129,17 +127,8 @@ export default {
     if (!post.body && post.bodyContent) {
       post.body = post.bodyContent;
     }
-    if (!post.bgcolorclass) {
-      post.bgcolorclass = "";
-    }
-    if (!post.textcolorclass) {
-      post.textcolorclass = "";
-    }
     if (!post.audio) {
       post.audio = null;
-    }
-    if (!post.inprogress) {
-      post.inprogress = null;
     }
     if (!post.dek) {
       post.dek = null;

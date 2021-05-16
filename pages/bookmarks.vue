@@ -121,7 +121,6 @@ export default {
         gfm: true,
         tables: false,
         breaks: false,
-        sanitize: true,
         smartLists: true,
         smartypants: true,
         xhtml: true,

@@ -17,8 +17,7 @@
       <p class="lh-copy pv2 tj">
         Sometimes I take
         <nuxt-link to="/photo/">photos</nuxt-link>, make
-        <nuxt-link to="/audio/">sounds</nuxt-link>, or read
-        <nuxt-link to="/books/">books</nuxt-link>.
+        <nuxt-link to="/audio/">sounds</nuxt-link>.
       </p>
     </section>
     <Footer />

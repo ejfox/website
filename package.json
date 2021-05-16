@@ -9,7 +9,7 @@
     "serve": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "books:scrape-highlights": "scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json",
+    "books:scrape-highlights": "./node_modules/highlights-scraper/cli.js https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json",
     "blog:to-md": "node_modules/processmd/cli.js content/blog/posts/*.json --outputDir content/blog/md/ --convertMode source",
     "blog:md-to-json": "node_modules/processmd/cli.js content/blog/md/* --outputDir content/blog/posts/",
     "dropbox-import": "cp ~/Dropbox/Writing/PUBLISHED/*.md content/blog/md/;npm run blog:md-to-json",

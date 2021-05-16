@@ -76,8 +76,6 @@ export default {
   },
   async asyncData({ params }) {
     let post = await import('~/content/audio/' + params.slug + '.json');
-    if(!post.bgcolorclass) { post.bgcolorclass = ''}
-    if(!post.textcolorclass) { post.textcolorclass = '' }
     if(!post.audio) { post.audio = null }
     if(!post.inprogress) { post.inprogress = null }
     return post;
@@ -102,7 +100,6 @@ export default {
         gfm: true,
         tables: true,
         breaks: false,
-        sanitize: false,
         smartLists: true,
         smartypants: true,
         xhtml: true

@@ -180,7 +180,6 @@ export default {
     //   gfm: true,
     //   tables: true,
     //   breaks: false,
-    //   sanitize: false,
     //   smartLists: true,
     //   smartypants: true,
     //   xhtml: true

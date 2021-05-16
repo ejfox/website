@@ -54,7 +54,9 @@ export default {
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/photos/' + params.slug + '.json');
+    let post = await import('~/content/photos/' + params.slug + '.json').then((p) => {
+      return p
+    });
     return post;
   },
   created: function () {

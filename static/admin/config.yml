@@ -17,40 +17,55 @@ collections:
     folder: "content/blog/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    format: 'json'
-    card: {type: "alltype", text: "title"}
+    format: "json"
+    card: { type: "alltype", text: "title" }
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Dek", name: "dek", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Type", name: "type", widget: "select", options: ["words", "code", "video", "audio", "photos"]}
-      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
-      - {label: "In Progress", name: "inprogress", widget: "boolean", default: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Hide Timestamp", name: "hidetimestamp", widget: "boolean", default: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Dek", name: "dek", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Type",
+          name: "type",
+          widget: "select",
+          options: ["words", "code", "video", "audio", "photos"],
+        }
+      - { label: "Hidden", name: "hidden", widget: "boolean", default: false }
+      - {
+          label: "In Progress",
+          name: "inprogress",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Hide Timestamp",
+          name: "hidetimestamp",
+          widget: "boolean",
+          default: false,
+        }
   - name: "audio" # Used in routes, e.g., /admin/collections/blog
     label: "Audio" # Used in the UI
     folder: "content/audio/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    format: 'json'
-    card: {type: "alltype", text: "title"}
+    format: "json"
+    card: { type: "alltype", text: "title" }
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Audio", name: "audio", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Dek", name: "dek", widget: "string", required: false}
-      - {label: "BPM", name: "bpm", widget: "number", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Audio", name: "audio", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Dek", name: "dek", widget: "string", required: false }
+      - { label: "BPM", name: "bpm", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: "photo" # Used in routes, e.g., /admin/collections/blog
     label: "Photo" # Used in the UI
     folder: "content/photo/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    format: 'json'
-    card: {type: "alltype", text: "photo"}
+    format: "json"
+    card: { type: "alltype", text: "photo" }
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Photo URL", name: "photo", widget: "string"}
-      - {label: "Dek", name: "dek", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Photo URL", name: "photo", widget: "string" }
+      - { label: "Dek", name: "dek", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }

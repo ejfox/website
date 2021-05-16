@@ -1,5 +1,5 @@
 ---
-date: '2020-09-22T21:05:05-04:00'
+date: "2020-09-22T21:05:05-04:00"
 type: words
 hidden: false
 inprogress: true
@@ -7,10 +7,12 @@ dek: In which the connections between three historical archetypes are explored
 ---
 
 # Pirates Witches and Hackers
+
 [[toc]]
 
 ## Pirates -> Witches
-The beginnings of things 
+
+The beginnings of things
 The earliest mentions of pirates, witches, and hackers respectively
 Shared lineage
 Shared symbols / occult beliefs
@@ -20,17 +22,18 @@ Source documents have been destroyed or never existed
 Secrecy because their power was feared, secrecy causes fear
 Tracing the lineages of anti-establishment thinkers and enclaves to early america and to now
 Maps of pirate enclaves, short descriptions of their activites, relationship to folklore the occult
-A culture of sharing, working as independent entities towards a common goal 
+A culture of sharing, working as independent entities towards a common goal
 
 This guy Cotton Mather hated pirates AND witches <https://en.wikipedia.org/wiki/Cotton_Mather#Sermons_against_Pirates_and_Piracy>
 
-Even the most god-fearing ship captains and pirates knew that there were spirits of the sea to contend with that defied understanding. The ritual Blessing of the Fleet is just one example of that. Anytime a society encounters a powerful technology- and building wooden ships that can cross oceans certainly counts- there is a mystery and mysticism to those who can master it. The best seafarers were those who could harness knowledge of the stars, and obscure arabic runes written on hard-won maps. 
+Even the most god-fearing ship captains and pirates knew that there were spirits of the sea to contend with that defied understanding. The ritual Blessing of the Fleet is just one example of that. Anytime a society encounters a powerful technology- and building wooden ships that can cross oceans certainly counts- there is a mystery and mysticism to those who can master it. The best seafarers were those who could harness knowledge of the stars, and obscure arabic runes written on hard-won maps.
 
 Anyone who wanted to successfully navigate the globe would need to go consult people who understood these obscure technologies, who conducted themselves with varying degrees of kinship to the occult.
 
-Everyday people make pilgrimage to the witches (a strange otherness to their dwelling) and wait for the oracles to perform mysterious procedures of divination. They receive snippets of information of hope or foreboding and rarely certainty. We still conduct similar rituals with our cars, phones, and computers- mysterious creatures as they are. 
+Everyday people make pilgrimage to the witches (a strange otherness to their dwelling) and wait for the oracles to perform mysterious procedures of divination. They receive snippets of information of hope or foreboding and rarely certainty. We still conduct similar rituals with our cars, phones, and computers- mysterious creatures as they are.
 
 ## Pirates -> Hackers
+
 Homes for anti-establishment people
 The many names for anti-establishment outgroups and what makes hackers, pirates, and witches special and different
 The ways they are viewed and covered in folklore and literature by the cultures that surround them
@@ -40,10 +43,10 @@ A shared anarchist attitude of creation
 A natural home for queers and people thinking beyond norms
 Coffee shop culture
 The magical effect of the combination of open water and free-thinkers
-Gold and bitcoin, 
+Gold and bitcoin,
 Extra-governmental wealth, feeding on the crumbs of colonizing nations
 Crypto-anarchy, cyberstates and pirate utopias
-Pirate havens - 17th century pirate havens to modern pirate havens (TOR, dark web, etc) 
+Pirate havens - 17th century pirate havens to modern pirate havens (TOR, dark web, etc)
 
 Talk of pirate utopias (and pirate women) <http://www.eco-action.org/dod/no8/pirate.html>
 
@@ -54,6 +57,7 @@ Hacker “code” and pirate “code” - rules of warfare even among thieves
 The dark side of hackers and pirates - people who use their power for evil
 
 ## Witches -> Hackers
+
 Prosecution of people we fear
 Prosecution of people with power we don’t understand
 Society is not ready for new technologies or ways of thinking
@@ -71,5 +75,5 @@ Breaking out of the simulation
 Hacking the simulation would look imperceptible from witchcraft
 All of the things that will be unlocked by allowing equitable access to the same knowledge and technologies
 A potential chance to redeem the failures of how treated witches before, they should be celebrated and honored
-Hackers-for-hire like the village witch would be paid for a certain spell or ritual or portion 
-The sharing of knowledge through books and runes 
+Hackers-for-hire like the village witch would be paid for a certain spell or ritual or portion
+The sharing of knowledge through books and runes

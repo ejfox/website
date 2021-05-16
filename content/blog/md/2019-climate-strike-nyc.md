@@ -3,7 +3,7 @@ dek: In which the youths march through the street with extremely clever signs si
 type: photo
 hidden: false
 inprogress: false
-date: '2019-09-20T21:19:39-04:00'
+date: "2019-09-20T21:19:39-04:00"
 hidetimestamp: false
 ---
 
@@ -12,7 +12,6 @@ hidetimestamp: false
 ![News cameras cover the front of the march as volunteers in vests clear the way](https://res.cloudinary.com/ejf/image/upload/v1569366291/20190920-climate-strike-march_20190920-398.jpg)
 
 ![“Cool kids saving a hot planet”](https://res.cloudinary.com/ejf/image/upload/v1569366306/20190920-climate-strike-march_20190920-704.jpg)
-
 
 ![“Wake up!” – Cops mill around as the march pauses for a moment](https://res.cloudinary.com/ejf/image/upload/v1569366318/20190920-climate-strike-march_20190920-742.jpg)
 
@@ -35,4 +34,3 @@ hidetimestamp: false
 ![“Green new deal”](https://res.cloudinary.com/ejf/image/upload/v1569366511/20190920-climate-strike-march_20190920-1484.jpg)
 
 ![New York’s Climate Strike March passes by as the Freedom Tower shines in the background](https://res.cloudinary.com/ejf/image/upload/v1569366513/20190920-climate-strike-march_20190920-1435.jpg)
-

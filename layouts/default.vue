@@ -177,6 +177,7 @@ body {
   .bg-near-white {
     background-color: var(--black);
     color: white;
+    background-color: red !important;
   }
 
   h1,

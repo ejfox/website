@@ -43,10 +43,7 @@
       <!-- Non-audio blog post types -->
       <section
         v-if="type !== 'audio'"
-        :class="[
-          'w-100  not-audio mb0 pa1 pa3-ns',
-          type,
-        ]"
+        :class="['w-100  not-audio mb0 pa1 pa3-ns', type]"
       >
         <div id="body" :class="[type !== 'photos' ? '' : 'ph7-1 f3-ns mr3-l']">
           <Words v-if="body" :bodyMarkdown="body" />
@@ -98,7 +95,7 @@ export default {
     Words,
     Nav,
   },
-  data: function() {
+  data: function () {
     return {
       emojiIcon: "📓",
     };
@@ -154,10 +151,10 @@ export default {
     }
     return post;
   },
-  created: function() {
+  created: function () {
     this.setEmojiIcon();
   },
-  activated: function() {},
+  activated: function () {},
   methods: {
     setEmojiIcon() {
       if (this.type === "photos") {
@@ -192,15 +189,12 @@ export default {
   }
 }
 
-li
-  list-style-type circle
-
-article.photos h1 {
+li list-style-type circle article.photos h1 {
   text-align: center;
 }
 
 article.photos img {
-  margin: 3rem 0
+  margin: 3rem 0;
 }
 
 article.photos img:first-child {
@@ -209,9 +203,9 @@ article.photos img:first-child {
 
 .article-pop {
   border-radius: 4px;
-  border-top: 1px solid rgba(250,250,250,0.1);
-  border-bottom: 1px solid rgba(25,25,25,0.1);
-  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
+  border-top: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rgba(25, 25, 25, 0.1);
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* article.photos p {

@@ -157,7 +157,11 @@ export default {
         { property: "description", content: this.shortDescription },
         { property: "og:description", content: this.shortDescription },
         { property: "og:title", content: this.title },
-        { property: "og:image", content: "https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png"},
+        {
+          property: "og:image",
+          content:
+            "https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png",
+        },
         { property: "og:type", content: "article" },
         { property: "twitter:title", content: this.title },
         { property: "twitter:creator", content: "mrejfox" },

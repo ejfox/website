@@ -23,13 +23,13 @@ export default {
     cssClass: String,
     tags: Object,
   },
-  data: function() {
+  data: function () {
     return {
-      url: ''
+      url: "",
     };
   },
   computed: {
-    srcset: function() {
+    srcset: function () {
       let srcURL = new URL(this.src);
       if (srcURL.hostname !== "res.cloudinary.com") return false;
       const imgSrc = this.src;
@@ -43,7 +43,7 @@ export default {
       });
       return srcSet.join(", \n");
     },
-    sizes: function() {
+    sizes: function () {
       // AND ALSO ADD THE NEW SIZE HERE
       return `(max-width: 320px) 320px,
         (max-width: 640px) 640px,
@@ -52,7 +52,7 @@ export default {
     },
   },
   methods: {
-    modifyUrlWithSize: function(url, width, srcset = false) {
+    modifyUrlWithSize: function (url, width, srcset = false) {
       let mURL = new URL(url);
       let mURLPaths = mURL.pathname.split("/");
       mURL.protocol = "https";
@@ -66,7 +66,7 @@ export default {
       }
     },
   },
-  mounted: function() {},
+  mounted: function () {},
 };
 </script>
 <style scoped="true"></style>

@@ -12,8 +12,8 @@
         itemprop="name"
         :title="
           book['Number of Pages'] +
-            ' pages, Avg goodreads rating: ' +
-            ratingToStars(book['Average Rating'])
+          ' pages, Avg goodreads rating: ' +
+          ratingToStars(book['Average Rating'])
         "
       >
         {{ book.Title }}
@@ -57,18 +57,18 @@ export default {
   props: {
     current: {
       type: Boolean,
-      default: function() {
+      default: function () {
         return false;
       },
     },
     books: {
       type: Array,
-      default: function() {
+      default: function () {
         return [];
       },
     },
   },
-  data: function() {
+  data: function () {
     return {};
   },
   methods: {
@@ -81,7 +81,7 @@ export default {
       return starString;
     },
   },
-  mounted: function() {},
+  mounted: function () {},
 };
 </script>
 <style></style>

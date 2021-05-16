@@ -9,9 +9,7 @@
       </p>
 
       <p class="tl">
-        <nuxt-link to="/projects">
-          Take a look at some of my work
-        </nuxt-link>
+        <nuxt-link to="/projects"> Take a look at some of my work </nuxt-link>
         or <a href="/resume.pdf">my resume</a>.
       </p>
       <p class="lh-copy pv2 tj">
@@ -61,7 +59,7 @@ export default {
       _path: `/blog/${key.replace(".json", "").replace("./", "")}`,
     }));
 
-    posts = posts.sort(function(a, b) {
+    posts = posts.sort(function (a, b) {
       return new Date(b.date) - new Date(a.date);
     });
     posts = posts.filter((post) => !post.hidden);

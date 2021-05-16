@@ -62,10 +62,11 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.19.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-vue": "^7.5.0",
+    "eslint-plugin-vue": "^7.9.0",
     "eslint-webpack-plugin": "^2.5.0",
     "glob": "^7.1.6",
     "highlights-scraper": "0.0.10",
+    "prettier": "^2.3.0",
     "processmd": "^4.6.0",
     "webpack-bundle-analyzer": "^4.4.0"
   }

@@ -17,8 +17,7 @@
           <span :class="['post-date tracked f6 db light-silver no-underline']"
             >{{ post.date | moment("from", "now") }} /
             <span class="ttu">{{ post.date | moment("Y.MM") }}</span>
-</span
-          >
+          </span>
         </li>
       </ul>
     </section>
@@ -35,7 +34,7 @@ export default {
     Footer,
   },
   methods: {
-    postTypeIcon: function(postType) {
+    postTypeIcon: function (postType) {
       // ["words", "code", "video", "audio", "photos"]
       if (postType === "words") {
         return "fa-align-right";
@@ -63,7 +62,7 @@ export default {
       _path: `/blog/${key.replace(".json", "").replace("./", "")}`,
     }));
 
-    posts = posts.sort(function(a, b) {
+    posts = posts.sort(function (a, b) {
       return new Date(b.date) - new Date(a.date);
     });
     posts = posts.filter((post) => !post.hidden);

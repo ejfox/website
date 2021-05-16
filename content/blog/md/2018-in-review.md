@@ -1,11 +1,12 @@
 ---
 type: photos
 hidden: false
-date: '2018-12-14T23:09:16-05:00'
+date: "2018-12-14T23:09:16-05:00"
 hidetimestamp: false
 ---
 
 # 2018 In Review
+
 <img src="https://res.cloudinary.com/ejf/image/upload/v1544846833/20180509-DSCF9221.jpg" />
 <img src="https://res.cloudinary.com/ejf/image/upload/v1544846830/20180509-DSCF9147.jpg" />
 <img src="https://res.cloudinary.com/ejf/image/upload/v1544846831/20180509-DSCF9198.jpg" />

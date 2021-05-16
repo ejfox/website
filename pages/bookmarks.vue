@@ -97,8 +97,8 @@ export default {
       blocks: [],
     };
   },
-  created: function() {},
-  mounted: function() {
+  created: function () {},
+  mounted: function () {
     axios.get(pinboardURI).then((res) => {
       console.log({
         res,
@@ -108,11 +108,11 @@ export default {
     });
   },
   methods: {
-    linkDomain: function(urlString) {
+    linkDomain: function (urlString) {
       let uri = URI.parse(urlString);
       return uri.domain;
     },
-    parseMarkdown: function(markdown) {
+    parseMarkdown: function (markdown) {
       // console.log('Parsing markdown...')
       // Build markdown parser
       const markdownRenderer = marked.setOptions({

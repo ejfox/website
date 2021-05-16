@@ -1,13 +1,14 @@
 ---
 hidden: false
 type: photos
-date: '2010-01-01T18:44:00-05:00'
+date: "2010-01-01T18:44:00-05:00"
 hidetimestamp: false
 bgcolorclass: bg-white
 textcolorclass: dark-gray
 ---
 
 # Photography 2008-2010
+
 <img src="https://res.cloudinary.com/ejf/image/upload/v1526683578/111_title.gif" />
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1526683578/1.jpg" />

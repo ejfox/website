@@ -63,9 +63,9 @@
       <!-- Timestamp -->
       <time :class="['f3 w-100 sans-serif mb2 pl0 pb0 db ttu tracked o-50']">
         <small class="mv3 pa3-ns tc tl-ns w-100 db">
-          {{ date | moment("MMMM Do, YYYY") }}
+          {{ date | moment('MMMM Do, YYYY') }}
           <span class="ml3 gray" v-if="isToday(date)">
-            {{ date | moment("from", "now") }}
+            {{ date | moment('from', 'now') }}
           </span>
         </small>
       </time>
@@ -81,12 +81,12 @@
 // import AudioPlayer2 from "~/components/AudioPlayer2.vue";
 // import Words from "~/components/blogtypes/words.vue";
 // import Nav from "~/components/Nav.vue";
-const AudioPlayer2 = () => import("~/components/AudioPlayer2.vue");
-const Words = () => import("~/components/blogtypes/words.vue");
-const Nav = () => import("~/components/Nav.vue");
+const AudioPlayer2 = () => import('~/components/AudioPlayer2.vue')
+const Words = () => import('~/components/blogtypes/words.vue')
+const Nav = () => import('~/components/Nav.vue')
 // import marked from 'marked'
-import truncate from "truncate";
-import moment from "moment";
+import truncate from 'truncate'
+import moment from 'moment'
 
 export default {
   scrollToTop: true,
@@ -97,38 +97,38 @@ export default {
   },
   data: function () {
     return {
-      emojiIcon: "📓",
-    };
+      emojiIcon: '📓',
+    }
   },
   computed: {},
   head() {
     return {
-      title: this.title + " " + this.emojiIcon + " EJ Fox",
+      title: this.title + ' ' + this.emojiIcon + ' EJ Fox',
       meta: [
-        { property: "name", content: this.title },
-        { property: "description", content: this.shortDescription },
-        { property: "og:description", content: this.shortDescription },
-        { property: "og:title", content: this.title },
-        { property: "og:type", content: "article" },
-        { property: "twitter:title", content: this.title },
-        { property: "twitter:creator", content: "mrejfox" },
+        { property: 'name', content: this.title },
+        { property: 'description', content: this.shortDescription },
+        { property: 'og:description', content: this.shortDescription },
+        { property: 'og:title', content: this.title },
+        { property: 'og:type', content: 'article' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:creator', content: 'mrejfox' },
         {
-          property: "twitter:description",
-          content: this.emojiIcon + " " + this.shortDescription,
+          property: 'twitter:description',
+          content: this.emojiIcon + ' ' + this.shortDescription,
         },
       ],
-    };
+    }
   },
   async asyncData({ params }) {
-    let post = await import("~/content/blog/posts/" + params.slug + ".json");
+    let post = await import('~/content/blog/posts/' + params.slug + '.json')
     if (!post.body && post.bodyContent) {
-      post.body = post.bodyContent;
+      post.body = post.bodyContent
     }
     if (!post.audio) {
-      post.audio = null;
+      post.audio = null
     }
     if (!post.dek) {
-      post.dek = null;
+      post.dek = null
     }
 
     // let toc = marked.lexer(post.body)
@@ -143,41 +143,40 @@ export default {
     // post.toc = toc
 
     if (!post.dek) {
-      let noHtmlBody = post.body;
-      noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, "");
-      post.shortDescription = truncate(noHtmlBody, 120);
+      let noHtmlBody = post.body
+      noHtmlBody = noHtmlBody.replace(/<(?:.|\n)*?>/gm, '')
+      post.shortDescription = truncate(noHtmlBody, 120)
     } else {
-      post.shortDescription = post.dek;
+      post.shortDescription = post.dek
     }
-    return post;
+    return post
   },
   created: function () {
-    this.setEmojiIcon();
+    this.setEmojiIcon()
   },
   activated: function () {},
   methods: {
     setEmojiIcon() {
-      if (this.type === "photos") {
-        this.emojiIcon = "📷";
-      } else if (this.type === "code") {
-        this.emojiIcon = "💻";
-      } else if (this.type === "audio") {
-        this.emojiIcon = "🎵";
+      if (this.type === 'photos') {
+        this.emojiIcon = '📷'
+      } else if (this.type === 'code') {
+        this.emojiIcon = '💻'
+      } else if (this.type === 'audio') {
+        this.emojiIcon = '🎵'
       }
     },
     isToday(date) {
-      console.log(date);
-      const today = moment();
+      const today = moment()
       // 2020-02-14T21:19:39-04:00
-      date = moment(date);
+      date = moment(date)
       return (
         date.date() == today.date() &&
         date.month() == today.month() &&
         date.year() == today.year()
-      );
+      )
     },
   },
-};
+}
 </script>
 
 <style scoped>
@@ -217,7 +216,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
 }
 
 pre {

@@ -1,5 +1,5 @@
 ---
-date: "2020-10-08T13:28:52-04:00"
+date: '2020-10-08T13:28:52-04:00'
 type: words
 hidden: false
 inprogress: false

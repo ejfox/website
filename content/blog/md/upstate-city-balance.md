@@ -3,7 +3,7 @@ dek: In which the author works to define the Yin and Yang of New York– the his
 type: words
 hidden: true
 inprogress: false
-date: "2019-08-02T12:17:00-04:00"
+date: '2019-08-02T12:17:00-04:00'
 hidetimestamp: false
 ---
 

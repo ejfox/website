@@ -79,13 +79,13 @@
 </template>
 
 <script>
-import axios from "axios";
-import insane from "insane";
-import * as URI from "uri-js";
-import marked from "marked";
-import Nav from "~/components/Nav.vue";
+import axios from 'axios'
+import insane from 'insane'
+import * as URI from 'uri-js'
+import marked from 'marked'
+import Nav from '~/components/Nav.vue'
 
-const pinboardURI = `https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json`;
+const pinboardURI = `https://api.pinboard.in/v1/posts/all?auth_token=ejfox:6BCADA7AD389C5F5D7CE&results=72&format=json`
 // const pinboardURI = 'https://pinboard-api.now.sh/json/u:ejfox/?results=50'
 
 export default {
@@ -95,22 +95,19 @@ export default {
   data() {
     return {
       blocks: [],
-    };
+    }
   },
   created: function () {},
   mounted: function () {
     axios.get(pinboardURI).then((res) => {
-      console.log({
-        res,
-      });
-      console.lot(res.data[0]);
-      this.blocks = res.data;
-    });
+      console.lot(res.data[0])
+      this.blocks = res.data
+    })
   },
   methods: {
     linkDomain: function (urlString) {
-      let uri = URI.parse(urlString);
-      return uri.domain;
+      let uri = URI.parse(urlString)
+      return uri.domain
     },
     parseMarkdown: function (markdown) {
       // console.log('Parsing markdown...')
@@ -124,18 +121,18 @@ export default {
         smartLists: true,
         smartypants: true,
         xhtml: true,
-      });
+      })
       return insane(markdownRenderer(markdown), {
-        allowedTags: ["h2", "h3", "h4", "ul", "li", "p"],
-      });
+        allowedTags: ['h2', 'h3', 'h4', 'ul', 'li', 'p'],
+      })
     },
   },
   asyncData({ params }) {
     return axios.get(pinboardURI).then((res) => {
-      return { blocks: res.data };
-    });
+      return { blocks: res.data }
+    })
   },
-};
+}
 </script>
 
 <style scoped>
@@ -161,7 +158,7 @@ img {
 #footer,
 #header {
   font-size: 14px;
-  font-family: Courier, "Courier New", monospace;
+  font-family: Courier, 'Courier New', monospace;
 }
 
 #header a {
@@ -173,7 +170,7 @@ img {
 }
 
 .bookmark-description {
-  font-family: "Hoefler Text A", "Hoefler Text B";
+  font-family: 'Hoefler Text A', 'Hoefler Text B';
   font-style: normal;
   font-weight: 700;
 }
@@ -185,7 +182,7 @@ img {
 
 .bookmark-description code {
   font-size: 14px;
-  font-family: "Inconsolata", Courier, monospace;
+  font-family: 'Inconsolata', Courier, monospace;
   line-height: 1em !important;
   background-color: black;
   color: white;

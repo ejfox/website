@@ -35,11 +35,11 @@
 export default {
   components: {},
   data() {
-    return {};
+    return {}
   },
   mounted: function () {},
   methods: {},
-};
+}
 </script>
 
 <style>

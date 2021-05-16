@@ -1,10 +1,10 @@
 ---
 hidden: false
 type: video
-date: "2016-12-01T19:55:00-05:00"
+date: '2016-12-01T19:55:00-05:00'
 hidetimestamp: true
-bgcolorclass: ""
-textcolorclass: ""
+bgcolorclass: ''
+textcolorclass: ''
 ---
 
 # Video Mixes

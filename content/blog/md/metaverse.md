@@ -1,7 +1,7 @@
 ---
 type: audio
 hidden: false
-date: "2018-12-15T01:54:47-05:00"
+date: '2018-12-15T01:54:47-05:00'
 hidetimestamp: false
 ---
 

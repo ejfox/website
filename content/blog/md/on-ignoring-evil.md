@@ -3,7 +3,7 @@ dek: In which the author weighs the merits of ignoring despicable people
 type: words
 hidden: false
 inprogress: true
-date: "2019-04-19T14:48:23.693Z"
+date: '2019-04-19T14:48:23.693Z'
 hidetimestamp: false
 ---
 

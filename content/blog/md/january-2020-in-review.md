@@ -3,7 +3,7 @@ dek: In which the author works a lot, flies to California, and survives the Iowa
 type: words
 hidden: false
 inprogress: false
-date: "2020-02-05T21:19:39-04:00"
+date: '2020-02-05T21:19:39-04:00'
 hidetimestamp: false
 ---
 

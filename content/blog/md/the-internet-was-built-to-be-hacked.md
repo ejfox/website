@@ -3,7 +3,7 @@ dek: In which the author is grateful for the hackers who invented the internet
 type: words
 hidden: false
 inprogress: false
-date: "2019-02-01T12:08:56-05:00"
+date: '2019-02-01T12:08:56-05:00'
 hidetimestamp: false
 ---
 

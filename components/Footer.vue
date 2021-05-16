@@ -53,15 +53,15 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: 'Footer',
   props: {},
   data: function () {
-    return {};
+    return {}
   },
   computed: {},
   mounted: function () {},
   methods: {},
-};
+}
 </script>
 
 <style scoped></style>

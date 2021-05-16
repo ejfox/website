@@ -1,10 +1,10 @@
 ---
 type: words
 hidden: true
-date: "2019-01-01T00:01:00-05:00"
+date: '2019-01-01T00:01:00-05:00'
 hidetimestamp: false
-bgcolorclass: ""
-textcolorclass: ""
+bgcolorclass: ''
+textcolorclass: ''
 ---
 
 # Daily Creations

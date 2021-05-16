@@ -49,74 +49,71 @@
 export default {
   props: {
     fileUrl: { type: String, default: null },
-    bg: { type: String, default: "bg-light-gray" },
+    bg: { type: String, default: 'bg-light-gray' },
   },
   data: function () {
     return {
       url: this.sources[0],
-    };
+    }
   },
   mixins: [VueHowler],
   mounted: function () {
-    console.log("this", this);
-
     const sound = new Howl({
       src: [this.fileUrl],
       preload: true,
-    });
+    })
 
     // const downloadLink = document.getElementById('download-link');
     // downloadLink.setAttribute('href', this.fileUrl)
     // downloadLink.setAttribute('href', this.fileUrl)
 
-    const canvas = document.getElementById("canvas-viz");
-    canvas.width = window.innerWidth * 2;
-    canvas.height = window.innerHeight * 2;
+    const canvas = document.getElementById('canvas-viz')
+    canvas.width = window.innerWidth * 2
+    canvas.height = window.innerHeight * 2
 
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext('2d')
 
-    let analyser = Howler.ctx.createAnalyser();
-    console.log("analyser", analyser);
+    let analyser = Howler.ctx.createAnalyser()
     // analyser.fftSize = 2048
-    analyser.fftSize = 1024;
-    analyser.smoothingTimeConstant = 0.95;
-    let bufferLength = analyser.frequencyBinCount;
-    let dataArray = new Uint8Array(bufferLength);
-    Howler.masterGain.connect(analyser);
+    analyser.fftSize = 1024
+    analyser.smoothingTimeConstant = 0.95
+    let bufferLength = analyser.frequencyBinCount
+    let dataArray = new Uint8Array(bufferLength)
+    Howler.masterGain.connect(analyser)
 
     function draw() {
-      var drawVisual = requestAnimationFrame(draw);
-      analyser.getByteTimeDomainData(dataArray);
+      var drawVisual = requestAnimationFrame(draw)
+      analyser.getByteTimeDomainData(dataArray)
       // ctx.fillStyle = 'green'
       // ctx.fillRect(0, 0, canvas.width, canvas.height)
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = "rgb(0, 0, 0)";
-      ctx.beginPath();
+      ctx.lineWidth = 2
+      ctx.strokeStyle = 'rgb(0, 0, 0)'
+      ctx.beginPath()
 
-      let sliceWidth = (canvas.width * 1.0) / bufferLength;
-      let x = 0;
+      let sliceWidth = (canvas.width * 1.0) / bufferLength
+      let x = 0
 
       for (var i = 0; i < bufferLength; i++) {
-        var v = dataArray[i] / 128.0;
-        var y = (v * canvas.height) / 3.3;
+        var v = dataArray[i] / 128.0
+        var y = (v * canvas.height) / 3.3
 
         if (i === 0) {
-          ctx.moveTo(x, y);
+          ctx.moveTo(x, y)
         } else {
-          ctx.lineTo(x, y);
+          ctx.lineTo(x, y)
         }
 
-        x += sliceWidth;
+        x += sliceWidth
       }
-      ctx.lineTo(canvas.width, canvas.height / 3.3);
-      ctx.stroke();
+      ctx.lineTo(canvas.width, canvas.height / 3.3)
+      ctx.stroke()
     }
 
-    draw();
+    draw()
   },
-};
+}
 </script>
 <style>
 .controls {

@@ -22,7 +22,7 @@
             'f5 w-100 sans-serif mv3 pl0 pb0 pt3 db ttu tracked o-20 tc',
           ]"
         >
-          <small class="">{{ date | moment("MMMM Do YYYY") }}</small>
+          <small class="">{{ date | moment('MMMM Do YYYY') }}</small>
         </time>
 
         <div>
@@ -42,10 +42,10 @@
 </template>
 
 <script>
-import URL from "url-parse";
-import marked from "marked";
-import AudioPlayer2 from "~/components/AudioPlayer2.vue";
-import Words from "~/components/blogtypes/words.vue";
+import URL from 'url-parse'
+import marked from 'marked'
+import AudioPlayer2 from '~/components/AudioPlayer2.vue'
+import Words from '~/components/blogtypes/words.vue'
 
 export default {
   scrollToTop: true,
@@ -55,41 +55,41 @@ export default {
   },
   data: function () {
     return {
-      emojiIcon: "🎶",
+      emojiIcon: '🎶',
       bodyHtml: null,
-    };
+    }
   },
   computed: {},
   head() {
     return {
-      title: this.emojiIcon + " " + this.title + " | EJ Fox",
+      title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
       meta: [
         {
-          name: "EJ Fox | " + this.title,
+          name: 'EJ Fox | ' + this.title,
           description: this.emojiIcon,
-          "og:description": this.emojiIcon,
-          "og:title": this.title,
-          "og:type": "article",
-          "twitter:title": this.title,
-          "twitter:creator": "mrejfox",
-          "twitter:description": this.emojiIcon + " " + this.emojiIcon,
+          'og:description': this.emojiIcon,
+          'og:title': this.title,
+          'og:type': 'article',
+          'twitter:title': this.title,
+          'twitter:creator': 'mrejfox',
+          'twitter:description': this.emojiIcon + ' ' + this.emojiIcon,
         },
       ],
-    };
+    }
   },
   async asyncData({ params }) {
-    let post = await import("~/content/audio/" + params.slug + ".json");
+    let post = await import('~/content/audio/' + params.slug + '.json')
     if (!post.audio) {
-      post.audio = null;
+      post.audio = null
     }
     if (!post.inprogress) {
-      post.inprogress = null;
+      post.inprogress = null
     }
-    return post;
+    return post
   },
   created: function () {
     if (this.body) {
-      this.bodyHtml = this.parseMarkdown(this.body);
+      this.bodyHtml = this.parseMarkdown(this.body)
     }
   },
   activated: function () {},
@@ -109,9 +109,9 @@ export default {
         smartLists: true,
         smartypants: true,
         xhtml: true,
-      });
-      let parsedMarkdown = markdownRenderer(markdown);
-      return parsedMarkdown;
+      })
+      let parsedMarkdown = markdownRenderer(markdown)
+      return parsedMarkdown
 
       // Load parsed markdown into cheerio so we can do
       // jquery-style manipulations on the HTML
@@ -120,7 +120,7 @@ export default {
       //return $.html()
     },
   },
-};
+}
 </script>
 
 <style scoped>
@@ -169,7 +169,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
 }
 
 pre {

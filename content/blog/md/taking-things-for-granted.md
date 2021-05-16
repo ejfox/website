@@ -3,7 +3,7 @@ dek: In which the author attempts to dissuade you from the belief things will al
 type: words
 hidden: false
 inprogress: false
-date: "2019-06-14T15:27:00-04:00"
+date: '2019-06-14T15:27:00-04:00'
 hidetimestamp: false
 ---
 

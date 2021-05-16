@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Photo from "~/components/Photo.vue";
-import Chance from "chance";
+import Photo from '~/components/Photo.vue'
+import Chance from 'chance'
 
 export default {
   scrollToTop: true,
@@ -21,46 +21,46 @@ export default {
   },
   data() {
     // Using webpacks context to gather all files from a folder
-    const context = require.context("~/content/photos/", false, /\.json$/);
+    const context = require.context('~/content/photos/', false, /\.json$/)
 
     let posts = context.keys().map((key) => ({
       ...context(key),
-      _path: `/photos/${key.replace(".json", "").replace("./", "")}`,
-    }));
+      _path: `/photos/${key.replace('.json', '').replace('./', '')}`,
+    }))
 
     return {
       posts,
-      emojiIcon: "📷",
-    };
+      emojiIcon: '📷',
+    }
   },
   computed: {},
   head() {
     return {
-      title: this.emojiIcon + " Photos | EJ Fox",
+      title: this.emojiIcon + ' Photos | EJ Fox',
       meta: [
         {
-          name: "EJ Fox | Photos",
+          name: 'EJ Fox | Photos',
           description: this.emojiIcon,
-          "og:description":
-            this.emojiIcon + "" + this.posts.length + " photoblog posts",
-          "og:title": this.title,
-          "og:type": "article",
-          "twitter:title": this.title,
-          "twitter:creator": "mrejfox",
+          'og:description':
+            this.emojiIcon + '' + this.posts.length + ' photoblog posts',
+          'og:title': this.title,
+          'og:type': 'article',
+          'twitter:title': this.title,
+          'twitter:creator': 'mrejfox',
         },
       ],
-    };
+    }
   },
   created: function () {
-    this.chance = new Chance();
+    this.chance = new Chance()
   },
   activated: function () {},
   methods: {
     randomPhoto(files) {
-      return this.chance.pick(files);
+      return this.chance.pick(files)
     },
   },
-};
+}
 </script>
 
 <style scoped>

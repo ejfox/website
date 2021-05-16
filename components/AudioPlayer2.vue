@@ -32,112 +32,112 @@
 
 <script>
 export default {
-  name: "AudioPlayer2",
+  name: 'AudioPlayer2',
   props: {
     fileUrl: { type: String, default: null },
   },
   data: function () {
-    return {};
+    return {}
   },
   mounted: function () {
-    const canvas = document.getElementById("canvas-viz");
-    canvas.width = window.innerWidth * 2;
-    canvas.height = window.innerHeight * 2;
+    const canvas = document.getElementById('canvas-viz')
+    canvas.width = window.innerWidth * 2
+    canvas.height = window.innerHeight * 2
 
-    const ctx = this.$refs.canvas.getContext("2d");
+    const ctx = this.$refs.canvas.getContext('2d')
 
     // const audioCtx = new AudioContext()
-    let audioCtx;
-    let analyser;
-    let dataArray;
-    let darkMode;
-    let bufferLength;
+    let audioCtx
+    let analyser
+    let dataArray
+    let darkMode
+    let bufferLength
     // const audio = document.getElementById('audio')
 
     // const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
     // const myAudio = document.getElementById('audio')
-    const myAudio = this.$refs.audio;
+    const myAudio = this.$refs.audio
 
-    let firstPlay = true;
-    myAudio.addEventListener("click", (event) => {
+    let firstPlay = true
+    myAudio.addEventListener('click', (event) => {
       if (firstPlay) {
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        audioCtx = new AudioContext();
-        const audioSrc = audioCtx.createMediaElementSource(myAudio);
-        analyser = audioCtx.createAnalyser();
-        audioSrc.connect(analyser);
-        audioSrc.connect(audioCtx.destination);
+        const AudioContext = window.AudioContext || window.webkitAudioContext
+        audioCtx = new AudioContext()
+        const audioSrc = audioCtx.createMediaElementSource(myAudio)
+        analyser = audioCtx.createAnalyser()
+        audioSrc.connect(analyser)
+        audioSrc.connect(audioCtx.destination)
 
-        analyser.fftSize = 2048;
+        analyser.fftSize = 2048
         // analyser.fftSize = 1024
-        analyser.smoothingTimeConstant = 0.95;
-        bufferLength = analyser.frequencyBinCount;
-        dataArray = new Uint8Array(bufferLength);
+        analyser.smoothingTimeConstant = 0.95
+        bufferLength = analyser.frequencyBinCount
+        dataArray = new Uint8Array(bufferLength)
 
-        darkMode = true;
+        darkMode = true
 
         if (
           window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches
+          window.matchMedia('(prefers-color-scheme: dark)').matches
         ) {
-          darkMode = true;
+          darkMode = true
         } else {
-          darkMode = false;
+          darkMode = false
         }
 
-        firstPlay = false;
-        draw();
+        firstPlay = false
+        draw()
       }
 
-      let t = 0;
+      let t = 0
       function draw() {
-        t++;
+        t++
         // console.log('drawing')
-        var drawVisual = requestAnimationFrame(draw);
-        analyser.getByteTimeDomainData(dataArray);
+        var drawVisual = requestAnimationFrame(draw)
+        analyser.getByteTimeDomainData(dataArray)
         // analyser.getByteFrequencyData(dataArray)
         // console.log('dataArray', dataArray)
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
         // ctx.fillStyle = 'rgba(0,0,0,0.02)'
         if (darkMode) {
-          ctx.fillStyle = "rgba(41, 42, 43, 0.02)";
+          ctx.fillStyle = 'rgba(41, 42, 43, 0.02)'
         } else {
-          ctx.fillStyle = "rgba(255, 255, 255, 0.01)";
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.01)'
         }
 
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 2
         if (darkMode) {
-          ctx.strokeStyle = "rgb(127, 127, 127)";
+          ctx.strokeStyle = 'rgb(127, 127, 127)'
         } else {
-          ctx.strokeStyle = "rgb(24, 24, 24)";
+          ctx.strokeStyle = 'rgb(24, 24, 24)'
         }
 
-        ctx.beginPath();
+        ctx.beginPath()
 
-        let sliceWidth = (canvas.width * 1.0) / bufferLength;
-        let x = 0;
+        let sliceWidth = (canvas.width * 1.0) / bufferLength
+        let x = 0
 
         for (var i = 0; i < bufferLength; i++) {
-          var v = dataArray[i] / 128.0;
-          var y = v * (canvas.height * 0.5);
+          var v = dataArray[i] / 128.0
+          var y = v * (canvas.height * 0.5)
 
           if (i === 0) {
-            ctx.moveTo(x, y);
+            ctx.moveTo(x, y)
           } else {
-            ctx.lineTo(x, y);
+            ctx.lineTo(x, y)
           }
 
-          x += sliceWidth;
+          x += sliceWidth
         }
-        ctx.lineTo(canvas.width, canvas.height / 3);
-        ctx.stroke();
+        ctx.lineTo(canvas.width, canvas.height / 3)
+        ctx.stroke()
       }
       // draw()
-    });
+    })
   },
-};
+}
 </script>
 <style>
 audio {

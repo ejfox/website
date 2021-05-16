@@ -26,11 +26,11 @@
 <script scoped>
 export default {
   data: function () {
-    return {};
+    return {}
   },
   methods: {},
   mounted: function () {},
-};
+}
 </script>
 <style scoped="true">
 #navigation {

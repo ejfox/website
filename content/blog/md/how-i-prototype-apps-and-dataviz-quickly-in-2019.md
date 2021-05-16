@@ -2,7 +2,7 @@
 type: words
 hidden: false
 inprogress: false
-date: "2019-03-19T21:25:22-04:00"
+date: '2019-03-19T21:25:22-04:00'
 hidetimestamp: false
 ---
 

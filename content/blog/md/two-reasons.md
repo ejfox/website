@@ -3,7 +3,7 @@ dek: In which the author discloses a peculiar and  dysfunctional part of his min
 type: words
 hidden: false
 inprogress: false
-date: "2019-08-05T16:11:00-04:00"
+date: '2019-08-05T16:11:00-04:00'
 hidetimestamp: false
 ---
 

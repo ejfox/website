@@ -15,7 +15,7 @@
 
 <script>
 // import Words from '~/components/blogtypes/words.vue'
-import Photo from "~/components/Photo.vue";
+import Photo from '~/components/Photo.vue'
 // import URL from 'url-parse'
 // import _ from 'lodash'
 // import marked from 'marked'
@@ -30,40 +30,40 @@ export default {
   },
   data: function () {
     return {
-      emojiIcon: "📷",
+      emojiIcon: '📷',
       post: {},
-    };
+    }
   },
   computed: {},
   head() {
     return {
-      title: this.emojiIcon + " " + this.title + " | EJ Fox",
+      title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
       meta: [
         {
-          name: "EJ Fox | " + this.title,
+          name: 'EJ Fox | ' + this.title,
           description: this.emojiIcon,
-          "og:description": this.emojiIcon + this.files.length + " photos",
-          "og:title": this.title,
-          "og:type": "article",
-          "twitter:title": this.title,
-          "twitter:creator": "mrejfox",
-          "twitter:description": this.emojiIcon + " " + this.emojiIcon,
+          'og:description': this.emojiIcon + this.files.length + ' photos',
+          'og:title': this.title,
+          'og:type': 'article',
+          'twitter:title': this.title,
+          'twitter:creator': 'mrejfox',
+          'twitter:description': this.emojiIcon + ' ' + this.emojiIcon,
         },
       ],
-    };
+    }
   },
   async asyncData({ params }) {
-    let post = await import("~/content/photos/" + params.slug + ".json").then(
+    let post = await import('~/content/photos/' + params.slug + '.json').then(
       (p) => {
-        return p;
-      }
-    );
-    return post;
+        return p
+      },
+    )
+    return post
   },
   created: function () {},
   activated: function () {},
   methods: {},
-};
+}
 </script>
 
 <style scoped>
@@ -112,7 +112,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
 }
 
 pre {

@@ -1,7 +1,7 @@
 ---
 type: photos
 hidden: false
-date: "2018-12-14T23:09:16-05:00"
+date: '2018-12-14T23:09:16-05:00'
 hidetimestamp: false
 ---
 

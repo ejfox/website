@@ -3,7 +3,7 @@ dek: Who wants to make cool stuff with me?
 type: words
 hidden: false
 inprogress: false
-date: "2020-01-21T21:19:39-04:00"
+date: '2020-01-21T21:19:39-04:00'
 hidetimestamp: true
 ---
 

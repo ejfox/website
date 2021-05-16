@@ -3,7 +3,7 @@ dek: In which the author expresses his desire to make things every day and yet, 
 type: words
 hidden: false
 inprogress: false
-date: "2019-01-01T23:59:59-04:00"
+date: '2019-01-01T23:59:59-04:00'
 hidetimestamp: false
 ---
 

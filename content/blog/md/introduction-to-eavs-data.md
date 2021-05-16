@@ -3,7 +3,7 @@ dek: In which voter data is explored and visualized with javascript and an assem
 type: words
 hidden: true
 inprogress: false
-date: "2020-03-03T21:17:39-04:00"
+date: '2020-03-03T21:17:39-04:00'
 hidetimestamp: false
 ---
 

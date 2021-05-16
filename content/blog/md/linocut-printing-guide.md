@@ -3,7 +3,7 @@ dek: In which the author explains his reasoning for exploring analog methods of 
 type: words
 hidden: false
 inprogress: false
-date: "2019-08-18T11:29:39-04:00"
+date: '2019-08-18T11:29:39-04:00'
 hidetimestamp: false
 ---
 

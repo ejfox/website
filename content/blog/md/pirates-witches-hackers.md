@@ -1,5 +1,5 @@
 ---
-date: "2020-09-22T21:05:05-04:00"
+date: '2020-09-22T21:05:05-04:00'
 type: words
 hidden: false
 inprogress: true
@@ -24,7 +24,7 @@ Tracing the lineages of anti-establishment thinkers and enclaves to early americ
 Maps of pirate enclaves, short descriptions of their activites, relationship to folklore the occult
 A culture of sharing, working as independent entities towards a common goal
 
-This guy Cotton Mather hated pirates AND witches <https://en.wikipedia.org/wiki/Cotton_Mather#Sermons_against_Pirates_and_Piracy>
+This guy Cotton Mather hated pirates AND witches <https://en.wikipedia.org/wiki/Cotton_Mather#Ser`y>
 
 Even the most god-fearing ship captains and pirates knew that there were spirits of the sea to contend with that defied understanding. The ritual Blessing of the Fleet is just one example of that. Anytime a society encounters a powerful technology- and building wooden ships that can cross oceans certainly counts- there is a mystery and mysticism to those who can master it. The best seafarers were those who could harness knowledge of the stars, and obscure arabic runes written on hard-won maps.
 

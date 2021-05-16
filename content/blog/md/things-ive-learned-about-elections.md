@@ -3,7 +3,7 @@ dek: In which we explore the knotted beauty of American democracy
 type: words
 hidden: false
 inprogress: true
-date: "2020-02-09T03:19:38.761Z"
+date: '2020-02-09T03:19:38.761Z'
 hidetimestamp: false
 ---
 

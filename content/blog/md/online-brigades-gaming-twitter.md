@@ -3,7 +3,7 @@ dek: The newest weapon in the arsenal of internet nazis is mass-brigading Twitte
 type: words
 hidden: false
 inprogress: false
-date: "2020-02-14T21:19:39-04:00"
+date: '2020-02-14T21:19:39-04:00'
 hidetimestamp: false
 ---
 

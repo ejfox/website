@@ -3,7 +3,7 @@ dek: In which the author attempts and fails to find interesting unsecured webcam
 type: words
 hidden: false
 inprogress: false
-date: "2019-03-24T21:19:39-04:00"
+date: '2019-03-24T21:19:39-04:00'
 hidetimestamp: false
 ---
 

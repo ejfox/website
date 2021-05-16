@@ -21,8 +21,8 @@
           >{{ tags.FocalLengthIn35mmFilm.description }}mm lens</span
         >
         <span class="">
-          {{ tags.date | moment("MMM Do YYYY") }}
-          {{ tags.date | moment("ha") }}
+          {{ tags.date | moment('MMM Do YYYY') }}
+          {{ tags.date | moment('ha') }}
         </span>
       </div>
       <figcaption
@@ -36,8 +36,8 @@
 </template>
 
 <script>
-import URL from "url-parse";
-import each from "lodash/each";
+import URL from 'url-parse'
+import each from 'lodash/each'
 export default {
   props: {
     url: String,
@@ -48,52 +48,52 @@ export default {
   data: function () {
     return {
       exposureFormat: null,
-    };
+    }
   },
   computed: {
     srcset: function () {
-      let srcURL = new URL(this.url);
-      if (srcURL.hostname !== "res.cloudinary.com") return false;
-      const imgSrc = this.url;
+      let srcURL = new URL(this.url)
+      if (srcURL.hostname !== 'res.cloudinary.com') return false
+      const imgSrc = this.url
 
       // TO ADD A NEW SIZE, ADD IT HERE
-      const sizes = [320, 640, 1280, 1600];
-      const srcSet = [];
+      const sizes = [320, 640, 1280, 1600]
+      const srcSet = []
       each(sizes, (size) => {
-        let nURL = this.modifyUrlWithSize(imgSrc, size, true);
-        srcSet.push(nURL);
-      });
-      return srcSet.join(", \n");
+        let nURL = this.modifyUrlWithSize(imgSrc, size, true)
+        srcSet.push(nURL)
+      })
+      return srcSet.join(', \n')
     },
     sizes: function () {
       // AND ALSO ADD THE NEW SIZE HERE
       return `(max-width: 320px) 320px,
         (max-width: 640px) 640px,
         (max-width: 1280px) 1280px,
-        1600px`;
+        1600px`
     },
   },
   methods: {
     exposureNumberFormat(exp) {
-      const speed = 1 / exp;
-      return speed;
+      const speed = 1 / exp
+      return speed
     },
     modifyUrlWithSize: function (url, width, srcset = false) {
-      let mURL = new URL(url);
-      let mURLPaths = mURL.pathname.split("/");
-      mURL.protocol = "https";
-      let urlAppendString = "fl_progressive:semi,c_scale,dpr_auto,w_" + width;
-      mURLPaths.splice(mURLPaths.length - 2, 0, urlAppendString);
-      mURL.pathname = mURLPaths.join("/");
+      let mURL = new URL(url)
+      let mURLPaths = mURL.pathname.split('/')
+      mURL.protocol = 'https'
+      let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_' + width
+      mURLPaths.splice(mURLPaths.length - 2, 0, urlAppendString)
+      mURL.pathname = mURLPaths.join('/')
       if (srcset) {
-        return mURL.toString() + ` ${width}w`;
+        return mURL.toString() + ` ${width}w`
       } else {
-        return mURL.toString();
+        return mURL.toString()
       }
     },
   },
   mounted: function () {},
-};
+}
 </script>
 <style scoped="true">
 #navigation {

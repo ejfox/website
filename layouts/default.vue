@@ -168,7 +168,7 @@ body {
   background-color: #f4f4f4;
 }
 
-// Dark mode overrides for Tachyon
+/* Dark mode overrides for Tachyon */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--black);
@@ -177,7 +177,6 @@ body {
   .bg-near-white {
     background-color: var(--black);
     color: white;
-    background-color: red !important;
   }
 
   h1,

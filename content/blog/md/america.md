@@ -3,7 +3,7 @@ dek: In which the author is fascinated by America’s multitudes
 type: words
 hidden: true
 inprogress: true
-date: "2019-06-13T21:19:39-04:00"
+date: '2019-06-13T21:19:39-04:00'
 hidetimestamp: true
 ---
 

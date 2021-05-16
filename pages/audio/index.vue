@@ -18,7 +18,7 @@
           </span>
         </nuxt-link>
         <span class="f6 light-silver db ttu no-underline o-80 tracked">
-          {{ post.date | moment("MMMM Do YYYY") }}
+          {{ post.date | moment('MMMM Do YYYY') }}
         </span>
       </li>
     </ul>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
@@ -35,20 +35,20 @@ export default {
   methods: {},
   data() {
     // Using webpacks context to gather all files from a folder
-    const context = require.context("~/content/audio/", false, /\.json$/);
+    const context = require.context('~/content/audio/', false, /\.json$/)
 
     let audio = context.keys().map((key) => ({
       ...context(key),
-      _path: `/audio/${key.replace(".json", "").replace("./", "")}`,
-    }));
+      _path: `/audio/${key.replace('.json', '').replace('./', '')}`,
+    }))
 
     audio = audio.sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date);
-    });
-    audio = audio.filter((post) => !post.hidden);
-    return { audio };
+      return new Date(b.date) - new Date(a.date)
+    })
+    audio = audio.filter((post) => !post.hidden)
+    return { audio }
   },
-};
+}
 </script>
 
 <style scoped>

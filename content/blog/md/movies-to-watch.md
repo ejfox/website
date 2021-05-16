@@ -3,7 +3,7 @@ dek: In which the author divulges a shameful secret
 type: words
 hidden: false
 inprogress: false
-date: "2019-06-13T18:19:39-04:00"
+date: '2019-06-13T18:19:39-04:00'
 hidetimestamp: true
 ---
 

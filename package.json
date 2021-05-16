@@ -59,6 +59,7 @@
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.19.0",
     "eslint-friendly-formatter": "^4.0.1",

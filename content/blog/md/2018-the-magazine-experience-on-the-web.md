@@ -3,7 +3,7 @@ dek: In which the author muses about 2013-era web design aesthetics
 type: words
 hidden: false
 inprogress: false
-date: "2013-01-25T18:34:00-05:00"
+date: '2013-01-25T18:34:00-05:00'
 hidetimestamp: false
 ---
 

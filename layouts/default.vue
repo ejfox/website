@@ -174,12 +174,12 @@ body {
 /* Dark mode overrides for Tachyon */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--black);
+    background-color: var(--black) !important;
   }
 
   .bg-near-white {
-    background-color: var(--black);
-    color: white;
+    background-color: var(--black) !important;
+    color: white !important;
   }
 
   h1,
@@ -192,8 +192,8 @@ body {
 
   .bg-white,
   .bg-light-gray {
-    background-color: var(--black);
-    color: white;
+    background-color: var(--black) !important;
+    color: white !important;
   }
 
   a {

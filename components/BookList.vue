@@ -12,15 +12,15 @@
         itemprop="name"
         :title="
           book['Number of Pages'] +
-            ' pages, Avg goodreads rating: ' +
-            ratingToStars(book['Average Rating'])
+          ' pages, Avg goodreads rating: ' +
+          ratingToStars(book['Average Rating'])
         "
       >
         {{ book.Title }}
       </span>
 
       <small class="system-sans-serif gray dn dib-ns" itemprop="dateCreated">
-        {{ book["Original Publication Year"] }}
+        {{ book['Original Publication Year'] }}
       </small>
 
       <span class="pl2 gray" itemprop="author">
@@ -38,7 +38,7 @@
         ]"
         :title="book['My Review'].replace(/<(?:.|\n)*?>/gm, '')"
       >
-        {{ ratingToStars(book["My Rating"]) }}
+        {{ ratingToStars(book['My Rating']) }}
       </span>
 
       <!-- <span
@@ -57,31 +57,31 @@ export default {
   props: {
     current: {
       type: Boolean,
-      default: function() {
-        return false;
+      default: function () {
+        return false
       },
     },
     books: {
       type: Array,
-      default: function() {
-        return [];
+      default: function () {
+        return []
       },
     },
   },
-  data: function() {
-    return {};
+  data: function () {
+    return {}
   },
   methods: {
     ratingToStars(rating) {
-      const star = "★";
-      let starString = "";
+      const star = '★'
+      let starString = ''
       for (var i = 0; i < rating; i++) {
-        starString += star;
+        starString += star
       }
-      return starString;
+      return starString
     },
   },
-  mounted: function() {},
-};
+  mounted: function () {},
+}
 </script>
 <style></style>

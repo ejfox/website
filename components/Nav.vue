@@ -10,28 +10,27 @@
     </li>
 
     <li class="pr2 ph3-ns">
-      <nuxt-link class="link underline " to="/projects">Projects</nuxt-link>
+      <nuxt-link class="link underline" to="/projects">Projects</nuxt-link>
     </li>
 
     <li class="pr2 ph3-ns">
-      <nuxt-link class="link underline " to="/blog">Writing</nuxt-link>
+      <nuxt-link class="link underline" to="/blog">Writing</nuxt-link>
     </li>
 
     <li class="pr2 ph3-ns">
-      <nuxt-link class="link underline " to="/services">Services</nuxt-link>
+      <nuxt-link class="link underline" to="/services">Services</nuxt-link>
     </li>
-
   </ul>
 </template>
 
 <script scoped>
 export default {
-  data: function() {
-    return {};
+  data: function () {
+    return {}
   },
   methods: {},
-  mounted: function() {},
-};
+  mounted: function () {},
+}
 </script>
 <style scoped="true">
 #navigation {

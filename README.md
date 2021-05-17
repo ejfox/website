@@ -20,7 +20,7 @@ Currently powered by:
 
 ## To do
 
-- Add status tags for posts ("notes", "draft", "in progress", "finished" )
+- Convert scraping actions on public data to GitHub actions
 - Add way for people to submit anonymous feedback / tips
 - Add mechanism for automatically archiving linked URLs [a la Gwern](https://www.gwern.net/Archiving-URLs)
 
@@ -33,9 +33,12 @@ To get book library for goodreads to the books page:
 - Copy the goodreads CSV to the data folder
 - Run `npx csvtojson static/data/goodreads_library_export.csv > static/data/goodreads_library_export.json` to convert the CSV into json
 
-To scrape [highlights](https://www.goodreads.com/notes/9273959-ej-fox):
+To [scrape](https://github.com/maxh/highlights-scraper) [highlights](https://www.goodreads.com/notes/9273959-ej-fox):
 
-- `scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json`
+```
+
+scrape-highlights https://www.goodreads.com/notes/9273959-ej-fox > static/data/book_highlights.json
+```
 
 ### Markdown Blog Posts
 
@@ -71,22 +74,25 @@ If starting in Lightroom, you want to go through each photo and make sure it
 has a caption. You can add the caption in the Metadata section on the
 right side of the screen when in Library mode. These captions will automatically
 be displayed when processed with the script. This is basically the only way to
-get text into photo blog posts. 
+get text into photo blog posts.
 
 Once you have gathered all of the photos you would like to publish, select
 them all and export them to a folder. Take note of the path of this folder
 with a tool like `pwd`, as we will need to pass it to our script.
 
 In the root of this website, you want to run
+
 ```bash
 node folder-to-blogpost.js ~/PATH/TO/IMAGES/ post-slug
 ```
 
-If no post-slug is provided, the slug of the folder will be used. This generates a file in ~/website/content/photos/SLUG.json - these files are automatically detected and shown as photoblog posts.
+If no post-slug is provided, the slug of the folder will be used. 
+This generates a file in ~/website/content/photos/SLUG.json - 
+these files are automatically detected and shown as photoblog posts.
 
 This will also take every photo and process it by uploading the image to
 Cloudinary, and then writing the public uploaded Clouindary URL as well
-as the relevant EXIF data (most importantly captions) and writes it to a 
+as the relevant EXIF data (most importantly captions) and writes it to a
 JSON file. That JSON file will be moved to `content/photos/` so it can be
 displayed as a post on the photoblog, which checks for all .json files
 located in that directory.

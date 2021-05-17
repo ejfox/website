@@ -1,42 +1,44 @@
 <template>
-<div class="slug-container cf">
-  <nuxt-link to="/audio/" class="pa4">Back to list of sounds</nuxt-link>
-  <section id="post-container w-100">
-    <!-- Article header -->
-    <header class="ph3-ns w-100 mb0 mt4">
-      <div class="ph3 ph3-ns pv0">
-        <h1 class="tc f1 lh-title mv0">
-          {{ title }}
-        </h1>
-      </div>
-    </header>
-    <!-- Audio post types -->
-    <article
-      :class="['tc center pa1 pa4-ns mb0']">
-      <div v-if="audio" class="w-100">
-        <AudioPlayer2
-          :fileUrl="audio"
-          :loop="false"
-          bg="bg-gray"/>
-      </div>
+  <div class="slug-container cf">
+    <nuxt-link to="/audio/" class="pa4">Back to list of sounds</nuxt-link>
+    <section id="post-container w-100">
+      <!-- Article header -->
+      <header class="ph3-ns w-100 mb0 mt4">
+        <div class="ph3 ph3-ns pv0">
+          <h1 class="tc f1 lh-title mv0">
+            {{ title }}
+          </h1>
+        </div>
+      </header>
+      <!-- Audio post types -->
+      <article :class="['tc center pa1 pa4-ns mb0']">
+        <div v-if="audio" class="w-100">
+          <AudioPlayer2 :fileUrl="audio" :loop="false" bg="bg-gray" />
+        </div>
 
-      <!-- Timestamp -->
-      <time
-        :class="['f5 w-100 sans-serif mv3 pl0 pb0 pt3 db ttu tracked o-20 tc']">
-        <small class="">{{ date | moment("MMMM Do YYYY") }}</small>
-      </time>
+        <!-- Timestamp -->
+        <time
+          :class="[
+            'f5 w-100 sans-serif mv3 pl0 pb0 pt3 db ttu tracked o-20 tc',
+          ]"
+        >
+          <small class="">{{ date | moment('MMMM Do YYYY') }}</small>
+        </time>
 
-      <div >
-        <a class="link f5 w-100 sans-serif mv3 pl0 pb0 underline db ttu tracked o-20 tc"
-        :href="audio">Download</a>
-      </div>
-      
-      <div v-if="bodyHtml" id="body" :class="['tl pt4-ns center f3-ns']">
-        <Words v-if="body" :bodyMarkdown="body" />
-      </div>
-    </article>
-  </section>
-</div>
+        <div>
+          <a
+            class="link f5 w-100 sans-serif mv3 pl0 pb0 underline db ttu tracked o-20 tc"
+            :href="audio"
+            >Download</a
+          >
+        </div>
+
+        <div v-if="bodyHtml" id="body" :class="['tl pt4-ns center f3-ns']">
+          <Words v-if="body" :bodyMarkdown="body" />
+        </div>
+      </article>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -49,48 +51,50 @@ export default {
   scrollToTop: true,
   components: {
     AudioPlayer2,
-    Words
+    Words,
   },
   data: function () {
     return {
       emojiIcon: '🎶',
-      bodyHtml: null
+      bodyHtml: null,
     }
   },
-  computed: {
-  },
-  head () {
+  computed: {},
+  head() {
     return {
       title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
-      meta: [{
-        'name': 'EJ Fox | ' + this.title,
-        'description': this.emojiIcon,
-        'og:description': this.emojiIcon,
-        'og:title': this.title,
-        'og:type': 'article',
-        'twitter:title': this.title,
-        'twitter:creator': 'mrejfox',
-        'twitter:description': this.emojiIcon + ' ' + this.emojiIcon
-      }]
+      meta: [
+        {
+          name: 'EJ Fox | ' + this.title,
+          description: this.emojiIcon,
+          'og:description': this.emojiIcon,
+          'og:title': this.title,
+          'og:type': 'article',
+          'twitter:title': this.title,
+          'twitter:creator': 'mrejfox',
+          'twitter:description': this.emojiIcon + ' ' + this.emojiIcon,
+        },
+      ],
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/audio/' + params.slug + '.json');
-    if(!post.bgcolorclass) { post.bgcolorclass = ''}
-    if(!post.textcolorclass) { post.textcolorclass = '' }
-    if(!post.audio) { post.audio = null }
-    if(!post.inprogress) { post.inprogress = null }
-    return post;
+    let post = await import('~/content/audio/' + params.slug + '.json')
+    if (!post.audio) {
+      post.audio = null
+    }
+    if (!post.inprogress) {
+      post.inprogress = null
+    }
+    return post
   },
   created: function () {
     if (this.body) {
       this.bodyHtml = this.parseMarkdown(this.body)
     }
   },
-  activated: function () {
-  },
+  activated: function () {},
   methods: {
-    parseMarkdown: function(markdown) {
+    parseMarkdown: function (markdown) {
       // console.log('Parsing markdown...')
       // Build markdown parser
       const markdownRenderer = marked.setOptions({
@@ -102,10 +106,9 @@ export default {
         gfm: true,
         tables: true,
         breaks: false,
-        sanitize: false,
         smartLists: true,
         smartypants: true,
-        xhtml: true
+        xhtml: true,
       })
       let parsedMarkdown = markdownRenderer(markdown)
       return parsedMarkdown
@@ -115,14 +118,18 @@ export default {
       // const $ = cheerio.load(parsedMarkdown)
       // return parsed, sliced, and diced markdown
       //return $.html()
-    }
+    },
   },
-};
+}
 </script>
 
 <style scoped>
 @media (max-width: 640px) {
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     word-wrap: break-word;
     hyphens: auto;
   }
@@ -134,15 +141,12 @@ export default {
   }
 }
 
-article li
-  list-style-type circle
-
-article.photos h1 {
+article li list-style-type circle article.photos h1 {
   text-align: center;
 }
 
 article.photos img {
-  margin: 3rem 0
+  margin: 3rem 0;
 }
 
 article.photos img:first-child {
@@ -151,9 +155,9 @@ article.photos img:first-child {
 
 .article-pop {
   border-radius: 4px;
-  border-top: 1px solid rgba(250,250,250,0.1);
-  border-bottom: 1px solid rgba(25,25,25,0.1);
-  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
+  border-top: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rgba(25, 25, 25, 0.1);
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* article.photos p {
@@ -165,7 +169,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
 }
 
 pre {
@@ -187,7 +191,7 @@ code {
 
 @media (prefers-color-scheme: dark) {
   header h1 {
-    text-shadow: 0 2px 0.25em rgba(0,0,0,0.5);
+    text-shadow: 0 2px 0.25em rgba(0, 0, 0, 0.5);
   }
 }
 </style>

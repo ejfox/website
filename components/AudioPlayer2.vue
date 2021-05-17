@@ -1,40 +1,50 @@
 <template>
-<div>
-  <canvas ref="canvas" id="canvas-viz" style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: -1;">
-
-  </canvas>
-  <audio 
-    id="audio" 
-    ref="audio"
-    controls 
-    class="w-100 ba b--dark-gray bw1 br4 mv0"
-    crossOrigin="anonymous">
-    <source :src="fileUrl" type="audio/mpeg">
-    <p>
-      Your browser doesn't support HTML5 audio so this audio can't be streamed.
-      Here is a <a :href="fileUrl">link to download the audio</a> instead.
-    </p>
-  </audio>
-</div>
+  <div>
+    <canvas
+      ref="canvas"
+      id="canvas-viz"
+      style="
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      "
+    >
+    </canvas>
+    <audio
+      id="audio"
+      ref="audio"
+      controls
+      class="w-100 ba b--dark-gray bw1 br4 mv0"
+      crossOrigin="anonymous"
+    >
+      <source :src="fileUrl" type="audio/mpeg" />
+      <p>
+        Your browser doesn't support HTML5 audio so this audio can't be
+        streamed. Here is a
+        <a :href="fileUrl">link to download the audio</a> instead.
+      </p>
+    </audio>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'AudioPlayer2',
   props: {
-    fileUrl: { type: String, default: null }
+    fileUrl: { type: String, default: null },
   },
   data: function () {
-    return {
-    }
+    return {}
   },
-  mounted: function() {
+  mounted: function () {
     const canvas = document.getElementById('canvas-viz')
     canvas.width = window.innerWidth * 2
     canvas.height = window.innerHeight * 2
-    
+
     const ctx = this.$refs.canvas.getContext('2d')
-    
 
     // const audioCtx = new AudioContext()
     let audioCtx
@@ -42,7 +52,7 @@ export default {
     let dataArray
     let darkMode
     let bufferLength
-    // const audio = document.getElementById('audio')    
+    // const audio = document.getElementById('audio')
 
     // const audioCtx = new (window.AudioContext || window.webkitAudioContext)()
     // const myAudio = document.getElementById('audio')
@@ -50,7 +60,7 @@ export default {
 
     let firstPlay = true
     myAudio.addEventListener('click', (event) => {
-      if(firstPlay) {
+      if (firstPlay) {
         const AudioContext = window.AudioContext || window.webkitAudioContext
         audioCtx = new AudioContext()
         const audioSrc = audioCtx.createMediaElementSource(myAudio)
@@ -66,7 +76,10 @@ export default {
 
         darkMode = true
 
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        if (
+          window.matchMedia &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches
+        ) {
           darkMode = true
         } else {
           darkMode = false
@@ -91,41 +104,40 @@ export default {
         } else {
           ctx.fillStyle = 'rgba(255, 255, 255, 0.01)'
         }
-        
+
         ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-        ctx.lineWidth = 2;      
+        ctx.lineWidth = 2
         if (darkMode) {
           ctx.strokeStyle = 'rgb(127, 127, 127)'
         } else {
           ctx.strokeStyle = 'rgb(24, 24, 24)'
-        }      
-        
-        ctx.beginPath();
+        }
 
-        let sliceWidth = canvas.width * 1.0 / bufferLength
+        ctx.beginPath()
+
+        let sliceWidth = (canvas.width * 1.0) / bufferLength
         let x = 0
 
-        for(var i = 0; i < bufferLength; i++) {        
-          var v = dataArray[i] / 128.0;
-          var y = v * ( canvas.height * 0.5);
+        for (var i = 0; i < bufferLength; i++) {
+          var v = dataArray[i] / 128.0
+          var y = v * (canvas.height * 0.5)
 
-          if(i === 0) {
-            ctx.moveTo(x, y);
+          if (i === 0) {
+            ctx.moveTo(x, y)
           } else {
-            ctx.lineTo(x, y);
+            ctx.lineTo(x, y)
           }
 
-          x += sliceWidth;
+          x += sliceWidth
         }
-        ctx.lineTo(canvas.width, canvas.height/3);
-        ctx.stroke();
+        ctx.lineTo(canvas.width, canvas.height / 3)
+        ctx.stroke()
       }
       // draw()
     })
-
-  }
-};
+  },
+}
 </script>
 <style>
 audio {

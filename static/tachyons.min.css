@@ -76,22 +76,22 @@ button,
 select {
   text-transform: none;
 }
-[type="button"],
-[type="reset"],
-[type="submit"],
+[type='button'],
+[type='reset'],
+[type='submit'],
 button {
   -webkit-appearance: button;
 }
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
 button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
@@ -112,20 +112,20 @@ progress {
 textarea {
   overflow: auto;
 }
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-[type="search"]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
@@ -166,12 +166,12 @@ h5,
 h6,
 header,
 html,
-input[type="email"],
-input[type="number"],
-input[type="password"],
-input[type="tel"],
-input[type="text"],
-input[type="url"],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
 legend,
 li,
 main,
@@ -656,7 +656,7 @@ img {
 }
 .cf:after,
 .cf:before {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .cf:after {
@@ -2750,7 +2750,7 @@ code {
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .shadow-hover:after {
-  content: "";
+  content: '';
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.2);
   border-radius: inherit;
   opacity: 0;

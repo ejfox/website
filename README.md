@@ -86,8 +86,8 @@ In the root of this website, you want to run
 node folder-to-blogpost.js ~/PATH/TO/IMAGES/ post-slug
 ```
 
-If no post-slug is provided, the slug of the folder will be used. 
-This generates a file in ~/website/content/photos/SLUG.json - 
+If no post-slug is provided, the slug of the folder will be used.
+This generates a file in ~/website/content/photos/SLUG.json -
 these files are automatically detected and shown as photoblog posts.
 
 This will also take every photo and process it by uploading the image to

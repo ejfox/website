@@ -1,26 +1,24 @@
-var glob = require("glob");
-var path = require("path");
-var webpack = require("webpack");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-  .BundleAnalyzerPlugin;
+var glob = require('glob')
+var path = require('path')
+var webpack = require('webpack')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin
 
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
 // The Nuxt routes are generate by Nuxt automatically based on the pages folder.
 var dynamicRoutes = getDynamicPaths({
-  "/blog": "blog/posts/*.json",
-  "/audio": "audio/*.json",
-  "/photo": "photos/*.json",
-});
+  '/blog': 'blog/posts/*.json',
+  '/audio': 'audio/*.json',
+  '/photo': 'photos/*.json',
+})
 
 module.exports = {
-  target: "static",
-  modules: ["@nuxtjs/axios", 
-    "@nuxtjs/google-analytics",   
-  ],
-  plugins: ["~/plugins/vue-moment.js"],
+  target: 'static',
+  modules: ['@nuxtjs/axios', '@nuxtjs/google-analytics'],
+  plugins: ['~/plugins/vue-moment.js'],
   googleAnalytics: {
-    id: "UA-319549-1",
+    id: 'UA-319549-1',
   },
   buildModules: ['@nuxtjs/color-mode'],
   axios: {
@@ -30,36 +28,35 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: "EJ Fox",
+    title: 'EJ Fox',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: "description",
-        name: "description",
-        content: "💻 Hacker-journalist – 📧 ejfox@ejfox.com ",
+        hid: 'description',
+        name: 'description',
+        content: '💻 Hacker-journalist – 📧 ejfox@ejfox.com ',
       },
       {
-        hid: "keywords",
-        name: "keywords",
+        hid: 'keywords',
+        name: 'keywords',
         content:
-          "design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert",
+          'design, data, dataviz, maps, d3, javascript, hacking, art, dataviz tools, data journalism, infographics, freelance, freelancer, consultant, dataviz expert',
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress bar color
    */
-  loading: { color: "#6f6f6f" },
+  loading: { color: '#6f6f6f' },
   /*
    ** Route config for pre-rendering
    */
   generate: {
     routes: dynamicRoutes,
   },
-  router: {
-  },
+  router: {},
   /*
    ** Build configuration
    */
@@ -70,8 +67,8 @@ module.exports = {
     cssSourceMap: false,
     devMiddleware: {
       headers: {
-        "Cache-Control": "no-store",
-        Vary: "*",
+        'Cache-Control': 'no-store',
+        Vary: '*',
       },
     },
     html: {
@@ -90,20 +87,20 @@ module.exports = {
     plugins: [
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
       new BundleAnalyzerPlugin({
-        analyzerMode: "static",
+        analyzerMode: 'static',
         generateStatsFile: false,
         openAnalyzer: false,
-        logLevel: "info",
+        logLevel: 'info',
       }),
     ],
     //analyze: true,
     extend(config, { isDev, isClient }) {
       node: {
-        fs: "empty";
+        fs: 'empty'
       }
     },
   },
-};
+}
 
 /**
  * Create an array of URLs from a list of files
@@ -112,10 +109,10 @@ module.exports = {
 function getDynamicPaths(urlFilepathTable) {
   return [].concat(
     ...Object.keys(urlFilepathTable).map((url) => {
-      var filepathGlob = urlFilepathTable[url];
+      var filepathGlob = urlFilepathTable[url]
       return glob
-        .sync(filepathGlob, { cwd: "content" })
-        .map((filepath) => `${url}/${path.basename(filepath, ".json")}`);
-    })
-  );
+        .sync(filepathGlob, { cwd: 'content' })
+        .map((filepath) => `${url}/${path.basename(filepath, '.json')}`)
+    }),
+  )
 }

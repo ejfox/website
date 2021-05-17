@@ -39,6 +39,7 @@ Part of this exercise has been going to my roots to understand how some fundamen
 # 1password is the core of my set up. It allows me to have secure and complicated passwords for all of my accounts / logins / keys / etc. My golden rule lately is that if I can remember my password, it isn’t strong enough.
 
 There is also the magical and inexplicably cool feeling of typing the right magic words and convincing a computer to do what you want.
+
 ## Passwords & 2FA
 
 1password is the core of my set up. It allows me to have secure and complicated passwords for my accounts / logins / keys / etc. My golden rule is that if I can remember my password, it isn’t strong.
@@ -196,6 +197,7 @@ How do you decide when to be anonymous?
 - Could the work potentially be used by bad actors to commit crimes?
 
 ## These tools are for everyone
+
 # I wrote this up because I was surprised at how easy it was to get set up. These are at their core very complicated systems, but over the past few decades really smart people have made them easy and approachable. Practice going through the motions of getting things set up now, you never know when that knowledge might come in handy.
 
 I wrote this up because I was surprised at how easy it was to get set up. These are at their core very complicated systems, but over the past few decades really smart people have made them easy and approachable. Practice getting things set up now, you never know when that knowledge might come in handy.

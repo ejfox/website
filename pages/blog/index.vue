@@ -3,7 +3,7 @@
     <section class="category pv3 db cf">
       <ul class="fl-ns w-two-thirds-l db list">
         <li
-          v-for="(post,i) in posts.filter((d) => d.type === 'words')"
+          v-for="(post, i) in posts.filter((d) => d.type === 'words')"
           :key="post._path"
           class="pv2"
         >

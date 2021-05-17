@@ -70,7 +70,7 @@
     "node-sass": "^6.0.0",
     "processmd": "^4.6.0",
     "sass-loader": "^11.1.1",
-    "webpack-bundle-analyzer": "^3.9.0"
+    "webpack-bundle-analyzer": "^3.9.0",
     "prettier": "^2.3.0",
     "processmd": "^4.6.0",
     "webpack-bundle-analyzer": "^4.4.0"

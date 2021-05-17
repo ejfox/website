@@ -15,19 +15,17 @@
       </transition>
     </main>
 
-    <div class="tc mv2">
-      🌞
-    </div>
+    <div class="tc mv2">🌞</div>
   </div>
 </template>
 <script>
 // import Nav from '~/components/Nav.vue';
-const Nav = () => import("~/components/Nav.vue");
+const Nav = () => import('~/components/Nav.vue')
 export default {
   components: {
     Nav,
   },
-};
+}
 </script>
 
 <style>
@@ -35,11 +33,16 @@ export default {
   --black: #292a2b;
 }
 .serif {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.sans-serif, h1, h2, h3, h4, h5 {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
+.sans-serif,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -50,7 +53,7 @@ export default {
 }
 
 html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
 

@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="scss">
 
 $serif = Georgia, 'Times New Roman', Times, serif;
 $sans-serif = 'Oswald', Arial, Helvetica, sans-serif;

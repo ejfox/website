@@ -66,7 +66,9 @@
     "eslint-plugin-vue": "^4.7.1",
     "glob": "^7.1.6",
     "highlights-scraper": "0.0.10",
+    "node-sass": "^6.0.0",
     "processmd": "^4.6.0",
+    "sass-loader": "^11.1.1",
     "webpack-bundle-analyzer": "^3.9.0"
   }
 }

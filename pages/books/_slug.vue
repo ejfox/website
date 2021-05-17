@@ -116,7 +116,7 @@ export default {
   }
 };
 </script>
-<style lang="stylus">
+<style lang="scss">
 .book {
   grid-template-columns: 55% 1fr 1fr;
   display: grid;

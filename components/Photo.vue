@@ -86,9 +86,9 @@ export default {
 };
 </script>
 <style scoped="true">
-#navigation
+#navigation {
   font-size: 1rem !important;
-
+}
 ul {
   text-align: center;
 }

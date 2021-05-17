@@ -176,7 +176,7 @@ export default {
 };
 </script>
 
-<style scoped lang="stylus">
+<style scoped lang="scss">
 @media screen and (min-width: 640px) {
   .f-headline {
     margin-top: 0.12em;

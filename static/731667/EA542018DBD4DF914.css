@@ -1,4 +1,3 @@
-
 /*
 	Copyright (C) 2011-2019 Hoefler & Co.
 	This software is the property of Hoefler & Co. (H&Co).
@@ -16,4 +15,99 @@
 	372263-132754-20190528
 */
 
-@font-face { font-family:"Knockout 66 A"; src: url('https://ejfox.com/731667/066017EED74A02F58.eot'); src: url('https://ejfox.com/731667/066017EED74A02F58.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Knockout 66 4r"; src: url('https://ejfox.com/731667/066017EED74A02F58.eot'); src: url('https://ejfox.com/731667/066017EED74A02F58.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Knockout 68 A"; src: url('https://ejfox.com/731667/8B413952F0409D467.eot'); src: url('https://ejfox.com/731667/8B413952F0409D467.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Knockout 68 4r"; src: url('https://ejfox.com/731667/8B413952F0409D467.eot'); src: url('https://ejfox.com/731667/8B413952F0409D467.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Hoefler Text A"; src: url('https://ejfox.com/731667/53137E79502F129E4.eot'); src: url('https://ejfox.com/731667/53137E79502F129E4.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Hoefler Text 4r"; src: url('https://ejfox.com/731667/53137E79502F129E4.eot'); src: url('https://ejfox.com/731667/53137E79502F129E4.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Hoefler Text A"; src: url('https://ejfox.com/731667/860878EF34AC543D6.eot'); src: url('https://ejfox.com/731667/860878EF34AC543D6.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:400; } @font-face { font-family:"Hoefler Text 4i"; src: url('https://ejfox.com/731667/860878EF34AC543D6.eot'); src: url('https://ejfox.com/731667/860878EF34AC543D6.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:400; } @font-face { font-family:"Hoefler Text A"; src: url('https://ejfox.com/731667/8E7C46C83A5E3B052.eot'); src: url('https://ejfox.com/731667/8E7C46C83A5E3B052.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:700; } @font-face { font-family:"Hoefler Text 7r"; src: url('https://ejfox.com/731667/8E7C46C83A5E3B052.eot'); src: url('https://ejfox.com/731667/8E7C46C83A5E3B052.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:700; } @font-face { font-family:"Hoefler Text A"; src: url('https://ejfox.com/731667/72E55062E9B9C65EE.eot'); src: url('https://ejfox.com/731667/72E55062E9B9C65EE.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:700; } @font-face { font-family:"Hoefler Text 7i"; src: url('https://ejfox.com/731667/72E55062E9B9C65EE.eot'); src: url('https://ejfox.com/731667/72E55062E9B9C65EE.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:700; } 
+@font-face {
+  font-family: "Knockout 66 A";
+  src: url("https://ejfox.com/731667/066017EED74A02F58.eot");
+  src: url("https://ejfox.com/731667/066017EED74A02F58.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Knockout 66 4r";
+  src: url("https://ejfox.com/731667/066017EED74A02F58.eot");
+  src: url("https://ejfox.com/731667/066017EED74A02F58.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Knockout 68 A";
+  src: url("https://ejfox.com/731667/8B413952F0409D467.eot");
+  src: url("https://ejfox.com/731667/8B413952F0409D467.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Knockout 68 4r";
+  src: url("https://ejfox.com/731667/8B413952F0409D467.eot");
+  src: url("https://ejfox.com/731667/8B413952F0409D467.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hoefler Text A";
+  src: url("https://ejfox.com/731667/53137E79502F129E4.eot");
+  src: url("https://ejfox.com/731667/53137E79502F129E4.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hoefler Text 4r";
+  src: url("https://ejfox.com/731667/53137E79502F129E4.eot");
+  src: url("https://ejfox.com/731667/53137E79502F129E4.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hoefler Text A";
+  src: url("https://ejfox.com/731667/860878EF34AC543D6.eot");
+  src: url("https://ejfox.com/731667/860878EF34AC543D6.eot?#hco")
+    format("embedded-opentype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hoefler Text 4i";
+  src: url("https://ejfox.com/731667/860878EF34AC543D6.eot");
+  src: url("https://ejfox.com/731667/860878EF34AC543D6.eot?#hco")
+    format("embedded-opentype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hoefler Text A";
+  src: url("https://ejfox.com/731667/8E7C46C83A5E3B052.eot");
+  src: url("https://ejfox.com/731667/8E7C46C83A5E3B052.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Hoefler Text 7r";
+  src: url("https://ejfox.com/731667/8E7C46C83A5E3B052.eot");
+  src: url("https://ejfox.com/731667/8E7C46C83A5E3B052.eot?#hco")
+    format("embedded-opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Hoefler Text A";
+  src: url("https://ejfox.com/731667/72E55062E9B9C65EE.eot");
+  src: url("https://ejfox.com/731667/72E55062E9B9C65EE.eot?#hco")
+    format("embedded-opentype");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Hoefler Text 7i";
+  src: url("https://ejfox.com/731667/72E55062E9B9C65EE.eot");
+  src: url("https://ejfox.com/731667/72E55062E9B9C65EE.eot?#hco")
+    format("embedded-opentype");
+  font-style: italic;
+  font-weight: 700;
+}

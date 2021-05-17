@@ -1,26 +1,37 @@
 <template>
   <div>
-  <figure class="pa1 pa2-ns pa4-l mv1 mv3-ns">
-    <img :src="modifyUrlWithSize(url, 320)"
-      :srcset="srcset"
-      :sizes="sizes"
-      :class="photoClass"
-      loading="lazy"/>
-    <div v-if="tags" class="photo-tags ma0 mh0 courier ttu tr o-20">
-      <span class="mr1 mr2-ns b">{{tags.Model.description}}</span>
-      <span v-if="exposureNumberFormat" class="mr1 mr2-ns">1/{{exposureNumberFormat(+tags.ExposureTime.description)}}</span>
-      <span class="mr1 mr2-ns">f{{tags.FNumber.description}}</span>
-      <span class="mr1 mr2-ns">ISO {{tags.ISOSpeedRatings.description}}</span>
-      <span class="mr1 mr2-ns">{{tags.FocalLengthIn35mmFilm.description}}mm lens</span>
-      <span class="">
-        {{ tags.date| moment("MMM Do YYYY") }}
-        {{ tags.date| moment("ha") }}
-      </span>
-    </div>
-    <figcaption v-if="caption" class="f7 lh-copy b tr measure mt2 mb4 ml-auto near-black">
-      {{caption}}
-    </figcaption>
-  </figure>
+    <figure class="pa1 pa2-ns pa4-l mv1 mv3-ns">
+      <img
+        :src="modifyUrlWithSize(url, 320)"
+        :srcset="srcset"
+        :sizes="sizes"
+        :class="photoClass"
+        loading="lazy"
+      />
+      <div v-if="tags" class="photo-tags ma0 mh0 courier ttu tr o-20">
+        <span class="mr1 mr2-ns b">{{ tags.Model.description }}</span>
+        <span v-if="exposureNumberFormat" class="mr1 mr2-ns"
+          >1/{{ exposureNumberFormat(+tags.ExposureTime.description) }}</span
+        >
+        <span class="mr1 mr2-ns">f{{ tags.FNumber.description }}</span>
+        <span class="mr1 mr2-ns"
+          >ISO {{ tags.ISOSpeedRatings.description }}</span
+        >
+        <span class="mr1 mr2-ns"
+          >{{ tags.FocalLengthIn35mmFilm.description }}mm lens</span
+        >
+        <span class="">
+          {{ tags.date | moment('MMM Do YYYY') }}
+          {{ tags.date | moment('ha') }}
+        </span>
+      </div>
+      <figcaption
+        v-if="caption"
+        class="f7 lh-copy b tr measure mt2 mb4 ml-auto near-black"
+      >
+        {{ caption }}
+      </figcaption>
+    </figure>
   </div>
 </template>
 
@@ -32,7 +43,7 @@ export default {
     url: String,
     caption: String,
     photoClass: String,
-    tags: Object
+    tags: Object,
   },
   data: function () {
     return {
@@ -60,30 +71,29 @@ export default {
         (max-width: 640px) 640px,
         (max-width: 1280px) 1280px,
         1600px`
-    }
+    },
   },
   methods: {
-    exposureNumberFormat(exp){
-      const speed = 1/exp
+    exposureNumberFormat(exp) {
+      const speed = 1 / exp
       return speed
     },
-    modifyUrlWithSize: function(url, width, srcset = false) {
+    modifyUrlWithSize: function (url, width, srcset = false) {
       let mURL = new URL(url)
       let mURLPaths = mURL.pathname.split('/')
       mURL.protocol = 'https'
-      let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_'+width
-      mURLPaths.splice(mURLPaths.length-2, 0, urlAppendString)
+      let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_' + width
+      mURLPaths.splice(mURLPaths.length - 2, 0, urlAppendString)
       mURL.pathname = mURLPaths.join('/')
       if (srcset) {
         return mURL.toString() + ` ${width}w`
       } else {
         return mURL.toString()
       }
-    }
+    },
   },
-  mounted: function() {
-  }
-};
+  mounted: function () {},
+}
 </script>
 <style scoped="true">
 #navigation {
@@ -102,11 +112,11 @@ figure {
 }
 
 .photo-tags {
-  font-size: 0.33em;  
+  font-size: 0.33em;
   color: #ffffff;
   margin: 0;
   line-height: 1em;
-  /* text-shadow: 0 1px 1px 2px black; */  
+  /* text-shadow: 0 1px 1px 2px black; */
   transition: color 0.5s ease-in-out;
   cursor: default;
 }
@@ -118,12 +128,12 @@ figure {
   .photo-tags {
     font-size: 0.4em;
     padding-left: 0.4em;
-    position: absolute;  
+    position: absolute;
     transform: rotateZ(90deg);
     transform-origin: top left;
     top: 2.3em;
     /* left: 2.72em; */
-    left:3.3em;
+    left: 3.3em;
   }
 }
 
@@ -131,11 +141,11 @@ figure {
   .photo-tags {
     font-size: 0.6em;
     padding-left: 0.4em;
-    position: absolute;  
+    position: absolute;
     transform: rotateZ(90deg);
     transform-origin: top left;
     top: 3.2em;
-    left: 2.em;
+    left: 2em;
   }
 }
 </style>

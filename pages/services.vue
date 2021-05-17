@@ -174,7 +174,7 @@
 </template>
 
 <script>
-import CloudinaryPhoto from "~/components/CloudinaryPhoto.vue";
+import CloudinaryPhoto from '~/components/CloudinaryPhoto.vue'
 export default {
   components: {
     CloudinaryPhoto,
@@ -182,34 +182,34 @@ export default {
   methods: {},
   data() {
     return {
-      title: "Services",
-      shortDescription: "Hire me to make things for you: ejfox@ejfox.com",
-    };
+      title: 'Services',
+      shortDescription: 'Hire me to make things for you: ejfox@ejfox.com',
+    }
   },
   head() {
     return {
-      title: "Services | EJ Fox",
+      title: 'Services | EJ Fox',
       meta: [
-        { property: "name", content: this.title },
-        { property: "description", content: this.shortDescription },
-        { property: "og:description", content: this.shortDescription },
-        { property: "og:title", content: this.title },
+        { property: 'name', content: this.title },
+        { property: 'description', content: this.shortDescription },
+        { property: 'og:description', content: this.shortDescription },
+        { property: 'og:title', content: this.title },
         {
-          property: "og:image",
+          property: 'og:image',
           content:
-            "https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png",
+            'https://res.cloudinary.com/ejf/image/upload/w_1200,h_900,c_thumb,g_auto/v1612889033/service-images_datavizdesign-01.png',
         },
-        { property: "og:type", content: "article" },
-        { property: "twitter:title", content: this.title },
-        { property: "twitter:creator", content: "mrejfox" },
+        { property: 'og:type', content: 'article' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:creator', content: 'mrejfox' },
         {
-          property: "twitter:description",
-          content: this.emojiIcon + " " + this.shortDescription,
+          property: 'twitter:description',
+          content: this.emojiIcon + ' ' + this.shortDescription,
         },
       ],
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>

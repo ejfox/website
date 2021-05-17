@@ -9,16 +9,13 @@
       </p>
 
       <p class="tl">
-        <nuxt-link to="/projects">
-          Take a look at some of my work
-        </nuxt-link>
+        <nuxt-link to="/projects"> Take a look at some of my work </nuxt-link>
         or <a href="/resume.pdf">my resume</a>.
       </p>
       <p class="lh-copy pv2 tj">
         Sometimes I take
         <nuxt-link to="/photo/">photos</nuxt-link>, make
-        <nuxt-link to="/audio/">sounds</nuxt-link>, or read
-        <nuxt-link to="/books/">books</nuxt-link>.
+        <nuxt-link to="/audio/">sounds</nuxt-link>.
       </p>
     </section>
     <Footer />
@@ -44,8 +41,8 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
-import Footer from "~/components/Footer.vue";
+import Nav from '~/components/Nav.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -55,20 +52,20 @@ export default {
   methods: {},
   data() {
     // Using webpacks context to gather all files from a folder
-    const context = require.context("~/content/blog/posts/", false, /\.json$/);
+    const context = require.context('~/content/blog/posts/', false, /\.json$/)
 
     let posts = context.keys().map((key) => ({
       ...context(key),
-      _path: `/blog/${key.replace(".json", "").replace("./", "")}`,
-    }));
+      _path: `/blog/${key.replace('.json', '').replace('./', '')}`,
+    }))
 
-    posts = posts.sort(function(a, b) {
-      return new Date(b.date) - new Date(a.date);
-    });
-    posts = posts.filter((post) => !post.hidden);
-    return { posts };
+    posts = posts.sort(function (a, b) {
+      return new Date(b.date) - new Date(a.date)
+    })
+    posts = posts.filter((post) => !post.hidden)
+    return { posts }
   },
-};
+}
 </script>
 
 <style scoped>

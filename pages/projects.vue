@@ -18,7 +18,7 @@
       </a>
 
       <a href="https://www.youtube.com/watch?v=p4KIMQsVkt8&feature=youtu.be">
-       <CloudinaryPhoto
+        <CloudinaryPhoto
           cssClass="pr2"
           src="https://res.cloudinary.com/ejf/image/upload/v1612889025/projects-02.png"
           containerClass="dib w-50 mv0"
@@ -26,13 +26,12 @@
       </a>
 
       <a href="https://observablehq.com/collection/@ejfox/generative-art">
-       <CloudinaryPhoto
+        <CloudinaryPhoto
           src="https://res.cloudinary.com/ejf/image/upload/v1612889022/projects-04.png"
           cssClass="pr2"
           containerClass="dib w-50 mv0"
         />
       </a>
-
     </section>
     <section class="project mv2 ph3" v-for="project in projects">
       <a
@@ -43,11 +42,11 @@
         class="b lh-title link black underline br1"
         :href="project.URL"
       >
-        {{ project["Project Name"] }}
+        {{ project['Project Name'] }}
       </a>
-      <span class="b br1 black" v-else>{{ project["Project Name"] }}</span>
+      <span class="b br1 black" v-else>{{ project['Project Name'] }}</span>
       <small class="ph2 dark-gray tr">
-        {{ project["Client"] }}
+        {{ project['Client'] }}
         <span class="gray">
           <!-- '{{project.Year.slice(-2)}} -->
           {{ project.Year }}
@@ -58,25 +57,25 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
-import CloudinaryPhoto from "~/components/CloudinaryPhoto.vue";
+import Nav from '~/components/Nav.vue'
+import CloudinaryPhoto from '~/components/CloudinaryPhoto.vue'
 export default {
   components: {
     Nav,
     CloudinaryPhoto,
   },
   data() {
-    return {};
+    return {}
   },
-  created: function() {},
-  activated: function() {},
+  created: function () {},
+  activated: function () {},
   computed: {},
   methods: {},
   async asyncData({ params }) {
-    let projects = await import("~/static/data/projects.json");
-    return { projects: projects };
+    let projects = await import('~/static/data/projects.json')
+    return { projects: projects }
   },
-};
+}
 </script>
 
 <style>

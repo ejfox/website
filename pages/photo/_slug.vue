@@ -1,18 +1,16 @@
 <template>
-<div class="slug-container cf">
-  <h1 class="pl1 tl tc-ns ttu title f1 mv4 mv5-ns near-black">{{title}}</h1>
-  <div
-	    v-for="photo in files"
-			v-bind:key="photo.cloudinaryUrl">
-
-  <Photo 
-    photo-class="bw2-ns bw3-l b--near-black ba-ns mv0"
-    :url="photo.cloudinaryUrl"
-    :caption="photo.caption"
-    :date="photo.date"
-    :tags="photo.tags"/>
+  <div class="slug-container cf">
+    <h1 class="pl1 tl tc-ns ttu title f1 mv4 mv5-ns near-black">{{ title }}</h1>
+    <div v-for="photo in files" v-bind:key="photo.cloudinaryUrl">
+      <Photo
+        photo-class="bw2-ns bw3-l b--near-black ba-ns mv0"
+        :url="photo.cloudinaryUrl"
+        :caption="photo.caption"
+        :date="photo.date"
+        :tags="photo.tags"
+      />
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -28,48 +26,53 @@ import Photo from '~/components/Photo.vue'
 export default {
   scrollToTop: true,
   components: {
-    Photo
+    Photo,
   },
   data: function () {
     return {
       emojiIcon: '📷',
-      post: {}
+      post: {},
     }
   },
-  computed: {
-  },
-  head () {
+  computed: {},
+  head() {
     return {
       title: this.emojiIcon + ' ' + this.title + ' | EJ Fox',
-      meta: [{
-        'name': 'EJ Fox | ' + this.title,
-        'description': this.emojiIcon,
-        'og:description': this.emojiIcon + this.files.length + ' photos',
-        'og:title': this.title,
-        'og:type': 'article',
-        'twitter:title': this.title,
-        'twitter:creator': 'mrejfox',
-        'twitter:description': this.emojiIcon + ' ' + this.emojiIcon
-      }]
+      meta: [
+        {
+          name: 'EJ Fox | ' + this.title,
+          description: this.emojiIcon,
+          'og:description': this.emojiIcon + this.files.length + ' photos',
+          'og:title': this.title,
+          'og:type': 'article',
+          'twitter:title': this.title,
+          'twitter:creator': 'mrejfox',
+          'twitter:description': this.emojiIcon + ' ' + this.emojiIcon,
+        },
+      ],
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/photos/' + params.slug + '.json');
-    return post;
+    let post = await import('~/content/photos/' + params.slug + '.json').then(
+      (p) => {
+        return p
+      },
+    )
+    return post
   },
-  created: function () {
-  },
-  activated: function () {
-  },
-  methods: {
-    
-  },
-};
+  created: function () {},
+  activated: function () {},
+  methods: {},
+}
 </script>
 
 <style scoped>
 @media (max-width: 640px) {
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     word-wrap: break-word;
     hyphens: auto;
   }
@@ -81,15 +84,12 @@ export default {
   }
 }
 
-article li
-  list-style-type circle
-
-article.photos h1 {
+article li list-style-type circle article.photos h1 {
   text-align: center;
 }
 
 article.photos img {
-  margin: 3rem 0
+  margin: 3rem 0;
 }
 
 article.photos img:first-child {
@@ -98,9 +98,9 @@ article.photos img:first-child {
 
 .article-pop {
   border-radius: 4px;
-  border-top: 1px solid rgba(250,250,250,0.1);
-  border-bottom: 1px solid rgba(25,25,25,0.1);
-  box-shadow: 2px 2px 12px 0px rgba( 0, 0, 0, 0.15 );
+  border-top: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rgba(25, 25, 25, 0.1);
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* article.photos p {
@@ -112,7 +112,7 @@ img {
 }
 
 blockquote cite {
-  font-family: "Knockout 66 A", "Knockout 66 B" !important;
+  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
 }
 
 pre {

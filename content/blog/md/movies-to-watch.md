@@ -9,9 +9,9 @@ hidetimestamp: true
 
 # Movies to Watch
 
-For a variety of reasons there are many movies that I have not seen. Often in conversation, these movies will come up and people will say “you haven’t seen that?” and I feel pangs of guilt. 
+For a variety of reasons there are many movies that I have not seen. Often in conversation, these movies will come up and people will say “you haven’t seen that?” and I feel pangs of guilt.
 
-This is a list of all of those movies, cultural touchstones, that I should probably get around to watching at some point. 
+This is a list of all of those movies, cultural touchstones, that I should probably get around to watching at some point.
 
 Wish me luck.
 
@@ -24,7 +24,7 @@ Wish me luck.
 - The Third Man
 - Groundhog day
 - The Shining
-- The great Gatsby 
+- The great Gatsby
 - Schindler’s List
 - Pulp Fiction
 - The Good, the Bad and the Ugly
@@ -32,17 +32,17 @@ Wish me luck.
 - One Flew Over the Cuckoos Nest
 - Seven Samurai
 - The Silence of the Lambs
-- Wild Strawberries 
-- Vertigo 
+- Wild Strawberries
+- Vertigo
 - The seventh seal
 - Rashomon (1950)
 - Eraser head (1977)
 - The Graduate (1967)
 - Network (1976)
-- There will be blood 
-- Requiem for a dream 
+- There will be blood
+- Requiem for a dream
 - Bicycle thieves (1948)
-- Aguirre, the Wrath of God 
+- Aguirre, the Wrath of God
 - Apocalypse Now
 - Singing in the rain
 - Troll 2 (1990)
@@ -73,7 +73,7 @@ Wish me luck.
 - Life Itself (2014)
 - Deliver Us from Evil (2006)
 - Seymour: An Introduction
-- Rebel Without A Cause 
+- Rebel Without A Cause
 - A Fistful Of Dollars (1964)
 - Sunrise (1927)
 - Bringing up baby (1938)

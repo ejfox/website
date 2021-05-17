@@ -3,8 +3,8 @@
     <section class="category pv3 db cf">
       <ul class="fl-ns w-two-thirds-l db list">
         <li
-          v-for="post in posts.filter((d) => d.type === 'words')"
-          :key="post.date"
+          v-for="(post,i) in posts.filter((d) => d.type === 'words')"
+          :key="post._path"
           class="pv2"
         >
           <nuxt-link
@@ -15,10 +15,9 @@
           </nuxt-link>
 
           <span :class="['post-date tracked f6 db light-silver no-underline']"
-            >{{ post.date | moment("from", "now") }} /
-            <span class="ttu">{{ post.date | moment("Y.MM") }}</span>
-</span
-          >
+            >{{ post.date | moment('from', 'now') }} /
+            <span class="ttu">{{ post.date | moment('Y.MM') }}</span>
+          </span>
         </li>
       </ul>
     </section>
@@ -26,8 +25,8 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
-import Footer from "~/components/Footer.vue";
+import Nav from '~/components/Nav.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -35,49 +34,49 @@ export default {
     Footer,
   },
   methods: {
-    postTypeIcon: function(postType) {
+    postTypeIcon: function (postType) {
       // ["words", "code", "video", "audio", "photos"]
-      if (postType === "words") {
-        return "fa-align-right";
+      if (postType === 'words') {
+        return 'fa-align-right'
       }
-      if (postType === "code") {
-        return "fa-terminal";
+      if (postType === 'code') {
+        return 'fa-terminal'
       }
-      if (postType === "video") {
-        return "fa-video";
+      if (postType === 'video') {
+        return 'fa-video'
       }
-      if (postType === "audio") {
-        return "fa-volume-up";
+      if (postType === 'audio') {
+        return 'fa-volume-up'
       }
-      if (postType === "photos") {
-        return "fa-camera";
+      if (postType === 'photos') {
+        return 'fa-camera'
       }
     },
   },
   data() {
     // Using webpacks context to gather all files from a folder
-    const context = require.context("~/content/blog/posts/", false, /\.json$/);
+    const context = require.context('~/content/blog/posts/', false, /\.json$/)
 
     let posts = context.keys().map((key) => ({
       ...context(key),
-      _path: `/blog/${key.replace(".json", "").replace("./", "")}`,
-    }));
+      _path: `/blog/${key.replace('.json', '').replace('./', '')}`,
+    }))
 
-    posts = posts.sort(function(a, b) {
-      return new Date(b.date) - new Date(a.date);
-    });
-    posts = posts.filter((post) => !post.hidden);
+    posts = posts.sort(function (a, b) {
+      return new Date(b.date) - new Date(a.date)
+    })
+    posts = posts.filter((post) => !post.hidden)
 
-    const context2 = require.context("~/content/photos/", false, /\.json$/);
+    const context2 = require.context('~/content/photos/', false, /\.json$/)
 
     let photos = context2.keys().map((key) => ({
       ...context2(key),
-      _path: `/photos/${key.replace(".json", "").replace("./", "")}`,
-    }));
+      _path: `/photos/${key.replace('.json', '').replace('./', '')}`,
+    }))
 
-    return { posts, photos };
+    return { posts, photos }
   },
-};
+}
 </script>
 
 <style scoped>

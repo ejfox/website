@@ -8,9 +8,8 @@ hidetimestamp: false
 ---
 
 # The Magazine Experience on the Web
-
-**For the past couple of years, I’ve been obsessed with the metaphor of the online magazine.**
-
+**For the past couple of years, I’ve been obsessed with the metaphor of the online magazine.**  
+  
 I think the web has more to offer a storyteller’s end product than previous venues. Seamless combinations of mediums will continue to evolve, inspired by the traditional magazine’s “special feature”. _This evolution will raise the bar for anyone, journalist or otherwise, who wants to tell stories on the web._
 
 I know I’m not the only one. People already [understand that the attention span of readers is dwindling](http://www.niemanstoryboard.org/2010/07/09/short-attention-span-theater-peggy-nelson-on-narrative-and-models-of-interaction/), [and](http://www.marco.org/2012/10/11/the-magazine) [bite-size articles](http://www.digiday.com/publishers/making-news-mobile-friendly/) [are important](http://ejfox.tumblr.com/post/34820860800/circa-is-one-of-the-first-real-recent-steps-forward-in). But simply adding photos to accompany your articles online doesn’t have the brilliant exclamatory effect it does in magazines. Users want more.
@@ -23,14 +22,17 @@ But I fear that golden age [has](http://flowingdata.com/2012/04/10/how-businesse
 
 Recently, The New York Times- ever the pioneer of online storytelling- released [Snow Fall: The Avalanche at Tunnel Creek](http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek) which was received with [high praise](http://www.poynter.org/latest-news/top-stories/198970/how-the-new-york-times-snow-fall-project-unifies-text-multimedia/) in journalist-nerd circles and beyond. There are a couple of unique points about the snow fall piece:
 
-- _It's graphics and videos stretch to fill the entire browser window_, an emerging design trend that is the true successor of the magazine’s full-bleed photos. The Times shows that when you elevate beautiful art that’s telling the story in a seamless way, it becomes greater than the sum of it’s parts. Compare to a [similar NYT story](http://www.nytimes.com/2012/10/14/magazine/californias-central-valley-land-of-a-billion-vegetables.html) where pictures are included with the story, but certainly not featured with any love.
-- It’s not confined to the style of the rest of the NYT site, which is for the most part a static 975px width. Some of the impact of full-bleed pieces like Snow Fall comes from the contrast between those special features and the whitespace of the primary site. It’s a clue to the user to dig in, and that something special is going to happen.
+*   _It's graphics and videos stretch to fill the entire browser window_, an emerging design trend that is the true successor of the magazine’s full-bleed photos. The Times shows that when you elevate beautiful art that’s telling the story in a seamless way, it becomes greater than the sum of it’s parts. Compare to a [similar NYT story](http://www.nytimes.com/2012/10/14/magazine/californias-central-valley-land-of-a-billion-vegetables.html) where pictures are included with the story, but certainly not featured with any love.
+    
+*   It’s not confined to the style of the rest of the NYT site, which is for the most part a static 975px width. Some of the impact of full-bleed pieces like Snow Fall comes from the contrast between those special features and the whitespace of the primary site. It’s a clue to the user to dig in, and that something special is going to happen.
+    
 
 Some critics said that [this kind of storytelling indulgence isn’t a sustainable future of journalism](http://www.theatlantic.com/business/archive/2012/12/snow-fall-isnt-the-future-of-journalism/266555/) because of the **16-person team** required to create the piece. I think that this view forgets a time when computers filled entire rooms with as much processing power as your iPod. _I think one day (soon!) journalists will be able to do this with as little as one person_, but probably in teams of 2 or 3.
 
 That sort of criticism gets me going too, because I know that [there](http://d3js.org/) [are](http://raphaeljs.com/) [technologies](http://developer.nytimes.com/docs) [out](http://vis.stanford.edu/wrangler/) [there](http://www.quora.com/GitHub/What-are-some-interesting-repositories-on-Github-that-can-be-used-for-journalistic-purposes) [that](https://github.com/datawrapper/datawrapper) [are](http://nvd3.org/) [just](http://timeline.verite.co/) [within](http://leafletjs.com/) [reach](https://github.com/jsoma/tabletop) of every modern journalist willing to [try](http://www.symboliamag.com/post/40203443720/editors-note-people-frequently-ask-us-how) [new ways](http://www.wired.com/wiredenterprise/2012/02/github-revisited/) of [telling their stories](http://source.mozillaopennews.org/en-US/articles/mother-jones-voter-suppression-map/). [I want to help make those tools.](http://ejfox.github.com/sStory/) I want, like others, to bring that wonderful magazine experience to the web like we haven’t seen before. But there are a handful of problems to solve and gaps to bridge before we can reach our potential.
 
-## Full Bleed Photos
+Full Bleed Photos
+-----------------
 
 One of the greatest experiences of reading a magazine is the beauty of the first page of an article, especially one beautiful photo spread across two pages.
 

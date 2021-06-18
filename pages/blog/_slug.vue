@@ -235,4 +235,11 @@ code {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
+ol, ul {
+  line-height: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 </style>

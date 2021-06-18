@@ -64,7 +64,7 @@ export default {
         $(el).addClass('lh-copy measure pa3 pt0')
       })
       $('ul').each(function (i, el) {
-        $(el).addClass('measure ph3')
+        $(el).addClass('measure ph3 mv4')
       })
       $('img').each(function (i, el) {
         $(el).addClass('center mt4 pa0 w-100')
@@ -77,7 +77,7 @@ export default {
       })
 
       $('pre').each(function (i, el) {
-        $(el).addClass('pa1 bg-dark-gray white br1 pv2-ns ph4-ns')
+        $(el).addClass('pa1 bg-dark-gray white br1 mv2 pv2-ns ph3-ns')
       })
       $('code').each(function (i, el) {
         $(el).addClass('bg-dark-gray ph1 white br1 f6')
@@ -90,13 +90,13 @@ export default {
       })
 
       $('h2').each(function (i, el) {
-        $(el).addClass('pl3 pb2 mv2 dark-gray')
+        $(el).addClass('pl3 pb2 mb4 mt5 dark-gray')
       })
       $('h3').each(function (i, el) {
-        $(el).addClass('pl3 pb2 mv2 ttu gray')
+        $(el).addClass('pl3 pb2 mb2 mt4 ttu gray')
       })
       $('h4').each(function (i, el) {
-        $(el).addClass('pl3 pb2 mv2 gray')
+        $(el).addClass('pl3 pb2 mb2 mt4 gray')
       })
 
       $('cite').each(function (i, el) {
@@ -282,6 +282,19 @@ a.markdownIt-Anchor {
   position: absolute;
   left: 1vw;
   font-size: 15px;
+}
+
+li li, li ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 /* 
 img {

@@ -6,7 +6,7 @@ inprogress: false
 dek: In which various tools and methods are explored for analyzing data that describes a network of complaints against NYPD officers (or any other PD with similar public data)
 ---
 
-# Finding Clusters of NYPD Officers Based on Analysis of Newly-Released CCRB Complaint Data
+# Finding Clusters of NYPD Officers In CCRB Complaint Data
 
 ## Why?
 
@@ -14,43 +14,59 @@ Complaints filed against police officers by the public are often the first- and 
 
 In cases the deaths of George Floyd and Eric Garner the officers who killed them had a documented history of complaints filed against them by the public. Unfortunately nothing was done to disrupt their pattern of abuse, and both ended in the deaths of members of the public the officers had sworn to protect. 
 
+[[toc]]
+
+### George Floyd
+
 > Chauvin, who was fired, has said through his attorney that his handling of Floyd’s arrest was a reasonable use of authorized force. But he was the subject of at least **22 complaints** or internal investigations during his more than 19 years at the department, **only one of which resulted in discipline**. These new interviews show not only that he may have used excessive force in the past, but that he had used startlingly similar techniques.
 <https://www.mprnews.org/story/2021/02/05/that-could-have-been-me-the-people-derek-chauvin-choked-before-george-floyd>
 
 The officer convicted of murdering George Floyd had at least 22 complaints against him. The officer who put Eric Garner in a chokehold and killed him had [7 complaints](https://www.scribd.com/document/342591738/D-Pantaleo-Alleged-CCRB-File) [filed against him](https://gothamist.com/news/newly-leaked-documents-suggests-cop-who-killed-eric-garner-had-history-of-misconduct). 
+
+### Eric Garner
 
 > Before he put Garner in the chokehold, the records show, he had **seven disciplinary complaints and 14 individual allegations** lodged against him. Four of those allegations were substantiated by an independent review board.
 <https://archive.thinkprogress.org/daniel-pantaleo-records-75833e6168f3/>
 
 Of the 14 individual allegations, 5 are for force: "hit against inanimate object", "physical force", and a single complaint in 2014 that would foreshadow the behavior that would eventually end the Officer's career: "Force - Chokehold". 
 
-[[toc]]
-
 I am documenting my analysis in detail for a few reasons:
 - So that other people who may want to perform similar analysis for other Police Departments can understand and recreate my analysis
 - So that every step is documented, and any mistake [can be easily caught and fixed](https://en.wikipedia.org/wiki/Linus%27s_law) by the infinite supply of people on the internet who are smarter than me
-- To inspire people to use computers to investigate the things in the world that are important to them, and share the tools I use to do that for myself 
+- To maybe inspire people to use computers to investigate the things in the world that are important to them, and share the tools I use to do that
 
 ### Network visualization prior work / inspiration
+
+You may have seen network analysis like this before. 
+
+[Jacob Silver used it to look at the spread of anti-vax material](https://disinformationindex.org/2021/03/anti-vaccine-networks-thrive-on-instagram-despite-recent-policy-shifts/). 
+
+[Adi Cohen](https://twitter.com/adico11) has pioneered a method of [combining Gephi with CrowdTangle](https://help.crowdtangle.com/en/articles/4495952-network-mapping-with-gephi-and-crowdtangle) to analyze the network of groups and pages sharing links. 
+
+
 
 ### Provenance
 The [NYCLU](https://www.nyclu.org/en/campaigns/nypd-misconduct-database) received this data from the CCRB as a result of a FOIL (Freedom of Information Law) request and released it on [their GitHub page](https://github.com/new-york-civil-liberties-union/NYPD-Misconduct-Complaint-Database-Updated). 
 
 ## The Dataset
 
-### Differences from ProPublica data
+### Differences from data previously released by ProPublica
 ProPublica released and covered [similar data](https://www.propublica.org/article/nypd-civilian-complaint-review-board-editors-note) in July of 2020. 
 
 They chose to only publish data for "active-duty officers who’ve had at least one allegation against them substantiated by the CCRB". 
 
-This dataset contains every complaint as well as officers who were listed as witnesses on complaints, including complaints found as "unsubstantiated" or "unfounded" by the CCRB.
+The dataset we are working with today contains every complaint and officer, even those with no substantiated allegations. 
 
-This makes it a "noisier" dataset, in terms of looking for officers who have been found guilty of the most misconduct. However in our case we are looking to visualize the network influence of officers. Being named with another officer on a complaint, even if that complaint is unfounded, is a signal that those officers interacted in a way that impacted the public. Being the subject of an unfounded complaint together might even cause officers to form a tighter relationship. 
+It also contains officers who were listed as witnesses on complaints, including complaints found as "unsubstantiated" or "unfounded" by the CCRB.
+
+This makes it a "noisier" dataset. In our case this can be an advantage since we are looking to visualize the network of officers. 
+
+Being named with another officer on a complaint, even if that complaint is unfounded, is a signal that those officers interacted in a way that was noticed by the public. Being the subject of an unfounded complaint together might even cause officers to form a tighter relationship. Because of that, I will incorporate witness data into our analysis. 
 
 ### NYPD internal structure as it relates to our data
-The NYPD is divided into many coverage areas within the 5 boroughs. These areas are known as precincts and they are numbered.
+The NYPD is divided into coverage areas within the 5 boroughs known as precincts. When I lived in Brooklyn, I lived in the 81st Precinct which covers Bed-Stuy. 
 
-The NYPD also has a number of units, like the Warrant Squad or Narcotics that span different precincts. An officer might report to a numbered precinct, but their command is Bronx Narcotics, and they are interacting with other officers in their unit more than the precinct they work out of. Our data reflects this. 
+The NYPD also has a number of units, like the Warrant Squad or Narcotics that span different precincts. An officer might report to a numbered precinct, but their command is Brooklyn Narcotics, and they are interacting with other officers in their unit more than the precinct they work out of. Our data reflects this. 
 
 ## Analysis
 ### Overview exploration / metadata
@@ -61,11 +77,9 @@ The first tab has the title of **OfficerAllegationHistory** and has 181,627 entr
 The second tab has the title of **OfficersInvolvedInComplaints** and has 239,608 entries and 18[^3] columns.
 
 ## Analyzing our data with Datasette / SQLite
-Once we convert our CSV files into SQLite `.db` files we can use [Datasette](https://github.com/simonw/datasette) to get a sense of the data and slice off pieces for further analysis. 
+Once we [convert our CSV files](https://pypi.org/project/csvs-to-sqlite/) into SQLite `.db` files we can use [Datasette](https://github.com/simonw/datasette) to get a sense of the data and slice off pieces for further analysis. 
 
-This is a huge dataset, and we want to focus on officers that are currently active, so one way we are going to make it more manageable is by filtering our analysis to complaints that happened since January 1st, 2010. 
-
-For example, we might want to look at the top commands that received complaints since 2010. 
+The first thing we might want to look at is the top commands that received complaints since 2010. 
 ```sqlite
 select [Officer Command At Incident], count([Officer Command At Incident]) from OfficerAllegationHistory 
 where [Incident Date] BETWEEN '2010-01-01' AND '2010-12-31'
@@ -103,6 +117,8 @@ group by [Officer Command At Incident] order by count([Officer Command At Incide
 
 After using Datasette to get a sense for the shape of our dataset, we can use it to filter out a slice of the data to use to feed into our next tool and begin doing our network analysis.
 
+### Filtering out "Exonerated" and "Unfounded" complaints
+
 To get our network closer to a representation of officers who are receiving complaints for misconduct we want to filter out any of the cases in which the officer was **Exonerated** or the CCRB's disposition was that it was **Unfounded**. 
 
 So to get every complaint filed since 2010 that wasn't marked as **exonerated** or **unfounded** we'll write a query like
@@ -139,19 +155,22 @@ OR [CCRB Allegation Disposition] IS 'Substantiated (Command Discipline B)'
 ## Analyzing our data with Neo4J
 I first encountered Neo4J when I was working with Ben Popken on an [NBC News analysis of tweets tied to Senate Intelligence-identified Russian Twitter Bots](https://neo4j.com/blog/story-behind-russian-twitter-trolls/) where Neo4J provided analysts who were crucial to understanding the shape of our data. 
 
+It is an incredibly useful tool for generating and analyzing networks, and I was excited to have another dataset that would let me use its considerable power. 
 
 ### Importing our CSV with Cypher
-To import our csv into a network of node and relationships in Neo4J, we will use the [Cypher](https://neo4j.com/developer/cypher/) query language, which makes this process really easy and the code is relatively readable and easy to follow. 
+To import our `.csv` into a network of node and relationships in Neo4J, we will use the [Cypher](https://neo4j.com/developer/cypher/) query language, which makes this process really easy and the code is relatively readable and easy to follow. 
 
 Special thanks to [David Allen](https://twitter.com/mdavidallen) at Neo4J for his guidance in writing queries and designing these relationships. 
 
-Basically we take the CSV files we exported from Datasette (when we filtered our Exonerated, Unfounded, and everything before 2010) and go through every row and process it into our network.
+Basically we take the CSV files we exported from Datasette (when we filtered our Exonerated, Unfounded, and everything before 2010) and go through every row and push it into our network.
 
 #### Creating officer nodes
-First we tell Neo4J to use officer.id as a unique constraint (this makes things faster, I think?) and create a node for each officer from one CSV:
+First we tell Neo4J to use officer.id as a unique constraint (this makes things faster, I think?) and create a node for each officer from one CSV.
 ```cypher
 CREATE CONSTRAINT officerIdConstraint ON (officer:Officer) ASSERT officer.id IS UNIQUE
 ```
+
+Then I loop through every line of the .csv and create a new Officer node for every new officer I see. I use `MERGE` instead of `CREATE` to make sure I don't duplicate officer nodes. 
 
 ```cypher
 LOAD CSV WITH HEADERS FROM "http://localhost:11001/project-185bb75c-b944-451a-9c0f-aeba860ae68a/OfficersInvolvedInComplaints_FILTERED-SINCE2010-NOT-UNFOUNDED-EXONERATED.csv" AS csvLine
@@ -159,7 +178,7 @@ MERGE (officer:Officer {id: csvLine.`Unique Officer Id`, lastName: csvLine.`Offi
 RETURN officer
 ```
 
-This creates 29,915 unique officer nodes. 
+This creates **29,915** unique officer nodes. 
 
 Then we bind more data into it from our other CSV
 
@@ -169,7 +188,7 @@ MERGE (officer:Officer {id: csvLine.`Unique Officer Id`, lastName: csvLine.`Offi
 RETURN officer
 ```
 
-Now we have 113,265 unique officer nodes. 
+Now we have **113,265** unique officer nodes. 
 
 An officer node looks like this:
 
@@ -178,7 +197,7 @@ An officer node looks like this:
   "identity": 00001,
   "properties": {
 		"currentRank": "Police Officer",
-		"currentCommand": "OD",
+		"currentCommand": "81",
 		"lastName": "Smith",
 		"firstName": "John",
 		"shieldNo": "00001",
@@ -188,7 +207,7 @@ An officer node looks like this:
 }
 ```
 
-Finally, we need to add a boolean to denote if an officer has ever had a charge substantiated: 
+Finally, we need to add a boolean to denote if an officer has ever had a charge substantiated. We'll use this later to please some lawyers. You'll see. 
 
 ```cypher
 LOAD CSV WITH HEADERS FROM "http://localhost:11001/project-185bb75c-b944-451a-9c0f-aeba860ae68a/OfficerAllegationHistory_FILTERED-SINCE2010-SUBSTANTIATED.csv" AS csvLine
@@ -197,13 +216,13 @@ SET officer.ccrbSubstantiatedBool = "true"
 RETURN officer
 ```
 
-Which sets properties for 4,768 rows. 
+Now we've marked **4,768** of New York's ~36,000 (13%) finest as having a substantiated complaint in the last 10 years. 
 
-Let's NOT do the same thing for OfficersInvolved - because that file contains officers who were merely witnesses to substantiated complaints. 
+Let's NOT do the same thing for OfficersInvolved - because that file contains officers who were merely witnesses to substantiated complaints, and we don't want to accidentally label a witness to a substantiated case.  
 
 ### Creating officer labels
 
-Now we need to set labels for our nodes depending on whether they have ever had a complaint substantiated. We don't want to label nodes with names for any officers who have complaints but have never had any substantiated. 
+Now we need to set labels for our nodes depending on whether they have ever had a complaint substantiated. We don't want to label nodes with names for any officers who may have complaints but have never had any substantiated. I have been told that lawyers think this is a good idea. 
 
 First we set every officer label to their unique ID
 ```cypher
@@ -228,8 +247,10 @@ MATCH (o:Officer )
 SET o.date = "2021-12-31"
 ```
 
+Ideally this would be the date the officer was hired, but that is extra work for unclear reward, though you could probably do some interesting analysis incorporating seniority or analyzing the network effects of complaint-prone cops working with rookies and potentially influencing their behavior. 
+
 #### Creating incident nodes
-We are going to continue to use our CSV which filters out incidents before 2010 or that were unfounded or exonerated.
+We are going to continue to use our CSV which **filtered out** incidents **before 2010** or that were **unfounded or exonerated**.
 
 First we tell Neo4J that we have unique incident IDs
 
@@ -237,7 +258,7 @@ First we tell Neo4J that we have unique incident IDs
 CREATE CONSTRAINT incidentIdConstraint ON (incident:Incident) ASSERT incident.id IS UNIQUE
 ```
 
-Now we create an incident for every row we see in OfficerAllegationHistory.  
+Then we create an incident for every row we see in OfficerAllegationHistory. We'll make note of the precinct the incident occurred in, what the specific allegation was, and what date the incident occurred. 
 
 ```cypher
 LOAD CSV WITH HEADERS FROM "http://localhost:11001/project-185bb75c-b944-451a-9c0f-aeba860ae68a/OfficerAllegationHistory_FILTERED-SINCE2010-NOT-UNFOUNDED-EXONERATED.csv" AS csvLine
@@ -258,17 +279,18 @@ SET incident.ccrbDisposition = csvLine.`Complaint Disposition`
 RETURN incident
 ```
 
-Now let's create labels for our incidents.
+Now let's create labels for our incidents, which is going to be the allegation. 
 
 ```cypher
 MATCH (i:Incident)
 SET i.label = i.allegation
 ```
 
-
 Now that we have our **Incidents** and our **Officers** we need to create our relationships between them.
 
 ### Creating relationships between incidents and officers 
+
+Now for the fun part. 
 
 We are going to create a new relationship called `INVOLVED_IN`, and officers can be `INVOLVED_IN` one or many incidents. Incidents may have one or many officers that were `INVOLVED_IN` it, either as witness or subject officers. 
 
@@ -289,9 +311,13 @@ MATCH (officer:Officer {id: csvLine.`Unique Officer Id`}) with csvLine, officer
 MATCH (incident:Incident {id: csvLine.`Complaint Id`}) with csvLine, officer, incident
 CREATE (officer)-[:INVOLVED_IN {allegation: csvLine.`Allegation`, type: csvLine.`FADO Type`}]->(incident)
 ```
-Now we have **159,671** relationships. 
+Now we have **159,671** relationships. Sick.
 
-Now we can flatten out our graph a little bit and remove incidents if we want. We will create a new type of relationship that only occurs between two officers called `CO_OCCURANCE` - we will only make one of these between each officer, but the weight of that link will be decided by how many complaints those officers appear together on. So officers who appear on 3 complaints together have a `CO_OCCURANCE` relationship with a weight of 3. This allows us to do some weighted degree analysis when we are making our layout, deciding how large to make nodes, and when we are detecting communities. 
+Next we can flatten out our graph a little bit and remove incidents if we want. 
+
+We will create a new type of relationship that only occurs between two officers called `CO_OCCURANCE` - we will only make one of these between each officer, but the weight of that link will be decided by how many complaints those officers appear together on. 
+
+So officers who appear on 3 complaints together have a `CO_OCCURANCE` relationship with a weight of 3. This allows us to do some weighted degree analysis when we are making our layout, deciding how large to make nodes, and when we are detecting communities. 
 
 ```cypher
 MATCH (o1:Officer)-[:INVOLVED_IN]->(i:Incident)<-[:INVOLVED_IN]-(o2:Officer) WHERE id(o1)<id(o2) with o1, o2, count(i) as weightCount CREATE (o1)-[:CO_OCCURANCE { weight: weightCount }]->(o2)
@@ -331,11 +357,17 @@ YIELD nodes, communityCount, ranIterations, didConverge
 
 The communities that Gephi detects often mirror real-world precincts. As one might expect, officers appear on complaints with other officers in their precinct because they are working together most often. 
 
+I like that the algorithm detects communities that resemble precincts, and it actually gives me confidence that the community detection is working. 
+
 ## Analyzing our data with Gephi
-We are going to [stream our data from Neo4J to Gephi](https://neo4j.com/labs/apoc/4.1/export/gephi/) in order to visualize it and run it through some layout algorithms.
+Neo4J is cool for processing and analyzing tons of data, but I want to draw thousands of circles and lines now and start untangling the hairball of our network. 
+
+I am going to use Gephi, which I have a love-hate relationship with, but is unrivaled when it comes to network visualization. Plus, I already know how to use it.
+
+We are going to [stream our data from Neo4J to Gephi](https://neo4j.com/labs/apoc/4.1/export/gephi/) in order to leverage Neo4J's power to handle huge amounts of data (way more than Gephi) but still get to use Gephi's layout algorithms and analysis techniques. 
 
 ### Flattened co-occurance network
-To get our flattened network:
+To get our flattened network, which removed incident nodes:
 ```cypher
 MATCH path=(o1:Officer)-[r:CO_OCCURANCE]->(o2:Officer) WITH o1, path limit 100000  with o1, collect(path) as paths call apoc.gephi.add(null,'workspace1', paths, 'weight', ['weight', 'id', 'eigenvector', 'firstName', 'lastName', 'label', 'date', 'currentCommand']) yield nodes, relationships, time return nodes, relationships, time ORDER  BY o1.eigenvector DESC
 ```
@@ -359,19 +391,12 @@ where i.date IS NOT NULL and apoc.date.parse(i.date, "ms", 'YYYY-mm-dd') > 12623
 ### Looking at protest complaints
 ### Looking at veterans influencing rookies
 ### Looking at the effects of NYPD discipline
-### Showing officers without any complaints
 ### Officer career-specific visualization
 ### Analysis of length/outcomes of CCRB investigations
 ### Geographic analysis
 
-## Other data I wish I had 
-
-## Sonification
-### Officer career 
-Annotate years with top song of that summer
-
 ## Hire me to do work like this
-
+I do freelance data exploration and visualization for clients who aren't evil. I'd love to work like this for you, just get in touch at <ejfox@ejfox.com>
 
 
 [^1]: The notes say, basically: these are complaints received in or after the year 2000. Cases that are mediated or were attempted to be mediated are excluded. 

@@ -67,7 +67,7 @@ export default {
         $(el).addClass('measure ph3 mv4')
       })
       $('img').each(function (i, el) {
-        $(el).addClass('center mt4 pa0 w-100')
+        $(el).addClass('center mv4 pa0 pl3')
       })
 
       $('img').each(function (i, el) {

@@ -10,9 +10,9 @@ dek: In which various tools and methods are explored for analyzing data that des
 
 ## Why?
 
-Complaints filed against police officers by the public are often the first- and only- warning signs that a cop might be on a course of escalating violence towards the public. 
+Complaints filed against police officers by the public are often the first and only warning sign that a cop might be on a course of escalating violence. 
 
-In cases the deaths of George Floyd and Eric Garner the officers who killed them had a documented history of complaints filed against them by the public. Unfortunately nothing was done to disrupt their pattern of abuse, and both ended in the deaths of members of the public the officers had sworn to protect. 
+In the deaths of George Floyd and Eric Garner their killers had a documented history of complaints filed against them. Unfortunately nothing was done to disrupt their pattern of abuse, and both cases ended in those officers killing members of the public they had sworn to protect. 
 
 [[toc]]
 
@@ -117,7 +117,25 @@ group by [Officer Command At Incident] order by count([Officer Command At Incide
 
 After using Datasette to get a sense for the shape of our dataset, we can use it to filter out a slice of the data to use to feed into our next tool and begin doing our network analysis.
 
-### Filtering out "Exonerated" and "Unfounded" complaints
+[Ian Johnson](https://twitter.com/enjalot) helped me explore the data a bit in Observable as well.
+
+We looked at when officers received complaints. Here each year is split into a bar. We are showing the officers who received the most complaints in the entire dataset. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036139/Screen_Shot_2021-05-26_at_11.56.10_AM.png" />
+
+Or stacking the bars- the darker they are, the more recent the complaints occurred. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036139/Screen_Shot_2021-05-26_at_12.03.47_PM.png" />
+
+You can also look at the CCRB outcomes and see how rarely cases are substantiated or end in discipline. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036139/Screen_Shot_2021-05-26_at_12.04.11_PM.png" />
+
+We also looked at which commands received the most complaints across the entire dataset.
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036139/Screen_Shot_2021-05-26_at_12.03.54_PM.png" />
+
+### Filtering out "Exonerated" and "Unfounded" complaints for our network
 
 To get our network closer to a representation of officers who are receiving complaints for misconduct we want to filter out any of the cases in which the officer was **Exonerated** or the CCRB's disposition was that it was **Unfounded**. 
 
@@ -313,9 +331,13 @@ CREATE (officer)-[:INVOLVED_IN {allegation: csvLine.`Allegation`, type: csvLine.
 ```
 Now we have **159,671** relationships. Sick.
 
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036165/Screen_Shot_2021-05-29_at_2.28.27_PM.png" />
+
 Next we can flatten out our graph a little bit and remove incidents if we want. 
 
 We will create a new type of relationship that only occurs between two officers called `CO_OCCURANCE` - we will only make one of these between each officer, but the weight of that link will be decided by how many complaints those officers appear together on. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036231/Screen_Shot_2021-05-29_at_3.48.19_PM.png" />
 
 So officers who appear on 3 complaints together have a `CO_OCCURANCE` relationship with a weight of 3. This allows us to do some weighted degree analysis when we are making our layout, deciding how large to make nodes, and when we are detecting communities. 
 
@@ -374,7 +396,19 @@ MATCH path=(o1:Officer)-[r:CO_OCCURANCE]->(o2:Officer) WITH o1, path limit 10000
 
 This streams 100,000 edges and 25,064 nodes into Gephi. 
 
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036180/Screen_Shot_2021-05-29_at_3.03.54_PM.png">
+
 We'll run the Force Atlas 2 layout algorithm in Gephi to have the nodes arrange themselves into some sort of sense. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036176/Screen_Shot_2021-05-29_at_2.51.20_PM.png" />
+
+We can use Gephi's modularity algorithm to color by "community" within our network, and we'll tweak our layout algorithm to separate things out a bit.
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036310/Screen_Shot_2021-05-31_at_12.51.58_PM.png" />
+
+Then we can add some labels and we've made a map of the network of officers who appeared on CCRB complaints together, and there appear to be a number of closely-knit clusters and different communities within our network.
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036311/Screen_Shot_2021-05-31_at_12.59.34_PM.png" />
 
 ### Precinct-specific networks including incidents
 Let's put it all together and stream all the officers from a single precinct using only incidents since 2010. 
@@ -384,7 +418,27 @@ where i.date IS NOT NULL and apoc.date.parse(i.date, "ms", 'YYYY-mm-dd') > 12623
  WITH o1, path, i limit 100000  with o1, i, collect(path) as paths call apoc.gephi.add(null,'workspace1', paths, 'weight', ['weight', 'id', 'eigenvector', 'firstName', 'lastName', 'date']) yield nodes, relationships, time return nodes, relationships, time ORDER  BY o1.eigenvector DESC
 ```
 
-## Visualization
+
+We can also make a network that is un-flattened, that is, we can see nodes for both officers as well as incidents. This way, we can see the patterns in the way incidents tie officers together. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036336/Screen_Shot_2021-06-02_at_6.32.45_PM.png" />
+
+Every blue circle here is an incident, and every red circle is an officer (both filtered by the 75th precinct, since 2010).
+
+Now let's size the circles by their degree (the number of connections they have) and run a layout algorithm. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036346/Screen_Shot_2021-06-02_at_6.53.13_PM.png" />
+
+Some big nodes start to pop up, like Martinez, Radoncic, and Grieco. What is causing these officers to co-appear on so many different complaints with so many different officers?
+
+When exploring this network, large nodes pop up, and I became naturally curious what the careers of those officers looked like. The first one that jumped out to me was a big node that represented an officer named Nicholas Rios.
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036085/Screen_Shot_2021-05-18_at_8.55.24_PM.png" />
+
+I googled his name, and one of the first results was a harrowing story of a federal civil rights case that named him. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036085/Screen_Shot_2021-05-18_at_8.55.38_PM.png" />
+
 
 ## Potential Next Steps
 ### Explorable NYPD-wide network
@@ -396,7 +450,7 @@ where i.date IS NOT NULL and apoc.date.parse(i.date, "ms", 'YYYY-mm-dd') > 12623
 ### Geographic analysis
 
 ## Hire me to do work like this
-I do freelance data exploration and visualization for clients who aren't evil. I'd love to work like this for you, just get in touch at <ejfox@ejfox.com>
+I do freelance data exploration and visualization for clients who aren't evil. If you'd like to hire me to take a look at a dataset for you, just get in touch at <ejfox@ejfox.com>
 
 
 [^1]: The notes say, basically: these are complaints received in or after the year 2000. Cases that are mediated or were attempted to be mediated are excluded. 

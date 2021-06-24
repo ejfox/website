@@ -8,6 +8,8 @@ dek: In which various tools and methods are explored for analyzing data that des
 
 # Finding Clusters of NYPD Officers In CCRB Complaint Data
 
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624505769/Screen_Shot_2021-06-21_at_8.58.50_PM.jpg" />
+
 ## Why?
 
 Complaints filed against police officers by the public are often the first and only warning sign that a cop might be on a course of escalating violence. 
@@ -19,16 +21,16 @@ In the deaths of George Floyd and Eric Garner their killers had a documented his
 ### George Floyd
 
 > Chauvin, who was fired, has said through his attorney that his handling of Floyd’s arrest was a reasonable use of authorized force. But he was the subject of at least **22 complaints** or internal investigations during his more than 19 years at the department, **only one of which resulted in discipline**. These new interviews show not only that he may have used excessive force in the past, but that he had used startlingly similar techniques.
-<https://www.mprnews.org/story/2021/02/05/that-could-have-been-me-the-people-derek-chauvin-choked-before-george-floyd>
+['That could have been me': The people Derek Chauvin choked before George Floyd](https://www.mprnews.org/story/2021/02/05/that-could-have-been-me-the-people-derek-chauvin-choked-before-george-floyd)
 
 The officer convicted of murdering George Floyd had at least 22 complaints against him. The officer who put Eric Garner in a chokehold and killed him had [7 complaints](https://www.scribd.com/document/342591738/D-Pantaleo-Alleged-CCRB-File) [filed against him](https://gothamist.com/news/newly-leaked-documents-suggests-cop-who-killed-eric-garner-had-history-of-misconduct). 
 
 ### Eric Garner
 
 > Before he put Garner in the chokehold, the records show, he had **seven disciplinary complaints and 14 individual allegations** lodged against him. Four of those allegations were substantiated by an independent review board.
-<https://archive.thinkprogress.org/daniel-pantaleo-records-75833e6168f3/>
+[The disturbing secret history of the NYPD officer who killed Eric Garner](https://archive.thinkprogress.org/daniel-pantaleo-records-75833e6168f3/)
 
-Of the 14 individual allegations, 5 are for force: "hit against inanimate object", "physical force", and a single complaint in 2014 that would foreshadow the behavior that would eventually end the Officer's career: "Force - Chokehold". 
+Of the 14 individual allegations against Garner's killer, 5 are for force: "hit against inanimate object", "physical force", and a single complaint in 2014 that would foreshadow the behavior that would eventually end the Officer's career: "Force - Chokehold". 
 
 I am documenting my analysis in detail for a few reasons:
 - So that other people who may want to perform similar analysis for other Police Departments can understand and recreate my analysis
@@ -43,10 +45,8 @@ You may have seen network analysis like this before.
 
 [Adi Cohen](https://twitter.com/adico11) has pioneered a method of [combining Gephi with CrowdTangle](https://help.crowdtangle.com/en/articles/4495952-network-mapping-with-gephi-and-crowdtangle) to analyze the network of groups and pages sharing links. 
 
-
-
 ### Provenance
-The [NYCLU](https://www.nyclu.org/en/campaigns/nypd-misconduct-database) received this data from the CCRB as a result of a FOIL (Freedom of Information Law) request and released it on [their GitHub page](https://github.com/new-york-civil-liberties-union/NYPD-Misconduct-Complaint-Database-Updated). 
+WNYC/Gothamist received the data in response to a Freedom of Information Law request and provided me an excel file for analysis.
 
 ## The Dataset
 
@@ -83,25 +83,20 @@ The first thing we might want to look at is the top commands that received compl
 ```sqlite
 select [Officer Command At Incident], count([Officer Command At Incident]) from OfficerAllegationHistory 
 where [Incident Date] BETWEEN '2010-01-01' AND '2010-12-31'
-group by [Officer Command At Incident] order by count([Officer Command At Incident]) DESC LIMIT 10
+group by [Officer Command At Incident] order by count([Officer Command At Incident]) DESC LIMIT 5
 ```
 - 075 PCT: 320
 - 046 PCT: 251
 - 047 PCT: 226
 - 120 PCT: 199
 - BX IRT	: 196
-- NARCBBN: 178
-- 073 PCT: 176
-- 077 PCT: 173
-- MN IRT: 171
-- 044 PCT: 168
 
 Or the top 10 commands whose complaints ended in penalties. 
 
 ```sqlite
 select [Officer Command At Incident], count([Officer Command At Incident]) from OfficerAllegationHistory 
 where [Incident Date] BETWEEN '2010-01-01' AND '2021-12-31'AND [CCRB Allegation Disposition] = 'Substantiated (Charges)'
-group by [Officer Command At Incident] order by count([Officer Command At Incident]) DESC LIMIT 10
+group by [Officer Command At Incident] order by count([Officer Command At Incident]) DESC LIMIT 5
 ```
 
 - WARRSEC: 91
@@ -109,11 +104,6 @@ group by [Officer Command At Incident] order by count([Officer Command At Incide
 - 081 PCT: 71
 - 079 PCT: 70
 - 075 PCT: 68
-- NARCBBN: 67
-- 046 PCT: 66
-- 034 PCT: 61
-- NARCBBX: 56
-- 044 PCT: 54
 
 After using Datasette to get a sense for the shape of our dataset, we can use it to filter out a slice of the data to use to feed into our next tool and begin doing our network analysis.
 
@@ -174,6 +164,8 @@ OR [CCRB Allegation Disposition] IS 'Substantiated (Command Discipline B)'
 I first encountered Neo4J when I was working with Ben Popken on an [NBC News analysis of tweets tied to Senate Intelligence-identified Russian Twitter Bots](https://neo4j.com/blog/story-behind-russian-twitter-trolls/) where Neo4J provided analysts who were crucial to understanding the shape of our data. 
 
 It is an incredibly useful tool for generating and analyzing networks, and I was excited to have another dataset that would let me use its considerable power. 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624506093/Screen_Shot_2021-05-31_at_12.05.00_PM.jpg" />
 
 ### Importing our CSV with Cypher
 To import our `.csv` into a network of node and relationships in Neo4J, we will use the [Cypher](https://neo4j.com/developer/cypher/) query language, which makes this process really easy and the code is relatively readable and easy to follow. 
@@ -257,16 +249,6 @@ SET o.label = COALESCE(o.firstName ,"") + ' ' + COALESCE(o.lastName ,"")
 
 Now we have our officers created, we need to create our incidents.
 
-#### MAYBE, POTENTIALLY
-In order to include dates in our network, we might need to make a dummy date field for our officers. Only incidents have dates in our source data, but to export our dates to Gephi, all nodes need to have the field. 
-
-```cypher
-MATCH (o:Officer )
-SET o.date = "2021-12-31"
-```
-
-Ideally this would be the date the officer was hired, but that is extra work for unclear reward, though you could probably do some interesting analysis incorporating seniority or analyzing the network effects of complaint-prone cops working with rookies and potentially influencing their behavior. 
-
 #### Creating incident nodes
 We are going to continue to use our CSV which **filtered out** incidents **before 2010** or that were **unfounded or exonerated**.
 
@@ -345,6 +327,16 @@ So officers who appear on 3 complaints together have a `CO_OCCURANCE` relationsh
 MATCH (o1:Officer)-[:INVOLVED_IN]->(i:Incident)<-[:INVOLVED_IN]-(o2:Officer) WHERE id(o1)<id(o2) with o1, o2, count(i) as weightCount CREATE (o1)-[:CO_OCCURANCE { weight: weightCount }]->(o2)
 ```
 
+
+### Officers without connections
+```cypher
+MATCH (o:Officer) WHERE NOT (o)-[:CO_OCCURANCE]-() RETURN count(o)
+```
+
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624506696/Screen_Shot_2021-06-13_at_7.16.11_PM.jpg" />
+
+
 ### Eigenvector analysis on our network 
 Let's run a standard centrality analysis algorithm called ["Eigenvector Centrality"](https://neo4j.com/docs/graph-data-science/current/algorithms/eigenvector-centrality/)
 
@@ -361,26 +353,6 @@ YIELD nodes, iterations, dampingFactor, writeProperty
 
 Now every Officer node has an `eigenvector` value that represents its centrality across our entire NYPD-wide network. The larger the value, the more central that node is. 
 
-We're also going to find the [modularity](https://neo4j.com/docs/graph-data-science/current/algorithms/modularity-optimization/) for our network using Neo4J. This will help us color our nodes by their "community" as defined by this network. 
-
-```cypher
-CALL gds.graph.create.cypher(
-    'nypdwide',
-	  'MATCH (n:Officer) RETURN id(n) AS id',
-		'MATCH (a:Officer)-[l:CO_OCCURANCE]->(b:Officer) RETURN id(a) AS source, id(b) AS target, l.weight AS weight'
-)
-YIELD graphName, nodeCount, relationshipCount, createMillis;
-```
-
-```cypher
-CALL gds.beta.modularityOptimization.mutate('nypdwide', { relationshipWeightProperty: 'weight', mutateProperty: 'community' })
-YIELD nodes, communityCount, ranIterations, didConverge
-```
-
-The communities that Gephi detects often mirror real-world precincts. As one might expect, officers appear on complaints with other officers in their precinct because they are working together most often. 
-
-I like that the algorithm detects communities that resemble precincts, and it actually gives me confidence that the community detection is working. 
-
 ## Analyzing our data with Gephi
 Neo4J is cool for processing and analyzing tons of data, but I want to draw thousands of circles and lines now and start untangling the hairball of our network. 
 
@@ -391,7 +363,7 @@ We are going to [stream our data from Neo4J to Gephi](https://neo4j.com/labs/apo
 ### Flattened co-occurance network
 To get our flattened network, which removed incident nodes:
 ```cypher
-MATCH path=(o1:Officer)-[r:CO_OCCURANCE]->(o2:Officer) WITH o1, path limit 100000  with o1, collect(path) as paths call apoc.gephi.add(null,'workspace1', paths, 'weight', ['weight', 'id', 'eigenvector', 'firstName', 'lastName', 'label', 'date', 'currentCommand']) yield nodes, relationships, time return nodes, relationships, time ORDER  BY o1.eigenvector DESC
+MATCH path=(o1:Officer)-[r:CO_OCCURANCE]->(o2:Officer) WITH o1, path limit 125000  with o1, collect(path) as paths call apoc.gephi.add(null,'workspace1', paths, 'weight', ['weight', 'id', 'eigenvector', 'firstName', 'lastName', 'label', 'date', 'currentCommand']) yield nodes, relationships, time return nodes, relationships, time ORDER  BY o1.eigenvector DESC
 ```
 
 This streams 100,000 edges and 25,064 nodes into Gephi. 
@@ -404,13 +376,17 @@ We'll run the Force Atlas 2 layout algorithm in Gephi to have the nodes arrange 
 
 We can use Gephi's modularity algorithm to color by "community" within our network, and we'll tweak our layout algorithm to separate things out a bit.
 
+The communities that Gephi detects often mirror real-world precincts. As one might expect, officers appear on complaints with other officers in their precinct because they are working together most often. 
+
+I like that the algorithm detects communities that resemble precincts, and it actually gives me confidence that the community detection is working. 
+
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036310/Screen_Shot_2021-05-31_at_12.51.58_PM.png" />
 
 Then we can add some labels and we've made a map of the network of officers who appeared on CCRB complaints together, and there appear to be a number of closely-knit clusters and different communities within our network.
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036311/Screen_Shot_2021-05-31_at_12.59.34_PM.png" />
 
-### Precinct-specific networks including incidents
+### Precinct-specific networks including incidents (un-flattened network)
 Let's put it all together and stream all the officers from a single precinct using only incidents since 2010. 
 ```cypher
 MATCH path=(o1:Officer)-[:INVOLVED_IN]->(i:Incident {incidentPct: "75"})<-[:INVOLVED_IN]-(o2:Officer)
@@ -431,7 +407,7 @@ Now let's size the circles by their degree (the number of connections they have)
 
 Some big nodes start to pop up, like Martinez, Radoncic, and Grieco. What is causing these officers to co-appear on so many different complaints with so many different officers?
 
-When exploring this network, large nodes pop up, and I became naturally curious what the careers of those officers looked like. The first one that jumped out to me was a big node that represented an officer named Nicholas Rios.
+When exploring this network, large nodes pop up, and I became naturally curious what the careers of those officers looked like. One of the first ones that jumped out to me was a big node that represented an officer named Nicholas Rios.
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036085/Screen_Shot_2021-05-18_at_8.55.24_PM.png" />
 
@@ -439,15 +415,40 @@ I googled his name, and one of the first results was a harrowing story of a fede
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036085/Screen_Shot_2021-05-18_at_8.55.38_PM.png" />
 
+In the reporting that George Joseph did for Gothamist/WNYC, he found that a number of large influencers that appear in this network analysis also acted as influencers on the ground. 
+
+He looked at another large node in the network, Adnan Radoncic: 
+
+> Atunbi asserted that Radoncic was a catalyst for a group assault on the street that day.
+“As soon as he grabbed me, all the officers was hands on,” he said. “It’s like they just followed his lead.”
+
 
 ## Potential Next Steps
-### Explorable NYPD-wide network
-### Looking at protest complaints
-### Looking at veterans influencing rookies
-### Looking at the effects of NYPD discipline
-### Officer career-specific visualization
-### Analysis of length/outcomes of CCRB investigations
-### Geographic analysis
+There are a few different directions for further analysis that I didn't have time for, but may result in interesting findings. 
+
+- Explorable NYPD-wide network
+- Looking at protest complaints
+- Looking at veterans influencing rookies
+- Looking at the effects of NYPD discipline
+- Officer career-specific visualization
+- Analysis of length/outcomes of CCRB investigations
+- Geographic analysis
+
+## Flotsam & Jetsam 
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624505603/Screen_Shot_2021-06-23_at_9.54.21_PM.png" />
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624505843/Screen_Shot_2021-06-21_at_7.12.27_PM.png" />
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036381/Screen_Shot_2021-06-07_at_1.15.54_PM.png" />
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624506217/Screen_Shot_2021-05-29_at_12.37.37_PM.png" />
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036457/Screen_Shot_2021-06-13_at_10.31.55_PM.png" />
+
+<img src="https://res.cloudinary.com/ejf/image/upload/v1624036455/Screen_Shot_2021-06-13_at_10.33.01_PM.png" />
+
+
 
 ## Hire me to do work like this
 I do freelance data exploration and visualization for clients who aren't evil. If you'd like to hire me to take a look at a dataset for you, just get in touch at <ejfox@ejfox.com>

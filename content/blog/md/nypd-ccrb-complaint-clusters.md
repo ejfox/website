@@ -1,7 +1,7 @@
 ---
 date: '2021-06-11T15:10:17-04:00'
 type: words
-hidden: true
+hidden: false
 inprogress: false
 dek: In which various tools and methods are explored for analyzing data that describes a network of complaints against NYPD officers (or any other PD with similar public data)
 ---
@@ -156,9 +156,6 @@ select * from OfficerAllegationHistory
 where ([Incident Date] BETWEEN '2010-01-01' AND '2021-12-31') AND ([CCRB Allegation Disposition] IS 'Substantiated (Charges)' OR [CCRB Allegation Disposition] IS 'Substantiated (Command Discipline A)'
 OR [CCRB Allegation Disposition] IS 'Substantiated (Command Discipline B)'
 ```
-
-## Analyzing our data with Observable
-
 
 ## Analyzing our data with Neo4J
 I first encountered Neo4J when I was working with Ben Popken on an [NBC News analysis of tweets tied to Senate Intelligence-identified Russian Twitter Bots](https://neo4j.com/blog/story-behind-russian-twitter-trolls/) where Neo4J provided analysts who were crucial to understanding the shape of our data. 

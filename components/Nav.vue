@@ -6,7 +6,7 @@
     class="w-100 list ph3 bn mv1"
   >
     <li class="ph3-ns pr2">
-      <nuxt-link class="link underline" to="/">Home</nuxt-link>
+      <nuxt-link class="link underline" to="/">About me</nuxt-link>
     </li>
 
     <li class="pr2 ph3-ns">

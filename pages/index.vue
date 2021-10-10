@@ -1,6 +1,6 @@
 <template>
   <section class="pa3 pa4-ns db cf mb4">
-    <section class="intro pt2 measure-narrow lh-copy tj">
+    <section class="intro pt2 measure-narrow f3 lh-copy tj">
       <p class="pv2">
         Hello, my name is <strong>EJ Fox</strong>. I'm a hacker and journalist
         available for contract work. My work focuses on data visualization,
@@ -8,10 +8,11 @@
         <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
       </p>
 
-      <p class="tl">
+      <p class="tl pv2">
         Take a look at <nuxt-link to="/projects"> some of my work </nuxt-link>
         or <a href="/resume.pdf">my resume</a>.
       </p>
+
       <p class="lh-copy pv2 tj">
         Sometimes I take
         <nuxt-link to="/photo/">photos</nuxt-link>, <br />
@@ -19,7 +20,8 @@
         or <nuxt-link to="/art/">art</nuxt-link>.
       </p>
     </section>
-    <Footer />
+    
+    <Footer class="mt4 pt4 bt f4" />
 
     <div id="hcard-EJ-Fox" class="vcard w-100 f6 tc dn">
       <img

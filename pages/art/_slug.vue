@@ -1,41 +1,17 @@
 <template>
   <div class="slug-container cf">
-    <nuxt-link to="/audio/" class="pa4">Back to list of sounds</nuxt-link>
+    <nuxt-link to="/art/" class="pa4 pb1">Back to list of all art</nuxt-link>
     <section id="post-container w-100">
       <!-- Article header -->
-      <header class="ph3-ns w-100 mb0 mt4">
-        <div class="ph3 ph3-ns pv0">
-          <h1 class="tc f1 lh-title mv0">
-            {{ title }}
-          </h1>
-        </div>
-      </header>
-      <!-- Audio post types -->
-      <article :class="['tc center pa1 pa4-ns mb0']">
-        <div v-if="audio" class="w-100">
-          <AudioPlayer2 :fileUrl="audio" :loop="false" bg="bg-gray" />
-        </div>
-
-        <!-- Timestamp -->
-        <time
-          :class="[
-            'f5 w-100 sans-serif mv3 pl0 pb0 pt3 db ttu tracked o-20 tc',
-          ]"
-        >
-          <small class="">{{ date | moment('MMMM Do YYYY') }}</small>
-        </time>
-
-        <div>
-          <a
-            class="link f5 w-100 sans-serif mv3 pl0 pb0 underline db ttu tracked o-20 tc"
-            :href="audio"
-            >Download</a
-          >
-        </div>
-
-        <div v-if="bodyHtml" id="body" :class="['tl pt4-ns center f3-ns']">
-          <Words v-if="body" :bodyMarkdown="body" />
-        </div>
+      <header class="ph3-ns w-100 mb0 mt4"></header>
+      <article :class="['tc center pa1 pa4-ns pt0 mb0']">
+        <figure>
+          <img :src="url" :alt="caption" />
+          <a class="f6 grow no-underline br-pill ph3 pv2 mv2 dib white bg-black tracked sans-serif tl" :href="buyUrl">
+            Buy now
+          </a>
+          <figcaption class="measure" v-html="caption" />
+        </figure>
       </article>
     </section>
   </div>
@@ -49,13 +25,10 @@ import Words from '~/components/blogtypes/words.vue'
 
 export default {
   scrollToTop: true,
-  components: {
-    AudioPlayer2,
-    Words,
-  },
+  components: {},
   data: function () {
     return {
-      emojiIcon: '🎶',
+      emojiIcon: '🎨',
       bodyHtml: null,
     }
   },
@@ -78,120 +51,18 @@ export default {
     }
   },
   async asyncData({ params }) {
-    let post = await import('~/content/audio/' + params.slug + '.json')
-    if (!post.audio) {
-      post.audio = null
-    }
-    if (!post.inprogress) {
-      post.inprogress = null
-    }
+    let post = await import('~/content/art/' + params.slug + '.json')
     return post
   },
-  created: function () {
-    if (this.body) {
-      this.bodyHtml = this.parseMarkdown(this.body)
-    }
-  },
+  created: function () {},
   activated: function () {},
-  methods: {
-    parseMarkdown: function (markdown) {
-      // console.log('Parsing markdown...')
-      // Build markdown parser
-      const markdownRenderer = marked.setOptions({
-        renderer: new marked.Renderer(),
-        // highlight: function (code) {
-        //   return require('highlight.js').highlightAuto(code).value
-        // }
-        pedantic: false,
-        gfm: true,
-        tables: true,
-        breaks: false,
-        smartLists: true,
-        smartypants: true,
-        xhtml: true,
-      })
-      let parsedMarkdown = markdownRenderer(markdown)
-      return parsedMarkdown
-
-      // Load parsed markdown into cheerio so we can do
-      // jquery-style manipulations on the HTML
-      // const $ = cheerio.load(parsedMarkdown)
-      // return parsed, sliced, and diced markdown
-      //return $.html()
-    },
-  },
 }
 </script>
 
 <style scoped>
-@media (max-width: 640px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    word-wrap: break-word;
-    hyphens: auto;
-  }
-}
-
-.f-headline {
-  @media (min-width: 640px) {
-    font-size: 10rem;
-  }
-}
-
-article li list-style-type circle article.photos h1 {
-  text-align: center;
-}
-
-article.photos img {
-  margin: 3rem 0;
-}
-
-article.photos img:first-child {
-  margin-top: 0;
-}
-
-.article-pop {
-  border-radius: 4px;
-  border-top: 1px solid rgba(250, 250, 250, 0.1);
-  border-bottom: 1px solid rgba(25, 25, 25, 0.1);
-  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.15);
-}
-
-/* article.photos p {
-  max-width: 32rem;
-} */
-
-img {
-  max-width: 100%;
-}
-
-blockquote cite {
-  font-family: 'Knockout 66 A', 'Knockout 66 B' !important;
-}
-
-pre {
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  max-width: 100vw;
-  overflow: auto;
-}
-
-code {
-  word-wrap: break-word;
-  white-space: pre-wrap;
-}
-
-.embed-container {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  header h1 {
-    text-shadow: 0 2px 0.25em rgba(0, 0, 0, 0.5);
-  }
+figcaption {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-align: left;
 }
 </style>

@@ -21,6 +21,15 @@
       LinkedIn
     </a>
 
+    
+
+    <a
+      :class="['dib mr2 pa0 link bn underline gray bg-light-gray']"
+      href="https://www.are.na/ej-fox?sort=UPDATED_AT&type=BLOCK"
+    >
+      Are.na
+    </a>
+
     <!--
   <nuxt-link to="/bookmarks" :class="['db dib-ns link pa3 bn ma2 no-underline gray bg-light-gray']">
     recent bookmarks

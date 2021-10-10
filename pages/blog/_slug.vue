@@ -20,11 +20,11 @@
 
         <div
           v-if="inprogress === true"
-          class="bg-dark-gray white pa4 mv2 br2 f6"
+          class="bg-dark-gray white pa4 mv2 br2 f6 tc"
         >
-          <h3 class="ma0 pa2 pv3 ba br2 tc">This post is in progress</h3>
+          <h3 class="f-headline ma0 pa2 pv3 br2">This post is in progress</h3>
           <p class="pt3">
-            I would really appreciate your feedback for things I could improve.
+            I would really appreciate your feedback on things I could improve.
           </p>
           <p class="pt3">Get in touch via email or Twitter...</p>
 

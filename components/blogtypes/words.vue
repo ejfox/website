@@ -119,6 +119,9 @@ export default {
       $('.table-of-contents')
         .first()
         .addClass('serif w-100 w-third-l f6 ma2 mh3-l fr-l pv1 ph1 bn mw5')
+
+      $('.table-of-contents ol').addClass('w-100')
+
       $('.footnotes').first().addClass('')
 
       $('.footnote-ref a').each(function (i, el) {

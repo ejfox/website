@@ -33,7 +33,7 @@ export default {
   --black: #292a2b;
 }
 .serif {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
 }
 
 .sans-serif,
@@ -42,7 +42,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-family: 'Anton', Helvetica, Arial, sans-serif;
 }
 
 *,

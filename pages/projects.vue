@@ -1,5 +1,6 @@
 <template>
   <div class="center db cf w-100 pa2 pa3-ns">
+  <!--
     <section id="hero-projects">
       <a href="https://twitch.tv/enjalot">
         <CloudinaryPhoto
@@ -33,6 +34,8 @@
         />
       </a>
     </section>
+    -->
+    
     <section class="project mv2 ph3" v-for="project in projects">
       <a
         v-if="project.URL"
@@ -45,7 +48,7 @@
         {{ project['Project Name'] }}
       </a>
       <span class="b br1 black" v-else>{{ project['Project Name'] }}</span>
-      <small class="ph2 dark-gray tr">
+      <small class="ph2 dark-gray tr o-50">
         {{ project['Client'] }}
         <span class="gray">
           <!-- '{{project.Year.slice(-2)}} -->

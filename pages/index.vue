@@ -9,13 +9,14 @@
       </p>
 
       <p class="tl">
-        <nuxt-link to="/projects"> Take a look at some of my work </nuxt-link>
+        Take a look at <nuxt-link to="/projects"> some of my work </nuxt-link>
         or <a href="/resume.pdf">my resume</a>.
       </p>
       <p class="lh-copy pv2 tj">
         Sometimes I take
-        <nuxt-link to="/photo/">photos</nuxt-link>, make
-        <nuxt-link to="/audio/">sounds</nuxt-link>.
+        <nuxt-link to="/photo/">photos</nuxt-link>, <br />
+        make <nuxt-link to="/audio/">sounds</nuxt-link> <br />
+        or <nuxt-link to="/art/">art</nuxt-link>.
       </p>
     </section>
     <Footer />
@@ -49,22 +50,7 @@ export default {
     Nav,
     Footer,
   },
-  methods: {},
-  data() {
-    // Using webpacks context to gather all files from a folder
-    const context = require.context('~/content/blog/posts/', false, /\.json$/)
-
-    let posts = context.keys().map((key) => ({
-      ...context(key),
-      _path: `/blog/${key.replace('.json', '').replace('./', '')}`,
-    }))
-
-    posts = posts.sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date)
-    })
-    posts = posts.filter((post) => !post.hidden)
-    return { posts }
-  },
+  methods: {}
 }
 </script>
 

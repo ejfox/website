@@ -1,5 +1,5 @@
 <template>
-  <footer class="db ttu pa0 sans-serif ma0 mt2 mt5-ns">
+  <footer class="db ttu pa0 sans-serif ma0 mt2">
     <a
       :class="['dib mr2 pa0 link bn underline gray bg-light-gray']"
       href="https://github.com/ejfox"
@@ -40,7 +40,7 @@
     calendar
   </a> -->
 
-    <section id="pgp" class="sans-serif ttu gray mv1 mv5-ns lh-copy">
+    <section id="pgp" class="sans-serif ttu gray mv1 mv2-ns lh-copy">
       <p>
         PGP:
         <a href="/pgp.txt" title="PGP Public Key" class="link underline gray"

@@ -91,6 +91,8 @@
         Democratic Primary Big Board
       </p>
     </section>
+
+    <!--
     <section class="measure v-top mv4 pr2">
       <h3>Video Production &amp; Motion Graphics</h3>
       <CloudinaryPhoto
@@ -112,6 +114,9 @@
       </p>
     </section>
 
+    -->
+
+    <!--
     <section class="measure v-top mv4 pr2">
       <h3>Livestream Production</h3>
       <CloudinaryPhoto
@@ -130,6 +135,8 @@
         <a href="https://twitch.tv/enjalot">Coding with Fire</a>
       </p>
     </section>
+
+    -->
 
     <hr class="mv5" />
 

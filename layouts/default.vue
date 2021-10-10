@@ -42,7 +42,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Anton', Helvetica, Arial, sans-serif;
+  font-family: 'Anton', Helvetica, Arial, sans-serif !important;
 }
 
 *,
@@ -53,7 +53,7 @@ h5 {
 }
 
 html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
 

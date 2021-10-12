@@ -5,7 +5,7 @@
         <li
           v-for="(post, i) in posts.filter((d) => d.type === 'words')"
           :key="post._path"
-          class="pv2"
+          class="pv3"
         >
           <nuxt-link
             :to="post._path"
@@ -14,9 +14,13 @@
             {{ post.title }}
           </nuxt-link>
 
-          <span :class="['post-date tracked f6 db light-silver no-underline']"
-            >{{ post.date | moment('from', 'now') }} /
-            <span class="ttu">{{ post.date | moment('Y.MM') }}</span>
+          <div class="f6 w-two-thirds light-silver lh-copy pv2 mv0">
+            <span>{{post.dek}}</span>
+          </div>
+
+          <span :class="['post-date tracked f6 db light-silver no-underline pb2 mv0']"
+            ><strong>{{ post.date | moment('from', 'now') }}</strong> /
+            <span class="ttu">{{ post.date | moment('Y.MM') }}</span>          
           </span>
         </li>
       </ul>
@@ -85,15 +89,7 @@ ul {
 }
 /* li { list-style-type: none } */
 
-.intro a:link,
-.intro a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-.intro a:visited,
-.intro a:focus {
-  color: #414346;
-  /*text-decoration: none;*/
+a:visited {
+  color: #999 !important;
 }
 </style>

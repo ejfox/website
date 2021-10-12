@@ -21,7 +21,7 @@
       </p>
     </section>
     
-    <Footer class="mt4 pt4 bt f4" />
+    <Footer class="mt4 pt4 bt b--black-20 f4" />
 
     <div id="hcard-EJ-Fox" class="vcard w-100 f6 tc dn">
       <img

@@ -1,6 +1,7 @@
 <template>
   <div class="bg-near-white serif">
-    <h1 class="ph4">EJ Fox</h1>
+    <!-- <h1 class="ph4">EJ Fox</h1> -->
+    <img src="fox_logo_white.svg" alt="EJ Fox" class="h4 pa4"/>
 
     <Nav />
 
@@ -73,9 +74,10 @@ body {
 
 a,
 a:link,
+a:focus,
 a:visited,
 a:active {
-  outline: 0;
+  outline: 0 !important;
 }
 /* a:link {
   color: #00449E;

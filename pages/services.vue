@@ -1,6 +1,6 @@
 <template>
   <section class="pa3 pa4-ns db cf mb4">
-    <h2 class="mb4">Services</h2>
+    <!-- <h2 class="mb4">Services</h2> -->
     <p class="measure pv4">
       Hire me to do work for you! Just shoot me an email at
       <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a> or

@@ -39,24 +39,6 @@ export default {
     Footer,
   },
   methods: {
-    postTypeIcon: function (postType) {
-      // ["words", "code", "video", "audio", "photos"]
-      if (postType === 'words') {
-        return 'fa-align-right'
-      }
-      if (postType === 'code') {
-        return 'fa-terminal'
-      }
-      if (postType === 'video') {
-        return 'fa-video'
-      }
-      if (postType === 'audio') {
-        return 'fa-volume-up'
-      }
-      if (postType === 'photos') {
-        return 'fa-camera'
-      }
-    },
   },
   data() {
     // Using webpacks context to gather all files from a folder

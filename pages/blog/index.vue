@@ -33,6 +33,7 @@ import Nav from '~/components/Nav.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
+  scrollToTop: true,
   components: {
     Nav,
     Footer,

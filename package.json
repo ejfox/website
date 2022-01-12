@@ -36,7 +36,7 @@
     "libxmljs": "^0.19.5",
     "loader-utils": "^1.0.2",
     "lodash": "^4.17.20",
-    "markdown-it": "^12.0.4",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^7.0.2",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-github-headings": "^2.0.0",

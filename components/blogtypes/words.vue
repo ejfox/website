@@ -5,12 +5,6 @@
       class="words contentWrapper content"
       v-html="bodyHtml"
     ></div>
-
-    <div
-      v-if="!bodyHtml"
-      class="words contentWrapper content measure"
-      v-html="bodyMarkdown"
-    ></div>
   </div>
 </template>
 

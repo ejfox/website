@@ -12,6 +12,8 @@ dek: In which various tools and methods are explored for analyzing data that des
 
 ## Why?
 
+<iframe width="560" height="292" src="https://vizhub.com/ravinitheshreddy/26c499fc970f4f16b1c5ada8f6a9fe79?mode=embed" title="Testing D3 force layout" frameborder="0" ></iframe>
+
 Complaints filed against police officers by the public are often the first and only warning sign that a cop might be on a course of escalating violence. 
 
 In the deaths of George Floyd and Eric Garner their killers had a documented history of complaints filed against them. Unfortunately nothing was done to disrupt their pattern of abuse, and both cases ended in those officers killing members of the public they had sworn to protect. 

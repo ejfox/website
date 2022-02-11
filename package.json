@@ -67,7 +67,7 @@
     "eslint-webpack-plugin": "^2.5.0",
     "glob": "^7.1.6",
     "highlights-scraper": "0.0.10",
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.0",
     "prettier": "^2.3.0",
     "processmd": "^4.6.0",
     "sass-loader": "^10",

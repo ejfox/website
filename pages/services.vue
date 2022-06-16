@@ -13,13 +13,12 @@
         cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
-        I make responsive infographics quickly. I started my career making
-        static infographics in Illustrator, and after a decade of client work it
-        still brings me a lot of pleasure. These static graphics are used to add
-        context to a written piece, and I love partnering with journalists to
-        help them tell their story. I like every step of the process, from
-        scraping and data gathering, exploratory analysis and visualization to
-        creating a beautiful responsive final product.
+        Infographics and data visualization are the perfect way to add context
+        to your written content. I have over 10 years of experience crafting
+        static infographics in Illustrator, and I am passionate about helping
+        journalists and start-ups tell their stories. I offer a complete suite
+        of services, from data scraping and analysis to visualization and
+        responsive design, all tailored to your specific needs.
       </p>
 
       <p class="f6 sans-serif">
@@ -68,9 +67,9 @@
       />
 
       <p>
-        I primarily use QGIS, Mapbox, and Cinema 4D to create maps for both
-        personal projects and commissioned work. I enjoy making maps with
-        election data, and exploring alternatives to choropleths.
+        I love creating maps that are both aesthetically pleasing and
+        informative. I specialize in making maps with election data, and I am
+        always exploring new ways to visualize data.
       </p>
     </section>
     <section class="measure v-top mv4 pr2">
@@ -80,11 +79,9 @@
         cssClass="w-100 mt3 mb3 db center br2"
       />
       <p>
-        I pride myself in getting up to speed in new systems and making things
-        exist quickly. These prototypes might be little scripts, Observable
-        notebooks, or pitch decks. But I pride myself in creating focused and
-        comprehensive minimum viable products from design and documentation to
-        code.
+        I am quick to adapt to new systems and I excel at creating prototypes. I
+        have a lot of experience creating minimum viable products that are
+        focused and comprehensive, from design and documentation to code.
       </p>
       <p class="f6 sans-serif">
         <a href="https://delphi.cmu.edu/covidcast/">CMU: CovidCast</a>, CBS:
@@ -141,19 +138,18 @@
     <hr class="mv5" />
 
     <p class="measure pt4">
-      I call myself a <strong>hacker-journalist</strong>. I am a
-      <strong>hacker</strong> in the sense that much of my time is spent
-      convincing various computers to do my bidding, and I am a
-      <strong>journalist</strong> in the sense that my bidding is often to
-      discover, explore, or tell truthful stories about the world. Not all of my
-      work pulls from these backgrounds equally, and there are times where I am
-      mostly journalist or mostly hacker.
+      I am a hacker-journalist. I spend much of my time convincing various
+      computers to do my bidding, which is often to discover, explore, or tell
+      truthful stories about the world. I have a background in journalism and
+      computer science, and I use both skillsets to create powerful and
+      compelling visualizations.
     </p>
 
     <p class="measure">
-      My favorite moments are when someone says "I am not sure this is possible,
-      but..." and then I can dive into the puzzle of unlocking the thing they
-      don't totally believe can be done.
+      I love a challenge. When someone comes to me with an idea that they're not
+      sure is possible, I am excited to dive into the puzzle of making it
+      happen. My favorite moments are when I can turn something that someone
+      thought was impossible into a reality.
     </p>
 
     <p class="measure">
@@ -163,19 +159,20 @@
     </p>
 
     <p class="measure">
-      A lot of people hire me to take an idea they have and make it exist with
-      code. Because of this, and because every project is different, I find
-      myself working up and down the stack, depending on the team and
-      infrastructure I am working with. I am comfortable spinning up my own
-      servers or SSH'ing into yours. I am comfortable hand-coding my own static
-      webpages from scratch, or hacking your CMS to get everything working
-      perfectly.
+      A lot of people hire me to take an idea they have and make it a reality
+      with code. As a result, I have a lot of experience working up and down the
+      stack, depending on the team and infrastructure I am working with. I am
+      comfortable hand-coding my own static webpages from scratch, or hacking
+      your CMS to get everything working perfectly. My benefit is my
+      versatility. I am always up for a challenge, and I enjoy the process of
+      making something exist.
     </p>
 
     <p class="measure">
-      I like working with teams of all sizes and disciplines. I really enjoy the
-      process of learning new things and working with unique and diverse
-      collaborators.
+      I enjoy working with teams of all sizes and disciplines. I am always keen
+      to learn new things, and I love working with unique and diverse
+      collaborators. No two projects are the same, but I believe that respectful
+      and open communication is key to a successful project no matter what.
     </p>
   </section>
 </template>

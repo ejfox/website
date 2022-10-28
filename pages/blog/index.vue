@@ -1,78 +1,103 @@
 <template>
-  <section class="pl1 pl4-ns db f3 cf mb4">
-    <section class="category pv3 db cf">
-      <ul class="fl-ns w-two-thirds-l db list">
-        <li
-          v-for="(post, i) in posts.filter((d) => d.type === 'words')"
-          :key="post._path"
-          class="pv3"
-        >
-          <nuxt-link
-            :to="post._path"
-            :class="[post.type, 'ttc link underline dim near-black lh-solid']"
+  <main class="pt4 ma0">
+    <Head>
+      <Title>EJ Fox: 📝 Blog</Title>
+    </Head>
+    <ContentQuery path="/blog/" :sort="{ date: -1 }" v-slot="{ data }">
+      <div
+        v-for="article in data"
+        :key="article._path"
+        class="article bg-white w-100 w-50-l dib v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden bb b--light-gray"
+      >
+        <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
+        <ContentQuery :path="article._path" v-slot="{ data }" find="one">
+          <!-- {{Object.keys(data[0])}} -->
+
+          <small class="mv0 pv0 gray fw7">{{
+            formatDate(new Date(article.date))
+          }}</small>
+
+          <NuxtLink
+            :to="article._path"
+            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif"
+            >{{ article.title }}</NuxtLink
           >
-            {{ post.title }}
-          </nuxt-link>
 
-          <div class="f6 w-two-thirds light-silver lh-copy pv2 mv0">
-            <span>{{post.dek}}</span>
+          <div class="gray f6">
+            <div v-if="article.dek" class="dek fw3">{{ article.dek }}</div>
+            <div v-else="article.description" class="dek">
+              {{ article.description }}
+            </div>
+            <!-- <div class="strong-tags f7 fw1 moon-gray mv1" v-if="filterStrongTags(article).length > 0">
+              <span v-for="tag in filterStrongTags(article)" :key="tag"
+                class="tag dib mr2 mb2 ph1 pv1 bg-near-white">{{tag}}</span>
+            </div> -->
+
+            <div class="reading-time moon-gray mv1 fw1 pr2">
+              <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
+                {{ data?.readingTime.text }}
+              </span>
+
+              <span class="dib pr2" v-if="countPhotos(article) > 2"
+                >{{ countPhotos(article) }} photos</span
+              >
+            </div>
           </div>
-
-          <span :class="['post-date tracked f6 db light-silver no-underline pb2 mv0']"
-            ><strong>{{ post.date | moment('from', 'now') }}</strong> /
-            <span class="ttu">{{ post.date | moment('Y.MM') }}</span>          
-          </span>
-        </li>
-      </ul>
-    </section>
-  </section>
+        </ContentQuery>
+      </div>
+    </ContentQuery>
+  </main>
 </template>
+<script setup lang="ts">
+import { countPhotos, filterStrongTags } from "~/helpers";
+import anime from "animejs/lib/anime.es.js";
+import { timeFormat } from "d3-time-format";
 
-<script>
-import Nav from '~/components/Nav.vue'
-import Footer from '~/components/Footer.vue'
+definePageMeta({
+  documentDriven: false,
+  pageTransition: false,
+});
 
-export default {
-  scrollToTop: true,
-  components: {
-    Nav,
-    Footer,
-  },
-  methods: {
-  },
-  data() {
-    // Using webpacks context to gather all files from a folder
-    const context = require.context('~/content/blog/posts/', false, /\.json$/)
+const formatDate = timeFormat("%B %d, %Y");
 
-    let posts = context.keys().map((key) => ({
-      ...context(key),
-      _path: `/blog/${key.replace('.json', '').replace('./', '')}`,
-    }))
-
-    posts = posts.sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date)
-    })
-    posts = posts.filter((post) => !post.hidden)
-
-    const context2 = require.context('~/content/photos/', false, /\.json$/)
-
-    let photos = context2.keys().map((key) => ({
-      ...context2(key),
-      _path: `/photos/${key.replace('.json', '').replace('./', '')}`,
-    }))
-
-    return { posts, photos }
-  },
-}
+onMounted(() => {
+  // use anime to animate the articles in
+  nextTick(() => {
+    // wait 100ms for the page to render
+    anime({
+      targets: ".article",
+      opacity: [0, 1],
+      translateX: ["-22vw", 0],
+      easing: "easeOutQuad",
+      duration: 620,
+      delay: anime.stagger(220),
+    });
+  });
+});
 </script>
-
-<style scoped>
-ul {
-  padding: 0;
+<style>
+.headline-sans-serif {
+  font-family: "Fjalla One", sans-serif;
 }
-/* li { list-style-type: none } */
 
-a:visited {
-  color: #999 !important;
+.footnotes ul,
+.footnotes ol {
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 60em) {
+  .footnotes ul,
+  .footnotes ol {
+    margin-left: 8rem;
+  }
+}
+
+.footnotes li {
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 </style>

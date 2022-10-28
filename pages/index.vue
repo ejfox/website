@@ -1,35 +1,13 @@
 <template>
-  <section class="pa3 pa4-ns db cf mb4">
-    <section class="intro pt2 measure-narrow f3 lh-copy tj">
-      <p class="pv2">
-        Hi there! I'm <strong>EJ Fox</strong>, a freelance journalist and data
-        visualization expert. I love finding new and interesting ways to look at
-        the world, especially when it comes to understanding complex systems and
-        large datasets. If you're looking for someone who can provide insights
-        and perspectives that you may have missed, get in touch at
-        <a href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
-      </p>
-
-      <p class="tl pv2">
-        Take a look at
-        <nuxt-link to="/projects"> some of my work </nuxt-link> or
-        <a href="/resume.pdf">my resume</a>.
-      </p>
-
-      <p class="lh-copy pv2 tj">
-        Sometimes I take
-        <nuxt-link to="/photo/">photos</nuxt-link>, <br />
-        make <nuxt-link to="/audio/">sounds</nuxt-link> <br />
-        or <nuxt-link to="/art/">art</nuxt-link>.
-      </p>
+  <section class="db cf mb4">
+    <section class="intro pa2 pl4-ns lh-copy f4 measure">
+      <ContentDoc />
     </section>
-
-    <Footer class="mt4 pt4 bt b--black-20 f4" />
 
     <div id="hcard-EJ-Fox" class="vcard w-100 f6 tc dn">
       <img
         src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7"
-        alt="Gravatar photo of EJ Fox"
+        alt="Photo of EJ Fox"
         class="photo dn"
       />
       <div><a class="url fn db" href="https://ejfox.com">EJ Fox</a></div>
@@ -45,21 +23,28 @@
     </div>
   </section>
 </template>
+<script setup>
+import anime from "animejs/lib/anime.es.js";
+onMounted(() => {
+  // use anime to animate the intro text
+  anime({
+    targets: ".intro p",
+    translateX: ["-100%", 0],
+    easing: "easeInQuad",
+    duration: 1200,
+    delay: 100
+  });
 
-<script>
-import Nav from '~/components/Nav.vue'
-import Footer from '~/components/Footer.vue'
-
-export default {
-  components: {
-    Nav,
-    Footer,
-  },
-  methods: {},
-}
+  anime({
+    targets: ".intro p",
+    opacity: [0, 1],
+    easing: "easeOutQuad",
+    duration: 1300,
+  });
+});
 </script>
 
-<style scoped>
+<style>
 ul {
   padding: 0;
 }
@@ -75,5 +60,11 @@ ul {
 .intro a:focus {
   color: #414346;
   /*text-decoration: none;*/
+}
+
+.intro p {
+  margin-left: 0 !important;
+  max-width: 24rem;
+  text-align: justify;
 }
 </style>

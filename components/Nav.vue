@@ -87,6 +87,7 @@ nav a {
 }
 
 .router-link-active {
-  color: red;
+  /* color: red; */
+  color: #E7040F
 }
 </style>

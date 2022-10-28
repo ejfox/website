@@ -192,6 +192,7 @@ const ogImageUrl = computed(() => {
 </script>
 <style>
 strong {
-  color: red;
+  /* color: red; */
+  color: #E7040F;
 }
 </style>

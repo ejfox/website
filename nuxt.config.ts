@@ -4,6 +4,9 @@ export default {
       bodyAttrs: {
         class: "ma0 pa0",
       },
+      htmlAttrs: {
+        lang: 'en'
+      },
       charset: "utf-16",
       title: "EJ Fox",
       meta: [

@@ -41,6 +41,11 @@ export default {
       ],
     },
   },
+  nitro: {
+    prerender: {
+      routes: ['/rss.xml']
+    }
+  },
   modules: [
     "@nuxt/content",
     "@nuxtjs/google-fonts",

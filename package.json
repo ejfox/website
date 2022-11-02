@@ -29,6 +29,7 @@
     "remark-reading-time": "^2.0.1",
     "remark-slug": "^7.0.1",
     "remark-unwrap-images": "^3.0.1",
+    "rss": "^1.2.2",
     "scrollama": "^3.2.0",
     "slugify": "^1.6.5",
     "tachyons": "4.12.0"

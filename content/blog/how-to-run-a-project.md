@@ -13,6 +13,9 @@ I have gathered my favorite systems and frameworks for organizing a team around 
 
 Teams are almost always changing, and the systems that worked at the beginning of a project or team might not work when other variables change. Staying nimble, and deeply aware of the ✨vibes✨ is crucial to creating a good shared collaborative space, virtual or physical, and making dope work. 
 
+::table-of-contents
+::
+
 ## Cooking metaphors
 
 ### Make sure you have all of your ingredients 

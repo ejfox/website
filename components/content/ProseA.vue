@@ -26,26 +26,6 @@ const remappedWikiLink = computed(() => {
   }
 });
 
-// if it is a wikilink, grab the content for the page based on the slug, we will use this to get the title of the page from the markdown
-// const wikilinkTargetPage = computed(() => {
-// make async
-// const wikilinkTargetPage = computed(async () => {
-//   if (isWikilink.value) {
-//     const slug = props.href.split("/").pop();
-//     // const page = $content("blog", slug).fetch();
-//     // instead use queryContent like: 
-//     //   return queryContent('/').where({ director: { $in: ['Hayao Miyazaki', 'Yoshifumi Kondō'] } }).find()
-//     // find where _path is 'blog/${slug}'
-//       const page = await queryContent('/').where({ _path: `blog/lack-of-data` }).find()
-//       .then((page) => {
-//         console.log('page ->', page)
-//         return page
-//       })
-
-//       return page
-//   }
-// });
-
 const wikilinkTargetPage = ref(null)
 const slug = computed(() => {
   const slug = props.href.split("/").pop();

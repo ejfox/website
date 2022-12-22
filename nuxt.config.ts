@@ -8,7 +8,7 @@ export default {
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer',UA-319549-1);`,
+        })(window,document,'script','dataLayer','UA-319549-1');`,
           type: 'text/javascript'
         }
       ],
@@ -52,32 +52,17 @@ export default {
       ],
     },
   },
-  nitro: {
-    prerender: {
-      routes: ['/rss.xml']
-    }
-  },
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/google-fonts",
-    "@vueuse/nuxt",
-    "nuxt-icon",
-  ],
-  css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],
-  pageTransition: {
-    name: "page",
-    mode: "out-in",
-    // mode: 'in-out'
-  },
   content: {
     documentDriven: true,
     markdown: {
       remarkPlugins: [
+        // "~/plugins/remark/wikilinks.js",
+        "remark-wiki-link",
         "remark-reading-time",
         "remark-gfm",
         "remark-emoji",
         "remark-unwrap-images",
-      ],
+      ]
     },
     highlight: {
       preload: ["sql"],
@@ -96,6 +81,42 @@ export default {
       },
     },
   },
+  nitro: {
+    prerender: {
+      routes: ['/rss.xml']
+    }
+  },
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/google-fonts",
+    "@vueuse/nuxt",
+    "nuxt-icon",
+  ],
+  css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],
+  pageTransition: {
+    name: "page",
+    mode: "out-in",
+    // mode: 'in-out'
+  },
+  googleFonts: {
+    prefetch: true,
+    families: {
+      "Signika Negative": [300, 400, 500, 600, 700],
+      "Paytone One": [400],
+      "Fjalla One": [400],
+      // Finlandica: [400, 500, 700],
+    },
+  },
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
+  },
+};
+
+
   // unocss: {
   //   // presets
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -126,20 +147,3 @@ export default {
   //   //   ['link', { color: 'inherit', 'text-decoration': 'none' }],
   //   // ],
   // },
-  googleFonts: {
-    prefetch: true,
-    families: {
-      "Signika Negative": [300, 400, 500, 600, 700],
-      "Paytone One": [400],
-      "Fjalla One": [400],
-      // Finlandica: [400, 500, 700],
-    },
-  },
-  vite: {
-    server: {
-      watch: {
-        usePolling: true,
-      },
-    },
-  },
-};

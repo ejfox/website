@@ -12,8 +12,6 @@ const props = defineProps({
 
 // check if the link looks like #/page/${slug} or has the class "internal" which means it is a wikilink
 const isWikilink = computed(() => {
-  // return true
-  console.log(props.href, props.href.startsWith("#/page/"), props.href.startsWith("blog/test#/page/"))
   if (props.href.startsWith("#/page/")) return true;
   if (props.href.startsWith("blog/test#/page/")) return true;
 

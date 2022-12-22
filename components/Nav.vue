@@ -42,6 +42,10 @@
 // import { scaleLinear } from 'd3'
 import anime from "animejs/lib/anime.es.js";
 
+// definePageMeta({
+//   keepAlive: true,
+// });
+
 onMounted(() => {
   // use anime to animate the intro text
   anime({
@@ -65,10 +69,6 @@ onMounted(() => {
     direction: "alternate",
     // delay: 2500
   });
-});
-
-definePageMeta({
-  keepAlive: true,
 });
 </script>
 <style>

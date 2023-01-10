@@ -4,7 +4,10 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' ~/Library/Mobile\\ Documents/iCloud\\~md\\~obsidian/Documents/EJ\\'s\\ Notes/ ~/code/website/content/blog/",
+    "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' ~/Library/Mobile\\ Documents/iCloud\\~md\\~obsidian/Documents/EJ\\'s\\ Notes/reading/ ~/code/website/content/reading/",
+    "content:all": "npm run content:blog && npm run content:reading && git add \\*.md"
   },
   "devDependencies": {
     "@nuxt/content": "^2.3.0",

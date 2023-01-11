@@ -1,7 +1,6 @@
 <template>
   <div id="app-container" class="sans-serif w-100">
     <Nav
-      class="absolute mv4 mh0 w-100 overflow-hidden z-4 left-0 left-1-l top-0 pa1"
     />
 
     <div

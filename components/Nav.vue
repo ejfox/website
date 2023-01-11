@@ -1,21 +1,10 @@
 <template>
-  <nav class="">
-    <ul class="list ma0 pa1">
-      <li class="pa2 db fl fw8 link red bg-white mr2 tracked">
-        <!-- little red circle in html -->
-        <!-- <span class="dib w1 h1 br-100 bg-red v-bottom"></span> -->
-        <!-- little red circle in svg -->
-        <svg
-          id="nav-circle-svg"
-          class="dib w1 h1 v-bottom pr2"
-          viewBox="0 0 100 100"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="50" cy="50" r="5" id="nav-circle" />
-        </svg>
-
+  <nav class="mt4">
+    <ul class="list ma0 pa0 ml6 w-100 db cf">
+      <li class="pv2 db fl fw8 link red bg-white mr2 tracked mr4">
         <span class="dib v-top">EJ Fox</span>
       </li>
+
       <NuxtLink
         class="pa2 db fl fw4 link bg-white black mr2 pointer"
         tag="li"
@@ -39,12 +28,7 @@
   </nav>
 </template>
 <script setup>
-// import { scaleLinear } from 'd3'
 import anime from "animejs/lib/anime.es.js";
-
-// definePageMeta({
-//   keepAlive: true,
-// });
 
 onMounted(() => {
   // use anime to animate the intro text
@@ -56,18 +40,6 @@ onMounted(() => {
     easing: "easeOutQuad",
     duration: 550,
     delay: anime.stagger(170),
-  });
-
-  // make a loop where the red circle radius grows and shrinks
-  anime({
-    targets: "#nav-circle",
-    fill: ["#ccc", "#999"],
-    r: [45, 5],
-    easing: "easeInOutCubic",
-    duration: 4200,
-    loop: true,
-    direction: "alternate",
-    // delay: 2500
   });
 });
 </script>
@@ -88,6 +60,7 @@ nav a {
 
 .router-link-active {
   /* color: red; */
-  color: #E7040F
+  /* color: #E7040F */
+  font-weight: 800;
 }
 </style>

@@ -92,9 +92,14 @@ const isInternalLink = computed(() => {
     ]"
     :title="targetPageData ? `${targetPageData.readingTime.words} words / ${targetPageData.readingTime.text}` : ''"
   >
-    <span v-if="isWikilink && targetPageData"
+    <span v-if="isWikilink"
     class="internal-link">
+    <span v-if="targetPageData">
       {{ targetPageData.title }}
+      </span>
+      <span v-else>
+        <slot />
+      </span>
   </span>
   <span v-else>
   <slot />

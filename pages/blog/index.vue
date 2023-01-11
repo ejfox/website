@@ -12,11 +12,12 @@
           <!-- {{Object.keys(data[0])}} -->
 
           <small class="mv0 pv0 gray fw7">{{
-              formatDate(new Date(article.date))
+            formatDate(new Date(article.date))
           }}</small>
 
           <NuxtLink :to="article._path"
-            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif mv0">{{ article.title
+            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif mv0">{{
+              article.title
             }}</NuxtLink>
 
           <div class="reading-time moon-gray mb2 fw1 pr2">
@@ -27,23 +28,24 @@
             <span class="dib pr2" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
           </div>
 
-          <div class="gray f6">
-            <!-- <pre>{{ article.body.toc }}</pre> -->
-            <div class="article-toc" v-if="article.body.toc.links.length">
-              <ul class="list w-100 f5 fr ml2 ml5-ns">
-                <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray">
-                  <a :href="`${article._path}#${link.id}`" class="link gray
-                  ">
-                  {{ link.text }}</a>
-                </li>
-              </ul>
-            </div>
-            <div v-else>
-              <div v-if="article.dek" class="dek fw3">{{ article.dek }}</div>
+          <div class="fw3">
+              <div v-if="article.dek" class="dek">{{ article.dek }}</div>
               <div v-else="article.description" class="dek">
                 {{ article.description }}
               </div>
             </div>
+
+          <div class="gray f6">
+            <div class="article-toc">
+              <ul class="list w-100 f5 fr ml2 ml5-ns">
+                <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray">
+                  <a :href="`${article._path}#${link.id}`" class="link gray
+                  ">
+                    {{ link.text }}</a>
+                </li>
+              </ul>
+            </div>
+            
           </div>
         </ContentQuery>
       </div>

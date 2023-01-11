@@ -4,7 +4,7 @@
     <Head>
       <Title>EJ Fox: 📝 Blog</Title>
     </Head>
-    <ContentQuery path="/blog/" :sort="{ date: -1 }" v-slot="{ data }">
+    <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
       <div v-for="article in data" :key="article._path"
         class="article bg-white w-100 w-50-l dib v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden bb b--light-gray">
         <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->

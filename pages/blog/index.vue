@@ -4,9 +4,12 @@
     <Head>
       <Title>EJ Fox: 📝 Blog</Title>
     </Head>
-    <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
-      <div v-for="article in data" :key="article._path"
-        :class="['article bg-white w-100 w-50-l v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden bb b--light-gray', article.hidden ? 'dn' : 'dib']">
+    <ContentQuery path="/blog/"
+    :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
+      <article
+      v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path"
+      :class="['article bg-white w-100 w-50-ns v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden ba b--red bw2', article.hidden ? 'dn' : 'dib']">
+      <div       >
         <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
         <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">
           <!-- {{Object.keys(data[0])}} -->
@@ -49,12 +52,13 @@
           </div>
         </ContentQuery>
       </div>
+      </article>
     </ContentQuery>
   </main>
 </template>
 <script setup lang="ts">
 import { countPhotos, filterStrongTags } from "~/helpers";
-import anime from "animejs/lib/anime.es.js";
+// import anime from "animejs/lib/anime.es.js";
 import { timeFormat } from "d3-time-format";
 
 definePageMeta({
@@ -64,18 +68,36 @@ definePageMeta({
 
 const formatDate = timeFormat("%B %d, %Y");
 
+/* take in some articles loaded through content and filter them- they must have a `date` property, and if they are `hidden: true` we should remove them */
+const blogIndexFilter = (articles) => {
+  return articles.filter((article) => {
+    return article.date && !article.hidden;
+  });
+};
+
+/* take in some articles loaded through content and sort them by date, some articles also have a `modified` date that should be used so that articles modified most recently are at the top - not all articles have `modified` properties, but all articles should have `date` properties */
+const blogIndexSort = (articles) => {
+  return articles.sort((a, b) => {
+    if (a.modified && b.modified) {
+      return new Date(b.modified) - new Date(a.modified);
+    } else {
+      return new Date(b.date) - new Date(a.date);
+    }
+  });
+};
+
 onMounted(() => {
   // use anime to animate the articles in
   nextTick(() => {
     // wait 100ms for the page to render
-    anime({
-      targets: ".article",
-      opacity: [0, 1],
-      translateX: ["-22vw", 0],
-      easing: "easeOutQuad",
-      duration: 620,
-      delay: anime.stagger(220),
-    });
+    // anime({
+    //   targets: ".article",
+    //   opacity: [0, 1],
+    //   translateX: ["-22vw", 0],
+    //   easing: "easeOutQuad",
+    //   duration: 620,
+    //   delay: anime.stagger(220),
+    // });
   });
 });
 </script>

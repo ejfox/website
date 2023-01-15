@@ -1,6 +1,6 @@
 <template>
   <nav class="mt4">
-    <ul class="list ma0 pa0 ml6 db cf w-50">
+    <ul class="list ma0 pa0 ml2 ml6-l db cf w-50">
       <li class="pv2 db fl fw8 link bg-white mr2 tracked mr4">
         <span class="dib v-top">EJ Fox</span>
       </li>
@@ -32,15 +32,15 @@ import anime from "animejs/lib/anime.es.js";
 
 onMounted(() => {
   // use anime to animate the intro text
-  anime({
-    targets: "nav a",
-    opacity: [0, 1],
-    translateX: ["-400%", 0],
-    backgroundColor: ["#fff", "rgba(255,255,255,0."],
-    easing: "easeOutQuad",
-    duration: 550,
-    delay: anime.stagger(170),
-  });
+  // anime({
+  //   targets: "nav a",
+  //   opacity: [0, 1],
+  //   translateX: ["-400%", 0],
+  //   backgroundColor: ["#fff", "rgba(255,255,255,0."],
+  //   easing: "easeOutQuad",
+  //   duration: 550,
+  //   delay: anime.stagger(170),
+  // });
 });
 </script>
 <style>

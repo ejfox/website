@@ -37,7 +37,7 @@
               This post is in progress, and updates are expected
             </span>
 
-            <span class="mr4 word-nowrap dib moon-gray" title="Date created">
+            <span class="mr4 word-nowrap dib moon-gray" v-if="doc.date" title="Date created">
               <Icon name="ant-design:calendar-outlined" class="mr1 f6 pb1" />
               {{ formatBlogDate(new Date(doc.date)) }}
             </span>
@@ -50,7 +50,7 @@
               <Icon name="bi:card-text" class="mr1 f6 pb1" />
               {{ doc.readingTime.words }} words
             </span>
-            <span class="mr4 word-nowrap dib">
+            <span class="mr4 word-nowrap dib" v-if="doc.readingTime.text !== '1 min read'">
               <Icon name="bi:clock-history" class="mr1 f6 pb1" />
               {{ doc.readingTime.text }}
             </span>

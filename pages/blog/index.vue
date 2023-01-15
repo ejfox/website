@@ -8,7 +8,7 @@
     :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
       <article
       v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path"
-      :class="['article bg-white w-100 w-50-ns v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden ba b--red bw2', article.hidden ? 'dn' : 'dib']">
+      :class="['article bg-white w-100 w-50-ns v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden', article.hidden ? 'dn' : 'dib']">
       <div       >
         <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
         <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">

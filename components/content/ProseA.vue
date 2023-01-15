@@ -26,39 +26,23 @@ const remappedWikiLink = computed(() => {
   }
 });
 
-// if it is a wikilink, grab the content for the page based on the slug, we will use this to get the title of the page from the markdown
-// const wikilinkTargetPage = computed(() => {
-// make async
-// const wikilinkTargetPage = computed(async () => {
-//   if (isWikilink.value) {
-//     const slug = props.href.split("/").pop();
-//     // const page = $content("blog", slug).fetch();
-//     // instead use queryContent like: 
-//     //   return queryContent('/').where({ director: { $in: ['Hayao Miyazaki', 'Yoshifumi Kondō'] } }).find()
-//     // find where _path is 'blog/${slug}'
-//       const page = await queryContent('/').where({ _path: `blog/lack-of-data` }).find()
-//       .then((page) => {
-//         console.log('page ->', page)
-//         return page
-//       })
 
-//       return page
-//   }
-// });
-
-const wikilinkTargetPage = ref(null)
 const slug = computed(() => {
   const slug = props.href.split("/").pop();
+  // console.log(props.href, '-->', 'slug', slug)
   return slug
 })
 // if it is a wikilink, grab the content for the page based on the slug, we will use this to get the title of the page from the markdown
-const { data: targetPageData } = await useAsyncData(`content-${slug}`, () =>{
+const { data: targetPageData } = await useAsyncData(`content-${slug.value}`, () =>{
     return queryContent()
     // .where({_path: `/blog/${slug}`})
     .where({_path: `/blog/${slug.value}`})
     // .only(['_slug', 'title'])
     .findOne()
   })
+
+// console.log(targetPageData.value)
+
 
 // check if the href is linking to wikipedia, github, youtube, or twitter, and if so, add the social icon
 const isSocial = computed(() => {
@@ -99,9 +83,9 @@ const isInternalLink = computed(() => {
   if (props.href.startsWith("https://ejfox.com")) return true;
   else return false;
 });
-
-// check if the href is linking to a file, and if so, add the file icon
 </script>
+
+
 
 <template>
   <NuxtLink
@@ -114,7 +98,9 @@ const isInternalLink = computed(() => {
   >
     <span v-if="isWikilink && targetPageData"
     class="internal-link">
+    <span v-if="targetPageData">
       {{ targetPageData.title }}
+      </span>
   </span>
   <span v-else>
   <slot />
@@ -143,12 +129,6 @@ const isInternalLink = computed(() => {
     <sup v-if="socialPlatform === 'email'">
       <Icon name="ic:baseline-email" class="ml1" />
     </sup>
-    <!-- <sub v-if="isWikilink">
-      <Icon name="ph:graph-bold" class="" />
-    </sub> -->
-    <!-- <small v-if="isInternalLink">
-      <Icon name="ic:baseline-open-in-new" class="ml1" />
-    </small> -->
   </NuxtLink>
 </template>
 <style>
@@ -175,10 +155,10 @@ sup {
   -webkit-text-fill-color: transparent;
   
   background-size: 400% 400%;
-  -webkit-animation: change 32s ease-in-out infinite;
-  -moz-animation: change 32s ease-in-out infinite;
-  -o-animation: change 32s ease-in-out infinite;
-  animation: change 32s ease-in-out infinite;
+  -webkit-animation: change 38s ease-in-out infinite;
+  -moz-animation: change 38s ease-in-out infinite;
+  -o-animation: change 38s ease-in-out infinite;
+  animation: change 38s ease-in-out infinite;
 }
 
 @-webkit-keyframes change {

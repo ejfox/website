@@ -16,3 +16,4 @@ static/.DS_Store
 # .env file
 .env
 *.obsidian
+.output

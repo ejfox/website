@@ -1,6 +1,6 @@
 <template>
-  <section class="db cf mb4">
-    <section class="intro pa2 pl4-ns lh-copy f4 measure">
+  <section class="db mb4">
+    <section class="intro lh-copy f3 measure ml0 ml6-ns ph3">
       <ContentDoc />
     </section>
 
@@ -27,20 +27,20 @@
 import anime from "animejs/lib/anime.es.js";
 onMounted(() => {
   // use anime to animate the intro text
-  anime({
-    targets: ".intro p",
-    translateX: ["-100%", 0],
-    easing: "easeInQuad",
-    duration: 1200,
-    delay: 100
-  });
+  // anime({
+  //   targets: ".intro p",
+  //   translateX: ["-100%", 0],
+  //   easing: "easeInQuad",
+  //   duration: 1200,
+  //   delay: 100
+  // });
 
-  anime({
-    targets: ".intro p",
-    opacity: [0, 1],
-    easing: "easeOutQuad",
-    duration: 1300,
-  });
+  // anime({
+  //   targets: ".intro p",
+  //   opacity: [0, 1],
+  //   easing: "easeOutQuad",
+  //   duration: 1300,
+  // });
 });
 </script>
 
@@ -63,6 +63,8 @@ ul {
 }
 
 .intro p {
+  /* color: purple; */
+  display: block;
   margin-left: 0 !important;
   max-width: 24rem;
   text-align: justify;

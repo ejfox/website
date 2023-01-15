@@ -3,7 +3,7 @@
     <Head>
       <Title>EJ Fox: Projects</Title>
     </Head>
-    <table id="projects" class="w-100 collapse f3" ref="projectRoot">
+    <table id="projects" class="w-100 collapse f3 pa1" ref="projectRoot">
       <!-- projects have Client, Project Name, Role, Year, and URL-->
       <tr
         v-for="(project, index) in data.body"
@@ -141,14 +141,14 @@ function processProjectCloudinaryUrl(cloudinaryUrl) {
 }
 
 function animateProjects() {
-  anime({
-    targets: "#projects tr",
-    opacity: [0, 1],
-    // translateY: [10, 0],
-    easing: "easeInOutQuad",
-    duration: animationDuration,
-    delay: anime.stagger(animationDuration / 2.5),
-  });
+  // anime({
+  //   targets: "#projects tr",
+  //   opacity: [0, 1],
+  //   // translateY: [10, 0],
+  //   easing: "easeInOutQuad",
+  //   duration: animationDuration,
+  //   delay: anime.stagger(animationDuration / 2.5),
+  // });
 }
 
 onMounted(() => {
@@ -234,7 +234,7 @@ td {
 
 .screenshot-bg:hover .wrapper-div {
   /* background-color: rgba(0, 0, 0, .2); */
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* projects in the viewport get an active class from intersection observer */
@@ -242,11 +242,11 @@ td {
 .screenshot-row td .wrapper-div {
   min-height: 36vh;
   /* background-color: rgba(0, 0, 0, .5);   */
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.98);
 }
 
 .active-project .wrapper-div {
-  background-color: rgba(255, 255, 255, 0.45) !important;
+  background-color: rgba(255, 255, 255, 0.25) !important;
 }
 
 .active-project td {
@@ -255,7 +255,7 @@ td {
 
 td .wrapper-div {
   /* min-height: 22vh; */
-  min-height: 360px;
+  /* min-height: 360px; */
 }
 
 .screenshot-row {

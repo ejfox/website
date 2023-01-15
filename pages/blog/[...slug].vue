@@ -1,16 +1,12 @@
 <template>
   <main>
+
     <Head>
-      <Title>{{ page.title }}</Title>
-      <Meta
-        name="description"
-        :content="page.dek ? page.dek : page.description"
-      />
-      <Meta property="og:title" :content="`EJ Fox: 📝 ${page.title}`" />
-      <Meta
-        property="og:description"
-        :content="`${page.dek ? page.dek : page.description}`"
-      />
+      <Title v-if="page">{{ page.title }}</Title>
+      <Title v-else>EJ Fox</Title>
+      <Meta v-if="page" name="description" :content="page.dek ? page.dek : page.description" />
+      <Meta v-if="page" property="og:title" :content="`EJ Fox: 📝 ${page.title}`" />
+      <Meta v-if="page" property="og:description" :content="`${page.dek ? page.dek : page.description}`" />
       <Meta property="og:image" :content="ogImageUrl" />
       <Meta property="og:url" content="https://ejfox.com" />
       <Meta property="og:type" content="website" />
@@ -19,11 +15,8 @@
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:site" content="@mrejfox" />
       <Meta name="twitter:creator" content="@mrejfox" />
-      <Meta name="twitter:title" :content="`EJ Fox | ${page.title}`" />
-      <Meta
-        name="twitter:description"
-        :content="`${page.dek ? page.dek : page.description}`"
-      />
+      <Meta name="twitter:title" :content="`EJ Fox | ${page.title}`" v-if="page" />
+      <Meta name="twitter:description" :content="`${page.dek ? page.dek : page.description}`" v-if="page" />
       <Meta name="twitter:image" :content="ogImageUrl" />
     </Head>
 
@@ -33,17 +26,31 @@
 
     <div class="f4 near-black">
       <ContentDoc v-slot="{ doc }" :head="false">
-        <div class="page-metadata pt4 pt6-l ml2 ml6-l">
+
+
+        <div class="page-metadata pt3 ml2 ml6-l">
           <div class="db moon-gray fw1 f6 pv2">
-            <span class="mr4 word-nowrap dib gray">
+
+            <!-- let the user know if the article is in progress or not -->
+            <span v-if="doc.inprogress" class="mr4 word-nowrap dib">
+              <Icon name="bi:exclamation-triangle" class="mr1 f6 pb1" />
+              This post is in progress, and updates are expected
+            </span>
+
+            <span class="mr4 word-nowrap dib moon-gray" v-if="doc.date" title="Date created">
               <Icon name="ant-design:calendar-outlined" class="mr1 f6 pb1" />
               {{ formatBlogDate(new Date(doc.date)) }}
+            </span>
+
+            <span class="mr4 word-nowrap dib gray" v-if="doc.modified" title="Date modified">
+              <Icon name="ic:round-edit-calendar" class="mr1 f6 pb1" />
+              {{ formatBlogDate(new Date(doc.modified)) }}
             </span>
             <span class="mr4 word-nowrap dib" v-if="doc.readingTime.words > 100">
               <Icon name="bi:card-text" class="mr1 f6 pb1" />
               {{ doc.readingTime.words }} words
             </span>
-            <span class="mr4 word-nowrap dib">
+            <span class="mr4 word-nowrap dib" v-if="doc.readingTime.text !== '1 min read'">
               <Icon name="bi:clock-history" class="mr1 f6 pb1" />
               {{ doc.readingTime.text }}
             </span>
@@ -52,34 +59,31 @@
               {{ countPhotos(doc) }} photos
             </span>
 
-            <span class="mr4 word-nowrap dib" v-if="countLinks(doc) > 0">
+            <span class="mr4 word-nowrap dib" v-if="countLinks(doc) > 1">
               <Icon name="bi:link" class="mr1 f6 pb1" />
               {{ countLinks(doc) }} links
             </span>
           </div>
-          <div
-            class="strong-tags f7 fw1 moon-gray mv1 i"
-            v-if="filterStrongTags(doc).length > 0"
-          >
+          <div class="strong-tags f7 fw1 moon-gray mv1 i" v-if="filterStrongTags(doc).length > 0">
             Highlights:
-            <span
-              v-for="tag in filterStrongTags(doc)"
-              :key="tag"
-              class="tag dib mr2 mb2 ph1 pv1 bg-near-white"
-              >{{ tag }}</span
-            >
+            <span v-for="tag in filterStrongTags(doc)" :key="tag" class="tag dib mr2 mb2 ph1 pv1 bg-near-white">{{
+              tag
+              }}</span>
           </div>
         </div>
         <ContentRenderer :value="doc" class="" />
+
+        <!-- <template #not-found>
+          <h1>Document not found</h1>
+        </template> -->
+        <!-- <template #empty>
+          <h1>Document is empty</h1>
+        </template> -->
       </ContentDoc>
     </div>
 
     <div class="cf pv5">
-      <NuxtLink
-        v-if="prev"
-        :to="prev._path"
-        class="pr2 w-40 w-20-ns link gray db absolute left-2 lh-title"
-      >
+      <NuxtLink v-if="prev" :to="prev._path" class="pr2 w-40 w-20-ns link gray db absolute left-2 lh-title">
         <span class="dib">&#8592;</span>
         {{ prev.title }}
         <div class="moon-gray f6 fw1">
@@ -88,11 +92,7 @@
         <!-- <p class="moon-gray fw1 f6 mv0">{{ countWords(prev) }} words</p> -->
       </NuxtLink>
 
-      <NuxtLink
-        v-if="next"
-        :to="next._path"
-        class="pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr"
-      >
+      <NuxtLink v-if="next" :to="next._path" class="pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr">
         {{ next.title }}
         <span class="dib">&#8594;</span>
         <div class="moon-gray f6 fw1 tr">

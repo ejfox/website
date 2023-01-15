@@ -83,7 +83,7 @@ export default {
   },
   nitro: {
     prerender: {
-      routes: ['/rss.xml']
+      routes: ['/rss.xml', '/stats/']
     }
   },
   modules: [

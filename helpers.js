@@ -1,4 +1,5 @@
 export function countWords(article) {
+  // console.log('Counting words in', article)
   const words = article.excerpt.children
     .filter(
       (node) =>

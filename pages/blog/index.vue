@@ -1,56 +1,64 @@
 <template>
   <main class="pt4 ma0">
+
     <Head>
       <Title>EJ Fox: 📝 Blog</Title>
     </Head>
-    <ContentQuery path="/blog/" :sort="{ date: -1 }" v-slot="{ data }">
-      <div
-        v-for="article in data"
-        :key="article._path"
-        class="article bg-white w-100 w-50-l dib v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden bb b--light-gray"
-      >
+    <ContentQuery path="/blog/"
+    :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
+      <article
+      v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path"
+      :class="['index-article article bg-white w-100 w-50-ns v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden', article.hidden ? 'dn' : 'dib']">
+      <div       >
         <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
-        <ContentQuery :path="article._path" v-slot="{ data }" find="one">
+        <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">
           <!-- {{Object.keys(data[0])}} -->
 
           <small class="mv0 pv0 gray fw7">{{
             formatDate(new Date(article.date))
           }}</small>
 
-          <NuxtLink
-            :to="article._path"
-            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif"
-            >{{ article.title }}</NuxtLink
-          >
+          <NuxtLink :to="article._path"
+            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif mv0">{{
+              article.title
+            }}</NuxtLink>
+
+          <div class="reading-time moon-gray mb2 fw1 pr2">
+            <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
+              {{ data?.readingTime.text }}
+            </span>
+
+            <span class="dib pr2" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
+          </div>
+
+          <div class="fw3">
+              <div v-if="article.dek" class="dek">{{ article.dek }}</div>
+              <div v-else="article.description" class="dek">
+                {{ article.description }}
+              </div>
+            </div>
 
           <div class="gray f6">
-            <div v-if="article.dek" class="dek fw3">{{ article.dek }}</div>
-            <div v-else="article.description" class="dek">
-              {{ article.description }}
+            <div class="article-toc">
+              <ul class="list w-100 f5 fr ml2 ml5-ns">
+                <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray">
+                  <a :href="`${article._path}#${link.id}`" class="link gray
+                  ">
+                    {{ link.text }}</a>
+                </li>
+              </ul>
             </div>
-            <!-- <div class="strong-tags f7 fw1 moon-gray mv1" v-if="filterStrongTags(article).length > 0">
-              <span v-for="tag in filterStrongTags(article)" :key="tag"
-                class="tag dib mr2 mb2 ph1 pv1 bg-near-white">{{tag}}</span>
-            </div> -->
-
-            <div class="reading-time moon-gray mv1 fw1 pr2">
-              <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
-                {{ data?.readingTime.text }}
-              </span>
-
-              <span class="dib pr2" v-if="countPhotos(article) > 2"
-                >{{ countPhotos(article) }} photos</span
-              >
-            </div>
+            
           </div>
         </ContentQuery>
       </div>
+      </article>
     </ContentQuery>
   </main>
 </template>
 <script setup lang="ts">
 import { countPhotos, filterStrongTags } from "~/helpers";
-import anime from "animejs/lib/anime.es.js";
+// import anime from "animejs/lib/anime.es.js";
 import { timeFormat } from "d3-time-format";
 
 definePageMeta({
@@ -60,18 +68,36 @@ definePageMeta({
 
 const formatDate = timeFormat("%B %d, %Y");
 
+/* take in some articles loaded through content and filter them- they must have a `date` property, and if they are `hidden: true` we should remove them */
+const blogIndexFilter = (articles) => {
+  return articles.filter((article) => {
+    return article.date && !article.hidden;
+  });
+};
+
+/* take in some articles loaded through content and sort them by date, some articles also have a `modified` date that should be used so that articles modified most recently are at the top - not all articles have `modified` properties, but all articles should have `date` properties */
+const blogIndexSort = (articles) => {
+  return articles.sort((a, b) => {
+    if (a.modified && b.modified) {
+      return new Date(b.modified) - new Date(a.modified);
+    } else {
+      return new Date(b.date) - new Date(a.date);
+    }
+  });
+};
+
 onMounted(() => {
   // use anime to animate the articles in
   nextTick(() => {
     // wait 100ms for the page to render
-    anime({
-      targets: ".article",
-      opacity: [0, 1],
-      translateX: ["-22vw", 0],
-      easing: "easeOutQuad",
-      duration: 620,
-      delay: anime.stagger(220),
-    });
+    // anime({
+    //   targets: ".article",
+    //   opacity: [0, 1],
+    //   translateX: ["-22vw", 0],
+    //   easing: "easeOutQuad",
+    //   duration: 620,
+    //   delay: anime.stagger(220),
+    // });
   });
 });
 </script>
@@ -89,6 +115,7 @@ onMounted(() => {
 }
 
 @media screen and (min-width: 60em) {
+
   .footnotes ul,
   .footnotes ol {
     margin-left: 8rem;
@@ -100,4 +127,8 @@ onMounted(() => {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+.index-article .article-toc ul, .index-article .article-toc ol {
+  margin-left: 0 !important;
+} 
 </style>

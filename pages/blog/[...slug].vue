@@ -15,7 +15,7 @@
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:site" content="@mrejfox" />
       <Meta name="twitter:creator" content="@mrejfox" />
-      <Meta  name="twitter:title" :content="`EJ Fox | ${page.title}`" v-if="page" />
+      <Meta name="twitter:title" :content="`EJ Fox | ${page.title}`" v-if="page" />
       <Meta name="twitter:description" :content="`${page.dek ? page.dek : page.description}`" v-if="page" />
       <Meta name="twitter:image" :content="ogImageUrl" />
     </Head>
@@ -26,8 +26,17 @@
 
     <div class="f4 near-black">
       <ContentDoc v-slot="{ doc }" :head="false">
+
+
         <div class="page-metadata pt3 ml2 ml6-l">
           <div class="db moon-gray fw1 f6 pv2">
+
+            <!-- let the user know if the article is in progress or not -->
+            <span v-if="doc.inprogress" class="mr4 word-nowrap dib">
+              <Icon name="bi:exclamation-triangle" class="mr1 f6 pb1" />
+              This post is in progress, and updates are expected
+            </span>
+
             <span class="mr4 word-nowrap dib moon-gray" title="Date created">
               <Icon name="ant-design:calendar-outlined" class="mr1 f6 pb1" />
               {{ formatBlogDate(new Date(doc.date)) }}
@@ -59,10 +68,17 @@
             Highlights:
             <span v-for="tag in filterStrongTags(doc)" :key="tag" class="tag dib mr2 mb2 ph1 pv1 bg-near-white">{{
               tag
-            }}</span>
+              }}</span>
           </div>
         </div>
         <ContentRenderer :value="doc" class="" />
+
+        <!-- <template #not-found>
+          <h1>Document not found</h1>
+        </template> -->
+        <!-- <template #empty>
+          <h1>Document is empty</h1>
+        </template> -->
       </ContentDoc>
     </div>
 

@@ -1,7 +1,7 @@
 <template>
   <nav class="mt4">
     <ul class="list ma0 pa0 ml6 db cf w-50">
-      <li class="pv2 db fl fw8 link red bg-white mr2 tracked mr4">
+      <li class="pv2 db fl fw8 link bg-white mr2 tracked mr4">
         <span class="dib v-top">EJ Fox</span>
       </li>
 

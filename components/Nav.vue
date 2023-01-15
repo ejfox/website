@@ -1,29 +1,29 @@
 <template>
   <nav class="mt4">
-    <ul class="list ma0 pa0 ml2 ml6-l db cf w-50">
-      <li class="pv2 db fl fw8 link bg-white mr2 tracked mr4">
+    <ul class="list ma0 pa0 ml2 ml6-l db cf w-90 tl-ns w-50-ns">
+      <li class="pv2 db fl-ns fw8 link bg-white mr2 tracked mr4">
         <span class="dib v-top">EJ Fox</span>
       </li>
 
       <NuxtLink
-        class="pa2 db fl fw4 link bg-white black mr2 pointer"
+        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
         tag="li"
         to="/"
         >🏠 Home</NuxtLink
       >
       <NuxtLink
-        class="pa2 db fl fw4 link bg-white black mr2 pointer"
+        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
         tag="li"
         to="/projects"
         >📋 Projects</NuxtLink
       >
       <NuxtLink
-        class="pa2 db fl fw4 link bg-white black mr2 pointer"
+        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
         tag="li"
         to="/blog/"
         >📝 Blog</NuxtLink
       >
-      <!-- <NuxtLink class="pa2 db fl fw4 link black bg-white mr3 mr4-l" tag="li" to="/photos/">Photos</NuxtLink> -->
+      <!-- <NuxtLink class="pa2 db fl-ns fw4 link black bg-white mr3 mr4-l" tag="li" to="/photos/">Photos</NuxtLink> -->
     </ul>
   </nav>
 </template>

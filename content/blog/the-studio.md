@@ -1,10 +1,10 @@
 ---
 dek: In which we state our values upfront such that we might collaborate more effectively
 date: 2022-12-27T15:04:55-05:00
-modified: 2023-01-06T17:31:12-05:00
+modified: 2023-01-15T12:37:03-05:00
 ---
 
-# The Studio: Fox Studio (Beacon)
+# Fox Studio (Beacon)
 
 For specifics on the art materials and tools I use: [[art-setup]]
 
@@ -76,10 +76,18 @@ Because we experiment, by nature we go down paths that do not aid our goals. Thi
 
 ## Appendix, brass tacks, etcetera
 
-### We always label our layers
+### We have data in hand before we start data-driven projects
+
+The promise of data is not data. A data schema is not data. As data visualizers, we need data in order to do our jobs. All of the data. Actually, more data than you actually want to see. It is often very tempting to break this rule; don't do it. Work cannot start until the data is in-hand. 
+
+### We always label our layers and files with care
 
 When working in Illustrator, Photoshop, After Effects, Figma, or any other tool that allows you to name layers as you work. Take the time to label the layers. Do not hold yourself to a high standard for names. You don't need a deep organization system, and you may need to change the name later, but any name is better than no name. 
 
+When naming a file or variable, take a second to think of how it could be confused, what makes that thing unique, and how someone with zero context would understand the name. Nothing should be named "data", for example. 
+
+Names should be based on what a thing accomplishes- not what it looks like. "Background", not "red square". "Home Button", not "rounded rectangle 1" - that way names will still be applicable through multiple versions, iterations, and styles. 
+
 ### We always test
 
-A good portion of doing the work is testing that the work… works. 
+A good portion of doing the work is testing that the work… works. We are not done until it is tested in the usual ways. Then the unusual ways. The testing helps us work fast, knowing that we will catch any side effects later. When the deadline is reduced, it means we build less and test the same amount. Testing cannot be a victim to the deadline. 

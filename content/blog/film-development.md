@@ -2,7 +2,7 @@
 draft: true
 inprogress: true
 date: 2023-01-06T16:50:52-05:00
-modified: 2023-01-06T17:21:04-05:00
+modified: 2023-01-10T20:43:24-05:00
 ---
 
 # Film Development
@@ -19,7 +19,7 @@ For more on cameras see [[camera-setup]]
 
 #setup 
 
-Two rolls must be developed at a time. One time I developed what I thought was 1 roll and it was 2 rolls and I lost a roll of film. RIP. Now developing one roll is illegal.
+Two rolls must be developed at a time. One time I developed what I thought was 1 roll and it was 2 rolls and I lost a roll of film. RIP. Now developing one roll is forbidden.
 
 Once you've accumulated 2 matching rolls (no mixing!), the fun can begin:
 

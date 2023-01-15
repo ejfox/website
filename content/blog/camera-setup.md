@@ -1,12 +1,11 @@
 ---
 inprogress: true
 date: 2023-01-01T15:06:48-05:00
-modified: 2023-01-06T17:20:49-05:00
+modified: 2023-01-10T20:21:57-05:00
+dek: In which the author itemizes the cameras he uses to make photographs
 ---
 
 # Camera Setup
-
-#setup 
 
 # Street Photography
 
@@ -46,3 +45,5 @@ When creating animations
 
 - 4k
 - 12fps or 24fps
+
+#setup

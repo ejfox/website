@@ -39,6 +39,7 @@
     "slugify": "^1.6.5",
     "tachyons": "4.12.0",
     "unified": "^10.1.2",
-    "unist-util-visit": "^4.1.1"
+    "unist-util-visit": "^4.1.1",
+    "vue-gtag": "^2.0.1"
   }
 }

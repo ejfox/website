@@ -2,10 +2,12 @@
 draft: true
 inprogress: true
 date: 2023-01-06T16:50:52-05:00
-modified: 2023-01-10T20:43:24-05:00
+modified: 2023-01-19T00:50:11-05:00
 ---
 
 # Film Development
+
+Developing film is an essential part of the analog photography workflow. Whether you're an experienced enthusiast or a beginner, being aware of film development techniques is critical to achieving beautiful prints. In this post, I'll walk you through how I develop my 35mm Black and White film.
 
 For more on cameras see [[camera-setup]]
 
@@ -34,6 +36,9 @@ Once you've accumulated 2 matching rolls (no mixing!), the fun can begin:
 7. Remove everything (including garbage) from the dark bag
 
 ### Developing rolls of film
+
+It's important to double-check the film and developer you are using - make sure they are consistent with each other. After you have verified the proper temperature and time of development, slowly pour your developer into the cannister, develop, and dry.
+
 1. Double check the film you are using and the developer [to make sure you are developing at the right temperature for the right amount of time](https://www.digitaltruth.com/devchart.php?Film=Kodak+Tri-X+400&Developer=Ilfosol+3%25&mdc=Search&TempUnits=F&TimeUnits=T)
 2. Get your developer to the right temperature
 3. Pour developer into cannister, follow agitation procedure for your specific film/developer
@@ -48,17 +53,17 @@ Once you've accumulated 2 matching rolls (no mixing!), the fun can begin:
 12. Clip film to hang and dry
 13. Try to find a cool picture on the roll while it dries even though you can't see anything
 ### Cutting roll into contact sheet
-1. Wait for the roll of film to completely dry
-2. Put on dust or rubber gloves so you don't smudge your negatives
-3. Trim off any excess film, and cut into strips with 5 photos each
-4. Slide photo strips into archival plastic - sometimes I round the corners so they don't get caught when sliding them in
+1. Once the roll is completely dry, put on some dust or rubber gloves to prevent smudging your negatives
+2. Trim off any excess film, then cut into strips of five photos each 
+3. Slip the strips into archival plastic - I recommend rounding the corners of the strips if you want to avoid them getting caught
+This is where you can start getting excited - anticipation for processing your photos is always the best.
 ### Printing contact sheets
 1. Pick archival sheet of photos
 2. Put in contact sheet holder
 3. Add paper at least 8.5 x 11
 4. Remove any filters from the projector
 5. Make test sheet for contact sheet, at 5 or 10-second intervals
-6. Find correct exposure time for contact sheet, completely black blacks and full whites are ideal
+6. Find the correct exposure time for the contact sheet – the perfect contact sheet has full dark blacks with no shadows and fully white whites with clear detail
 
 ## Darkroom Print Setup
 

@@ -1,7 +1,7 @@
 ---
 dek: In which we state our values upfront such that we might collaborate more effectively
 date: 2022-12-27T15:04:55-05:00
-modified: 2023-01-15T12:37:03-05:00
+modified: 2023-01-15T15:47:12-05:00
 ---
 
 # Fox Studio (Beacon)
@@ -17,6 +17,8 @@ The goal of the studio is to make work that we are proud of, that makes the worl
 Together, we are powerful. 
 
 ## Studio Agreements
+
+[Studio Agreements on Mastodon](https://mastodon.social/@ejfox/109614942434120048)
 
 ### 1. We get something down
 

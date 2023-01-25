@@ -93,7 +93,7 @@ export default {
     prefetch: true,
     families: {
       "Signika Negative": [300, 400, 500, 600, 700],
-      "Paytone One": [400],
+      // "Paytone One": [400],
       "Fjalla One": [400],
       // Finlandica: [400, 500, 700],
     },

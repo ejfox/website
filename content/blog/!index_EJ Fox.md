@@ -32,7 +32,6 @@
 - 📄 [[food|food]]
 - 📄 [[film-development|film-development]]
 - 📄 [[election-night-2018|election-night-2018]]
-- 📄 [[crypto-ai-colonization|crypto-ai-colonization]]
 - 📄 [[creative-coding|creative-coding]]
 - 📄 [[computer-setup|computer-setup]]
 - 📄 [[computer-setup-2019|computer-setup-2019]]

@@ -48,20 +48,20 @@ const { data: targetPageData } = await useAsyncData(`content-${slug.value}`, () 
 const isSocial = computed(() => {
   return (
     props.href.includes("wikipedia") ||
-    props.href.includes("github") ||
-    props.href.includes("youtube") ||
-    props.href.includes("twitter")
+    props.href.includes("github.com") ||
+    props.href.includes("youtube.com") ||
+    props.href.includes("twitter.com")
   );
 });
 
 const socialPlatform = computed(() => {
   if (props.href.includes("wikipedia")) {
     return "wikipedia";
-  } else if (props.href.includes("github")) {
+  } else if (props.href.includes("github.com")) {
     return "github";
-  } else if (props.href.includes("youtube")) {
+  } else if (props.href.includes("youtube.com")) {
     return "youtube";
-  } else if (props.href.includes("twitter")) {
+  } else if (props.href.includes("twitter.com")) {
     return "twitter";
   } else if (props.href.includes("keybase")) {
     return "keybase";

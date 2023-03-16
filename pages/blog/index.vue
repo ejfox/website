@@ -74,7 +74,10 @@ const formatDate = timeFormat("%B %d, %Y");
 
 /* take in some articles loaded through content and filter them- they must have a `date` property, and if they are `hidden: true` we should remove them */
 const blogIndexFilter = (articles) => {
+  if(!articles) return
   return articles.filter((article) => {
+    if(!article) return false;
+
     return article.date && !article.hidden;
   });
 };

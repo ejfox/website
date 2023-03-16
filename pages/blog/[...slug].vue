@@ -32,18 +32,26 @@
           <div class="db moon-gray fw1 f6 pv2">
 
             <!-- let the user know if the article is in progress or not -->
-            <span v-if="doc.inprogress" class="mr4 word-nowrap dib">
+            <span v-if="doc.inprogress" class="mr4 word-nowrap db tc tl-ns">
               <Icon name="bi:exclamation-triangle" class="mr1 f6 pb1" />
               This post is in progress, and updates are expected
             </span>
 
-            <span class="mr4 word-nowrap dib moon-gray" v-if="doc.date" title="Date created">
+            <span class="mr4 word-nowrap dib moon-gray dn dib-ns" v-if="doc.date" title="Date created">
               <Icon name="ant-design:calendar-outlined" class="mr1 f6 pb1" />
+              <span class="dn dib-l">
+                Started 
+              </span>
+              
               {{ formatBlogDate(new Date(doc.date)) }}
             </span>
 
             <span class="mr4 word-nowrap dib gray" v-if="doc.modified" title="Date modified">
               <Icon name="ic:round-edit-calendar" class="mr1 f6 pb1" />
+              <span class="dn dib-l">
+                Updated
+              </span>
+              
               {{ formatBlogDate(new Date(doc.modified)) }}
             </span>
             <span class="mr4 word-nowrap dib" v-if="doc.readingTime.words > 100">
@@ -83,22 +91,22 @@
     </div>
 
     <div class="cf pv5">
-      <NuxtLink v-if="prev" :to="prev._path" class="pr2 w-40 w-20-ns link gray db absolute left-2 lh-title">
+      <NuxtLink v-if="prev" :to="prev._path" class="dim pr2 w-40 w-20-ns link gray db absolute left-2 lh-title">
         <span class="dib">&#8592;</span>
         {{ prev.title }}
         <div class="moon-gray f6 fw1">
           {{ formatDate(new Date(prev.date)) }}
         </div>
-        <!-- <p class="moon-gray fw1 f6 mv0">{{ countWords(prev) }} words</p> -->
+        <p class="moon-gray fw1 f6 mv0 pv2">{{ countWords(prev) }} words</p>
       </NuxtLink>
 
-      <NuxtLink v-if="next" :to="next._path" class="pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr">
+      <NuxtLink v-if="next" :to="next._path" class="dim pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr">
         {{ next.title }}
         <span class="dib">&#8594;</span>
         <div class="moon-gray f6 fw1 tr">
           {{ formatDate(new Date(next.date)) }}
         </div>
-        <!-- <p class="moon-gray fw1 f6 mv0 tr">{{ countWords(next) }} words</p> -->
+        <p class="moon-gray fw1 f6 mv0 tr pv2">{{ countWords(next) }} words</p>
       </NuxtLink>
     </div>
   </main>
@@ -118,13 +126,51 @@ import {
 // get slug from the route
 const { params } = useRoute();
 
-const { prev, next, toc, page, excerpt } = useContent();
+const { toc, page, excerpt } = useContent();
+
+// TODO: The prev / next are based on the directory structure
+// NOT the data, which I assumed was the case
+// so I need to figure out a better way to make computed prev/next
+// by querying all of the available blog posts and then sorting them
+// and then finding the current one and then getting the next and prev
+
+// first get a list of articles with queryContent
+// const allBlogPosts = await queryContent('blog').find()
+// modify our query to remove any blog posts with a ! in the title
+const allBlogPosts = await queryContent("blog").find();
+
+// then sort them by modified (or date if modified is not there)
+const sortedBlogPosts = allBlogPosts.sort((a, b) => {
+  if (a.modified && b.modified) {
+    return new Date(b.modified) - new Date(a.modified)
+  } else if (a.date && b.date) {
+    return new Date(b.date) - new Date(a.date)
+  } else {
+    return 0
+  }
+})
+
+// remove any blog posts with a ! anywhere in the title
+const filteredBlogPosts = sortedBlogPosts.filter((post) => {
+  return !post.title.includes("!")
+})
+
+// then find the current one
+const currentPostIndex = filteredBlogPosts.findIndex((post) => post._path === page.value._path)
+
+// then get the next and prev
+const prev = filteredBlogPosts[currentPostIndex + 1]
+
+const next = filteredBlogPosts[currentPostIndex - 1]
+
 const formatDate = timeFormat("%B %Y");
 
 // const formatBlogDate = timeFormat('%B %d, %Y')
 // YYYY-MM-DD format
 const formatBlogDate = timeFormat("%Y-%m-%d");
 const ogImageFontsize = computed(() => {
+  if(!page.value) return 72;
+  if(!page.value.title) return 72;
   const titleLength = page.value.title.length;
 
   // if title is less than 20 characters, use 100px font size

@@ -4,54 +4,58 @@
     <Head>
       <Title>EJ Fox: 📝 Blog</Title>
     </Head>
-    <ContentQuery path="/blog/"
-    :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
-      <article
-      v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path"
-      :class="['index-article article bg-white w-100 w-50-ns v-top mb4 mb6-l pa2 pa4-l pb4 pv0-l bn-l pr6-l overflow-hidden', article.hidden ? 'dn' : 'dib']">
-      <div       >
-        <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
-        <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">
-          <!-- {{Object.keys(data[0])}} -->
+    <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
+      <article v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path"
+        :class="['index-article article bg-white w-100 w-third-l v-top mb4-l mb3-l pa2 pa3-ns pa4-l pb4-l pv0-l bn-l pr2-l overflow-hidden', article.hidden ? 'dn' : 'dib']">
+        <div>
+          <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
+          <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">
+            <!-- {{Object.keys(data[0])}} -->
 
-          <small class="mv0 pv0 gray fw7">{{
-            formatDate(new Date(article.date))
-          }}</small>
 
-          <NuxtLink :to="article._path"
-            class="link b near-black dim db pv2 f2 f1-l lh-solid ttu word-wrap pr headline-sans-serif mv0">{{
-              article.title
-            }}</NuxtLink>
 
-          <div class="reading-time moon-gray mb2 fw1 pr2">
-            <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
-              {{ data?.readingTime.text }}
-            </span>
+            <small class="mv0 pv0 moon-gray fw5" v-if="article.modified">
+              {{ formatDate(new Date(article.modified)) }}
+            </small>
 
-            <span class="dib pr2" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
-          </div>
+            <small class="mv0 pv0 moon-gray fw5" v-else>
+              {{ formatDate(new Date(article.date)) }}
+            </small>
 
-          <div class="fw3">
+            <NuxtLink :to="article._path"
+              class="link b near-black db pv2 f2 f1-l lh-title ttu word-wrap pr headline-sans-serif mv0 article-title-link">{{
+                article.title
+              }}</NuxtLink>
+
+            <div class="reading-time moon-gray mb2 fw1 pr2">
+              <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
+                {{ data?.readingTime.text }}
+              </span>
+
+              <span class="dib pr2" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
+            </div>
+
+            <div class="fw3 dn db-l">
               <div v-if="article.dek" class="dek">{{ article.dek }}</div>
               <div v-else="article.description" class="dek">
                 {{ article.description }}
               </div>
             </div>
 
-          <div class="gray f6">
-            <div class="article-toc">
-              <ul class="list w-100 f5 fr ml2 ml5-ns">
-                <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray">
-                  <a :href="`${article._path}#${link.id}`" class="link gray
-                  ">
-                    {{ link.text }}</a>
-                </li>
-              </ul>
+            <div class="gray f6">
+              <div class="article-toc">
+                <ul class="list w-100 f6 fw3 f5-l fr ml2 ml5-ns mv0 mv1-l">
+                  <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray dim">
+                    <a :href="`${article._path}#${link.id}`" class="link gray
+                    ">
+                      {{ link.text }}</a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
-            
-          </div>
-        </ContentQuery>
-      </div>
+          </ContentQuery>
+        </div>
       </article>
     </ContentQuery>
   </main>
@@ -80,8 +84,10 @@ const blogIndexSort = (articles) => {
   return articles.sort((a, b) => {
     if (a.modified && b.modified) {
       return new Date(b.modified) - new Date(a.modified);
-    } else {
+    } else if (a.date && b.date) {
       return new Date(b.date) - new Date(a.date);
+    } else {
+      return 0;
     }
   });
 };
@@ -102,6 +108,33 @@ onMounted(() => {
 });
 </script>
 <style>
+
+
+.article-title-link {
+  transform: translate3d(0, 0, 0) scale3d(0,0,0,0);
+  transition: all 90ms cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.article-title-link:hover {
+  outline: none;
+  /* text-decoration: underline; */
+  transform: translate3d(0, -1px, 0) scale3d(1.005, 1.005, 1.005) rotate3d(0, 0, 1, 0);
+  transition: all 90ms cubic-bezier(0.5, 1, 0.89, 1);
+
+  /* cast a light text shadow */
+  text-shadow: 0 0 1.5rem rgba(0,0,0, 0.09);
+
+}
+
+/* make it pop even more on active */
+.article-title-link:active {
+  outline: none;
+  transform: translate3d(0, -1px, 0) scale3d(1.09, 1.09, 1.09) rotate3d(0, 0, 1, 0);
+  transition: all 45ms cubic-bezier(0.5, 1, 0.89, 1);
+  text-shadow: 0 0 1.75rem rgba(0,0,0, 0.35);
+}
+
+
 .headline-sans-serif {
   font-family: "Fjalla One", sans-serif;
 }
@@ -128,7 +161,8 @@ onMounted(() => {
   margin-top: 1rem;
 }
 
-.index-article .article-toc ul, .index-article .article-toc ol {
+.index-article .article-toc ul,
+.index-article .article-toc ol {
   margin-left: 0 !important;
-} 
+}
 </style>

@@ -1,4 +1,11 @@
 export default {
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/google-fonts",
+    "@vueuse/nuxt",
+    "nuxt-icon",
+    "nuxt-gtag"
+  ],
   app: {
     head: {
       script: [
@@ -55,6 +62,9 @@ export default {
         "remark-unwrap-images",
       ]
     },
+    gtag: {
+      id: 'G-0CBMSSNG8P',
+    },
     highlight: {
       preload: ["sql"],
       theme: {
@@ -77,12 +87,6 @@ export default {
       routes: ['/rss.xml', '/stats/']
     }
   },
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/google-fonts",
-    "@vueuse/nuxt",
-    "nuxt-icon",
-  ],
   css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],
   pageTransition: {
     name: "page",

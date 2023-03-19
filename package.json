@@ -23,6 +23,7 @@
     "animejs": "^3.2.1",
     "d3": "^7.6.1",
     "d3-time-format": "^4.1.0",
+    "nuxt-gtag": "^0.2.2",
     "prismjs": "^1.29.0",
     "remark-autolink-headings": "^7.0.1",
     "remark-emoji": "^3.0.2",

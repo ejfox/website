@@ -7,6 +7,7 @@
 - 📄 [[work-view-life-view|work-view-life-view]]
 - 📄 [[watercolor-sketching-in-nyc|watercolor-sketching-in-nyc]]
 - 📄 [[video-mixes|video-mixes]]
+- 📄 [[Untitled|Untitled]]
 - 📄 [[unsecured-ice-cameras|unsecured-ice-cameras]]
 - 📄 [[two-reasons|two-reasons]]
 - 📄 [[things-ive-learned-about-elections|things-ive-learned-about-elections]]

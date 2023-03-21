@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ~/code/website/content/blog/",
+    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ~/code/website/content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ~/code/website/content/blog/ --dry-run --list-only",
+    "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/drafts/assets/ ~/code/website/assets/images/",
     "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/reading/ ~/code/website/content/reading/",
     "content:all": "npm run content:blog && npm run content:reading && git add \\*.md"
   },

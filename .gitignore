@@ -17,3 +17,5 @@ static/.DS_Store
 .env
 *.obsidian
 .output
+
+AUTOMATED_PUSH_LOG

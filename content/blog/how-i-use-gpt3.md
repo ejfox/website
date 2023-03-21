@@ -3,7 +3,7 @@ draft: false
 dek: In which we learn to perform the magic of conversing with a super-intelligent computer
 inprogress: false
 date: 2022-11-02T19:57:21-04:00
-modified: 2023-02-03T20:39:20-05:00
+modified: 2023-03-14T00:26:00-04:00
 ---
 
 # How I Use GPT-3
@@ -291,6 +291,8 @@ Use the above information and SOW template to generate a Statement of Work based
 ```
 
 ---
+
+[🔨 GPT-3 Writings Channel on Are.na](https://www.are.na/ej-fox/gpt-3-writings)
 
 Example prompts: <https://github.com/f/awesome-chatgpt-prompts>
 

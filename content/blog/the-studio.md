@@ -1,7 +1,8 @@
 ---
 dek: In which we state our values upfront such that we might collaborate more effectively
 date: 2022-12-27T15:04:55-05:00
-modified: 2023-01-15T15:47:12-05:00
+modified: 2023-03-15T15:24:10-04:00
+hidden: true
 ---
 
 # Fox Studio (Beacon)

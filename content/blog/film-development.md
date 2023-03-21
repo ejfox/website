@@ -1,8 +1,9 @@
 ---
 draft: true
 inprogress: true
+dek: In which we use light and chemicals to make images appear, if we are lucky
 date: 2023-01-06T16:50:52-05:00
-modified: 2023-01-19T00:50:11-05:00
+modified: 2023-03-16T18:51:20-04:00
 ---
 
 # Film Development

@@ -4,7 +4,6 @@
         :alt="alt"
         :width="width"
         :height="height"
-        placeholder
       />
   <!-- <span v-if="isCloudinary"> -->
     <!-- <figure> -->

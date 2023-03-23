@@ -45,7 +45,31 @@ function processFilesInStatic(commitFiles) {
   })
 }
 
-const commitHash = git.long()
-const commitFiles = git.diff(commitHash + '~1', commitHash).split('\n')
+// If we only want to upload files that have changed in the last commit
+// const commitHash = git.long()
+// const commitFiles = git.diff(commitHash + '~1', commitHash).split('\n')
+// processFilesInStatic(commitFiles)
 
-processFilesInStatic(commitFiles)
+// If we want to upload all acceptable files in the static folder
+function processAllFilesInStatic(dirPath) {
+  fs.readdir(dirPath, (err, files) => {
+    if (err) {
+      console.error(`Error reading directory ${dirPath}:`, err)
+      return
+    }
+    files.forEach((file) => {
+      let fullPath = path.join(dirPath, file)
+      if (fs.existsSync(fullPath)) {
+        let stat = fs.lstatSync(fullPath)
+        if (stat.isFile()) {
+          checkAndUploadFile(fullPath)
+        } else if (stat.isDirectory()) {
+          processAllFilesInStatic(fullPath)
+        }
+      }
+    })
+  })
+}
+
+// Call the function to process all acceptable files in the static folder
+processAllFilesInStatic(staticPath)

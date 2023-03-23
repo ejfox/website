@@ -1,6 +1,14 @@
 <template>
-  <span v-if="isCloudinary">
-    <figure>
+        <nuxt-img
+        :src="src"
+        :alt="alt"
+        :width="width"
+        :height="height"
+        placeholder
+        preload
+      />
+  <!-- <span v-if="isCloudinary"> -->
+    <!-- <figure> -->
       <!-- <img
         :src="modifyUrlWithSize(src, 640)"
         :srcset="srcSet"
@@ -9,20 +17,11 @@
         :height="height"
         loading="lazy"
       /> -->
-
-      <nuxt-img
-        :src="src"
-        :alt="alt"
-        :width="width"
-        :height="height"
-        placeholder
-        preload
-      />
-    </figure>
-  </span>
-  <span v-else>
+    <!-- </figure> -->
+  <!-- </span> -->
+  <!-- <span v-else>
     <img :src="src" :alt="alt" :width="width" :height="height" loading="lazy" />
-  </span>
+  </span> -->
 </template>
 
 <script setup>

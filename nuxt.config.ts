@@ -48,6 +48,7 @@ export default {
     markdown: {
       remarkPlugins: [
         // "~/plugins/remark/wikilinks.js",
+        // "remark-obsidian-image-parse",
         "remark-wiki-link",
         "remark-reading-time",
         "remark-gfm",
@@ -86,7 +87,13 @@ export default {
   ],
   // buildModules: [    
   // ],
+  // image: {
+  //   cloudinary: {
+  //     baseURL: 'https://res.cloudinary.com/ejf/image/upload/blog_assets'
+  //   }
+  // },
   image: {
+    provider: 'cloudinary',
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/ejf/image/upload/blog_assets'
     }

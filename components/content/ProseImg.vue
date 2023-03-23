@@ -5,7 +5,6 @@
         :width="width"
         :height="height"
         placeholder
-        preload
       />
   <!-- <span v-if="isCloudinary"> -->
     <!-- <figure> -->

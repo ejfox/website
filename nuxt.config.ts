@@ -95,7 +95,7 @@ export default {
   image: {
     provider: 'cloudinary',
     cloudinary: {
-      baseURL: 'https://res.cloudinary.com/ejf/image/upload/blog_assets'
+      baseURL: 'https://res.cloudinary.com/ejf/image/upload/'
     }
   },
   css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],

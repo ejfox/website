@@ -6,7 +6,7 @@ const fs = require('fs')
 const cloudinary = require('cloudinary').v2
 const git = require('git-rev-sync')
 const mime = require('mime-types')
-const staticPath = './static/'
+const staticPath = 'static/'
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -15,7 +15,12 @@ cloudinary.config({
 })
 
 function uploadToCloudinary(file) {
-  cloudinary.uploader.upload(file, (err, res) => {
+  const fileName = path.basename(file, path.extname(file))
+  const options = {
+    public_id: fileName,
+  }
+
+  cloudinary.uploader.upload(file, options, (err, res) => {
     if (err) {
       console.log(`Error uploading ${file}:`, err)
     } else {

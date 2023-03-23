@@ -1,13 +1,22 @@
 <template>
   <span v-if="isCloudinary">
     <figure>
-      <img
+      <!-- <img
         :src="modifyUrlWithSize(src, 640)"
         :srcset="srcSet"
         :alt="alt"
         :width="width"
         :height="height"
         loading="lazy"
+      /> -->
+
+      <nuxt-img
+        :src="src"
+        :alt="alt"
+        :width="width"
+        :height="height"
+        placeholder
+        preload
       />
     </figure>
   </span>

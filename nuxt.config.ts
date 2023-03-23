@@ -81,8 +81,16 @@ export default {
     "@nuxt/content",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
+    '@nuxt/image',
     "nuxt-icon",
   ],
+  // buildModules: [    
+  // ],
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/ejf/image/upload/blog_assets'
+    }
+  },
   css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],
   pageTransition: {
     name: "page",

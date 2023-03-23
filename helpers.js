@@ -1,4 +1,13 @@
+function articleExists(article) {
+  if(!article.excerpt) return false
+  if(!article.excerpt.children) return false
+  if(!article.excerpt.children.length) return false
+  return true
+}
+
+
 export function countWords(article) {
+  if(!articleExists(article)) return 0
   // console.log('Counting words in', article)
   const words = article.excerpt.children
     .filter(
@@ -28,8 +37,8 @@ export function countPhotos(article) {
 
   return photos.length;
 }
-
 export function countLinks(article) {
+  if(!articleExists(article)) return 0
   // look inside all paragraphs and headings for links
   const links = article.excerpt.children
     .filter(
@@ -50,6 +59,7 @@ export function countLinks(article) {
 }
 
 export function filterStrongTags(article) {
+  if(!articleExists(article)) return []
   // look 3 levels deep in article.body.children for strong tags
   const strongTags = article.body.children
     .filter(

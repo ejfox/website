@@ -1,9 +1,10 @@
 ---
 draft: true
+hidden: true
 dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00
-modified: 2023-03-22T22:04:28-04:00
+modified: 2023-03-23T11:44:51-04:00
 ---
 
 # How I Built An AI Assistant for our Dataviz Studio
@@ -38,11 +39,11 @@ With a clear vision, I create an `index.js` file, choose my toolkit (Node.js, Di
 
 In no time, GPT-4 starts working with Discord, and Coach Artie speaks his first words.
 
-![[Screenshot 2023-03-22 at 9.04.17 PM.png | this is the caption]]
+![](Screenshot%202023-03-22%20at%209.04.17%20PM.png)
 
 Coach Artie and I then collaborate on building his memory system.
 
-![[Screenshot 2023-03-22 at 9.06.45 PM.png]]
+![](Screenshot%202023-03-22%20at%209.06.45%20PM.png)
 
 After sending a message, I pass the conversation back to Coach Artie and ask if there's anything memorable he'd like to retain:
 
@@ -71,13 +72,13 @@ messages: [
 
 So I figured I would test it out. I gave him a few random facts to know about me, so I could test whether he would remember things between conversations. 
 
-![[Screenshot 2023-03-22 at 9.11.23 PM.png]]
+![](Screenshot%202023-03-22%20at%209.11.23%20PM.png)
 
 Then I asked Artie to write me a poem about my favorite things, and the results were spectacular; incorporating details from nearly every thing I had told him so far. It was an astonishing and intoxicating feeling; I had to tweet about it. 
 
 ["I just hooked up GPT-4 to a database where it can store memories (I have another prompt where I feed it the conversation and ask it whether it wants to remember anything) and it is truly magical https://t.co/c2ZH6NaU0S" / Twitter](https://twitter.com/mrejfox/status/1636974679310082053)
 
-![[Screenshot 2023-03-22 at 9.13.29 PM.png]]
+![](Screenshot%202023-03-22%20at%209.13.29%20PM.png)
 
 ## Examples
 

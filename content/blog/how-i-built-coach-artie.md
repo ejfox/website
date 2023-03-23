@@ -1,5 +1,6 @@
 ---
 draft: true
+hidden: true
 dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00

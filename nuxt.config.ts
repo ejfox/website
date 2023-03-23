@@ -81,7 +81,7 @@ export default {
     "@nuxt/content",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
-    '@nuxt/image',
+    '@nuxt/image-edge',
     "nuxt-icon",
   ],
   // buildModules: [    

@@ -97,7 +97,7 @@
         <div class="moon-gray f6 fw1">
           {{ formatDate(new Date(prev.date)) }}
         </div>
-        <p class="moon-gray fw1 f6 mv0 pv2">{{ countWords(prev) }} words</p>
+        <!-- <p class="moon-gray fw1 f6 mv0 pv2">{{ countWords(prev) }} words</p> -->
       </NuxtLink>
 
       <NuxtLink v-if="next" :to="next._path" class="dim pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr">
@@ -106,7 +106,7 @@
         <div class="moon-gray f6 fw1 tr">
           {{ formatDate(new Date(next.date)) }}
         </div>
-        <p class="moon-gray fw1 f6 mv0 tr pv2">{{ countWords(next) }} words</p>
+        <!-- <p class="moon-gray fw1 f6 mv0 tr pv2">{{ countWords(next) }} words</p> -->
       </NuxtLink>
     </div>
   </main>

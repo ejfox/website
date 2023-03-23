@@ -1,9 +1,10 @@
 ---
 draft: true
+hidden: true
 dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00
-modified: 2023-03-23T12:47:03-04:00
+modified: 2023-03-23T11:44:51-04:00
 ---
 
 # How I Built An AI Assistant for our Dataviz Studio

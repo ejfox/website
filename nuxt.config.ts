@@ -48,6 +48,7 @@ export default {
     markdown: {
       remarkPlugins: [
         // "~/plugins/remark/wikilinks.js",
+        // "remark-obsidian-image-parse",
         "remark-wiki-link",
         "remark-reading-time",
         "remark-gfm",
@@ -81,8 +82,22 @@ export default {
     "@nuxt/content",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
+    '@nuxt/image-edge',
     "nuxt-icon",
   ],
+  // buildModules: [    
+  // ],
+  // image: {
+  //   cloudinary: {
+  //     baseURL: 'https://res.cloudinary.com/ejf/image/upload/blog_assets'
+  //   }
+  // },
+  image: {
+    provider: 'cloudinary',
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/ejf/image/upload/'
+    }
+  },
   css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],
   pageTransition: {
     name: "page",

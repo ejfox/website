@@ -3,7 +3,7 @@ draft: true
 dek: In which
 inprogress: true
 date: 2023-01-24T10:56:03-05:00
-modified: 2023-03-20T00:20:51-04:00
+modified: 2023-03-21T15:37:27-04:00
 ---
 
 # Deconstructing Crypto, AI, and the 21st Century Colonial Mindset
@@ -61,7 +61,7 @@ The insatiable greed that drove the colonial project finds new sustenance in the
 
 Mutual aid offers a beacon of hope in the darkness, guiding us towards a future where technology serves the needs of all, not just the privileged elite. By fostering a spirit of cooperation and solidarity, we can build systems that prioritize the well-being of our fellow humans, our planet, and the diverse ecosystems that support life. 
 
-If we were smart, we would be taking these technologies to our communities, asking them what they want, what would bring them joy, and then *building that*. These technologies are making a world where robots can do a lot of the work that humans do today. Whether that frees up society to do other, more important things or whether it allows the masters to grow rich while the rest of the world suffers. Almost every other technology of the 21st century has resulted in the rich getting richer; maybe if we democratize this one quickly enough that can change. 
+If we were smart, we would be taking these technologies to our communities, asking them what they want, what would bring them joy, and then *building that*. These technologies are making a world where robots can do a lot of the work that humans do today. Whether that frees up society to do other, more important things or whether it allows the masters to grow rich while the rest of the world suffers is up to us. Almost every other technology of the 21st century has resulted in the rich getting richer; maybe this time it can be different.
 
 By reorienting our focus towards the collective good, we can harness the power of AI and cryptocurrency to uplift the downtrodden, heal the wounds of colonialism, and create a more equitable and sustainable world.
 

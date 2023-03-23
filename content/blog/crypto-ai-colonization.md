@@ -3,14 +3,14 @@ draft: true
 dek: In which
 inprogress: true
 date: 2023-01-24T10:56:03-05:00
-modified: 2023-03-21T15:37:27-04:00
+modified: 2023-03-23T12:38:24-04:00
 ---
 
 # Deconstructing Crypto, AI, and the 21st Century Colonial Mindset
 
 #politics #machinelearning 
 
-![[763896083_An_isometric_pile_of_coins__iphone__laptop_and_bank_notes_representing_cryptocurrency_and_AI_s_impac.png]]
+![](763896083_An_isometric_pile_of_coins__iphone__laptop_and_bank_notes_representing_cryptocurrency_and_AI_s_impac.png)
 
 In the swirling chaos of the 21st century, we find ourselves in the throes of a digital revolution, but we are in danger of entrenching the systems of oppression that already pervade our society.
 

@@ -96,6 +96,21 @@ export default {
     provider: 'cloudinary',
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/ejf/image/upload/'
+    },
+    domains: ['ejfox.com', 'ejfoxcom.netlify.app/'],
+    // Use tachyon screen sizes
+    // small = 30em
+    // medium = 48em
+    // large = 64em+
+    // we will define the sizes as if the screen width was 1920
+    // 30em on a 1920 screen is 480px
+    // 48em on a 1920 screen is 768px
+    // 64em on a 1920 screen is 1024px
+    screens: {
+      small: 480,
+      medium: 768,
+      large: 1920,
+      extraLarge: 2560
     }
   },
   css: ["tachyons/css/tachyons.min.css", "~/assets/main.css"],

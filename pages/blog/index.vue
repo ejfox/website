@@ -23,6 +23,7 @@
             </small>
 
             <NuxtLink :to="article._path"
+            style="overflow-wrap: break-word;"
               class="link b near-black db pv2 f2 f1-l lh-title ttu word-wrap pr headline-sans-serif mv0 article-title-link">{{
                 article.title
               }}</NuxtLink>

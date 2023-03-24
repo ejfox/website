@@ -1,25 +1,26 @@
 <template>
-        <nuxt-img
-        :src="src"
-        :alt="alt"
-        :width="width"
-        :height="height"
-      />
-  <!-- <span v-if="isCloudinary"> -->
-    <!-- <figure> -->
-      <!-- <img
+      
+  <span v-if="isCloudinary">
+    <figure>
+      <img
         :src="modifyUrlWithSize(src, 640)"
         :srcset="srcSet"
         :alt="alt"
         :width="width"
         :height="height"
         loading="lazy"
-      /> -->
-    <!-- </figure> -->
-  <!-- </span> -->
-  <!-- <span v-else>
-    <img :src="src" :alt="alt" :width="width" :height="height" loading="lazy" />
-  </span> -->
+      />
+    </figure>
+  </span>
+  <span v-else>
+    <nuxt-picture
+        :src="src"
+        :alt="alt"
+        :width="width"
+        :height="height"
+        placeholder
+      />
+  </span>
 </template>
 
 <script setup>
@@ -51,6 +52,14 @@ const isCloudinary = computed(() => {
   if (!isValidHttpUrl(props.src)) return false;
   const url = new URL(props.src);
   return url.hostname === "res.cloudinary.com";
+});
+
+// check whether the src is linking to an external image or not
+const isExternal = computed(() => {
+  if (!props.src) return false;
+  if (!isValidHttpUrl(props.src)) return false;
+  const url = new URL(props.src);
+  return url.hostname !== "res.cloudinary.com";
 });
 
 function modifyUrlWithSize(url, width, srcset = false) {

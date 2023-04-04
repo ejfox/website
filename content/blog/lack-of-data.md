@@ -32,4 +32,4 @@ We are able to track the things we care about to an incredible, awe-inspiring am
 
 But without a baseline, there is no way to determine if an intervention is successful or not. If we don't know a patient's cholesterol, we can't tell if the medicine we have given them is working or not. So we track those things and use all of that data to guide our actions.
 
-So what does it mean if there is
+#data #dataviz 

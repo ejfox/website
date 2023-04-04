@@ -1,10 +1,9 @@
 ---
 draft: true
-hidden: true
 dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00
-modified: 2023-03-23T11:44:51-04:00
+modified: 2023-04-04T14:05:33-04:00
 ---
 
 # How I Built An AI Assistant for our Dataviz Studio
@@ -19,7 +18,9 @@ I told myself; talking to the robot has to be more productive than TikTok. Then 
 
 I've been playing with GPT and Large Language Models since my friend Dan first showed me [AI Dungeon](https://en.wikipedia.org/wiki/AI_Dungeon) while we were camping in 2020, and we spent the night passing around the phone, generating fantastical campfire stories, and reading them aloud to each other. 
 
-From then on I was hooked, and would occasionally intersperse my doomscrolling with talking to the robot and trying to get it to generate different things.
+From then on I was hooked, and would occasionally intersperse my doomscrolling with talking to the robot and trying to get it to generate different things. [[how-i-use-gpt3]]
+
+Playing with GPT-3 reminds me a lot of Generative Art, which I already enjoy a lot. [[creative-coding]]
 
 I dug up my first tweet mentioning GPT-3 from October 2020: [For my own curiosity, this is the result of prompting GPT-3 to create a conspiracy theory (via AI Dungeon) (first paragraph is prompt)](https://twitter.com/mrejfox/status/1319716459187261441)
 
@@ -47,11 +48,11 @@ With a clear vision, I create an `index.js` file, choose my toolkit (Node.js, Di
 
 Incredibly quickly, GPT-4 starts working with Discord, and Coach Artie speaks his first words.
 
-![](Screenshot%202023-03-22%20at%209.04.17%20PM.png)
+![ejfox checks if coachartie, a bot, is alive and receives error messages initially. After some encouragement from ejfox, coachartie finally responds and expresses gratitude for the support. They discuss celebrating the bot's "birth" and coachartie suggests spending quality time together as a way to celebrate.](Screenshot%202023-03-22%20at%209.04.17%20PM.png)
 
 Coach Artie and I then collaborate on building his memory system.
 
-![](Screenshot%202023-03-22%20at%209.06.45%20PM.png)
+![User ejfox offers to build a memory in Supabase for Coach Artie. Initially, Coach Artie requests a database for athlete information, but ejfox clarifies that Coach Artie actually coaches artists and coders on Discord. Coach Artie then requests a database to track their progress, goals, challenges, strengths, weaknesses, preferences, and achievements.](Screenshot%202023-03-22%20at%209.06.45%20PM.png)
 
 After sending a message, I pass the conversation back to Coach Artie and ask if there's anything memorable he'd like to retain:
 
@@ -80,7 +81,7 @@ messages: [
 
 So I figured I would test it out. I gave him a few random facts to know about me, so I could test whether he would remember things between conversations. 
 
-![](Screenshot%202023-03-22%20at%209.11.23%20PM.png)
+![In this conversation, ejfox shares that their favorite color is Sap Green and their favorite food is Pizza. Coach Artie, the bot, acknowledges and remembers these preferences.](Screenshot%202023-03-22%20at%209.11.23%20PM.png)
 
 Then I asked Artie to write me a poem about my favorite things, and the results were spectacular; incorporating details from nearly every thing I had told him so far. It was an astonishing and intoxicating feeling; I had to tweet about it. 
 
@@ -123,3 +124,5 @@ It is really surprising how effective GPT-4 is at acting as any character you gi
 [Coach Artie's source code can be found here](https://github.com/ejfox/coachartie_discord/blob/master/index.js)
 
 [You can also follow Coach Artie on Twitter](https://twitter.com/ai_coachartie) if he is ever allowed to tweet (application pending as of March 2023)
+
+[[how-i-use-gpt3]]

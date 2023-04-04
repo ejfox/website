@@ -3,12 +3,12 @@ draft: false
 dek: In which we learn to perform the magic of conversing with a super-intelligent computer
 inprogress: false
 date: 2022-11-02T19:57:21-04:00
-modified: 2023-03-14T00:26:00-04:00
+modified: 2023-04-02T20:15:49-04:00
 ---
 
-# How I Use GPT-3
+# How I Use GPT
 
-The OpenAI Generative Pre-trained Transformer 3 (GPT-3) can be used to do incredible things. From generating election summaries to writing shot lists for a documentary, knowing how to use GPT-3 is the key to unlocking its potential. 
+The OpenAI Generative Pre-trained Transformer / Large Language Model can be used for incredible things. From generating election summaries to writing shot lists for a documentary, knowing how to use GPT-3 is the key to unlocking its potential. 
 
 I've been talking to GPT-3 (who I sometimes call 🤖 The Robot) for a while. I first used GPT-3 through the app [AI Dungeon](https://www.pcgamer.com/this-ai-writes-a-text-adventure-while-you-play-it/) which encouraged a storytelling approach. Though it quickly became clear you could get the AI to dive into deep philosophical discussions, or psychedelic interpretations of religious doctrines, which I found extremely entertaining.
 
@@ -104,7 +104,7 @@ In order to get the best out of GPT-3, you must also provide it with a good/bad 
 
 Your prompt should also contain any information GPT-3 will need to make a good decision in response to the prompt you provide. For example, if you are looking for GPT-3 to provide thoughtful answers to a question, you will want to give the model a good primer of what thoughtful answers look like. If you are looking for funny responses, you will want to give the model a good primer of what funny responses look like.
 
-## Prompt templates I have used
+## Prompt Templates
 
 ### Blog post improver
 ```
@@ -145,25 +145,6 @@ viewof date = Scrubber(
 ---
 
 /* INSERT OBSERVABLE NOTEBOOK REQUEST DESCRIPTION */
-```
-
-### Writing YouTube video titles
-```
-EJ is a journalist who makes videos about different topics, often times focusing on explaining complicated systems. He uses data and data visualization to look at the issues of the day through a unique angle. EJ’s videos are 10-20 minutes long.
-
-EJ has been researching a variety of topics and tagging them. These are EJ's tags, with the number of items in parentheses: data (71) dataviz (71) politics (62) howto (59) design (54) art (49) journalism (46) research (44) cli (42) reference (39) elections (37) tool (34) javascript (31) vj (31) d3 (29) webdesign (29) mapping (29) music (27) police (26) tech (26) resource (24) visualization (23) video (22) 3d (22) protest (21) crypto (21) cooking (19) datajournalism (18) maps (18) twitter (18) food (16) election2020 (16) arduino (14) programming (13) writing (13) inspiration (13) dataset (13) photography (12) recipe (12) games (12) pico8 (12) occupy (11) hacking (11) code (11) activism (10) node (10) machinelearning (10) streaming (10) pandemic (10) youtube (9).
-
-In the following section, write a YouTube Title & Description for EJ's livestream. Use emojis in the title and description, write the title and description in an interesting passionate style that will make the video go viral. Write at 4 sentences in the description. In the first sentence, hook the reader with an interesting quote or question. In sentence 2 and 3, describe the concept of the livestream. In sentence 4 describe the technologies used. Use the following format:
-
-# ${title}
-
-${description}
-
----
-
-The topic of this week's livestream is: INSERT DESCRIPTION HERE
-
-#
 ```
 
 ### Documentary shot list generator
@@ -215,82 +196,11 @@ $gpt3: What is the difference between districts, counties, and states in your da
 Follow these instructions exactly: Every few messages, briefly summarize the conversation so far, the things you have asked, and anything you should not forget as you ask more questions. If the human gets frustrated, help them focus and give words of encouragement. Never speak for the human.
 
 Start a new conversation with your frustrated human. 
-
-—
-
-$gpt3:
-```
-
-### Generate a Dataviz Statement of Work from project description
-```Statement of Work Template:
-
-Statement of Work
-Overview
-[CLIENT NAME] (“Client”) are engaging [YOUR NAME] (“Contractor”) for support in development of an interactive visualization that will be incorporated into the Client's website.
-
-Team
-The primary contact for this project is: 
-[YOUR NAME], email: [YOUR EMAIL], mobile:[YOUR CELL PHONE]
-
-Other designers and engineers may be contracted under the terms of this agreement as needed.
-
-Availability: [YOUR AVAILABILITY, LIKE: 30-40 hours/week]
-Scope
-Prepare and Analyze Data
-Gather and process all necessary data. Perform any transformations or analysis required for desired visualization. 1 day.
-
-Visualization / Map Prototyping
-Using client-provided data, create a map that incorporates [TOPIC] data and visualizes it with [VISUALIZATION TECHNIQUE] as well as demographic info about the population impacted by those pollutants. The prototype(s) will be created in [VISUALIZATION TECHNOLOGY]
-
-Our first milestone will be evaluating this visualization on [CHECK IN DATE].
-
-Visualization Polish and Publishing
-Iterate on the visualization, design, and storytelling approach based on feedback on the initial prototype. 3-5 days.
-
-Our last milestone will be evaluating a publish-ready version of the visualization on [DAY BEFORE PUBLISH DATE]
-
-Acceptance Criteria
-The project is considered completed and successful if the following criteria are met:
-
-Contractor provides a map visualization that shows [WHAT THEY WANT TO SHOW] using Client-provided data 
-Contractor provides a mechanism to [DO WHAT THEY WANT TO DO]
-Contractor develops Client-provided data into a data visualization created with D3, HTML, Javascript, and CSS that can be embedded into Client's website. (Additional open-source data visualization technologies may be used upon Client agreement)
-Contractor delivers a production-ready data visualization code through a .zip file, Observable Notebook, or GitHub repo works on the latest web browsers
-Costs
-[ WHAT YOU CHARGE PER HOUR OR PROJECT ]
-
-Time Estimates / Estimated Cost
-
-[ ESTIMATED PROJECT TIME LIKE, 60-80 hours ]
-Estimated cost: [YOUR HOURLY RATE * ESTIMATED PROJECT TIME]
-
-Start date: [START DATE]
-End date: [END DATE]
-
-Termination
-If at any time Client cancels this project, Client agrees to pay Contractor for hours accrued to date.
-
-Payment Schedule
-Upon completion of the project, the Contractor will provide a final invoice. 
-
-Payment for the final invoice is expected within 30 days. A 2% fee will be charged for every 30 days the invoice is unpaid. 
-
----
-
-Project description: INSERT THREE PARAGRAPHS DESCRIBING THE PROJECT HERE
-
----
-
-Use the above information and SOW template to generate a Statement of Work based on the project description. Any information in [BRACKETS] should be replaced with information accurate to the project. Do not include any bracketed words in the output. If the answer is unknown, do not include it. The output should be a document that could be sent directly to the client for approval. There should be no errors or mistakes, and it should make the project appealing.
-
----
-
-# Statement of Work
-
-## Overview
 ```
 
 ---
+
+[[how-i-built-coach-artie]]
 
 [🔨 GPT-3 Writings Channel on Are.na](https://www.are.na/ej-fox/gpt-3-writings)
 

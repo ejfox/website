@@ -17,6 +17,7 @@
 - 📄 [[the-internet-was-built-to-be-hacked|the-internet-was-built-to-be-hacked]]
 - 📄 [[taking-things-for-granted|taking-things-for-granted]]
 - 📄 [[step-zero|step-zero]]
+- 📄 [[starting-a-studio--introducing-room-302|starting-a-studio--introducing-room-302]]
 - 📄 [[selecting-a-cms|selecting-a-cms]]
 - 📄 [[pinboard-tags|pinboard-tags]]
 - 📄 [[photography-2008-2010|photography-2008-2010]]

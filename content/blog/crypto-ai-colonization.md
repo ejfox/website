@@ -1,9 +1,9 @@
 ---
 draft: true
-dek: In which
+dek: In which we embrace new technology and strive for an equitable future
 inprogress: true
 date: 2023-01-24T10:56:03-05:00
-modified: 2023-03-23T12:38:24-04:00
+modified: 2023-04-04T15:45:25-04:00
 ---
 
 # Deconstructing Crypto, AI, and the 21st Century Colonial Mindset

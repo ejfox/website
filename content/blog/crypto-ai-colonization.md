@@ -1,9 +1,7 @@
 ---
-draft: true
 dek: In which we embrace new technology and strive for an equitable future
-inprogress: true
 date: 2023-01-24T10:56:03-05:00
-modified: 2023-04-04T15:45:25-04:00
+modified: 2023-04-09T13:47:52-04:00
 ---
 
 # Deconstructing Crypto, AI, and the 21st Century Colonial Mindset
@@ -16,6 +14,10 @@ In the swirling chaos of the 21st century, we find ourselves in the throes of a 
 
 > Badly designed AI can harm vulnerable and marginalized groups even when it “works,” by subjecting them to new forms of data-gathering and surveillance and encoding historical patterns of discrimination into automated systems.
 > Kevin Roose [Roose-Futureproof](Roose-Futureproof.md)
+
+::table-of-contents
+
+::
 
 Cryptocurrency and artificial intelligence (AI) have been heralded as saviors of economic opportunity, promising to enfranchise communities across the globe. But beneath the surface lies a shadow: the same oppressive forces entrenched by colonialism are being re-calibrated for the 21st Century and let loose in increasingly complicated systems. 
 

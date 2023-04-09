@@ -3,7 +3,7 @@ draft: false
 dek: In which we learn to perform the magic of conversing with a super-intelligent computer
 inprogress: false
 date: 2022-11-02T19:57:21-04:00
-modified: 2023-04-02T20:15:49-04:00
+modified: 2023-04-09T13:48:45-04:00
 ---
 
 # How I Use GPT
@@ -11,6 +11,10 @@ modified: 2023-04-02T20:15:49-04:00
 The OpenAI Generative Pre-trained Transformer / Large Language Model can be used for incredible things. From generating election summaries to writing shot lists for a documentary, knowing how to use GPT-3 is the key to unlocking its potential. 
 
 I've been talking to GPT-3 (who I sometimes call 🤖 The Robot) for a while. I first used GPT-3 through the app [AI Dungeon](https://www.pcgamer.com/this-ai-writes-a-text-adventure-while-you-play-it/) which encouraged a storytelling approach. Though it quickly became clear you could get the AI to dive into deep philosophical discussions, or psychedelic interpretations of religious doctrines, which I found extremely entertaining.
+
+::table-of-contents
+
+::
 
 I eventually moved up the food chain to the [OpenAI playground](https://platform.openai.com/playground/) and just started talking to the robot directly- mostly on my phone while smoking cigarettes. As more people are beginning to play with this technology, I want to share my thoughts and tips.
 

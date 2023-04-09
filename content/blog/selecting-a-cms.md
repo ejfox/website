@@ -3,7 +3,7 @@ draft: true
 dek: 'In which the importance of mindful CMS selection is examined, the "no CMS" option is considered, and the benefits of using Markdown are revealed'
 inprogress: true
 date: 2023-04-04T14:50:35-04:00
-modified: 2023-04-04T15:27:30-04:00
+modified: 2023-04-09T13:48:13-04:00
 ---
 
 # A Thoughtful Approach to Choosing a Modern CMS
@@ -21,6 +21,10 @@ Many times, you don't even need a traditional CMS at all: just use your computer
 My experience with CMSes has primarily been within the bustling world of news organizations, where stories are often birthed in familiar tools like Word or Google Docs before being shepherded into a CMS for finalization, and time is of the essence.
 
 However, CMS platforms' limitations become apparent when embedding or styling non-text content. Elements such as full-screen videos, interactives, and scrollytelling might need to be hosted externally, accessed via links or iframes, and may not be responsive. This is extremely frustrating for everyone involved. 
+
+::table-of-contents
+
+::
 
 ## The argument for no CMS
 

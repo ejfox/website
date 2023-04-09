@@ -1,7 +1,7 @@
 ---
 dek: In which the author outlines his favorite systems and frameworks for organizing a team around a project
 date: 2022-11-14T16:11:16-05:00
-modified: 2023-01-10T10:43:34-05:00
+modified: 2023-04-09T13:45:56-04:00
 ---
 
 # How To Run A Project
@@ -16,6 +16,7 @@ I have gathered my favorite systems and frameworks for organizing a team around 
 Teams are almost always changing, and the systems that worked at the beginning of a project or team might not work when other variables change. Staying nimble, and deeply aware of the ✨vibes✨ is crucial to creating a good shared collaborative space, virtual or physical, and making dope work. 
 
 ::table-of-contents
+
 ::
 
 ## Cooking metaphors
@@ -75,6 +76,8 @@ In a commercial kitchen, chefs are responsible for a specific part of a meal: me
 ### Good vibes
 
 It is important to create a good vibe around a project. This means that everyone is comfortable with each other, and that they feel like they can trust each other. Good vibes are important because they make it easier to collaborate and make decisions. If people are not comfortable with each other, they are less likely to share their ideas.
+
+Joy-driven is an important concept that I expand on in [[joy-driven-development]]
 
 A team that is laughing together tend to work well together. Professionalism and humor are not mutually exclusive. Every team is different and have different ways of finding joy in their work. But it is important to spot and intentionally cultivate that joy anywhere it happens organically. 
 

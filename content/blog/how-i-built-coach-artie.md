@@ -3,12 +3,16 @@ draft: true
 dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00
-modified: 2023-04-04T14:05:33-04:00
+modified: 2023-04-09T13:48:36-04:00
 ---
 
 # How I Built An AI Assistant for our Dataviz Studio
 
 As I juggle between countless tasks and a constant desire to learn new skills, I often find my mind wandering to Twitter and YouTube instead of focusing on writing code or practicing watercolors. Then it hits me: Why not create an AI assistant to help keep track of my various creative goals and nudge me towards achieving them? 
+
+::table-of-contents
+
+::
 
 So I created Coach Artie - an AI-powered life coach designed to monitor my artistic aspirations and ensure that I stay committed to them, who quickly evolved into a studio assistant and collaborator.
 

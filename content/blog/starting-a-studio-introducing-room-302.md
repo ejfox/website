@@ -1,15 +1,12 @@
 ---
-draft: true
 dek: "In which the author proudly presents his new venture: Room 302 Studio, an eclectic gathering of talent devoted to fostering joy-driven development"
-inprogress: true
-hidden: true
-date: 2023-03-13T19:29:08-04:00
-modified: 2023-04-09T13:40:37-04:00
+date: 2023-04-10T01:00:00-04:00
+modified: 2023-04-09T23:48:17-04:00
 ---
 
 # Introducing room302.studio
 
-It's been a long journey since I first started in data visualization contracting over ten years ago, and I'm incredibly proud to introduce my new data and prototyping studio: [Room 302 Studio](https://room302.studio). 
+It's been a long journey since I first started in data visualization contracting over ten years ago, and **I'm incredibly proud to introduce my new data and prototyping studio: [Room 302 Studio](https://room302.studio).** 
 
 As my client work grew larger and more intricate, I realized the tremendous potential of forming a studio where talented people could connect, collaborate and strive together towards empowering the world through projects and tools that center joy and kindness. This dynamic new studio sets up an exciting opportunity for each of us to take on more ambitious projects that reflect our strong values.
 
@@ -41,7 +38,7 @@ In addition to our consulting services, we have set up an accessible Discord com
 
 We offer two types of membership options depending on your needs:
 
-1. **Community Membership** (Free): Access our Discord community where you can engage with other members, participate in discussions on topics that interest you, attend virtual events, propose projects or collaborate on existing projects.
-2. **Studio Membership** (Monthly Fee, Invite-Only): This is for members who will be working on paid client work, and includes a studio email, project billing, and a number of internal tools, resources, datasets, and templates.
+1. **Community Membership (Free)**: Access our Discord community where you can engage with other members, participate in discussions on topics that interest you, attend virtual events, propose projects or collaborate on existing projects.
+2. **Studio Membership (Monthly Fee, Invite-Only)**: This is for members who will be working on paid client work, and includes a studio email, project billing, and a number of internal tools, resources, datasets, and templates.
 
-I am beyond excited to see where this journey takes us, and I invite you to join us at Room 302 Studio as we collaborate, learn, and grow together. To learn more, visit our website at <https://room302.studio/.>
+I am beyond excited to see where this journey takes us, and I invite you to join us at Room 302 Studio as we collaborate, learn, and grow together. To learn more, visit our website at <https://room302.studio/>

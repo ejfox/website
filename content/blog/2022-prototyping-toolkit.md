@@ -12,10 +12,6 @@ modified: 2023-04-09T13:48:26-04:00
 
 See also [[my-vscode-setup]]
 
-::table-of-contents
-
-::
-
 ## Tools
 ### CSV and JSON
 

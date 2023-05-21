@@ -46,6 +46,7 @@
 - 📄 [[climate-strike-nyc|climate-strike-nyc]]
 - 📄 [[camera-setup|camera-setup]]
 - 📄 [[america|america]]
+- 📄 [[2023-ny-to-maine|2023-ny-to-maine]]
 - 📄 [[2022-prototyping-toolkit|2022-prototyping-toolkit]]
 - 📄 [[2018-in-review|2018-in-review]]
 - 📄 [[2017-in-review|2017-in-review]]

@@ -37,6 +37,6 @@ Embracing Joy-Driven Development is akin to navigating your creative odyssey wit
 
 There may be misconceptions about centering joy in the work process, and it may come across as frivolous or lazy. However, Joy-Driven Development prioritizes both the experience of those working on the project and the quality of the final product. We focus on enjoying our work so *we can create better work*.
 
-There are times when you need to do your chores, and that is not always fun. But having all of your chores done is joyful. Making a client happy is joyful. Creating work that makes the world better is joyful. If you can remember that is you hand-clean a dataset or debug a complicated SQL query, you can find the joy in those tasks too. Joy-driven development doesn't mean that we only do work that brings us joy, it means that joy is the gas that powers the engine. 
+There are times when you need to do your chores, and that is not always fun. But having all of your chores done is joyful. Making a client happy is joyful. Creating work that makes the world better is joyful. If you can remember that as you hand-clean a dataset or debug a complicated SQL query, you can find the joy in those tasks too. Joy-driven development doesn't mean that we only do work that brings us joy, it means that joy is the gas that powers the engine. 
 
 By entwining threads of joy into the fabric of our work, we not only cultivate more satisfying experiences for ourselves but also craft joy-filled creations that resonate with users.

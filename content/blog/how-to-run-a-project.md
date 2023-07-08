@@ -13,7 +13,7 @@ Over time you gather a broad toolkit and an intuition about the types of structu
 
 I have gathered my favorite systems and frameworks for organizing a team around a project, normally focused around a piece of software or journalism.
 
-Teams are almost always changing, and the systems that worked at the beginning of a project or team might not work when other variables change. Staying nimble, and deeply aware of the ✨vibes✨ is crucial to creating a good shared collaborative space, virtual or physical, and making dope work. 
+Teams are almost always changing, and the systems that worked at the beginning of a prroject or team might not work when other variables change. Staying nimble, and deeply aware of the ✨vibes✨ is crucial to creating a good shared collaborative space, virtual or physical, and making dope work. 
 
 ::table-of-contents
 
@@ -63,9 +63,23 @@ Even without hierarchy, there are areas of responsibility and chain of command i
 
 This requires a lot of trust with your teammates, and the ability to swallow disagreements in service of the project and the deadline. This is possible if people know there are systems in place to responsibly have those disagreements later, especially if they are core to the outlook of the project or the team as a whole. 
 
+#### Juggling Hierarchy and Democracy
+
+Imagine friends cooking a friendly potluck dinner. It's a democratic process where everyone contributes to what dishes will be made and how it will be prepared, cooking and serving. Every person’s input is equally valued; all are collectively contributing to the dinner. This gathering encourages creativity, fosters collaboration, and even builds stronger relationships, reflecting a non-hierarchical structure.
+
+Then the group learns that unexpected guests are arriving soon and they have not prepared enough food. The peaceful, democratic process turns chaotic due to the quickly approaching deadline. That's when a 'chain of command' becomes most effective. 
+
+A member who has displayed skills in leadership and organization decides what tasks are urgent and who in the group is best suited to carry out each one. For instance, someone known for speedy salad preparation will be put on salad duty, while another, faster at chopping might deal with the vegetable prep for the main course. In critical times such as this, a hierarchical system helps alleviate stress through swift decision-making and efficient delegation of tasks.
+
+When the guests are happily fed and the time crunch has passed, the group can then revert back to their democratic way of functioning, reflecting the non-hierarchical principles they prefer. Experiences from the high-stress preparations can be later discussed so that everyone understands that decisions made in the heat of the moment were temporary.
+
 ### First Person In
 
-In the military or SWAT teams there is the concept of the “first man in”. This is the person who enters the room first, and the rest of the unit follows. The “first man” in is the most vulnerable position with the most information, and the rest of the unit is there to support them. In a project, it is important to have someone who is willing to take the lead, and to be the first person in. This is a non-hierarchical decision made tactically in the moment based on the circumstances the team is presented with. 
+In the military or SWAT teams there is the concept of the “first man in”. This is the person who enters the room first, and the rest of the unit follows. It’s not dependent on rank but often rather factors like competence, proximity, or readiness at that exact moment. 
+
+The first person in is the most vulnerable position with the most information, and the rest of the unit is there to support them. In a project, it is important to have someone who is willing to take the lead, and to be the first person in. This is a non-hierarchical decision made tactically in the moment based on the circumstances the team is presented with. 
+
+The 'first person in' can be a team member who takes the initiative to launch a new idea, a project, or begin problem-solving in crises. They may be the first to arrive at work to prepare for a big presentation, head up a new software implementation, or lead an untested marketing strategy.
 
 ### Clear Roles and Responsibilities
 
@@ -81,13 +95,17 @@ Joy-driven is an important concept that I expand on in [[joy-driven-development]
 
 A team that is laughing together tend to work well together. Professionalism and humor are not mutually exclusive. Every team is different and have different ways of finding joy in their work. But it is important to spot and intentionally cultivate that joy anywhere it happens organically. 
 
-Great teams play dope jams on their sound system all day, with a rotating playlist anyone can access or change. 
+Great teams play dope jams on their sound system all day, with a rotating [playlist](https://open.spotify.com/playlist/2K4GLJ1dbH1abduVr5o9fK?si=b325d6ea975a4ec3) anyone can access or change. 
 
 ### Consensus
 
-Consensus means that everyone agrees on something. When making decisions with a team, it is important to reach consensus. This means that everyone agrees on the decision, and that they are all comfortable with it. Consensus is important because it makes it easier to implement a decision, and it keeps the team from falling into potential pitfalls, even if seen by a single person. 
+Consensus means that everyone agrees on a path forward. When making decisions with a team, it is important to reach consensus. This means that everyone agrees on the decision, and that they are all comfortable with it. Consensus is important because it makes it easier to implement a decision, and it keeps the team from falling into potential pitfalls, even if seen by a single person. 
 
-In a consensus system, any individual can veto any decision the group makes. The entire group must agree on a path of action. This dynamic exists in other non-consensus working structures, even if not explicitly spoken. 
+#### Veto
+
+The power of veto is a powerful tool within the consensus-driven model. In this context, it means allowing any team member to reject or block proposals they feel are not in the best interest of the project or the team. 
+
+The veto system emphasizes the importance of individual opinions within the group. By empowering every member with the ability to halt proceedings, it ensures their perspective is considered and any red flags they raise are addressed before moving forward.
 
 ## Non-technical systems / mechanisms
 
@@ -95,7 +113,7 @@ In a consensus system, any individual can veto any decision the group makes. The
 
 User stories are a way of describing the functionality of a system from the perspective of the user. User stories are written in the following format:
 
-"As a [type of user], I want [goal] so that [reason]."
+"As a \[type of user\], I want \[goal\] so that \[reason\]."
 
 For example, "As a customer, I want to be able to search for products so that I can find a toothbrush to buy."
 

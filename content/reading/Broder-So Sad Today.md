@@ -4,11 +4,11 @@ kindle-sync:
   title: 'So Sad Today: Personal Essays'
   author: Melissa Broder
   asin: B011J4H1NO
-  lastAnnotatedDate: '2021-08-24'
+  lastAnnotatedDate: '2023-06-01'
   bookImageUrl: 'https://m.media-amazon.com/images/I/71Xp3FcHKML._SY160.jpg'
-  highlightsCount: 12
-date: 2022-12-14T15:25:18-05:00
-modified: 2022-12-23T09:45:17-05:00
+  highlightsCount: 13
+date: 2022-12-14T20:25:18.000Z
+modified: 2022-12-23T14:45:17.000Z
 ---
 # So Sad Today
 
@@ -28,6 +28,9 @@ modified: 2022-12-23T09:45:17-05:00
 
 # Highlights
 
+Well-meaning people can save me from myself, but they cannot save me from being alive. Only my god can do that. Sometimes my god speaks through well-meaning people. Sometimes I am so lonely. — location: [357](kindle://book?action=open&asin=B011J4H1NO&location=357) ^ref-60693
+
+---
 help. My god is a horizontal god who works sideways on earth rather than vertically from heaven down. — location: [654](kindle://book?action=open&asin=B011J4H1NO&location=654) ^ref-64092
 
 ---

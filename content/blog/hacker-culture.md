@@ -10,7 +10,7 @@ modified: 2023-07-08T19:29:51-04:00
 
 #hackers #personal
 
-![[1844379862_A_3D_isometric_visualization_of_a_modern_hacker_s_room__complete_with_a_glowing_glowing_neon_compute.png]]
+![A_3D_isometric_visualization_of_a_modern_hacker_s_room__complete_with_a_glowing_glowing_neon_compute.png](https://res.cloudinary.com/ejf/image/upload/v1679587769/1844379862_A_3D_isometric_visualization_of_a_modern_hacker_s_room__complete_with_a_glowing_glowing_neon_compute.png)
 
 Hacker culture, present for decades, roots itself in the counterculture of the 1960s and '70s. It consistently focuses on challenging the status quo, questioning authority, and seeking out new ways of understanding and using technology. By closely examining the past, present, and future of hacker culture, we can better appreciate its influence on modern life and technology and the possibilities it offers for the future.
 

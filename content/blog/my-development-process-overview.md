@@ -8,7 +8,7 @@ inprogress: true
 
 #programming #personal #process 
 
-![[610144184_A_curious_man_in_a_flatbrim_baseball_cap_and_a_short_cropped_brown_beard__flying_over_a_sea_of_blog_.png]]
+![](https://res.cloudinary.com/ejf/image/upload/v1679587770/610144184_A_curious_man_in_a_flatbrim_baseball_cap_and_a_short_cropped_brown_beard__flying_over_a_sea_of_blog_.png)
 
 [[2022-prototyping-toolkit]]
 

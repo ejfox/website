@@ -9,7 +9,7 @@ modified: 2023-07-08T20:12:56-04:00
 
 # Experiments with Live Looping
 
-![[3490555308_An_abstract_music_visualizer_of_overlapping_loops__triggered_by_a_selection_of_reverb_and_delay_peda.png]]
+![](https://res.cloudinary.com/ejf/image/upload/v1679587769/3490555308_An_abstract_music_visualizer_of_overlapping_loops__triggered_by_a_selection_of_reverb_and_delay_peda.png)
 
 Performing electronic music with loops is a technique known as live looping. It has been used for many years by a variety of different artists and it has been used on stage and in recording studios. 
 

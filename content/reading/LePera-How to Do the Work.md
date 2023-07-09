@@ -6,9 +6,9 @@ kindle-sync:
     Your Self
   author: Nicole LePera
   asin: B089SZ9JKW
-  lastAnnotatedDate: '2022-12-27'
+  lastAnnotatedDate: '2023-07-06'
   bookImageUrl: 'https://m.media-amazon.com/images/I/819-DBs0KBL._SY160.jpg'
-  highlightsCount: 14
+  highlightsCount: 17
 date: 2022-12-14T20:22:57.000Z
 modified: 2022-12-23T16:24:53.000Z
 ---
@@ -82,5 +82,15 @@ That’s why the ego is so defensive and fear based. It views everything within 
 
 ---
 Ego stories come naturally to us because uncertainty is frightening. — location: [2380](kindle://book?action=open&asin=B089SZ9JKW&location=2380) ^ref-5621
+
+---
+
+Thoughts happen to us. They don’t mean anything about who we are. They’re simply our ego attempting to defend our identity and protect us from pain. — location: [2421](kindle://book?action=open&asin=B089SZ9JKW&location=2421) ^ref-47876
+
+---
+We are always subconsciously seeking to relive our past because we are creatures of comfort, who love to be able to predict the future, even if that future is certain to be painful, miserable, or even terrifying. It’s safer than the unknown. — location: [2626](kindle://book?action=open&asin=B089SZ9JKW&location=2626) ^ref-13573
+
+---
+It is a grounded state. You do not need to perform in a certain way or hide parts of yourself to receive love. You will still feel bored or unsettled. You will still find yourself attracted to other people and may even mourn the loss of the single life. Conscious relationships aren’t fairy tales. There’s no “You complete me.” — location: [2779](kindle://book?action=open&asin=B089SZ9JKW&location=2779) ^ref-13720
 
 ---

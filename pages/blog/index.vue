@@ -10,25 +10,23 @@
         <div>
           <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
           <ContentQuery :path="article._path" v-slot="{ data, toc }" find="one">
-            <!-- {{Object.keys(data[0])}} -->
 
 
-
-            <small class="mv0 pv0 moon-gray fw5" v-if="article.modified">
-              {{ formatDate(new Date(article.modified)) }}
-            </small>
-
-            <small class="mv0 pv0 moon-gray fw5" v-else>
-              {{ formatDate(new Date(article.date)) }}
-            </small>
-
-            <NuxtLink :to="article._path"
-            style="overflow-wrap: break-word;"
-              class="link b near-black db pv2 f2 f1-l lh-title ttu word-wrap pr headline-sans-serif mv0 article-title-link">{{
+            <NuxtLink :to="article._path" style="overflow-wrap: break-word;"
+              class="link b near-black db pv2 f2 f1-l lh-title ttu word-wrap pr headline-sans-serif mv0 article-title-link pointer">
+              {{
                 article.title
               }}</NuxtLink>
 
-            <div class="reading-time moon-gray mb2 fw1 pr2">
+            <small class="mv0 pv0 moon-gray fw5 f6" v-if="article.modified">
+              {{ formatDate(new Date(article.modified)) }}
+            </small>
+
+            <small class="mv0 pv0 moon-gray fw5 f6" v-else>
+              {{ formatDate(new Date(article.date)) }}
+            </small>
+
+            <div class="reading-time moon-gray mb2 fw1 pr2 f6">
               <span class="dib pr2" v-if="data?.readingTime.minutes > 1">
                 {{ data?.readingTime.text }}
               </span>
@@ -46,7 +44,8 @@
             <div class="gray f6">
               <div class="article-toc">
                 <ul class="list w-100 f6 fw3 f5-l fr ml2 ml5-ns mv0 mv1-l">
-                  <li v-for="link of article.body.toc.links" :key="link.id" class="mv1 pa1 dib mr2 ba br2 b--light-gray dim">
+                  <li v-for="link of article.body.toc.links" :key="link.id"
+                    class="mv1 pa1 ph2 dib mr2 ba br2 b--near-white dim">
                     <a :href="`${article._path}#${link.id}`" class="link gray
                     ">
                       {{ link.text }}</a>
@@ -75,9 +74,9 @@ const formatDate = timeFormat("%B %d, %Y");
 
 /* take in some articles loaded through content and filter them- they must have a `date` property, and if they are `hidden: true` we should remove them */
 const blogIndexFilter = (articles) => {
-  if(!articles) return
+  if (!articles) return
   return articles.filter((article) => {
-    if(!article) return false;
+    if (!article) return false;
 
     return article.date && !article.hidden;
   });
@@ -112,30 +111,23 @@ onMounted(() => {
 });
 </script>
 <style>
-
-
 .article-title-link {
-  transform: translate3d(0, 0, 0) scale3d(0,0,0,0);
-  transition: all 90ms cubic-bezier(0.5, 1, 0.89, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transition: transform 1s cubic-bezier(0.25, 0.8, 0.25, 1), text-shadow 0.3s ease;
 }
 
 .article-title-link:hover {
-  outline: none;
-  /* text-decoration: underline; */
-  transform: translate3d(0, -1px, 0) scale3d(1.005, 1.005, 1.005) rotate3d(0, 0, 1, 0);
-  transition: all 90ms cubic-bezier(0.5, 1, 0.89, 1);
-
-  /* cast a light text shadow */
-  text-shadow: 0 0 1.5rem rgba(0,0,0, 0.09);
-
+  transform: translate3d(0, -2px, 0) scale3d(1.005, 1.005, 1);
+  /* text-shadow transitions quicker for a slight lead-in effect */
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), text-shadow 0.15s ease;
 }
 
-/* make it pop even more on active */
 .article-title-link:active {
+  transform: translate3d(0, -2px, 0) scale3d(1.02, 1.02, 1);
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.1s cubic-bezier(0.25, 0.8, 0.25, 1), text-shadow 0.15s ease;
   outline: none;
-  transform: translate3d(0, -1px, 0) scale3d(1.09, 1.09, 1.09) rotate3d(0, 0, 1, 0);
-  transition: all 45ms cubic-bezier(0.5, 1, 0.89, 1);
-  text-shadow: 0 0 1.75rem rgba(0,0,0, 0.35);
 }
 
 

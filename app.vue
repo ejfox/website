@@ -1,6 +1,7 @@
 <template>
   <div id="app-container" class="sans-serif w-100">
     <Nav
+    class="ph3"
     />
 
     <div
@@ -11,7 +12,7 @@
       <canvas id="page-overlay-canvas" class="w-100 h-100 ma0 pa0"></canvas>
     </div>
 
-    <div class="w-100 mt5">
+    <div class="w-100 pa3 pa4-l">
       <!-- <NuxtPage :key="$route.fullPath" /> -->
       <NuxtPage />
     </div>

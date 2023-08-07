@@ -1,6 +1,6 @@
 <template>
   <section class="db mb4">
-    <section class="intro lh-copy f3 measure ml0 ml6-ns ph3">
+    <section class="intro lh-copy f3 measure ml5-l ph4">
       <ContentDoc />
     </section>
 

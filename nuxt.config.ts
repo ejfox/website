@@ -1,4 +1,11 @@
 export default {
+    modules: [
+      '@nuxthq/studio',
+    "@nuxt/content",
+    "@nuxtjs/google-fonts",
+    "@vueuse/nuxt",
+    "nuxt-icon",
+  ],
   app: {
     head: {
       script: [

@@ -1,6 +1,6 @@
 export default {
     modules: [
-      '@nuxthq/studio',
+    "@nuxthq/studio",
     "@nuxt/content",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",

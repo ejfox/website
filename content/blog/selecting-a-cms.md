@@ -1,26 +1,26 @@
 ---
 draft: true
-dek: 'In which the importance of mindful CMS selection is examined, the "no CMS" option is considered, and the benefits of using Markdown are revealed'
+dek: 'In which the importance of mindful CMS selection is examined, the option of "no CMS" is considered, and the benefits of using Markdown are revealed'
 inprogress: true
 date: 2023-04-04T14:50:35-04:00
-modified: 2023-04-09T13:48:13-04:00
+modified: 2023-08-09T14:23:13-04:00
 ---
 
 # A Thoughtful Approach to Choosing a Modern CMS
 
 #tech 
 
-In an age where content is king, the choice of a Content Management System (CMS) is akin to forging a bond with an unknown force that holds sway over all of your endeavors. 
+In an age where content is king, the choice of a Content Management System (CMS) is akin to forging a bond with an unknown force that holds sway over all of your endeavors, and it is a decision that cannot be taken lightly, though it often is.
 
-As creative creatures navigating the complex collision of man-made machines and natural beauty, it is crucial to approach CMS selection with careful consideration, lest one finds themselves shackled to an ill-fitting system for eternity. 
+We are creative creatures navigating the complex collision of man-made machines and natural beauty, it is crucial for us to approach CMS selection with careful consideration, lest one finds themselves shackled to an ill-fitting system for eternity. 
 
 Many times, you don't even need a traditional CMS at all: just use your computer's existing filesystem and tools.
 
 ![A digital artist working with multiple screens: Develop an image of a digital artist or content creator surrounded by multiple screens, each displaying a different CMS platform or aspect of content management (e.g., writing in Markdown, managing media assets, or monitoring website performance). This image would showcase the complexity of selecting and working with a modern CMS and emphasize the importance of considering various factors when making a choice](edited_142288951_A%20hipster%20digital%20artist%20working%20with%20multiple%20scr_xl-beta-v2-2-2.png)
 
-My experience with CMSes has primarily been within the bustling world of news organizations, where stories are often birthed in familiar tools like Word or Google Docs before being shepherded into a CMS for finalization, and time is of the essence.
+My experience with Content Management Systems has primarily been within the bustling world of news organizations and startups, where work is often birthed in familiar tools like Word or Google Docs before being shepherded into a CMS for finalization, and time is of the essence.
 
-However, CMS platforms' limitations become apparent when embedding or styling non-text content. Elements such as full-screen videos, interactives, and scrollytelling might need to be hosted externally, accessed via links or iframes, and may not be responsive. This is extremely frustrating for everyone involved. 
+However, the limitations of many platforms become apparent when you want to do anything other than publish text. Elements such as full-screen videos, interactives, and scrollytelling might need to be hosted externally, accessed via links or iframes, and may not be responsive. This is extremely frustrating for everyone involved. 
 
 ::table-of-contents
 
@@ -28,15 +28,19 @@ However, CMS platforms' limitations become apparent when embedding or styling no
 
 ## The argument for no CMS
 
-The longer you keep your content outside of the CMS, the longer you have complete control over your code and you don’t have to worry about compatibility issues and artificial limitations.
+Let's get to the point: unless you can easily list the reasons why you need a CMS, your default should be to avoid it as long as possible. 
 
-The downside is that it takes time, effort, and intentionality to build everything from scratch. If you want to add features like comments or social sharing, you have to build those yourself or find a plugin that works with your system. 
+The longer you keep your content outside of the CMS, the longer you have complete control over your content and your code and you don’t have to worry about compatibility issues and artificial limitations.
 
-But the tools and frameworks for creating websites quickly change the equation. If I can use tools like Tachyons, Nuxt, and Supabase to create complex scalable applications in hours, why would you then spend additional hours trying to get it to work within the limitations of a legacy CMS? [[2022-prototyping-toolkit]]
+The downside is that it takes time, effort, and intentionality to build everything from scratch. If you want to add features like comments or social sharing, you have to build those yourself or find a plugin that works with your system. This approach is only valuable if you want to create work that looks unlike everyone else's, and can benefit from the value of complete control. 
+
+The tools and frameworks for creating websites quickly change the equation. If I can use tools like Tachyons, Nuxt, and Supabase to create complex scalable applications in hours, why would you then spend additional hours trying to get it to work within the limitations of a legacy CMS? [[2022-prototyping-toolkit]]
 
 ### Redefine 'CMS' and bring your own
 
-But what does it actually mean to not have a CMS? It means that instead of entrusting your database of content and assets to a third party, you treat them like you already do; as folders of content in your local filesystem. This encourages a bring-your-own CMS approach; use whatever Markdown editor you want. Use whatever image editing tool you want. By bringing your content out of a traditional web-based CMS, you unlock the ability to use your existing toolset without the friction of working through web-based recreations with a fraction of the functionality. 
+But what does it actually mean to not have a CMS? It means that instead of entrusting your database of content and assets to a third party, you treat them like you already do; as folders of content in your local filesystem. This encourages a bring-your-own CMS approach; use whatever Markdown editor you want. Use whatever image editing tool you want. 
+
+By bringing your content out of a traditional web-based CMS, you unlock the ability to use your existing toolset without the friction of working through web-based recreations with a fraction of the functionality. 
 
 You can keep your folder of assets in markdown in sync with whatever system you want; a GitHub repo, Dropbox or Google Drive folder, or using keeping it all in an Obsidian Vault and using Obsidian Sync. 
 
@@ -50,15 +54,15 @@ Furthermore, the expenses associated with hosting, licensing, and maintaining a 
 
 Proponents of CMS platforms often emphasize the efficient workflows and user-friendly interfaces a well-chosen system can provide. By offering a unified structure and set of tools, modern CMS platforms simplify content management, enabling even those with minimal technical expertise to contribute effectively and move quickly.
 
-## Twitter as a model CMS
+## Twitter is a model CMS
 
 It is incredibly easy to throw together a twitter thread and have it be easily digestible and shareable. With the freedom to interweave images or graphics, Twitter's CMS permits bursts of raw emotion and inspiration with the immediate feedback of likes, retweets, and comments. Few CMSes can rival the pleasure and simplicity of Twitter.
 
-There is an undeniable allure to the ease of use and the minimalistic approach to maintaining a Twitter account. For many wandering souls in the digital world, Twitter stands as the best CMS they have ever encountered, much like the unexpected places where creativity and truth-seeking converge.
+There is an undeniable allure to the ease of use and the minimalistic approach to maintaining a Twitter account. For many, Twitter stands as the best CMS they have ever encountered.
 
 ## Markdown-powered CMS
 
-Markdown's simplicity as a plain-text format allows for effortless writing and editing using any text editor or even the built-in editor in a CMS. As a standard format, migrating content between CMS platforms becomes a breeze.
+Markdown's simplicity as a plain-text format allows for effortless writing and editing using any text editor or even the built-in editor in a CMS. As a standard format, migrating content between CMS platforms is super easy.
 
 ### Nuxt Content powered by Markdown
 
@@ -114,6 +118,7 @@ It should be easy to see any version of any asset and compare them.
 CMSes could also do more to help with project management by showing versions to users as well as item status, deadline, and assignment information. Often this information is captured in software outside the CMS, but it would be great to have it all in one place. 
 
 ## Where do you keep your media?
+
 ### Cloudinary
 
 Cloudinary is a cloud-based service that allows you to store, manage, and deliver your media assets. It provides a lot of features around image transformations and optimizations that make it a powerful option for displaying images and video.
@@ -122,21 +127,25 @@ Cloudinary is a cloud-based service that allows you to store, manage, and delive
 
 Amazon S3 is a cloud-based storage service that allows you to store and deliver your media assets. A lot of organizations already use S3, and it can be way easier to start putting assets in a new bucket in an S3 account that exists already. 
 
+### Supabase Storage
+
+Supabase Storage, an extension to the popular Supabase platform, which gives users an effortless way to handle large media files directly within their CMS interface. It integrates smoothly with other parts of Supabase, so if you are already storing your data in Supabase, it's an easy choice. 
+
 ## Where do you host it?
 ### Netlify
 
 Netlify is a cloud-based hosting service that allows you to deploy and host your website. 
 
-It has a free plan that allows you to deploy up to 3 sites and gives you 100GB of data transfer per month. 
-
-It also has a paid plan that allows you to deploy an unlimited number of sites and gives you unlimited data transfer.
+It has a free plan that allows you to deploy up to 3 sites and gives you 100GB of data transfer per month. It also has a paid plan that allows you to deploy an unlimited number of sites and gives you unlimited data transfer.
 
 ### Amazon AWS
 
-Amazon AWS is a cloud-based hosting service that allows you to deploy and host your website. 
-
-It is probably the most-used hosting service, but it is also the most expensive. 
+Amazon AWS is a cloud-based hosting service that allows you to deploy and host your website. It is much more difficult to automate deploys to AWS than to Netlify, in my experience. It is probably the most-used hosting service, but it is also the most expensive. 
 
 ### Self-hosting
 
 Self-hosting your website is an option if you have the technical expertise and resources to maintain and secure your server. It can give you complete control over your website, but it also requires a lot of work and can be costly in terms of time and money. It is not recommended for most individuals or small businesses without dedicated technical support.
+
+## CMS Recommendations
+- Wordpress: sometimes the best CMS is the one your client is already using, and often, that is Wordpress. 
+- Storyblok: A really next-level CMS built to be used headlessly in webapps, great extensibility, API, and documentation

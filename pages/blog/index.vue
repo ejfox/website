@@ -34,7 +34,7 @@
               <span class="dib pr2" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
             </div>
 
-            <div class="fw3 dn db-l">
+            <div class="fw3 pv2 i">
               <div v-if="article.dek" class="dek">{{ article.dek }}</div>
               <div v-else="article.description" class="dek">
                 {{ article.description }}

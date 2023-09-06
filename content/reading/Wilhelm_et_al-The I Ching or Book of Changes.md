@@ -33,3 +33,7 @@ It is all very well to say that the crystal of quartz is a hexagonal prism. The 
 This is the reason why the teacher must wait to be sought out instead of offering himself. Only thus can the instruction take place at the right time and in the right way. — location: [1456](kindle://book?action=open&asin=B004S6QSYO&location=1456) ^ref-16253
 
 ---
+
+This is the reason why the teacher must wait to be sought out instead of offering himself. Only thus can the instruction take place at the right time and in the right way. — location: [1456](kindle://book?action=open&asin=B004S6QSYO&location=1456) ^ref-16253
+
+---

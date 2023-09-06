@@ -1,18 +1,16 @@
 ---
 date: 2022-11-02T20:01:31-04:00
-modified: 2023-07-08T20:11:11-04:00
+modified: 2023-08-09T15:14:06-04:00
 dek: In which we go into detail about how to write code to accomplish a goal
 inprogress: true
 ---
-# An overview of my development process
+# The Art of Coding: A Developer's Guide
 
 #programming #personal #process 
 
 ![](https://res.cloudinary.com/ejf/image/upload/v1679587770/610144184_A_curious_man_in_a_flatbrim_baseball_cap_and_a_short_cropped_brown_beard__flying_over_a_sea_of_blog_.png)
 
-[[2022-prototyping-toolkit]]
-
-[[my-vscode-setup]]
+From personal projects to collaborations, paid work to passion projects, lets explore how I write code to achieve specific goals. We'll discuss the importance of clear goals, user stories, acceptance criteria, deadlines, and our core guiding principles.
 
 The rough shape of the project changes depending on a few factors:
 
@@ -21,17 +19,21 @@ The rough shape of the project changes depending on a few factors:
 - Fast vs slow
 - Public vs private
 
-For more less-technical specifics around project management in general: [[how-to-run-a-project]]
+For more less-technical specifics around project management in general (not just code): [[how-to-run-a-project]]
 
-For design philosophy [[design-philosophy]] and [[joy-driven-development]]
+For design philosophy [[design-philosophy]] and work philosophy [[joy-driven-development]]
+
+The tools I use to prototype quickly: [[2022-prototyping-toolkit]]
+
+My coding setup, including theme and plugins: [[my-vscode-setup]]
 
 # Establish a clear goal
 
-Sometimes the goal of a project can boil down to "who are we trying to make happy?"
+Sometimes the goal of a project can boil down to **"who are we trying to make happy?"**
 
 That could be a particular type of user, or it could be a powerful stakeholder, or the person who commissioned the project. Who controls the future of this project and what are they trying to get out of it? How can we make them happy?
 
-On personal project the goals might not be so clear, and it's worth digging into why something is interesting and putting it into words. Treat yourself as your client, with all the patience and diligence that implies. 
+On personal project the goals might not be so clear, and it's worth digging into why something is interesting and putting it into words. Treat yourself as your client, with all the patience and diligence that implies. Write yourself a clear and comprehensive brief that you can come back to later.
 
 Personal projects can be beneficial for a variety of reasons:
 
@@ -43,9 +45,11 @@ Personal projects can be beneficial for a variety of reasons:
 
 You can usually only accomplish a few of those goals, and knowing the bounds of your motivation for a project can help you avoid diving deep into the wrong areas and getting burnt out. 
 
-## User story
+## User stories
 
-I talk more about user stories in [[how-to-run-a-project]]
+User stories are essential to writing software that will be used by people. I talk more about user stories in [[how-to-run-a-project]]
+
+### tl;dr
 
 > User stories are a way of describing the functionality of a system from the perspective of the user. User stories are written in the following format:
 > "As a *type of user, I want *goal* so that *reason*."
@@ -62,7 +66,11 @@ I often write my acceptance criteria in the form of user stories.
 
 Deadlines, while sometimes stressful, actually serve an important role in managing your work. They help to frame the timeline and encourage focus and productivity. A clearly defined deadline sets the expectation for when work should be completed and ensures that everyone is working towards the same goal.
 
+### Do not break deadlines
+
 ## Core principles
+
+[[joy-driven-development]]
 
 ## Gather context
 ### Stakeholder Needs
@@ -93,13 +101,17 @@ Before starting a new project, it's beneficial to research and understand the wo
 
 Every industry or project often has its own set of unique terms, names, or jargon. Familiarizing yourself with these terms can hugely impact your understanding of the project and improve your communication with stakeholders and team members. Trying to speak the same language as your users or clients can foster better understanding, and convey professionalism and competence.
 
-### Tools that can help
+When creating new things, often new names need to be invented. I try not to be too precious about this process. The key is to just pick a sensible name for a thing and stick to it, until a better taxonomy develops and it makes sense to rename it. It is often very difficult to rename things once the name has been embedded deeply into the code. Only the bravest developers rename existing variables, especially deeply-entrenched ones. 
+
+### Carefully pick your tools
 
 Not every project will require the same set of tools. Depending on the project's nature, the 'right' tools can hugely differ. It's important to identify and understand the tools available that could aid your project's development, whether they're software for task management, design tools, coding platforms, analytical tools, or even physical equipment if relevant. They can save time, increase efficiency, and provide new capabilities.
 
+Often the most productive developers aren't the ones with the most experience or domain expertise, but those with the best set of tools for a particular problem. 
+
 ## Gather data and explore
 
-Data forms the backbone of any project. The type and amount of data needed will depend on the project's complexity and scope. Gathering useful data is a systematic process involving identifying data sources, collecting information, cleaning it, and then verifying its accuracy and relevance. 
+Data forms the backbone of any data visualization project. The type and amount of data needed will depend on the project's complexity and scope. Gathering useful data is a systematic process involving identifying data sources, collecting information, cleaning it, and then verifying its accuracy and relevance. 
 
 In the exploration phase, objective analysis of the gathered data can reveal patterns, trends, and insights that inform your project direction and strategy.
 
@@ -122,7 +134,7 @@ This step might involve several techniques like:
 
 By stretching the possibilities wide in this stage, you ensure you have multiple approaches or solutions to choose
 
-### Visual Forms
+### Visual Forms for data
 
 The use of visual forms in the exploration stage is instrumental. They convert raw data into insightful visuals, leading to an enhanced understanding and drastically improving the quality of the project:
 
@@ -137,6 +149,10 @@ Maps transform location-based data into discernible patterns, opening up the lan
 #### Data with Time: Line Chart or Animation
 
 Line charts or animations translate progression over time into visible trends, illuminating the path forward.
+
+#### Everything: Tables
+
+Our goal is not to visualize data just to make our work beautiful– sometimes the clearest way to convey some information is a simple humble table. 
 
 ## Make a prototype
 
@@ -166,7 +182,7 @@ Ultimately, designing an MVP is about discerning what's absolutely necessary for
 
 ## Visual design and polish
 
-Post-MVP, attention turns to enhancing user experience with aesthetics. It's more than just colors and fonts; it's about intuitive, consistent visuals that boost user engagement. Crucial elements in this process are animations and easing.
+Post-MVP, attention turns to enhancing user experience with aesthetics. It's more than just colors and fonts; it's about intuitive, consistent visuals that boost user engagement.
 
 Visual design gives your product its aesthetic appeal, aligning it with the brand's identity and improving user experience. It includes aspects like color schemes, typography, iconography, layout and spacing, among others.
 
@@ -205,6 +221,10 @@ Visuals can communicate information quickly and intuitively. Regularly taking sc
 ### Working in Public
 
 Sharing your work progress publicly (e.g., on social media or a blog) not only serves as documentation but also invites feedback and creates accountability. It can foster community engagement and even attract potential users or clients.
+
+### Working in semi-Public
+
+Even if you aren't sharing your work publicly, you can "liveblog" your progress in your company's shared chat channels. 
 
 ### Live-Streaming
 

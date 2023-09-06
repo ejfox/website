@@ -22,7 +22,7 @@ Starting my morning with a shower helps me to wake up and I like to listen to th
 
 ## Make Coffee, Read, and Meditate
 
-I make my morning coffee and take some time to read something inspiring – maybe a blog post or a book. I also meditate for 10 to 15 minutes to focus my mind and body on what's to come.
+I make my morning coffee and take some time to read something inspiring – maybe a blog post or a book. I also meditate for 10 to 20 minutes to slow down my mind and body for the day to come.
 
 ## Exercise
 
@@ -58,7 +58,7 @@ Making an espresso is important part of my morning routine because it provides m
 
 ## Analog / paper time and being outside
 
-I usually make an effort to spend some time outside and away from my phone, laptop or other screens. This helps me stay grounded, appreciate the world around me, and get in touch with the present moment. I also like to spend some time with analog activities like sketching, writing, or reading a book. 
+I usually make an effort to spend some time outside and away from my phone, laptop or other screens. This helps me stay grounded, appreciate the world around me, and get in touch with the present moment. I also like to spend some time with analog activities like sketching, painting with watercolors, or reading a book. 
 
 ## Connecting with friends and family
 

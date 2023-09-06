@@ -65,13 +65,13 @@ This requires a lot of trust with your teammates, and the ability to swallow dis
 
 #### Juggling Hierarchy and Democracy
 
-Imagine friends cooking a friendly potluck dinner. It's a democratic process where everyone contributes to what dishes will be made and how it will be prepared, cooking and serving. Every person’s input is equally valued; all are collectively contributing to the dinner. This gathering encourages creativity, fosters collaboration, and even builds stronger relationships, reflecting a non-hierarchical structure.
+Imagine friends cooking a friendly potluck dinner. It's a democratic process where everyone contributes to what dishes will be made and how it will be prepared, cooking and serving. Every person’s input is equally valued; all are collectively contributing to the dinner.
 
 Then the group learns that unexpected guests are arriving soon and they have not prepared enough food. The peaceful, democratic process turns chaotic due to the quickly approaching deadline. That's when a 'chain of command' becomes most effective. 
 
 A member who has displayed skills in leadership and organization decides what tasks are urgent and who in the group is best suited to carry out each one. For instance, someone known for speedy salad preparation will be put on salad duty, while another, faster at chopping might deal with the vegetable prep for the main course. In critical times such as this, a hierarchical system helps alleviate stress through swift decision-making and efficient delegation of tasks.
 
-When the guests are happily fed and the time crunch has passed, the group can then revert back to their democratic way of functioning, reflecting the non-hierarchical principles they prefer. Experiences from the high-stress preparations can be later discussed so that everyone understands that decisions made in the heat of the moment were temporary.
+When the guests are happily fed and the time crunch has passed, the group can then revert back to their democratic way of functioning, reflecting the non-hierarchical principles they prefer. Experiences from the high-stress preparations can be later discussed so that everyone understands that decisions made in the heat of the moment were temporary, or should be turned into a pattern and repeated next time. 
 
 ### First Person In
 
@@ -91,9 +91,9 @@ In a commercial kitchen, chefs are responsible for a specific part of a meal: me
 
 It is important to create a good vibe around a project. This means that everyone is comfortable with each other, and that they feel like they can trust each other. Good vibes are important because they make it easier to collaborate and make decisions. If people are not comfortable with each other, they are less likely to share their ideas.
 
-Joy-driven is an important concept that I expand on in [[joy-driven-development]]
+Joy-driven development is an important concept that I expand on in [[joy-driven-development]]
 
-A team that is laughing together tend to work well together. Professionalism and humor are not mutually exclusive. Every team is different and have different ways of finding joy in their work. But it is important to spot and intentionally cultivate that joy anywhere it happens organically. 
+A team that is laughing together tend to create great work. Professionalism and humor are not mutually exclusive. Every team is different and have different ways of finding joy in their work. But it is important to spot and intentionally cultivate that joy anywhere it happens organically. 
 
 Great teams play dope jams on their sound system all day, with a rotating [playlist](https://open.spotify.com/playlist/2K4GLJ1dbH1abduVr5o9fK?si=b325d6ea975a4ec3) anyone can access or change. 
 
@@ -121,7 +121,7 @@ They are complete, actionable, and accomplishable units of work and output. User
 
 ### Product backlog
 
-A product backlog is a list of all the features that need to be implemented in a system. The product backlog is organized into priority order, with the most important features at the top. User stories can be used to create a product backlog.
+A product backlog is a list of all the features that need to be implemented in a system. The product backlog is organized into priority order, with the most important features at the top. User stories can be used to create a product backlog of features. 
 
 ### Sprints
 
@@ -171,13 +171,13 @@ If there are things that I might do differently, I try to write the code I am as
 
 Documentation is important because it helps people understand how a system works. Documentation should be written in a clear and concise manner, and it should be easy to find and change.
 
-Documentation can take many different forms, such as comments in code, README files, wiki pages, and blog posts. It should be as eas for *anyone* to add to documentation, no matter where it lives. 
+Documentation can take many different forms, such as comments in code, README files, wiki pages, and blog posts. It should be easy for *anyone* to add to documentation, no matter where it lives. 
 
 ### Working in the open as much as possible
 
-Working in the open means that the work that you are doing is available for anyone to see via blog posts, livestreams, social media, and talks. Working in the open is important because it allows people to give feedback on your work, and it allows people to build from your work and create unexpected amazing things. 
+Working in the open means that the work that you are doing is available for anyone to see via blog posts, livestreams, social media, team channels, and talks. Working in the open is important because it allows people to give feedback on your work, and it allows people to build from your work and create unexpected amazing things. 
 
-It encourages good habits, such as writing clear and concise documentation, using descriptive names for things, and not taking shortcuts. 
+It encourages good habits, such as writing clear and concise documentation, using descriptive names for things, and not taking shortcuts. It also helps you gather feedback quickly and avoid false assumptions. 
 
 Working in the open is not always possible for various reasons, but it is something to strive for when possible as it is always rewarding.
 

@@ -18,7 +18,7 @@ Traveling can be an exciting adventure, but sometimes it can be hard to keep the
 
 ## Coffee in the Morning
 
-We all know that coffee is essential, and that's especially true while traveling. Before embarking on any journey, make sure to grab a coffee before you hit the road. The first thing you should be doing every morning is finding, making, and consuming coffee. This seems like a joke or something that can be delayed; it is not. 
+Before embarking on any journey, make sure to grab a coffee before you hit the road. The first thing you should be doing every morning is finding, making, and consuming coffee. This seems like a joke or something that can be delayed; it is not. 
 
 ## Accept and Embrace Mistakes
 
@@ -89,3 +89,10 @@ Life isn't about waiting for the storm to pass, but learning to dance in the rai
 Rain or shine, travel is about experiencing a place authentically and completely. Weather is an integral part of any destination's charm and identity – it can shape landscapes, inspire cultures, influence cuisine and determine local lifestyles. To reject or fear an aspect of this because it may bring discomfort or inconvenience is contrary to the true spirit of travel.
 
 Embracing potential rainy days with open arms involves changing our perspective on what 'good' travel looks like. Sure, sunshine may be ideal for a picture-perfect beach day or city sightseeing tour but consider this: how ethereal would a misty forest hike be? Or how atmospheric would a quiet mountain valley appear after a downpour? Sometimes it’s these unpredictable conditions that can lead to unforgettable moments.
+
+## Scarcity mentality
+
+> My proclivity for overpacking, Ms. Beckford told me, comes from a place of pessimism and a “scarcity mentality,” whereby I’m constantly imagining everything that could go wrong on a trip and trying to pack accordingly. That negativity can color a trip from the start.
+
+> Sure, plan ahead, research the climate at your destination and pick a few fun outfits you want to wear in your Instagram upload, she advised, but don’t stress too much. It’s a vacation, after all.
+[](https://www.nytimes.com/2023/07/08/opinion/carry-on-packing-airlines-lost-luggage.html?smid=nytcore-ios-share&referringSource=articleShare)

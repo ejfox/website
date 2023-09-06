@@ -6,6 +6,8 @@ modified: 2023-05-21T13:37:59-04:00
 
 # New York 👉 Maine
 
+![](IMG_0014.jpeg)
+
 ![](DSCF3062.jpg)
 
 ![](DSC00533.jpg)

@@ -2,10 +2,10 @@
 dek: In which we delve into the artistry of live looping, illuminating the core concepts and essential gear that enable musicians to create immersive soundscapes on the fly
 inprogress: true
 date: 2022-11-02T19:59:14-04:00
-modified: 2023-07-08T20:12:56-04:00
+modified: 2023-08-07T09:38:50-04:00
 ---
 
-#music #experiments 
+#music #experime[best-ios-apps-for-creativity](best-ios-apps-for-creativity.md)nts 
 
 # Experiments with Live Looping
 

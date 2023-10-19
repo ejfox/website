@@ -6,6 +6,7 @@ import inquirer from 'inquirer';
 import Bottleneck from 'bottleneck';
 import dotenv from 'dotenv';
 
+
 dotenv.config();
 
 const limiter = new Bottleneck({ minTime: 333 });
@@ -46,26 +47,40 @@ const fetchAllBlocks = async () => {
   }
 };
 
-inquirer.prompt([
-  {
-    type: 'confirm',
-    name: 'fetchAll',
-    message: 'Would you like to fetch all blocks?',
-    default: true,
-  },
-]).then(async (answers) => {
+
+const isCI = process.env.CI === 'true';
+
+if (isCI) {
   console.time('Time elapsed');
-  if (answers.fetchAll) {
-    const blocks = await fetchAllBlocks();
+  fetchAllBlocks().then(async (blocks) => {
     const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
     const filePath = path.join(dirPath, 'arena.json');
     await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
     await fs.writeFile(filePath, JSON.stringify(blocks, null, 2));
-  } else {
-    console.log('Fetching canceled.');
-  }
-  console.timeEnd('Time elapsed');
-});
+    console.timeEnd('Time elapsed');
+  });
+} else {
+  inquirer.prompt([
+    {
+      type: 'confirm',
+      name: 'fetchAll',
+      message: 'Would you like to fetch all blocks?',
+      default: true,
+    },
+  ]).then(async (answers) => {
+    console.time('Time elapsed');
+    if (answers.fetchAll) {
+      const blocks = await fetchAllBlocks();
+      const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
+      const filePath = path.join(dirPath, 'arena.json');
+      await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
+      await fs.writeFile(filePath, JSON.stringify(blocks, null, 2));
+    } else {
+      console.log('Fetching canceled.');
+    }
+    console.timeEnd('Time elapsed');
+  });
+}
 
 export {
   fetchAllBlocks,

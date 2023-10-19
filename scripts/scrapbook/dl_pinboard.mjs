@@ -37,26 +37,38 @@ const fetchBookmarks = async () => {
   return allBookmarks;
 };
 
-inquirer.prompt([
-  {
-    type: 'confirm',
-    name: 'fetchAll',
-    message: 'Would you like to fetch all bookmarks?',
-    default: true,
-  },
-]).then(async (answers) => {
+const isCI = process.env.CI === 'true';
+
+if (isCI) {
   console.time('Time elapsed');
-  if (answers.fetchAll) {
-    const bookmarks = await fetchBookmarks();
-    const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
-    const filePath = path.join(dirPath, 'bookmarks.json');
-    await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
-    await fs.writeFile(filePath, JSON.stringify(bookmarks, null, 2));
-  } else {
-    console.log('Fetching canceled.');
-  }
+  const bookmarks = await fetchBookmarks();
+  const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
+  const filePath = path.join(dirPath, 'bookmarks.json');
+  await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
+  await fs.writeFile(filePath, JSON.stringify(bookmarks, null, 2));
   console.timeEnd('Time elapsed');
-});
+} else {
+  inquirer.prompt([
+    {
+      type: 'confirm',
+      name: 'fetchAll',
+      message: 'Would you like to fetch all bookmarks?',
+      default: true,
+    },
+  ]).then(async (answers) => {
+    console.time('Time elapsed');
+    if (answers.fetchAll) {
+      const bookmarks = await fetchBookmarks();
+      const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
+      const filePath = path.join(dirPath, 'bookmarks.json');
+      await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
+      await fs.writeFile(filePath, JSON.stringify(bookmarks, null, 2));
+    } else {
+      console.log('Fetching canceled.');
+    }
+    console.timeEnd('Time elapsed');
+  });
+}
 
 export {
   fetchBookmarks,

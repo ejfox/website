@@ -1,0 +1,40 @@
+name: Update Scrapbook
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  update-scrapbook:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Scripts
+      run: |
+        node dl_arena.mjs
+        node dl_mastodon.mjs
+        node dl_pinboard.mjs
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "chore(scrapbook): update scrapbook items $(date +%Y-%m-%d)" || exit 0  # exit gracefully if no changes
+        git push
+      env:
+        PINBOARD_TOKEN: ${{ secrets.PINBOARD_TOKEN }}
+        MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+        ARENA_ACCESS_TOKEN: ${{ secrets.ARENA_ACCESS_TOKEN }}
+

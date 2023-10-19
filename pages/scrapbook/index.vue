@@ -9,10 +9,6 @@
       <option value="arrange">Arrange</option>
     </select>
 
-    <!-- <pre>{{ scrapbookData }}</pre> -->
-
-    <!-- <pre>{{ scrapByWeek }}</pre> -->
-
     <div v-if="viewByMode === 'weekly'">
       <div v-if="pending">Loading...</div>
       <div v-else class="flex flex-wrap">
@@ -20,54 +16,77 @@
           <h3>{{ weekToString(week) }}</h3>
           <div v-if="scraps" v-for="scrap in scraps" :key="scrap.id">
             <h4 class="f6 lh-title mv1 pv1">
-              <a :href="scrap.href" target="_blank" class="dark-gray fw3 link">
+              <a v-if="scrap.href" :href="scrap.href" target="_blank" class="dark-gray fw3 link">
                 {{ scrap.description }}
               </a>
-            </h4>
+              <span v-if="scrap?.content" v-html="scrap.content"></span>
+              <div v-if="scrap?.images">
+                <img v-for="image in scrap.images" :src="image" class="w-100" />
 
+              </div>
+            </h4>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 <script setup>
-import * as d3 from 'd3'
-// import date-fns
-import { format, parseISO, formatISO, formatDistanceToNow } from 'date-fns'
-const viewByMode = ref('weekly')
+import * as d3 from 'd3';
+import { format } from 'date-fns';
 
-// make a function to convert the week date object to a human readable string
+const viewByMode = ref('weekly');
+
 function weekToString(week) {
-  const start = format(week, 'MMM d')
-  const end = format(d3.timeWeek.offset(week, 1), 'MMM d')
-  return `${start} - ${end}`
+  const start = format(week, 'MMM d');
+  const end = format(d3.timeWeek.offset(week, 1), 'MMM d');
+  return `${start} - ${end}`;
 }
 
-
-// use Nuxt's built in useFetch to get the json data
-const { data: scrapbookData, pending, error } = await useFetch('/data/scrapbook/bookmarks.json', {
+const { data: bookmarksData, pending: bookmarksPending, error: bookmarksError } = useFetch('/data/scrapbook/bookmarks.json', {
   server: false
-})
+});
 
-console.log('error', error.value)
+const { data: mastodonData, pending: mastodonPending, error: mastodonError } = useFetch('/data/scrapbook/mastodon.json', {
+  server: false
+});
 
-const scrapByWeek = ref(null)
-
-function scrapbookDataToWeeks(data) {
-  console.log('data', data.value)
-  if (!data.value) return null
-  if (!data.value.length) return null
-  const scrapByWeekMap = d3.group(data.value, (d) => {
-    const date = new Date(d.time)
-    const week = d3.timeWeek.floor(date)
-    return week
-  })
-  console.log('scrapByWeekMap', scrapByWeekMap)
-  return scrapByWeekMap
-}
+const pending = ref(true);
+const scrapByWeek = ref(null);
 
 watchEffect(() => {
-  scrapByWeek.value = scrapbookDataToWeeks(scrapbookData)
-})
+  if (!bookmarksPending.value && !mastodonPending.value) {
+    pending.value = false;
+    const combinedData = [
+      ...(bookmarksData.value || []),
+      ...(mastodonData.value || []).map((status) => ({
+        id: status.id,
+        href: status.url,
+        content: status.content,
+        time: status.created_at,
+        type: 'mastodon',
+        images: status.media_attachments.map((attachment) => attachment.preview_url),
+      })),
+    ];
+    console.log(combinedData);
+    scrapByWeek.value = scrapbookDataToWeeks(combinedData);
+  }
+});
+
+function scrapbookDataToWeeks(data) {
+  if (!data.length) return null;
+  const scrapByWeekMap = d3.group(data, (d) => {
+    const date = new Date(d.time);
+    const week = d3.timeWeek.floor(date);
+    return week;
+  });
+
+  // sort scraps within each week in descending order of their time property
+  scrapByWeekMap.forEach((scraps, week) => {
+    scraps.sort((a, b) => new Date(b.time) - new Date(a.time));
+  });
+  return scrapByWeekMap;
+}
+
 </script>

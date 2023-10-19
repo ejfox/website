@@ -52,6 +52,10 @@ const { data: mastodonData, pending: mastodonPending, error: mastodonError } = u
   server: false
 });
 
+const { data: arenaData, pending: arenaPending, error: arenaError } = useFetch('/data/scrapbook/arena.json', {
+  server: false
+});
+
 const pending = ref(true);
 const scrapByWeek = ref(null);
 
@@ -67,6 +71,14 @@ watchEffect(() => {
         time: status.created_at,
         type: 'mastodon',
         images: status.media_attachments.map((attachment) => attachment.preview_url),
+      })),
+      ...(arenaData.value || []).map((block) => ({
+        id: block.id,
+        href: block.source?.url || null,
+        content: block.description,
+        time: block.created_at,
+        type: 'arena',
+        images: block.image ? [block.image.display.url] : [],
       })),
     ];
     console.log(combinedData);

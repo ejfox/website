@@ -105,7 +105,7 @@ const pending = ref(true);
 const scrapByWeek = ref(null);
 
 watchEffect(() => {
-  if (!bookmarksPending.value && !mastodonPending.value) {
+  if (!bookmarksPending.value && !mastodonPending.value && !arenaPending.value) {
     pending.value = false;
     const combinedData = [
       ...(bookmarksData.value || []).map((bookmark) => ({

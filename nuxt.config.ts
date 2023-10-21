@@ -1,11 +1,9 @@
 export default {
-    modules: [
-    "@nuxthq/studio",
-    "@nuxt/content",
+    modules: ['@nuxt/ui',
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
-    "nuxt-icon",
-  ],
+    "@nuxt/content", "@nuxtjs/google-fonts", // "nuxt-icon",
+    "@vueuse/nuxt", "@nuxt/image"],
   app: {
     head: {
       script: [
@@ -85,13 +83,6 @@ export default {
       routes: ['/rss.xml', '/stats/']
     }
   },
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/google-fonts",
-    "@vueuse/nuxt",
-    '@nuxt/image-edge',
-    "nuxt-icon",
-  ],
   // buildModules: [    
   // ],
   // image: {

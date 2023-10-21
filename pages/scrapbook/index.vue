@@ -3,12 +3,12 @@
     <h3>Scrapbook</h3>
 
     <!-- a select for the viewBy mode: weekly, concept, arrange-->
-    <select v-model="viewByMode">
+    <!-- <select v-model="viewByMode">
       <option value="weekly">Weekly</option>
       <option value="grid">Grid</option>
-      <option value="concept">Concept</option>
-      <option value="arrange">Arrange</option>
-    </select>
+    </select> -->
+
+    <USelect v-model="viewByMode" :options="['weekly', 'grid']" size="sm" />
 
     <div v-if="viewByMode === 'weekly'">
       <div v-if="pending">Loading...</div>

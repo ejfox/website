@@ -4,13 +4,13 @@
     <div class="container mx-auto py-1 flex justify-between items-center">
       <NuxtLink class="text-gray-800 dark:text-white text-xl font-bold pl-2" to="/">EJ Fox</NuxtLink>
       <div class="">
-        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/">Home
+        <NuxtLink class="pr-2 md:px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/">Home
         </NuxtLink>
-        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/projects">
+        <NuxtLink class="pr-2 md:px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/projects">
           Projects</NuxtLink>
-        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/blog/">Blog
+        <NuxtLink class="pr-2 md:px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/blog/">Blog
         </NuxtLink>
-        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/scrapbook/">
+        <NuxtLink class="pr-2 md:px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/scrapbook/">
           Scrapbook</NuxtLink>
       </div>
     </div>

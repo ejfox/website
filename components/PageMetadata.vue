@@ -35,7 +35,7 @@
       </span>
       <span class="mr-4 whitespace-nowrap inline-block" v-if="countPhotos(doc) > 0">
         <UIcon name="ant-design:camera-filled" class="mr-1 text-sm pb-1" />
-        {{ countPhotos(doc) }} photos
+        {{ countPhotos(doc) }} photo<span v-if="+countPhotos(doc) > 1">s</span>
       </span>
 
       <span class="mr-4 whitespace-nowrap inline-block" v-if="countLinks(doc) > 1">

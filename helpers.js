@@ -37,6 +37,15 @@ export function countPhotos(article) {
 
   return photos.length;
 }
+
+export function extractPhotos(article) {
+  const photos = article.body.children
+    .filter((node) => node.tag === "img")
+    .flat();
+
+  return photos;
+}
+
 export function countLinks(article) {
   if(!articleExists(article)) return 0
   // look inside all paragraphs and headings for links

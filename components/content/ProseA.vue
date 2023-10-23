@@ -33,13 +33,13 @@ const slug = computed(() => {
   return slug
 })
 // if it is a wikilink, grab the content for the page based on the slug, we will use this to get the title of the page from the markdown
-const { data: targetPageData } = await useAsyncData(`content-${slug.value}`, () =>{
-    return queryContent()
+const { data: targetPageData } = await useAsyncData(`content-${slug.value}`, () => {
+  return queryContent()
     // .where({_path: `/blog/${slug}`})
-    .where({_path: `/blog/${slug.value}`})
+    .where({ _path: `/blog/${slug.value}` })
     // .only(['_slug', 'title'])
     .findOne()
-  })
+})
 
 // console.log(targetPageData.value)
 
@@ -88,46 +88,41 @@ const isInternalLink = computed(() => {
 
 
 <template>
-  <NuxtLink
-    :href="isWikilink ? remappedWikiLink : href"
-    :class="[
-      'link near-black dim fw5',
-      isInternalLink ? 'fw6' : 'underline',
-    ]"
-    :title="targetPageData ? `${targetPageData.readingTime.words} words / ${targetPageData.readingTime.text}` : ''"
-  >
-    <span v-if="isWikilink && targetPageData"
-    class="internal-link">
-    <span v-if="targetPageData">
-      {{ targetPageData.title }}
+  <NuxtLink :href="isWikilink ? remappedWikiLink : href" :class="[
+    'text-gray-900 dark:text-gray-300 font-medium decoration-dotted hover:underline',
+    isInternalLink ? 'font-semibold' : '',
+  ]" :title="targetPageData ? `${targetPageData.readingTime.words} words / ${targetPageData.readingTime.text}` : ''">
+    <span v-if="isWikilink && targetPageData" class="internal-link">
+      <span v-if="targetPageData">
+        {{ targetPageData.title }}
       </span>
-  </span>
-  <span v-else>
-  <slot />
-  </span>
+    </span>
+    <span v-else>
+      <slot />
+    </span>
     <sup v-if="socialPlatform === 'wikipedia'">
-      <Icon name="simple-icons:wikipedia" class="ml1" />
+      <UIcon name="i-simpleicons-wikipedia" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'github'">
-      <Icon name="simple-icons:github" class="ml1" />
+      <UIcon name="i-simpleicons-github" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'youtube'">
-      <Icon name="simple-icons:youtube" class="ml1" />
+      <UIcon name="i-simpleicons-youtube" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'twitter'">
-      <Icon name="simple-icons:twitter" class="ml1" />
+      <UIcon name="i-simpleicons-twitter" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'keybase'">
-      <Icon name="simple-icons:keybase" class="ml1" />
+      <UIcon name="i-simpleicons-keybase" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'apple'">
-      <Icon name="simple-icons:apple" class="ml1" />
+      <UIcon name="i-simpleicons-apple" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'observablehq'">
-      <Icon name="simple-icons:observable" class="ml1" />
+      <UIcon name="i-simpleicons-observable" class="ml-1" />
     </sup>
     <sup v-if="socialPlatform === 'email'">
-      <Icon name="ic:baseline-email" class="ml1" />
+      <UIcon name="i-ic:basline-email" class="ml-1" />
     </sup>
   </NuxtLink>
 </template>
@@ -138,22 +133,20 @@ sup {
 
 /* add an animation for internal links, the background starts white, and then slowly turns into a rotating rainbow, and back and forth forever */
 .internal-link {
-  text-decoration: none;
+  text-decoration: none !important;
   border-bottom: none;
   /* slightly lighter colors so that black text is always readable */
-  background: linear-gradient(
-    45deg,
-    #ff1a1a,
-    #ff9933,
-    #4b0082,
-    #00e600,
-    #1a8cff,
-    #4d4dff,
-    #9933ff
-  );
+  background: linear-gradient(45deg,
+      #ff1a1a,
+      #ff9933,
+      #4b0082,
+      #00e600,
+      #1a8cff,
+      #4d4dff,
+      #9933ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   background-size: 400% 400%;
   -webkit-animation: change 38s ease-in-out infinite;
   -moz-animation: change 38s ease-in-out infinite;
@@ -165,9 +158,11 @@ sup {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -177,9 +172,11 @@ sup {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -189,9 +186,11 @@ sup {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -201,13 +200,13 @@ sup {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
-
-
 </style>

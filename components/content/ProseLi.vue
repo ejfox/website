@@ -1,9 +1,10 @@
 <template>
-  <li class="pa2 bb b--moon-gray striped"><slot /></li>
+  <li class="max-w-prose striped">
+    <slot />
+  </li>
 </template>
 <style>
-/* add a dark background to every other list item */
 .striped:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.05);
+  opacity: 0.95;
 }
 </style>

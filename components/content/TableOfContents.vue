@@ -1,13 +1,13 @@
 <template>
   <ul
-    class="list w-100 w-20-l measure br2 pv3 pv4-l ph4 f5 f4-ns fr-l mr6-l ml3 center left-l bg-near-white"
-  >
-    <h2 class="tl tc-l mb3 mt1 near-black db f3 fw4 ph1">Table of contents</h2>
-    <ol  class="mv1 pv1 f4">
-      <li v-for="(link, i) of toc.links" :key="link.id" class="dib v-top pa2">
-        <span class="b ph1">{{i+1}}</span>
-        <a :href="`#${link.id}`" class="link mid-gray underline">
-          
+    class="list w-full md:w-2/5 lg:w-1/5 measure rounded-md py-3 md:py-4 px-0 float-right bg-gray-100 dark:bg-gray-900 shadow md:shadow-xl ml-5 mb-5">
+    <h2 class="text-left md:text-center my-1 text-gray-900 dark:text-gray-100 text-lg md:text-xl font-medium py-0">Table
+      of contents
+    </h2>
+    <ol class="py-1 text-sm lg:text-base">
+      <li v-for="(link, i) of toc.links" :key="link.id" class="py-0 pr-5">
+        <a :href="`#${link.id}`" class="text-gray-600 dark:text-gray-600 hover:text-gray-800 underline">
+
           {{ link.text }}</a>
       </li>
     </ol>
@@ -28,5 +28,4 @@ ul {
   padding: 0;
   margin: 0;
 }
-
 </style>

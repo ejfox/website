@@ -1,42 +1,52 @@
 <template>
-  <div>
-    <h3>Scrapbook</h3>
+  <div class="dark:text-white">
+    <h3 class="text-6xl text-bold text-center py-8">Scrapbook</h3>
 
-    <!-- a select for the viewBy mode: weekly, concept, arrange-->
-    <!-- <select v-model="viewByMode">
-      <option value="weekly">Weekly</option>
-      <option value="grid">Grid</option>
-    </select> -->
+    <div class="w-4/12 mx-auto mb-10">
+      <USelectMenu v-model="viewByMode" :options="viewOptions">
+      </USelectMenu>
+    </div>
 
-    <USelect v-model="viewByMode" :options="['weekly', 'grid']" size="sm" />
-
-    <div v-if="viewByMode === 'weekly'">
+    <div v-if="viewByMode.slug === 'weekly'" class="container mx-auto px-10">
       <div v-if="pending">Loading...</div>
-      <div v-else class="">
-        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="pa2 overflow-hidden mb5 w-third-l fl">
-          <h3 v-html="weekToString(week)"></h3>
-          <div v-if="scraps" v-for="scrap in scraps" class="bb b--moon-gray pv2">
-            <div class="dib mr2">
-              <span v-if="scrap.type === 'mastodon'">
-                <a :href="scrap.href" target="_blank" class="dark-gray fw3 link">
-                  <Icon name="la:mastodon" color="gray" />
-                </a>
-              </span>
-              <span v-if="scrap.type === 'pinboard'">
-                <Icon name="uil:bookmark" color="gray" />
-              </span>
+      <div v-else class="space-y-6">
+        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="">
+          <h3 class="text-5xl font-bold mb-2 text-center" v-html="weekToString(week)"></h3>
+          <div v-if="scraps" v-for="scrap in scraps" class="p-2 max-w-prose mx-auto">
+            <div class="flex items-center mb-2 opacity-50">
+              <div class="mr-2">
+                <span v-if="scrap.type === 'mastodon'">
+                  <a :href="scrap.href" target="_blank" class="">
+                    <UIcon name="i-la-mastodon" color="gray" />
+                  </a>
+                </span>
+                <span v-if="scrap.type === 'pinboard'">
+                  <UIcon name="i-uil-bookmark" color="gray" />
+                </span>
+                <span v-if="scrap.type === 'arena'">
+                  <UIcon name="i-ph-asterisk" color="gray" />
+                </span>
+              </div>
+              <h5 class="text-sm font-thin">{{ prettyScrapTimestamp(scrap.time) }}</h5>
             </div>
-
-            <h5 class="mv0 pv0 fw1 gray dib mr1 ttu">{{ prettyScrapTimestamp(scrap.time) }}</h5>
-
-            <a v-if="scrap.href" :href="scrap.href" target="_blank" class="dark-gray fw3 link">
+            <a v-if="scrap.href" :href="scrap.href" target="_blank" class="text-lg font-bold mb-2 block">
               {{ scrap.description }}
             </a>
-            <span v-if="scrap?.content" class="bg-light-yellow fw1 f7 lh-title ml1" v-html="scrap.content"></span>
-            <div v-if="scrap?.images">
-              <a :href="scrap.href" target="_blank" class="link">
-                <img v-for="image in scrap.images" :src="image"
-                  :class="['scrap-image', scrap.images.length > 2 ? 'w-third' : 'w-100']" />
+            <span v-if="scrap?.content" class="text-sm mb-2" v-html="scrap.content"></span>
+            <div v-if="scrap?.images" class="flex flex-wrap">
+              <a :href="scrap.href" target="_blank" class="w-full">
+                <div v-if="scrap.images.length === 1" class="w-full">
+                  <img :src="scrap.images[0]" class="w-full drop-shadow-md rounded-sm mb-2" />
+                </div>
+                <div v-else-if="scrap.images.length === 2" class="w-full flex">
+                  <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm mb-2 w-1/2" />
+                  <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm mb-2 w-1/2" />
+                </div>
+                <div v-else-if="scrap.images.length === 3" class="flex">
+                  <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
+                  <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
+                  <img :src="scrap.images[2]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
+                </div>
               </a>
             </div>
           </div>
@@ -44,23 +54,69 @@
       </div>
     </div>
 
-
-    <div v-if="viewByMode === 'grid'">
+    <div v-if="viewByMode.slug === 'grid'" class="w-5/6 mx-auto">
       <div v-if="pending">Loading...</div>
       <div v-else>
-        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="flex flex-wrap">
-          <h5 v-html="weekToString(week)" class="bb w-100 pv3 f1 serif"></h5>
-          <div class="flex flex-wrap">
-            <div v-for="scrap in scraps"
-              class="w5 flex-item flex flex-column justify-center items-center pa2 overflow-auto">
-              <div class="pv3 overflow-y-auto h5">
-                <a v-if="scrap.href" :href="scrap.href" target="_blank" class="dark-gray fw3 link">
-                  {{ scrap.description }}
-                </a>
-                <br />
-                <span v-if="scrap?.content" class="bg-light-yellow fw1 f7 lh-title" v-html="scrap.content"></span>
-                <div v-if="scrap.images" class="pa3">
-                  <img v-for="image in scrap.images" :src="image" class="" />
+        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="mb-8">
+          <h5 v-html="weekToString(week)" class="text-xl font-bold py-2"></h5>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div v-for="scrap in scraps" class="mb-8">
+              <UCard class="min-h-full">
+                <template #header v-if="scrap?.content">
+                  <a v-if="scrap.href" :href="scrap.href" target="_blank" class="">
+                    {{ scrap.description }}
+                  </a>
+                </template>
+
+                <div class="flex items-center justify-center">
+                  <div v-if="!scrap?.content">
+                    <!-- just a link with the url-->
+                    <a v-if="scrap.href" :href="scrap.href" target="_blank" class="text-sm leading-tight">
+                      {{ scrap.description }}
+                    </a>
+                  </div>
+                  <span v-if="scrap?.content" class="text-xs font-light" v-html="scrap.content"></span>
+                  <div v-if="scrap.images" class="mt-2">
+                    <div v-if="scrap.images.length === 1" class="w-full">
+                      <img :src="scrap.images[0]" class="w-full drop-shadow-md rounded-sm" />
+                    </div>
+                    <div v-else-if="scrap.images.length === 2" class="w-full flex">
+                      <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm w-1/2" />
+                      <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm w-1/2" />
+                    </div>
+                    <div v-else-if="scrap.images.length > 2" class="flex">
+                      <img v-for="image in scrap.images" :key="image" :src="image"
+                        class="drop-shadow-md rounded-sm w-1/3" />
+                    </div>
+                  </div>
+                </div>
+              </UCard>
+
+              <div class="text-xs opacity-50 p-2 flex items-center justify-between">
+                <div class="dark:text-slate-500">
+                  {{ format(new Date(scrap.time), 'MMMM d, yyyy') }}
+                </div>
+
+                <!-- type-->
+                <div class="">
+                  <a :href="scrap.href" target="_blank" class="text-xs">
+                    <span v-if="scrap.type === 'mastodon'" class="dark:text-primary-900">
+                      Commentary
+                    </span>
+                    <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
+                      Bookmark
+                    </span>
+                    <span v-if="scrap.type === 'arena'">
+                      Scrapbook
+                    </span>
+                    <!-- external link icon that links to it-->
+
+                    <UIcon name="la:external-link-alt" color="gray" />
+                  </a>
+                </div>
+
+                <div class="dark:text-slate-700 ml-2">
+                  {{ format(new Date(scrap.time), 'h:mma') }}
                 </div>
               </div>
             </div>
@@ -75,7 +131,7 @@
 import * as d3 from 'd3';
 import { format } from 'date-fns';
 
-const viewByMode = ref('grid');
+
 
 function weekToString(week) {
   const start = format(week, 'MMM d');
@@ -88,6 +144,21 @@ function prettyScrapTimestamp(timestamp) {
   const date = new Date(timestamp);
   return format(date, 'iii h:mm a');
 }
+
+const viewOptions = [
+  {
+    label: 'Grid',
+    slug: 'grid',
+    icon: 'uil:grid',
+  },
+  {
+    label: 'Weekly',
+    slug: 'weekly',
+    icon: 'uil:calendar-alt',
+  },
+];
+
+const viewByMode = ref(viewOptions[0]);
 
 const { data: bookmarksData, pending: bookmarksPending, error: bookmarksError } = useFetch('/data/scrapbook/bookmarks.json', {
   server: false
@@ -115,6 +186,7 @@ watchEffect(() => {
         content: bookmark.extended,
         time: bookmark.time,
         type: 'pinboard',
+        ...bookmark,
       })),
       ...(mastodonData.value || []).map((status) => ({
         id: status.id,

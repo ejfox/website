@@ -24,13 +24,11 @@ const codeLineCount = computed(() => props.code.split("\n").length - 1);
 </script>
 
 <template>
-  <div
-    :class="[
-      'overflow-x-auto w-100 ph3',
-      codeCharCount > 100 ? 'f5 fw3' : 'f3',
-      codeLineCount > 1 ? 'with-line-numbers' : '',
-    ]"
-  >
+  <div :class="[
+    'overflow-x-auto dark:prose-invert shadow-sm',
+    codeCharCount > 100 ? 'text-lg' : 'text-3xl',
+    codeLineCount > 1 ? 'line-numbers' : '',
+  ]">
     <!-- {{slot}} -->
     <slot />
   </div>
@@ -43,10 +41,12 @@ code {
   /* word-break: break-word; */
   overflow-wrap: break-word;
 }
+
 pre {
   white-space: pre-wrap;
   line-height: 1.4em;
 }
+
 pre code .line {
   display: block;
   min-height: 1rem;

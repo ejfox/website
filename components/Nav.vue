@@ -1,66 +1,27 @@
 <template>
-  <nav class="mt4">
-    <ul class="list ma0 pa0 ml2 ml6-l db cf w-90 tl-ns w-50-ns">
-      <li class="pv2 db fl-ns fw8 link bg-white mr2 tracked mr4">
-        <span class="dib v-top">EJ Fox</span>
-      </li>
-
-      <NuxtLink
-        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
-        tag="li"
-        to="/"
-        >🏠 Home</NuxtLink
-      >
-      <NuxtLink
-        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
-        tag="li"
-        to="/projects"
-        >📋 Projects</NuxtLink
-      >
-      <NuxtLink
-        class="pa2 db fl-ns fw4 link bg-white black mr2 pointer"
-        tag="li"
-        to="/blog/"
-        >📝 Blog</NuxtLink
-      >
-      <!-- <NuxtLink class="pa2 db fl-ns fw4 link black bg-white mr3 mr4-l" tag="li" to="/photos/">Photos</NuxtLink> -->
-    </ul>
+  <nav
+    class="bg-neutral-50 dark:bg-gray-950 drop-shadow-sm py-1 xl:py-2 sticky top-0 md:static md:top-auto bg-opacity-90 backdrop-blur-sm z-50">
+    <div class="container mx-auto py-1 flex justify-between items-center">
+      <NuxtLink class="text-gray-800 dark:text-white text-xl font-bold pl-2" to="/">EJ Fox</NuxtLink>
+      <div class="">
+        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/">Home
+        </NuxtLink>
+        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/projects">
+          Projects</NuxtLink>
+        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/blog/">Blog
+        </NuxtLink>
+        <NuxtLink class="px-4 py-2  text-gray-700 dark:text-white hover:text-gray-900" to="/scrapbook/">
+          Scrapbook</NuxtLink>
+      </div>
+    </div>
   </nav>
 </template>
-<script setup>
-import anime from "animejs/lib/anime.es.js";
 
-onMounted(() => {
-  // use anime to animate the intro text
-  // anime({
-  //   targets: "nav a",
-  //   opacity: [0, 1],
-  //   translateX: ["-400%", 0],
-  //   backgroundColor: ["#fff", "rgba(255,255,255,0."],
-  //   easing: "easeOutQuad",
-  //   duration: 550,
-  //   delay: anime.stagger(170),
-  // });
-});
+<script setup>
 </script>
+
 <style>
 nav a {
   transition: all 2ms ease-out;
-}
-#nav-circle-svg {
-  height: 0.7em;
-  width: 0.7em;
-}
-
-#nav-circle {
-  fill: transparent;
-  stroke: #ccc;
-  stroke-width: 10;
-}
-
-.router-link-active {
-  /* color: red; */
-  /* color: #E7040F */
-  font-weight: 800;
 }
 </style>

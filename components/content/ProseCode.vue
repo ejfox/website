@@ -26,55 +26,9 @@ const codeLineCount = computed(() => props.code.split("\n").length - 1);
 <template>
   <div :class="[
     'overflow-x-auto dark:prose-invert shadow-sm',
-    codeCharCount > 100 ? 'text-lg' : 'text-3xl',
+    codeCharCount > 100 ? 'text-sm md:text-lg' : 'text-lg md:text-3xl',
     codeLineCount > 1 ? 'line-numbers' : '',
   ]">
-    <!-- {{slot}} -->
     <slot />
   </div>
 </template>
-
-<style>
-code {
-  max-width: 100vw;
-  overflow-x: auto;
-  /* word-break: break-word; */
-  overflow-wrap: break-word;
-}
-
-pre {
-  white-space: pre-wrap;
-  line-height: 1.4em;
-}
-
-pre code .line {
-  display: block;
-  min-height: 1rem;
-  margin-top: 0.15rem;
-}
-
-.with-line-numbers code {
-  counter-reset: step;
-  counter-increment: step 0;
-}
-
-.with-line-numbers code .line::before {
-  font-size: 0.75rem;
-  content: counter(step);
-  counter-increment: step;
-  width: 1.4rem;
-  margin-right: 1rem;
-  display: inline-block;
-  text-align: right;
-  color: rgba(115, 138, 148, 0.3);
-}
-
-.with-line-numbers code .line::before {
-  content: counter(step);
-}
-
-/* add a stripe to every other line */
-.with-line-numbers code .line:nth-child(2n) {
-  background: rgba(115, 138, 148, 0.025);
-}
-</style>

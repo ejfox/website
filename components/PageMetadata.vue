@@ -17,7 +17,7 @@
         {{ formatBlogDate(new Date(doc.date)) }}
       </span>
 
-      <span class="mr-4 whitespace-nowrap inline-block text-gray-500" v-if="doc.modified" title="Date modified">
+      <span class="hidden lg:inline-block mr-4 whitespace-nowrap text-gray-500" v-if="doc.modified" title="Date modified">
         <UIcon name="ic:round-edit-calendar" class="mr-1 text-sm pb-1" />
         <span class="hidden lg:inline-block">
           Updated

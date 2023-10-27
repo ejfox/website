@@ -9,7 +9,7 @@
       <ContentDoc v-slot="{ doc }" :head="false">
         <PageMetadata :doc="doc" />
         <div
-          class="prose md:prose-xl dark:prose-invert prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
+          class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
           <ContentRenderer :value="doc" class="" />
         </div>
         <!-- <template #not-found>

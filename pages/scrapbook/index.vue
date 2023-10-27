@@ -7,7 +7,7 @@
       </USelectMenu>
     </div>
 
-    <div v-if="viewByMode.slug === 'weekly'" class="container mx-auto px-10">
+    <div v-if="viewByMode.slug === 'weekly'" class="container mx-auto px-10 break-words">
       <div v-if="pending">Loading...</div>
       <div v-else class="space-y-6">
         <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="">
@@ -59,7 +59,7 @@
       <div v-else>
         <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="mb-8">
           <h5 v-html="weekToString(week)" class="text-xl font-bold py-2"></h5>
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="columns-2 md:columns-3 lg:columns-4 xl:columns-6">
             <div v-for="scrap in scraps" class="mb-8">
               <UCard class="min-h-full">
                 <template #header v-if="scrap?.content">
@@ -90,35 +90,37 @@
                     </div>
                   </div>
                 </div>
+
+                <template #footer>
+                  <div class="text-xs flex items-center justify-between">
+                    <div class="dark:text-slate-500">
+                      {{ format(new Date(scrap.time), 'MMM d, yyyy') }}
+                    </div>
+
+                    <!-- type-->
+                    <div class="hidden md:inline-block">
+                      <a :href="scrap.href" target="_blank" class="text-xs">
+                        <span v-if="scrap.type === 'mastodon'" class="dark:text-primary-900">
+                          Commentary
+                        </span>
+                        <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
+                          Bookmark
+                        </span>
+                        <span v-if="scrap.type === 'arena'">
+                          Scrapbook
+                        </span>
+                        <!-- external link icon that links to it-->
+
+                        <UIcon name="la:external-link-alt" color="gray" />
+                      </a>
+                    </div>
+
+                    <!-- <div class="hidden md:inline-block dark:text-slate-700 ml-2">
+                      {{ format(new Date(scrap.time), 'h:mma') }}
+                    </div> -->
+                  </div>
+                </template>
               </UCard>
-
-              <div class="text-xs opacity-50 p-2 flex items-center justify-between">
-                <div class="dark:text-slate-500">
-                  {{ format(new Date(scrap.time), 'MMMM d, yyyy') }}
-                </div>
-
-                <!-- type-->
-                <div class="">
-                  <a :href="scrap.href" target="_blank" class="text-xs">
-                    <span v-if="scrap.type === 'mastodon'" class="dark:text-primary-900">
-                      Commentary
-                    </span>
-                    <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
-                      Bookmark
-                    </span>
-                    <span v-if="scrap.type === 'arena'">
-                      Scrapbook
-                    </span>
-                    <!-- external link icon that links to it-->
-
-                    <UIcon name="la:external-link-alt" color="gray" />
-                  </a>
-                </div>
-
-                <div class="dark:text-slate-700 ml-2">
-                  {{ format(new Date(scrap.time), 'h:mma') }}
-                </div>
-              </div>
             </div>
           </div>
         </div>

@@ -22,9 +22,9 @@ jobs:
 
     - name: Run Scripts
       run: |
-        node dl_arena.mjs
-        node dl_mastodon.mjs
-        node dl_pinboard.mjs
+        node scripts/scrapbook/dl_arena.mjs
+        node scripts/scrapbook/dl_mastodon.mjs
+        node scripts/scrapbook/dl_pinboard.mjs
 
     - name: Commit and Push Changes
       run: |

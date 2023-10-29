@@ -6,8 +6,9 @@
     </figure>
   </span>
   <span v-else>
-    <nuxt-picture class="text-xs font-thin text-white" :src="src" :alt="alt" :width="width" :height="height"
-      placeholder />
+    <nuxt-picture class="" :imgAttrs="{
+      class: 'text-xs font-thin text-white rounded drop-shadow dark:drop-shadow-md',
+    }" :src="src" :alt="alt" :width="width" :height="height" placeholder />
   </span>
 </template>
 

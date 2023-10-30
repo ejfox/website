@@ -46,6 +46,12 @@ export function extractPhotos(article) {
   return photos;
 }
 
+export function extractFirstPhoto(article) {
+  const photos = extractPhotos(article)
+  if(photos.length) return photos[0]
+  return null
+}
+
 export function countLinks(article) {
   if(!articleExists(article)) return 0
   // look inside all paragraphs and headings for links

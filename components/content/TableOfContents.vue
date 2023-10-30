@@ -1,7 +1,9 @@
 <template>
   <ul
     class="list w-full md:w-2/5 lg:w-1/5 measure rounded-md py-3 md:py-4 px-0 float-right bg-gray-100 dark:bg-gray-900 shadow md:shadow-xl ml-5 mb-5">
-    <h2 class="text-left md:text-center my-1 text-gray-900 dark:text-gray-100 text-lg md:text-xl font-medium py-0">Table
+    <h2
+      class="text-left md:text-center my-1 text-gray-900 dark:text-gray-100 text-lg md:text-xl font-medium py-0 hidden lg:visible">
+      Table
       of contents
     </h2>
     <ol class="py-1 text-sm lg:text-base">

@@ -9,8 +9,8 @@ kindle-sync:
   lastAnnotatedDate: '2020-11-05'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81QytMrzgdL._SY160.jpg'
   highlightsCount: 8
-date: 2022-12-14T15:26:50-05:00
-modified: 2022-12-23T11:26:31-05:00
+date: 2022-12-14T20:26:50.000Z
+modified: 2022-12-23T16:26:31.000Z
 ---
 # Tools Of Titans
 
@@ -34,6 +34,9 @@ modified: 2022-12-23T11:26:31-05:00
 
 ---
 
+When deal-making, ask yourself: Can I trade a short-term, incremental gain for a potential longer-term, game-changing upside? Is there an element here that might be far more valuable in 5 to 10 years (e.g., ebook rights 10 years ago)? Might there be rights or options I can explicitly “carve out” and keep? If you can cap the downside (time, capital, etc.) and have the confidence, take uncrowded bets on yourself. You only need one winning lottery ticket. — location: [3329](kindle://book?action=open&asin=B01HSMRWNU&location=3329) ^ref-1712
+
+---
 “How to thrive in an unknowable future? Choose the plan with the most options. The best plan is the one that lets you change your plans.” — location: [3383](kindle://book?action=open&asin=B01HSMRWNU&location=3383) ^ref-24178
 
 ---

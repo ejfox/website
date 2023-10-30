@@ -3,10 +3,9 @@ draft: true
 dek: CSV, JSON, Datasette, Observable, QGIS, Nuxt, Vue, D3, Tachyons, Supabase
 inprogress: false
 date: 2022-11-02T19:58:19-04:00
-modified: 2023-04-09T13:48:26-04:00
+modified: 2023-09-09T14:49:22-04:00
+tags: programming process
 ---
-
-#programming 
 
 # 2022 Toolkit for Prototyping
 

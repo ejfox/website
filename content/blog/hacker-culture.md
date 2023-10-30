@@ -3,7 +3,8 @@ draft: true
 dek: In which we illuminate the curious history of hackerdom and its transformative influence on our modern technological world
 inprogress: true
 date: 2023-01-19T01:37:52-05:00
-modified: 2023-07-08T19:29:51-04:00
+modified: 2023-09-09T14:44:08-04:00
+tags: journalism culture history hackers
 ---
 # Hacker Culture: Unraveling the Threads of a Digital Revolution
 
@@ -47,7 +48,7 @@ In 2005 Steve Jobs credits Brand's work as an inspiration during his famous Stan
 
 Steve Jobs is profoundly influenced by both hacker culture and the psychedelic counterculture of the 1960s. This intersection plays a critical role in shaping his unique vision that would later revolutionize personal computing.
 
-Jobs openly acknowledges participating in LSD experimentation during his youth, describing it as "one of the most important things" he has ever done. Aligned with hippie ideals, these experiences triggered powerful  awakenings and shape his approach to life and business—prizing creativity over conformity.
+Jobs openly acknowledges participating in LSD experimentation during his youth, describing it as "one of the most important things" he has ever done. Aligned with hippie ideals, these experiences triggered powerful awakenings and shape his approach to life and business—prizing creativity over conformity.
 
 Moreover, it's crucial to understand how this journey into psychedelic exploration parallels Jobs' immersion into hacker culture early on—a time when he attends meetings at the Homebrew Computer Club alongside industry pioneers like Steve Wozniak. Within this vibrant community driven by curiosity and collaboration, they are motivated to challenge traditional hierarchies while inventing technology that can empower individual people.
 

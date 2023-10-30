@@ -4,6 +4,7 @@ dek: In which the author discusses methods to travel efficiently and have sponta
 inprogress: true
 date: 2022-12-26T15:09:25-05:00
 modified: 2023-07-08T19:54:46-04:00
+tags: travel america howto
 ---
 
 # How to Travel for Maximum Joy

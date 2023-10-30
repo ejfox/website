@@ -4,6 +4,7 @@ dek: In which we create a few rules so we can fully unlock our creativity
 inprogress: true
 date: 2023-01-19T01:23:52-05:00
 modified: 2023-07-04T21:58:23-04:00
+tags: personal design 
 ---
 
 # My design philosophy

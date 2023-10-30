@@ -10,7 +10,7 @@ kindle-sync:
 ---
 # Eleanor & Park
 ## Metadata
-* Author: [Rainbow Rowell](https://www.amazon.com/Rainbow-Rowell/e/B0042IIWBU/ref=dp_byline_cont_ebooks_1)
+* Author: [Rainbow Rowell](https://www.amazon.comundefined)
 * ASIN: B008SAZHLQ
 * ISBN: 1250012570
 * Reference: https://www.amazon.com/dp/B008SAZHLQ

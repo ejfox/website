@@ -2,11 +2,10 @@
 dek: In which we embrace new technology and strive for an equitable future
 date: 2023-01-24T10:56:03-05:00
 modified: 2023-04-09T13:47:52-04:00
+tags: culture politics machinelearning america
 ---
 
 # Deconstructing Crypto, AI, and the 21st Century Colonial Mindset
-
-#politics #machinelearning 
 
 ![](763896083_An_isometric_pile_of_coins__iphone__laptop_and_bank_notes_representing_cryptocurrency_and_AI_s_impac.png)
 

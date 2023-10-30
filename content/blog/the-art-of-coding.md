@@ -1,8 +1,9 @@
 ---
 date: 2022-11-02T20:01:31-04:00
-modified: 2023-08-09T15:14:06-04:00
+modified: 2023-09-09T14:44:33-04:00
 dek: In which we go into detail about how to write code to accomplish a goal
 inprogress: true
+tags: tech 
 ---
 # The Art of Coding: A Developer's Guide
 

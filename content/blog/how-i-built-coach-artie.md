@@ -4,6 +4,7 @@ dek: In which we build a robot to help around the shop
 inprogress: true
 date: 2023-03-21T15:03:11-04:00
 modified: 2023-04-09T13:48:36-04:00
+tags: machinelearning
 ---
 
 # How I Built An AI Assistant for our Dataviz Studio

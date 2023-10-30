@@ -3,6 +3,7 @@ dek: "In which the author's adoration for Obsidian is revealed, celebrating its 
 inprogress: true
 date: 2023-04-04T14:48:13-04:00
 modified: 2023-08-09T14:13:19-04:00
+tags: personal process writing quantifiedself systemsthinking
 ---
 
 # Why I love Obsidian for organizing my notes and blog posts

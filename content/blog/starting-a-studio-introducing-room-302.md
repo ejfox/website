@@ -2,6 +2,7 @@
 dek: "In which the author proudly presents his new venture: Room 302 Studio, an eclectic gathering of talent devoted to fostering joy-driven development"
 date: 2023-04-10T01:00:00-04:00
 modified: 2023-04-09T23:48:17-04:00
+tags: personal dataviz 
 ---
 
 # Introducing room302.studio

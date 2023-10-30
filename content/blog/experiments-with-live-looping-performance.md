@@ -2,11 +2,12 @@
 dek: In which we delve into the artistry of live looping, illuminating the core concepts and essential gear that enable musicians to create immersive soundscapes on the fly
 inprogress: true
 date: 2022-11-02T19:59:14-04:00
-modified: 2023-08-07T09:38:50-04:00
+modified: 2023-10822-207T8:1409:38:50-04:00
+tags:
+  - music
+  - art
+  - experiments
 ---
-
-#music #experime[best-ios-apps-for-creativity](best-ios-apps-for-creativity.md)nts 
-
 # Experiments with Live Looping
 
 ![](https://res.cloudinary.com/ejf/image/upload/v1679587769/3490555308_An_abstract_music_visualizer_of_overlapping_loops__triggered_by_a_selection_of_reverb_and_delay_peda.png)

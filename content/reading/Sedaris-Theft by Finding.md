@@ -1,4 +1,5 @@
 ---
+tags: writing
 kindle-sync:
   bookId: '31637'
   title: 'Theft by Finding: Diaries (1977-2002)'

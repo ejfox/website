@@ -6,11 +6,11 @@ kindle-sync:
     Becoming Superhuman
   author: Timothy Ferriss
   asin: B003EI2EH2
-  lastAnnotatedDate: '2022-10-21'
+  lastAnnotatedDate: '2023-10-12'
   bookImageUrl: 'https://m.media-amazon.com/images/I/71Ucfn-BzcL._SY160.jpg'
-  highlightsCount: 4
-date: 2022-12-14T15:23:17-05:00
-modified: 2022-12-23T11:05:54-05:00
+  highlightsCount: 6
+date: 2022-12-14T20:23:17.000Z
+modified: 2022-12-23T16:05:54.000Z
 ---
 # The 4-Hour Body
 
@@ -28,6 +28,12 @@ modified: 2022-12-23T11:05:54-05:00
 
 # Highlights
 
+“If I want a better-than-average career, I can’t simply ‘go with the flow’ and get it. Most people do just that: they wish for an outcome but make no intention-driven actions toward that outcome. If they would just do something most people would find that they get some version of the outcome they’re looking for. — location: [825](kindle://book?action=open&asin=B003EI2EH2&location=825) ^ref-57810
+
+---
+“We are what we do repeatedly.” A mere five times (five workouts, five meals, five of whatever we want) will be our goal. — location: [1210](kindle://book?action=open&asin=B003EI2EH2&location=1210) ^ref-21843
+
+---
 Use minimal arm movement and consider keeping your wrists near your nipples the entire time. During the initial 100-meter repeats, I purposefully ran directly behind the best ultra-distance runner in our group, matching his tempo and form. He ran with the shortest, most contained arm movements of all. — location: [6486](kindle://book?action=open&asin=B003EI2EH2&location=6486) ^ref-36229
 
 ---

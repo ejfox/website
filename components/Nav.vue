@@ -10,8 +10,8 @@
           Projects</NuxtLink>
         <NuxtLink active-class="text-primary-500" class="pr-2 md:px-4 py-2" to="/blog/">Blog
         </NuxtLink>
-        <NuxtLink active-class="text-primary-500" class="pr-2 md:px-4 py-2" to="/scrapbook/">
-          Scrapbook</NuxtLink>
+        <!-- <NuxtLink active-class="text-primary-500" class="pr-2 md:px-4 py-2" to="/scrapbook/">
+          Scrapbook</NuxtLink> -->
       </div>
     </div>
   </nav>

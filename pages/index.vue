@@ -1,3 +1,12 @@
+<script setup>
+definePageMeta({
+  title: 'EJ Fox',
+  meta: [
+    { name: 'keywords', content: 'EJ Fox, Portfolio, Web Development, Vue, Nuxt' }
+  ]
+})
+</script>
+
 <template>
   <section class="">
     <section

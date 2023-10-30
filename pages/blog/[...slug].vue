@@ -6,7 +6,7 @@
     <!-- <img :src="ogImageUrl" /> -->
 
     <div class="text-lg text-gray-900">
-      <ContentDoc v-slot="{ doc }" :head="false">
+      <ContentDoc v-slot="{ doc }">
         <PageMetadata :doc="doc" />
         <div
           class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
@@ -47,14 +47,8 @@
 <script setup>
 import { timeFormat } from "d3-time-format";
 
-
-// TODO: Fix this so it only pulls out things from the current category
-// ie if slug[0] is 'blog' then only pull out blog posts
-
-// get slug from the route
-const { params } = useRoute();
-
 const { toc, page, excerpt } = useContent();
+
 
 const formatDate = timeFormat("%B %Y");
 

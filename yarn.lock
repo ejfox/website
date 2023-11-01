@@ -2528,6 +2528,16 @@
     "@vueuse/shared" "9.13.0"
     vue-demi "*"
 
+"@vueuse/gesture@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/gesture/-/gesture-2.0.0-beta.1.tgz#e4c555bab652e4e13d612e3970eb21184a27a0b8"
+  integrity sha512-HTLibLy3bh6TjRnDAbMAvHSsEmrkRituMj2x+mHwmp1EnM8A8CDRTfNJEr8d/hIairnPPp5Va2KWYVmyP/zvkA==
+  dependencies:
+    chokidar "^3.5.2"
+    consola "^2.15.3"
+    upath "^2.0.1"
+    vue-demi "*"
+
 "@vueuse/head@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-2.0.0.tgz#a4570c0933368a436796c2f737d56e169a8f0864"
@@ -2575,6 +2585,14 @@
     "@vueuse/metadata" "9.13.0"
     local-pkg "^0.4.3"
     vue-demi "*"
+
+"@vueuse/router@^10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/router/-/router-10.5.0.tgz#12f22e197abf833b9082f5d79d0916fd0a0e43a6"
+  integrity sha512-KboRSnSTaRBvKiwhCJ9RJHidaUMy5+5RyAwq46IPovVtKm9nIUfV0/F8dPwYx36rxAWn9iNWZUbKfu4cGW3XuA==
+  dependencies:
+    "@vueuse/shared" "10.5.0"
+    vue-demi ">=0.14.6"
 
 "@vueuse/shared@10.5.0":
   version "10.5.0"
@@ -3283,7 +3301,7 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chokidar@^3.5.1, chokidar@^3.5.3:
+chokidar@^3.5.1, chokidar@^3.5.2, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -3963,6 +3981,11 @@ d3-shape@3:
     d3-ease "1 - 3"
     d3-interpolate "1 - 3"
     d3-timer "1 - 3"
+
+d3-voronoi@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/d3-voronoi/-/d3-voronoi-1.1.4.tgz#dd3c78d7653d2bb359284ae478645d95944c8297"
+  integrity sha512-dArJ32hchFsrQ8uMiTBLq256MpnZjeuBtdHpaDlYuQyjU0CVzCJl/BVW+SkszaAeH95D/8gxqAhgx0ouAWAfRg==
 
 d3-zoom@3:
   version "3.0.0"
@@ -10747,6 +10770,11 @@ untyped@^1.3.2, untyped@^1.4.0:
     mri "^1.2.0"
     scule "^1.0.0"
 
+upath@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
+  integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
+
 update-browserslist-db@^1.0.10, update-browserslist-db@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.11.tgz#9a2a641ad2907ae7b3616506f4b977851db5b940"
@@ -10784,6 +10812,11 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 uvu@^0.5.0:
   version "0.5.6"

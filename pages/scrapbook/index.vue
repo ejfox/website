@@ -59,7 +59,7 @@
       <div v-else>
         <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="mb-8">
           <h5 v-html="weekToString(week)" class="text-xl font-bold py-2"></h5>
-          <div class="columns-2 md:columns-3 lg:columns-4 xl:columns-6">
+          <div class="columns-3 lg:columns-4 xl:columns-5">
             <div v-for="scrap in scraps" class="mb-8">
               <UCard class="min-h-full">
                 <template #header v-if="scrap?.content">

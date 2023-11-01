@@ -77,6 +77,15 @@ watchEffect(() => {
 
 function renderSvg() {
   const svgSelection = d3.select(svg.value);
+  // The following line of code is creating an array of objects, where each object represents a position on the SVG canvas.
+  // The 'map' function is used to iterate over each item in the 'combinedData' array.
+  // For each item (represented by 'd'), it creates a new object.
+  // This object has three properties: 'x', 'y', and 'data'.
+  // The 'x' and 'y' properties represent the x and y coordinates of the position on the SVG canvas.
+  // These coordinates are generated randomly using the 'Math.random' function, which returns a random number between 0 and 1.
+  // This random number is then multiplied by the width and height of the SVG canvas (represented by 'width.value' and 'height.value') to get a random position within the canvas.
+  // The 'data' property is set to the current item in the 'combinedData' array (represented by 'd').
+  // This means that each position on the SVG canvas is associated with a specific item from the 'combinedData' array.
   const positions = combinedData.map((d, i) => ({ x: Math.random() * width.value, y: Math.random() * height.value, data: d }));
 
   let i = 0;
@@ -101,6 +110,17 @@ function drawVoronoi() {
   if (positions.length > 0) {
     const voronoiDiagram = voronoi().extent([[0, 0], [width.value, height.value]])(positions);
 
+    // Find the cell with the largest area
+    let largestArea = 0;
+    let largestCell;
+    voronoiDiagram.polygons().forEach(cell => {
+      const area = d3.polygonArea(cell);
+      if (area > largestArea) {
+        largestArea = area;
+        largestCell = cell;
+      }
+    });
+
     // Remove the old Voronoi diagram
     svgSelection.selectAll(".voronoi").remove();
 
@@ -110,7 +130,7 @@ function drawVoronoi() {
       .enter().append("path")
       .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
       .attr("class", "voronoi")
-      .style("fill", "none")
+      .style("fill", d => d.data === largestCell.data ? "rgba(255,0,0,0.5)" : "none") // Fill the largest cell with red color
       .style("stroke", "#2077b4")
       .style("stroke-width", "1px");
   }

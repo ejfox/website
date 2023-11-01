@@ -19,10 +19,28 @@ const exifDate = require('exif-date').parse
 //     filesize on Cloudinary's free plan
 //
 // 3 - Run `node folder-to-blogpost.js ~/photo-folder-path/ post-slug`
-//
-//
 
-// console.log('process', JSON.stringify(process.env))
+/*
+This script is designed to automate the process of creating a blog post from a folder of images. It performs the following steps:
+
+1. The script first loads environment variables from a .env file using the dotenv package. These variables are used to configure the Cloudinary API, which is used to upload images.
+
+2. The script expects the path to a folder of images and a post slug as command-line arguments. If no post slug is provided, the name of the folder is used as the slug.
+
+3. The script reads the contents of the specified folder. It ignores any subdirectories and any files that are not JPEG images.
+
+4. For each JPEG image, the script extracts EXIF data using the exifreader package. This data includes the model of the camera, the date and time the photo was taken, the aperture and shutter speed, and any description or caption embedded in the image. The script also uses the exif-date package to parse the date and time from the EXIF data.
+
+5. The script then uploads each image to Cloudinary using the cloudinary package. The URL of the uploaded image is added to the data for that image.
+
+6. Once all images have been processed and uploaded, the script generates a Markdown file for the blog post. Each image is included in the post using Markdown's image syntax, and the caption (if any) is included as plain text underneath the image.
+
+7. The script writes the Markdown for the blog post to a .md file in the 'content/photos/' directory. The name of the file is the post slug provided as a command-line argument (or the name of the folder if no slug was provided).
+
+8. The script also writes a .json file containing the data for each image, including the local and Cloudinary URLs and the EXIF data. This file can be used for additional processing or for debugging.
+
+9. Finally, the script exits. If any errors occur during the execution of the script (such as failing to read the folder or upload an image), the script logs the error and exits immediately.
+*/
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,

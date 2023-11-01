@@ -102,6 +102,12 @@ fs.readdir(folderPath, function (err, files) {
         JSON.stringify(photoFolderObject, null, '\t'),
       )
 
+      const blogPostMarkdown = makeBlogPost(newPhotoFolderObj)
+      fs.writeFileSync(
+        photoPostDestination + folder + '.md',
+        blogPostMarkdown,
+      )
+
       process.exit(0)
     },
   )
@@ -117,51 +123,44 @@ fs.readdir(folderPath, function (err, files) {
 })
 
 function makeBlogPost(photoFolderObject) {
-  let postHtml = ''
+  let postMarkdown = ''
   _.each(photoFolderObject.files, (p) => {
-    let photoHtml = ''
-    photoHtml += `
-
-      <figure>
-        <img src="${p.cloudinaryUrl}" />      
-    `
+    let photoMarkdown = ''
+    photoMarkdown += `![Image](${p.cloudinaryUrl})\n`
     if (p.caption) {
-      photoHtml += `
-        <figcaption>
-          ${p.caption}
-        </figcaption>
-      `
+      photoMarkdown += `${p.caption}\n`
     }
-
-    photoHtml += '</figure>'
-    postHtml += photoHtml
+    postMarkdown += photoMarkdown
   })
-
-  return postHtml
+  return postMarkdown
 }
 
 function uploadAllPhotosToCloudinary(photoFolderObject, cb) {
-  let filesUploaded = 0
-  let filesWithUrls = photoFolderObject.files
-  filesWithUrls.forEach(function (file, i) {
+  let uploadPromises = photoFolderObject.files.map((file, i) => {
     console.log('Uploading ', file.path)
-    // console.log('')
-    cloudinary.uploader.upload(file.path, (err, res) => {
-      if (err) console.log('Error uploading: ', err)
-      else {
-        photoFolderObject.files[i].cloudinaryUrl = res.url
-        // console.log('Files uploaded: ', filesUploaded)
-        // console.log('Length: ', filesWithUrls.length)
-        if (filesUploaded === filesWithUrls.length - 1) {
-          console.log(`Successfully uploaded ${filesUploaded} files`)
-          cb(photoFolderObject)
+    return new Promise((resolve, reject) => {
+      cloudinary.uploader.upload(file.path, (err, res) => {
+        if (err) {
+          console.log('Error uploading: ', err)
+          reject(err)
+        } else {
+          photoFolderObject.files[i].cloudinaryUrl = res.url
+          resolve()
         }
-        filesUploaded++
-      }
+      })
     })
   })
 
-  return filesWithUrls
+  Promise.all(uploadPromises)
+    .then(() => {
+      console.log(`Successfully uploaded ${photoFolderObject.files.length} files`)
+      cb(photoFolderObject)
+    })
+    .catch(err => {
+      console.log('Error uploading files: ', err)
+    })
+
+  return photoFolderObject.files
 }
 
 // Then run that file through the EXIF reader and extract EXIF data

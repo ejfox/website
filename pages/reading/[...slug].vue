@@ -1,5 +1,5 @@
 <template>
-  <div class="f3">
+  <div class="p-4 lg:p-10">
     <ContentDoc v-slot="{ doc }" :head="false" />
   </div>
 </template>

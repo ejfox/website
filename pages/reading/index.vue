@@ -1,32 +1,21 @@
 <template>
-  <main class="pt4 ma0">
+  <main class="pt-4 m-0">
+
     <Head>
       <Title>EJ Fox: 📖 Reading</Title>
     </Head>
-    <ContentQuery path="/reading/" :sort="{date: -1}"  v-slot="{ data }">
-      <div
-        v-for="book in data"
-        :key="book._path"
-        class="w-20 w-10-l dib ma0 pa0 ba b--white overflow-hidden v-top"
-      >
+    <ContentQuery path="/reading/" :sort="{ date: -1 }" v-slot="{ data }">
+      <div v-for="book in data" :key="book._path" class="w-1/5 sm:w-1/10 inline-block m-0 p-0 overflow-hidden align-top">
         <!-- <pre>{{ book['kindle-sync'] }}</pre> -->
-        
+
         <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
         <!-- <ContentQuery :path="book._path" v-slot="{ data }" find="one"> -->
-          <!-- {{Object.keys(data[0])}} -->
+        <!-- {{Object.keys(data[0])}} -->
 
 
-          <NuxtLink
-            :to="book._path"
-            class="link"
-            >
-            <img
-          :src="book['kindle-sync'].bookImageUrl"
-
-          class=""
-          />
-          </NuxtLink
-          >
+        <NuxtLink :to="book._path" class="link">
+          <img :src="book['kindle-sync'].bookImageUrl" class="" />
+        </NuxtLink>
         <!-- </ContentQuery> -->
       </div>
     </ContentQuery>
@@ -73,6 +62,7 @@ onMounted(() => {
 }
 
 @media screen and (min-width: 60em) {
+
   .footnotes ul,
   .footnotes ol {
     margin-left: 8rem;

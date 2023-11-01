@@ -8,7 +8,7 @@
 import * as d3 from 'd3';
 import { voronoi } from 'd3-voronoi';
 import { format, subWeeks } from 'date-fns';
-import { useMouse, useRafFn, useStorage } from '@vueuse/core';
+import { useMouse, useRafFn, useStorage, useWindowSize } from '@vueuse/core';
 import { useRouteQuery } from '@vueuse/router'
 import anime from 'animejs';
 import hash from 'object-hash';
@@ -18,7 +18,10 @@ let combinedData = [];
 const pending = ref(null)
 const scrapByWeek = ref(null)
 
+// Use VueUse function to get window size
 const { width, height } = useWindowSize()
+
+// const voronoiDiagram = computed(() => voronoi().x(d => d.x).y(d => d.y).extent([[0, 0], [width.value, height.value]]));
 
 const { data: bookmarksData, pending: bookmarksPending, error: bookmarksError } = useFetch('/data/scrapbook/bookmarks.json', {
   server: false
@@ -74,17 +77,13 @@ watchEffect(() => {
 
 function renderSvg() {
   const svgSelection = d3.select(svg.value);
-  const radiusIncrement = 3; // Adjust this value to change the spacing between spiral arms
-  const angleIncrement = 0.09; // Adjust this value to change the tightness of the spiral
+  const positions = combinedData.map((d, i) => ({ x: Math.random() * width.value, y: Math.random() * height.value, data: d }));
 
   let i = 0;
   const { pause, resume } = useRafFn(() => {
-    if (i < combinedData.length) {
-      const angle = angleIncrement * i;
-      const radius = radiusIncrement * i;
-      const x = width.value / 2 + radius * Math.cos(angle);
-      const y = height.value / 2 + radius * Math.sin(angle);
-      addElement(x, y, combinedData[i]);
+    if (i < positions.length) {
+      const { x, y } = positions[i];
+      addElement(x, y, positions[i].data);
       i++;
     } else {
       pause();
@@ -92,27 +91,40 @@ function renderSvg() {
   }, { immediate: true }); // Reduced interval for faster rendering
 }
 
-// Voronoi diagram for smart positioning
-let voronoiDiagram = voronoi()
-  .x((d) => d.x)
-  .y((d) => d.y)
-  .extent([[0, 0], [width.value, height.value]]);
+function drawVoronoi() {
+  const svgSelection = d3.select(svg.value);
+
+  // Calculate the Voronoi diagram based on the existing scraps
+  const positions = addedScraps.value.map(d => [d.x, d.y]);
+  
+  // Check if there are positions to generate the Voronoi diagram from
+  if (positions.length > 0) {
+    const voronoiDiagram = voronoi().extent([[0, 0], [width.value, height.value]])(positions);
+
+    // Remove the old Voronoi diagram
+    svgSelection.selectAll(".voronoi").remove();
+
+    // Draw the new Voronoi diagram
+    svgSelection.selectAll(".voronoi")
+      .data(voronoiDiagram.polygons())
+      .enter().append("path")
+      .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
+      .attr("class", "voronoi")
+      .style("fill", "none")
+      .style("stroke", "#2077b4")
+      .style("stroke-width", "1px");
+  }
+}
+
+const addedScraps = ref([])
 
 function addElement(posX, posY, data) {
   const id = hash(data);
   const storageKey = `scrap-position-${id}`;
   const positionStorage = useStorage(storageKey, null);
-  const storedPosition = positionStorage.value;
 
-  // If no stored position, calculate a new one
-  if (!storedPosition) {
-    const positions = combinedData.map((d) => ({ x: d.x, y: d.y }));
-    const diagram = voronoiDiagram(positions);
-    const emptyCell = diagram.cells.find((cell) => cell && cell.site && cell.site.data === undefined);
-    if (emptyCell && emptyCell.site) {
-      positionStorage.value = { x: emptyCell.site.x, y: emptyCell.site.y };
-    }
-  }
+  // Add the new scrap to the addedScraps array with the given position
+  addedScraps.value.push({ x: posX, y: posY, data: data });
 
   const svgSelection = d3.select(svg.value);
   const element = svgSelection.append('foreignObject')
@@ -121,7 +133,7 @@ function addElement(posX, posY, data) {
     .attr('x', posX)
     .attr('y', posY)
     .append('xhtml:div')
-    .classed('text-center scrap-item bg-black bg-opacity-50 py-2 rounded-lg drop-shadow-lg text-xs cursor-pointer max-w-prose', true)
+    .classed('text-center text-white scrap-item bg-black bg-opacity-50 py-2 rounded-lg drop-shadow-lg text-xs cursor-pointer max-w-prose', true)
     .classed('hover:bg-opacity-75 transition-all duration-200 ease-in-out', true)
     .style('overflow', 'hidden')
 
@@ -133,33 +145,8 @@ function addElement(posX, posY, data) {
     element.text(data.description);
   }
 
-  // Add anime.js animation
-  // anime({
-  //   targets: element.node(),
-  //   scale: [0.1, 1],
-  //   opacity: [0, 1],
-  //   easing: 'easeOutQuad',
-  //   duration: 800,
-  // });
-
-  // Add d3 drag behavior
-  const drag = d3.drag()
-    .on("start", function() {
-      d3.select(this).raise().classed("active", true);
-    })
-    .on("drag", function(event, d) {
-      const newX = event.x;
-      const newY = event.y;
-      d3.select(this.parentNode)
-        .attr('x', newX)
-        .attr('y', newY);
-      positionStorage.value = { x: newX, y: newY };
-    })
-    .on("end", function() {
-      d3.select(this).classed("active", false);
-    });
-
-  element.call(drag);
+  // Draw the Voronoi diagram
+  drawVoronoi();
 }
 
 function scrapbookDataToWeeks(data) {

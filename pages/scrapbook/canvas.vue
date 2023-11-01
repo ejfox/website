@@ -92,7 +92,7 @@ function renderSvg() {
   const { pause, resume } = useRafFn(() => {
     if (i < positions.length) {
       const { x, y } = positions[i];
-      addElement(x, y, positions[i].data);
+      addElement(positions[i].data);
       i++;
     } else {
       pause();
@@ -136,12 +136,56 @@ function drawVoronoi() {
   }
 }
 
+function getLargestCell() {
+  const positions = addedScraps.value.map(d => [d.x, d.y]);
+
+  if (positions.length > 0) {
+    const voronoiDiagram = voronoi().extent([[0, 0], [width.value, height.value]])(positions);
+
+    let largestArea = 0;
+    let largestCell;
+    voronoiDiagram.polygons().forEach(cell => {
+      const area = d3.polygonArea(cell);
+      if (area > largestArea) {
+        largestArea = area;
+        largestCell = cell;
+      }
+    });
+
+    return largestCell;
+  }
+
+  return null;
+}
+
 const addedScraps = ref([])
 
-function addElement(posX, posY, data) {
+function getRandomPositionInCell(cell) {
+  const [minX, minY] = d3.polygonHull(cell).reduce(([minX, minY], [x, y]) => [Math.min(minX, x), Math.min(minY, y)], [Infinity, Infinity]);
+  const [maxX, maxY] = d3.polygonHull(cell).reduce(([maxX, maxY], [x, y]) => [Math.max(maxX, x), Math.max(maxY, y)], [-Infinity, -Infinity]);
+  const posX = minX + Math.random() * (maxX - minX);
+  const posY = minY + Math.random() * (maxY - minY);
+  return [posX, posY];
+}
+
+function addElement(data) {
   const id = hash(data);
   const storageKey = `scrap-position-${id}`;
   const positionStorage = useStorage(storageKey, null);
+
+  let posX, posY;
+
+  // If there are already scraps, calculate the centroid of the largest cell
+  if (addedScraps.value.length > 0) {
+    const largestCell = getLargestCell();
+    if (largestCell) {
+      [posX, posY] = getRandomPositionInCell(largestCell);
+    }
+  } else {
+    // If there are no scraps yet, generate random position
+    posX = Math.random() * width.value;
+    posY = Math.random() * height.value;
+  }
 
   // Add the new scrap to the addedScraps array with the given position
   addedScraps.value.push({ x: posX, y: posY, data: data });

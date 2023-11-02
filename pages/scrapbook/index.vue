@@ -26,6 +26,9 @@
                 <span v-if="scrap.type === 'arena'">
                   <UIcon name="i-ph-asterisk" color="gray" />
                 </span>
+                <span v-if="scrap.type === 'github'">
+                  <UIcon name="i-la-github" color="gray" />
+                </span>
               </div>
               <h5 class="text-sm font-thin">{{ prettyScrapTimestamp(scrap.time) }}</h5>
             </div>
@@ -89,6 +92,10 @@
                         class="drop-shadow-md rounded-sm w-1/3" />
                     </div>
                   </div>
+                  <div v-if="scrap.videos" class="mt-2">
+                    <video v-for="video in scrap.videos" :key="video" :src="video"
+                      class="w-full drop-shadow-md rounded-sm" controls />
+                  </div>
                 </div>
 
                 <template #footer>
@@ -108,6 +115,15 @@
                         </span>
                         <span v-if="scrap.type === 'arena'">
                           Scrapbook
+                        </span>
+                        <span v-if="scrap.type === 'github-star'">
+                          Github Star
+                        </span>
+                        <span v-if="scrap.type === 'user-github'">
+                          Repo
+                        </span>
+                        <span v-if="scrap.type === 'user-github-issue'">
+                          Github Issue
                         </span>
                         <!-- external link icon that links to it-->
 
@@ -132,8 +148,9 @@
 <script setup>
 import * as d3 from 'd3';
 import { format } from 'date-fns';
+import useScrap from '~/composables/useScrap.js';
 
-
+const { combinedData, scrapByWeek } = useScrap();
 
 function weekToString(week) {
   const start = format(week, 'MMM d');
@@ -162,91 +179,10 @@ const viewOptions = [
 
 const viewByMode = ref(viewOptions[0]);
 
-const { data: bookmarksData, pending: bookmarksPending, error: bookmarksError } = useFetch('/data/scrapbook/bookmarks.json', {
-  server: false
-});
-
-const { data: mastodonData, pending: mastodonPending, error: mastodonError } = useFetch('/data/scrapbook/mastodon.json', {
-  server: false
-});
-
-const { data: arenaData, pending: arenaPending, error: arenaError } = useFetch('/data/scrapbook/arena.json', {
-  server: false
-});
-
-const pending = ref(true);
-const scrapByWeek = ref(null);
-
-watchEffect(() => {
-  if (!bookmarksPending.value && !mastodonPending.value && !arenaPending.value) {
-    pending.value = false;
-    const combinedData = [
-      ...(bookmarksData.value || []).map((bookmark) => ({
-        id: bookmark.id,
-        href: bookmark.href,
-        description: bookmark.description,
-        content: bookmark.extended,
-        time: bookmark.time,
-        type: 'pinboard',
-        ...bookmark,
-      })),
-      ...(mastodonData.value || []).map((status) => ({
-        id: status.id,
-        href: status.url,
-        // content: status.content, // this includes HTML
-        // instead we want to sanitize the HTML and get the text
-        description: status.content.replace(/<[^>]*>?/gm, ''),
-        time: status.created_at,
-        type: 'mastodon',
-        images: status.media_attachments.map((attachment) => attachment.preview_url),
-      })),
-      ...(arenaData.value || []).map((block) => ({
-        id: block.id,
-        // href: block.source?.url || null,
-        // link to the arena page for now
-        href: `https://www.are.na/block/${block.id}`,
-        content: block.description,
-        time: block.created_at,
-        type: 'arena',
-        images: block.image ? [block.image.display.url] : [],
-      })),
-    ];
-    console.log(combinedData);
-    scrapByWeek.value = scrapbookDataToWeeks(combinedData);
-  }
-});
-
-function scrapbookDataToWeeks(data) {
-  if (!data.length) return null;
-  const scrapByWeekMap = d3.group(data, (d) => {
-    const date = new Date(d.time);
-    const week = d3.timeWeek.floor(date);
-    return week;
-  });
-
-  // sort scraps within each week in descending order of their time property
-  scrapByWeekMap.forEach((scraps, week) => {
-    scraps.sort((a, b) => new Date(b.time) - new Date(a.time));
-  });
-
-  // trim to only the selected year
-  const selectedYear = 2023
-  const scrapByWeekMapTrimmed = new Map();
-
-  scrapByWeekMap.forEach((scraps, week) => {
-    const year = format(week, 'yyyy');
-    if (+year === +selectedYear) {
-      scrapByWeekMapTrimmed.set(week, scraps);
-    }
-  });
-
-  // return scrapByWeekMap;
-  return scrapByWeekMapTrimmed
-}
-
 </script>
 <style scoped>
 .scrap-image {
   /* max-width: 34rem; */
 }
 </style>
+

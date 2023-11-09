@@ -5,9 +5,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ~/code/website/content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ~/code/website/content/blog/ --dry-run --list-only",
-    "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/drafts/assets/ ~/code/website/static/",
-    "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/reading/ ~/code/website/content/reading/",
+    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ./content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ./content/blog/ --dry-run --list-only",
+    "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/drafts/assets/ ./*/static/",
+    "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/reading/ ./content/reading/",
     "content:all": "npm run content:blog && npm run content:reading && git add \\*.md && git commit -m 'Update content' && git push"
   },
   "devDependencies": {
@@ -29,6 +29,7 @@
     "@vueuse/core": "^10.5.0",
     "@vueuse/integrations": "^10.5.0",
     "@vueuse/nuxt": "^9.13.0",
+    "@vueuse/router": "^10.5.0",
     "animejs": "^3.2.1",
     "are.na": "^0.1.5",
     "axios": "^1.5.1",

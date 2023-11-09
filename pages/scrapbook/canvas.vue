@@ -132,6 +132,7 @@ function drawVoronoi() {
       .attr("class", "voronoi")
       .style("fill", d => d.data === largestCell.data ? "rgba(255,0,0,0.5)" : "none") // Fill the largest cell with red color
       .style("stroke", "#2077b4")
+      .style('opacity', 0.25)
       .style("stroke-width", "1px");
   }
 }
@@ -197,14 +198,14 @@ function addElement(data) {
     .attr('x', posX)
     .attr('y', posY)
     .append('xhtml:div')
-    .classed('text-center text-white scrap-item bg-black bg-opacity-50 py-2 rounded-lg drop-shadow-lg text-xs cursor-pointer max-w-prose', true)
+    .classed('text-center text-white scrap-item bg-black bg-opacity-50 py-2 rounded-lg drop-shadow-lg text-xs cursor-pointer', true)
     .classed('hover:bg-opacity-75 transition-all duration-200 ease-in-out', true)
     .style('overflow', 'hidden')
 
   if (data.images && data.images.length > 0) {
     element.append('img')
       .attr('src', data.images[0])
-      .attr('style', 'max-width: 172px');
+      .attr('style', 'max-width: 92px');
   } else {
     element.text(data.description);
   }

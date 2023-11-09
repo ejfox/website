@@ -2,20 +2,28 @@
 definePageMeta({
   title: 'EJ Fox',
   meta: [
-    { name: 'keywords', content: 'EJ Fox, Portfolio, Web Development, Vue, Nuxt' }
-  ]
+    {
+      name: 'keywords',
+      content: 'EJ Fox, Portfolio, Web Development, Vue, Nuxt',
+    },
+  ],
 })
 </script>
 
 <template>
-  <section class="">
+  <section class="lg:mt-20 xl:mt-24">
     <section
-      class="p-8 lg:px-24 max-w-prose text-3xl lg:text-5xl text-justify prose-p:leading-normal prose-a:underline prose-a:decoration-primary xl:py-32">
+      class="p-8 lg:px-24 max-w-prose text-3xl lg:text-5xl text-justify prose-p:leading-normal prose-a:underline prose-a:decoration-primary xl:py-32"
+    >
       <ContentDoc />
     </section>
 
     <div id=" hcard-EJ-Fox" class="vcard invisible">
-      <img src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7" alt="Photo of EJ Fox" class="photo dn" />
+      <img
+        src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7"
+        alt="Photo of EJ Fox"
+        class="photo dn"
+      />
       <div><a class="url fn db" href="https://ejfox.com">EJ Fox</a></div>
       <a class="email db" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
       <div class="adr">

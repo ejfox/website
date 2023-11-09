@@ -1,4 +1,5 @@
 export default {
+  ssr: false, // for netlify deploy
   modules: [
     '@nuxt/ui',
     '@nuxtjs/google-fonts',

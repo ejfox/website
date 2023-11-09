@@ -1,0 +1,3 @@
+[build.environment]
+NODE_VERSION = "18"
+NODE_OPTIONS = "--max-old-space-size=4096"

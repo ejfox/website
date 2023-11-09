@@ -4,9 +4,9 @@ kindle-sync:
   title: Anarchy Works (Annotated)
   author: Peter Gelderloos and Vladimir Oleynik
   asin: B018SN4HT0
-  lastAnnotatedDate: '2023-08-27'
+  lastAnnotatedDate: '2023-11-08'
   bookImageUrl: 'https://m.media-amazon.com/images/I/7165cK74S1L._SY160.jpg'
-  highlightsCount: 15
+  highlightsCount: 16
 date: 2022-12-14T20:26:52.000Z
 modified: 2022-12-23T15:56:09.000Z
 ---
@@ -62,6 +62,9 @@ Judith Van Allen “Sitting On a Man”: Colonialism and the Lost Political Inst
 
 ---
 
+War may be the result of natural human behavior, but so is peace. Violence certainly existed before the state, but the state developed warfare and domination to unprecedented levels. As one of its great proponents pointed out, “war is the health of the state.” — location: [464](kindle://book?action=open&asin=B018SN4HT0&location=464) ^ref-56759
+
+---
 In certain situations some form of leadership is inevitable, as some people have more skills or a more charismatic personality. Consciously egalitarian societies respond to these situations by not institutionalizing the position of leader, by not affording a leader any special privileges, or by fostering a culture that makes it shameful for that person to flaunt his or her leadership or try to gain power over others. — location: [549](kindle://book?action=open&asin=B018SN4HT0&location=549) ^ref-3125
 
 ---

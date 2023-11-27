@@ -1,9 +1,11 @@
 <template>
   <div id="app-container" class="sans-serif w-100">
-    <Nav class="ph3" />
+    <div class="flex flex-col md:flex-row h-screen">
+      <Nav class="w-full md:w-1/5 h-1/5 md:border-none md:h-full" />
 
-    <div class="w-100 pa3 pa4-l">
-      <NuxtPage />
+      <div class="w-full md:w-4/5">
+        <NuxtPage />
+      </div>
     </div>
   </div>
 </template>

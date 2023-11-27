@@ -1,4 +1,5 @@
 function articleExists(article) {
+  if(!article) return false
   if(!article.excerpt) return false
   if(!article.excerpt.children) return false
   if(!article.excerpt.children.length) return false
@@ -8,6 +9,7 @@ function articleExists(article) {
 
 export function countWords(article) {
   if(!articleExists(article)) return 0
+  if(!article.excerpt.children) return 0
   // console.log('Counting words in', article)
   const words = article.excerpt.children
     .filter(
@@ -55,6 +57,7 @@ export function extractFirstPhoto(article) {
 export function countLinks(article) {
   if(!articleExists(article)) return 0
   // look inside all paragraphs and headings for links
+  if(!article.excerpt.children) return 0
   const links = article.excerpt.children
     .filter(
       (node) =>

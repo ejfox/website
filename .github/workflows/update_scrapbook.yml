@@ -1,8 +1,13 @@
 name: Update Scrapbook
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight
+    # - cron: '0 0 * * *'  # Runs every day at midnight
+    - cron: '0 */2 * * *'  # Runs every 2 hours
+
 
 jobs:
   update-scrapbook:
@@ -15,7 +20,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 14
+        node-version: 18
 
     - name: Install Dependencies
       run: npm install
@@ -31,7 +36,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git commit -m "chore(scrapbook): update scrapbook items $(date +%Y-%m-%d)" || exit 0  # exit gracefully if no changes
+        git commit -m "chore(scrapbook): update scrapbook items $(date +%Y-%m-%d-%H)" || exit 0  # exit gracefully if no changes
         git push
       env:
         PINBOARD_TOKEN: ${{ secrets.PINBOARD_TOKEN }}

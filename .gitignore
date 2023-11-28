@@ -18,4 +18,5 @@ static/.DS_Store
 *.obsidian
 .output
 
-AUTOMATED_PUSH_LOG
+AUTOMATED_PUSH_LOG.secrets
+.secrets

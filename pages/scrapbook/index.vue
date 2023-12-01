@@ -44,7 +44,7 @@ import { format } from 'date-fns';
 import { ref, watchEffect, computed } from 'vue';
 import { scrapToUUID } from '~/helpers';
 import useScrap from '~/composables/useScrap.js';
-import { debounce } from 'lodash';
+import { debounce } from 'lodash.debounce';
 
 const { scrapByWeek } = useScrap();
 

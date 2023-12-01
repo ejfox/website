@@ -31,11 +31,6 @@ export default {
       },
     },
   },
-  nitro: {
-    prerender: {
-      routes: ['/rss.xml', '/stats/'],
-    },
-  },
   image: {
     provider: 'cloudinary',
     cloudinary: {

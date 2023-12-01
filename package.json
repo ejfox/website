@@ -8,7 +8,8 @@
     "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ./content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/ ./content/blog/ --dry-run --list-only",
     "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/drafts/assets/ ./*/static/",
     "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ej-obsidian/reading/ ./content/reading/",
-    "content:all": "npm run content:blog && npm run content:reading && git add \\*.md && git commit -m 'Update content' && git push"
+    "content:all": "npm run content:blog && npm run content:reading && git add \\*.md && git commit -m 'Update content' && git push",
+    "content:scrapbook": "node scripts/scrapbook/dl_arena.mjs && node scripts/scrapbook/dl_mastodon.mjs && node scripts/scrapbook/dl_pinboard.mjs"
   },
   "devDependencies": {
     "@nuxt/content": "^2.8.5",
@@ -36,6 +37,7 @@
     "axios": "^1.5.1",
     "bottleneck": "^2.19.5",
     "cloudinary": "^1.35.0",
+    "crypto-js": "^4.2.0",
     "d3": "^7.8.2",
     "d3-time-format": "^4.1.0",
     "d3-voronoi": "^1.1.4",

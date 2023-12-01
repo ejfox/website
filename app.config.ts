@@ -2,8 +2,9 @@ export default defineAppConfig({
   ui: {
     primary: 'sky',
     gray: 'neutral',
-    icons: 'all',
-    
+    icons: {
+      dynamic: true
+    }
   },
   colorMode: {
     preference: 'light',

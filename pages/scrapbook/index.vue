@@ -1,142 +1,35 @@
 <template>
-  <div class="dark:text-white">
-    <h3 class="text-6xl text-bold text-center py-8">Scrapbook</h3>
+  <div class="">
+    <h3 class="text-xl md:text-6xl text-bold text-center py-1 md:py-8 tracking-widest font-bold text-gray-950 dark:text-gray-50
+    ">Scrapbook
+    </h3>
 
-    <div class="w-4/12 mx-auto mb-10">
-      <USelectMenu v-model="viewByMode" :options="viewOptions">
-      </USelectMenu>
-    </div>
+    <!-- search -->
+    <div class="md:w-5/6 mx-auto">
+      <div class="px-4 py-1 relative">
+        <UInput v-model="searchText" type="text" icon="i-heroicons-magnifying-glass-20-solid"
+          placeholder="Search scraps..." class="w-full 
+          fixed lg:relative bottom-0 left-0 right-0 z-50 shadow-lg" />
 
-    <div v-if="viewByMode.slug === 'weekly'" class="container mx-auto px-10 break-words">
-      <div v-if="pending">Loading...</div>
-      <div v-else class="space-y-6">
-        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="">
-          <h3 class="text-5xl font-bold mb-2 text-center" v-html="weekToString(week)"></h3>
-          <div v-if="scraps" v-for="scrap in scraps" class="p-2 max-w-prose mx-auto">
-            <div class="flex items-center mb-2 opacity-50">
-              <div class="mr-2">
-                <span v-if="scrap.type === 'mastodon'">
-                  <a :href="scrap.href" target="_blank" class="">
-                    <UIcon name="i-la-mastodon" color="gray" />
-                  </a>
-                </span>
-                <span v-if="scrap.type === 'pinboard'">
-                  <UIcon name="i-uil-bookmark" color="gray" />
-                </span>
-                <span v-if="scrap.type === 'arena'">
-                  <UIcon name="i-ph-asterisk" color="gray" />
-                </span>
-                <span v-if="scrap.type === 'github'">
-                  <UIcon name="i-la-github" color="gray" />
-                </span>
-              </div>
-              <h5 class="text-sm font-thin">{{ prettyScrapTimestamp(scrap.time) }}</h5>
-            </div>
-            <a v-if="scrap.href" :href="scrap.href" target="_blank" class="text-lg font-bold mb-2 block">
-              {{ scrap.description }}
-            </a>
-            <span v-if="scrap?.content" class="text-sm mb-2" v-html="scrap.content"></span>
-            <div v-if="scrap?.images" class="flex flex-wrap">
-              <a :href="scrap.href" target="_blank" class="w-full">
-                <div v-if="scrap.images.length === 1" class="w-full">
-                  <img :src="scrap.images[0]" class="w-full drop-shadow-md rounded-sm mb-2" />
-                </div>
-                <div v-else-if="scrap.images.length === 2" class="w-full flex">
-                  <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm mb-2 w-1/2" />
-                  <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm mb-2 w-1/2" />
-                </div>
-                <div v-else-if="scrap.images.length === 3" class="flex">
-                  <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
-                  <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
-                  <img :src="scrap.images[2]" class="drop-shadow-md rounded-sm mb-2 w-1/3" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
+        <!-- add a close button to clear the search out -->
+        <UIcon v-if="searchText.length > 0" name="i-heroicons-x-circle"
+          class="fixed md:absolute md:bottom-12 right-0 md:mt-2 md:mr-3 z-50" @click="searchText = ''" />
       </div>
-    </div>
 
-    <div v-if="viewByMode.slug === 'grid'" class="w-5/6 mx-auto">
-      <div v-if="pending">Loading...</div>
-      <div v-else>
-        <div v-for="[week, scraps] in scrapByWeek" :key="week.week" class="mb-8">
-          <h5 v-html="weekToString(week)" class="text-xl font-bold py-2"></h5>
-          <div class="columns-3 lg:columns-4 xl:columns-5">
-            <div v-for="scrap in scraps" class="mb-8">
-              <UCard class="min-h-full">
-                <template #header v-if="scrap?.content">
-                  <a v-if="scrap.href" :href="scrap.href" target="_blank" class="">
-                    {{ scrap.description }}
-                  </a>
-                </template>
 
-                <div class="flex items-center justify-center">
-                  <div v-if="!scrap?.content">
-                    <!-- just a link with the url-->
-                    <a v-if="scrap.href" :href="scrap.href" target="_blank" class="text-sm leading-tight">
-                      {{ scrap.description }}
-                    </a>
-                  </div>
-                  <span v-if="scrap?.content" class="text-xs font-light" v-html="scrap.content"></span>
-                  <div v-if="scrap.images" class="mt-2">
-                    <div v-if="scrap.images.length === 1" class="w-full">
-                      <img :src="scrap.images[0]" class="w-full drop-shadow-md rounded-sm" />
-                    </div>
-                    <div v-else-if="scrap.images.length === 2" class="w-full flex">
-                      <img :src="scrap.images[0]" class="drop-shadow-md rounded-sm w-1/2" />
-                      <img :src="scrap.images[1]" class="drop-shadow-md rounded-sm w-1/2" />
-                    </div>
-                    <div v-else-if="scrap.images.length > 2" class="flex">
-                      <img v-for="image in scrap.images" :key="image" :src="image"
-                        class="drop-shadow-md rounded-sm w-1/3" />
-                    </div>
-                  </div>
-                  <div v-if="scrap.videos" class="mt-2">
-                    <video v-for="video in scrap.videos" :key="video" :src="video"
-                      class="w-full drop-shadow-md rounded-sm" controls />
-                  </div>
-                </div>
+      <div class="p-4">
+        <div v-if="searching">
+          <UProgress animation="carousel" />
+        </div>
 
-                <template #footer>
-                  <div class="text-xs flex items-center justify-between">
-                    <div class="dark:text-slate-500">
-                      {{ format(new Date(scrap.time), 'MMM d, yyyy') }}
-                    </div>
-
-                    <!-- type-->
-                    <div class="hidden md:inline-block">
-                      <a :href="scrap.href" target="_blank" class="text-xs">
-                        <span v-if="scrap.type === 'mastodon'" class="dark:text-primary-900">
-                          Commentary
-                        </span>
-                        <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
-                          Bookmark
-                        </span>
-                        <span v-if="scrap.type === 'arena'">
-                          Scrapbook
-                        </span>
-                        <span v-if="scrap.type === 'github-star'">
-                          Github Star
-                        </span>
-                        <span v-if="scrap.type === 'user-github'">
-                          Repo
-                        </span>
-                        <span v-if="scrap.type === 'user-github-issue'">
-                          Github Issue
-                        </span>
-                        <!-- external link icon that links to it-->
-
-                        <UIcon name="la:external-link-alt" color="gray" />
-                      </a>
-                    </div>
-
-                    <!-- <div class="hidden md:inline-block dark:text-slate-700 ml-2">
-                      {{ format(new Date(scrap.time), 'h:mma') }}
-                    </div> -->
-                  </div>
-                </template>
-              </UCard>
+        <div v-for=" [week, scraps] in filteredWeeksToDisplay" :key="week.week" class="mb-8">
+          <h5 v-html="weekToString(week)"
+            class="text-xl font-bold py-2 px-4 text-center sticky lg:relative backdrop-filter backdrop-blur-lg top-0 z-10 bg-white/25 dark:bg-slate-900/50 text-gray-600 dark:text-gray-400">
+          </h5>
+          <div class="md:columns-3 lg:columns-4 xl:columns-5 p-4">
+            <div v-for="scrap in scraps" :key="scrap.id"
+              class="mb-8 text-xs w-1/2 md:w-full px-2 align-top inline-block md:block">
+              <ScrapCard :scrap="scrap" />
             </div>
           </div>
         </div>
@@ -148,41 +41,78 @@
 <script setup>
 import * as d3 from 'd3';
 import { format } from 'date-fns';
+import { ref, watchEffect, computed } from 'vue';
+import { scrapToUUID } from '~/helpers';
 import useScrap from '~/composables/useScrap.js';
+import { debounce } from 'lodash';
 
-const { combinedData, scrapByWeek } = useScrap();
+const { scrapByWeek } = useScrap();
+
+const weeksToShow = ref(6);
+const weeksToDisplay = ref(null);
+const searchText = ref('');
+const searching = ref(false)
+
+const debouncedSearchText = ref('');
+const debouncedSearchTextHandler = debounce((value) => {
+  debouncedSearchText.value = value;
+}, 500);
+
+watchEffect(() => {
+  debouncedSearchTextHandler(searchText.value);
+});
+
+watchEffect(() => {
+  const weeks = scrapByWeek.value;
+  if (!weeks) return;
+
+  let weeksToShowValue = new Map(
+    [...weeks].sort((a, b) => b[0] - a[0])
+  );
+
+  weeksToShowValue = new Map([...weeksToShowValue].slice(0, weeksToShow.value));
+
+  weeksToDisplay.value = weeksToShowValue;
+});
+
+const filteredWeeksToDisplay = computed(() => {
+  if (!weeksToDisplay.value) return [];
+
+  const filteredWeeks = new Map();
+
+  if (debouncedSearchText.value.length === 0) {
+    searching.value = false
+    return weeksToDisplay.value;
+  }
+
+  for (const [week, scraps] of scrapByWeek.value) {
+    const filteredScraps = scraps.filter(scrap => {
+      const searchFields = Object.values(scrap).join(' ').toLowerCase();
+      return searchFields.includes(debouncedSearchText.value.toLowerCase());
+    });
+
+    if (filteredScraps.length > 0) {
+      filteredWeeks.set(week, filteredScraps);
+    }
+  }
+  searching.value = false
+  return filteredWeeks;
+});
+
+// watch search text and when it changes, set searching to true
+watch(searchText, () => {
+  searching.value = true
+})
 
 function weekToString(week) {
   const start = format(week, 'MMM d');
   const end = format(d3.timeWeek.offset(week, 1), 'MMM d');
   const year = format(week, 'YYY');
-  return `${start} - ${end} <small class="o-50">${year}</small>`;
+  return `Week of ${start} - ${end} <small class="opacity-50 font-light ml-2">${year}</small>`;
 }
 
 function prettyScrapTimestamp(timestamp) {
   const date = new Date(timestamp);
   return format(date, 'iii h:mm a');
 }
-
-const viewOptions = [
-  {
-    label: 'Grid',
-    slug: 'grid',
-    icon: 'uil:grid',
-  },
-  {
-    label: 'Weekly',
-    slug: 'weekly',
-    icon: 'uil:calendar-alt',
-  },
-];
-
-const viewByMode = ref(viewOptions[0]);
-
 </script>
-<style scoped>
-.scrap-image {
-  /* max-width: 34rem; */
-}
-</style>
-

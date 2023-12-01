@@ -1,13 +1,17 @@
 <template>
-  <main class="pt-8 dark:bg-gray-900 px-4">
+  <main class="dark:bg-gray-900 p-2 md:p-4">
 
     <!-- year navigation -->
-    <div class="flex justify-between items-stretch">
-      <!-- filter by year on and off -->
-      <UButton color="gray" class="my-4" @click="filterByYear = !filterByYear">
-        {{ filterByYear ? 'See all posts' : 'Filter by year' }}
-      </UButton>
-      <div v-if="filterByYear" class="flex">
+    <div class="flex flex-col mb-4 sticky backdrop-filter backdrop-blur-lg top-0 z-30">
+      <div class="flex justify-between items-stretch">
+        <!-- filter by year on and off -->
+        <UButton icon="i-heroicons-rectangle-stack-20-solid" :trailing="true" color="gray" class="my-1  md:my-4"
+          @click="filterByYear = !filterByYear">
+          {{ filterByYear ? 'See all posts' : 'Filter by year' }}
+        </UButton>
+      </div>
+      <div v-if="filterByYear" class="flex flex-wrap mt-2 align-middle">
+        <UIcon name="i-heroicons-calendar-days" class="m-1 mr-3 text-2xl align-middle" />
         <UButton v-for="availableYear in blogYears" :class="[
           availableYear === blogYear ? 'bg-primary-500 dark:bg-slate-500 text-white dark:text-white' : 'bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100',
           'text-sm font-medium rounded-md mr-2 mb-2',
@@ -19,15 +23,14 @@
 
 
     <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
-
       <!-- featured article -->
-      <div class="my-10 md:my-2 min-h-min pb-8" v-if="featuredArticle(data)">
+      <div class="my-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
         <div class="dark:bg-gray-900"></div>
         <div class="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-40">
           <h2 class="text-sm font-semibold text-slate-500 tracking-wide uppercase">
-            Latest blog post
-            <span class="text-slate-400 dark:text-slate-600 pl-4">
-              {{ formatDate(new Date(featuredArticle(data).date)) }}
+            <!-- Latest blog post -->
+            <span class="text-slate-400 dark:text-slate-600">
+              {{ formatDate(new Date(featuredArticle(data).modified)) }}
             </span>
           </h2>
           <h1 class="text-4xl font-extrabold tracking-tight dark:text-white sm:text-5xl lg:text-8xl">
@@ -36,13 +39,30 @@
           <p class="mt-6 max-w-3xl text-xl text-gray-400 dark:text-gray-300">
             {{ featuredArticle(data).dek }}
           </p>
-          <div class="mt-10">
-            <NuxtLink :to="featuredArticle(data)._path"
+
+          <div class="py-4 mt-5 overflow-hidden">
+            <div class="article-toc">
+              <ul class="list-none flex flex-wrap justify-start items-center">
+                <UButton v-for="link of featuredArticle(data).body.toc.links" :key="link.id" color="gray" class="mr-2 mb-2 font-light break-words
+                " size="xs" :to="`${featuredArticle(data)._path}#${link.id}`">
+                  {{ link.text }}
+                </UButton>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <!-- <NuxtLink :to="featuredArticle(data)._path"
               class="text-base font-medium text-white dark:text-white bg-primary-500 dark:bg-slate-500 px-6 py-3 rounded-md shadow-lg">
               Read more
-            </NuxtLink>
+              <UIcon name="i-heroicons-arrow-up-right" class="text-sm ml-1" />
+            </NuxtLink> -->
+            <UButton icon="i-heroicons-arrow-up-right" size="lg" label="Read more" variant="solid" :trailing="true" />
           </div>
+
+
         </div>
+
       </div>
 
 
@@ -141,6 +161,7 @@ const blogIndexFilter = (articles) => {
 }
 /* take in some articles loaded through content and sort them by date, some articles also have a `modified` date that should be used so that articles modified most recently are at the top - not all articles have `modified` properties, but all articles should have `date` properties */
 const blogIndexSort = (articles) => {
+  // sorting prefers the modified date, but if that doesn't exist, it uses the date
   return articles.sort((a, b) => {
     if (a.modified && b.modified) {
       return new Date(b.modified) - new Date(a.modified)
@@ -153,7 +174,13 @@ const blogIndexSort = (articles) => {
 }
 
 function featuredArticle(data) {
-  return blogIndexSort(blogIndexFilter(data))[0]
+  if (!data) return null
+
+  const currentYear = new Date().getFullYear()
+  if (blogYear.value !== currentYear) return null
+
+  const sortedData = blogIndexSort(blogIndexFilter(data))
+  return sortedData[0]
 }
 </script>
 <style></style>

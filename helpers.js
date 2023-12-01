@@ -1,19 +1,19 @@
-import { MD5 } from "crypto-js";
+import md5 from "js-md5";
 
 export function scrapToUUID(scrap) {
-  const hash = MD5(scrap?.type + scrap?.href);
-  return hash.toString();
+  const hash = md5(scrap?.type + scrap?.href);
+  return hash;
 }
 
 export function uuidToScrap(uuid, scrapArray) {
   // we need to find the scrap that matches the uuid
   // console.log('Searching for', uuid)
   // console.log(scrapArray.length, 'scraps in array')
-  if(!scrapArray) return console.error('No scrap array')
-  if(!scrapArray.length) return console.error('Empty scrap array')
-  if(!uuid) return console.error('No uuid')
+  if (!scrapArray) return console.error('No scrap array');
+  if (!scrapArray.length) return console.error('Empty scrap array');
+  if (!uuid) return console.error('No uuid');
   const scrap = scrapArray.find((scrap) => scrapToUUID(scrap) === uuid);
-  if(!scrap) return console.error('No scrap found')
+  if (!scrap) return console.error('No scrap found');
   return scrap;
 }
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="dark:text-white">
-    <svg ref="svg" class="w-screen h-screen"></svg>
+  <div class="dark:text-white" ref="parent">
+    <svg ref="svg" class="w-full h-screen"></svg>
   </div>
 </template>
 
@@ -18,8 +18,13 @@ let combinedData = [];
 const pending = ref(null)
 const scrapByWeek = ref(null)
 
+
+const intervalTime = 1000
+
 // Use VueUse function to get window size
-const { width, height } = useWindowSize()
+// const { width, height } = useWindowSize()
+const parent = ref(null)
+const { width, height } = useElementSize(parent)
 
 // const voronoiDiagram = computed(() => voronoi().x(d => d.x).y(d => d.y).extent([[0, 0], [width.value, height.value]]));
 
@@ -69,35 +74,42 @@ watchEffect(() => {
         images: block.image ? [block.image.display.url] : [],
       })),
     ];
+
+    // sort so most recent are at the top
+    combinedData.sort((a, b) => new Date(b.time) - new Date(a.time));
+
+    // filter combinedData to only images
+    combinedData = combinedData.filter((d) => d.images && d.images.length > 0);
+
     // console.log(combinedData);
     scrapByWeek.value = scrapbookDataToWeeks(combinedData);
     renderSvg();
   }
 });
 
+let i = 0;
 function renderSvg() {
-  const svgSelection = d3.select(svg.value);
-  // The following line of code is creating an array of objects, where each object represents a position on the SVG canvas.
-  // The 'map' function is used to iterate over each item in the 'combinedData' array.
-  // For each item (represented by 'd'), it creates a new object.
-  // This object has three properties: 'x', 'y', and 'data'.
-  // The 'x' and 'y' properties represent the x and y coordinates of the position on the SVG canvas.
-  // These coordinates are generated randomly using the 'Math.random' function, which returns a random number between 0 and 1.
-  // This random number is then multiplied by the width and height of the SVG canvas (represented by 'width.value' and 'height.value') to get a random position within the canvas.
-  // The 'data' property is set to the current item in the 'combinedData' array (represented by 'd').
-  // This means that each position on the SVG canvas is associated with a specific item from the 'combinedData' array.
-  const positions = combinedData.map((d, i) => ({ x: Math.random() * width.value, y: Math.random() * height.value, data: d }));
+  const positions = combinedData.map((d, i) => ({ x: Math.random() * width.value * 0.8, y: Math.random() * height.value * 0.8, data: d }));
 
-  let i = 0;
-  const { pause, resume } = useRafFn(() => {
+
+  // const { pause, resume } = useRafFn(() => {
+  //   if (i < positions.length) {
+  //     const { x, y } = positions[i];
+  //     addElement(positions[i].data);
+  //     i++;
+  //     // Add a delay between each image rendering
+  //   }
+  // }, { immediate: true });
+
+  // use setInterval to add a new element every 100ms
+  setInterval(() => {
     if (i < positions.length) {
       const { x, y } = positions[i];
       addElement(positions[i].data);
       i++;
-    } else {
-      pause();
+      // Add a delay between each image rendering
     }
-  }, { immediate: true }); // Reduced interval for faster rendering
+  }, intervalTime)
 }
 
 function drawVoronoi() {
@@ -105,7 +117,7 @@ function drawVoronoi() {
 
   // Calculate the Voronoi diagram based on the existing scraps
   const positions = addedScraps.value.map(d => [d.x, d.y]);
-  
+
   // Check if there are positions to generate the Voronoi diagram from
   if (positions.length > 0) {
     const voronoiDiagram = voronoi().extent([[0, 0], [width.value, height.value]])(positions);
@@ -128,7 +140,7 @@ function drawVoronoi() {
     svgSelection.selectAll(".voronoi")
       .data(voronoiDiagram.polygons())
       .enter().append("path")
-      .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
+      .attr("d", function (d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
       .attr("class", "voronoi")
       .style("fill", d => d.data === largestCell.data ? "rgba(255,0,0,0.5)" : "none") // Fill the largest cell with red color
       .style("stroke", "#2077b4")
@@ -191,27 +203,31 @@ function addElement(data) {
   // Add the new scrap to the addedScraps array with the given position
   addedScraps.value.push({ x: posX, y: posY, data: data });
 
+  const { width: pageWidth, height: pageHeight } = useWindowSize()
+
   const svgSelection = d3.select(svg.value);
   const element = svgSelection.append('foreignObject')
-    .attr('width', 200)
-    .attr('height', 200)
+    .attr('width', 500)
+    .attr('height', 500)
     .attr('x', posX)
     .attr('y', posY)
     .append('xhtml:div')
-    .classed('text-center text-white scrap-item bg-black bg-opacity-50 py-2 rounded-lg drop-shadow-lg text-xs cursor-pointer', true)
+    .classed('text-center text-white scrap-item py-2 rounded-lg  text-xs cursor-pointer', true)
     .classed('hover:bg-opacity-75 transition-all duration-200 ease-in-out', true)
     .style('overflow', 'hidden')
 
   if (data.images && data.images.length > 0) {
     element.append('img')
+      .classed('rounded drop-shadow-lg', true)
       .attr('src', data.images[0])
-      .attr('style', 'max-width: 92px');
+      // .attr('style', 'max-width: 92px');
+      .attr('style', 'max-width: 29vw')
   } else {
     element.text(data.description);
   }
 
   // Draw the Voronoi diagram
-  drawVoronoi();
+  // drawVoronoi();
 }
 
 function scrapbookDataToWeeks(data) {

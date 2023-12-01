@@ -60,6 +60,12 @@ export default {
       },
     },
   },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false
+    }
+  },
   app: {
     head: {
       script: [

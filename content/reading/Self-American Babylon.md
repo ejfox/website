@@ -1,4 +1,5 @@
 ---
+tags: america politics oakland
 kindle-sync:
   bookId: '57443'
   title: >-
@@ -13,8 +14,6 @@ date: 2022-12-14T15:29:47-05:00
 modified: 2022-12-23T11:09:02-05:00
 ---
 # American Babylon
-
-#politics #oakland
 
 # Metadata
 

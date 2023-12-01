@@ -2,6 +2,7 @@
 dek: In which we make a list of the times I have livestreamed
 date: 2023-01-03T13:21:22-05:00
 modified: 2023-01-06T17:32:04-05:00
+tags: livestream
 ---
 
 # Livestreaming

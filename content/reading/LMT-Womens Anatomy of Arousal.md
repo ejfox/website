@@ -1,14 +1,15 @@
 ---
 kindle-sync:
-  bookId: '54474'
-  title: 'Women''s Anatomy of Arousal: Secret Maps to Buried Pleasure'
+  bookId: "54474"
+  title: "Women's Anatomy of Arousal: Secret Maps to Buried Pleasure"
   author: Sheri Winston CNM. RN. BSN. LMT
   asin: B075DT1N3C
-  lastAnnotatedDate: '2022-01-28'
-  bookImageUrl: 'https://m.media-amazon.com/images/I/61ClyX8734L._SY160.jpg'
+  lastAnnotatedDate: 2022-01-28
+  bookImageUrl: https://m.media-amazon.com/images/I/61ClyX8734L._SY160.jpg
   highlightsCount: 1
 date: 2022-12-26T11:47:06-05:00
-modified: 2022-12-27T15:06:47-05:00
+modified: 2023-10-31T23:18:14-04:00
+hidden: true
 ---
 # Womens Anatomy of Arousal
 

@@ -1,4 +1,5 @@
 ---
+tags: writing
 kindle-sync:
   bookId: '4772'
   title: 'The Rise and Fall of D.O.D.O.: A Novel'

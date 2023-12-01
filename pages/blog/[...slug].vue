@@ -1,86 +1,17 @@
 <template>
-  <main>
-
-    <Head>
-      <Title v-if="page">{{ page.title }}</Title>
-      <Title v-else>EJ Fox</Title>
-      <Meta v-if="page" name="description" :content="page.dek ? page.dek : page.description" />
-      <Meta v-if="page" property="og:title" :content="`EJ Fox: 📝 ${page.title}`" />
-      <Meta v-if="page" property="og:description" :content="`${page.dek ? page.dek : page.description}`" />
-      <Meta property="og:image" :content="ogImageUrl" />
-      <Meta property="og:url" content="https://ejfox.com" />
-      <Meta property="og:type" content="website" />
-
-      <!-- twitter opengraph tags -->
-      <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:site" content="@mrejfox" />
-      <Meta name="twitter:creator" content="@mrejfox" />
-      <Meta name="twitter:title" :content="`EJ Fox | ${page.title}`" v-if="page" />
-      <Meta name="twitter:description" :content="`${page.dek ? page.dek : page.description}`" v-if="page" />
-      <Meta name="twitter:image" :content="ogImageUrl" />
-    </Head>
+  <main class="mx-auto p-5 md:p-10 lg:p-20">
 
     <!-- <h3 class="moon-gray tracked fw1">{{page?.dek}}</h3> -->
     <!-- og image preview -->
     <!-- <img :src="ogImageUrl" /> -->
 
-    <div class="f4 near-black">
-      <ContentDoc v-slot="{ doc }" :head="false">
-
-
-        <div class="page-metadata pt3 ml2 ml6-l">
-          <div class="db moon-gray fw1 f6 pv2">
-
-            <!-- let the user know if the article is in progress or not -->
-            <span v-if="doc.inprogress" class="mr4 word-nowrap db tc tl-ns">
-              <Icon name="bi:exclamation-triangle" class="mr1 f6 pb1" />
-              This post is in progress, and updates are expected
-            </span>
-
-            <span class="mr4 word-nowrap dib moon-gray dn dib-ns" v-if="doc.date" title="Date created">
-              <Icon name="ant-design:calendar-outlined" class="mr1 f6 pb1" />
-              <span class="dn dib-l">
-                Started 
-              </span>
-              
-              {{ formatBlogDate(new Date(doc.date)) }}
-            </span>
-
-            <span class="mr4 word-nowrap dib gray" v-if="doc.modified" title="Date modified">
-              <Icon name="ic:round-edit-calendar" class="mr1 f6 pb1" />
-              <span class="dn dib-l">
-                Updated
-              </span>
-              
-              {{ formatBlogDate(new Date(doc.modified)) }}
-            </span>
-            <span class="mr4 word-nowrap dib" v-if="doc.readingTime.words > 100">
-              <Icon name="bi:card-text" class="mr1 f6 pb1" />
-              {{ doc.readingTime.words }} words
-            </span>
-            <span class="mr4 word-nowrap dib" v-if="doc.readingTime.text !== '1 min read'">
-              <Icon name="bi:clock-history" class="mr1 f6 pb1" />
-              {{ doc.readingTime.text }}
-            </span>
-            <span class="mr4 word-nowrap dib" v-if="countPhotos(doc) > 0">
-              <Icon name="ant-design:camera-filled" class="mr1 f6 pb1" />
-              {{ countPhotos(doc) }} photos
-            </span>
-
-            <span class="mr4 word-nowrap dib" v-if="countLinks(doc) > 1">
-              <Icon name="bi:link" class="mr1 f6 pb1" />
-              {{ countLinks(doc) }} links
-            </span>
-          </div>
-          <div class="strong-tags f7 fw1 moon-gray mv1 i" v-if="filterStrongTags(doc).length > 0">
-            Highlights:
-            <span v-for="tag in filterStrongTags(doc)" :key="tag" class="tag dib mr2 mb2 ph1 pv1 bg-near-white">{{
-              tag
-              }}</span>
-          </div>
+    <div class="text-lg text-gray-900">
+      <ContentDoc v-slot="{ doc }">
+        <PageMetadata :doc="doc" />
+        <div
+          class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
+          <ContentRenderer :value="doc" class="" />
         </div>
-        <ContentRenderer :value="doc" class="" />
-
         <!-- <template #not-found>
           <h1>Document not found</h1>
         </template> -->
@@ -90,20 +21,22 @@
       </ContentDoc>
     </div>
 
-    <div class="cf pv5">
-      <NuxtLink v-if="prev" :to="prev._path" class="dim pr2 w-40 w-20-ns link gray db absolute left-2 lh-title">
-        <span class="dib">&#8592;</span>
+    <div class="clearfix py-8 px-4 md:px-8">
+      <NuxtLink v-if="prev" :to="prev._path"
+        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute left-2 lh-title">
+        <span class="inline-block">&#8592;</span>
         {{ prev.title }}
-        <div class="moon-gray f6 fw1">
+        <div class="text-gray-500 text-sm font-light">
           {{ formatDate(new Date(prev.date)) }}
         </div>
         <!-- <p class="moon-gray fw1 f6 mv0 pv2">{{ countWords(prev) }} words</p> -->
       </NuxtLink>
 
-      <NuxtLink v-if="next" :to="next._path" class="dim pl2 w-40 w-20-ns link gray db absolute right-2 lh-title tr">
+      <NuxtLink v-if="next" :to="next._path"
+        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute right-2 lh-title text-right">
         {{ next.title }}
-        <span class="dib">&#8594;</span>
-        <div class="moon-gray f6 fw1 tr">
+        <span class="inline-block">&#8594;</span>
+        <div class="text-gray-500 text-sm font-light text-right">
           {{ formatDate(new Date(next.date)) }}
         </div>
         <!-- <p class="moon-gray fw1 f6 mv0 tr pv2">{{ countWords(next) }} words</p> -->
@@ -113,20 +46,13 @@
 </template>
 <script setup>
 import { timeFormat } from "d3-time-format";
-import {
-  countWords,
-  countPhotos,
-  countLinks,
-  filterStrongTags,
-} from "~~/helpers";
-
-// TODO: Fix this so it only pulls out things from the current category
-// ie if slug[0] is 'blog' then only pull out blog posts
-
-// get slug from the route
-const { params } = useRoute();
 
 const { toc, page, excerpt } = useContent();
+
+
+const formatDate = timeFormat("%B %Y");
+
+// const formatBlogDate = timeFormat('%B %d, %Y')
 
 // TODO: The prev / next are based on the directory structure
 // NOT the data, which I assumed was the case
@@ -163,23 +89,6 @@ const prev = filteredBlogPosts[currentPostIndex + 1]
 
 const next = filteredBlogPosts[currentPostIndex - 1]
 
-const formatDate = timeFormat("%B %Y");
-
-// const formatBlogDate = timeFormat('%B %d, %Y')
-// YYYY-MM-DD format
-const formatBlogDate = timeFormat("%Y-%m-%d");
-const ogImageFontsize = computed(() => {
-  if(!page.value) return 72;
-  if(!page.value.title) return 72;
-  const titleLength = page.value.title.length;
-
-  // if title is less than 20 characters, use 100px font size
-  if (titleLength < 24) {
-    return 112;
-  } else {
-    return 72;
-  }
-});
 
 const ogImageUrl = computed(() => {
   // template URL https://res.cloudinary.com/ejf/image/upload/g_north_west,co_rgb:fff,x_440,y_240,w_290,h_170,c_fit,l_text:FjallaOne-Regular.ttf_72:Ready%20to%20party/templates/og-image-generated-bg.png
@@ -236,9 +145,8 @@ const ogImageUrl = computed(() => {
   }
 });
 </script>
-<style>
-strong {
-  /* color: red; */
+<style scoped>
+/* strong {
   color: #E7040F;
-}
+} */
 </style>

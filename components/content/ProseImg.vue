@@ -1,25 +1,14 @@
 <template>
-      
   <span v-if="isCloudinary">
     <figure>
-      <img
-        :src="modifyUrlWithSize(src, 640)"
-        :srcset="srcSet"
-        :alt="alt"
-        :width="width"
-        :height="height"
-        loading="lazy"
-      />
+      <img :src="modifyUrlWithSize(src, 640)" :srcset="srcSet" :alt="alt" :width="width" :height="height"
+        class="rounded drop-shadow" loading="lazy" />
     </figure>
   </span>
   <span v-else>
-    <nuxt-picture
-        :src="src"
-        :alt="alt"
-        :width="width"
-        :height="height"
-        placeholder
-      />
+    <nuxt-picture class="" :imgAttrs="{
+      class: 'text-xs font-thin text-white rounded drop-shadow dark:drop-shadow-md',
+    }" :src="src" :alt="alt" :width="width" :height="height" placeholder />
   </span>
 </template>
 
@@ -44,7 +33,7 @@ const props = defineProps({
   },
 });
 
-const sizes = [640, 900, 1280, 1600];
+const sizes = [640, 900, 1280];
 
 // check whether src is linking to a res.cloudinary.com image
 const isCloudinary = computed(() => {

@@ -1,4 +1,5 @@
 ---
+tags: fiction
 kindle-sync:
   bookId: '29974'
   title: 'Mastermind: How to Think Like Sherlock Holmes'

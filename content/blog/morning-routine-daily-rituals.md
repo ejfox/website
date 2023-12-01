@@ -3,10 +3,9 @@ draft: true
 dek: In which we use intentional morning rituals to improve our lives and increase our happiness
 inprogress: true
 date: 2022-11-02T21:31:25-04:00
-modified: 2023-07-08T20:14:03-04:00
+modified: 2023-09-09T14:47:21-04:00
+tags: personal meditation health
 ---
-
-#personal #meditation #health 
 
 # My Morning Routine and Daily Rituals
 

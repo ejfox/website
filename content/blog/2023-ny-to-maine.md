@@ -1,7 +1,8 @@
 ---
 dek: In which the author drives his motorcycle through MA, NH, VT, and ME and takes some photos in the process
 date: 2023-05-21T12:16:18-04:00
-modified: 2023-05-21T13:37:59-04:00
+modified: 2023-09-09T14:43:20-04:00
+tags: personal photography 
 ---
 
 # New York 👉 Maine

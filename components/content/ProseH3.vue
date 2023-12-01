@@ -1,6 +1,6 @@
 <template>
-  <h3 :id="id" class="sans-serif mh1 mh3-ns mv4 ml6-l measure">
-    <a :href="`#${id}`" class="dark-gray link fw6">
+  <h3 :id="id" class="">
+    <a :href="`#${id}`" class="no-underline py-2">
       <slot />
     </a>
   </h3>

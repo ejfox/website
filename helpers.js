@@ -1,4 +1,25 @@
+import { MD5 } from "crypto-js";
+
+export function scrapToUUID(scrap) {
+  const hash = MD5(scrap?.type + scrap?.href);
+  return hash.toString();
+}
+
+export function uuidToScrap(uuid, scrapArray) {
+  // we need to find the scrap that matches the uuid
+  // console.log('Searching for', uuid)
+  // console.log(scrapArray.length, 'scraps in array')
+  if(!scrapArray) return console.error('No scrap array')
+  if(!scrapArray.length) return console.error('Empty scrap array')
+  if(!uuid) return console.error('No uuid')
+  const scrap = scrapArray.find((scrap) => scrapToUUID(scrap) === uuid);
+  if(!scrap) return console.error('No scrap found')
+  return scrap;
+}
+
+
 function articleExists(article) {
+  if(!article) return false
   if(!article.excerpt) return false
   if(!article.excerpt.children) return false
   if(!article.excerpt.children.length) return false
@@ -8,6 +29,7 @@ function articleExists(article) {
 
 export function countWords(article) {
   if(!articleExists(article)) return 0
+  if(!article.excerpt.children) return 0
   // console.log('Counting words in', article)
   const words = article.excerpt.children
     .filter(
@@ -37,9 +59,25 @@ export function countPhotos(article) {
 
   return photos.length;
 }
+
+export function extractPhotos(article) {
+  const photos = article.body.children
+    .filter((node) => node.tag === "img")
+    .flat();
+
+  return photos;
+}
+
+export function extractFirstPhoto(article) {
+  const photos = extractPhotos(article)
+  if(photos.length) return photos[0]
+  return null
+}
+
 export function countLinks(article) {
   if(!articleExists(article)) return 0
   // look inside all paragraphs and headings for links
+  if(!article.excerpt.children) return 0
   const links = article.excerpt.children
     .filter(
       (node) =>

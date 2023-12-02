@@ -14,7 +14,7 @@ definePageMeta({
   <section class="lg:mt-20 xl:mt-24">
     <section
       class="p-8 lg:px-24 max-w-prose text-xl md:text-3xl lg:text-5xl text-justify prose-p:leading-normal prose-a:underline prose-a:decoration-primary xl:py-32">
-      <ContentDoc />
+      <ContentDoc path="/" />
     </section>
 
     <div id=" hcard-EJ-Fox" class="vcard invisible">

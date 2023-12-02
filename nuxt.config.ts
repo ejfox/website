@@ -36,11 +36,6 @@ export default {
       },
     },
   },
-  nitro: {
-    prerender: {
-      routes: ['/rss.xml', '/stats/'],
-    },
-  },
   image: {
     provider: 'cloudinary',
     cloudinary: {
@@ -62,6 +57,12 @@ export default {
       'Fjalla One': [400],
       // Finlandica: [400, 500, 700],
     },
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false
+    }
   },
   app: {
     head: {

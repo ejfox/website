@@ -44,6 +44,8 @@
     "date-fns": "^2.30.0",
     "fuse.js": "^6.6.2",
     "inquirer": "^9.2.11",
+    "js-md5": "^0.8.3",
+    "lodash.debounce": "^4.0.8",
     "object-hash": "^3.0.0",
     "ora": "^7.0.1",
     "pinboard": "^0.1.3",

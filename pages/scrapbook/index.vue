@@ -44,7 +44,6 @@ import { format } from 'date-fns';
 import { ref, watchEffect, computed } from 'vue';
 import { scrapToUUID } from '~/helpers';
 import useScrap from '~/composables/useScrap.js';
-import { debounce } from 'lodash';
 
 const { scrapByWeek } = useScrap();
 
@@ -54,7 +53,7 @@ const searchText = ref('');
 const searching = ref(false)
 
 const debouncedSearchText = ref('');
-const debouncedSearchTextHandler = debounce((value) => {
+const debouncedSearchTextHandler = useDebounceFn((value) => {
   debouncedSearchText.value = value;
 }, 500);
 

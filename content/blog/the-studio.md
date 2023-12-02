@@ -7,8 +7,6 @@ hidden: true
 
 # Fox Studio (Beacon)
 
-For specifics on the art materials and tools I use: [[art-setup]]
-
 Inspired by Tom Sachs' studio rules: [Tom Sachs: 10 Bullets](https://www.youtube.com/watch?v=49p1JVLHUos)
 
 ## Studio goals

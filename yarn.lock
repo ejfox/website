@@ -614,19 +614,11 @@
     "@iconify/types" "*"
 
 "@iconify/collections@^1.0.356":
-  version "1.0.363"
-  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.363.tgz#731b8234ab0389e95e16ef82ceee9df849eee231"
-  integrity sha512-2nCsHXZWOhMC5MNjqhTrHLzZTuoEYfPaM+baHkPgO51OIfyMR8v/yIeePaKTDtwlkOZXMCWBrOJJ00yqU1YGFg==
+  version "1.0.364"
+  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.364.tgz#57c6f116ec0f86655e1cbe0069809ef4957cf7a6"
+  integrity sha512-ceTvL44YyUUtEF26a0jOqp9oVREt59M400mQL5sylt/6hh2V4qJDxD031Woesqt/7Et+4kN3hEf67cFvcRiKDQ==
   dependencies:
     "@iconify/types" "*"
-
-"@iconify/json@^2.2.131":
-  version "2.2.150"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.2.150.tgz#a78efb02c9c57a8fb61b816005c2941a7623c6ef"
-  integrity sha512-SltvXzHpr919VfTXlxYaO9hWIOZnDl3DMnqdB+BVsh2nHs7QkKHEdimx3XhDmX5wJAKg7gup7sGDwwh9P3aTqQ==
-  dependencies:
-    "@iconify/types" "*"
-    pathe "^1.1.0"
 
 "@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
@@ -645,7 +637,7 @@
     kolorist "^1.8.0"
     local-pkg "^0.4.3"
 
-"@iconify/vue@^4.1.0", "@iconify/vue@^4.1.1":
+"@iconify/vue@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-4.1.1.tgz#c143c2973a4990ba2b47b766f80a9bca97937305"
   integrity sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==
@@ -1930,9 +1922,9 @@
     webpack-sources "^3.2.3"
 
 "@vercel/nft@^0.24.3":
-  version "0.24.3"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.24.3.tgz#7a6c5b17a4ac153bd07d9d0511ccef20d1cefa66"
-  integrity sha512-IyBdIxmFAeGZnEfMgt4QrGK7XX4lWazlQj34HEi9dw04/WeDBJ7r1yaOIO5tTf9pbfvwUFodj9b0H+NDGGoOMg==
+  version "0.24.4"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.24.4.tgz#b8942340c7821e6ff7bdf943b559642dbc9cae78"
+  integrity sha512-KjYAZty7boH5fi5udp6p+lNu6nawgs++pHW+3koErMgbRkkHuToGX/FwjN5clV1FcaM3udfd4zW/sUapkMgpZw==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     "@rollup/pluginutils" "^4.0.0"
@@ -6594,7 +6586,7 @@ mz@^2.7.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nanoid@^3.3.6:
+nanoid@^3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
@@ -6912,7 +6904,7 @@ nuxt-component-meta@^0.5.1:
     typescript "^5.0.2"
     vue-component-meta "^1.2.0"
 
-nuxt-config-schema@^0.4.5, nuxt-config-schema@^0.4.6:
+nuxt-config-schema@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/nuxt-config-schema/-/nuxt-config-schema-0.4.6.tgz#4ff9b912648ddab8202c232040d5d38d0f14bef3"
   integrity sha512-kHLWJFynj5QrxVZ1MjY2xmDaTSN1BCMLGExA+hMMLoCb3wn9TJlDVqnE/nSdUJPMRkNn/NQ5WP9NLA9vlAXRUw==
@@ -6922,15 +6914,6 @@ nuxt-config-schema@^0.4.5, nuxt-config-schema@^0.4.6:
     jiti "^1.18.2"
     pathe "^1.0.0"
     untyped "^1.3.2"
-
-nuxt-icon@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.3.3.tgz#5f59b2e3fe0a1f7dc6134d89da8abf9eeeb78cae"
-  integrity sha512-KdhJAigBGTP8/YIFZ3orwetk40AgLq6VQ5HRYuDLmv5hiDptor9Ro+WIdZggHw7nciRxZvDdQkEwi9B5G/jrkQ==
-  dependencies:
-    "@iconify/vue" "^4.1.0"
-    "@nuxt/kit" "^3.3.1"
-    nuxt-config-schema "^0.4.5"
 
 nuxt-icon@^0.6.6:
   version "0.6.6"
@@ -7641,11 +7624,11 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.27, postcss@^8.4.31:
-  version "8.4.31"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
-  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
+  version "8.4.32"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.32.tgz#1dac6ac51ab19adb21b8b34fd2d93a86440ef6c9"
+  integrity sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==
   dependencies:
-    nanoid "^3.3.6"
+    nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 

@@ -64,11 +64,18 @@ const socialPlatform = computed(() => {
   } else if (props.href.includes("twitter.com")) {
     return "twitter";
   } else if (props.href.includes("keybase")) {
-    return "keybase";
   } else if (props.href.includes("itunes.apple")) {
     return "apple";
   } else if (props.href.includes("observablehq")) {
     return "observablehq";
+  } else if (props.href.includes("pinboard.in")) {
+    return "pinboard";
+  } else if (props.href.includes("goodreads.com")) {
+    return "goodreads";
+  } else if (props.href.includes("glitch.com")) {
+    return "glitch";
+  } else if (props.href.includes("stackoverflow.com")) {
+    return "stackoverflow";
   } else if (props.href.includes("mailto:")) {
     return "email";
   } else {
@@ -100,29 +107,44 @@ const isInternalLink = computed(() => {
     <span v-else>
       <slot />
     </span>
+    <!-- wikipedia -->
     <sup v-if="socialPlatform === 'wikipedia'">
-      <UIcon name="i-simpleicons-wikipedia" class="ml-1" />
+      <UIcon name="i-simple-icons-wikipedia" class="ml-1" />
     </sup>
+    <!-- github -->
     <sup v-if="socialPlatform === 'github'">
-      <UIcon name="i-simpleicons-github" class="ml-1" />
+      <UIcon name="i-simple-icons-github" class="ml-1" />
     </sup>
+    <!-- youtube -->
     <sup v-if="socialPlatform === 'youtube'">
-      <UIcon name="i-simpleicons-youtube" class="ml-1" />
+      <UIcon name="i-simple-icons-youtube" class="ml-1" />
     </sup>
+    <!-- twitter -->
     <sup v-if="socialPlatform === 'twitter'">
-      <UIcon name="i-simpleicons-twitter" class="ml-1" />
+      <UIcon name="i-simple-icons-twitter" class="ml-1" />
     </sup>
-    <sup v-if="socialPlatform === 'keybase'">
-      <UIcon name="i-simpleicons-keybase" class="ml-1" />
-    </sup>
+    <!-- apple -->
     <sup v-if="socialPlatform === 'apple'">
-      <UIcon name="i-simpleicons-apple" class="ml-1" />
+      <UIcon name="i-simple-icons-apple" class="ml-1" />
     </sup>
+    <!-- observable -->
     <sup v-if="socialPlatform === 'observablehq'">
-      <UIcon name="i-simpleicons-observable" class="ml-1" />
+      <UIcon name="i-simple-icons-observable" class="ml-1" />
     </sup>
+    <!-- email -->
     <sup v-if="socialPlatform === 'email'">
-      <UIcon name="i-ic:basline-email" class="ml-1" />
+      <UIcon name="i-ic-baseline-email" class="ml-1" />
+    </sup>
+    <sup v-if="socialPlatform === 'pinboard'">
+      <UIcon name="i-simple-icons-pinboard" class="ml-1" />
+    </sup>
+    <!-- stackoverflow -->
+    <sup v-if="socialPlatform === 'stackoverflow'">
+      <UIcon name="i-simple-icons-stackoverflow" class="ml-1" />
+    </sup>
+    <!-- glitch -->
+    <sup v-if="socialPlatform === 'glitch'">
+      <UIcon name="i-simple-icons-glitch" class="ml-1" />
     </sup>
   </NuxtLink>
 </template>

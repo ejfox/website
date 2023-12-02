@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - master
   schedule:
     # - cron: '0 0 * * *'  # Runs every day at midnight
     - cron: '0 */2 * * *'  # Runs every 2 hours

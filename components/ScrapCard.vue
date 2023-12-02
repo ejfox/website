@@ -14,25 +14,25 @@
         <div class="md:inline-block">
           <a :href="scrapToUUID(scrap)" target="_blank" class="text-xs" v-if="scrap?.type">
             <span v-if="scrap.type === 'mastodon'" class="text-gray-500 opacity-50">
-              <UIcon name="i-logos-mastodon-icon" />
+              <UIcon name="i-simple-icons-mastodon" />
             </span>
             <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
               <span v-if="scrap.type === 'pinboard'" class="dark:text-blue-900">
-                <UIcon name="i-simple-line-icons-tag" />
+                <UIcon name="i-simple-icons-pinboard" />
               </span>
             </span>
             <span v-if="scrap.type === 'arena'">
               <UIcon name="i-simple-line-icons-picture" />
             </span>
             <span v-if="scrap.type === 'github-star'">
-              <UIcon name="i-logos-github" class="w-8 dark:invert opacity-50" />
+              <UIcon name="i-simple-icons-github" class="w-8 dark:invert opacity-50" />
             </span>
             <span v-if="scrap.type === 'user-github'">
               <!-- GitHub -->
-              <UIcon name="i-logos-github" class="w-8 dark:invert opacity-50" />
+              <UIcon name="i-simple-icons-github" class="w-8 dark:invert opacity-50" />
             </span>
             <span v-if="scrap.type === 'user-github-issue'">
-              <UIcon name="i-logos-github" class="w-8 dark:invert opacity-50" />
+              <UIcon name="i-simple-icons-github" class="w-8 dark:invert opacity-50" />
             </span>
           </a>
         </div>
@@ -41,7 +41,7 @@
     <div class="flex flex-col overflow-x-auto">
       <!-- if we DO have a scrap description -->
       <div v-if="scrap?.description" class="">
-        <a :href="scrapToUUID(scrap)" target="_blank" class="leading-tight text-gray-700 dark:text-gray-300"
+        <a :href="scrap.href" target="_blank" class="leading-tight text-gray-700 dark:text-gray-300"
           v-html="scrap?.description" />
       </div>
       <!-- no scrap content -->

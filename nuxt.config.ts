@@ -53,13 +53,6 @@ export default {
       // Finlandica: [400, 500, 700],
     },
   },
-  vite: {
-    server: {
-      watch: {
-        usePolling: true,
-      },
-    },
-  },
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -108,16 +101,6 @@ export default {
         },
         { name: "twitter:image", content: "https://ejfox.com/og-image.png" },
       ],
-    },
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-        cssnano:
-          process.env.NODE_ENV === 'production'
-            ? { preset: ['default', { discardComments: { removeAll: true } }] }
-         : false, // disable cssnano when not in production
     },
   }
 }

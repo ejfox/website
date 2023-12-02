@@ -1,5 +1,5 @@
 export default {
-  ssr: false, // for netlify deploy
+  // ssr: false, // for netlify deploy
   modules: [
     '@nuxt/ui',
     '@nuxtjs/google-fonts',
@@ -11,6 +11,11 @@ export default {
   ],
   ui: {
     icons: 'all'
+  },
+  useRuntimeConfig: {
+    public: {
+      DEV: process.env.NODE_ENV !== 'production',
+    },
   },
   content: {
     documentDriven: true,
@@ -58,13 +63,6 @@ export default {
       // Finlandica: [400, 500, 700],
     },
   },
-  vite: {
-    server: {
-      watch: {
-        usePolling: true,
-      },
-    },
-  },
   app: {
     head: {
       script: [
@@ -107,16 +105,6 @@ export default {
         },
         { name: "twitter:image", content: "https://ejfox.com/og-image.png" },
       ],
-    },
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-        cssnano:
-          process.env.NODE_ENV === 'production'
-            ? { preset: ['default', { discardComments: { removeAll: true } }] }
-         : false, // disable cssnano when not in production
     },
   }
 }

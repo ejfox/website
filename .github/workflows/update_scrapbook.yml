@@ -7,8 +7,8 @@ on:
       - master
   schedule:
     # - cron: '0 0 * * *'  # Runs every day at midnight
-    - cron: '0 */2 * * *'  # Runs every 2 hours
-
+    # - cron: '0 */2 * * *'  # Runs every 2 hours
+    - cron: '0 */8 * * *'  # Runs every 8 hours
 
 jobs:
   update-scrapbook:

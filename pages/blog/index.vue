@@ -57,7 +57,8 @@
               Read more
               <UIcon name="i-heroicons-arrow-up-right" class="text-sm ml-1" />
             </NuxtLink> -->
-            <UButton icon="i-heroicons-arrow-up-right" size="lg" label="Read more" variant="solid" :trailing="true" />
+            <UButton icon="i-heroicons-arrow-up-right" size="lg" label="Read more" variant="solid" :trailing="true"
+              @click="navigateTo(featuredArticle(data)._path)" />
           </div>
 
 

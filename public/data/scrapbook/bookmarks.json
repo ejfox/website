@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://www.themarginalian.org/2023/03/23/thoreau-friendship/",
+    "description": "An Introvert’s Field Guide to Friendship: Thoreau on the Challenges and Rewards of the Art of Connection – The Marginalian",
+    "extended": "",
+    "meta": "08e65c2de788b71bcc49f388e7d2a24b",
+    "hash": "3a20e988c286263143979f010a64a8d2",
+    "time": "2023-12-04T06:12:26Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://benhoyt.com/writings/the-small-web-is-beautiful/",
+    "description": "The small web is beautiful",
+    "extended": "",
+    "meta": "b89ab698e3541b7e8184178448e0875e",
+    "hash": "862d065d924906f327f8a95e23659295",
+    "time": "2023-12-04T03:33:41Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.assemblyai.com/docs/speech-to-text/speaker-diarization#",
+    "description": "Speaker Diarization | AssemblyAI Docs",
+    "extended": "",
+    "meta": "7db4eda12027488f2506d4a16c482fb3",
+    "hash": "9d2c1e2b8178f15279bafe7d5b67eb67",
+    "time": "2023-12-04T02:44:28Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/Xaymar/obs-StreamFX",
     "description": "Xaymar/obs-StreamFX: StreamFX is a plugin for OBS® Studio which adds many new effects, filters, sources, transitions and encoders! Be it 3D Transform, Blur, complex Masking, or even custom shaders, you'll find it all here.",
     "extended": "",

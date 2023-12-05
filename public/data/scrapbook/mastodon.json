@@ -4109,9 +4109,9 @@
         "header": "https://mastodon.social/headers/original/missing.png",
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 338,
-        "following_count": 939,
-        "statuses_count": 264,
-        "last_status_at": "2023-12-03",
+        "following_count": 940,
+        "statuses_count": 265,
+        "last_status_at": "2023-12-05",
         "emojis": [],
         "fields": [
           {
@@ -7180,7 +7180,7 @@
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 5042,
         "following_count": 1273,
-        "statuses_count": 17467,
+        "statuses_count": 17476,
         "last_status_at": "2023-12-04",
         "noindex": false,
         "emojis": [],

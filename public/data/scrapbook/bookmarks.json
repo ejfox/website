@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://partiful.com/e/YETUErZUpdF6pmm4rtIY",
+    "description": "RSVP to Syntax Launch Party",
+    "extended": "Syntax is a magazine about culture and the Internet.\n\nAt the Living Gallery, 1094 Broadway Brooklyn NY, 11221\n\nReadings at 7\nParty at 8",
+    "meta": "db8064a7b46e50b14a85efd28b7e7055",
+    "hash": "f39cca4232fd7106531598aaa0ed1612",
+    "time": "2023-12-05T13:25:10Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": "event"
+  },
+  {
+    "href": "https://www.axios.com/2023/12/05/generative-ai-paid-leave",
+    "description": "AI is helping new parents apply for paid leave",
+    "extended": "Girls Who Code founder taps AI to make accessing government benefits easier.",
+    "meta": "4d450f822eec1813dc3a15ea8f3cdb0b",
+    "hash": "3450a08568076b451fc91b908c1a062e",
+    "time": "2023-12-05T13:16:27Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.reddit.com/r/Cooking/comments/18acxol/what_are_common_grocery_items_that_you_always/",
     "description": "What are common grocery items that you always insist on cooking from scratch at home? : Cooking",
     "extended": "If you want an easy stable emulsion without adding mustard, buy a bottle of liquid lecithin and mix a drop in with your oil before adding to the vinegar. It's colorless and flavorless. And hardly any wishing or shaking is required.",
@@ -52762,6 +52784,17 @@
     "meta": "8c41e92c3abb9bcf2af17176ef046e94",
     "hash": "024e3e3d5c8f8d41d9ae0140d3c6c28e",
     "time": "2014-11-26T00:52:10Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://news.ycombinator.com/item?id=8660336",
+    "description": "Permissions asked for by Uber Android app | Hacker News",
+    "extended": "RT @PhilYoussef: Holy shit Uber. Do you really need all this data?\n\nUninstalled.\n\n ",
+    "meta": "6b4fa748781a95c97a4377bd5faa86ed",
+    "hash": "1e43113a982c55ea3993531139293efb",
+    "time": "2014-11-26T00:30:37Z",
     "shared": "yes",
     "toread": "no",
     "tags": ""

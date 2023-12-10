@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://github.com/dzhulgakov/llama-mistral",
+    "description": "dzhulgakov/llama-mistral: Inference code for Mistral and Mixtral hacked up into original Llama implementation",
+    "extended": "",
+    "meta": "f2328221885a1503f0a1fe7c590bdab7",
+    "hash": "af3051550b1819cc666d7cbd99e4936c",
+    "time": "2023-12-10T04:23:47Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://insideelections.com/news/article/how-to-measure-the-partisanship-of-every-house-seat",
     "description": "How to Measure the Partisanship of Every House Seat",
     "extended": "Introducing Inside Elections Baseline by Congressional District, the most comprehensive single metric for measuring partisanship",

@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://vuejs.org/api/reactivity-advanced.html#shallowref",
+    "description": "Reactivity API: Advanced | Vue.js",
+    "extended": "",
+    "meta": "51a008675da6a29caf589c06932b047b",
+    "hash": "68b72fbbb4e21e77b0202a114c4d98e1",
+    "time": "2023-12-11T22:20:05Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/dzhulgakov/llama-mistral",
     "description": "dzhulgakov/llama-mistral: Inference code for Mistral and Mixtral hacked up into original Llama implementation",
     "extended": "",

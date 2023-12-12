@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://www.edoardoscibona.com/exploring-the-npm-registry-api",
+    "description": "Exploring the npm registry API",
+    "extended": "",
+    "meta": "d9ecf6169bfaed276a68ea906c495ac3",
+    "hash": "212af56b9a01a9c4d63b82252a6601e3",
+    "time": "2023-12-12T02:39:08Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/orgs/supabase/discussions/5968#discussioncomment-5865223",
+    "description": "Multiple projects in local Supabase · supabase · Discussion #5968",
+    "extended": "",
+    "meta": "b9958ae7363bb7d294a29d9422281c17",
+    "hash": "da3e1f70f5569ee77006819495e49464",
+    "time": "2023-12-12T01:56:57Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://nymag.com/intelligencer/2023/12/trump-reassures-his-loyalists-that-hell-do-better-next-time.html",
+    "description": "Trump Reassures His Loyalists That He’ll Do Better Next Time",
+    "extended": "",
+    "meta": "fff01752c7ee3adb65a61e89f9c417f5",
+    "hash": "0bc528ba9b61b5d2447e9e80f628db69",
+    "time": "2023-12-12T01:44:10Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://vuejs.org/api/reactivity-advanced.html#shallowref",
     "description": "Reactivity API: Advanced | Vue.js",
     "extended": "",

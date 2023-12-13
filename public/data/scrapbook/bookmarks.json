@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://github.com/nuxt/nuxt/issues/19774",
+    "description": "Nitro `netlify-builder` preset is incompatible with Nuxt · Issue #19774 · nuxt/nuxt",
+    "extended": "The default netlify preset will use Netlify builder routes for all routeRules marked as swr: true. This may assist you.\r\n",
+    "meta": "fa39b4495634c1fc5099d8f841ba4881",
+    "hash": "4ce828d39a43e7d208d2de47a4df1125",
+    "time": "2023-12-12T19:03:08Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.newscientist.com/article/2407768-ai-made-from-living-human-brain-cells-performs-speech-recognition/",
+    "description": "AI made from living human brain cells performs speech recognition | New Scientist",
+    "extended": "",
+    "meta": "93f9e60feb05271688e901dab835eaff",
+    "hash": "511d2bbc0e07123d80ea1374d866e224",
+    "time": "2023-12-12T18:39:50Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.edoardoscibona.com/exploring-the-npm-registry-api",
     "description": "Exploring the npm registry API",
     "extended": "",

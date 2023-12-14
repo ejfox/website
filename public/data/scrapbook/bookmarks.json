@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://www.lesswrong.com/posts/c6uTNm5erRrmyJvvD/mapping-the-semantic-void-strange-goings-on-in-gpt-embedding",
+    "description": "Mapping the semantic void: Strange goings-on in GPT embedding spaces",
+    "extended": "Note: As will be explained below, these findings are very likely to be relevant to GPT-3 (and possibly its descendants). However, this post focussesâ¦",
+    "meta": "465539275df6f8b8a9c2ba91c498b69c",
+    "hash": "952a90854ab3dc609468ea95614e11f1",
+    "time": "2023-12-14T13:43:28Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.propublica.org/article/how-police-undermined-promise-body-cameras",
+    "description": "How Police Have Undermined the Promise of Body Cameras",
+    "extended": "",
+    "meta": "ac54afa2a28aa88b157e16594da7dbf8",
+    "hash": "7a10011754e1516b459fdde5e0eee6ea",
+    "time": "2023-12-14T13:40:44Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmakersuite.google.com%2Fapp%2Fapikey&ifkv=ASKXGp1lali1Jj6rI5IMUmuNzcJmBW0wCD4zS4gboOqTGQNg9j8FaI5mcjrtL_qMrbACqip_Q_096Q&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1828978508%3A1702529628348679",
     "description": "Sign in - Google Accounts",
     "extended": "",

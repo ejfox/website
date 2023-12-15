@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://vinzent03.github.io/obsidian-advanced-uri/",
+    "description": "Obsidian Advanced URI | Obsidian Advanced URI",
+    "extended": "",
+    "meta": "85cf1d68eaaa185ea5cd4e2d535a4b81",
+    "hash": "05981ad21c60e45816637700debce2d1",
+    "time": "2023-12-15T09:25:39Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://www.lesswrong.com/posts/c6uTNm5erRrmyJvvD/mapping-the-semantic-void-strange-goings-on-in-gpt-embedding",
     "description": "Mapping the semantic void: Strange goings-on in GPT embedding spaces",
     "extended": "Note: As will be explained below, these findings are very likely to be relevant to GPT-3 (and possibly its descendants). However, this post focussesâ¦",

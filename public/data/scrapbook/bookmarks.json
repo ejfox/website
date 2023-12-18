@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.wsj.com/articles/tony-hsieh-zappos-death-entourage-11616761915",
+    "description": "Zappos CEO Tony Hsieh Bankrolled His Followers. In Return, They Enabled His Risky Lifestyle.",
+    "extended": "The group that surrounded the late Zappos boss comprised a dozen or so men and women drawing salary and commissions from his $840 million fortune. They helped sustain his drug habit, protected him from outsiders and lived off his largess.",
+    "meta": "a4a2b96d44ea405958a73a2350b912e7",
+    "hash": "fd0e7e5a2281476b916c3e25018dba36",
+    "time": "2023-12-17T22:33:37Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://blog.vespa.ai/improving-text-ranking-with-few-shot-prompting/",
     "description": "Improving Search Ranking with Few-Shot Prompting of LLMs",
     "extended": "Distilling the knowledge and power of generative Large Language Models (LLMs) with billions of parameters to ranking models with a few million parameters.",

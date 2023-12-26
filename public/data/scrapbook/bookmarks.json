@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.npmjs.com/package/abletonlink",
+    "description": "abletonlink",
+    "extended": "ableton link for node.js. Latest version: 0.2.0-beta.0, last published: 6 months ago. Start using abletonlink in your project by running `npm i abletonlink`. There are 2 other projects in the npm registry using abletonlink.",
+    "meta": "3867bf86a8b390ebbdc33b23237c6c77",
+    "hash": "f2e12177c4c44bc3f8e242da77736baa",
+    "time": "2023-12-26T01:34:49Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/paulSambolin/github-org-env-vars",
     "description": "paulSambolin/github-org-env-vars: GHA workflows for creating Github Organization Environment Variables and Secrets",
     "extended": "",

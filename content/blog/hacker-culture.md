@@ -18,6 +18,9 @@ As a teenager attending HOPE (2600's Hackers on Planet Earth conference) in 2006
 
 There was one surreal late-night interaction at the conference that felt like a rite of passage into this strange new world. A small group of us stands in a circle, holding hands while someone brandishes a Taser. I had never seen one in person before. As the two people at the ends of the circle touch their fingers to the prongs, we feel the electricity course through our bodies – a visceral reminder that we are all connected in this bizarre and exhilarating adventure.
 
+::table-of-contents
+::
+
 ## The Birth of Hacker Ideology: Challenging Authority and Finding Collective Solutions
 
 Many of the core threads of modern life and technology trace back to hackers. The rebellious spirit of the 1960s counterculture didn’t just give us tie-dye shirts and The Grateful Dead – it birthed an entire generation of tech-savvy revolutionaries who challenge authority at every turn.

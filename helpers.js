@@ -7,8 +7,6 @@ export function scrapToUUID(scrap) {
 
 export function uuidToScrap(uuid, scrapArray) {
   // we need to find the scrap that matches the uuid
-  // console.log('Searching for', uuid)
-  // console.log(scrapArray.length, 'scraps in array')
   if (!scrapArray) return console.error('No scrap array');
   if (!scrapArray.length) return console.error('Empty scrap array');
   if (!uuid) return console.error('No uuid');
@@ -39,7 +37,10 @@ export function countWords(article) {
         node.tag === "h2" ||
         node.tag === "h3" ||
         node.tag === "h4" ||
-        node.tag === "blockquote"
+        node.tag === "blockquote" ||
+        node.tag === "li" ||
+        node.tag === "ol" ||
+        node.tag === "ul"        
     )
     .map((node) => node.children)
     .flat()

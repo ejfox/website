@@ -1,0 +1,25 @@
+name: Cloudinary Integrity Check
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+
+jobs:
+  check-cloudinary-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' # or the version you prefer
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install unified remark-parse unist-util-visit axios glob
+
+      - name: Run Cloudinary Integrity Check
+        run: node .github/scripts/cloudinaryIntegrityCheck.js

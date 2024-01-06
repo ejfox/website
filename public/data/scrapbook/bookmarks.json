@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://squareup.com/gift/9BEHAY3BJDXZS/order",
+    "description": "Order Seitan's Helper eGift Cards",
+    "extended": "Order Seitan's Helper eGift Cards online and give the perfect gift. Send gift cards instantly to anyone. Powered by Square Gift Cards",
+    "meta": "1a7075b801064e64c1a7dd7b82533861",
+    "hash": "331062ae920ffb825f3e996a767008ee",
+    "time": "2024-01-06T15:08:34Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://til.simonwillison.net/gis/pmtiles",
     "description": "Serving a custom vector web map using PMTiles and maplibre-gl | Simon Willison’s TILs",
     "extended": "const protocol = new pmtiles.Protocol();\r\nmaplibregl.addProtocol(\"pmtiles\", protocol.tile);",

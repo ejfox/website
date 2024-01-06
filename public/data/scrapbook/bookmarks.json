@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://til.simonwillison.net/gis/pmtiles",
+    "description": "Serving a custom vector web map using PMTiles and maplibre-gl | Simon Willison’s TILs",
+    "extended": "const protocol = new pmtiles.Protocol();\r\nmaplibregl.addProtocol(\"pmtiles\", protocol.tile);",
+    "meta": "f3a2585d1ae68c01b10e6a1e8ad65d56",
+    "hash": "9f8abfff121c1982a7c97361075d34bd",
+    "time": "2024-01-05T20:12:49Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://philamuseum.org/collection/object/108223",
     "description": "Weaving Pattern Manuscript",
     "extended": "Attributed to John Landes (American, 1758–1821)",

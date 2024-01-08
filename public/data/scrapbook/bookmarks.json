@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://arxiv.org/pdf/2303.12570.pdf",
+    "description": "",
+    "extended": "",
+    "meta": "31c6cd58abf5b8502503702580afba7d",
+    "hash": "5059a02ad7af62e52ac6c8b124b16487",
+    "time": "2024-01-07T18:56:54Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://borretti.me/article/thoughts-llm-agents",
+    "description": "Thoughts on LLM Agents",
+    "extended": "",
+    "meta": "cc3cbfaaf2c65d3ec7ca6b66524b1914",
+    "hash": "bc6b8e7614fe303777963ceef924f562",
+    "time": "2024-01-07T18:44:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://en.wikipedia.org/wiki/Experience_machine",
+    "description": "Experience machine - Wikipedia",
+    "extended": "you wake up in a plain white room. You are seated in a reclining chair with a steel contraption on your head. A woman in a white coat is standing over you. 'The year is 2659,' she explains, 'The life with which you are familiar is an experience machine program selected by you some forty years ago. We at IEM interrupt our client's programs at ten-year intervals to ensure client satisfaction. Our records indicate that at your three previous interruptions you deemed your program satisfactory and chose to continue. As before, if you choose to continue with your program you will return to your life as you know it with no recollection of this interruption. Your friends, loved ones, and projects will all be there. Of course, you may choose to terminate your program at this point if you are unsatisfied for any reason. Do you intend to continue with your program?",
+    "meta": "6676598e56460fe8d1db1ab7e1802c02",
+    "hash": "0fb00bfee3f9bf92f1efb977cc4d0e01",
+    "time": "2024-01-07T16:28:18Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://simonwillison.net/2023/Oct/23/embeddings/",
     "description": "Embeddings: What they are and why they matter",
     "extended": "Embeddings are a really neat trick that often come wrapped in a pile of intimidating jargon. If you can make it through that jargon, they unlock powerful and exciting techniques …",

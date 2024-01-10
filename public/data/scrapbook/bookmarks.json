@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://sullygnome.com/",
+    "description": "Twitch Stats and Analytics - Games & Channels - SullyGnome",
+    "extended": "",
+    "meta": "0ab04c410ce431356985981021851018",
+    "hash": "2138d924644badc72ce915e056b3342f",
+    "time": "2024-01-10T04:13:56Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/",
+    "description": "Recapturing early-internet whimsy with HTML",
+    "extended": "Modern forms of coding make most websites feel like commercial transactions. The HTML Energy movement aims to bring back the joys of the early days.",
+    "meta": "dd1c121573a4e425f9731f65dee35b81",
+    "hash": "0bf6dffde7e180d4b54d7eb5b5f268ec",
+    "time": "2024-01-10T01:05:03Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://developers.cloudflare.com/pages/framework-guides/deploy-a-nuxt-site/#use-bindings-in-your-nuxt-application",
     "description": "Deploy a Nuxt site · Cloudflare Pages docs",
     "extended": "",

@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.fec.gov/data/browse-data/?tab=candidates",
+    "description": "Browse data | FEC",
+    "extended": "",
+    "meta": "7fe5a717099f84c0c1a41f758b22c549",
+    "hash": "83c3fb20178ed5b889ce9ac553a9d9d3",
+    "time": "2024-01-10T20:15:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://platform.openai.com/docs/assistants/how-it-works/runs-and-run-steps",
     "description": "How Assistants work - OpenAI API",
     "extended": "",

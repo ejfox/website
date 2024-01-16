@@ -43713,7 +43713,7 @@
       "channel_count": 687,
       "following_count": 388,
       "profile_id": 64964,
-      "follower_count": 392,
+      "follower_count": 393,
       "initials": "SR",
       "can_index": true,
       "metadata": {
@@ -51698,7 +51698,7 @@
       "channel_count": 233,
       "following_count": 757,
       "profile_id": 423438,
-      "follower_count": 567,
+      "follower_count": 569,
       "initials": "CP",
       "can_index": true,
       "metadata": {
@@ -51726,7 +51726,7 @@
   },
   {
     "title": "Herbert Bayer",
-    "updated_at": "2024-01-07T21:47:58.042Z",
+    "updated_at": "2024-01-15T21:38:45.434Z",
     "created_at": "2017-11-21T00:01:08.537Z",
     "state": "available",
     "comment_count": 0,
@@ -51780,7 +51780,7 @@
       "channel_count": 380,
       "following_count": 242,
       "profile_id": 52660,
-      "follower_count": 2941,
+      "follower_count": 2942,
       "initials": "MS",
       "can_index": true,
       "metadata": {
@@ -51898,7 +51898,7 @@
   {
     "title": "80/90s VHS/Audio Blank Tapes",
     "created_at": "2018-12-05T03:14:27.073Z",
-    "updated_at": "2024-01-15T04:46:28.126Z",
+    "updated_at": "2024-01-15T20:36:07.250Z",
     "added_to_at": "2018-12-05T03:16:51.776Z",
     "published": true,
     "open": false,
@@ -64852,9 +64852,9 @@
         "display": "https://arena-avatars.s3.amazonaws.com/15/medium_f91bdac52d14ef988c9818884d6865db.jpg?1616377630"
       },
       "channel_count": 1546,
-      "following_count": 9374,
+      "following_count": 9375,
       "profile_id": 111,
-      "follower_count": 3761,
+      "follower_count": 3762,
       "initials": "CB",
       "can_index": true,
       "metadata": {

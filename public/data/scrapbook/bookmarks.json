@@ -1,5 +1,60 @@
 [
   {
+    "href": "https://kokopelli.com/products/rogue-lite-x?variant=40846559903926",
+    "description": "Rogue-Lite X | KOKOPELLI",
+    "extended": "",
+    "meta": "3d5c42c2f9c06000231a5eebd9f2463f",
+    "hash": "05a9fad96124f33ea3ecf42882f1c2fe",
+    "time": "2024-01-20T05:53:27Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://kokopelli.com/collections/garage-sale/products/garage-sale-adventure-series?variant=42609928077494",
+    "description": "Garage Sale: Adventure Series (Flat or Open Water to Class II) Packraf | KOKOPELLI",
+    "extended": "",
+    "meta": "cc5cbb3b1b58b72a057d9c1c1da26467",
+    "hash": "ee8cfcf0beb7f0e566052bc9e51ac521",
+    "time": "2024-01-20T05:51:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://hamstudy.org/tech2022",
+    "description": "HamStudy.org: Technician class Ham Radio practice tests, ham radio flash cards, and ham radio question pool.",
+    "extended": "",
+    "meta": "38a4b0512546b0fdedfd10719b36d5b7",
+    "hash": "453fa97e8909d5b5de065bca460e37c6",
+    "time": "2024-01-20T05:39:23Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://meshtastic.org/",
+    "description": "Meshtastic",
+    "extended": "",
+    "meta": "ccda01db197c791218aadf6ccacce867",
+    "hash": "3576d9f30a607b396e1f6eb8b469ca38",
+    "time": "2024-01-20T00:37:21Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.lilygo.cc/products/t-echo",
+    "description": "T-Echo Meshtastic – LILYGO®",
+    "extended": "",
+    "meta": "05c9466a02eb8cb7ccdd3344356c77e5",
+    "hash": "273056dff40da4a876eb4c2f280a6ebe",
+    "time": "2024-01-20T00:36:42Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://dash.cloudflare.com/deffa184038440afc07f53b5e7583a97/workers-and-pages/create/workers/new?template=llm-app",
     "description": "Get started with Workers & Pages | Ejfox@ejfox.com's Account | Cloudflare",
     "extended": "",

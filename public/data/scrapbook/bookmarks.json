@@ -1,5 +1,49 @@
 [
   {
+    "href": "https://arxiv.org/pdf/2305.16367.pdf",
+    "description": "untitled",
+    "extended": "",
+    "meta": "f163e84dcf85bedd169d91f0e2783a6b",
+    "hash": "0b9da767c5c01b9fb056de17780e4bb3",
+    "time": "2024-01-24T00:38:13Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://arxiv.org/abs/2308.10248",
+    "description": "[2308.10248] Activation Addition: Steering Language Models Without Optimization",
+    "extended": "",
+    "meta": "fd2823341754d37bf6f349c01e904272",
+    "hash": "50da9fe18fb4a49b57e192ad442dd219",
+    "time": "2024-01-23T22:27:34Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/TutteInstitute/datamapplot",
+    "description": "TutteInstitute/datamapplot: Creating beautiful plots of data maps",
+    "extended": "",
+    "meta": "d5a0486f49534315663ab51c39d79fad",
+    "hash": "873f7c9ab2812ca7f3267694575f2c1b",
+    "time": "2024-01-23T18:23:01Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://diagram.website/",
+    "description": "Diagram Website – An internet map",
+    "extended": "",
+    "meta": "819e6e9fd54c28bce34bd77ee9669c1e",
+    "hash": "7822f31bd89218ad2a6adde4c23bf5c3",
+    "time": "2024-01-23T18:20:14Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://benchmarks.slaylines.io/dom.html",
     "description": "DOM — Canvas Engines Comparison",
     "extended": "",

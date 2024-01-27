@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://hrdag.org/tech-notes/large-language-models-IPNO.html",
+    "description": "formatted-for-tech-corner-toc",
+    "extended": "",
+    "meta": "defd6001d5cf0e0f92a916eacae793ac",
+    "hash": "ba698aa95ada372a0520fa5f048d98ac",
+    "time": "2024-01-26T20:40:00Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://pluralistic.net/2023/11/27/10-types-of-people/",
+    "description": "Pluralistic: The real AI fight (27 Nov 2023) – Pluralistic: Daily links from Cory Doctorow",
+    "extended": "",
+    "meta": "36ac143d5476f124ea58483f84ed6f0c",
+    "hash": "d9d18363c93e05f22116874c0553c050",
+    "time": "2024-01-26T20:39:11Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/lumpenspace/tikkun-tohu",
     "description": "lumpenspace/tikkun-tohu: A package to retrieve embeddings for each one of OpenAI's dictionary tokens",
     "extended": "",

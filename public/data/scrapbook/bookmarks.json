@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://github.com/HudZah/SmartShot",
+    "description": "HudZah/SmartShot: SmartShot automates the task of organizing and renaming screenshots in a specified folder on macOS. It uses the built-in Automater app to auto-detect when new screenshots are taken and runs a script to rename them.",
+    "extended": "",
+    "meta": "9b44a4e8bab0c04f2a9f15b166429ea8",
+    "hash": "1cf4e804054ab0c377e1f66a3cd216ff",
+    "time": "2024-01-28T03:27:04Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/alexeden/rpi-led-matrix",
     "description": "alexeden/rpi-led-matrix: Node.js/Typescript bindings for the Raspberry Pi LED Matrix library (https://github.com/hzeller/rpi-rgb-led-matrix)",
     "extended": "",

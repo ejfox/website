@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.beautifulpublicdata.com/faa-aviation-maps/",
+    "description": "FAA Aviation Maps",
+    "extended": "Among all of the visual information published by the U.S. government, there may be no product with a higher information density than the Federal Aviation Administration’s aviation maps.",
+    "meta": "1587baaf17349f5d454c7741504b717f",
+    "hash": "9087d40226e39ef26a787f8f7dc9f1e0",
+    "time": "2024-01-29T15:42:36Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/HudZah/SmartShot",
     "description": "HudZah/SmartShot: SmartShot automates the task of organizing and renaming screenshots in a specified folder on macOS. It uses the built-in Automater app to auto-detect when new screenshots are taken and runs a script to rename them.",
     "extended": "",

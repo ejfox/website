@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://niujinshuchong.github.io/mip-splatting-demo/",
+    "description": "Mip-Splatting Viewer Examples",
+    "extended": "",
+    "meta": "2b783a17997930b5155131532db24caf",
+    "hash": "cb7b3cb5c2d28a941d51ed822dccc280",
+    "time": "2024-01-29T18:32:50Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/guyettinger/gle-gs3d",
+    "description": "guyettinger/gle-gs3d: Gaussian Splat 3D loader for ThreeJS, converted and adapted to Typescript.",
+    "extended": "",
+    "meta": "08659a265c388a8a3e63a9483e0ae414",
+    "hash": "2ec56e9c22ba032f49d63f22c260cdf3",
+    "time": "2024-01-29T18:31:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://www.beautifulpublicdata.com/faa-aviation-maps/",
     "description": "FAA Aviation Maps",
     "extended": "Among all of the visual information published by the U.S. government, there may be no product with a higher information density than the Federal Aviation Administration’s aviation maps.",

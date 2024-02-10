@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://github.com/jagenjo/litegraph.js",
+    "description": "jagenjo/litegraph.js: A graph node engine and editor written in Javascript similar to PD or UDK Blueprints, comes with its own editor in HTML5 Canvas2D. The engine can run client side or server side using Node. It allows to export graphs as JSONs to be in",
+    "extended": "",
+    "meta": "25125a97bb138fa8fdb8c71e75b02c9a",
+    "hash": "1cd1dad9a454cca67d3641ed434657d0",
+    "time": "2024-02-09T18:09:16Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/newcat/baklavajs?tab=readme-ov-file",
+    "description": "newcat/baklavajs: Graph / node editor in the browser using VueJS",
+    "extended": "",
+    "meta": "f535bbdca03e785c609d6d223bbb062a",
+    "hash": "e9b6ea97865f1b6cabc3ce057436ca93",
+    "time": "2024-02-09T18:08:37Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://www.figma.com/community/file/768809027799962739",
     "description": "Tailwind CSS UI | Figma Community",
     "extended": "",

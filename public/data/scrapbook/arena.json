@@ -42842,7 +42842,7 @@
   },
   {
     "title": "fig015-02.gif",
-    "updated_at": "2024-02-06T22:34:09.155Z",
+    "updated_at": "2024-02-12T09:08:33.920Z",
     "created_at": "2017-07-20T21:35:16.787Z",
     "state": "available",
     "comment_count": 1,
@@ -44727,10 +44727,10 @@
     "user": {
       "created_at": "2012-07-05T16:58:42.729Z",
       "slug": "daniel-pianetti",
-      "username": "Daniel Pianetti",
+      "username": "Daniel  Pianetti",
       "first_name": "Daniel",
-      "last_name": "Pianetti",
-      "full_name": "Daniel Pianetti",
+      "last_name": " Pianetti",
+      "full_name": "Daniel  Pianetti",
       "avatar": "https://arena-avatars.s3.amazonaws.com/812/small_1ef0465a13b844339d6eceb1b74dba2e.jpg?1438148396",
       "avatar_image": {
         "thumb": "https://arena-avatars.s3.amazonaws.com/812/small_1ef0465a13b844339d6eceb1b74dba2e.jpg?1438148396",
@@ -47648,7 +47648,7 @@
       "channel_count": 459,
       "following_count": 574,
       "profile_id": 42231,
-      "follower_count": 539,
+      "follower_count": 541,
       "initials": "3a",
       "can_index": true,
       "metadata": {
@@ -51877,7 +51877,7 @@
         "display": "https://arena-avatars.s3.amazonaws.com/13670/medium_92aca21752b4ace4829925b6ae6a71d3.jpg?1703866170"
       },
       "channel_count": 1348,
-      "following_count": 270,
+      "following_count": 271,
       "profile_id": 69432,
       "follower_count": 497,
       "initials": "f꩜",
@@ -52410,7 +52410,7 @@
       "channel_count": 239,
       "following_count": 763,
       "profile_id": 423438,
-      "follower_count": 595,
+      "follower_count": 596,
       "initials": "CP",
       "can_index": true,
       "metadata": {
@@ -58471,7 +58471,7 @@
         "thumb": "https://arena-avatars.s3.amazonaws.com/58491/small_f93210c6bd684cf87066a55b4528e057.jpg?1539011445",
         "display": "https://arena-avatars.s3.amazonaws.com/58491/medium_f93210c6bd684cf87066a55b4528e057.jpg?1539011445"
       },
-      "channel_count": 295,
+      "channel_count": 296,
       "following_count": 246,
       "profile_id": 204200,
       "follower_count": 198,
@@ -63814,7 +63814,7 @@
   },
   {
     "title": "colin-macfadyen17.gif",
-    "updated_at": "2024-02-12T02:42:52.777Z",
+    "updated_at": "2024-02-12T14:53:00.222Z",
     "created_at": "2018-02-23T14:23:33.335Z",
     "state": "available",
     "comment_count": 0,
@@ -63962,7 +63962,7 @@
         "display": "https://gravatar.com/avatar/de961e5c5ce0e4aee994345a81efd8f0.png?d=blank&r=r&s=150"
       },
       "channel_count": 132,
-      "following_count": 163,
+      "following_count": 165,
       "profile_id": 1119454,
       "follower_count": 25,
       "initials": "SM",
@@ -69583,7 +69583,7 @@
       "channel_count": 130,
       "following_count": 859,
       "profile_id": 608837,
-      "follower_count": 679,
+      "follower_count": 680,
       "initials": "AO",
       "can_index": true,
       "metadata": {

@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://www.allianceofnativeseedkeepers.com/",
+    "description": "Alliance of Native Seedkeepers - Heirloom Seeds & Heritage",
+    "extended": "",
+    "meta": "f9c061171e0946bbcc8bef6050bc0fe4",
+    "hash": "e5e3bb244d6676e4cc9f5d251622e41f",
+    "time": "2024-02-11T23:56:08Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://archive.org/details/drcarlgustavjung",
+    "description": "Dr. Carl Gustav Jung : British Broadcasting Corporation : Free Download, Borrow, and Streaming : Internet Archive",
+    "extended": "Dr. Carl Gustav Jung",
+    "meta": "093df7a008e36b59ee77f592e981bfff",
+    "hash": "54fcc275a162349fb2d4daebdfce70e0",
+    "time": "2024-02-11T22:20:50Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://maho.dev/2024/02/a-guide-to-implementing-activitypub-in-a-static-site-or-any-website-part-3/",
+    "description": "A Guide to Implementing ActivityPub in a Static Site (or Any Website) - Part 3",
+    "extended": "In this blog post, we will explain how to make your blog discoverable in the Fediverse as an account, and also address some of the annoying pitfalls I encountered. So let&rsquo;s get started.\nOverview To enable discovery, we need to implement the webfinger endpoint and the actor file.\nAs shown in the diagram, Mastodon will first reach the webfinger, which points to the actor file. The actor file, in turn, points to other endpoints such as outbox, inbox, followers, and following.",
+    "meta": "699b2b12649d6b363e501ed0d892a389",
+    "hash": "4f2756ff205d2e4b15e5c65c17f961e5",
+    "time": "2024-02-11T17:12:15Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/jagenjo/litegraph.js",
     "description": "jagenjo/litegraph.js: A graph node engine and editor written in Javascript similar to PD or UDK Blueprints, comes with its own editor in HTML5 Canvas2D. The engine can run client side or server side using Node. It allows to export graphs as JSONs to be in",
     "extended": "",

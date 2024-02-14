@@ -1,5 +1,49 @@
 [
   {
+    "href": "https://www.youtube.com/watch?v=RK5gE-3wuGI",
+    "description": "The Trucker's Hitch...But Better. [Auto-Locking] - YouTube",
+    "extended": "",
+    "meta": "9af25cb3beb6e2f6dadb05508c01d232",
+    "hash": "9e3a45b43d2770a39a37bf5a79b77fa6",
+    "time": "2024-02-14T02:12:28Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://developer.apple.com/sf-symbols/",
+    "description": "SF Symbols - Apple Developer",
+    "extended": "",
+    "meta": "f60869bc1bff35827c98f2c5bb82f6b7",
+    "hash": "61dc4409390d116b9ed5a078bdefdff9",
+    "time": "2024-02-14T02:01:30Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://socket.dev/blog/express-js-spam-prs-commoditization-of-open-source",
+    "description": "Express.js Spam PRs Incident Highlights the Commoditization of Open Source Contributions - Socket",
+    "extended": "",
+    "meta": "70d8f066bd718c2dacbfa64dbb20e77d",
+    "hash": "5df1003ad88088f340326438d567b375",
+    "time": "2024-02-14T01:35:09Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.nbcnewyork.com/news/local/cop-in-times-square-melee-once-found-liable-in-5m-police-brutality-case/5122545/",
+    "description": "Times Square cop in brawl was once found liable in $5 million police brutality case – NBC New York",
+    "extended": "",
+    "meta": "efa184bbd41abf3a25db4110a7591c73",
+    "hash": "0cf7b6a9c530a8f976e385c921cd1c04",
+    "time": "2024-02-14T01:28:13Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/marketplace/actions/export-all-secrets-to-env-variables",
     "description": "Export all secrets to env variables · Actions · GitHub Marketplace",
     "extended": "",

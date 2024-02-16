@@ -2695,7 +2695,7 @@
         "display": "https://arena-avatars.s3.amazonaws.com/3248/medium_8803d39214ba68ab8b6cdc8b23cc1f06.png?1605888000"
       },
       "channel_count": 619,
-      "following_count": 593,
+      "following_count": 594,
       "profile_id": 13216,
       "follower_count": 728,
       "initials": "JM",
@@ -44129,12 +44129,12 @@
       },
       "is_premium": true,
       "is_lifetime_premium": false,
-      "is_supporter": true,
+      "is_supporter": false,
       "is_exceeding_connections_limit": false,
       "is_confirmed": true,
       "is_pending_reconfirmation": false,
       "is_pending_confirmation": false,
-      "badge": "supporter",
+      "badge": "premium",
       "id": 1525,
       "base_class": "User",
       "class": "User"
@@ -52773,7 +52773,7 @@
       "channel_count": 453,
       "following_count": 628,
       "profile_id": 15314,
-      "follower_count": 923,
+      "follower_count": 925,
       "initials": "DW",
       "can_index": true,
       "metadata": {
@@ -52965,7 +52965,7 @@
   },
   {
     "title": "1-smeakpop-sfcynerbtk1-q.gif",
-    "updated_at": "2024-02-15T23:36:11.391Z",
+    "updated_at": "2024-02-16T15:12:45.926Z",
     "created_at": "2020-04-29T22:21:27.979Z",
     "state": "available",
     "comment_count": 2,
@@ -53460,7 +53460,7 @@
   },
   {
     "title": "THERE IS NO NATURE",
-    "updated_at": "2024-02-14T20:16:35.260Z",
+    "updated_at": "2024-02-16T09:24:33.280Z",
     "created_at": "2019-07-02T16:03:38.625Z",
     "state": "failed",
     "comment_count": 2,
@@ -66011,7 +66011,7 @@
       "channel_count": 1550,
       "following_count": 9438,
       "profile_id": 111,
-      "follower_count": 3819,
+      "follower_count": 3820,
       "initials": "CB",
       "can_index": true,
       "metadata": {

@@ -3,11 +3,12 @@ dek: In which the author discloses a peculiar and  dysfunctional part of his min
 type: words
 hidden: false
 inprogress: false
-date: "2019-08-05T16:11:00-04:00"
+date: 2019-08-05T04:00:00-04:00
 hidetimestamp: false
+modified: 2023-12-01T20:04:54-05:00
 ---
 
-# Always Have Two Reasons for Something
+## Always Have Two Reasons for Something
 
 I will never go to the grocery store because I simply need milk. I will wait until I need milk and bread.
 

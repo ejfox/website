@@ -10,10 +10,6 @@
         <UInput v-model="searchText" type="text" icon="i-heroicons-magnifying-glass-20-solid"
           placeholder="Search scraps..." class="w-full 
           fixed lg:relative bottom-0 left-0 right-0 z-50 shadow-lg" />
-
-        <!-- add a close button to clear the search out -->
-        <UIcon v-if="searchText.length > 0" name="i-heroicons-x-circle"
-          class="fixed md:absolute md:bottom-12 right-0 md:mt-2 md:mr-3 z-50" @click="searchText = ''" />
       </div>
 
 
@@ -21,15 +17,16 @@
         <div v-if="searching">
           <UProgress animation="carousel" />
         </div>
+      </div>
 
-        <div v-for=" [week, scraps] in filteredWeeksToDisplay" :key="week.week" class="mb-8">
+      <div>
+        <div v-for=" [week, scraps] in filteredWeeksToDisplay" :key="week.week" class="">
           <h5 v-html="weekToString(week)"
-            class="text-xl font-bold py-2 px-4 text-center sticky lg:relative backdrop-filter backdrop-blur-lg top-0 z-10 bg-white/25 dark:bg-slate-900/50 text-gray-600 dark:text-gray-400">
+            class="text-2xl font-bold p-2 text-center md:text-left sticky lg:relative backdrop-filter backdrop-blur-lg top-0 z-10 bg-white/25 dark:bg-neutral-900/50 md:dark:bg-transparent text-gray-600 dark:text-gray-400 rounded-sm my-4">
           </h5>
-          <div class="md:columns-3 lg:columns-4 xl:columns-5 p-4">
-            <div v-for="scrap in scraps" :key="scrap.id"
-              class="mb-8 text-xs w-1/2 md:w-full px-2 align-top inline-block md:block">
-              <ScrapCard :scrap="scrap" />
+          <div class="">
+            <div v-for="scrap in scraps" :key="scrap.id" class="my-4 w-full px-2 align-top inline-block md:block">
+              <ScrapCard :scrap="scrap" :show-footer="true" />
             </div>
           </div>
         </div>

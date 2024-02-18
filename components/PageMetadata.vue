@@ -25,13 +25,13 @@
 
         {{ formatBlogDate(new Date(doc.modified)) }}
       </span>
-      <span class="mr-4 whitespace-nowrap inline-block" v-if="doc.readingTime.words > 100">
+      <span class="mr-4 whitespace-nowrap inline-block" v-if="doc.readingTime?.words > 100">
         <UIcon name="bi:card-text" class="mr-1 text-sm pb-1" />
-        {{ doc.readingTime.words }} words
+        {{ doc.readingTime?.words }} words
       </span>
-      <span class="mr-4 whitespace-nowrap inline-block" v-if="doc.readingTime.text !== '1 min read'">
+      <span class="mr-4 whitespace-nowrap inline-block" v-if="doc.readingTime?.text !== '1 min read'">
         <UIcon name="bi:clock-history" class="mr-1 text-sm pb-1" />
-        {{ doc.readingTime.text }}
+        {{ doc.readingTime?.text }}
       </span>
       <span class="mr-4 whitespace-nowrap inline-block" v-if="countPhotos(doc) > 0">
         <UIcon name="ant-design:camera-filled" class="mr-1 text-sm pb-1" />

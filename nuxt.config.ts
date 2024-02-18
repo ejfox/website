@@ -5,12 +5,14 @@ export default {
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@nuxt/content',
-    '@nuxtjs/google-fonts', // "nuxt-icon",
+    // "nuxt-icon",
+    '@nuxtjs/google-fonts',
+    // '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxt/image',
   ],
   ui: {
-    icons: 'all'
+    icons: 'all',
   },
   useRuntimeConfig: {
     public: {
@@ -26,86 +28,88 @@ export default {
         'remark-gfm',
         'remark-emoji',
         'remark-unwrap-images',
+        'remark-wiki-link',
+        'remark-external-links',
       ],
     },
-    highlight: {
-      preload: ['sql'],
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark',
-      },
-    },
+    // highlight: {
+    //   preload: ['sql'],
+    //   theme: {
+    //     default: 'github-light',
+    //     dark: 'github-dark',
+    //   },
+    // },
   },
-  image: {
-    provider: 'cloudinary',
-    cloudinary: {
-      baseURL: 'https://res.cloudinary.com/ejf/image/upload/',
-    },
-    domains: ['ejfox.com', 'ejfoxcom.netlify.app/'],
-    screens: {
-      small: 480,
-      medium: 768,
-      large: 1920,
-      extraLarge: 2560,
-    },
-  },
+  // image: {
+  //   provider: 'cloudinary',
+  //   cloudinary: {
+  //     baseURL: 'https://res.cloudinary.com/ejf/image/upload/',
+  //   },
+  //   domains: ['ejfox.com', 'ejfoxcom.netlify.app/'],
+  //   screens: {
+  //     small: 480,
+  //     medium: 768,
+  //     large: 1920,
+  //     extraLarge: 2560,
+  //   },
+  // },
   googleFonts: {
     prefetch: true,
     families: {
-      'Signika Negative': [300, 400, 500, 600, 700],
+      'Signika Negative': [200, 300, 400, 500, 600, 700, 800],
       // "Paytone One": [400],
       'Fjalla One': [400],
       // Finlandica: [400, 500, 700],
+      'Red Hat Mono': [400],
     },
   },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      failOnError: false
-    }
-  },
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true,
+  //     failOnError: false,
+  //   },
+  // },
   app: {
     head: {
-      script: [
-      ],
+      script: [],
       bodyAttrs: {
-        class: "ma0 pa0",
+        class: '',
       },
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
-      charset: "utf-16",
-      title: "EJ Fox",
+      charset: 'utf-16',
+      title: 'EJ Fox',
       meta: [
         {
-          name: "description",
+          name: 'description',
           content:
-            "EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ",
+            'EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ',
         },
 
         // opengraph tags
-        { property: "og:title", content: "EJ Fox" },
+        { property: 'og:title', content: 'EJ Fox' },
         {
-          property: "og:description",
+          property: 'og:description',
           content:
-            "EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ",
+            'EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ',
         },
-        { property: "og:image", content: "https://ejfox.com/og-image.png" },
-        { property: "og:url", content: "https://ejfox.com" },
-        { property: "og:type", content: "website" },
+        { property: 'og:image', content: 'https://ejfox.com/og-image.png' },
+        { property: 'og:url', content: 'https://ejfox.com' },
+        { property: 'og:type', content: 'website' },
 
         // twitter opengraph tags
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:site", content: "@mrejfox" },
-        { name: "twitter:creator", content: "@mrejfox" },
-        { name: "twitter:title", content: "EJ Fox" },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@mrejfox' },
+        { name: 'twitter:creator', content: '@mrejfox' },
+        { name: 'twitter:title', content: 'EJ Fox' },
         {
-          name: "twitter:description",
+          name: 'twitter:description',
           content:
-            "EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ",
+            'EJ Fox: Hacker, Journalist, & Dataviz Specialist finding interesting ways to look at the world by exploring and explaining data ',
         },
-        { name: "twitter:image", content: "https://ejfox.com/og-image.png" },
+        { name: 'twitter:image', content: 'https://ejfox.com/og-image.png' },
       ],
     },
-  }
+  },
 }

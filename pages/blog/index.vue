@@ -68,7 +68,7 @@
 
 
 
-      <div class="columns columns-1 md:columns-3 gap-4 lg:gap-5 xl:columns-4">
+      <div class="">
         <UCard v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path" :class="[
           article.hidden ? 'hidden' : '',
           'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
@@ -89,7 +89,7 @@
 
                 <span class="" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
 
-                <span class="inline-block pr-2" v-if="data?.readingTime.minutes > 1">
+                <span class="inline-block pr-2" v-if="data?.readingTime?.minutes > 1">
                   <UIcon name="i-heroicons-solid-clock" color="gray" />
                   {{ data?.readingTime.text }}
                 </span>
@@ -139,7 +139,7 @@ const formatDate = timeFormat('%B %d, %Y')
 const blogYear = useRouteQuery('year', 2023, { transform: Number })
 
 // an array with all the years that have articles
-const blogYears = ref([2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015])
+const blogYears = ref([2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015])
 
 const filterByYear = ref(true)
 

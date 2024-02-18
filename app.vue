@@ -16,4 +16,8 @@
 .sans-serif {
   font-family: "Signika Negative", sans-serif !important;
 }
+
+.monospace {
+  font-family: "Red Hat Mono", monospace !important;
+}
 </style>

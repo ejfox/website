@@ -26,6 +26,7 @@
     "@vueuse/nuxt": "^9.13.0",
     "@vueuse/router": "^10.7.2",
     "d3": "^7.8.5",
+    "d3-voronoi": "^1.1.4",
     "date-fns": "^3.3.1",
     "eslint-config-prettier": "^9.0.0",
     "js-md5": "^0.8.3",

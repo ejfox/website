@@ -34,7 +34,7 @@ const fetchAllBlocks = async () => {
         allBlocks = allBlocks.concat(blocks);
         fetching = blocks.length > 0;
         page += 1;
-        spinner.text = `Fetched ${allBlocks.length} blocks...`;
+        // spinner.text = `Fetched ${allBlocks.length} blocks...`;
       }
     }
 

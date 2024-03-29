@@ -38,11 +38,11 @@ const fetchAllBlocks = async () => {
       }
     }
 
-    spinner.succeed(`Downloaded ${allBlocks.length} blocks`);
+    // spinner.succeed(`Downloaded ${allBlocks.length} blocks`);
     return allBlocks;
 
   } catch (error) {
-    spinner.fail('An error occurred');
+    // spinner.fail('An error occurred');
     console.error(error);
   }
 };

@@ -22,6 +22,7 @@
     "@nuxt/ui": "^2.10.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/supabase": "^1.0.1",
+    "@vueuse/components": "^10.9.0",
     "@vueuse/motion": "^2.0.0-beta.25",
     "@vueuse/nuxt": "^9.13.0",
     "@vueuse/router": "^10.7.2",

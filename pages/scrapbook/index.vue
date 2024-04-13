@@ -15,7 +15,7 @@
         </select>
         <div v-if="selectedWeekScrap">
           <h5
-            v-html="weekToString(selectedWeek)"
+            v-html="weekToStringHtml(selectedWeek)"
             class="text-2xl font-bold p-2 text-center md:text-left sticky lg:relative backdrop-filter backdrop-blur-lg top-0 z-10 bg-white/25 dark:bg-neutral-900/50 md:dark:bg-transparent text-gray-600 dark:text-gray-400 rounded-sm my-4"
           ></h5>
           <div>
@@ -35,31 +35,35 @@
 
 <script setup>
 import { format } from 'date-fns'
-import useScrap from '~/composables/useScrap.js'
-import { useStorage } from '@vueuse/core'
-
-const { scrapByWeek } = useScrap()
+import { useStorage, useFetch } from '@vueuse/core'
 
 const selectedWeek = useStorage('scrapbook-selected-week', '')
 
+const { data: scrapByWeek, execute: fetchScrapByWeek } = useFetch(
+  '/api/scrapbook',
+)
+  .get()
+  .json()
+
 const weekOptions = computed(() => {
-  const weeks = scrapByWeek.value
+  const weeks = scrapByWeek.value?.scrapByWeek
   if (!weeks) return []
 
-  return [...weeks].sort((a, b) => b[0] - a[0]).map(([week]) => week)
+  return [...weeks.keys()].sort((a, b) => b - a)
 })
 
 const selectedWeekScrap = computed(() => {
   if (!selectedWeek.value) return null
-  return scrapByWeek.value.get(selectedWeek.value) || null
+  return scrapByWeek.value?.scrapByWeek.get(selectedWeek.value) || null
 })
+
 function weekToString(week) {
-  const start = format(week, 'MMM d')
+  const start = format(new Date(week), 'MMM d')
   const end = format(
-    new Date(week.getTime() + 6 * 24 * 60 * 60 * 1000),
+    new Date(new Date(week).getTime() + 6 * 24 * 60 * 60 * 1000),
     'MMM d',
   )
-  const year = format(week, 'yyyy')
+  const year = format(new Date(week), 'yyyy')
   return `Week of ${start} - ${end}, ${year}`
 }
 
@@ -70,4 +74,8 @@ function weekToStringHtml(week) {
     -5,
   )}<small class="opacity-50 font-light ml-2">${plainString.slice(-4)}</small>`
 }
+
+onMounted(async () => {
+  await fetchScrapByWeek()
+})
 </script>

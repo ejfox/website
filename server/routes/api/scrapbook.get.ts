@@ -1,4 +1,3 @@
-import { defineEventHandler, readBody } from 'h3'
 import * as d3 from 'd3'
 import fs from 'fs'
 import path from 'path'

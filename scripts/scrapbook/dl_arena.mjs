@@ -1,7 +1,7 @@
 import Arena from 'are.na';
 import { promises as fs } from 'fs';
 import path from 'path';
-import ora from 'ora';
+// import ora from 'ora';
 import inquirer from 'inquirer';
 import Bottleneck from 'bottleneck';
 import dotenv from 'dotenv';
@@ -16,7 +16,7 @@ const ARENA_ACCESS_TOKEN = process.env.ARENA_ACCESS_TOKEN;
 const arena = new Arena({ accessToken: ARENA_ACCESS_TOKEN });
 
 const fetchAllBlocks = async () => {
-  const spinner = ora('Initializing download...').start();
+  // const spinner = ora('Initializing download...').start();
   let allBlocks = [];
 
   try {
@@ -34,15 +34,15 @@ const fetchAllBlocks = async () => {
         allBlocks = allBlocks.concat(blocks);
         fetching = blocks.length > 0;
         page += 1;
-        spinner.text = `Fetched ${allBlocks.length} blocks...`;
+        // spinner.text = `Fetched ${allBlocks.length} blocks...`;
       }
     }
 
-    spinner.succeed(`Downloaded ${allBlocks.length} blocks`);
+    // spinner.succeed(`Downloaded ${allBlocks.length} blocks`);
     return allBlocks;
 
   } catch (error) {
-    spinner.fail('An error occurred');
+    // spinner.fail('An error occurred');
     console.error(error);
   }
 };

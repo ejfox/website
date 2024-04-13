@@ -69,3 +69,5 @@ const fetchStatuses = async (userId) => {
   }
   console.timeEnd('Time elapsed');
 })();
+
+export { fetchStatuses, fetchUserId };

@@ -7,22 +7,13 @@ export default {
     '@nuxt/content',
     '@nuxtjs/google-fonts', // "nuxt-icon",
     '@vueuse/nuxt',
-    '@nuxt/image',
+    // '@nuxt/image',
   ],
   ui: {
     icons: 'all'
   },
   content: {
     documentDriven: true,
-    markdown: {
-      remarkPlugins: [
-        'remark-wiki-link',
-        'remark-reading-time',
-        'remark-gfm',
-        'remark-emoji',
-        'remark-unwrap-images',
-      ],
-    },
     highlight: {
       preload: ['sql'],
       theme: {

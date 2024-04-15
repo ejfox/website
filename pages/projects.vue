@@ -1,12 +1,12 @@
 <template>
   <main class="container mx-auto p-4 flex flex-col justify-between">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <UCard
+      <div
         v-for="(project, index) in data.body"
         :key="index"
-        class="lg:m-4 flex flex-col justify-between"
+        class="lg:m-4 flex flex-col justify-between p-4"
       >
-        <template #header>
+        <div class="header">
           <h2 class="text-2xl lg:text-4xl font-bold leading-tight py-4">
             <a :href="project.URL" class="mr-4">
               {{ project['Project Name'] }}
@@ -45,12 +45,16 @@
               </UBadge>
             </span>
           </h2>
-        </template>
+        </div>
 
         <div class="w-full" v-if="project.screenshot">
           <img
             :src="project.screenshot"
-            class="w-full drop-shadow-md rounded h-24 md:h-48 2xl:h-96 object-cover"
+            class="w-full drop-shadow-lg rounded-lg h-24 md:h-48 2xl:h-96 object-cover"
+            style="
+              transform: scale(1.03);
+              transition: transform 0.3s ease-in-out;
+            "
           />
         </div>
 
@@ -95,7 +99,7 @@
             :trailing="false"
           />
         </div>
-      </UCard>
+      </div>
     </div>
   </main>
 </template>

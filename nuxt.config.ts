@@ -5,9 +5,7 @@ export default {
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@nuxt/content',
-    // "nuxt-icon",
     '@nuxtjs/google-fonts',
-    // '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxt/image',
   ],
@@ -25,34 +23,34 @@ export default {
       remarkPlugins: [
         'remark-wiki-link',
         'remark-reading-time',
-        'remark-gfm',
-        'remark-emoji',
-        'remark-unwrap-images',
-        'remark-wiki-link',
-        'remark-external-links',
+        //   'remark-gfm',
+        //   'remark-emoji',
+        //   'remark-unwrap-images',
+        //   'remark-wiki-link',
+        //   'remark-external-links',
       ],
     },
-    // highlight: {
-    //   preload: ['sql'],
-    //   theme: {
-    //     default: 'github-light',
-    //     dark: 'github-dark',
-    //   },
-    // },
+    highlight: {
+      preload: ['sql'],
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+      },
+    },
   },
-  // image: {
-  //   provider: 'cloudinary',
-  //   cloudinary: {
-  //     baseURL: 'https://res.cloudinary.com/ejf/image/upload/',
-  //   },
-  //   domains: ['ejfox.com', 'ejfoxcom.netlify.app/'],
-  //   screens: {
-  //     small: 480,
-  //     medium: 768,
-  //     large: 1920,
-  //     extraLarge: 2560,
-  //   },
-  // },
+  image: {
+    provider: 'cloudinary',
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/ejf/image/upload/',
+    },
+    domains: ['ejfox.com', 'ejfoxcom.netlify.app/'],
+    screens: {
+      small: 480,
+      medium: 768,
+      large: 1920,
+      extraLarge: 2560,
+    },
+  },
   googleFonts: {
     prefetch: true,
     families: {

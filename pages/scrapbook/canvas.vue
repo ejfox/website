@@ -10,6 +10,7 @@ import { voronoi } from 'd3-voronoi';
 import { format, subWeeks } from 'date-fns';
 import { useMouse, useRafFn, useStorage, useWindowSize } from '@vueuse/core';
 import { useRouteQuery } from '@vueuse/router'
+import * as turf from '@turf/turf'
 import anime from 'animejs';
 import hash from 'object-hash';
 
@@ -142,8 +143,8 @@ function drawVoronoi() {
       .enter().append("path")
       .attr("d", function (d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
       .attr("class", "voronoi")
-      .style("fill", d => d.data === largestCell.data ? "rgba(255,0,0,0.5)" : "none") // Fill the largest cell with red color
-      .style("stroke", "#2077b4")
+      .style("fill", d => d.data === largestCell.data ? "rgba(3,3,3,0.1)" : "none") // Fill the largest cell with red color
+      .style("stroke", "rgba(255,255,255,0.5)")
       .style('opacity', 0.25)
       .style("stroke-width", "1px");
   }
@@ -173,12 +174,31 @@ function getLargestCell() {
 
 const addedScraps = ref([])
 
-function getRandomPositionInCell(cell) {
-  const [minX, minY] = d3.polygonHull(cell).reduce(([minX, minY], [x, y]) => [Math.min(minX, x), Math.min(minY, y)], [Infinity, Infinity]);
-  const [maxX, maxY] = d3.polygonHull(cell).reduce(([maxX, maxY], [x, y]) => [Math.max(maxX, x), Math.max(maxY, y)], [-Infinity, -Infinity]);
-  const posX = minX + Math.random() * (maxX - minX);
-  const posY = minY + Math.random() * (maxY - minY);
-  return [posX, posY];
+// function getRandomPositionInCell(cell) {
+//   const [minX, minY] = d3.polygonHull(cell).reduce(([minX, minY], [x, y]) => [Math.min(minX, x), Math.min(minY, y)], [Infinity, Infinity]);
+//   const [maxX, maxY] = d3.polygonHull(cell).reduce(([maxX, maxY], [x, y]) => [Math.max(maxX, x), Math.max(maxY, y)], [-Infinity, -Infinity]);
+//   const posX = minX + Math.random() * (maxX - minX);
+//   const posY = minY + Math.random() * (maxY - minY);
+//   // ensure image is not too close to the edge
+//   const tooClose = 50
+//   if (posX < tooClose) posX = tooClose;
+//   if (posX > width.value - tooClose) posX = width.value - tooClose;
+//   if (posY < tooClose) posY = tooClose;
+//   if (posY > height.value - tooClose) posY = height.value - tooClose;
+//   return [posX, posY];
+// }
+
+// refactor to use turf centerOfMass to find the center of mass of the cell
+function getCenterOfMass(cell) {
+  // // a cell is an array of arrays of [x, y] coordinates
+  // // usually it has 4 - and we need to convert that to a GeoJSON polygon
+  // console.log('cell', cell)
+  // const cellGeoJson = turf.polygon(cell);
+  // console.log('cellGeoJson', cellGeoJson)
+
+  // const centerOfMass = turf.centerOfMass(cellGeoJson);
+  // return centerOfMass;
+  return cell[cell.length - 1]
 }
 
 function addElement(data) {
@@ -192,7 +212,8 @@ function addElement(data) {
   if (addedScraps.value.length > 0) {
     const largestCell = getLargestCell();
     if (largestCell) {
-      [posX, posY] = getRandomPositionInCell(largestCell);
+      // [posX, posY] = getRandomPositionInCell(largestCell);
+      [posX, posY] = getCenterOfMass(largestCell);
     }
   } else {
     // If there are no scraps yet, generate random position
@@ -227,7 +248,7 @@ function addElement(data) {
   }
 
   // Draw the Voronoi diagram
-  // drawVoronoi();
+  drawVoronoi();
 }
 
 function scrapbookDataToWeeks(data) {

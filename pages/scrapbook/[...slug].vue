@@ -2,25 +2,39 @@
   <div>
     <!-- a back button to the index -->
     <div class="flex md:justify-end">
-      <UButton class="mx-4 md:m-4" color="gray" size="xs" :to="{ name: 'scrapbook' }">
+      <UButton
+        class="mx-4 md:m-4"
+        color="gray"
+        size="xs"
+        :to="{ name: 'scrapbook' }"
+      >
         Back to Scrapbook
       </UButton>
     </div>
-    <div class="max-w-lg mx-auto p-4 lg:p-10 md:min-h-screen justify-center flex flex-col">
-      <ScrapCard :scrap="scrap" :date-format-string="'MMM d, yyyy – h:mm a'" :max-height="false" />
+    <div
+      class="max-w-lg mx-auto p-4 lg:p-10 md:min-h-screen justify-center flex flex-col"
+    >
+      <ScrapCard
+        :scrap="scrap"
+        :date-format-string="'MMM d, yyyy – h:mm a'"
+        :max-height="false"
+      />
     </div>
 
     <!-- {{ scrap }} -->
-    <UTable :rows="scrapRows" />
-
+    <div
+      class="max-w-lg mx-auto p-4 lg:p-10 md:min-h-screen justify-center flex flex-col monospace text-xs"
+    >
+      <UTable :rows="scrapRows" />
+    </div>
   </div>
 </template>
 
 <script setup>
 import { scrapToUUID, uuidToScrap } from '~/helpers'
-import useScrap from '~/composables/useScrap.js';
+import useScrap from '~/composables/useScrap.js'
 
-const { combinedData } = useScrap();
+const { combinedData } = useScrap()
 
 // we need to get the desired uuid from the slug
 // we can do this by getting the last item in the slug array
@@ -49,7 +63,6 @@ const scrapRows = computed(() => {
 
   return rows
 })
-
 </script>
 
 <style scoped></style>

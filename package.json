@@ -40,6 +40,9 @@
     "remark-reading-time": "^2.0.1",
     "remark-unwrap-images": "^4.0.0",
     "remark-wiki-link": "^2.0.1",
-    "vue": "^3.3.8"
+    "unicode-string": "^2.1.0",
+    "unicodechar-string": "^1.0.0",
+    "vue": "^3.3.8",
+    "vue-virtual-scroller": "^2.0.0-beta.8"
   }
 }

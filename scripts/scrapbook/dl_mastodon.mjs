@@ -68,6 +68,7 @@ const fetchStatuses = async (userId) => {
     console.error('User ID could not be found for the specified username.');
   }
   console.timeEnd('Time elapsed');
+  
 })();
 
 export { fetchStatuses, fetchUserId };

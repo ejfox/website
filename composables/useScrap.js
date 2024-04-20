@@ -108,6 +108,7 @@ export default function useScrap() {
             time: block.created_at,
             type: 'arena',
             images: block.image ? [block.image.display.url] : [],
+            channel: block.channel,
           }
         } else {
           combinedData.value.push({
@@ -117,6 +118,7 @@ export default function useScrap() {
             time: block.created_at,
             type: 'arena',
             images: block.image ? [block.image.display.url] : [],
+            channel: block.channel,
           })
         }
       })

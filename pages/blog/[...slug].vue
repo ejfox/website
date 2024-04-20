@@ -1,9 +1,19 @@
 <template>
   <main class="mx-auto p-5 md:p-10 lg:p-20">
 
+    <!-- back to blog link -->
+    <NuxtLink to="/blog" class="text-gray-500 hover:text-gray-700">
+      <UIcon name="i-heroicons-arrow-left" class="mr-2" />
+      Back to blog
+    </NuxtLink>
+
     <!-- <h3 class="moon-gray tracked fw1">{{page?.dek}}</h3> -->
     <!-- og image preview -->
     <!-- <img :src="ogImageUrl" /> -->
+
+    <div v-if="pageIsHidden" class="text-8xl text-red-500">
+    This is A PRIVATE PAGE
+    </div>
 
     <div class="text-lg text-gray-900">
       <ContentDoc v-slot="{ doc }">
@@ -48,6 +58,9 @@
 import { timeFormat } from "d3-time-format";
 
 const { toc, page, excerpt } = useContent();
+
+// a computed property based on if the page has a .hidden property
+const pageIsHidden = computed(() => page.value.hidden);
 
 
 const formatDate = timeFormat("%B %Y");

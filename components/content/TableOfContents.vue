@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="list w-full md:w-2/5 lg:w-2/5 max-w-sm measure rounded-md py-3 md:py-4 px-0 float-right bg-gray-100 dark:bg-gray-900 shadow md:shadow-xl mx-4 mb-4">
+    class="list w-full md:w-2/5 lg:w-2/5 max-w-sm measure rounded-md py-3 md:py-4 px-0 float-right bg-transparent dark:bg-gray-900 mx-4 mb-4">
     <h2
       class="text-left md:text-center my-1 text-gray-900 dark:text-gray-100 text-lg md:text-xl font-medium py-0 hidden lg:visible">
       Table of contents

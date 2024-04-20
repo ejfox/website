@@ -7,12 +7,20 @@
 
     </div>
     <div :class="['grid gap-1', gridCols]">
-      <div v-for="(scrap, index) in scraps" :key="index" class="aspect-w-1 aspect-h-1">
+      <div v-for="(scrap, index) in scraps" :key="index" :class="[imageCount > 1 ? 'aspect-w-1 aspect-h-1' : 'p-8 lg:p-24']">
         <a :href="scrap.href">
-          <img :src="scrap.images[0]" :alt="`Image ${index + 1}`" :class="['w-full h-full', objectScale]">
+          <img :src="scrap.images[0]" :alt="`Image ${index + 1}`" :class="['w-full h-auto', objectScale]">
         </a>
       </div>
     </div>
+
+    <!-- channel list -->
+    <div class="text-xs text-gray-600 mt-1">
+      <span v-for="(channel, index) in channels" :key="index">
+        {{ channel }}
+      </span>
+    </div>
+
   </div>
 </template>
 
@@ -26,6 +34,15 @@ const props = defineProps({
     type: Array,
     required: true,
   },
+})
+
+const imageCount = computed(() => {
+  return props.scraps.reduce((acc, scrap) => acc + scrap.images.length, 0)
+})
+
+// a computed with all the unique channels, if any, in the scraps
+const channels = computed(() => {
+  return [...new Set(props.scraps.map(scrap => scrap.channel))]
 })
 
 // a computed to determine the number of gridcols

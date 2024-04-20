@@ -31,7 +31,7 @@ const fetchAllBlocks = async () => {
           arena.channel(channel.id).contents({ page, per: 100 }),
         )
         const blocks = response || []
-        allBlocks = allBlocks.concat(blocks)
+        allBlocks = allBlocks.concat(blocks.map(block => ({ ...block, channel: channel.title })))
         fetching = blocks.length > 0
         page += 1
         spinner.text = `Fetched ${allBlocks.length} blocks...`

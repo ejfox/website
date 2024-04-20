@@ -69,7 +69,10 @@
 
 
       <div class="">
-        <UCard v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path" :class="[
+        <div v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path">
+          <NuxtLink :to="article._path">
+
+        <UCard  :class="[
           article.hidden ? 'hidden' : '',
           'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
         ]">
@@ -123,6 +126,8 @@
             </ContentQuery>
           </div>
         </UCard>
+        </NuxtLink>
+        </div>
       </div>
 
     </ContentQuery>

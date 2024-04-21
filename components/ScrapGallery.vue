@@ -16,7 +16,7 @@
 
     <!-- channel list -->
     <div class="text-xs text-gray-600 mt-1">
-      <span v-for="(channel, index) in channels" :key="index">
+      <span v-for="(channel, index) in channels" :key="index" class="mr-2">
         {{ channel }}
       </span>
     </div>

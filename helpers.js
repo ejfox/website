@@ -1,4 +1,6 @@
 import md5 from "js-md5";
+// require instead
+// const md5 = require('js-md5')
 
 export function scrapToUUID(scrap) {
   const hash = md5(scrap?.type + scrap?.href);

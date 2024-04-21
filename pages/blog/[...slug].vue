@@ -11,11 +11,21 @@
     <!-- og image preview -->
     <!-- <img :src="ogImageUrl" /> -->
 
-    <div v-if="pageIsHidden" class="text-8xl text-red-500">
-    This is A PRIVATE PAGE
+    
+
+    <div v-if="isHidden" class="text-8xl text-red-500">
+    This is a draft / private page
     </div>
 
-    <div class="text-lg text-gray-900">
+    <NuxtLink :to="{ path: page._path, query: { password: generatePassword(page._path) } }" class="text-xs text-gray-500 block mt-4">
+        Password protected:
+        <UIcon name="i-heroicons-lock-closed" class="" />
+        {{ page._path }}?password=
+        {{ generatePassword(page._path) }}
+      </NuxtLink>
+
+    <div :class="['text-lg text-gray-900', isHidden ? 'blur-lg' : '']">
+      
       <ContentDoc v-slot="{ doc }">
         <PageMetadata :doc="doc" />
         <div
@@ -56,12 +66,22 @@
 </template>
 <script setup>
 import { timeFormat } from "d3-time-format";
+import { generatePassword } from '~/helpers'
+import { useRouteQuery } from '@vueuse/router';
 
 const { toc, page, excerpt } = useContent();
+const password = useRouteQuery('password');
 
 // a computed property based on if the page has a .hidden property
-const pageIsHidden = computed(() => page.value.hidden);
+const isPasswordCorrect = computed(() => {
+  const titleSlug = page.value._path;
+  const correctPassword = generatePassword(titleSlug);
+  return password.value === correctPassword;
+});
 
+const isHidden = computed(() => {
+  return page.value.hidden && !isPasswordCorrect.value;
+});
 
 const formatDate = timeFormat("%B %Y");
 

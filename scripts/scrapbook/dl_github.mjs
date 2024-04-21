@@ -24,7 +24,7 @@ const fetchGithubData = async () => {
     }
   });
 
-  const userIssues = await axios.get(`https://api.github.com/search/issues?q=author:${username}`, {
+  const userIssues = await axios.get(`https://api.github.com/search/issues?q=author:${username}+is:public`, {
     headers: {
       'Authorization': `token ${token}`
     }
@@ -33,7 +33,7 @@ const fetchGithubData = async () => {
   spinner.succeed('Downloaded GitHub data');
   return {
     starredRepos: starredRepos.data,
-    userRepos: userRepos.data,
+    userRepos: userRepos.data.filter(repo => repo.visibility === 'public'),
     userIssues: userIssues.data.items
   };
 };

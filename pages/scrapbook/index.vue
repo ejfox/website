@@ -3,6 +3,7 @@
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
     <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
       <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
+      <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
     </div>
     <div v-if="loading" class="text-center">Loading...</div>
@@ -46,6 +47,9 @@ const groupedScraps = computed(() => {
   // Create a variable to keep track of the current gallery group
   let currentGalleryGroup = null;
 
+  // Create a variable to keep track of the current PR group
+  let currentPRGroup = null;
+
   // Iterate over each scrap in the displayedData array
   displayedData.value.forEach((scrap, index) => {
     let scrapHasContent = false
@@ -67,14 +71,27 @@ const groupedScraps = computed(() => {
       }
       // Add the current scrap to the current gallery group
       currentGalleryGroup.items.push(scrap);
+    } else if (scrap.type === 'user-github-pr') {
+      // If the current scrap type is 'user-github-pr', add it to the current PR group
+      if (!currentPRGroup) {
+        currentPRGroup = {
+          type: 'pr',
+          items: [],
+        };
+        // Add the newly created PR group to the groups array
+        groups.push(currentPRGroup);
+      }
+      // Add the current scrap to the current PR group
+      currentPRGroup.items.push(scrap);
     } else {
-      // If the current scrap doesn't have images, add it as an individual item
+      // If the current scrap doesn't have images and is not a PR, add it as an individual item
       groups.push({
         type: 'single',
         items: [scrap],
       });
-      // Reset the current gallery group to null
+      // Reset the current gallery group and PR group to null
       currentGalleryGroup = null;
+      currentPRGroup = null;
     }
   });
 

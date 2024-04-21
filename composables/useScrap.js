@@ -124,95 +124,104 @@ export default function useScrap() {
       })
     }
 
-    // if (githubData.value) {
-    //   githubData.value.starredRepos.forEach((repo) => {
-    //     const existingRepoIndex = combinedData.value.findIndex(
-    //       (item) => item.id === repo.id && item.type === 'github-star',
-    //     )
-    //     if (existingRepoIndex !== -1) {
-    //       combinedData.value[existingRepoIndex] = {
-    //         id: repo.id,
-    //         content: repo.name,
-    //         href: repo.html_url,
-    //         description: repo.description,
-    //         time: repo.updated_at,
-    //         type: 'github-star',
-    //         images: [],
-    //       }
-    //     } else {
-    //       combinedData.value.push({
-    //         id: repo.id,
-    //         content: repo.name,
-    //         href: repo.html_url,
-    //         description: repo.description,
-    //         time: repo.updated_at,
-    //         type: 'github-star',
-    //         images: [],
-    //       })
-    //     }
-    //   })
+    if (githubData.value) {
+      githubData.value.starredRepos.forEach((repo) => {
+        const existingRepoIndex = combinedData.value.findIndex(
+          (item) => item.id === repo.id && item.type === 'github-star',
+        )
+        if (existingRepoIndex !== -1) {
+          combinedData.value[existingRepoIndex] = {
+            id: repo.id,
+            content: repo.name,
+            href: repo.html_url,
+            description: repo.description,
+            time: repo.created_at,
+            type: 'github-star',
+            images: [],
+          }
+        } else {
+          combinedData.value.push({
+            id: repo.id,
+            content: repo.name,
+            href: repo.html_url,
+            description: repo.description,
+            time: repo.created_at,
+            type: 'github-star',
+            images: [],
+          })
+        }
+      })
 
-    //   githubData.value.userRepos.forEach((repo) => {
-    //     const existingRepoIndex = combinedData.value.findIndex(
-    //       (item) => item.id === repo.id && item.type === 'user-github',
-    //     )
-    //     if (existingRepoIndex !== -1) {
-    //       combinedData.value[existingRepoIndex] = {
-    //         id: repo.id,
-    //         description: repo.name,
-    //         href: repo.html_url,
-    //         content: repo.description,
-    //         time: repo.updated_at,
-    //         type: 'user-github',
-    //         images: [],
-    //       }
-    //     } else {
-    //       combinedData.value.push({
-    //         id: repo.id,
-    //         description: repo.name,
-    //         href: repo.html_url,
-    //         content: repo.description,
-    //         time: repo.updated_at,
-    //         type: 'user-github',
-    //         images: [],
-    //       })
-    //     }
-    //   })
+      if(!githubData.value.userRepos) {
+        githubData.value.userRepos = []
+      } else {
 
-    //   githubData.value.userIssues.forEach((issue) => {
-    //     const existingIssueIndex = combinedData.value.findIndex(
-    //       (item) => item.id === issue.id && item.type === 'user-github-issue',
-    //     )
-    //     if (existingIssueIndex !== -1) {
-    //       combinedData.value[existingIssueIndex] = {
-    //         id: issue.id,
-    //         description: issue.title,
-    //         href: issue.html_url,
-    //         content: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
-    //           issue.title
-    //         } ${issue?.body ? issue.body : ''}`,
-    //         time: issue.updated_at,
-    //         type: 'user-github-issue',
-    //         images: [],
-    //       }
-    //     } else {
-    //       combinedData.value.push({
-    //         id: issue.id,
-    //         description: issue.title,
-    //         href: issue.html_url,
-    //         content: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
-    //           issue.title
-    //         } ${issue?.body ? issue.body : ''}`,
-    //         time: issue.updated_at,
-    //         type: 'user-github-issue',
-    //         images: [],
-    //       })
-    //     }
-    //   })
-    // }
+      githubData.value.userRepos.forEach((repo) => {
+        const existingRepoIndex = combinedData.value.findIndex(
+          (item) => item.id === repo.id && item.type === 'user-github',
+        )
+        if (existingRepoIndex !== -1) {
+          combinedData.value[existingRepoIndex] = {
+            id: repo.id,
+            description: repo.name,
+            href: repo.html_url,
+            content: repo.description,
+            time: repo.updated_at,
+            type: 'user-github',
+            images: [],
+          }
+        } else {
+          combinedData.value.push({
+            id: repo.id,
+            description: repo.name,
+            href: repo.html_url,
+            content: repo.description,
+            time: repo.updated_at,
+            type: 'user-github',
+            images: [],
+          })
+        }
+      })
+    }
 
+        githubData.value.userIssues.forEach((issue) => {
+          const existingIssueIndex = combinedData.value.findIndex(
+            (item) => item.id === issue.id && item.type === 'user-github-issue',
+          )
+          if (existingIssueIndex !== -1) {
+            combinedData.value[existingIssueIndex] = {
+              id: issue.id,
+              description: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
+                issue.title
+              }`,
+              href: issue.html_url,
+              content: issue?.body ? issue.body : '',
+              time: issue.updated_at,
+              type: issue.pull_request ? 'user-github-pr' : 'user-github-issue',
+              images: [],
+            }
+          } else {
+            combinedData.value.push({
+              id: issue.id,
+              description: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
+                issue.title
+              }`,
+              href: issue.html_url,
+              content: issue?.body ? issue.body : '',
+              time: issue.updated_at,
+              type: issue.pull_request ? 'user-github-pr' : 'user-github-issue',
+              images: [],
+            })
+          }
+        })
+    }
     // properly sort the combinedData by time
     combinedData.value.sort((a, b) => new Date(b.time) - new Date(a.time))
+
+    // dedupe combined data by .id
+    combinedData.value = combinedData.value.filter(
+      (item, index, self) => index === self.findIndex((t) => t.id === item.id),
+    )
 
     scrapByWeek.value = scrapbookDataToWeeks(combinedData.value)
   })

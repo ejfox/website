@@ -1,6 +1,7 @@
 <template>
   <div class="scrap-item group cursor-default py-2">
     <div class="flex items-center justify-between mb-1">
+
       <div class="text-xs text-gray-500 opacity-5 group-hover:opacity-100 transition-opacity">{{ formatDate(scrap.time)
         }}</div>
       <a :href="scrap.href" target="_blank" class="text-xs text-blue-500 hover:underline">
@@ -8,7 +9,19 @@
       </a>
     </div>
     <!-- <pre>{{ scrap }}</pre> -->
+    <!-- <small class="opacity-50">{{scrap.type}}</small> -->
+
+    <!-- PR icon if type is user-github-pr -->
+    <UIcon v-if="scrap.type === 'user-github-pr'" name="i-ph-git-pull-request-fill" class="w-4 h-4 inline-block ml-1" />
+
+    <UIcon v-if="scrap.type === 'github-star'" name="i-material-symbols-light-kid-star-outline" class="w-4 h-4 inline-block ml-1" />
+
+    <UIcon v-if="scrap.type === 'mastodon'" name="i-mingcute-thought-fill" class="w-4 h-4 inline-block ml-1" />
+
+    <UIcon v-if="scrap.type === 'user-github-issue'" name="i-octicon-issue-opened-16" class="w-4 h-4 inline-block ml-1" />
+
     <div class="mb-1 text-sm font-medium" v-html="scrap.description" />
+
 
     <!-- if we have scrap.channel, show it -->
     <div class="mb-1 text-xs text-gray-600" v-if="scrap.channel">
@@ -19,7 +32,7 @@
       {{ scrap.content }}
     </div>
     <div v-if="scrap.images?.length > 0" class="w-full">
-      <img v-for="(image, index) in scrap.images" :key="index" :src="image" class="max-w-full block mx-auto mb-2">
+      <img v-for="(image, index) in scrap.images" :key="index" :src="image" class="max-w-full block mb-2">
     </div>
   </div>
 </template>

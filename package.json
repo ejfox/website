@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -45,6 +46,7 @@
     "remark-wiki-link": "^2.0.1",
     "unicode-string": "^2.1.0",
     "unicodechar-string": "^1.0.0",
+    "uuid": "^9.0.1",
     "vue": "^3.3.8",
     "vue-virtual-scroller": "^2.0.0-beta.8"
   }

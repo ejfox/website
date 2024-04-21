@@ -3,6 +3,7 @@ import { fetchStatuses, fetchUserId } from './dl_mastodon.mjs'
 import { fetchGithubData } from './dl_github.mjs'
 import { fetchBookmarks } from './dl_pinboard.mjs'
 import { promises as fs } from 'fs'
+import * as helpers from '../../helpers.js'
 import path from 'path'
 
 const cleanupAndMergeData = async () => {

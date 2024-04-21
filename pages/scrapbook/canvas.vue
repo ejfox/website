@@ -20,7 +20,7 @@ const pending = ref(null)
 const scrapByWeek = ref(null)
 
 
-const intervalTime = 1000
+const intervalTime = 420
 
 // Use VueUse function to get window size
 // const { width, height } = useWindowSize()
@@ -143,7 +143,8 @@ function drawVoronoi() {
       .enter().append("path")
       .attr("d", function (d) { return d ? "M" + d.join("L") + "Z" : null; }) // Check if d is not null before joining
       .attr("class", "voronoi")
-      .style("fill", d => d.data === largestCell.data ? "rgba(3,3,3,0.1)" : "none") // Fill the largest cell with red color
+      // .style("fill", d => d.data === largestCell.data ? "rgba(3,3,3,0.1)" : "none") // Fill the largest cell with red color
+      .style("fill", "none")
       .style("stroke", "rgba(255,255,255,0.5)")
       .style('opacity', 0.25)
       .style("stroke-width", "1px");

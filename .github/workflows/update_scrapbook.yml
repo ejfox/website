@@ -35,9 +35,7 @@ jobs:
         MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
         ARENA_ACCESS_TOKEN: ${{ secrets.ARENA_ACCESS_TOKEN }}
       run: |
-        node scripts/scrapbook/dl_arena.mjs
-        node scripts/scrapbook/dl_mastodon.mjs
-        node scripts/scrapbook/dl_pinboard.mjs
+        node scripts/scrapbook/dl.mjs
 
     - name: Commit and Push Changes
       run: |

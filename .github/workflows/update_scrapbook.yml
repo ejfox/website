@@ -48,4 +48,5 @@ jobs:
         PINBOARD_TOKEN: ${{ secrets.PINBOARD_TOKEN }}
         MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
         ARENA_ACCESS_TOKEN: ${{ secrets.ARENA_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

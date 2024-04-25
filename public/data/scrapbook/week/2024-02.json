@@ -24,6 +24,7 @@
   {
     "id": "763ba7f07e8363d1ed2e426d9e34c9e4",
     "description": "Tween the positions of circles using vueUse's useTween composable",
+    "content": "circle-tween.vue",
     "href": "https://gist.github.com/ejfox/763ba7f07e8363d1ed2e426d9e34c9e4",
     "time": "2024-01-10T18:38:01Z",
     "type": "github-gist",
@@ -74,6 +75,7 @@
   {
     "id": "1ba2ea7cb45099790ef417fd2ef335fa",
     "description": "",
+    "content": "screenshots-to-cloudinary.workflow",
     "href": "https://gist.github.com/ejfox/1ba2ea7cb45099790ef417fd2ef335fa",
     "time": "2024-01-09T19:05:01Z",
     "type": "github-gist",

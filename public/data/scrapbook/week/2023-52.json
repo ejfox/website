@@ -121,6 +121,7 @@
   {
     "id": "075557d7bb167f6ccd70a653024a151e",
     "description": "Sonic Pi + Midi Christmas Medley",
+    "content": "christmas_medley.rb",
     "href": "https://gist.github.com/ejfox/075557d7bb167f6ccd70a653024a151e",
     "time": "2023-12-25T20:57:43Z",
     "type": "github-gist",
@@ -129,6 +130,7 @@
   {
     "id": "492436ba80f9762e87bf51041f58221c",
     "description": "",
+    "content": "csv_to_title.js",
     "href": "https://gist.github.com/ejfox/492436ba80f9762e87bf51041f58221c",
     "time": "2023-12-25T02:58:02Z",
     "type": "github-gist",

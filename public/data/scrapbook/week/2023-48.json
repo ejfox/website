@@ -80,6 +80,7 @@
   {
     "id": "4eed331a94ea0727bd7c996a2e681ae5",
     "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
+    "content": "split_mp3_by_silence.sh",
     "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
     "time": "2023-11-28T21:20:56Z",
     "type": "github-gist",

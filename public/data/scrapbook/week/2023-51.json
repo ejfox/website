@@ -51,6 +51,7 @@
   {
     "id": "89eed83d2974eeb8857784614bfa0921",
     "description": "",
+    "content": "hv_restaurants_and_farms.json",
     "href": "https://gist.github.com/ejfox/89eed83d2974eeb8857784614bfa0921",
     "time": "2023-12-21T01:03:58Z",
     "type": "github-gist",
@@ -59,6 +60,7 @@
   {
     "id": "643e4f5339ae54da1722ad8d5c79e4ab",
     "description": "",
+    "content": "text-to-csv.js",
     "href": "https://gist.github.com/ejfox/643e4f5339ae54da1722ad8d5c79e4ab",
     "time": "2023-12-20T19:48:34Z",
     "type": "github-gist",
@@ -67,6 +69,7 @@
   {
     "id": "8e93278084ef462e04ca6950261b1ae0",
     "description": "yt-watchlater",
+    "content": "output.csv, text-to-csv.js, watchlater.html, watchlater.txt",
     "href": "https://gist.github.com/ejfox/8e93278084ef462e04ca6950261b1ae0",
     "time": "2023-12-20T19:13:29Z",
     "type": "github-gist",

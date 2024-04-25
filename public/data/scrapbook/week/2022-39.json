@@ -2,6 +2,7 @@
   {
     "id": "ad555d7d8fca5cf5f35db1c3e3486a72",
     "description": "A GPT-3 code-davinci-002 written script to scrape the top 40 worst polluters for all available industries",
+    "content": "build_top40_allsector_geojson.mjs",
     "href": "https://gist.github.com/ejfox/ad555d7d8fca5cf5f35db1c3e3486a72",
     "time": "2022-09-22T16:31:56Z",
     "type": "github-gist",

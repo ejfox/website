@@ -16,7 +16,8 @@ const mergeAndDeduplicate = (data) => {
   data.forEach((sourceData) => {
     sourceData.forEach((item) => {
       const existingItem = combinedData.find(
-        (combinedItem) => combinedItem.id === item.id && combinedItem.type === item.type
+        (combinedItem) =>
+          combinedItem.id === item.id && combinedItem.type === item.type,
       )
       if (existingItem) {
         Object.assign(existingItem, item)
@@ -31,7 +32,10 @@ const mergeAndDeduplicate = (data) => {
 const groupDataByWeek = (data) => {
   const groupedData = group(data, (d) => format(new Date(d.time), 'yyyy-ww'))
   return Object.fromEntries(
-    Array.from(groupedData, ([week, data]) => [week, data.sort((a, b) => new Date(b.time) - new Date(a.time))])
+    Array.from(groupedData, ([week, data]) => [
+      week,
+      data.sort((a, b) => new Date(b.time) - new Date(a.time)),
+    ]),
   )
 }
 const cleanupAndMergeData = async () => {
@@ -45,7 +49,7 @@ const cleanupAndMergeData = async () => {
   let githubData = await fetchGithubData()
 
   // Tweak the shape of the data
-  arenaBlocks = arenaBlocks.map(block => ({
+  arenaBlocks = arenaBlocks.map((block) => ({
     id: block.id,
     href: `https://www.are.na/block/${block.id}`,
     description: block.description,
@@ -54,7 +58,7 @@ const cleanupAndMergeData = async () => {
     images: block.image ? [block.image.display.url] : [],
     channel: block.channel,
   }))
-  mastodonStatuses = mastodonStatuses.map(status => ({
+  mastodonStatuses = mastodonStatuses.map((status) => ({
     id: status.id,
     href: status.url,
     description: status.content.replace(/&[^;]+;/g, ''),
@@ -67,7 +71,7 @@ const cleanupAndMergeData = async () => {
       .filter((attachment) => attachment.type === 'video')
       .map((attachment) => attachment.url),
   }))
-  pinboardBookmarks = pinboardBookmarks.map(bookmark => ({
+  pinboardBookmarks = pinboardBookmarks.map((bookmark) => ({
     id: bookmark.id,
     href: bookmark.href,
     description: bookmark.description,
@@ -76,16 +80,14 @@ const cleanupAndMergeData = async () => {
     ...bookmark,
   }))
 
-
-  
   githubData = [
-    ...(githubData.starredRepos || []).map(repo => ({
+    ...(githubData.starredRepos || []).map((repo) => ({
       id: repo.id,
       description: repo.description,
       href: repo.html_url,
       // time: repo.updated_at,
       time: repo.created_at,
-      type: 'github',
+      type: 'github-star',
       images: [],
     })),
     // ...(githubData.userRepos || []).map(repo => ({
@@ -97,20 +99,24 @@ const cleanupAndMergeData = async () => {
     //   type: 'github',
     //   images: [],
     // })),
-    ...(githubData.userIssues || []).map(issue => ({
+    ...(githubData.userIssues || []).map((issue) => ({
       id: issue.id,
       description: issue.title,
       href: issue.html_url,
-      content: `${issue.repository_url.split('/').slice(-2).join('/')}: ${issue.title} ${issue?.body ? issue.body : ''}`,
+      content: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
+        issue.title
+      } ${issue?.body ? issue.body : ''}`,
       time: issue.updated_at,
       type: issue.pull_request ? 'github-pr' : 'github-issue',
       images: [],
     })),
-    ...(githubData.userGists || []).map(gist => ({
+    ...(githubData.userGists || []).map((gist) => ({
       id: gist.id,
       description: gist.description,
       // a list of the files
-      content: Object.keys(gist.files).map((file) => gist.files[file].filename).join(', '),
+      content: Object.keys(gist.files)
+        .map((file) => gist.files[file].filename)
+        .join(', '),
       href: gist.html_url,
       time: gist.updated_at,
       type: 'github-gist',
@@ -119,7 +125,12 @@ const cleanupAndMergeData = async () => {
   ]
 
   // Merge and deduplicate the data
-  const combinedData = mergeAndDeduplicate([arenaBlocks, mastodonStatuses, pinboardBookmarks, githubData])
+  const combinedData = mergeAndDeduplicate([
+    arenaBlocks,
+    mastodonStatuses,
+    pinboardBookmarks,
+    githubData,
+  ])
 
   // Sort the combined data by time in descending order
   combinedData.sort((a, b) => new Date(b.time) - new Date(a.time))

@@ -62,6 +62,7 @@
   {
     "id": "afd94b193a00645e34fc5030a125758a",
     "description": "Sets screenshot folder on OS X to ~/screenshots",
+    "content": "set_screenshot_folder.sh",
     "href": "https://gist.github.com/ejfox/afd94b193a00645e34fc5030a125758a",
     "time": "2024-01-05T17:27:16Z",
     "type": "github-gist",

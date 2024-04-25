@@ -4,12 +4,13 @@
     "description": "Turn any webpage into structured data using LLMs",
     "href": "https://github.com/mishushakov/llm-scraper",
     "time": "2024-04-20T17:06:57Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
     "id": "e97f19d4232ef839dddc93bc3ae87fe8",
     "description": "Usage: `./files-to-md.sh *`",
+    "content": "files-to-md.sh",
     "href": "https://gist.github.com/ejfox/e97f19d4232ef839dddc93bc3ae87fe8",
     "time": "2024-04-17T18:05:14Z",
     "type": "github-gist",

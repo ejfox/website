@@ -35,6 +35,7 @@
   {
     "id": "5204cf3094de9261e05e3291cd22daca",
     "description": "Import CSV with Neo4J Cypher",
+    "content": "import.cypher",
     "href": "https://gist.github.com/ejfox/5204cf3094de9261e05e3291cd22daca",
     "time": "2021-05-06T17:10:45Z",
     "type": "github-gist",

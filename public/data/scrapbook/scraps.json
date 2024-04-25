@@ -1,7 +1,19 @@
 [
   {
+    "id": 27758807,
+    "href": "https://www.are.na/block/27758807",
+    "description": "",
+    "time": "2024-04-24T20:09:16.524Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzc1ODgwNy9vcmlnaW5hbF9mOWUwMTkzYTdhODE5MzIzMTc0NjAzMjc5M2ZlY2JkMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  },
+  {
     "id": "e5c1a08c9c2950ab94431e130c49aa18",
     "description": "Folder action for screenshots folder to automatically upload to Cloudinary",
+    "content": "screenshots_to_cloudinary",
     "href": "https://gist.github.com/ejfox/e5c1a08c9c2950ab94431e130c49aa18",
     "time": "2024-04-21T23:40:36Z",
     "type": "github-gist",
@@ -12,12 +24,13 @@
     "description": "Turn any webpage into structured data using LLMs",
     "href": "https://github.com/mishushakov/llm-scraper",
     "time": "2024-04-20T17:06:57Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
     "id": "e97f19d4232ef839dddc93bc3ae87fe8",
     "description": "Usage: `./files-to-md.sh *`",
+    "content": "files-to-md.sh",
     "href": "https://gist.github.com/ejfox/e97f19d4232ef839dddc93bc3ae87fe8",
     "time": "2024-04-17T18:05:14Z",
     "type": "github-gist",
@@ -930,7 +943,7 @@
     "description": "Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
     "href": "https://github.com/arashsheyda/nuxt-neo4j",
     "time": "2024-03-08T20:42:10Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -1467,6 +1480,7 @@
   {
     "id": "da826d138fa344240711a5a4fb673782",
     "description": "p5_canvassketch_circles.js",
+    "content": "gistfile1.txt",
     "href": "https://gist.github.com/ejfox/da826d138fa344240711a5a4fb673782",
     "time": "2024-02-10T16:21:13Z",
     "type": "github-gist",
@@ -1697,6 +1711,7 @@
   {
     "id": "a049d8bea5fa7257891d987fef455554",
     "description": "Processing RGB LED Matrix Visualizer (for Raspberry Pi)",
+    "content": "32_x_128_audio_visualizer.java",
     "href": "https://gist.github.com/ejfox/a049d8bea5fa7257891d987fef455554",
     "time": "2024-01-27T06:11:17Z",
     "type": "github-gist",
@@ -1792,6 +1807,7 @@
   {
     "id": "12bfcdaa3b09805f410ac0c1439b8a25",
     "description": "Using anime, tresjs, and canvas to make rotating annotated objects in 3D",
+    "content": "OrbitalObject.vue, index.vue",
     "href": "https://gist.github.com/ejfox/12bfcdaa3b09805f410ac0c1439b8a25",
     "time": "2024-01-22T04:26:06Z",
     "type": "github-gist",
@@ -1847,6 +1863,7 @@
   {
     "id": "295b31afc7d5d0e57de1237ac4d1c0d2",
     "description": "",
+    "content": "DomElementTo3DPosition.vue",
     "href": "https://gist.github.com/ejfox/295b31afc7d5d0e57de1237ac4d1c0d2",
     "time": "2024-01-17T18:21:37Z",
     "type": "github-gist",
@@ -1935,6 +1952,7 @@
   {
     "id": "763ba7f07e8363d1ed2e426d9e34c9e4",
     "description": "Tween the positions of circles using vueUse's useTween composable",
+    "content": "circle-tween.vue",
     "href": "https://gist.github.com/ejfox/763ba7f07e8363d1ed2e426d9e34c9e4",
     "time": "2024-01-10T18:38:01Z",
     "type": "github-gist",
@@ -1985,6 +2003,7 @@
   {
     "id": "1ba2ea7cb45099790ef417fd2ef335fa",
     "description": "",
+    "content": "screenshots-to-cloudinary.workflow",
     "href": "https://gist.github.com/ejfox/1ba2ea7cb45099790ef417fd2ef335fa",
     "time": "2024-01-09T19:05:01Z",
     "type": "github-gist",
@@ -2064,6 +2083,7 @@
   {
     "id": "afd94b193a00645e34fc5030a125758a",
     "description": "Sets screenshot folder on OS X to ~/screenshots",
+    "content": "set_screenshot_folder.sh",
     "href": "https://gist.github.com/ejfox/afd94b193a00645e34fc5030a125758a",
     "time": "2024-01-05T17:27:16Z",
     "type": "github-gist",
@@ -2315,6 +2335,7 @@
   {
     "id": "075557d7bb167f6ccd70a653024a151e",
     "description": "Sonic Pi + Midi Christmas Medley",
+    "content": "christmas_medley.rb",
     "href": "https://gist.github.com/ejfox/075557d7bb167f6ccd70a653024a151e",
     "time": "2023-12-25T20:57:43Z",
     "type": "github-gist",
@@ -2323,6 +2344,7 @@
   {
     "id": "492436ba80f9762e87bf51041f58221c",
     "description": "",
+    "content": "csv_to_title.js",
     "href": "https://gist.github.com/ejfox/492436ba80f9762e87bf51041f58221c",
     "time": "2023-12-25T02:58:02Z",
     "type": "github-gist",
@@ -2400,6 +2422,7 @@
   {
     "id": "89eed83d2974eeb8857784614bfa0921",
     "description": "",
+    "content": "hv_restaurants_and_farms.json",
     "href": "https://gist.github.com/ejfox/89eed83d2974eeb8857784614bfa0921",
     "time": "2023-12-21T01:03:58Z",
     "type": "github-gist",
@@ -2408,6 +2431,7 @@
   {
     "id": "643e4f5339ae54da1722ad8d5c79e4ab",
     "description": "",
+    "content": "text-to-csv.js",
     "href": "https://gist.github.com/ejfox/643e4f5339ae54da1722ad8d5c79e4ab",
     "time": "2023-12-20T19:48:34Z",
     "type": "github-gist",
@@ -2416,6 +2440,7 @@
   {
     "id": "8e93278084ef462e04ca6950261b1ae0",
     "description": "yt-watchlater",
+    "content": "output.csv, text-to-csv.js, watchlater.html, watchlater.txt",
     "href": "https://gist.github.com/ejfox/8e93278084ef462e04ca6950261b1ae0",
     "time": "2023-12-20T19:13:29Z",
     "type": "github-gist",
@@ -2709,7 +2734,7 @@
     "description": "Transcripts for Harmontown.",
     "href": "https://github.com/koratkar/harmontown",
     "time": "2023-12-03T06:32:34Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -2793,6 +2818,7 @@
   {
     "id": "4eed331a94ea0727bd7c996a2e681ae5",
     "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
+    "content": "split_mp3_by_silence.sh",
     "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
     "time": "2023-11-28T21:20:56Z",
     "type": "github-gist",
@@ -3004,7 +3030,7 @@
     "description": "GHA workflows for creating Github Organization Environment Variables and Secrets",
     "href": "https://github.com/paulSambolin/github-org-env-vars",
     "time": "2023-11-08T21:51:04Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -3258,7 +3284,7 @@
     "description": "File explorer made for pictures",
     "href": "https://github.com/OneFolderApp/OneFolder",
     "time": "2023-10-21T17:43:36Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -3266,7 +3292,7 @@
     "description": "A client-side web API for making requests directly to users.",
     "href": "https://github.com/passes-org/passes",
     "time": "2023-10-20T16:27:14Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -3479,7 +3505,7 @@
     "description": null,
     "href": "https://github.com/omarim1/Nebula-Nights-Pico8",
     "time": "2023-09-26T02:44:44Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -3487,7 +3513,7 @@
     "description": "Three.js-based implementation of 3D Gaussian splatting",
     "href": "https://github.com/mkkellogg/GaussianSplats3D",
     "time": "2023-09-26T01:15:29Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -4068,6 +4094,7 @@
   {
     "id": "150fad3f20d2c86623279ae17b7521e4",
     "description": "",
+    "content": "gpt_therapist_system.md",
     "href": "https://gist.github.com/ejfox/150fad3f20d2c86623279ae17b7521e4",
     "time": "2023-08-28T13:54:19Z",
     "type": "github-gist",
@@ -4118,7 +4145,7 @@
     "description": "turn small javascript functions into GPT function calls ",
     "href": "https://github.com/sdan/functioncalling",
     "time": "2023-08-23T09:45:07Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -4783,7 +4810,7 @@
     "description": "A natural language interface for computers",
     "href": "https://github.com/OpenInterpreter/open-interpreter",
     "time": "2023-07-14T07:10:44Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -4973,7 +5000,7 @@
     "description": "Data about orgs who spend $5K or more to influence California legislation",
     "href": "https://github.com/jeremiak/cal-access-lobbying-5k-filers",
     "time": "2023-04-08T03:32:40Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -4981,7 +5008,7 @@
     "description": "A scientific instrument for investigating latent spaces",
     "href": "https://github.com/enjalot/latent-scope",
     "time": "2023-04-07T02:14:05Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -5429,7 +5456,7 @@
     "description": null,
     "href": "https://github.com/ipno-llead/networks",
     "time": "2023-02-14T03:08:57Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -5470,7 +5497,7 @@
     "description": "Effortlessly build beautiful command-line apps",
     "href": "https://github.com/natemoo-re/clack",
     "time": "2023-02-08T21:58:49Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -5574,7 +5601,7 @@
     "description": "Multiplayer code editor system",
     "href": "https://github.com/vizhub-core/vzcode",
     "time": "2023-01-20T18:39:15Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -5990,7 +6017,7 @@
     "description": "We write your reusable computer vision tools. 💜",
     "href": "https://github.com/roboflow/supervision",
     "time": "2022-11-28T14:08:44Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -6049,6 +6076,7 @@
   {
     "id": "deedd43d8b2de49a95016dd47f5c38b8",
     "description": "",
+    "content": "7pm-to-midnight_all_tracks.csv",
     "href": "https://gist.github.com/ejfox/deedd43d8b2de49a95016dd47f5c38b8",
     "time": "2022-11-03T01:00:50Z",
     "type": "github-gist",
@@ -6125,12 +6153,13 @@
     "description": "the AI-native open-source embedding database",
     "href": "https://github.com/chroma-core/chroma",
     "time": "2022-10-05T17:58:44Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
     "id": "ad555d7d8fca5cf5f35db1c3e3486a72",
     "description": "A GPT-3 code-davinci-002 written script to scrape the top 40 worst polluters for all available industries",
+    "content": "build_top40_allsector_geojson.mjs",
     "href": "https://gist.github.com/ejfox/ad555d7d8fca5cf5f35db1c3e3486a72",
     "time": "2022-09-22T16:31:56Z",
     "type": "github-gist",
@@ -6139,6 +6168,7 @@
   {
     "id": "7b6a12465e0dea8e4eea1fb8a6af840a",
     "description": "",
+    "content": "MapboxScrollyTour.vue",
     "href": "https://gist.github.com/ejfox/7b6a12465e0dea8e4eea1fb8a6af840a",
     "time": "2022-09-13T14:46:05Z",
     "type": "github-gist",
@@ -6149,7 +6179,7 @@
     "description": "Build vector tilesets from large collections of GeoJSON features.",
     "href": "https://github.com/felt/tippecanoe",
     "time": "2022-08-15T22:41:51Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -6177,6 +6207,7 @@
   {
     "id": "60caff5e4a3a5197374c8fe7c6221b55",
     "description": "Use OpenAI to add tags to a JSON file of tweets",
+    "content": "add_tags_to_tweets.js",
     "href": "https://gist.github.com/ejfox/60caff5e4a3a5197374c8fe7c6221b55",
     "time": "2022-06-27T18:47:20Z",
     "type": "github-gist",
@@ -6185,6 +6216,7 @@
   {
     "id": "98ecfa51d0e91d86e23891f67bd8dc1a",
     "description": "",
+    "content": "download_recent_tweets.js",
     "href": "https://gist.github.com/ejfox/98ecfa51d0e91d86e23891f67bd8dc1a",
     "time": "2022-06-27T18:46:10Z",
     "type": "github-gist",
@@ -6908,6 +6940,7 @@
   {
     "id": "5678aa4d934b87d0c8ab6bf0805ea5f1",
     "description": "",
+    "content": "tachyon-figma-tokens.json",
     "href": "https://gist.github.com/ejfox/5678aa4d934b87d0c8ab6bf0805ea5f1",
     "time": "2022-06-02T22:24:17Z",
     "type": "github-gist",
@@ -6993,6 +7026,7 @@
   {
     "id": "4433ddc1e66322b48a24a4b811551d49",
     "description": "Vue method to set width and height based on component element size",
+    "content": "setWidthAndHeight.js",
     "href": "https://gist.github.com/ejfox/4433ddc1e66322b48a24a4b811551d49",
     "time": "2022-05-13T13:38:01Z",
     "type": "github-gist",
@@ -7003,7 +7037,7 @@
     "description": "Remark plugin to support Obsidian markdown syntax",
     "href": "https://github.com/johackim/remark-obsidian",
     "time": "2022-05-08T15:43:56Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -7044,7 +7078,7 @@
     "description": "Next.js and Supabase app to track your train journeys in Europe",
     "href": "https://github.com/noahflk/railtrack",
     "time": "2022-04-16T12:22:54Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -7501,7 +7535,7 @@
     "description": "v-onboarding is a super-slim, fully-typed onboarding component for Vue 3",
     "href": "https://github.com/fatihsolhan/v-onboarding",
     "time": "2021-12-08T15:55:34Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -8147,7 +8181,7 @@
     "description": "The word highlighter library for Vue 2 and Vue 3.",
     "href": "https://github.com/kawamataryo/vue-word-highlighter",
     "time": "2021-07-29T23:35:30Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -8494,6 +8528,7 @@
   {
     "id": "f9540f9b776fdebf6b976ed3a7c4d20a",
     "description": "",
+    "content": "import.cypher",
     "href": "https://gist.github.com/ejfox/f9540f9b776fdebf6b976ed3a7c4d20a",
     "time": "2021-05-19T17:18:27Z",
     "type": "github-gist",
@@ -8634,6 +8669,7 @@
   {
     "id": "5204cf3094de9261e05e3291cd22daca",
     "description": "Import CSV with Neo4J Cypher",
+    "content": "import.cypher",
     "href": "https://gist.github.com/ejfox/5204cf3094de9261e05e3291cd22daca",
     "time": "2021-05-06T17:10:45Z",
     "type": "github-gist",
@@ -8875,7 +8911,7 @@
     "description": "Sync your Kindle notes and highlights directly into your Obsidian vault",
     "href": "https://github.com/hadynz/obsidian-kindle-plugin",
     "time": "2021-03-27T01:06:47Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -9013,6 +9049,7 @@
   {
     "id": "feb5169d649ec09ce0b5ae856209426c",
     "description": "",
+    "content": "my_happiness_2020.csv",
     "href": "https://gist.github.com/ejfox/feb5169d649ec09ce0b5ae856209426c",
     "time": "2021-03-01T22:39:37Z",
     "type": "github-gist",
@@ -9419,7 +9456,7 @@
     "description": "Open-source interaction resources for Call of Duty; support for Cold War, Warzone, Modern Warfare, Black Ops 4, and WWII",
     "href": "https://github.com/mdlindsey/callofdutyapi",
     "time": "2021-02-16T19:27:14Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -9788,6 +9825,7 @@
   {
     "id": "a081d4b59064a31e16ff9bf17d3531a6",
     "description": "Doomscroller Processing Script",
+    "content": "ndplayer.processing",
     "href": "https://gist.github.com/ejfox/a081d4b59064a31e16ff9bf17d3531a6",
     "time": "2021-02-10T23:00:04Z",
     "type": "github-gist",
@@ -11133,6 +11171,7 @@
   {
     "id": "01ade40ba81d27601d20a77d7c845115",
     "description": "",
+    "content": "groupByCounty.mjs, package.json",
     "href": "https://gist.github.com/ejfox/01ade40ba81d27601d20a77d7c845115",
     "time": "2020-10-05T01:29:42Z",
     "type": "github-gist",
@@ -11196,6 +11235,7 @@
   {
     "id": "80165a888453f2b38d0fbd9b9f839eb0",
     "description": "",
+    "content": "package.json, scrape-art.js",
     "href": "https://gist.github.com/ejfox/80165a888453f2b38d0fbd9b9f839eb0",
     "time": "2020-08-11T03:16:37Z",
     "type": "github-gist",
@@ -11292,6 +11332,7 @@
   {
     "id": "2ac9fc80384918f30b0f781add06dc86",
     "description": "",
+    "content": "alex4.js, package.json",
     "href": "https://gist.github.com/ejfox/2ac9fc80384918f30b0f781add06dc86",
     "time": "2020-08-05T03:17:13Z",
     "type": "github-gist",
@@ -11951,7 +11992,7 @@
     "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
     "href": "https://github.com/lucide-icons/lucide",
     "time": "2020-06-08T15:36:21Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -15025,7 +15066,7 @@
     "description": "Modules for VCV Rack.",
     "href": "https://github.com/bogaudio/BogaudioModules",
     "time": "2017-11-16T02:55:24Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -15297,7 +15338,7 @@
     "description": "The Intuitive Vue Framework.",
     "href": "https://github.com/nuxt/nuxt",
     "time": "2016-10-26T11:18:47Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -15371,7 +15412,7 @@
     "description": "A comparison of the performance of a few popular javascript frameworks",
     "href": "https://github.com/krausest/js-framework-benchmark",
     "time": "2015-12-09T20:10:53Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -15401,7 +15442,7 @@
     "description": "Ease into ESLint, by fixing one rule at a time",
     "href": "https://github.com/IanVS/eslint-nibble",
     "time": "2015-06-27T06:12:55Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {
@@ -15541,7 +15582,7 @@
     "description": "A light weight interface for running git commands in any node.js application.",
     "href": "https://github.com/steveukx/git-js",
     "time": "2013-08-03T04:48:11Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   },
   {

@@ -2,6 +2,7 @@
   {
     "id": "4433ddc1e66322b48a24a4b811551d49",
     "description": "Vue method to set width and height based on component element size",
+    "content": "setWidthAndHeight.js",
     "href": "https://gist.github.com/ejfox/4433ddc1e66322b48a24a4b811551d49",
     "time": "2022-05-13T13:38:01Z",
     "type": "github-gist",
@@ -12,7 +13,7 @@
     "description": "Remark plugin to support Obsidian markdown syntax",
     "href": "https://github.com/johackim/remark-obsidian",
     "time": "2022-05-08T15:43:56Z",
-    "type": "github",
+    "type": "github-star",
     "images": []
   }
 ]

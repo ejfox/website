@@ -12,13 +12,19 @@
     <!-- <small class="opacity-50">{{scrap.type}}</small> -->
 
     <!-- PR icon if type is user-github-pr -->
-    <UIcon v-if="scrap.type === 'user-github-pr'" name="i-ph-git-pull-request-fill" class="w-4 h-4 inline-block ml-1" />
+    <UIcon v-if="scrap.type === 'github-pr'" name="i-ph-git-pull-request-fill" class="w-4 h-4 inline-block ml-1" />
 
-    <UIcon v-if="scrap.type === 'github-star'" name="i-material-symbols-light-kid-star-outline" class="w-4 h-4 inline-block ml-1" />
+    <UIcon v-if="scrap.type === 'github-star'" name="i-material-symbols-light-kid-star-outline"
+      class="w-4 h-4 inline-block ml-1" />
 
     <UIcon v-if="scrap.type === 'mastodon'" name="i-mingcute-thought-fill" class="w-4 h-4 inline-block ml-1" />
 
-    <UIcon v-if="scrap.type === 'user-github-issue'" name="i-octicon-issue-opened-16" class="w-4 h-4 inline-block ml-1" />
+    <UIcon v-if="scrap.type === 'user-github-issue'" name="i-octicon-issue-opened-16"
+      class="w-4 h-4 inline-block ml-1" />
+
+    <UIcon v-if="scrap.type === 'github-gist'" name="i-material-symbols-code-blocks-outline-sharp"
+      class="w-4 h-4 inline-block ml-1" />
+
 
     <div class="mb-1 text-sm font-medium" v-html="scrap.description" />
 

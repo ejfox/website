@@ -2,6 +2,7 @@
   {
     "id": "a049d8bea5fa7257891d987fef455554",
     "description": "Processing RGB LED Matrix Visualizer (for Raspberry Pi)",
+    "content": "32_x_128_audio_visualizer.java",
     "href": "https://gist.github.com/ejfox/a049d8bea5fa7257891d987fef455554",
     "time": "2024-01-27T06:11:17Z",
     "type": "github-gist",
@@ -97,6 +98,7 @@
   {
     "id": "12bfcdaa3b09805f410ac0c1439b8a25",
     "description": "Using anime, tresjs, and canvas to make rotating annotated objects in 3D",
+    "content": "OrbitalObject.vue, index.vue",
     "href": "https://gist.github.com/ejfox/12bfcdaa3b09805f410ac0c1439b8a25",
     "time": "2024-01-22T04:26:06Z",
     "type": "github-gist",

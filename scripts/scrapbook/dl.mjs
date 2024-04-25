@@ -80,6 +80,7 @@ const cleanupAndMergeData = async () => {
     ...bookmark,
   }))
 
+  // TODO: Parse all markdown descriptions into HTML for newlines etc
   githubData = [
     ...(githubData.starredRepos || []).map((repo) => ({
       id: repo.id,

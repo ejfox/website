@@ -1,4 +1,5 @@
 import { ref } from 'vue'
+import * as d3 from 'd3'
 
 export default function useScrap() {
   const combinedData = ref([])

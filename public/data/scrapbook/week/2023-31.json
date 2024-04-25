@@ -1,0 +1,29 @@
+[
+  {
+    "id": "110838324051950096",
+    "href": "https://mastodon.social/@ejfox/110838324051950096",
+    "description": "<p>I would love, for example, to let my GPT-4 powered discord bot access my specific location to get location-specific answers – he just needs a URL to query that will always return accurate results</p>",
+    "time": "2023-08-05T18:03:26.748Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110838320632910440",
+    "href": "https://mastodon.social/@ejfox/110838320632910440",
+    "description": "<p>I want a publicly-accessible API endpoint, with some basic auth, that returns an accurate lat/lon of my position at all times. If Im being tracked already might as well make it useful for myself.</p>",
+    "time": "2023-08-05T18:02:34.581Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110810444317958472",
+    "href": "https://mastodon.social/@ejfox/110810444317958472",
+    "description": "<p>showing my love by not letting the robot touch our correspondence</p>",
+    "time": "2023-07-31T19:53:15.780Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  }
+]

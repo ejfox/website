@@ -1,0 +1,143 @@
+[
+  {
+    "id": 2203275845,
+    "description": "Make chat completion better and more configurable",
+    "href": "https://github.com/room302studio/coachartie/issues/109",
+    "content": "room302studio/coachartie: Make chat completion better and more configurable ",
+    "time": "2024-03-22T20:38:45Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2187781874,
+    "description": "Claude chat completions",
+    "href": "https://github.com/room302studio/coachartie/pull/86",
+    "content": "room302studio/coachartie: Claude chat completions ",
+    "time": "2024-03-22T20:17:03Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2203153283,
+    "description": "Add button to easily copy entire webhook content to clipboard",
+    "href": "https://github.com/room302studio/webhook-dev/issues/2",
+    "content": "room302studio/webhook-dev: Add button to easily copy entire webhook content to clipboard ",
+    "time": "2024-03-22T19:13:05Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2203133877,
+    "description": "Increase size of Google Cloud VM instance",
+    "href": "https://github.com/room302studio/coachartie/issues/108",
+    "content": "room302studio/coachartie: Increase size of Google Cloud VM instance <https://console.cloud.google.com/compute/instancesDetail/zones/us-east1-b/instances/instance-1?project=coach-artie&tab=details>",
+    "time": "2024-03-22T19:00:37Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2202739982,
+    "description": "Add more \"testing\" to capability-player",
+    "href": "https://github.com/room302studio/coachartie/issues/99",
+    "content": "room302studio/coachartie: Add more \"testing\" to capability-player `capability-player` should be a one-stop-shop for capability building\r\n- show parsed documentation\r\n- run and re-run capabilities and see their responses with hot-reloading\r\n- run basic sanity checks on what is returned, ensure it is always a string\r\n- make a verbose debug output that can be included alongside capability PRs",
+    "time": "2024-03-22T15:16:39Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2202737320,
+    "description": "Handle capabilities in XML format",
+    "href": "https://github.com/room302studio/coachartie/issues/98",
+    "content": "room302studio/coachartie: Handle capabilities in XML format `<module method>args</module>` or something",
+    "time": "2024-03-22T15:15:15Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": "112139697313901607",
+    "href": "https://mastodon.social/@ejfox/112139697313901607",
+    "description": "<p>Im obsessed with bomb threats; why do they work, why do people even respond to them, when was the last time anyone actually threatened a bombing and actually did it, it seems in my lifetime most bombers do it without warning, it seems like we could probably reduce harm by ignoring bomb threats at this point, but I see like 3 articles a week where buildings or events or institutions are shut down because of it</p>",
+    "time": "2024-03-22T13:59:46.859Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 27122909,
+    "href": "https://www.are.na/block/27122909",
+    "description": "",
+    "time": "2024-03-21T21:01:16.259Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzEyMjkwOS9vcmlnaW5hbF82ZjM0ZjcwNWIxMmQzMjljN2UwOWQ0MWY5Njk1ZTMzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  },
+  {
+    "id": "112131970566054957",
+    "href": "https://mastodon.social/@ejfox/112131970566054957",
+    "description": "<p>remind me to never use a utility that is a startup that needs an exit, its literally never worked</p>",
+    "time": "2024-03-21T05:14:46.136Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/131/970/289/364/410/small/825ec9f4fde19c57.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": 2199097853,
+    "description": "feat: disable local logging, add papertrail logging endpoint",
+    "href": "https://github.com/room302studio/coachartie/pull/96",
+    "content": "room302studio/coachartie: feat: disable local logging, add papertrail logging endpoint ",
+    "time": "2024-03-21T04:36:06Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2199042350,
+    "description": "Logging-refactor",
+    "href": "https://github.com/room302studio/coachartie/pull/95",
+    "content": "room302studio/coachartie: Logging-refactor ",
+    "time": "2024-03-21T04:13:04Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 27078848,
+    "href": "https://www.are.na/block/27078848",
+    "description": "",
+    "time": "2024-03-19T21:57:00.772Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzA3ODg0OC9vcmlnaW5hbF8xNWYxMjBlOWVhMzJjNmM5ZWU4YzRlMmNhY2Q2ZDQ1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🔨 Conversations With Robots"
+  },
+  {
+    "id": "112123842253500289",
+    "href": "https://mastodon.social/@ejfox/112123842253500289",
+    "description": "<p>unfortunately it appears I am going to have to willingly listen to Don Lemon, an unfortunate situation I hoped to never find myself in</p>",
+    "time": "2024-03-19T18:47:37.824Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 2187164031,
+    "description": "feat: prompts in supabase",
+    "href": "https://github.com/room302studio/coachartie/pull/85",
+    "content": "room302studio/coachartie: feat: prompts in supabase ### Prompts Table\r\n```sql\r\ncreate table\r\n  public.prompts (\r\n    id integer generated by default as identity,\r\n    prompt_name text null,\r\n    prompt_text text null,\r\n    notes text null,\r\n    type text null,\r\n    active boolean null,\r\n    updated_at timestamp with time zone not null default now(),\r\n    archived boolean null default false,\r\n    history jsonb null default '[]'::jsonb,\r\n    created_at timestamp with time zone not null default now(),\r\n    constraint prompts_pkey primary key (id)\r\n  ) tablespace pg_default;\r\n```\r\n\r\n### Config Table\r\n```sql\r\ncreate table\r\n  public.config (\r\n    id bigint generated by default as identity,\r\n    created_at timestamp with time zone not null default now(),\r\n    config_key text not null unique,\r\n    config_value text not null,\r\n    history jsonb not null default '[]'::jsonb,\r\n    constraint config_pkey primary key (id)\r\n  ) tablespace pg_default;\r\n```",
+    "time": "2024-03-19T06:40:30Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2184769869,
+    "description": "feat: pgcron; schedule and list pgcron jobs",
+    "href": "https://github.com/room302studio/coachartie/pull/84",
+    "content": "room302studio/coachartie: feat: pgcron; schedule and list pgcron jobs ",
+    "time": "2024-03-18T02:01:57Z",
+    "type": "github-pr",
+    "images": []
+  }
+]

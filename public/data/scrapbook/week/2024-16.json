@@ -1,0 +1,39 @@
+[
+  {
+    "id": 789480255,
+    "description": "Turn any webpage into structured data using LLMs",
+    "href": "https://github.com/mishushakov/llm-scraper",
+    "time": "2024-04-20T17:06:57Z",
+    "type": "github",
+    "images": []
+  },
+  {
+    "id": "e97f19d4232ef839dddc93bc3ae87fe8",
+    "description": "Usage: `./files-to-md.sh *`",
+    "href": "https://gist.github.com/ejfox/e97f19d4232ef839dddc93bc3ae87fe8",
+    "time": "2024-04-17T18:05:14Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "id": 2244622003,
+    "description": "build: node 18->20, npm upgrade",
+    "href": "https://github.com/ejfox/website/pull/75",
+    "content": "ejfox/website: build: node 18->20, npm upgrade ",
+    "time": "2024-04-15T21:07:07Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": "112267867705485623",
+    "href": "https://mastodon.social/@ejfox/112267867705485623",
+    "description": "<p>Asked the robot to make a psychological profile of me based on a 2 minute long video, and unfortunately, it has perceived me pretty deeply</p>",
+    "time": "2024-04-14T05:15:11.814Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/267/867/095/844/389/small/bf0402ca7f465a35.png",
+      "https://files.mastodon.social/media_attachments/files/112/267/867/448/965/741/small/54ef93010560d6fb.png"
+    ],
+    "videos": []
+  }
+]

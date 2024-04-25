@@ -2,7 +2,7 @@
   <div class="px-4 md:px-24 pt-8">
     <div :class="statClasses">
       <h2 :class="stringLengthToFontSize(wordNumberFormat(totalWords))">{{ wordNumberFormat(totalWords) }}</h2>
-      <p :class="captionClasses">Words written</p>
+      <p :class="captionClasses">Total Words written</p>
     </div>
 
     <div :class="statClasses">
@@ -15,18 +15,20 @@
       <p :class="captionClasses">Blog posts</p>
     </div>
 
-    <div :class="statClasses">
+    <!-- <div :class="statClasses">
       <h2 :class="stringLengthToFontSize(wordNumberFormat(totalCommits))">{{ wordNumberFormat(totalCommits) }}</h2>
       <p :class="captionClasses">Website commits</p>
-    </div>
+    </div> -->
 
     <UDivider class="py-32" />
 
     <!-- show the words by year-->
     <div class="col-span-2 lg:col-span-4">
-      <h2 class="md:text-5xl font-bold text-center md:text-left">Words by year</h2>
+      <h2 class="md:text-5xl font-bold text-center md:text-left">Written words by year</h2>
       <div class="py-4 grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div v-for="year in wordsByYear" :key="year.year" class="text-center">
+        <div v-for="year in wordsByYear" :key="year.year" class="text-center rounded-md"
+        :style="{ backgroundColor: wordsToColor(year.words) }"
+        >
           <h2 class="text-lg font-serif font-bold">{{ wordNumberFormat(year.words) }}</h2>
           <p class="text-sm">{{ year.year }}</p>
         </div>
@@ -48,6 +50,10 @@ const wordNumberFormat = format(',')
 const totalPosts = ref(0)
 const totalWords = ref(0)
 const totalPhotos = ref(0)
+
+function wordsToColor(wordCount) {
+  return `rgba(0, 255, 0, ${wordCount / totalWords.value})`
+}
 
 // make a widget to turn a string, determinehe # of chars (digits, really) and then decide which tailwindcss text size class to use
 function stringLengthToFontSize(string) {
@@ -124,25 +130,25 @@ const wordsByYear = computed(() => {
 
 // the website is hosted on a GitHub repo located at https://github.com/ejfox/website
 // we want to use the GitHub public REST API to get the number of commits to the repo
-const githubAPI = 'https://api.github.com/repos/ejfox/website/commits'
-const totalCommits = ref(0)
-const getCommits = async (url) => {
-  const githubResponse = await fetch(url)
-  const githubData = await githubResponse.json()
+// const githubAPI = 'https://api.github.com/repos/ejfox/website/commits'
+// const totalCommits = ref(0)
+// const getCommits = async (url) => {
+//   const githubResponse = await fetch(url)
+//   const githubData = await githubResponse.json()
 
-  totalCommits.value += githubData.length
+//   totalCommits.value += githubData.length
 
-  if (githubResponse.headers.get('Link')) {
-    const links = githubResponse.headers.get('Link').split(',')
-    const nextLink = links.find((link) => link.includes('rel="next"'))
-    if (nextLink) {
-      const nextURL = nextLink.split(';')[0].replace('<', '').replace('>', '')
-      getCommits(nextURL)
-    }
-  }
-}
+//   if (githubResponse.headers.get('Link')) {
+//     const links = githubResponse.headers.get('Link').split(',')
+//     const nextLink = links.find((link) => link.includes('rel="next"'))
+//     if (nextLink) {
+//       const nextURL = nextLink.split(';')[0].replace('<', '').replace('>', '')
+//       getCommits(nextURL)
+//     }
+//   }
+// }
 
-getCommits(githubAPI)
+// getCommits(githubAPI)
 
 
 

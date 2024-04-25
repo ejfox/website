@@ -826,8 +826,8 @@
   {
     "id": "112067654049668496",
     "created_at": "2024-03-09T20:38:14.114Z",
-    "in_reply_to_id": "112067644697277271",
-    "in_reply_to_account_id": "111947535075052955",
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
     "sensitive": false,
     "spoiler_text": "",
     "visibility": "public",
@@ -843,7 +843,7 @@
     "muted": false,
     "bookmarked": false,
     "pinned": false,
-    "content": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.world/@abreaction\" class=\"u-url mention\">@<span>abreaction</span></a></span> Cool! Have a great weekend!</p>",
+    "content": "<p>@abreaction@mastodon.world Cool! Have a great weekend!</p>",
     "filtered": [],
     "reblog": null,
     "application": {
@@ -900,14 +900,7 @@
       ]
     },
     "media_attachments": [],
-    "mentions": [
-      {
-        "id": "111947535075052955",
-        "username": "abreaction",
-        "url": "https://mastodon.world/@abreaction",
-        "acct": "abreaction@mastodon.world"
-      }
-    ],
+    "mentions": [],
     "tags": [],
     "emojis": [],
     "card": null,
@@ -18748,8 +18741,8 @@
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 5241,
         "following_count": 1367,
-        "statuses_count": 22137,
-        "last_status_at": "2024-04-21",
+        "statuses_count": 22147,
+        "last_status_at": "2024-04-22",
         "hide_collections": false,
         "noindex": false,
         "emojis": [],

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "111347823810085773",
+    "href": "https://mastodon.social/@ejfox/111347823810085773",
+    "description": "<p>robot self-portrait</p>",
+    "time": "2023-11-03T17:35:56.087Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/347/821/106/014/393/small/7d8f8fc68117e050.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111341769713493022",
+    "href": "https://mastodon.social/@ejfox/111341769713493022",
+    "description": "<p>Walking around Kingston, NY</p>",
+    "time": "2023-11-02T15:56:17.905Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/341/765/947/471/126/small/c0a6f27a75c56890.png",
+      "https://files.mastodon.social/media_attachments/files/111/341/767/070/727/958/small/6430a38ac9872e6d.png",
+      "https://files.mastodon.social/media_attachments/files/111/341/768/181/795/598/small/eec0520bd27df3ee.png",
+      "https://files.mastodon.social/media_attachments/files/111/341/769/226/257/245/small/b737f85f3cf6d883.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111336072092304059",
+    "href": "https://mastodon.social/@ejfox/111336072092304059",
+    "description": "<p>exploring new, unhinged ways of exploring/organizing my bookmarks and notes</p>",
+    "time": "2023-11-01T15:47:19.229Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/336/068/313/076/147/small/f83736494c6c579c.png",
+      "https://files.mastodon.social/media_attachments/files/111/336/071/702/424/869/small/bb2ebab7885b8ebe.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111325423958642919",
+    "href": "https://mastodon.social/@ejfox/111325423958642919",
+    "description": "<p>Pottery is hard</p>",
+    "time": "2023-10-30T18:39:21.479Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111324368901368662",
+    "href": "https://mastodon.social/@ejfox/111324368901368662",
+    "description": "<p>It finally happened; searching my various notebooks for something I remember writing down; but it was in fact a conversation with a robot</p>",
+    "time": "2023-10-30T14:11:02.584Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  }
+]

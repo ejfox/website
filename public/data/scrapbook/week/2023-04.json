@@ -1,0 +1,25 @@
+[
+  {
+    "id": "109746621734073465",
+    "href": "https://mastodon.social/@ejfox/109746621734073465",
+    "description": "<p>oh my god taxes, why</p>",
+    "time": "2023-01-24T22:49:11.363Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "109744581295761449",
+    "href": "https://mastodon.social/@ejfox/109744581295761449",
+    "description": "<p>Getting really into seitan</p>",
+    "time": "2023-01-24T14:10:16.746Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/744/580/839/715/855/small/a09cb4dd68b39c59.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/580/927/601/162/small/f13521a62fd4cec4.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/581/013/479/298/small/59e91902f69d801f.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/581/138/383/051/small/bb69597c498be81f.jpeg"
+    ],
+    "videos": []
+  }
+]

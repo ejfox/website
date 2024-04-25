@@ -4,10 +4,10 @@
       <div
         v-for="(project, index) in data.body"
         :key="index"
-        class="p-4 flex flex-col justify-between border border-transparent"
+        class="p-2 flex flex-col justify-between border border-transparent"
       >
         <div class="header">
-          <h2 class="text-2xl lg:text-4xl font-bold leading-tight py-4">
+          <h2 class="text-2xl lg:text-4xl font-bold leading-tight py-2">
             <a :href="project.URL" class="mr-4">
               {{ project['Project Name'] }}
             </a>
@@ -76,12 +76,17 @@
           {{ project.Description }}
         </div>
 
-        <div class="flex">
-          <UButton color="white" @click="goToProject(project.URL)">
+        <div class="flex" v-if="project.screenshot">
+          <UButton
+          icon="i-fe-link-external"
+          trailing
+          color="white" @click="goToProject(project.URL)">
             See Project
           </UButton>
           <UButton
             v-if="project.blogpost"
+            icon="i-mingcute-diary-fill"
+            trailing
             color="primary"
             class="ml-2"
             @click="goToBlogPost(project.blogpost)"

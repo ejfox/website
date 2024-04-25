@@ -55,6 +55,9 @@ if (isCI) {
     2,
   )
   await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
+  if (!fs.existsSync(filePath)) {
+    await fs.writeFile(filePath, '[]')
+  }
   await fs.writeFile(filePath, mergedBookmarks)
   console.timeEnd('Time elapsed')
 } else {
@@ -82,6 +85,9 @@ if (isCI) {
           2,
         )
         await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
+        if (!fs.existsSync(filePath)) {
+          await fs.writeFile(filePath, '[]')
+        }
         await fs.writeFile(filePath, mergedBookmarks)
       } else {
         console.log('Fetching canceled.')

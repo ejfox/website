@@ -1,0 +1,74 @@
+[
+  {
+    "id": "111675716807758428",
+    "href": "https://mastodon.social/@ejfox/111675716807758428",
+    "description": "<p>Remembered I have UV ink</p>",
+    "time": "2023-12-31T15:23:26.176Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "109628686485778674",
+    "href": "https://mastodon.social/@ejfox/109628686485778674",
+    "description": "<p>Today I took apart and somehow managed to fix the shutter on my beloved XA2 which had sat broken since before the pandemic – reconnecting with the preparation / approaches / things that previous versions of myself were developing… turns out I was onto something and kinda, got distracted I guess</p>",
+    "time": "2023-01-04T02:56:42.286Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/628/685/988/787/585/small/1870a1f76a315946.jpeg"
+    ],
+    "videos": []
+  },
+  {
+    "id": "109620863167531161",
+    "href": "https://mastodon.social/@ejfox/109620863167531161",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@rgarner\" class=\"u-url mention\">@<span>rgarner</span></a></span> sometimes I get attached, or feel the sunk cost, and have to remember throwing things out is part of the process and not a mistake/failure</p>",
+    "time": "2023-01-02T17:47:07.920Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "109620744746864314",
+    "href": "https://mastodon.social/@ejfox/109620744746864314",
+    "description": "<p>Extremely excited about the new overhead setup</p>",
+    "time": "2023-01-02T17:17:00.973Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/620/743/847/997/097/small/57a8057e13a8efec.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/620/743/932/242/503/small/1abace2a62e75e4e.jpeg"
+    ],
+    "videos": []
+  },
+  {
+    "id": "109614942434120048",
+    "href": "https://mastodon.social/@ejfox/109614942434120048",
+    "description": "<p>Time to start treating my studio with the respect it deserves; beginning with 10 agreements, both for solo work and collaborations</p>",
+    "time": "2023-01-01T16:41:24.702Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/614/942/241/319/656/small/357fa71c0bb1ad0b.jpeg"
+    ],
+    "videos": []
+  },
+  {
+    "id": "109614381764789536",
+    "href": "https://mastodon.social/@ejfox/109614381764789536",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.ie/@Markham\" class=\"u-url mention\">@<span>Markham</span></a></span> find love, ride motorcycle</p>",
+    "time": "2023-01-01T14:18:49.564Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "109614380780835693",
+    "href": "https://mastodon.social/@ejfox/109614380780835693",
+    "description": "<p>Mow mow starting the year off right by inventing a completely new spot to sleep</p>",
+    "time": "2023-01-01T14:18:34.552Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/614/379/329/498/577/small/2814f719c822b2a8.jpeg"
+    ],
+    "videos": []
+  }
+]

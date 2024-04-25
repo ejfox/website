@@ -1,0 +1,119 @@
+[
+  {
+    "id": 25023014,
+    "href": "https://www.are.na/block/25023014",
+    "description": "",
+    "time": "2023-12-02T17:25:52.621Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTAyMzAxNC9vcmlnaW5hbF83YmIwNGFjNTc0ZmM5Mzg4YzA4NmM3MjQzZDUwMzhjMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Creations"
+  },
+  {
+    "id": "111507950903454413",
+    "href": "https://mastodon.social/@ejfox/111507950903454413",
+    "description": "<p>I want to express gratitude for the incredible era of stand-up we live in where I basically get to watch a new special from really talented people every day, what a world</p>",
+    "time": "2023-12-02T00:18:21.628Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111502678775833046",
+    "href": "https://mastodon.social/@ejfox/111502678775833046",
+    "description": "<p>Old website</p>",
+    "time": "2023-12-01T01:57:35.351Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/502/678/558/579/841/small/0a9ed8da8ecc6198.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111502665533743099",
+    "href": "https://mastodon.social/@ejfox/111502665533743099",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://peoplemaking.games/@eniko\" class=\"u-url mention\">@<span>eniko</span></a></span> All of this analysis is true and accurate for the Complete models- but is, for some reason that is strange to every human on earth, not really completely true of the chat models. There is something there beyond auto-complete happening that can do actual synthesis of the corpus materials to create unique, never-before-seen outputs (ie, not in the training data, inferred in realtime that come from interpolating existing knowledge</p>",
+    "time": "2023-12-01T01:54:13.288Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111502652813288037",
+    "href": "https://mastodon.social/@ejfox/111502652813288037",
+    "description": "<p>one of my favorite features of my new site redesign is the part where I take every image from all my recent bookmarks / are.na blocks / mastodon posts and then just throw them on the page</p>",
+    "time": "2023-12-01T01:50:59.191Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/502/650/888/867/289/small/74cfe38c3e9c59f7.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111500097498058104",
+    "href": "https://mastodon.social/@ejfox/111500097498058104",
+    "description": "<p>America by definition loves anything that is big and hard, but in my heart, I know the real strength comes from the small and soft</p>",
+    "time": "2023-11-30T15:01:08.175Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111490750012714799",
+    "href": "https://mastodon.social/@ejfox/111490750012714799",
+    "description": "<p>I keep sniffing my oat milk like a god damn idiot</p>",
+    "time": "2023-11-28T23:23:56.865Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111490492989929142",
+    "href": "https://mastodon.social/@ejfox/111490492989929142",
+    "description": "<p>the robot suggesting (successfully) methods to fix himself is a wonderful experience of computing</p>",
+    "time": "2023-11-28T22:18:35.010Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "4eed331a94ea0727bd7c996a2e681ae5",
+    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
+    "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
+    "time": "2023-11-28T21:20:56Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "id": "111488650264782266",
+    "href": "https://mastodon.social/@ejfox/111488650264782266",
+    "description": "<p>*whispering at my instagram reels feed* more of the weird nyc art kids please</p>",
+    "time": "2023-11-28T14:29:57.535Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111485144523152012",
+    "href": "https://mastodon.social/@ejfox/111485144523152012",
+    "description": "<p>Trying to remember when I lost my inexplicable Snowden shirt</p>",
+    "time": "2023-11-27T23:38:23.884Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/485/144/225/352/997/small/0e7a7479a7d49fa2.jpeg"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111477910760856377",
+    "href": "https://mastodon.social/@ejfox/111477910760856377",
+    "description": "<p>Tired of the woke robot</p>",
+    "time": "2023-11-26T16:58:45.430Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/477/910/507/724/692/small/38b6926ca2d7c444.jpeg"
+    ],
+    "videos": []
+  }
+]

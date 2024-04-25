@@ -1,0 +1,126 @@
+[
+  {
+    "id": "110752979994044579",
+    "href": "https://mastodon.social/@ejfox/110752979994044579",
+    "description": "<p>Once we get the Supabase CLI working properly, we can start developing our first edge function, I am thinking something to scrape my latest Mastodon posts and put them into my `textposts` table</p>",
+    "time": "2023-07-21T16:19:19.743Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/976/695/919/182/small/39472c43fc51a756.png",
+      "https://files.mastodon.social/media_attachments/files/110/752/978/842/318/991/small/4519cf928c00bee4.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "110752973594256408",
+    "href": "https://mastodon.social/@ejfox/110752973594256408",
+    "description": "<p>Heres a fun tip: if you `brew install supabase` and then run `supabase start` it will give you an error like `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?` - the answer is, no it is not. So you need to `brew install --cask docker` and then open up the Docker app and start it. Couldnt find that documented anywhere, even though it is extremely logical</p>",
+    "time": "2023-07-21T16:17:42.118Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110752967646812376",
+    "href": "https://mastodon.social/@ejfox/110752967646812376",
+    "description": "<p>ok, so I made 3 tables in a new supabase project that I can insert all of my content into, and then the robot helped me write a lazy indadvisable SQL rule because I wanna get movin</p>",
+    "time": "2023-07-21T16:16:11.366Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/963/611/244/785/small/33345c64b91c9581.png",
+      "https://files.mastodon.social/media_attachments/files/110/752/966/009/855/331/small/a67fca60c6c2cf83.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "110752868424341626",
+    "href": "https://mastodon.social/@ejfox/110752868424341626",
+    "description": "<p>Okay, I have a vision in my mind to see all of the content I have ever made arranged by group- and this, finally, this- will be the thing that allows me to unlock my creativity</p>",
+    "time": "2023-07-21T15:50:57.355Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/866/637/919/771/small/f5d316d440ec43ea.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "110747015836496019",
+    "href": "https://mastodon.social/@ejfox/110747015836496019",
+    "description": "<p>I have been publishing blog posts all summer and just not telling a soul about them, not a tweet or DM link sent</p>",
+    "time": "2023-07-20T15:02:33.986Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110746894618790136",
+    "href": "https://mastodon.social/@ejfox/110746894618790136",
+    "description": "<p>I am legitimately bummed from losing my twitter community, it was an important part of my routine, hearing from all my internet buddies – now these circles are exploded out and disconnected… I can’t help but feel it was extremely intentional</p>",
+    "time": "2023-07-20T14:31:44.369Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110736428121486275",
+    "href": "https://mastodon.social/@ejfox/110736428121486275",
+    "description": "<p>now that I run my own studio I am completely drunk with power; to wit; the studio is closed the second week in august so we can enjoy our lives</p>",
+    "time": "2023-07-18T18:09:58.241Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "110736054132819346",
+    "href": "https://mastodon.social/@ejfox/110736054132819346",
+    "description": "<p>I do believe it is time to start optimizing my API calls</p>",
+    "time": "2023-07-18T16:34:51.669Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/736/053/488/712/630/small/a7b939f17be1d50a.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "110735474704827298",
+    "href": "https://mastodon.social/@ejfox/110735474704827298",
+    "description": "<p>Wait so if someone can somehow find logs of the IRC channel I grew up on for the past 2 decades then we could digitally resurrect some of my now-dead childhood friends??</p>",
+    "time": "2023-07-18T14:07:30.262Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 22689326,
+    "href": "https://www.are.na/block/22689326",
+    "description": "",
+    "time": "2023-07-17T05:48:43.684Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMyNi9vcmlnaW5hbF8yZTZmZGEyZjI3NTE4YWQyY2I0ZWYxM2ExY2M1ZDQxNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🎨 Information graphics"
+  },
+  {
+    "id": 22689318,
+    "href": "https://www.are.na/block/22689318",
+    "description": "",
+    "time": "2023-07-17T05:47:16.631Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMxOC9vcmlnaW5hbF8wODZiOGRmZTljMDU4NmM0NTRmZjk3NDkzNTIyZTIxZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": 22689315,
+    "href": "https://www.are.na/block/22689315",
+    "description": "",
+    "time": "2023-07-17T05:45:43.439Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMxNS9vcmlnaW5hbF9mOGQzZmIxMThjMDE1OGVhNjJlZWE0YzUzZDc0NGI1YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  }
+]

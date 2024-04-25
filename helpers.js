@@ -134,3 +134,21 @@ export function isValidHttpUrl(string) {
 
   return url.protocol === "http:" || url.protocol === "https:";
 }
+
+export function generatePassword(titleSlug) {
+  // start with todays date in YYYY-MM-DD format
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+
+  // add the title slug
+  const title = titleSlug;
+
+  const rawPassword = `${year}-${month}-${day}-${title}`;
+  // make a hash of the raw password
+  const hash = md5(rawPassword);
+  // take the first 8 characters of the hash and the last 8 characters of the hash
+  const password = hash.slice(0, 8) + hash.slice(-8);
+  return password;
+}

@@ -2,15 +2,15 @@
   <nav :class="navClasses">
     <div class="container mx-auto md:py-1 md:flex md:flex-col items-start"> <!-- Updated class: items-start -->
       <NuxtLink class="text-gray-800 dark:text-white text-xl font-bold px-2 md:p-4 md:mb-2 block" to="/">EJ Fox</NuxtLink>
-      <NuxtLink active-class="text-primary-500" :class="linkClasses" to="/">
+      <NuxtLink :class="linkClasses" to="/">
         Home
       </NuxtLink>
-      <NuxtLink active-class="text-primary-500" :class="linkClasses" to="/projects">
+      <NuxtLink :class="linkClasses" to="/projects">
         Projects
       </NuxtLink>
-      <NuxtLink active-class="text-primary-500" :class="linkClasses" to="/blog/">Blog
+      <NuxtLink :class="linkClasses" to="/blog/">Blog
       </NuxtLink>
-      <NuxtLink active-class="text-primary-500" :class="linkClasses" to="/scrapbook/">Scrapbook</NuxtLink>
+      <NuxtLink :class="linkClasses" to="/scrapbook/">Scrapbook</NuxtLink>
       <!-- <NuxtLink active-class="text-primary-500" :class="linkClasses" to="/stats/">Stats</NuxtLink> -->
     </div>
   </nav>

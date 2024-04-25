@@ -1,0 +1,104 @@
+[
+  {
+    "id": "111786594508108835",
+    "href": "https://mastodon.social/@ejfox/111786594508108835",
+    "description": "<p>Realizing part of what I am feeling is withdrawals from what used to be semi regular positive feedback from social media</p>",
+    "time": "2024-01-20T05:21:05.616Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111783602197257179",
+    "href": "https://mastodon.social/@ejfox/111783602197257179",
+    "description": "<p>Asking all my tinder matches “jung or freud”</p>",
+    "time": "2024-01-19T16:40:06.575Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111777608724994172",
+    "href": "https://mastodon.social/@ejfox/111777608724994172",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@zubakskees\" class=\"u-url mention\">@<span>zubakskees</span></a></span> i have a hard time trusting the judgement of anyone who is still making free content for that website; feel like I have learned a lot about people I used to respect</p>",
+    "time": "2024-01-18T15:15:53.448Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111772780948281073",
+    "href": "https://mastodon.social/@ejfox/111772780948281073",
+    "description": "<p>filling up the context window with code and docs and stuff seems to cause it to forget the instruction (I think this has a bit to do with ordering, more recent things are more strongly followed, it seems like OpenAIs Assistant API puts the system prompt first) - which is pretty fundamentally useless and makes me worried about larger context windows if they arent actually followed (telling me I have 8GB when only 4GB is usable, essentially)</p>",
+    "time": "2024-01-17T18:48:07.420Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "295b31afc7d5d0e57de1237ac4d1c0d2",
+    "description": "",
+    "href": "https://gist.github.com/ejfox/295b31afc7d5d0e57de1237ac4d1c0d2",
+    "time": "2024-01-17T18:21:37Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "id": "111772179050603708",
+    "href": "https://mastodon.social/@ejfox/111772179050603708",
+    "description": "<p>Im sure these are well-meaning people who just dont know much about the responsibilities and skills inherent in managing a team I thought, fuckin idiot</p>",
+    "time": "2024-01-17T16:15:03.179Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111772175437702688",
+    "href": "https://mastodon.social/@ejfox/111772175437702688",
+    "description": "<p>I am no longer teaching mediocre white men who have somehow failed upwards how to be good managers anymore- what a waste of 10 years</p>",
+    "time": "2024-01-17T16:14:08.061Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 25751054,
+    "href": "https://www.are.na/block/25751054",
+    "description": "",
+    "time": "2024-01-17T15:20:18.019Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTc1MTA1NC9vcmlnaW5hbF9hMmIxYmYwMGFmYjRjZWExOGU5MDgwYjIxMjhjZTg2ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": "111767694784529284",
+    "href": "https://mastodon.social/@ejfox/111767694784529284",
+    "description": "<p>I have unlocked the most powerful, advanced methods of moving around objects in 3D, I can do almost anything, unrestricted by any dimension, in addition I have pulled in the latest unreleased beta version of my favorite animation library, which is applying beautiful gentle easing to every object across 3D space; and yet, idk what the fuck to do with any of this shit</p>",
+    "time": "2024-01-16T21:14:38.720Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111766365766961749",
+    "href": "https://mastodon.social/@ejfox/111766365766961749",
+    "description": "<p>When combining election data from different sources, or even years, you will find a candidates name spelled in different ways, or including a middle name (Joseph Biden, Joe Biden, JOSEPH R BIDEN) in ways that make it hard to bind on a single candidate name, so I built a huge list of all the candidates the FEC had data on and built a fuzzy name search to bind them. But there were uh, some hiccups</p><p><a href=\"https://res.cloudinary.com/ejf/image/upload/v1705260808/Screenshot_2024-01-14_at_2.33.16_PM.png\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">res.cloudinary.com/ejf/image/u</span><span class=\"invisible\">pload/v1705260808/Screenshot_2024-01-14_at_2.33.16_PM.png</span></a></p>",
+    "time": "2024-01-16T15:36:39.525Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 25706956,
+    "href": "https://www.are.na/block/25706956",
+    "description": "",
+    "time": "2024-01-15T15:54:29.547Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTcwNjk1Ni9vcmlnaW5hbF9jMjQxYjhkMzIwZWEyZDcwYTE1Y2FlMzE4ZjcxNTRhNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  }
+]

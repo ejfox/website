@@ -1,0 +1,127 @@
+[
+  {
+    "id": 23913715,
+    "href": "https://www.are.na/block/23913715",
+    "description": "",
+    "time": "2023-09-30T18:10:31.801Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxNS9vcmlnaW5hbF9jYmE3M2Q4Yjc5ODM0NTQyMTY4MjI4ZjgwZGM1OGIwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": 23913712,
+    "href": "https://www.are.na/block/23913712",
+    "description": "",
+    "time": "2023-09-30T18:10:06.837Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxMi9vcmlnaW5hbF9iZTRmNjA5NDgxZWUzNTEyZjQ2YTcyYzA3NzQ2Y2U2OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": 23913710,
+    "href": "https://www.are.na/block/23913710",
+    "description": "",
+    "time": "2023-09-30T18:09:45.484Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxMC9vcmlnaW5hbF8xZDYyYzUwNWRkNjJlMDNlYTU2MGQxYjlmMWUxN2U4Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": 23913709,
+    "href": "https://www.are.na/block/23913709",
+    "description": "",
+    "time": "2023-09-30T18:09:36.627Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcwOS9vcmlnaW5hbF8yMjQ0MDUzMGE3YmM5Yjk1NDVlZjk3ZDU1NGU2NmMzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  },
+  {
+    "id": "111155423284563541",
+    "href": "https://mastodon.social/@ejfox/111155423284563541",
+    "description": "<p>Maybe my only legacy will be the sticky notes of BPMs I leave in the sleeves of my vinyl records</p>",
+    "time": "2023-09-30T18:05:57.056Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111132808604482922",
+    "href": "https://mastodon.social/@ejfox/111132808604482922",
+    "description": "<p>much like when I said this is my year! covid hit, I said this is my summer and then it rained endlessly</p>",
+    "time": "2023-09-26T18:14:44.419Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 696573083,
+    "description": null,
+    "href": "https://github.com/omarim1/Nebula-Nights-Pico8",
+    "time": "2023-09-26T02:44:44Z",
+    "type": "github",
+    "images": []
+  },
+  {
+    "id": 696550253,
+    "description": "Three.js-based implementation of 3D Gaussian splatting",
+    "href": "https://github.com/mkkellogg/GaussianSplats3D",
+    "time": "2023-09-26T01:15:29Z",
+    "type": "github",
+    "images": []
+  },
+  {
+    "id": "111123609476478432",
+    "href": "https://mastodon.social/@ejfox/111123609476478432",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@crobbler\" class=\"u-url mention\">@<span>crobbler</span></a></span> no, you are right– its fine– just a particularly terrifying thing to be trusting the robot to blindly get right, just casually modifying my volumes and fstab</p>",
+    "time": "2023-09-25T03:15:16.868Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111123579914750375",
+    "href": "https://mastodon.social/@ejfox/111123579914750375",
+    "description": "<p>listen, Ill copy random come into the terminal as much as the next guy, but even this command gave me pause</p>",
+    "time": "2023-09-25T03:07:45.793Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/123/578/364/160/583/small/c2d1e86eb77d392b.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111123364650386689",
+    "href": "https://mastodon.social/@ejfox/111123364650386689",
+    "description": "<p>talking to the robot and just letting a completely unhinged ADHD portion of my personality take over, help me with this, great, now this unrelated thing, great, now this other unrelated thing, great</p>",
+    "time": "2023-09-25T02:13:01.118Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111123228778106082",
+    "href": "https://mastodon.social/@ejfox/111123228778106082",
+    "description": "<p>the year of our lord 2023 and i still have time to get up and do an activity any time I `brew install` anything</p>",
+    "time": "2023-09-25T01:38:27.872Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111122661204169001",
+    "href": "https://mastodon.social/@ejfox/111122661204169001",
+    "description": "<p>ordered chicken katsu, and I dont get to go retrieve it until this fucking code works</p>",
+    "time": "2023-09-24T23:14:07.389Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  }
+]

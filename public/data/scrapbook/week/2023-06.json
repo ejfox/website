@@ -1,0 +1,61 @@
+[
+  {
+    "id": 599311541,
+    "description": "Effortlessly build beautiful command-line apps",
+    "href": "https://github.com/natemoo-re/clack",
+    "time": "2023-02-08T21:58:49Z",
+    "type": "github",
+    "images": []
+  },
+  {
+    "id": "109830454326750092",
+    "href": "https://mastodon.social/@ejfox/109830454326750092",
+    "description": "<p>this team is fun</p>",
+    "time": "2023-02-08T18:08:55.210Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/830/453/011/243/595/small/fb4bec2db0cb61e5.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "109827273404301030",
+    "href": "https://mastodon.social/@ejfox/109827273404301030",
+    "description": "<p>11:39pm: finally feel like writing some code</p>",
+    "time": "2023-02-08T04:39:58.188Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 20273930,
+    "href": "https://www.are.na/block/20273930",
+    "description": "",
+    "time": "2023-02-07T23:35:08.916Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDI3MzkzMC9vcmlnaW5hbF9iY2JhYmFiNjliMzk5MzkxYWViY2MwODI4MzQ2YjJjZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2023 Vibes"
+  },
+  {
+    "id": "109825694605118718",
+    "href": "https://mastodon.social/@ejfox/109825694605118718",
+    "description": "<p>4:58PM: finally got my energy in order to sit down and start getting to work</p>",
+    "time": "2023-02-07T21:58:27.623Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 20247998,
+    "href": "https://www.are.na/block/20247998",
+    "description": "",
+    "time": "2023-02-06T19:39:12.362Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDI0Nzk5OC9vcmlnaW5hbF8yOWE0YzhiYjM4MTg0NTEwZTUwMzI1NDNiNGIzYjcwOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 Readings"
+  }
+]

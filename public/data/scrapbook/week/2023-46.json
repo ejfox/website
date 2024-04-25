@@ -1,0 +1,76 @@
+[
+  {
+    "id": "111426913074233135",
+    "href": "https://mastodon.social/@ejfox/111426913074233135",
+    "description": "<p>spent all morning freaking out because the bug I spent all day yesterday fixing seemed to have suddenly regressed, approximately 45 minutes later I realized I was looking at it on production, and not my local, which when I opened it up, promptly worked as expected</p>",
+    "time": "2023-11-17T16:49:22.489Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111415899565095959",
+    "href": "https://mastodon.social/@ejfox/111415899565095959",
+    "description": "<p>Doing a livecoding stream now playing around with the new capabilities of GPT-4 <a href=\"https://youtube.com/live/lcNEMNGORoc?feature=share\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">youtube.com/live/lcNEMNGORoc?f</span><span class=\"invisible\">eature=share</span></a></p>",
+    "time": "2023-11-15T18:08:29.675Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111415144797261804",
+    "href": "https://mastodon.social/@ejfox/111415144797261804",
+    "description": "<p>website is such an imprecise term; I guess more accurate would be tool - even app feels constraining</p>",
+    "time": "2023-11-15T14:56:32.828Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111415139699899420",
+    "href": "https://mastodon.social/@ejfox/111415139699899420",
+    "description": "<p>the smaller and more often you make websites the weirder they can be</p>",
+    "time": "2023-11-15T14:55:14.971Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111415138378013229",
+    "href": "https://mastodon.social/@ejfox/111415138378013229",
+    "description": "<p>more websites, weirder websites, more weirder websites, weirder websites, more</p>",
+    "time": "2023-11-15T14:54:54.882Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111412113749707894",
+    "href": "https://mastodon.social/@ejfox/111412113749707894",
+    "description": "<p>I dream of a world where when peace seems least achievable, when our enemies seem least loveable, we choose to use our bravery for peace and choose to end the cycles of death that are within our power to stop</p>",
+    "time": "2023-11-15T02:05:42.717Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "111410787794302748",
+    "href": "https://mastodon.social/@ejfox/111410787794302748",
+    "description": "<p>just got my first ad from a GPT plugin</p>",
+    "time": "2023-11-14T20:28:30.241Z",
+    "type": "mastodon",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/410/787/421/482/107/small/ad8ad2cdf8adf2ec.png"
+    ],
+    "videos": []
+  },
+  {
+    "id": "111406323317699981",
+    "href": "https://mastodon.social/@ejfox/111406323317699981",
+    "description": "<p>Who are the best folks to follow on AI / GPT on Mastodon?</p>",
+    "time": "2023-11-14T01:33:07.735Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  }
+]

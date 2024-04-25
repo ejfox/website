@@ -7,34 +7,51 @@
       Back to blog
     </NuxtLink>
 
-    <!-- <h3 class="moon-gray tracked fw1">{{page?.dek}}</h3> -->
-    <!-- og image preview -->
-    <!-- <img :src="ogImageUrl" /> -->
+    <div v-if="isHidden">
+      <div class="text-8xl text-red-500">
+        This is a draft / private page
+      </div>
 
+      <div class="text-lg text-gray-900 my-8">
+        You need a password to access this page
+      </div>
     
-
-    <div v-if="isHidden" class="text-8xl text-red-500">
-    This is a draft / private page
     </div>
 
-    <NuxtLink :to="{ path: page._path, query: { password: generatePassword(page._path) } }" class="text-xs text-gray-500 block mt-4">
+    <div v-if="page">
+    <NuxtLink v-if="isHidden && password === 'showpassword'" :to="{ path: page?._path, query: { password: generatePassword(page?._path) } }" class="text-xs text-gray-500 block mt-4">
         Password protected:
         <UIcon name="i-heroicons-lock-closed" class="" />
         {{ page._path }}?password=
-        {{ generatePassword(page._path) }}
+        {{ generatePassword(page?._path) }}
       </NuxtLink>
+    </div>
 
-    <div :class="['text-lg text-gray-900', isHidden ? 'blur-lg' : '']">
+    <div :class="['text-lg text-gray-900', isHidden ? 'blur-lg select-none pointer-events-none' : '']">
       
-      <ContentDoc v-slot="{ doc }">
-        <PageMetadata :doc="doc" />
-        <div
-          class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
-          <ContentRenderer :value="doc" class="" />
+      <ContentDoc>        
+
+        <template v-slot="{ doc }">
+          <div>
+            <PageMetadata :doc="doc" />
+            <div
+              class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none">
+              <ContentRenderer :value="doc" class="" />
+            </div>
         </div>
-        <!-- <template #not-found>
-          <h1>Document not found</h1>
-        </template> -->
+        </template>
+
+        <template #not-found>
+          <div class="text-8xl font-bold">
+          <!-- <h1
+            class="mx-auto inline-block min-h-96"
+          >Document not found</h1> -->
+          <UIcon name="i-svg-spinners-wind-toy" class="w-16 h-16"/>
+          <span class="mr-2 uppercase">Not found</span>
+          
+        </div>
+        </template>
+        
         <!-- <template #empty>
           <h1>Document is empty</h1>
         </template> -->
@@ -80,6 +97,7 @@ const isPasswordCorrect = computed(() => {
 });
 
 const isHidden = computed(() => {
+  if(!page.value) return
   return page.value.hidden && !isPasswordCorrect.value;
 });
 
@@ -111,11 +129,11 @@ const sortedBlogPosts = allBlogPosts.sort((a, b) => {
 
 // remove any blog posts with a ! anywhere in the title
 const filteredBlogPosts = sortedBlogPosts.filter((post) => {
-  return !post.title.includes("!")
+  return !post.title.includes("!") && !post.hidden
 })
 
 // then find the current one
-const currentPostIndex = filteredBlogPosts.findIndex((post) => post._path === page.value._path)
+const currentPostIndex = filteredBlogPosts.findIndex((post) => post?._path === page.value?._path)
 
 // then get the next and prev
 const prev = filteredBlogPosts[currentPostIndex + 1]

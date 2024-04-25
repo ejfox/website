@@ -7,10 +7,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ ./content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ ./content/blog/ --dry-run --list-only",
-    "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/drafts/assets/ ./*/static/",
+    "content:blog:drafts": "node ./scripts/import_hide_drafts.mjs --drafts",
     "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/reading/ ./content/reading/",
     "content:all": "npm run content:blog && npm run content:reading && git add \\*.md && git commit -m 'Update content' && git push",
-    "content:scrapbook": "node scripts/scrapbook/dl_arena.mjs && node scripts/scrapbook/dl_mastodon.mjs && node scripts/scrapbook/dl_pinboard.mjs"
+    "content:scrapbook": "node scripts/scrapbook/dl.mjs"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.0",
@@ -36,6 +36,7 @@
     "d3-voronoi": "^1.1.4",
     "date-fns": "^3.3.1",
     "eslint-config-prettier": "^9.0.0",
+    "front-matter": "^4.0.2",
     "inquirer": "^9.2.18",
     "js-md5": "^0.8.3",
     "remark-emoji": "^4.0.1",

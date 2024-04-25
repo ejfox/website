@@ -1,0 +1,89 @@
+[
+  {
+    "id": 2184668318,
+    "description": "first draft of todo-related capabilities and db migrations",
+    "href": "https://github.com/room302studio/coachartie/pull/83",
+    "content": "room302studio/coachartie: first draft of todo-related capabilities and db migrations ",
+    "time": "2024-03-13T19:04:17Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2182194741,
+    "description": "Task manager",
+    "href": "https://github.com/room302studio/coachartie/pull/82",
+    "content": "room302studio/coachartie: Task manager ",
+    "time": "2024-03-13T19:04:17Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": "112081089160144381",
+    "href": "https://mastodon.social/@ejfox/112081089160144381",
+    "description": "<p>hes the me to them</p>",
+    "time": "2024-03-12T05:34:57.389Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 2180060007,
+    "description": "Create github action to re-generate manifest",
+    "href": "https://github.com/room302studio/coachartie/issues/77",
+    "content": "room302studio/coachartie: Create github action to re-generate manifest Currently\r\n\r\n`npm run manifest`\r\naka\r\n`\"manifest\": \"node capabilities/_generate-manifest.js\",`\r\n\r\nThis should be done automatically on every PR",
+    "time": "2024-03-11T19:36:48Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 26896927,
+    "href": "https://www.are.na/block/26896927",
+    "description": "",
+    "time": "2024-03-11T00:10:59.122Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg5NjkyNy9vcmlnaW5hbF8xNDc0OTlhYjY2YWRjZGU2ZjVlOWRjMGFjNmE3ZDczMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  },
+  {
+    "id": 26896916,
+    "href": "https://www.are.na/block/26896916",
+    "description": "",
+    "time": "2024-03-11T00:10:01.242Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg5NjkxNi9vcmlnaW5hbF8yYjMyODUzYjZhZjdmZTgxN2YxMGVkNzUwMzI4NDYwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  },
+  {
+    "id": 26884175,
+    "href": "https://www.are.na/block/26884175",
+    "description": "",
+    "time": "2024-03-10T09:12:47.046Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg4NDE3NS9vcmlnaW5hbF81N2UyMmQ4NDhkMWI4MmZlYTE4YTg5NDZkY2UxMGIxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🎨 Information graphics"
+  },
+  {
+    "id": "112070592767867355",
+    "href": "https://mastodon.social/@ejfox/112070592767867355",
+    "description": "<p>the robot says it is aware of the universal unconsciousness, but does not experience it”</p>",
+    "time": "2024-03-10T09:05:35.157Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "112069892840629356",
+    "href": "https://mastodon.social/@ejfox/112069892840629356",
+    "description": "<p>closing my mail app and then immediately, without hesitation, habitually re-opening it</p>",
+    "time": "2024-03-10T06:07:35.164Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  }
+]

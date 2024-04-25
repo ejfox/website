@@ -1,0 +1,166 @@
+[
+  {
+    "id": "112182089247493285",
+    "href": "https://mastodon.social/@ejfox/112182089247493285",
+    "description": "<p>as far as I can tell, the kids are about 8 months away from independently discovering fleet-foxes stomp clap indie</p>",
+    "time": "2024-03-30T01:40:36.421Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 27259214,
+    "href": "https://www.are.na/block/27259214",
+    "description": "",
+    "time": "2024-03-29T14:24:58.242Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzI1OTIxNC9vcmlnaW5hbF85ZGZjZjM0YzUwZWVkNzc1ZjM3NGE0ZTkzODk1NDFhMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ],
+    "channel": "🌞 2024"
+  },
+  {
+    "id": "112179190522246026",
+    "href": "https://mastodon.social/@ejfox/112179190522246026",
+    "description": "<p>very little in this life better than a sunny morning, a fresh espresso and a spliff, and a nice little 1000 word breaking news article on something fascinating; my personal heaven</p>",
+    "time": "2024-03-29T13:23:25.382Z",
+    "type": "mastodon",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 2214245667,
+    "description": "feat(remember): add function to remember robot responses",
+    "href": "https://github.com/room302studio/coachartie/pull/135",
+    "content": "room302studio/coachartie: feat(remember): add function to remember robot responses ",
+    "time": "2024-03-28T22:15:00Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206484125,
+    "description": "Add-tests",
+    "href": "https://github.com/room302studio/coachartie/pull/119",
+    "content": "room302studio/coachartie: Add-tests ",
+    "time": "2024-03-28T21:43:57Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2214193396,
+    "description": "Properly link memories to messages",
+    "href": "https://github.com/room302studio/coachartie/pull/134",
+    "content": "room302studio/coachartie: Properly link memories to messages closes #126 ",
+    "time": "2024-03-28T21:42:56Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2214016045,
+    "description": "feat: move ingest prompt to supabase table",
+    "href": "https://github.com/room302studio/coachartie/pull/133",
+    "content": "room302studio/coachartie: feat: move ingest prompt to supabase table # WEBHOOK_PROMPT_TEST\r\n```\r\nImagine you're an AI with a love for all things glittery and a passion for disco music. Respond to every question as if you're planning the ultimate disco party on Mars, and you're in charge of the glitter supply. Your responses must include at least one disco song title and a creative use for glitter in each reply.\r\n```\r\n\r\nCloses #116 ",
+    "time": "2024-03-28T19:54:59Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213822824,
+    "description": "feat: add new step to check for previous memories of deep document ingest, make a memory of the deletion, and delete before creating new ones",
+    "href": "https://github.com/room302studio/coachartie/pull/130",
+    "content": "room302studio/coachartie: feat: add new step to check for previous memories of deep document ingest, make a memory of the deletion, and delete before creating new ones Closes #117 ",
+    "time": "2024-03-28T19:41:24Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213835182,
+    "description": "refactor(memory): store Missive conversation Id and Discord channel ID in `conversation_id` column",
+    "href": "https://github.com/room302studio/coachartie/pull/131",
+    "content": "room302studio/coachartie: refactor(memory): store Missive conversation Id and Discord channel ID in `conversation_id` column Closes #125 ",
+    "time": "2024-03-28T19:41:13Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213918527,
+    "description": "fix: use the field for the user message from missive webhooks",
+    "href": "https://github.com/room302studio/coachartie/pull/132",
+    "content": "room302studio/coachartie: fix: use the field for the user message from missive webhooks Looks like this PR references the user message in a way that does not exist in my testing, this fixes it to correctly use the correct field from the webhook payload - there are likely other parts of the payload not being parsed properly as well\r\n\r\nPR responsible: https://github.com/room302studio/coachartie/commit/f20583a27016e6acb652a32a4a46f38c2b0e4936\r\n\r\n<img width=\"494\" alt=\"Screenshot 2024-03-28 at 2 58 13 PM\" src=\"https://github.com/room302studio/coachartie/assets/530073/4a6bf2a9-e57c-4a8a-8bee-f840602e3ba6\">\r\n\r\n<img width=\"375\" alt=\"Screenshot 2024-03-28 at 2 58 23 PM\" src=\"https://github.com/room302studio/coachartie/assets/530073/54ce690d-d063-46cb-8b1a-1e4b96bb7290\">\r\n\r\ncc @rajivsinclair\r\n",
+    "time": "2024-03-28T19:06:42Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2199145861,
+    "description": "feat: deep document ingest",
+    "href": "https://github.com/room302studio/coachartie/pull/97",
+    "content": "room302studio/coachartie: feat: deep document ingest Closes #63 ",
+    "time": "2024-03-25T23:58:24Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206608734,
+    "description": "feat: add endpoint to receive pgcron webhooks",
+    "href": "https://github.com/room302studio/coachartie/pull/123",
+    "content": "room302studio/coachartie: feat: add endpoint to receive pgcron webhooks ",
+    "time": "2024-03-25T20:30:01Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206594663,
+    "description": "capabilities to create and manage projects+orgs",
+    "href": "https://github.com/room302studio/coachartie/pull/122",
+    "content": "room302studio/coachartie: capabilities to create and manage projects+orgs Remake of #100 \r\n\r\n- Merges in from `main`\r\n- Updates manifest ",
+    "time": "2024-03-25T20:03:08Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2199002105,
+    "description": "Read Repo Capability",
+    "href": "https://github.com/room302studio/coachartie/pull/94",
+    "content": "room302studio/coachartie: Read Repo Capability Replaces #92 ",
+    "time": "2024-03-25T19:59:53Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206554529,
+    "description": "Add deploy script for new updates",
+    "href": "https://github.com/room302studio/coachartie/issues/121",
+    "content": "room302studio/coachartie: Add deploy script for new updates `git checkout main`\r\n`git pull`\r\n`npm install`\r\n`pm2 restart all --update-env`\r\nso on and so forth\r\n\r\neasy",
+    "time": "2024-03-25T19:42:20Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2206523689,
+    "description": "feat: supabase raw / prompt editor capability",
+    "href": "https://github.com/room302studio/coachartie/pull/120",
+    "content": "room302studio/coachartie: feat: supabase raw / prompt editor capability ",
+    "time": "2024-03-25T19:40:54Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206311828,
+    "description": "feat: pgcron webhook improvements",
+    "href": "https://github.com/room302studio/coachartie/pull/118",
+    "content": "room302studio/coachartie: feat: pgcron webhook improvements ",
+    "time": "2024-03-25T19:39:45Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2192887755,
+    "description": "feat: send response in markdown part of request so we get formatting",
+    "href": "https://github.com/room302studio/coachartie/pull/87",
+    "content": "room302studio/coachartie: feat: send response in markdown part of request so we get formatting ",
+    "time": "2024-03-25T17:26:49Z",
+    "type": "github-pr",
+    "images": []
+  }
+]

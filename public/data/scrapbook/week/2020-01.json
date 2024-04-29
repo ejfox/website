@@ -1,24 +1,94 @@
 [
   {
+    "scrap_id": "Aggu80r4",
+    "href": "https://www1.nyc.gov/assets/law/downloads/pdf/ProtestReport-np.pdf",
+    "description": "untitled",
+    "time": "2020-12-31T00:57:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "71ZDGneJ",
+    "href": "https://www.thingiverse.com/thing:437149",
+    "description": "Olivetti Lettera 32 Typewriter Ribbon Spool by VendettaSA - Thingiverse",
+    "time": "2020-12-28T20:04:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vDPhe0yB",
+    "href": "https://www.reddit.com/r/AIDungeon/comments/hwr0sf/this_single_adventure_is_consuming_my_life_159/fz3tytg?context=3",
+    "description": "Techniques For Using AI Dungeon",
+    "time": "2020-12-28T19:52:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sGmyEqUI",
+    "href": "https://www.etsy.com/listing/155230935/vintage-remington-5-portable-typewriter?gpla=1&gao=1&utm_custom1=_k_Cj0KCQiAoab_BRCxARIsANMx4S7NgCEA4x7Nw73gwsj-IWbWP81Lk7nzUx_jucisyyO9dzjSSQXBPGcaAjfHEALw_wcB_k_&utm_custom2=1843970815&gclid=Cj0KCQiAoab_BRCxARIsANMx4S7NgCEA4x7Nw73gwsj-IWbWP81Lk7nzUx_jucisyyO9dzjSSQXBPGcaAjfHEALw_wcB",
+    "description": "Vintage Remington 5 Portable Typewriter Ribbon on Twin Metal | Etsy",
+    "time": "2020-12-28T19:36:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2wJB7qGQ",
+    "href": "https://filmdev.org/recipe/show/11723",
+    "description": "FilmDev | denisesj's recipe | Kodak Tri-X 400 at 1600 in Ilford Ilfosol 3 1+9",
+    "time": "2020-12-27T18:27:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 10025711,
+    "scrap_id": "5qH-cBRf",
     "href": "https://www.are.na/block/10025711",
     "description": "",
     "time": "2020-12-27T18:10:19.503Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMDAyNTcxMS9vcmlnaW5hbF85MGE4MDE3MmFlODA4NTA1YTlkM2Q3ODA1NTk1OWQzNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "sK8R7Cgs",
+    "href": "https://amsterdamassassin.wordpress.com/2019/01/30/typewriter-replacing-the-drawband-on-a-remington-portable/",
+    "description": "TYPEWRITER: Replacing The Drawcord On A Remington Portable. | Amsterdam Assassin Series",
+    "time": "2020-12-27T15:33:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "This is a photo article on how to replace the often broken drawband on a Remington Portable typewwriter."
   },
   {
     "id": 10024004,
+    "scrap_id": "R_eo5qf3",
     "href": "https://www.are.na/block/10024004",
     "description": "",
     "time": "2020-12-27T15:30:37.718Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMDAyNDAwNC9vcmlnaW5hbF83Nzg0YTI2YzgwYjM5NGJmOTNlMzE5YzNjODExYTk1ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "zm77A5Ds",
+    "href": "https://www.youtube.com/watch?v=2IwoK5VJdIs",
+    "description": "The Coolest Way To Make Drum Fills...Ever",
+    "time": "2020-01-04T05:24:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "generative music",
+    "extended": ""
   }
 ]

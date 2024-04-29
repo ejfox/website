@@ -1,13 +1,23 @@
 [
   {
+    "scrap_id": "R3xFWdlo",
+    "href": "https://www.facebook.com/groups/excelsiorsf/permalink/10156297009179810/",
+    "description": "Excelsior District - San Francisco Public Group | Facebook",
+    "time": "2018-03-22T12:21:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 1930139,
+    "scrap_id": "6RYUvd20",
     "href": "https://www.are.na/block/1930139",
     "description": "",
     "time": "2018-03-22T00:33:38.687Z",
     "type": "arena",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/1930139/original_bb3d2f4780b2fda404ee1b4fa6c8255d.gif?1521678819?bc=1"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
   }
 ]

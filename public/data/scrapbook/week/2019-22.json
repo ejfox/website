@@ -1,101 +1,321 @@
 [
   {
+    "scrap_id": "pFk9yJl2",
+    "href": "http://dankoboldt.com/practical-spaceship-design-for-writers/",
+    "description": "Practical Spaceship Design for Writers",
+    "time": "2019-06-02T02:07:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "writing",
+    "extended": "To make practical spacecraft, lessons from current design’s failures need to be studied. Shape, windows, and manned fighters are the easiest and most pertinent changes to make."
+  },
+  {
     "id": 4385275,
+    "scrap_id": "gITmvE18",
     "href": "https://www.are.na/block/4385275",
     "description": "",
     "time": "2019-06-02T01:40:47.648Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzg1Mjc1L29yaWdpbmFsXzBiMmUxN2MyNTJmZmQ0NzlhZjcyYTM5MDczZDU2ZWNiLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "HOqnmnNQ",
+    "href": "https://medium.com/@trishsissons/the-oyster-wars-a-real-thing-that-happened-feat-the-dancing-molly-pirate-posse-91fecb34f22b",
+    "description": "The Oyster Wars: A Real Thing That Happened, feat. the Dancing Molly Pirate Posse",
+    "time": "2019-06-01T23:23:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "While all of the men had disembarked, the Captain’s wife and two daughters were still aboard the ship. When they saw Cameron’s crew approaching, they tried to yell at the fellas to get back to the boat with no success. None of the men could hear them from ashore. So the women, being resourceful, smart, sailing pirates, pulled up anchor and out-sailed Cameron back to their own waters."
+  },
+  {
+    "scrap_id": "u4r0Bh8o",
+    "href": "https://en.wikipedia.org/wiki/Oyster_pirate",
+    "description": "Oyster pirate",
+    "time": "2019-06-01T23:18:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "By the 1880s the handful of competing oyster companies began consolidating into a single monopoly. Their harvest of a private commodity from a public space, the San Francisco Bay, led to an opportunity for oyster pirates. Pirates raided the oyster beds at night and sold their take in the Oakland markets in the morning. The public disliked the Southern Pacific and the oyster growers, and liked cheap oysters. As a result, the oyster pirates had considerable public sympathy and police were reluctant to take action against them."
   },
   {
     "id": 4384291,
+    "scrap_id": "_C08m3dr",
     "href": "https://www.are.na/block/4384291",
     "description": "Belief in the supernatural is still alive and kicking, even among people who don't believe in a god. Research on atheists and agnostics around the world has revealed that almost nobody can claim to completely reject irrational beliefs such as life after death, astrology, and the existence of a universal life-force.",
     "time": "2019-06-01T21:56:56.366Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzg0MjkxL29yaWdpbmFsXzAwYjk3OTI3YmYxNDQxODQyNDkzNDVkNzc0MjUyOTU3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
+  },
+  {
+    "scrap_id": "mQ1KGpIy",
+    "href": "https://www.gwern.net/Links",
+    "description": "Links - Gwern.net",
+    "time": "2019-06-01T20:33:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "aboutme",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1HwCJefj",
+    "href": "https://devonzuegel.com/page/about-me",
+    "description": "About me | Devon's Site",
+    "time": "2019-06-01T20:33:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "aboutme",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wv_8tBoQ",
+    "href": "https://www.lifeofanarchitect.com/architectural-sketching-or-how-to-sketch-like-bob-borson/",
+    "description": "Architectural Sketching",
+    "time": "2019-06-01T19:19:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "art",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YNI6iMj-",
+    "href": "http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/",
+    "description": "Backing up your Twitter account with \"t\"",
+    "time": "2019-06-01T05:14:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gs5xbJO7",
+    "href": "https://github.com/sferik/t",
+    "description": "sferik/t: Command-line power tool for Twitter",
+    "time": "2019-06-01T05:13:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SPzRLvxL",
+    "href": "https://github.com/jhayley/node-mastodon",
+    "description": "Mastodon API Client for node",
+    "time": "2019-06-01T05:06:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "```var id;\r\nM.post('media', { file: fs.createReadStream('path/to/image.png') }).then(resp => {\r\n  id = resp.data.id;\r\n  M.post('statuses', { status: '#selfie', media_ids: [id] })\r\n})```"
+  },
+  {
+    "scrap_id": "IakxY5iZ",
+    "href": "https://perma.cc/about",
+    "description": "Perma.cc | About",
+    "time": "2019-06-01T04:02:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "research",
+    "extended": "When a user creates a Perma.cc link, Perma.cc archives the referenced content and generates a link to an archived record of the page."
   },
   {
     "id": 4381910,
+    "scrap_id": "Qn9WY0OQ",
     "href": "https://www.are.na/block/4381910",
     "description": "",
     "time": "2019-06-01T02:44:54.066Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzgxOTEwL29yaWdpbmFsX2QwMmY4YWRmNGY4ZWNlMTdiOTU0NDQ4OTA3NjUzZjA0LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "uWCPJucx",
+    "href": "https://github.com/jesseduffield/lazygit",
+    "description": "jesseduffield/lazygit: simple terminal UI for git commands",
+    "time": "2019-05-31T19:44:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli git",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NCqe0OAv",
+    "href": "https://www.facebook.com/notes/kai-karrel/a-prayer-for-setting-romantic-intentions/2762939933721895/",
+    "description": "Facebook",
+    "time": "2019-05-31T19:21:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "FoRwzcl7",
+    "href": "https://guzey.com/personal/why-have-a-blog/",
+    "description": "Why You Should Start a Blog Right Now",
+    "time": "2019-05-31T12:11:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "writing",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EvUjFDED",
+    "href": "http://ask.metafilter.com/6146/Victorian-Chapter-Headings",
+    "description": "Victorian Chapter Headings",
+    "time": "2019-05-31T11:34:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "writing",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8948tMWJ",
+    "href": "https://medium.com/galvanize/streaming-structured-json-18da4edd4f20",
+    "description": "Streaming Structured JSON",
+    "time": "2019-05-30T03:38:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_9LN2AQI",
+    "href": "https://www.infoq.com/news/2009/01/internal-external-release/",
+    "description": "Difference Between Internal and External Release",
+    "time": "2019-05-30T03:16:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "process",
+    "extended": "Engineering can churn out internal releases at a pace suitable to them and business can make a decision on which release gets to the customer as an external release and when."
+  },
+  {
+    "scrap_id": "BhrjIgWn",
+    "href": "https://medium.com/100-pm/how-to-plan-product-features-using-the-kano-model-f554eee063c4",
+    "description": "How to Plan Product Features Using The Kano Model",
+    "time": "2019-05-30T03:14:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "product process",
+    "extended": "Types of features:\r\n+ Basics (nuts & bolts)\r\n+ Performers (speed, storage capacity, etc)\r\n+ Delighters (features that delight)\r\n\r\nEdge case types:\r\n+ Indifference (implemented poorly, not wanted)\r\n+ Reversals (removing a frictional feature, adding by removing)"
+  },
+  {
+    "scrap_id": "8-D6yLq8",
+    "href": "https://thedevelopmentfactory.com/article/how-to-plan-a-product-release",
+    "description": "How to Plan a Product Release",
+    "time": "2019-05-30T03:11:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "product process howto",
+    "extended": "+ What do you hope will happen for the business once the product has been released?\r\n+ By when?\r\n+ How will you measure that success?\r\n+ What is the task the user wants to accomplish?\r\n+ Which user(s)?\r\n+ Why do they want to complete that task?\r\n+ How often will they want to complete that task? Hourly? Daily? Weekly? Quarterly? Only once?\r\n+ How valuable will this feature be?\r\n\r\nStart by mapping the story of your product from beginning to end. For example: First the user can login, then the user can invite friends, then the user can visit the news feed."
   },
   {
     "id": 4366145,
+    "scrap_id": "59igQ2vQ",
     "href": "https://www.are.na/block/4366145",
     "description": "",
     "time": "2019-05-29T18:25:02.849Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzY2MTQ1L29yaWdpbmFsXzk4Nzc4ZDI2Zjg4NzhiZDU1NjA3YTQzOWFlNzczZDE5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "KQwAgY3B",
+    "href": "https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/discretionary-detention?ms_aff=NAT&initms_aff=NAT&ms=190528_immigrantrights_immigrationdataviz&initms=190528_immigrantrights_immigrationdataviz&ms_chan=eml&initms_chan=eml&splash=off",
+    "description": "Discretionary Detention",
+    "time": "2019-05-28T20:37:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "<https://www.aclu.org/report/immigration-bond-analysis-methodology>"
+  },
+  {
+    "scrap_id": "FitfhqZK",
+    "href": "https://sanctum.geek.nz/arabesque/reloading-tmux-config/",
+    "description": "Reloading tmux config",
+    "time": "2019-05-28T16:32:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gPSOHMBD",
+    "href": "https://medium.com/@LiliSousa/web-scraping-with-bash-690e4ee7f98d",
+    "description": "Web Scraping with bash",
+    "time": "2019-05-28T10:17:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rgnSeIvB",
+    "href": "https://www.wired.co.uk/article/artificial-intelligence-creativity",
+    "description": "How AI is radically changing our definition of human creativity",
+    "time": "2019-05-28T09:19:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning generative art",
+    "extended": "In addition to giving creatives more options, insight into their work, and the awareness of audience engagement, AI is influencing creativity by being programmed to complete mundane tasks so that practitioners can focus on more creative ones. "
   },
   {
     "id": 4350956,
+    "scrap_id": "UavjnM_6",
     "href": "https://www.are.na/block/4350956",
     "description": "This is the third of several posts about James Ryan's dissertation, Curating Simulated Storyworlds. We are now reading chapters 6 and following, in which Ryan describes his own projects in the curated emergent narrative space. After the first five chapters, this piece becomes considerably more narrative in its own structure: Ryan is (consciously) telling the...",
     "time": "2019-05-28T09:11:09.774Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzUwOTU2L29yaWdpbmFsX2RlNGE1YzcyYjAwMjQ1MGFmM2YyZDc2MjgyNWEzY2M0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
   },
   {
     "id": 4350924,
+    "scrap_id": "TIQ0LgBR",
     "href": "https://www.are.na/block/4350924",
     "description": "Author(s): Ryan, James | Advisor(s): Mateas, Michael; Wardrip-Fruin, Noah | Abstract: There is a peculiar method in the area of procedural narrative called emergent narrative: instead of automatically inventing stories or deploying authored narrative content, a system simulates a storyworld out of which narrative may emerge from the happenstance of character activity in that world.",
     "time": "2019-05-28T09:02:00.838Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzUwOTI0L29yaWdpbmFsXzY2NGY2NmQ0MjhkNWI3ZWE4ZjFmODkyYmJkZTg2NzY1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
   },
   {
     "id": 4346514,
+    "scrap_id": "djIXy0Qz",
     "href": "https://www.are.na/block/4346514",
     "description": "",
     "time": "2019-05-27T18:41:02.578Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzQ2NTE0L29yaWdpbmFsXzg0MDg5YmE3OTRkZjFiYTcyNWUyYTJlNmMwYzM4M2NkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4340060,
+    "scrap_id": "vH96ERdB",
     "href": "https://www.are.na/block/4340060",
     "description": "",
     "time": "2019-05-26T19:19:12.506Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzQwMDYwL29yaWdpbmFsX2JmMWJhMTFmZTBkMWM3ZWIwMjg5OTQzNjE5MTUyZjU5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4340053,
+    "scrap_id": "Ry2z9HJQ",
     "href": "https://www.are.na/block/4340053",
     "description": "",
     "time": "2019-05-26T19:17:26.149Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MzQwMDUzL29yaWdpbmFsXzVjMTg0NDE5ZDgzMmY3N2FkOGIyYTE2YWY3MDcxNzA3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
   }
 ]

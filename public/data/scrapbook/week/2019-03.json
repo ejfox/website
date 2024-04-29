@@ -1,0 +1,152 @@
+[
+  {
+    "scrap_id": "kb1qBxMN",
+    "href": "https://www.foodgeeks.com/seasonal?state_id=32",
+    "description": "Seasonal Foods from New York - Foodgeeks",
+    "time": "2019-01-19T02:41:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cooking",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Q1D3XGj0",
+    "href": "https://vimeo.com/4192686",
+    "description": "the bergen mall on Vimeo",
+    "time": "2019-01-18T17:10:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "documentary",
+    "extended": "A short documentary I made about a very interesting mall in New Jersey that has kind of a cult following, which I found out after I made the video! This vid was also featured at a film festival in Fort Lee NJ, \"The Birthplace of Film!\"\r\n\r\n"
+  },
+  {
+    "scrap_id": "jRIhbScG",
+    "href": "https://github.com/philipperemy/tensorflow-1.4-billion-password-analysis",
+    "description": "philipperemy/tensorflow-1.4-billion-password-analysis: Deep Learning model to analyze a large corpus of clear text passwords.",
+    "time": "2019-01-17T20:12:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": "Using deep learning and NLP to analyze a large corpus of clear text passwords.\r\n\r\nUnderstand how people change their passwords over time: hello123 -> h@llo123 -> h@llo!23."
+  },
+  {
+    "scrap_id": "-_yho76P",
+    "href": "https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives",
+    "description": "Why time management is ruining our lives | Oliver Burkeman | Technology | The Guardian",
+    "time": "2019-01-17T19:32:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "j0zuCMJU",
+    "href": "https://theappeal.org/years-after-protests-nypd-retains-photos-of-black-lives-matter-activists/",
+    "description": "Years After Protests, NYPD Retains Photos of Black Lives Matter Activists - The Appeal",
+    "time": "2019-01-17T17:36:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "activism security",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ru44d8cI",
+    "href": "https://github.com/dhwajraj/deep-siamese-text-similarity",
+    "description": "dhwajraj/deep-siamese-text-similarity: Tensorflow based implementation of deep siamese LSTM network to capture phrase/sentence similarity using character/word embeddings",
+    "time": "2019-01-16T23:47:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": "Tensorflow based implementation of deep siamese LSTM network to capture phrase/sentence similarity using character/word embeddings\r\n"
+  },
+  {
+    "scrap_id": "DS7FC5Ju",
+    "href": "https://github.com/adafruit/Adafruit-Retrogame",
+    "description": "adafruit/Adafruit-Retrogame: Raspberry Pi GPIO-to-virtual-keyboard utility for classic game emulators",
+    "time": "2019-01-16T23:43:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "raspberrypi pico8",
+    "extended": "Raspberry Pi GPIO-to-virtual-keyboard utility for classic game emulators."
+  },
+  {
+    "scrap_id": "egxC8ZgU",
+    "href": "https://www.thenewatlantis.com/publications/why-information-matters",
+    "description": "Why Information Matters - The New Atlantis",
+    "time": "2019-01-16T19:19:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3AH2KpzT",
+    "href": "https://github.com/keithcollins/node-botometer",
+    "description": "keithcollins/node-botometer: Evaluates Twitter accounts to determine whether they're bots",
+    "time": "2019-01-16T17:37:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "github tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "JsfN6DTL",
+    "href": "https://twitter.com/infobeautiful/status/1085487147522637826",
+    "description": "Brexit possibility graphic",
+    "time": "2019-01-16T12:57:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "djJTQS97",
+    "href": "https://www.robinsloan.com/voyages-in-sentence-space/",
+    "description": "Voyages in sentence space",
+    "time": "2019-01-16T03:36:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning art writing",
+    "extended": "My project sentence-space, now public on GitHub, provides an API that serves up two things:\r\n\r\nSentence gradients: smooth interpolations between two input sentences.\r\nSentence neighborhoods: clouds of alternative sentences closely related to an input sentence."
+  },
+  {
+    "scrap_id": "dnTR4iez",
+    "href": "https://guillermoamaral.com/read/picopi/",
+    "description": "gamaral – Software Engineer - PICOPi",
+    "time": "2019-01-16T01:48:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "pico8 raspberrypi",
+    "extended": "PICO-8 console and stand-alone cartridge firmware distributed in an SD card image for the Raspberry Pi."
+  },
+  {
+    "scrap_id": "eNNhMW6T",
+    "href": "https://ifttt.com/applets/154798p-if-there-is-a-birthday-on-my-calendar-today-send-me-a-reminder",
+    "description": "If there is a birthday on my calendar today, send me a reminder - IFTTT",
+    "time": "2019-01-15T05:07:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "VuPmpENk",
+    "href": "https://theintercept.com/2018/12/04/jeremy-hammond-stratfor-hack-solitary-confinment/",
+    "description": "Hacker Jeremy Hammond Disputes Charge Leading to Solitary Confinement",
+    "time": "2019-01-15T02:42:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YavB25Y0",
+    "href": "https://www.youtube.com/watch?v=_JZMtAOQi_Y",
+    "description": "Man Taunts NYPD on Midtown South Radio Frequency - YouTube",
+    "time": "2019-01-13T06:17:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "audio hacking",
+    "extended": "New York, NY\r\nCirca May 1991\r\n\r\nThe New York City Police Department had a problem with an individual who kept interfering with radio transmissions.  Presented is just a sample of many days and nights this took place."
+  }
+]

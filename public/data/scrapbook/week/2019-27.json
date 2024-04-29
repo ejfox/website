@@ -1,35 +1,125 @@
 [
   {
+    "scrap_id": "h7gnqkhD",
+    "href": "https://github.com/russellgoldenberg/enter-view",
+    "description": "enter-view",
+    "time": "2019-07-07T03:40:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Dependency-free JavaScript library to detect when element enters into view by Russell Goldenberg"
+  },
+  {
+    "scrap_id": "r7cPvxya",
+    "href": "https://www.electrosmash.com/forum/pedal-pi/202-how-to-start-programming-pedal-pi",
+    "description": "How to Start Programming Pedal-Pi",
+    "time": "2019-07-07T01:59:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "raspberrypi music",
+    "extended": ""
+  },
+  {
+    "scrap_id": "98C8lSFc",
+    "href": "https://www.scientificamerican.com/article/massive-forest-restoration-could-greatly-slow-global-warming/",
+    "description": "Massive Forest Restoration Could Greatly Slow Global Warming - Scientific American",
+    "time": "2019-07-05T05:02:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Now the data finally exist to show that if the right species of trees are planted in the right soil types across the planet, the emerging forests could capture 205 gigatons of carbon dioxide in the next 40 to 100 years. That's two thirds of all the CO2 humans have generated since the industrial revolution. \"Forest restoration is by far our most powerful planetary solution today,\" says Tom Crowther"
+  },
+  {
     "id": 4569626,
+    "scrap_id": "GSpDEe5v",
     "href": "https://www.are.na/block/4569626",
     "description": null,
     "time": "2019-07-04T23:58:53.833Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NTY5NjI2L29yaWdpbmFsXzVhZDJjYzJjMjc4MjExNzg2NjliZjk0NjI2OGYyZWU3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "9c--ALNc",
+    "href": "https://twitter.com/shane_bauer/status/1138785999184465921",
+    "description": "Shane Bauer on Twitter: \"Today, Mother Jones published my 30,000-word, year-long investigation into America's role in the Syrian civil war. I traveled to the country to track down the CIA, special forces, anarchists, and jihadists who fought there. https:",
+    "time": "2019-07-04T18:43:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 4568231,
+    "scrap_id": "FUwj-Upv",
     "href": "https://www.are.na/block/4568231",
     "description": "",
     "time": "2019-07-04T16:43:09.682Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NTY4MjMxL29yaWdpbmFsXzdjZjJlYjUxOTk0ZmJkNDYzYjY3Y2FhMDRiMDk0OWFiLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "vQ0kW8fj",
+    "href": "https://bconnelly.net/posts/working_with_csvs_on_the_command_line/",
+    "description": "Working with CSVs on the Command Line",
+    "time": "2019-07-02T20:30:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data cli",
+    "extended": ""
   },
   {
     "id": 4555423,
+    "scrap_id": "m932y8iK",
     "href": "https://www.are.na/block/4555423",
     "description": "Retrieved from [The Coming World: Ecology as the New Politics 2030–2100](https://thecomingworld.garagemca.org/en/)",
     "time": "2019-07-02T16:03:38.625Z",
     "type": "arena",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/4555423/original_d8c52447a6ff4f842251fe19e4958d00.gif?1562083423?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "QwVhBlr_",
+    "href": "http://www.quantified-mind.com/about",
+    "description": "About | Quantified Mind",
+    "time": "2019-07-02T00:33:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "health personal",
+    "extended": "Quantified Mind is a tool that quickly, reliably, and comprehensively measures your basic cognitive abilities. We've adapted tests used by psychologists to a practical web application that you can use whenever, wherever, and as often as you want.\r\n\r\n"
+  },
+  {
+    "scrap_id": "Z819JFBn",
+    "href": "https://github.com/alexanderwillner/things.sh/",
+    "description": "AlexanderWillner/things.sh",
+    "time": "2019-07-01T22:50:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": "Simple read-only comand-line interface to your Things 3 database"
+  },
+  {
+    "scrap_id": "3hUvMq3i",
+    "href": "https://www.nytimes.com/2019/06/30/world/asia/hong-kong-protest-live-updates.html?smid=tw-nytimes&smtyp=cur",
+    "description": "Hong Kong Protest Live Updates: Demonstrators Charge Legislature, Attempt to Break Glass Doors",
+    "time": "2019-07-01T06:29:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A distinctive feature of this year’s movement is that it has been somewhat leaderless. Decisions on when, where and how to protest have often been made collectively on social media platforms where users are anonymous and proposed plans are agreed to through “likes” and so-called upvotes.\r\n\r\n"
+  },
+  {
+    "scrap_id": "-6WAFa4p",
+    "href": "https://www.nytimes.com/interactive/2019/06/28/world/asia/hong-kong-protests.html",
+    "description": "Protesters in Hong Kong Have Changed Their Playbook. Here’s How.",
+    "time": "2019-07-01T06:27:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "protest tactics",
+    "extended": "“Occupying drains a lot of energy,” Dr. Chung said, explaining that protesters can now quickly gather a few thousand people to disrupt government services for short periods of time. This allows them to preserve their energy as well as cause less disruption, which helps with staying on the right side of public opinion, he said."
   }
 ]

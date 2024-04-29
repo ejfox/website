@@ -1,87 +1,155 @@
 [
   {
     "id": "112021751941310660",
+    "scrap_id": "4TfVBRcd",
     "href": "https://mastodon.social/@ejfox/112021751941310660",
     "description": "<p>Me, when faced with nearly any problem: Well, uh, I could make some... graphics about it”</p>",
     "time": "2024-03-01T18:04:43.287Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "112015440956809119",
+    "scrap_id": "6R9pGUCy",
     "href": "https://mastodon.social/@ejfox/112015440956809119",
     "description": "<p>I keep asking my friends what brings them joy and they keep naming the thing that makes them money that they hate the least that contains exactly zero joy, thats weird</p>",
     "time": "2024-02-29T15:19:45.303Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "112015420800193726",
+    "scrap_id": "CRMZNRBR",
     "href": "https://mastodon.social/@ejfox/112015420800193726",
     "description": "<p>pioneering a new design style I am calling 3d for no reason”</p>",
     "time": "2024-02-29T15:14:37.739Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "w0WDAVmC",
+    "href": "https://www.eventbrite.com/e/avant-garde-arama-wakes-up-tickets-849450287677",
+    "description": "[no title]",
+    "time": "2024-02-28T16:58:16Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "112009681727716384",
+    "scrap_id": "3yDu9jJS",
     "href": "https://mastodon.social/@ejfox/112009681727716384",
     "description": "<p>13 years ago I was accepted to SUNY Purchase, where I would have focused on graphic design. Instead, I promptly accepted a job as a staff designer at a startup in California, put all my belongings in my Honda Element and drove across the country to San Francisco with my best friend – never looked back</p>",
     "time": "2024-02-28T14:55:06.442Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "112007353269997475",
+    "scrap_id": "o_0ihqN5",
     "href": "https://mastodon.social/@ejfox/112007353269997475",
     "description": "<p>I found the needle of a dirty PAC donation in the haystack of a local politician’s campaign donations; time to go to bed</p>",
     "time": "2024-02-28T05:02:56.996Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "112007235067992787",
+    "scrap_id": "X04XanlY",
     "href": "https://mastodon.social/@ejfox/112007235067992787",
     "description": "<p>the union was like we represent workers who handle waste and hazardous materials and the Catholic high school teachers were like well fit right in”</p>",
     "time": "2024-02-28T04:32:53.377Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/007/234/821/540/012/small/7092f87aa8f12c59.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "hbXxRY_v",
+    "href": "https://kyleshevlin.com/no-outer-margin/",
+    "description": "No Outer margin | Kyle Shevlin",
+    "time": "2024-02-27T22:34:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "7dCCCz2J",
+    "href": "https://www.marijuanamoment.net/thcv-increases-energy-and-motivation-without-marijuanas-munchies-effect-double-blind-study-finds/",
+    "description": "THCV Increases Energy And Motivation Without Marijuana's 'Munchies' Effect, Double-Blind Study Finds - Marijuana Moment",
+    "time": "2024-02-27T20:09:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8lUWPTWh",
+    "href": "https://github.com/stephansturges/WALDO",
+    "description": "stephansturges/WALDO: Whereabouts Ascertainment for Low-lying Detectable Objects. The SOTA in FOSS AI for drones!",
+    "time": "2024-02-27T16:51:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "112003785065905966",
+    "scrap_id": "7x2lryve",
     "href": "https://mastodon.social/@ejfox/112003785065905966",
     "description": "<p>By calling your enemies barbarians for decades, you justify your actual barbarism with a fiction you yourself created, and everyone can see it but you</p>",
     "time": "2024-02-27T13:55:30.524Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "ulJ3EXq6",
+    "href": "https://github.com/anvaka/ngraph",
+    "description": "[no title]",
+    "time": "2024-02-27T00:57:45Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "bnKKHUV7",
+    "href": "https://www.amazon.com/gp/product/B003D87JI2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1",
+    "description": "Amazon.com: Audio-Technica BPHS1 Broadcast Stereo Headset with Dynamic Cardioid Boom Mic Black, Adjustable : Musical Instruments",
+    "time": "2024-02-26T19:06:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111994966082461595",
+    "scrap_id": "zi1HOrj4",
     "href": "https://mastodon.social/@ejfox/111994966082461595",
     "description": "<p>just as my piping-hot delicious pot pie is coming out of the oven, I dropped it face down on the ground</p>",
     "time": "2024-02-26T00:32:43.517Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111994880364314959",
+    "scrap_id": "X_-dE9rp",
     "href": "https://mastodon.social/@ejfox/111994880364314959",
     "description": "<p>I suspect I have made a mistake somewhere</p>",
     "time": "2024-02-26T00:10:55.561Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "NHJ58ANo",
+    "href": "https://www.muckrock.com/news/archives/2024/feb/13/release-notes-how-to-make-self-hosted-maps-that-work-everywhere-cost-next-to-nothing-and-might-even-work-in-airplane-mode/",
+    "description": "Release Notes: How to make self-hosted maps that work everywhere and cost next to nothing • MuckRock",
+    "time": "2024-02-25T22:23:48Z",
+    "type": "pinboard",
     "images": [],
-    "videos": [
-      "https://files.mastodon.social/media_attachments/files/111/994/879/694/551/874/original/0e3f68d1abb6a525.mp4"
-    ]
+    "tags": "",
+    "extended": ""
   }
 ]

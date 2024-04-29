@@ -1,13 +1,63 @@
 [
   {
+    "scrap_id": "IvHJnRGl",
+    "href": "https://www.curbed.com/2019/8/28/20835301/universal-streets-accessible-street-design",
+    "description": "Inclusive cities start with safe streets - Curbed",
+    "time": "2019-08-30T13:46:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 4920711,
+    "scrap_id": "seQI4IGI",
     "href": "https://www.are.na/block/4920711",
     "description": "",
     "time": "2019-08-29T19:58:18.900Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0OTIwNzExL29yaWdpbmFsXzg2ZGVmZjQyYzA4YmE2YzI0ZjM0ODExNTdkZjE1ODFkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "CDzCGqRB",
+    "href": "https://theviewfromgreatisland.com/mediterranean-bean-salad-recipe/",
+    "description": "Mediterranean Bean Salad",
+    "time": "2019-08-29T18:08:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "recipe",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3MtGxVJL",
+    "href": "https://www.freecodecamp.org/news/your-ui-is-your-products-humble-compensation-for-not-being-telepathic-b467d022d640/",
+    "description": "Your UI is your product’s humble compensation for not being telepathic",
+    "time": "2019-08-29T16:43:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "design",
+    "extended": "Even today, an app designer can improve their app with telepathy in two ways. First, outbound telepathy is figuring out what the user wants. Then, inbound telepathy is about shipping that information to the user’s head. Any decision a designer makes will either take the product closer to telepathy, or move away from telepathy.\r\n---\r\nIt’s the “center and periphery of attention” bit that’s interesting. As you’re reading this, you’re using the center of your attention, but there’s a ton going on in your peripheral attention. Weather, temperature, amount of daylight, street noise, people, music, coffee steam, barking dogs, church bells, trains, the wooden chair. The center of attention, however, is a one-thing-at-a-time kind of a device, and making sense of language eats up most of it most of the time. So it does seem that the peripheral attention holds a larger promise. We can take in huge loads of information—at the same time—as long as it’s not language. We already do."
+  },
+  {
+    "scrap_id": "W0sxzNiI",
+    "href": "https://towardsdatascience.com/fast-static-d3-maps-built-with-turf-js-and-the-command-line-5b7c72b7e775",
+    "description": "Fast, static D3 maps built with Turf.js and the command-line",
+    "time": "2019-08-27T16:49:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "fqBFKlBi",
+    "href": "https://psmag.com/news/tactical-lessons-from-the-civil-rights-movement",
+    "description": "Tactical Lessons From the Civil Rights Movement",
+    "time": "2019-08-25T14:26:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "protest tactics",
+    "extended": ""
   }
 ]

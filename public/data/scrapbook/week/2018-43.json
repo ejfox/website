@@ -1,22 +1,32 @@
 [
   {
     "id": 2923978,
+    "scrap_id": "VzbGrk18",
     "href": "https://www.are.na/block/2923978",
     "description": "",
     "time": "2018-10-24T08:12:15.409Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTIzOTc4L29yaWdpbmFsXzI5M2U3NDQwZjk2MGZjOGU4NzZkM2Y1OGQxZTk3OTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "_NWTzQb2",
+    "href": "https://www.nytimes.com/2018/10/23/nyregion/man-found-dead-in-car-new-york.html?partner=rss&emc=rss&smtyp=cur&smid=tw-nytimes",
+    "description": "His Body Was Behind the Wheel for a Week Before It Was Discovered. This Was His Life. - The New York Times",
+    "time": "2018-10-23T13:34:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 2909432,
+    "scrap_id": "kRFpu7dE",
     "href": "https://www.are.na/block/2909432",
     "description": "",
     "time": "2018-10-22T07:05:36.239Z",
     "type": "arena",
-    "images": [],
-    "channel": "🌞 Readings"
+    "images": []
   }
 ]

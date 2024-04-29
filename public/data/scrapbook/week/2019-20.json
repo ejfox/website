@@ -1,13 +1,83 @@
 [
   {
     "id": 4299008,
+    "scrap_id": "n5cMztBQ",
     "href": "https://www.are.na/block/4299008",
     "description": "",
     "time": "2019-05-19T01:18:45.841Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mjk5MDA4L29yaWdpbmFsXzU3NTUyYTQ1NzQzM2VlYzczZTgzNDYxNDIzNjk2ZWIzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "uSPJaLSw",
+    "href": "https://www.linux.com/news/open-source-project-adds-no-military-use-clause-gpl?theme=print",
+    "description": "Open source project adds \"no military use\" clause to the GPL",
+    "time": "2019-05-18T04:40:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Mengotti says the clause is specifically intended to prevent military use. \"We are software developers who dedicate part of our free time to open source development. The fact is that open source is used by the military industry. Open source operating systems can steer warplanes and rockets. [This] patch should make clear to users of the software that this is definitely not allowed by the licenser.\""
+  },
+  {
+    "scrap_id": "S93LWQxf",
+    "href": "https://medium.com/verboten-publishing/this-is-how-much-joe-rogan-experience-made-in-a-year-e2378c7b485c",
+    "description": "This Is How Much Joe Rogan Experience Made In A Year",
+    "time": "2019-05-17T02:27:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wa_vMNB-",
+    "href": "http://jeepsies.com/overlanding-jeep-build/",
+    "description": "Neverending Story: Our Overlanding Jeep Build",
+    "time": "2019-05-17T02:16:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "travel",
+    "extended": ""
+  },
+  {
+    "scrap_id": "dEyb77Y_",
+    "href": "https://stackoverflow.com/questions/9153598/how-do-i-fetch-a-branch-on-someone-elses-fork-on-github",
+    "description": "How do I fetch a branch on someone else's fork on GitHub?",
+    "time": "2019-05-17T02:12:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "git cli",
+    "extended": "```\r\n$ git remote add theirusername git@github.com:theirusername/reponame.git\r\n$ git fetch theirusername\r\n$ git checkout -b mynamefortheirbranch theirusername/theirbranch\r\n```"
+  },
+  {
+    "scrap_id": "yqvY6hRV",
+    "href": "https://en.wiktionary.org/wiki/nobody_ever_went_broke_underestimating_the_intelligence_of_the_American_people",
+    "description": "\"nobody ever went broke underestimating the intelligence of the American people\"",
+    "time": "2019-05-14T03:28:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quote",
+    "extended": "Likely a nearly-verbatim paraphrase of: \"No one in this world, so far as I know ... has ever lost money by underestimating the intelligence of the great masses of the plain people.\"\r\n\r\n"
+  },
+  {
+    "scrap_id": "36cwpN3B",
+    "href": "https://psmag.com/social-justice/does-the-media-need-to-report-on-extremist-manifestos",
+    "description": "Does the Media Need to Report on Extremist Manifestos?",
+    "time": "2019-05-13T17:17:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics journalism",
+    "extended": "It's a chicken and the egg kind of a question, it's really difficult to tell. No online space creates behavior because those online spaces are populated by humans who are performing for their chosen audiences. It's not that the platforms themselves aren't part of the conversation—they are—but it's really critical to remember that these are people making choices about how to live their lives, where to go, who to talk to, what to do, and how to act on their violent ideations.\r\n\r\n"
+  },
+  {
+    "scrap_id": "YlCKw-GV",
+    "href": "https://www.theatlantic.com/ideas/archive/2019/02/christopher-hasson-was-inspired-breivik-manifesto/583567/",
+    "description": "Christopher Hasson Was Inspired by Breivik Manifesto",
+    "time": "2019-05-13T17:15:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics",
+    "extended": ""
   }
 ]

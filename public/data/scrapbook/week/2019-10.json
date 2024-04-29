@@ -1,13 +1,83 @@
 [
   {
+    "scrap_id": "wI_fAAeU",
+    "href": "https://github.com/release-it/release-it",
+    "description": "release-it/release-it",
+    "time": "2019-03-10T00:39:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "github",
+    "extended": "CLI release tool for Git repos and npm packages. Automate the tedious tasks of software releases. Happily release and publish your Git repositories, npm packages, GitHub & GitLab releases, changelogs, and much more!"
+  },
+  {
+    "scrap_id": "GaLey7MW",
+    "href": "https://gist.github.com/bnagy/8914f712f689cc01c267#footnote---no-signatures",
+    "description": "Mutt, Gmail and GPG",
+    "time": "2019-03-09T22:32:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "crypto",
+    "extended": "Crypto people are always dismayed that I don't use signatures - on the face of it I am taking perfectly good Authenticity and throwing it away - an attacker could spoof my email address, send email to someone with whom they know I communicate and then encrypt with that persons key. This is, undeniably, a risk. The thing you should consider, though, is the other side of the coin. Quite simply, if you plan, at any point, to say something in encrypted email that you wouldn't want read out in court, DON'T SIGN ANYTHING EVER. The person you are sending to is about to have a plaintext copy of the communication, where you have undeniably linked the text with your private key. If that message leaks, gets snitched, if the other peer gets owned by HackingTeam (or whatever) then it's more or less Game Over. "
+  },
+  {
+    "scrap_id": "zrQWmZT9",
+    "href": "https://www.linuxjournal.com/content/encrypt-your-dog-mutt-and-gpg",
+    "description": "Encrypt Your Dog (Mutt and GPG) | Linux Journal",
+    "time": "2019-03-09T22:17:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli howto",
+    "extended": "set pgp_replyencrypt       # now crypt_replyencrypt\r\nset pgp_replysign          # now crypt_replysign\r\nset pgp_replysignencrypted # now crypt_replysignencrypted\r\nset pgp_show_unusable=no"
+  },
+  {
+    "scrap_id": "o5gR53zw",
+    "href": "https://blog.scottlowe.org/2017/09/06/using-keybase-gpg-macos/",
+    "description": "Using Keybase with GPG on macOS",
+    "time": "2019-03-09T21:44:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wM3YL0l8",
+    "href": "https://dotfiles.github.io/",
+    "description": "GitHub does dotfiles - dotfiles.github.io",
+    "time": "2019-03-09T06:18:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine."
+  },
+  {
+    "scrap_id": "OmU-HNKM",
+    "href": "http://teohm.com/blog/working-effectively-with-iterm2/",
+    "description": "Working effectively with iTerm2 - teohm",
+    "time": "2019-03-08T05:01:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kyx4Rehq",
+    "href": "https://codeburst.io/creating-custom-url-shortener-with-nodejs-de10bbbb89c7",
+    "description": "Creating custom URL shortener with Nodejs",
+    "time": "2019-03-07T19:54:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "javascript nodejs",
+    "extended": ""
+  },
+  {
     "id": 3812334,
+    "scrap_id": "AIiRysRE",
     "href": "https://www.are.na/block/3812334",
     "description": "",
     "time": "2019-03-07T15:48:10.545Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODEyMzM0L29yaWdpbmFsXzhkMjA3NmU5YTIyMTcyYzFjNzM2N2E5YTJjODhlNWQxLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   }
 ]

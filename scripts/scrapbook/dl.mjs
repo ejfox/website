@@ -7,9 +7,34 @@ import * as helpers from '../../helpers.js'
 import path from 'path'
 import { group } from 'd3'
 import { format } from 'date-fns'
+import { updateManifest } from './manifestHelpers.js'
 
 const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
 await fs.mkdir(dirPath, { recursive: true }) // Ensure the directory exists
+
+function createScrap({
+  id,
+  type,
+  href,
+  description,
+  time,
+  images = [],
+  additionalProps = {},
+}) {
+  const effectiveId = id || href;
+  const scrap_id = helpers.scrapToUUID(`${type}${effectiveId}`);
+
+  return {
+    id,
+    scrap_id,
+    href,
+    description,
+    time,
+    type,
+    images,
+    ...additionalProps,
+  }
+}
 
 const mergeAndDeduplicate = (data) => {
   const combinedData = []
@@ -17,7 +42,7 @@ const mergeAndDeduplicate = (data) => {
     sourceData.forEach((item) => {
       const existingItem = combinedData.find(
         (combinedItem) =>
-          combinedItem.id === item.id && combinedItem.type === item.type,
+          combinedItem.id === item.scrap_id && combinedItem.type === item.type,
       )
       if (existingItem) {
         Object.assign(existingItem, item)
@@ -38,92 +63,123 @@ const groupDataByWeek = (data) => {
     ]),
   )
 }
+
+function safeFetch(promise) {
+  return promise.catch(error => ({ error, data: null }));
+}
+
 const cleanupAndMergeData = async () => {
   // Fetch data from all sources
-  let arenaBlocks = await fetchAllBlocks()
+  // let arenaBlocks = await fetchAllBlocks()
   let mastodonUserId = await fetchUserId()
-  let mastodonStatuses = mastodonUserId
-    ? await fetchStatuses(mastodonUserId)
-    : []
-  let pinboardBookmarks = await fetchBookmarks()
-  let githubData = await fetchGithubData()
+  // let mastodonStatuses = mastodonUserId
+  //   ? await fetchStatuses(mastodonUserId)
+  //   : []
+  // let pinboardBookmarks = await fetchBookmarks()
+  // let githubData = await fetchGithubData()
 
-  // Tweak the shape of the data
-  arenaBlocks = arenaBlocks.map((block) => ({
-    id: block.id,
-    href: `https://www.are.na/block/${block.id}`,
-    description: block.description,
-    time: block.created_at,
-    type: 'arena',
-    images: block.image ? [block.image.display.url] : [],
-    channel: block.channel,
-  }))
-  mastodonStatuses = mastodonStatuses.map((status) => ({
-    id: status.id,
-    href: status.url,
-    description: status.content.replace(/&[^;]+;/g, ''),
-    time: status.created_at,
-    type: 'mastodon',
-    images: status.media_attachments
-      .filter((attachment) => attachment.type === 'image')
-      .map((attachment) => attachment.preview_url),
-    videos: status.media_attachments
-      .filter((attachment) => attachment.type === 'video')
-      .map((attachment) => attachment.url),
-  }))
-  pinboardBookmarks = pinboardBookmarks.map((bookmark) => ({
-    id: bookmark.id,
-    href: bookmark.href,
-    description: bookmark.description,
-    time: bookmark.time,
-    type: 'pinboard',
-    ...bookmark,
-  }))
+  const fetchPromises = [
+    safeFetch(fetchAllBlocks()),
+    safeFetch(fetchUserId().then(fetchStatuses)),
+    safeFetch(fetchBookmarks()),
+    safeFetch(fetchGithubData())
+  ];
 
+  let [arenaBlocks, mastodonStatuses, pinboardBookmarks, githubData] = await Promise.all(fetchPromises);
+
+  // Update manifest for each successful fetch
+  const now = new Date().toISOString();
+  if (arenaBlocks) await updateManifest('arena', { lastFetch: now });
+  if (mastodonUserId) await updateManifest('mastodon', { lastFetch: now });
+  if (pinboardBookmarks) await updateManifest('pinboard', { lastFetch: now });
+  if (githubData) await updateManifest('github', { lastFetch: now });
+
+
+  // are.na
+  arenaBlocks = arenaBlocks.map((block) =>
+    createScrap({
+      id: block.id,
+      scrap_id: helpers.scrapToUUID(`${block.type}${block.id}`),
+      href: `https://www.are.na/block/${block.id}`,
+      description: block.description,
+      time: block.created_at,
+      type: 'arena',
+      images: block.image ? [block.image.display.url] : [],
+      channel: block.channel,
+    }),
+  )
+
+  // mastodon
+  mastodonStatuses = mastodonStatuses.map((status) =>
+    createScrap({
+      id: status.id,
+      type: 'mastodon-post',
+      href: status.url,
+      description: status.content.replace(/&[^;]+;/g, ''),
+      time: status.created_at,
+      images: status.media_attachments
+        .filter((attachment) => attachment.type === 'image')
+        .map((attachment) => attachment.preview_url),
+      videos: status.media_attachments
+        .filter((attachment) => attachment.type === 'video')
+        .map((attachment) => attachment.url),
+    }),
+  )
+
+  // pinboard
+  pinboardBookmarks = pinboardBookmarks.map((bookmark) =>
+    createScrap({
+      id: bookmark.id,
+      type: 'pinboard',
+      href: bookmark.href,
+      description: bookmark.description,
+      time: bookmark.time,
+      additionalProps: {
+      tags: bookmark.tags, // Assuming you have tags and want to keep them
+      extended: bookmark.extended, // Assuming you want to keep the extended description
+      }
+    }),
+  )
+
+  // github
   // TODO: Parse all markdown descriptions into HTML for newlines etc
-  githubData = [
-    ...(githubData.starredRepos || []).map((repo) => ({
+  const processedStarredRepos = (githubData.starredRepos || []).map((repo) =>
+    createScrap({
       id: repo.id,
+      type: 'github-star',
       description: repo.description,
       href: repo.html_url,
-      // time: repo.updated_at,
       time: repo.created_at,
-      type: 'github-star',
-      images: [],
-    })),
-    // ...(githubData.userRepos || []).map(repo => ({
-    //   id: repo.id,
-    //   description: repo.name,
-    //   href: repo.html_url,
-    //   content: repo.description,
-    //   time: repo.updated_at,
-    //   type: 'github',
-    //   images: [],
-    // })),
-    ...(githubData.userIssues || []).map((issue) => ({
+    }),
+  )
+
+  const processedIssues = (githubData.userIssues || []).map((issue) =>
+    createScrap({
       id: issue.id,
-      description: issue.title,
-      href: issue.html_url,
-      content: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
-        issue.title
-      } ${issue?.body ? issue.body : ''}`,
-      time: issue.updated_at,
       type: issue.pull_request ? 'github-pr' : 'github-issue',
-      images: [],
-    })),
-    ...(githubData.userGists || []).map((gist) => ({
+      description: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
+        issue.title
+      }`,
+      href: issue.html_url,
+      time: issue.updated_at,
+      content: issue.body || '',
+    }),
+  )
+
+  const processedGists = (githubData.userGists || []).map((gist) =>
+    createScrap({
       id: gist.id,
+      type: 'github-gist',
       description: gist.description,
-      // a list of the files
+      href: gist.html_url,
+      time: gist.updated_at,
       content: Object.keys(gist.files)
         .map((file) => gist.files[file].filename)
         .join(', '),
-      href: gist.html_url,
-      time: gist.updated_at,
-      type: 'github-gist',
-      images: [],
-    })),
-  ]
+    }),
+  )
+
+  githubData = [...processedStarredRepos, ...processedIssues, ...processedGists]
 
   // Merge and deduplicate the data
   const combinedData = mergeAndDeduplicate([
@@ -133,8 +189,17 @@ const cleanupAndMergeData = async () => {
     githubData,
   ])
 
+  console.log(`${arenaBlocks.length} are.na blocks`)
+  console.log(`${mastodonStatuses.length} mastodon posts`)
+  console.log(`${pinboardBookmarks.length} pinboard bookmarks`)
+  console.log(`${processedStarredRepos.length} starred github repos`)
+  console.log(`${processedIssues.length} github issues`)
+  console.log(`${processedGists.length} github gists`)
+
   // Sort the combined data by time in descending order
   combinedData.sort((a, b) => new Date(b.time) - new Date(a.time))
+
+  console.log(`${combinedData.length} total scraps processed`)
 
   // Group the combined data by week
   const groupedData = groupDataByWeek(combinedData)

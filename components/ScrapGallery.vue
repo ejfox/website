@@ -2,14 +2,24 @@
   <div class="scrap-gallery group cursor-default">
     <div class="group-metadata">
       <!-- time range of the group -->
-      <div class="text-xs text-gray-500 opacity-5 group-hover:opacity-100 transition-opacity">{{ formatDate(scraps[0].time) }}
+      <div
+        class="text-xs text-gray-500 opacity-5 group-hover:opacity-100 transition-opacity"
+      >
+        {{ formatDate(scraps[0].time) }}
       </div>
-
     </div>
     <div :class="['grid gap-1', gridCols]">
-      <div v-for="(scrap, index) in scraps" :key="index" :class="[imageCount > 1 ? 'aspect-w-1 aspect-h-1' : 'p-8 lg:p-24']">
+      <div
+        v-for="(scrap, index) in scraps"
+        :key="index"
+        :class="[imageCount > 1 ? 'aspect-w-1 aspect-h-1' : 'p-8 lg:p-24']"
+      >
         <a :href="scrap.href">
-          <img :src="scrap.images[0]" :alt="`Image ${index + 1}`" :class="['w-full h-auto', objectScale]">
+          <img
+            :src="scrap.images[0]"
+            :alt="`Image ${index + 1}`"
+            :class="['w-full h-auto', objectScale]"
+          />
         </a>
       </div>
     </div>
@@ -20,14 +30,11 @@
         {{ channel }}
       </span>
     </div>
-
   </div>
 </template>
 
 <script setup>
 import { format } from 'date-fns'
-
-
 
 const props = defineProps({
   scraps: {
@@ -42,7 +49,7 @@ const imageCount = computed(() => {
 
 // a computed with all the unique channels, if any, in the scraps
 const channels = computed(() => {
-  return [...new Set(props.scraps.map(scrap => scrap.channel))]
+  return [...new Set(props.scraps.map((scrap) => scrap.channel))]
 })
 
 // a computed to determine the number of gridcols
@@ -60,7 +67,6 @@ const objectScale = computed(() => {
   // show full image with no scaling
   if (props.scraps.length > 3) return 'object-cover'
   return 'object-contain'
-
 })
 
 const formatDate = (date) => {

@@ -1,35 +1,445 @@
 [
   {
+    "scrap_id": "fFmpmbCV",
+    "href": "https://mainebeacon.com/data-breach-exposes-activities-of-maines-secretive-police-intelligence-agency/",
+    "description": "Data breach exposes activities of Maine’s secretive police intelligence agency",
+    "time": "2020-06-27T17:05:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police hacking journalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4mxJ0T87",
+    "href": "https://www.pewtrusts.org/~/media/legacy/uploadedfiles/pcs_assets/2012/pewelectionsbythenumberspdf.pdf",
+    "description": "Election Administration by the Numbers An Analysis of Available Datasets and How to Use Them",
+    "time": "2020-06-27T03:33:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "pdf elections data dataset",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EBZnv4lO",
+    "href": "https://www.chicagotribune.com/marijuana/sns-tft-cannabis-enhances-athletic-performance-20190918-czldf3itx5hp7lmxtib5k7vyvy-story.html#click=https://t.co/SM2ztqCBci",
+    "description": "Enhancing athletic performance with cannabis",
+    "time": "2020-06-26T21:51:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 7788060,
+    "scrap_id": "kvC0FGOS",
     "href": "https://www.are.na/block/7788060",
     "description": "",
     "time": "2020-06-26T01:29:29.087Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI3Nzg4MDYwL29yaWdpbmFsXzUzNGJlOWUyNTNmNDc0YWE0NjRhZWE0ZDhkNzk4Yjk4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "qVW7Elqm",
+    "href": "https://foambubble.github.io/foam/",
+    "description": "Foam | A personal knowledge management and sharing system for VSCode",
+    "time": "2020-06-25T23:35:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "myPiM57w",
+    "href": "https://help.twitter.com/en/rules-and-policies/hacked-materials",
+    "description": "Distribution of hacked material policy",
+    "time": "2020-06-25T17:42:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter",
+    "extended": "We don’t condone attempts to compromise or infiltrate computer systems for malicious purposes. As such, we don’t permit the use of our services to directly distribute content obtained through hacking that contains private information, may put people in physical harm or danger, or contains trade secrets. You also may not threaten to hack or break into someone’s digital information or attempt to incentivize others to do so."
+  },
+  {
+    "scrap_id": "i6pKEkn9",
+    "href": "https://www.washingtonpost.com/outlook/2019/11/04/i-worked-political-ads-facebook-they-profit-by-manipulating-us/",
+    "description": "I worked on political ads at Facebook. They profit by manipulating us. - The Washington Post",
+    "time": "2020-06-25T16:59:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0jSx9v0I",
+    "href": "https://storymaps.arcgis.com/stories/adc5ff253a3643f88d39e7f3ef1a09ee",
+    "description": "Mapping Amazon",
+    "time": "2020-06-25T16:42:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "j7wCYGsP",
+    "href": "https://mwpvl.com/html/amazon_com.html",
+    "description": "Amazon Distribution Network Strategy | MWPVL International",
+    "time": "2020-06-25T16:36:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataset",
+    "extended": "Table with facility type, active, future facilities, square footage, address, year opened"
+  },
+  {
+    "scrap_id": "AS1UJUBG",
+    "href": "https://itsgoingdown.org/welcome-to-the-party-the-george-floyd-uprising-in-nyc/",
+    "description": "Welcome to the Party: The George Floyd Uprising in NYC",
+    "time": "2020-06-25T16:23:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "protest",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vSCIVYcH",
+    "href": "https://www.cnn.com/2020/06/24/world/defund-police-crime-social-welfare-intl/index.html",
+    "description": "Defunding police after George Floyd's killing doesn't have to mean more crime",
+    "time": "2020-06-25T16:22:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police",
+    "extended": ""
+  },
+  {
+    "scrap_id": "W6iFDHT-",
+    "href": "https://krebsonsecurity.com/2020/06/blueleaks-exposes-files-from-hundreds-of-police-departments/",
+    "description": "‘BlueLeaks’ Exposes Files from Hundreds of Police Departments",
+    "time": "2020-06-25T16:20:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police hacking data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "B5_DGvQH",
+    "href": "https://fivethirtyeight.com/features/why-statistics-dont-capture-the-full-extent-of-the-systemic-bias-in-policing/amp/?__twitter_impression=true",
+    "description": "Why Statistics Don’t Capture The Full Extent Of The Systemic Bias In Policing",
+    "time": "2020-06-25T13:43:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police data datajournalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eKEZ3wII",
+    "href": "https://www.sqlitetutorial.net/sqlite-select/",
+    "description": "SQLite SELECT - Querying Data From a Single Table",
+    "time": "2020-06-25T01:46:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "reference",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oaB1WWS_",
+    "href": "https://www.sqlitetutorial.net/sqlite-select-distinct",
+    "description": "SQLite SELECT DISTINCT - Removing Duplicate in Result Set",
+    "time": "2020-06-25T01:46:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "reference",
+    "extended": ""
   },
   {
     "id": 7777128,
+    "scrap_id": "ge2EpnN5",
     "href": "https://www.are.na/block/7777128",
     "description": "",
     "time": "2020-06-25T01:45:23.393Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI3Nzc3MTI4L29yaWdpbmFsXzU2Yzc0NzA2NWMwYjIxZDJlNzYxMTRkZTgwZWFjZGE4LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "HTZB7KOD",
+    "href": "https://www.nytimes.com/2020/06/22/science/rome-caesar-volcano.html#click=https://t.co/92DTli99qZ",
+    "description": "The Roman Republic Was Teetering. Then a Volcano Erupted 6,000 Miles Away",
+    "time": "2020-06-24T20:20:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oCLS5G-0",
+    "href": "https://www.newsweek.com/2018/01/19/boston-marathon-bomb-maker-loose-776742.html?amp=1&__twitter_impression=true",
+    "description": "Whoever Built the Boston Marathon Bombs is Still on the Loose, Able to Kill Again",
+    "time": "2020-06-24T19:11:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6eZIEpjS",
+    "href": "https://micahflee.com/2020/06/is-the-whonix-project-run-by-fascists/",
+    "description": "Is the Whonix project run by fascists?",
+    "time": "2020-06-24T13:21:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "opensource tech politics",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3S-7h5Tc",
+    "href": "https://www.techdirt.com/articles/20200531/23325444617/hello-youve-been-referred-here-because-youre-wrong-about-section-230-communications-decency-act.shtml",
+    "description": "Hello! You've Been Referred Here Because You're Wrong About Section 230 Of The Communications Decency Act",
+    "time": "2020-06-24T02:11:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "OHzdYVCS",
+    "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910/DVN/II2DB6",
+    "description": "Cumulative CCES Common Content (2006-2018) - CCES Dataverse",
+    "time": "2020-06-24T01:20:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EO4e4vnf",
+    "href": "https://www.nytimes.com/2020/06/23/magazine/la-riots-1992.html#click=https://t.co/b9PqKQi0fQ",
+    "description": "Trump Didn’t ‘Send In the Troops.’ They Were Already There.",
+    "time": "2020-06-24T00:03:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0LBSBL72",
+    "href": "https://calebporzio.com/sponsorware",
+    "description": "Introducing Sponsorware: How A Small Open Source Package Increased My Salary By $11k in Two Days | Caleb Porzio",
+    "time": "2020-06-23T23:44:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "opensource",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0u_ibw4D",
+    "href": "https://jezebel.com/the-online-drama-that-toppled-planner-magnate-erin-cond-1844131614/amp?__twitter_impression=true",
+    "description": "The Online Drama That Toppled Planner Magnate Erin Condren",
+    "time": "2020-06-23T20:33:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "j6ij8x_R",
+    "href": "https://www.washingtonpost.com/",
+    "description": "How National Guard helicopters flew over D.C. protesters, a tactic used in war zones",
+    "time": "2020-06-23T11:53:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police protest tactics",
+    "extended": ""
   },
   {
     "id": 7753559,
+    "scrap_id": "c7B8D_8W",
     "href": "https://www.are.na/block/7753559",
     "description": "",
     "time": "2020-06-23T05:06:17.216Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI3NzUzNTU5L29yaWdpbmFsXzcyMDZiYjFkYzc5YjFkYmRlM2U0MzcwMDY0YmYxZDBiLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "B_urmlk1",
+    "href": "https://www.metamute.org/editorial/articles/californian-ideology",
+    "description": "The Californian Ideology",
+    "time": "2020-06-22T18:31:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "s6VNzJuG",
+    "href": "https://medium.com/@DeoTasDevil/how-white-nationalism-courts-internet-nerd-culture-b4ebad07863d",
+    "description": "How White Nationalism Courts Internet Nerd Culture",
+    "time": "2020-06-21T17:27:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EEXN5H_W",
+    "href": "https://www.bellingcat.com/news/americas/2020/06/05/visualizing-police-violence-against-journalists-at-protests-across-the-us/",
+    "description": "Visualizing Police Violence Against Journalists At Protests Across The U.S - bellingcat",
+    "time": "2020-06-21T15:43:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "maps dataviz police protest",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0Vixl2AH",
+    "href": "https://www.bellingcat.com/resources/2020/05/25/investigate-tiktok-like-a-pro/",
+    "description": "Investigate TikTok Like A Pro!",
+    "time": "2020-06-21T15:43:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nhtvUZac",
+    "href": "https://www.bellingcat.com/news/2020/05/27/the-boogaloo-movement-is-not-what-you-think/",
+    "description": "The Boogaloo Movement Is Not What You Think - bellingcat",
+    "time": "2020-06-21T15:43:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "militias",
+    "extended": ""
+  },
+  {
+    "scrap_id": "L-b_5xxv",
+    "href": "https://www.bellingcat.com/resources/events/2020/04/03/bellingcat-now-offering-online-investigation-training-workshops/",
+    "description": "Bellingcat Now Offering Online Investigation Training Workshops",
+    "time": "2020-06-21T15:43:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "HhCcdR74",
+    "href": "https://citizenevidence.org/2020/06/12/dvc-methodology/",
+    "description": "An open source methodology for mapping tear gas misuse (and other human rights abuses)",
+    "time": "2020-06-21T15:42:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cfMBxoqi",
+    "href": "https://citizenevidence.org/2020/05/01/osint-covid-19-pandemic/",
+    "description": "How OSINT helps us hold governments to account during the COVID-19 pandemic",
+    "time": "2020-06-21T15:42:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "whXh-lhc",
+    "href": "https://citizenevidence.org/2020/03/20/magery/",
+    "description": "Where to Access Satellite Imagery",
+    "time": "2020-06-21T15:41:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Cs--PgSD",
+    "href": "https://arxiv.org/pdf/1611.08144.pdf",
+    "description": "How I Stopped Worrying about the Twitter Archive at the Library of Congress and Learned to Build a Little One for Myself",
+    "time": "2020-06-21T05:55:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wF6-XpJ7",
+    "href": "https://markhneedham.com/blog/2019/05/29/loading-tweets-twint-kafka-neo4j/",
+    "description": "Twint: Loading tweets into Kafka and Neo4j",
+    "time": "2020-06-21T05:51:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter data datajournalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6d1XF_mG",
+    "href": "https://pielco11.ovh/posts/twint-osint/",
+    "description": "How to use Twint as an OSINT tool",
+    "time": "2020-06-21T05:51:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8G1-XUOB",
+    "href": "https://github.com/twintproject/twint",
+    "description": "twintproject/twint: An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.",
+    "time": "2020-06-21T05:50:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "T-kc28Tn",
+    "href": "https://catalog.docnow.io/datasets/20190508-replies-to-ocasio-cortez-tweets/",
+    "description": "Any replies to Tweets and Retweets by Rep. Alexandria Ocasio-Cortez's Tweets and Retweets in March 2019.",
+    "time": "2020-06-21T05:47:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Yyu920GL",
+    "href": "https://catalog.docnow.io/datasets/20200331-a-twitter-dataset-of-100-million-tweets-related-to-covid-19/",
+    "description": "A Twitter Dataset of 100+ million tweets related to COVID-19",
+    "time": "2020-06-21T05:47:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "twitter data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "U9Opslpb",
+    "href": "https://github.com/DocNow/twarc",
+    "description": "DocNow/twarc: A command line tool (and Python library) for archiving Twitter JSON",
+    "time": "2020-06-21T05:40:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rwgzUACc",
+    "href": "https://github.com/drawrowfly/tiktok-scraper",
+    "description": "drawrowfly/tiktok-scrape",
+    "time": "2020-06-21T05:04:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": "TikTok Scraper. Download video posts, collect user/trend/hashtag/music feed metadata, sign URL and etc."
+  },
+  {
+    "scrap_id": "6gE_-vim",
+    "href": "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard?variant=31441093361753",
+    "description": "Keychron K6 Wireless Mechanical Keyboard",
+    "time": "2020-06-21T04:47:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

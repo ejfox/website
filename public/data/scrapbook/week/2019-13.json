@@ -1,22 +1,222 @@
 [
   {
+    "scrap_id": "AJ_niqh8",
+    "href": "https://medium.com/disruptive-design/system-failures-the-education-system-and-the-proliferation-of-reductive-thinking-dccf7dbb9b96",
+    "description": "System Failures: The Education System and the Proliferation of Reductive Thinking",
+    "time": "2019-03-31T01:41:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 3971491,
+    "scrap_id": "9yyLGezt",
     "href": "https://www.are.na/block/3971491",
     "description": "",
     "time": "2019-03-30T19:16:22.712Z",
     "type": "arena",
+    "images": []
+  },
+  {
+    "scrap_id": "pf1uQKxv",
+    "href": "https://github.com/AdrianSchneider/jsonfui",
+    "description": "AdrianSchneider/jsonfui: jsonfui is an interactive command-line JSON viewer.",
+    "time": "2019-03-29T22:19:30Z",
+    "type": "pinboard",
     "images": [],
-    "channel": "🧠 Cyberpunk"
+    "tags": "javascript nodejs cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "V-1sASi4",
+    "href": "http://vimcasts.org/training/core-vim-course/",
+    "description": "Core Vim Course - At Your Own Pace",
+    "time": "2019-03-29T07:23:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SckqfxG1",
+    "href": "https://macwright.org/2018/06/17/how-and-why-vim.html",
+    "description": "How and why I use (neo)vim - macwright.org",
+    "time": "2019-03-29T07:21:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "I saw TextMate go out of style and other contenders enter, and that solidified my decision to stay with vim. The lifecycle of a flashy new text editor is shorter than my intended career track, and I want to invest in tools that will stick around."
+  },
+  {
+    "scrap_id": "KftLUqxg",
+    "href": "https://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/",
+    "description": "The Personal Analytics of My Life—Stephen Wolfram Blog",
+    "time": "2019-03-29T07:02:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mHkFQ-wa",
+    "href": "https://www.youtube.com/watch?v=GeCWaTML3D0",
+    "description": "Empire.js - Max Ogden: Teaching Javascript to Cats (and humans) - YouTube",
+    "time": "2019-03-29T06:20:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "xt4ZLe-E",
+    "href": "https://matrix.org/blog/2015/06/22/the-matrix-org-irc-bridge-now-bridges-all-of-freenode/",
+    "description": "The matrix.org IRC bridge now bridges all of Freenode!",
+    "time": "2019-03-29T06:19:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "irc",
+    "extended": "/join #freenode_#channelname:matrix.org"
+  },
+  {
+    "scrap_id": "eZZbfQDt",
+    "href": "https://polite.technology/preview",
+    "description": "Polite Technology",
+    "time": "2019-03-29T05:53:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "opensource",
+    "extended": "The one thing that you cannot do without, that so many people mess up is simply a sentence that clearly describes what it is and what it does. Getting that written gets you most of the way there."
+  },
+  {
+    "scrap_id": "D0yDcI9B",
+    "href": "https://github.com/minimaxir/automl-gs",
+    "description": "minimaxir/automl-gs: Provide an input CSV and a target field to predict, generate a model + code to run it.",
+    "time": "2019-03-29T04:43:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Give an input CSV file and a target field you want to predict to automl-gs, and get a trained high-performing machine learning or deep learning model plus native Python code pipelines allowing you to integrate that model into any prediction workflow. "
+  },
+  {
+    "scrap_id": "PYqz3JTU",
+    "href": "https://blog.mapbox.com/we-support-google-apis-shouldnt-be-copyrightable-d53d6678aaed",
+    "description": "We support Google: APIs shouldn’t be copyrightable – Points of interest",
+    "time": "2019-03-29T03:31:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "legal",
+    "extended": "If APIs are private property that can’t be copied without permission, it would be as if no two checkout systems could use the same form field labels. Everyone would have to find their own way of saying “address” and “city” or buy a license or risk getting sued."
+  },
+  {
+    "scrap_id": "-lDje5bZ",
+    "href": "https://libcom.org/library/starship-stormtroopers-michael-moorcock",
+    "description": "Starship Stormtroopers: Michael Moorcock",
+    "time": "2019-03-28T14:46:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8aMKe41_",
+    "href": "https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e",
+    "description": "A guide to create a NodeJS command-line package – Netscape – Medium",
+    "time": "2019-03-28T04:40:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "nodejs cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GGyIbYP2",
+    "href": "https://github.com/skeeto/endlessh",
+    "description": "skeeto/endlessh: SSH tarpit that slowly sends an endless banner",
+    "time": "2019-03-28T04:37:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli github",
+    "extended": "Endlessh is an SSH tarpit that very slowly sends an endless, random SSH banner. It keeps SSH clients locked up for hours or even days at a time. The purpose is to put your real SSH server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server."
+  },
+  {
+    "scrap_id": "GS1ZwU6d",
+    "href": "https://github.com/dylanaraps/pure-bash-bible",
+    "description": "dylanaraps/pure-bash-bible: 📖 A collection of pure bash alternatives to external processes.",
+    "time": "2019-03-28T04:35:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": "The goal of this book is to document commonly-known and lesser-known methods of doing various tasks using only built-in bash features. Using the snippets from this bible can help remove unneeded dependencies from scripts and in most cases make them faster."
+  },
+  {
+    "scrap_id": "9lAgnR3a",
+    "href": "https://www.bellingcat.com/resources/how-tos/2019/03/26/how-to-track-illegal-funding-campaigns-via-cryptocurrency/",
+    "description": "bellingcat - How To Track Illegal Funding Campaigns Via Cryptocurrency - bellingcat",
+    "time": "2019-03-27T14:10:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 3940828,
+    "scrap_id": "gAnMDcXX",
     "href": "https://www.are.na/block/3940828",
     "description": "rita mcbride",
     "time": "2019-03-26T14:46:36.249Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTQwODI4L29yaWdpbmFsXzkwOTNjMjRiNWQ1ODgzNzZmYjg1NGE1Y2Y2ZjcxMDdkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "DH6x7njL",
+    "href": "https://mondaynote.com/credder-wants-to-create-an-equivalent-to-rotten-tomatoes-for-news-94467294e57b",
+    "description": "Credder Wants to Create an Equivalent to “Rotten Tomatoes” for News",
+    "time": "2019-03-26T01:53:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sB_1a3qZ",
+    "href": "https://www.motherjones.com/crime-justice/2019/03/how-a-gay-teen-an-internet-nazi-and-a-late-night-rendezvous-turned-to-tragedy/",
+    "description": "How a Gay Teen, an Internet Nazi, and a Late-Night Rendezvous Turned to Tragedy – Mother Jones",
+    "time": "2019-03-26T01:10:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "p7ugX5Gx",
+    "href": "http://spr.ly/6013EZnGx",
+    "description": "http://spr.ly/6013EZnGx",
+    "time": "2019-03-25T22:48:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "E1-o7ENN",
+    "href": "https://www.theatlantic.com/ideas/archive/2019/03/james-fallows-bill-burns-international-relations/584383/",
+    "description": "James Fallows Talks with Bill Burns on Trump, Putin, and Iran - The Atlantic",
+    "time": "2019-03-25T02:44:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mFpoeMkI",
+    "href": "https://wwwtyro.net/2019/03/21/advanced-map-shading.html",
+    "description": "wwwtyro.net",
+    "time": "2019-03-24T15:19:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

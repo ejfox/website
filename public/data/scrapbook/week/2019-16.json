@@ -1,35 +1,65 @@
 [
   {
     "id": 4112487,
+    "scrap_id": "dSEgVWbp",
     "href": "https://www.are.na/block/4112487",
     "description": "Gwern.net",
     "time": "2019-04-19T14:16:18.728Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MTEyNDg3L29yaWdpbmFsXzQzNjI5MGQzM2JmODIzMWQwZGQ2YmYxZGVjNWM5YzY2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
   },
   {
     "id": 4112471,
+    "scrap_id": "vDSS2FVy",
     "href": "https://www.are.na/block/4112471",
     "description": null,
     "time": "2019-04-19T14:14:38.723Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MTEyNDcxL29yaWdpbmFsXzg1NzM5OWZmZTRjMWI2NzM4MmFjNWZmMjJjMmViYzljLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
   },
   {
     "id": 4112361,
+    "scrap_id": "ccsI4TOU",
     "href": "https://www.are.na/block/4112361",
     "description": "Kids These Days: Human Capital and the Making of Millennials\nby Malcolm Harris\n\n",
     "time": "2019-04-19T13:49:41.874Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MTEyMzYxL29yaWdpbmFsXzZjMGExMWNhY2JiMjVhNTllZTgwNTZkNjJjOTI4MjU2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
+  },
+  {
+    "scrap_id": "Rumtl0V-",
+    "href": "https://github.com/matryer/bitbar",
+    "description": "matryer/bitbar",
+    "time": "2019-04-15T21:05:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": "Put the output from any script or program in your Mac OS X Menu Bar"
+  },
+  {
+    "scrap_id": "x-1_rn_l",
+    "href": "https://motherboard.vice.com/en_us/article/43jy5w/seasteading-bitcoin-fans-say-theyre-on-the-run-from-thai-government",
+    "description": "Seasteading Bitcoin Fans Say They're 'On the Run' From Thai Government - Motherboard",
+    "time": "2019-04-15T21:00:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "avaJovdi",
+    "href": "https://www.niemanlab.org/2019/04/what-will-journalism-do-with-5gs-speed-and-capacity-here-are-some-ideas-from-the-new-york-times-and-elsewhere/",
+    "description": "What will journalism do with 5G’s speed and capacity? Here are some ideas, from The New York Times and elsewhere » Nieman Journalism Lab",
+    "time": "2019-04-15T16:51:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

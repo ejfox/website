@@ -1,114 +1,244 @@
 [
   {
     "id": 25256693,
+    "scrap_id": "OwrLIk9g",
     "href": "https://www.are.na/block/25256693",
     "description": null,
     "time": "2023-12-17T00:22:29.970Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTI1NjY5My9vcmlnaW5hbF8wMmQwZWVkNjNjYmU5OWI3Nzg5OWQ5Nzk0MmU4MmRhYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "9amK3gbr",
+    "href": "https://blog.vespa.ai/improving-text-ranking-with-few-shot-prompting/",
+    "description": "Improving Search Ranking with Few-Shot Prompting of LLMs",
+    "time": "2023-12-16T17:13:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Distilling the knowledge and power of generative Large Language Models (LLMs) with billions of parameters to ranking models with a few million parameters."
+  },
+  {
+    "scrap_id": "HzV7xE0I",
+    "href": "https://prospect.org/blogs-and-newsletters/tap/2023-12-15-corruption-new-york-redistricting/",
+    "description": "Corruption in New York’s Redistricting Plans",
+    "time": "2023-12-15T20:35:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Today on TAP: A key member of the supposedly independent redistricting commission has a flagrant conflict of interest. Will he recuse himself?"
   },
   {
     "id": "111586223319626703",
+    "scrap_id": "xq_XkORl",
     "href": "https://mastodon.social/@ejfox/111586223319626703",
     "description": "<p>took a beautiful motorcycle ride and forgot to take a photo, so you guys are just gonna have to use your imagination a bit</p>",
     "time": "2023-12-15T20:04:03.972Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "ayWhS6uW",
+    "href": "https://www.cnn.com/interactive/2023/12/politics/missing-russia-intelligence-trump-dg/?cid=ios_app",
+    "description": "The mystery of the missing binder: How a collection of raw Russian intelligence disappeared under Trump - CNN",
+    "time": "2023-12-15T20:03:00Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vHrqg7oc",
+    "href": "https://vinzent03.github.io/obsidian-advanced-uri/",
+    "description": "Obsidian Advanced URI | Obsidian Advanced URI",
+    "time": "2023-12-15T09:25:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "d9_sYi_O",
+    "href": "https://www.lesswrong.com/posts/c6uTNm5erRrmyJvvD/mapping-the-semantic-void-strange-goings-on-in-gpt-embedding",
+    "description": "Mapping the semantic void: Strange goings-on in GPT embedding spaces",
+    "time": "2023-12-14T13:43:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Note: As will be explained below, these findings are very likely to be relevant to GPT-3 (and possibly its descendants). However, this post focussesâ¦"
+  },
+  {
+    "scrap_id": "uRQqYDm0",
+    "href": "https://www.propublica.org/article/how-police-undermined-promise-body-cameras",
+    "description": "How Police Have Undermined the Promise of Body Cameras",
+    "time": "2023-12-14T13:40:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "k6Jnpu_J",
+    "href": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmakersuite.google.com%2Fapp%2Fapikey&ifkv=ASKXGp1lali1Jj6rI5IMUmuNzcJmBW0wCD4zS4gboOqTGQNg9j8FaI5mcjrtL_qMrbACqip_Q_096Q&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1828978508%3A1702529628348679",
+    "description": "Sign in - Google Accounts",
+    "time": "2023-12-14T04:53:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Vgy7Lvnl",
+    "href": "https://github.com/nuxt/nuxt/issues/19774",
+    "description": "Nitro `netlify-builder` preset is incompatible with Nuxt · Issue #19774 · nuxt/nuxt",
+    "time": "2023-12-12T19:03:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The default netlify preset will use Netlify builder routes for all routeRules marked as swr: true. This may assist you.\r\n"
   },
   {
     "id": "111568942348867261",
+    "scrap_id": "huD6rsra",
     "href": "https://mastodon.social/@ejfox/111568942348867261",
     "description": "<p>i see myself doing a lot of dataviz just for robots to look at in 2024</p>",
     "time": "2023-12-12T18:49:17.229Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 25192029,
+    "scrap_id": "9MlOjydb",
     "href": "https://www.are.na/block/25192029",
     "description": "",
     "time": "2023-12-12T18:47:46.558Z",
     "type": "arena",
-    "images": [],
-    "channel": "🧠 Disassociative Matrix Theory"
+    "images": []
   },
   {
     "id": 25191888,
+    "scrap_id": "_aFqaEp8",
     "href": "https://www.are.na/block/25191888",
     "description": "A biocomputing system consisting of living brain cells learned to recognise the voice of one individual from hundreds of sound clips",
     "time": "2023-12-12T18:40:07.696Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTE5MTg4OC9vcmlnaW5hbF9kYTBkMWRjYWEwYTdmNzgyMzc0MDU1Yjc4MDE2ZTVmNC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
+  },
+  {
+    "scrap_id": "WUNGct06",
+    "href": "https://www.newscientist.com/article/2407768-ai-made-from-living-human-brain-cells-performs-speech-recognition/",
+    "description": "AI made from living human brain cells performs speech recognition | New Scientist",
+    "time": "2023-12-12T18:39:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111568902892197234",
+    "scrap_id": "TQE7Xj5V",
     "href": "https://mastodon.social/@ejfox/111568902892197234",
     "description": "<p>everyone has m1 macs now, so i can do ungodly things entirely client-side, what a blessing</p>",
     "time": "2023-12-12T18:39:15.167Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111565662140746989",
+    "scrap_id": "jEpWv419",
     "href": "https://mastodon.social/@ejfox/111565662140746989",
     "description": "<p>OSM + QGIS</p>",
     "time": "2023-12-12T04:55:05.225Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/565/660/978/786/599/small/c65853ff71f117de.png",
       "https://files.mastodon.social/media_attachments/files/111/565/661/939/878/533/small/833e82c7fb8eecd4.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111565202269892817",
+    "scrap_id": "EN6Gdv7G",
     "href": "https://mastodon.social/@ejfox/111565202269892817",
     "description": "<p>my phone has been begging all night to turn off all the lights</p>",
     "time": "2023-12-12T02:58:08.357Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/565/201/947/168/824/small/3e56720dc27c1a4c.jpeg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "4iV6dRGx",
+    "href": "https://www.edoardoscibona.com/exploring-the-npm-registry-api",
+    "description": "Exploring the npm registry API",
+    "time": "2023-12-12T02:39:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "zQvATvpz",
+    "href": "https://github.com/orgs/supabase/discussions/5968#discussioncomment-5865223",
+    "description": "Multiple projects in local Supabase · supabase · Discussion #5968",
+    "time": "2023-12-12T01:56:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "14tNQUlx",
+    "href": "https://nymag.com/intelligencer/2023/12/trump-reassures-his-loyalists-that-hell-do-better-next-time.html",
+    "description": "Trump Reassures His Loyalists That He’ll Do Better Next Time",
+    "time": "2023-12-12T01:44:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111564810922061147",
+    "scrap_id": "I87SgrNb",
     "href": "https://mastodon.social/@ejfox/111564810922061147",
     "description": "",
     "time": "2023-12-12T01:18:36.613Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/564/810/601/460/464/small/d59c5945bdfbdd00.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111564808953032423",
+    "scrap_id": "ouFdU97E",
     "href": "https://mastodon.social/@ejfox/111564808953032423",
     "description": "<p>Built a little tool to parse EXIF data from photos: <a href=\"https://github.com/room302studio/exif-photo-printer\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/room302studio/exif-</span><span class=\"invisible\">photo-printer</span></a></p><p>I want to make it easy to print a bunch of 5x7s through walgreens, but still show the EXIF data in a border on the corner</p>",
     "time": "2023-12-12T01:18:06.614Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "NbbCbfJx",
+    "href": "https://vuejs.org/api/reactivity-advanced.html#shallowref",
+    "description": "Reactivity API: Advanced | Vue.js",
+    "time": "2023-12-11T22:20:05Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111558343054601581",
+    "scrap_id": "IWpP44aw",
     "href": "https://mastodon.social/@ejfox/111558343054601581",
     "description": "<p>my message to young people; TAKE MORE NOTES. This was one of the most exciting times in my life and I wrote a grand total of 20 words about it</p>",
     "time": "2023-12-10T21:53:44.833Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/558/341/548/059/962/small/e47ce2956478c9ee.png"
-    ],
-    "videos": []
+    ]
   }
 ]

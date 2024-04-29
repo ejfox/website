@@ -1,11 +1,132 @@
 [
   {
-    "id": 180029794,
-    "description": "dotfiles",
-    "href": "https://github.com/ejfox/dotfiles",
-    "content": "Backup of my dotfiles",
-    "time": "2019-04-11T20:38:54Z",
-    "type": "github",
-    "images": []
+    "scrap_id": "_P9sQgT5",
+    "href": "https://www.timbuk2.com/collections/all-backpacks/products/5510-especial-shadow-commuter-backpack?variant=14646229696554",
+    "description": "Especial Shadow Commuter Backpack",
+    "time": "2019-04-12T02:20:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "F53ZHEL1",
+    "href": "https://djtechtools.com/2011/10/16/how-to-create-a-professional-dj-booth-from-ikea-parts/",
+    "description": "How To: Create a Professional DJ Booth from IKEA Parts. - DJ TechTools",
+    "time": "2019-04-12T02:04:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The desk consists of either one or two EXPEDIT bookcases ($ 69.99) depending on how deep you want it to be"
+  },
+  {
+    "scrap_id": "7Jvao-wH",
+    "href": "https://trac.syr.edu/immigration/reports/555/",
+    "description": "Ten-Fold Difference in Odds of ICE Enforcement Depending Upon Where You Live",
+    "time": "2019-04-12T01:58:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "This report examines two main enforcement strategies ICE now uses to locate and deport individuals. The first involves \"custodial arrests.\" Here ICE \"arrests\" individuals whom another law enforcement agency has taken into custody for other reasons. This is simply a transfer of custody from one law enforcement agency to another. The principal program using this approach is known as the Secure Communities (SC) program.\r\n\r\n"
+  },
+  {
+    "scrap_id": "iJR-mmE0",
+    "href": "https://www.theatlantic.com/ideas/archive/2019/04/julian-assange-arrested-journalists-defend/586936/",
+    "description": "Julian Assange Was Arrested. Journalists Must Defend Him. - The Atlantic",
+    "time": "2019-04-11T20:17:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The combination of an ideologically-motivated (rather than financial) whistleblower with firsthand knowledge of the material they give alongside the editorial judgment of major outlets forms the bedrock of public interest journalism. Any attempt to swing the needle against that, or to criminalize it by tying it to hacking on a technicality, threatens quality journalism and threatens the free media. More simply than that, while Julian Assange may deserve punishment for other things he is accused of having done in his life, he does not deserve to be punished for what he published in 2010. Barring some new and major revelation, neither extradition nor prosecution over his work with WikiLeaks is merited."
+  },
+  {
+    "scrap_id": "maltHHbt",
+    "href": "https://www.gwern.net/About",
+    "description": "About This Website - Gwern.net",
+    "time": "2019-04-11T17:16:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "writing",
+    "extended": "To the extent I personally have any method for ‘getting started’ on writing something, it’s to pay attention to anytime you find yourself thinking, “how irritating that there’s no good webpage/Wikipedia article on X” or “I wonder if Y” or “has anyone done Z” or “huh, I just realized that A!” or “this is the third time I’ve had to explain this, jeez.”"
+  },
+  {
+    "scrap_id": "xyJ3NGbo",
+    "href": "https://unix.stackexchange.com/questions/321282/how-do-i-sort-files-into-a-sub-folder-based-on-filename-part",
+    "description": "command line - How do I sort files into a sub-folder based on filename part? - Unix & Linux Stack Exchange",
+    "time": "2019-04-11T15:37:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "> mkdir Mustang Impala\r\n> mv *Mustang*.jpg Mustang/\r\n> mv *Impala*.jpg Impala/"
+  },
+  {
+    "scrap_id": "WWvEHcWb",
+    "href": "https://www.gwern.net/Silk-Road",
+    "description": "Silk Road 1: Theory & Practice",
+    "time": "2019-04-11T15:03:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "crypto security",
+    "extended": "The cardinal example is the April 2012 scam where a trusted seller took the occasion of a SR-wide sales event (where SR waived its fees) to announce unusually low prices, took in hundreds of large orders totaling thousands of bitcoins (the equivalent of >$50,000) but requiring early finalization, withdrew all funds, and never delivered. A simple enough scam, yet highly effective: as May and other cypherpunks pointed out decades before, one should never entrust a pseudonymous agent with more liquid anonymous cash than its “reputation capital” is worth! One can entrust the agent with less liquid anonymous cash (not enough to burn one’s reputation in exchange for), or one could entrust the agent with more escrowed anonymous cash (so they cannot “rip-and-run”), but not both more and un-escrowed (which is paying them to scam you)."
+  },
+  {
+    "scrap_id": "eDjZ4lv6",
+    "href": "https://www.npmjs.com/package/gh-pages-deploy",
+    "description": "gh-pages-deploy",
+    "time": "2019-04-10T19:48:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "node github cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Iu1EYAIg",
+    "href": "https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all",
+    "description": "all facebook hosts",
+    "time": "2019-04-09T23:39:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "security",
+    "extended": "To Completely Block Facebook add these entries below to your hosts file"
+  },
+  {
+    "scrap_id": "JGQcpJbJ",
+    "href": "https://www.gwern.net/Timestamping",
+    "description": "Easy Cryptographic Timestamping of Files",
+    "time": "2019-04-09T23:34:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PYdTDBK3",
+    "href": "https://jalopnik.com/tear-down-these-highways-1833882906",
+    "description": "Tear Down These Highways",
+    "time": "2019-04-09T00:47:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kxACYbPJ",
+    "href": "https://github.com/dthree/vorpal",
+    "description": "dthree/vorpal",
+    "time": "2019-04-07T18:57:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli javascript",
+    "extended": "Vorpal is Node's first framework for building interactive CLI applications. "
+  },
+  {
+    "scrap_id": "JQinyB4q",
+    "href": "https://codeburst.io/building-a-node-js-interactive-cli-3cb80ed76c86",
+    "description": "Building a Node JS interactive CLI",
+    "time": "2019-04-07T18:57:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "node cli",
+    "extended": ""
   }
 ]

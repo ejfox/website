@@ -1,90 +1,210 @@
 [
   {
     "id": 14720669,
+    "scrap_id": "Bd8_NsD-",
     "href": "https://www.are.na/block/14720669",
     "description": "",
     "time": "2022-01-15T19:32:29.106Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDcyMDY2OS9vcmlnaW5hbF8zZTRiNzMxZTM0M2JmMjkzNDA3YzEyOGZkMTAxZjZiMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 14713081,
+    "scrap_id": "0IoIT5MY",
     "href": "https://www.are.na/block/14713081",
     "description": "",
     "time": "2022-01-14T23:56:43.358Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDcxMzA4MS9vcmlnaW5hbF9jMDBlY2E3MjcwYTM3OTBmY2VkMTU5Y2U2ZGUyZWYzOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "pTBq1Pqe",
+    "href": "https://github.com/rastapasta/mapscii",
+    "description": "rastapasta/mapscii: 🗺 MapSCII is a Braille & ASCII world map renderer for your console - enter => telnet mapscii.me <= on Mac (brew install telnet) and Linux, connect with PuTTY on Windows",
+    "time": "2022-01-13T23:57:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 14695629,
+    "scrap_id": "K-PNEJ_B",
     "href": "https://www.are.na/block/14695629",
     "description": "",
     "time": "2022-01-13T19:28:29.939Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY5NTYyOS9vcmlnaW5hbF9kNzI2YWUwMGJjYTlkZDQzOWNiMGEwYTQwZjljYTg0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🎨 Information graphics"
+    ]
   },
   {
     "id": 14694031,
+    "scrap_id": "KtPpRI_f",
     "href": "https://www.are.na/block/14694031",
     "description": "",
     "time": "2022-01-13T18:11:00.084Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY5NDAzMS9vcmlnaW5hbF81ZTc0NTJmODE1NWVmMmM4ZTUxMzFiZjVmY2RmYWQ5OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "rjFOGgDZ",
+    "href": "https://akjournals.com/view/journals/2054/3/2/article-p117.xml",
+    "description": "Getting high with the most high: Entheogens in the Old Testament in: Journal of Psychedelic Studies Volume 3 Issue 2 (2019)",
+    "time": "2022-01-13T18:04:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0Gn7HDTz",
+    "href": "https://www.poynter.org/tech-tools/2016/should-paywalls-come-down-for-election-coverage/",
+    "description": "Should paywalls come down for election coverage? – Poynter",
+    "time": "2022-01-13T15:19:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "journalism elections",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5OMrekAl",
+    "href": "https://arxiv.org/pdf/2112.01238.pdf",
+    "description": "",
+    "time": "2022-01-13T00:27:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "McuUsgK6",
+    "href": "https://www.photrio.com/forum/threads/new-adox-polywarmtone-emulsion.182484/",
+    "description": "[no title]",
+    "time": "2022-01-12T20:24:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "P4To5hdC",
+    "href": "https://www.critterandguitari.com/eyesy",
+    "description": "EYESY",
+    "time": "2022-01-12T20:22:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GsFjxymF",
+    "href": "https://www.mozilla.org/en-US/careers/position/gh/3745257/",
+    "description": "Mozilla Careers — Lead Frontend Software Engineer — Open Positions",
+    "time": "2022-01-12T20:14:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Mozilla is hiring a  Lead Frontend Software Engineer in Remote US"
+  },
+  {
+    "scrap_id": "so7KyMZV",
+    "href": "https://github.com/arcee123/GIS_GEOJSON_CENSUS_TRACTS",
+    "description": "arcee123/GIS_GEOJSON_CENSUS_TRACTS: GEOJSON of census tracts from US Census office",
+    "time": "2022-01-12T18:46:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Z-tyPuky",
+    "href": "https://www.caliper.com/mapping-software-data/census-block-groups.htm",
+    "description": "Census Block Groups Data - Census Block Group Map Software",
+    "time": "2022-01-12T18:45:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 14678864,
+    "scrap_id": "_r_R42LG",
     "href": "https://www.are.na/block/14678864",
     "description": "",
     "time": "2022-01-12T18:30:55.944Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY3ODg2NC9vcmlnaW5hbF84NzU3OGI3YzM4NDE5YjY2YmVjZWMwZDFlNDQ2ZDdmNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "Jr9ueoVw",
+    "href": "https://www.wired.com/story/listening-to-black-women-the-innovation-tech-cant-figure-out/",
+    "description": "Listening to Black Women: The Innovation Tech Can't Crack",
+    "time": "2022-01-12T14:23:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Tech creators and journalists ignore the insights and experiences of Black women—and fail to see the harm of their \"innovations.\""
+  },
+  {
+    "scrap_id": "qOSJkJEw",
+    "href": "https://observablehq.com/@hamzaamjad/tiny-charts",
+    "description": "Tiny Charts / Hamza Amjad / Observable",
+    "time": "2022-01-10T23:53:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 14641920,
+    "scrap_id": "rLYp0nz6",
     "href": "https://www.are.na/block/14641920",
     "description": "",
     "time": "2022-01-10T16:50:15.603Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY0MTkyMC9vcmlnaW5hbF9kZjY2M2RjZmEyNGRkZDIwY2RiZWM1MDgxOTI3M2YzZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 14641919,
+    "scrap_id": "aGf77M2m",
     "href": "https://www.are.na/block/14641919",
     "description": "",
     "time": "2022-01-10T16:50:15.473Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY0MTkxOS9vcmlnaW5hbF9mZDczYWM4N2JhY2YxMWYyYzUwNjUxMDIwODJlZmI1YS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "YXHPJYzo",
+    "href": "http://www.vincepitelka.com/handoutsinformation/",
+    "description": "Documents-Handouts – Vince Pitelka",
+    "time": "2022-01-10T16:43:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 14641810,
+    "scrap_id": "WAis6_j2",
     "href": "https://www.are.na/block/14641810",
     "description": "",
     "time": "2022-01-10T16:42:50.803Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDY0MTgxMC9vcmlnaW5hbF9iMjlhZTIyYjJlNzNlMTJiYzQ1MDEzZTEwODEyZjJkZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   }
 ]

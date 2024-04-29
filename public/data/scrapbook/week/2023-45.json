@@ -1,89 +1,120 @@
 [
   {
     "id": "111388681538767674",
+    "scrap_id": "pvPyfiZC",
     "href": "https://mastodon.social/@ejfox/111388681538767674",
     "description": "<p>The new github font fucks</p>",
     "time": "2023-11-10T22:46:35.561Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "xFLRCsNi",
+    "href": "https://github.com/CASIA-IVA-Lab/FastSAM",
+    "description": "CASIA-IVA-Lab/FastSAM: Fast Segment Anything",
+    "time": "2023-11-10T18:15:03Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sTVGHowW",
+    "href": "https://www.seeedstudio.com/blog/2023/07/21/what-is-fast-sam-how-to-segment-anything-on-the-edge/",
+    "description": "What is FastSAM: How to Segment Anything on the Edge? - Latest Open Tech From Seeed",
+    "time": "2023-11-10T18:14:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gT_RoYl8",
+    "href": "https://github.com/anshumanbh/FASTSAM/tree/master",
+    "description": "anshumanbh/FASTSAM: Framework for Automated Security Testing that is Scaleable and Asynchronous built on Microservices",
+    "time": "2023-11-10T18:13:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111387133453467960",
+    "scrap_id": "IvVzW7tb",
     "href": "https://mastodon.social/@ejfox/111387133453467960",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@palmin\" class=\"u-url mention\">@<span>palmin</span></a></span> <span class=\"h-card\" translate=\"no\"><a href=\"https://indieapps.space/@WorkingCopy\" class=\"u-url mention\">@<span>WorkingCopy</span></a></span> Ive been waiting for this for ages- would love to help, also can supply my own API keys for my own testing to offset cost</p>",
     "time": "2023-11-10T16:12:53.657Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111380897885815705",
+    "scrap_id": "NDrw7lkD",
     "href": "https://mastodon.social/@ejfox/111380897885815705",
     "description": "<p>Now that I have a choice in the matter, I prefer my weed to be grown by witches thank you</p>",
     "time": "2023-11-09T13:47:06.429Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 24616610,
+    "scrap_id": "ADtpgVKB",
     "href": "https://www.are.na/block/24616610",
     "description": "",
     "time": "2023-11-09T00:28:26.461Z",
     "type": "arena",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/24616610/original_7d19a8e782020fe57383d3ffc998d44e.gif?1699489707?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
   },
   {
     "id": 716312360,
-    "description": "GHA workflows for creating Github Organization Environment Variables and Secrets",
+    "scrap_id": "Gp94VMtq",
     "href": "https://github.com/paulSambolin/github-org-env-vars",
+    "description": "GHA workflows for creating Github Organization Environment Variables and Secrets",
     "time": "2023-11-08T21:51:04Z",
     "type": "github-star",
     "images": []
   },
   {
     "id": "111369935631052754",
+    "scrap_id": "CiIEPQOu",
     "href": "https://mastodon.social/@ejfox/111369935631052754",
     "description": "<p>Using GPT-4 + Mermaid to generate some diagrams of Arties current functionality; this is what I want to expand and iterate on later today on the livestream.</p>",
     "time": "2023-11-07T15:19:15.698Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/369/932/596/251/192/small/39d468fc67526bd8.png",
       "https://files.mastodon.social/media_attachments/files/111/369/932/832/133/448/small/aff7f921ddfc3610.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111366699857503656",
+    "scrap_id": "UOda6SXJ",
     "href": "https://mastodon.social/@ejfox/111366699857503656",
     "description": "<p>Ill let Coach Artie speak for himself</p>",
     "time": "2023-11-07T01:36:21.711Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/366/697/969/064/279/small/049965fa10185dee.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111366675982594910",
+    "scrap_id": "Ys0IzZ-f",
     "href": "https://mastodon.social/@ejfox/111366675982594910",
     "description": "<p>🚀 Tomorrow we explore and unlock the potential of GPT-4! Were gonna live-streaming a thrilling upgrade session for our studios very own Coach Artie using the vast 128k token space OpenAI just added. 🤖</p><p>Watch on YouTube: <a href=\"https://www.youtube.com/live/ApMnP88khdg?feature=sharethemeRefresh=1\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">youtube.com/live/ApMnP88khdg?f</span><span class=\"invisible\">eature=sharethemeRefresh=1</span></a><br />Chat on Discord during the stream: <a href=\"https://discord.gg/srh6f3Ez?event=1171259275516063804\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">discord.gg/srh6f3Ez?event=1171</span><span class=\"invisible\">259275516063804</span></a></p>",
     "time": "2023-11-07T01:30:17.411Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111364960757626096",
+    "scrap_id": "CWTnHN0W",
     "href": "https://mastodon.social/@ejfox/111364960757626096",
     "description": "<p>i love tokens as much as the next guy but clapping out loud for them just strikes me as too much</p>",
     "time": "2023-11-06T18:14:05.156Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   }
 ]

@@ -1,57 +1,187 @@
 [
   {
+    "scrap_id": "EQsY2aTJ",
+    "href": "https://dianaow.com/blog/pixijs-d3-graph/",
+    "description": "Creating a large-scale interactive force-directed graph",
+    "time": "2023-11-04T12:50:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AaKYwmz1",
+    "href": "https://medium.com/@crskilpatrick807/context-windows-the-short-term-memory-of-large-language-models-ab878fc6f9b5",
+    "description": "Context Windows: The Short-term Memory of Large Language Models",
+    "time": "2023-11-03T21:05:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Navigating the Basics and Understanding Context Windows for ChatGPT and LLMs"
+  },
+  {
     "id": "111347823810085773",
+    "scrap_id": "L9g2GhZT",
     "href": "https://mastodon.social/@ejfox/111347823810085773",
     "description": "<p>robot self-portrait</p>",
     "time": "2023-11-03T17:35:56.087Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/347/821/106/014/393/small/7d8f8fc68117e050.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "o6oAMscc",
+    "href": "https://www.vanityfair.com/news/2023/10/tucker-carlsons-ugly-exit-from-fox-news",
+    "description": "The Untold Story of Tucker Carlson’s Ugly Exit From Fox News | Vanity Fair",
+    "time": "2023-11-02T22:25:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XyjLQ0hb",
+    "href": "https://huggingface.co/docs/transformers.js/index",
+    "description": "Transformers.js",
+    "time": "2023-11-02T21:47:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PtjjNHCt",
+    "href": "https://www.lemonsqueezy.com/",
+    "description": "Payments, Tax & Subscriptions for SaaS",
+    "time": "2023-11-02T20:44:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Sell digital products and SaaS software the easy peasy way with Lemon Squeezy. As your merchant of record, we handle the tax compliance burden so you can focus on more revenue and less headache."
+  },
+  {
+    "scrap_id": "sjXsOvZ6",
+    "href": "https://www.alwaysrightinstitute.com/tows-vsc/",
+    "description": "🐮 SwiftUI Tools w/ VisualStudio Code – Helge Heß – Software engineer.",
+    "time": "2023-11-02T17:39:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PR4BUMV5",
+    "href": "https://github.com/cbh123/youtune",
+    "description": "cbh123/youtune: Fine tune SDXL on YouTube videos",
+    "time": "2023-11-02T16:02:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111341769713493022",
+    "scrap_id": "S9eHKeVi",
     "href": "https://mastodon.social/@ejfox/111341769713493022",
     "description": "<p>Walking around Kingston, NY</p>",
     "time": "2023-11-02T15:56:17.905Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/341/765/947/471/126/small/c0a6f27a75c56890.png",
       "https://files.mastodon.social/media_attachments/files/111/341/767/070/727/958/small/6430a38ac9872e6d.png",
       "https://files.mastodon.social/media_attachments/files/111/341/768/181/795/598/small/eec0520bd27df3ee.png",
       "https://files.mastodon.social/media_attachments/files/111/341/769/226/257/245/small/b737f85f3cf6d883.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "rCh9hGOF",
+    "href": "https://www.coyoteclay.com/Glazes/AncientIron.html",
+    "description": "SHOP Glaze Underglaze Gift Certi",
+    "time": "2023-11-01T21:40:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111336072092304059",
+    "scrap_id": "KQUMXiS1",
     "href": "https://mastodon.social/@ejfox/111336072092304059",
     "description": "<p>exploring new, unhinged ways of exploring/organizing my bookmarks and notes</p>",
     "time": "2023-11-01T15:47:19.229Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/336/068/313/076/147/small/f83736494c6c579c.png",
       "https://files.mastodon.social/media_attachments/files/111/336/071/702/424/869/small/bb2ebab7885b8ebe.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "T6D2zQq4",
+    "href": "https://github.com/hadynz/obsidian-kindle-plugin",
+    "description": "hadynz/obsidian-kindle-plugin: Sync your Kindle notes and highlights directly into your Obsidian vault",
+    "time": "2023-11-01T00:25:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rDD6_i-x",
+    "href": "https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin",
+    "description": "Build a plugin - Developer Documentation",
+    "time": "2023-11-01T00:14:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "OiCl_cRr",
+    "href": "https://github.com/AlexanderWillner/things.sh",
+    "description": "AlexanderWillner/things.sh: Simple read-only comand-line interface to your Things 3 database",
+    "time": "2023-11-01T00:11:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111325423958642919",
+    "scrap_id": "aG3eLNLQ",
     "href": "https://mastodon.social/@ejfox/111325423958642919",
     "description": "<p>Pottery is hard</p>",
     "time": "2023-10-30T18:39:21.479Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111324368901368662",
+    "scrap_id": "85J5fpoN",
     "href": "https://mastodon.social/@ejfox/111324368901368662",
     "description": "<p>It finally happened; searching my various notebooks for something I remember writing down; but it was in fact a conversation with a robot</p>",
     "time": "2023-10-30T14:11:02.584Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "rx4JeuAD",
+    "href": "https://www.nytimes.com/2023/10/13/opinion/climate-change-excessive-heat-2023.html",
+    "description": "Opinion | I Study Climate Change. The Data Is Telling Us Something New. - The New York Times",
+    "time": "2023-10-30T00:36:09Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ITq3WdOj",
+    "href": "https://github.com/mkkellogg/GaussianSplats3D",
+    "description": "mkkellogg/GaussianSplats3D: Three.js-based implementation of 3D Gaussian splatting",
+    "time": "2023-10-29T16:06:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

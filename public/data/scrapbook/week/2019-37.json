@@ -1,33 +1,63 @@
 [
   {
     "id": 4997389,
+    "scrap_id": "BBiUbT-C",
     "href": "https://www.are.na/block/4997389",
     "description": null,
     "time": "2019-09-11T01:41:34.991Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0OTk3Mzg5L29yaWdpbmFsXzg2YmUyZmEzNmExZjViMmJhNWE5MzFjOGRmYmY3MWJiLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
   },
   {
     "id": 4994457,
+    "scrap_id": "O4snDC1u",
     "href": "https://www.are.na/block/4994457",
     "description": "",
     "time": "2019-09-10T18:26:00.829Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0OTk0NDU3L29yaWdpbmFsX2E1ZTQ2ZDc5MzIxZjk4YjE0OTk3YjUxNTg5YmM1YTg5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "NrZQLGEw",
+    "href": "https://hbr.org/2016/02/how-to-read-a-book-a-week",
+    "description": "How to Read a Book a Week",
+    "time": "2019-09-10T16:35:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "- Start with the author. Who wrote the book? Read his or her bio. If you can find a brief interview or article online about the author, read that quickly. It will give you a sense of the person’s bias and perspective.\r\n- Read the title, the subtitle, the front flap, and the table of contents. What’s the big-picture argument of the book? How is that argument laid out? By now, you could probably describe the main idea of the book to someone who hasn’t read it.\r\nRead the introduction and the conclusion. The author makes their case in the opening and closing argument of the book. Read these two sections word for word but quickly. You already have a general sense of where the author is going, and these sections will tell you how they plan to get there (introduction) and what they hope you got out of it (conclusion).\r\n- Read/skim each chapter. Read the title and anywhere from the first few paragraphs to the first few pages of the chapter to figure out how the author is using this chapter and where it fits into the argument of the book. Then skim through the headings and subheadings (if there are any) to get a feel for the flow. Read the first sentence of each paragraph and the last. If you get the meaning, move on. Otherwise, you may want to read the whole paragraph. Once you’ve gotten an understanding of the chapter, you may be able to skim over whole pages, as the argument may be clear to you and also may repeat itself.\r\n- End with the table of contents again. Once you’ve finished the book, return to the table of contents and summarize it in your head. Take a few moments to relive the flow of the book, the arguments you considered, the stories you remember, the journey you went on with the author."
+  },
+  {
+    "scrap_id": "P3E3pcF7",
+    "href": "https://dannygregorysblog.com/community/edm-challenges/",
+    "description": "EDM Sketchbook Challenges",
+    "time": "2019-09-08T23:30:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yhzQu2yn",
+    "href": "https://makezine.com/projects/how-to-print-a-one-page-book-by-hand/",
+    "description": "How to Print a One-Page Book by Hand",
+    "time": "2019-09-08T23:11:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "linocut",
+    "extended": ""
   },
   {
     "id": 4978990,
+    "scrap_id": "fiC5fIVW",
     "href": "https://www.are.na/block/4978990",
     "description": "https://thecreativeindependent.com/people/poet-cody-rose-clevidence-on-writing-editing-and-living-in-the-wilderness/",
     "time": "2019-09-08T13:31:12.030Z",
     "type": "arena",
-    "images": [],
-    "channel": "🌞 vibes"
+    "images": []
   }
 ]

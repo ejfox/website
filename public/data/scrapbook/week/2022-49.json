@@ -1,30 +1,411 @@
 [
   {
+    "scrap_id": "R5SqT6rE",
+    "href": "https://www.youtube.com/watch?v=NPrqIgVpYrk",
+    "description": "CALL OF DUTY: MODERN WARFARE 2 - Main Theme Music (Official Soundtrack) - YouTube",
+    "time": "2022-12-04T00:42:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "HNM9l-gr",
+    "href": "https://www.youtube.com/watch?v=a9P_j1gMXBo",
+    "description": "Popular Meme Sound Effects (For Video Editing) - YouTube",
+    "time": "2022-12-04T00:41:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Jfzg68A0",
+    "href": "https://www.trippingly.net/lsd-studies/2018/5/22/the-mystical-experience-questionaire-30-questions",
+    "description": "The Mystical Experience Questionnaire (30 Questions) — Trippingly",
+    "time": "2022-12-03T16:29:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3LNnFiZm",
+    "href": "https://www.psychologytoday.com/us/therapists/wendy-goldblatt-beacon-ny/463279",
+    "description": "Wendy Goldblatt, Psychologist, Beacon, NY, 12508 | Psychology Today",
+    "time": "2022-12-03T02:31:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ruxvyoCE",
+    "href": "https://soundcloud.com/ramdass/the-heart-cave-meditation",
+    "description": "▶ The Heart Cave – Meditation by RamDass",
+    "time": "2022-12-03T02:00:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "zMlGwnyY",
+    "href": "https://twitter.com/weights_biases/status/1598386719006621708?s=12&t=RavOhTMdJCT00zRiE8ZQEQ",
+    "description": "Weights & Biases @ NeurIPS 2022 on Twitter",
+    "time": "2022-12-02T16:00:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "TQgHmQZJ",
+    "href": "https://activitywatch.net/",
+    "description": "ActivityWatch - Open-source time tracker",
+    "time": "2022-11-30T15:10:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "P8i1xBUb",
+    "href": "https://www.nber.org/papers/w30694",
+    "description": "Measuring Religion from Behavior: Climate Shocks and Religious Adherence in Afghanistan | NBER",
+    "time": "2022-11-30T03:35:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "climatechange data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vW7EbQvD",
+    "href": "https://apps.apple.com/us/app/health-auto-export-json-csv/id1115567069",
+    "description": "Health Auto Export - JSON+CSV on the App Store",
+    "time": "2022-11-30T00:16:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "exercise data tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "IKrpn4Ui",
+    "href": "https://en.wikipedia.org/wiki/Minnesota_Multiphasic_Personality_Inventory",
+    "description": "Minnesota Multiphasic Personality Inventory - Wikipedia",
+    "time": "2022-11-30T00:10:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XaPfjMdB",
+    "href": "https://www.psychologytools.com/download-scales-and-measures/",
+    "description": "Psychological Assessment Scales And Measures | Psychology Tools",
+    "time": "2022-11-30T00:10:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1e4Ew5yk",
+    "href": "https://www.dead.net/deadcast/long-strange-tech-part-2?fbclid=IwAR1u3s6DRXTrzwfaLF1cDaZ5muHvfQjV7t6W1BGsMwtBA0ZHOJlk9yCf-kg&mibextid=Zxz2cZ",
+    "description": "Long Strange Tech, Part 2 | The Official Grateful Dead Podcast",
+    "time": "2022-11-29T23:45:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "podcast music media",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ojJCLGzk",
+    "href": "https://www.idrlabs.com/multiphasic-personality/test.php",
+    "description": "Multiphasic Personality Test",
+    "time": "2022-11-29T23:43:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NT7JMDrO",
+    "href": "https://athletics.fandom.com/wiki/Svenssen_Method",
+    "description": "Svenssen Method | Athlepedia, The Athletics Wiki | Fandom",
+    "time": "2022-11-29T23:28:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4rRzX2So",
+    "href": "https://www.fletc.gov/physical-efficiency-battery-peb",
+    "description": "Physical Efficiency Battery (PEB) | Federal Law Enforcement Training Centers",
+    "time": "2022-11-29T23:27:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": "Illinois Agility Run"
+  },
+  {
+    "scrap_id": "c4Yo22Ub",
+    "href": "https://www.physio-pedia.com/Six_Minute_Walk_Test_/_6_Minute_Walk_Test",
+    "description": "Six Minute Walk Test / 6 Minute Walk Test - Physiopedia",
+    "time": "2022-11-29T23:27:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Lg48ysaN",
+    "href": "https://erj.ersjournals.com/content/47/6/1861",
+    "description": "Use of the modified Borg scale and numerical rating scale to measure chronic breathlessness: a pooled data analysis | European Respiratory Society",
+    "time": "2022-11-29T23:27:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Np2j5dV4",
+    "href": "https://www.physio-pedia.com/Illinois_Agility_Test",
+    "description": "Illinois Agility Test - Physiopedia",
+    "time": "2022-11-29T23:25:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "uW-JHN9k",
+    "href": "https://www.physio-pedia.com/Muscle_Strength_Testing",
+    "description": "Muscle Strength Testing - Physiopedia",
+    "time": "2022-11-29T23:21:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0u1TqTpM",
+    "href": "https://www.physio-pedia.com/Manual_Muscle_Testing:_Hip_Flexion",
+    "description": "Manual Muscle Testing: Hip Flexion - Physiopedia",
+    "time": "2022-11-29T23:21:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pOW_HPX2",
+    "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6815084/",
+    "description": "International Standards for the 3‐Minute Burpee Test: High‐ Intensity Motor Performance - PMC",
+    "time": "2022-11-29T23:21:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "quantifiedself exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nSKMIjqS",
+    "href": "https://journals.lww.com/nsca-jscr/fulltext/2012/08000/kettlebell_swing_training_improves_maximal_and.28.aspx",
+    "description": "Kettlebell Swing Training Improves Maximal and Explosive Str... : The Journal of Strength & Conditioning Research",
+    "time": "2022-11-29T23:13:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yiTvstQC",
+    "href": "https://docs.mapbox.com/help/tutorials/route-avoidance-with-turf-mapbox-directions/",
+    "description": "Route avoidance with the Directions API and Turf.js | Help | Mapbox",
+    "time": "2022-11-29T21:36:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "OYvoLf0C",
+    "href": "https://store.wikimedia.org/products/wikipedia-blue-scarf-unisex",
+    "description": "Wikipedia Blue Scarf (Unisex) – Wikipedia Store",
+    "time": "2022-11-29T20:34:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SpvNTOKN",
+    "href": "https://buyanop1.com/product/op1-keyboard-brand-new/",
+    "description": "OP1 Keyboard – Brand New – BUY an OP1",
+    "time": "2022-11-29T19:39:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mqBvslR7",
+    "href": "https://github.com/CleasbyCode/pdvzip",
+    "description": "CleasbyCode/pdvzip: Embed a ZIP file of up to ≈5MB within a tweetable and 'executable' PNG polyglot image.",
+    "time": "2022-11-29T05:51:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool code",
+    "extended": ""
+  },
+  {
+    "scrap_id": "JydP3_Jp",
+    "href": "https://martinfowler.com/articles/ship-show-ask.html",
+    "description": "Ship / Show / Ask",
+    "time": "2022-11-29T05:50:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "programming",
+    "extended": ""
+  },
+  {
+    "scrap_id": "c2_t4suy",
+    "href": "https://github.com/avitorio/outstatic",
+    "description": "avitorio/outstatic: Outstatic - A static CMS for Next.js",
+    "time": "2022-11-29T05:46:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cms",
+    "extended": ""
+  },
+  {
+    "scrap_id": "HWayKrq2",
+    "href": "https://github.com/frameable/junco-cms",
+    "description": "frameable/junco-cms: Minimal git-based CMS in Node.js",
+    "time": "2022-11-29T05:45:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cms",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9V_tGtR1",
+    "href": "https://outstatic.com/",
+    "description": "Outstatic - A Static Site CMS for Next.js",
+    "time": "2022-11-29T05:43:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cms",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QOp0STLH",
+    "href": "https://observablehq.com/d/9f09764dbbdfc4b5",
+    "description": "Body Camera Analysis / Matt Chapman / Observable",
+    "time": "2022-11-29T05:27:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Z8G0fwFz",
+    "href": "https://asciinema.org/",
+    "description": "asciinema - Record and share your terminal sessions, the simple way",
+    "time": "2022-11-29T05:25:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jcOCmesM",
+    "href": "https://minimaxir.com/2022/11/stable-diffusion-negative-prompt/",
+    "description": "Stable Diffusion 2.0 and the Importance of Negative Prompts for Good Results | Max Woolf's Blog",
+    "time": "2022-11-29T04:51:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning generative",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EL-vtGGm",
+    "href": "https://www.nytimes.com/2015/01/09/style/no-37-big-wedding-or-small.html",
+    "description": "The 36 Questions That Lead to Love - The New York Times",
+    "time": "2022-11-29T04:45:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MpI_fUi1",
+    "href": "https://github.com/typpo/arkose/",
+    "description": "typpo/arkose: GPT-3 enhanced document editor",
+    "time": "2022-11-29T03:18:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "26Huwj6x",
+    "href": "https://img.ly/blog/ultimate-guide-to-ffmpeg/",
+    "description": "FFmpeg - Ultimate Guide | IMG.LY Blog",
+    "time": "2022-11-28T22:34:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "video cli reference",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mAwTFSjX",
+    "href": "https://batsov.com/articles/2022/09/16/oh-my-zsh-fun-with-take/",
+    "description": "Oh My Zsh: Fun with Take - (think)",
+    "time": "2022-11-28T22:19:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli tool",
+    "extended": ""
+  },
+  {
     "id": "109422147521491307",
+    "scrap_id": "mxiKdiH4",
     "href": "https://mastodon.social/@ejfox/109422147521491307",
     "description": "<p>Going live now, doing some livecoding / dataviz on global climate emissions data: <a href=\"https://youtu.be/gWRVV-4mxHE\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">youtu.be/gWRVV-4mxHE</span><span class=\"invisible\"></span></a></p>",
     "time": "2022-11-28T15:31:07.798Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 571613891,
-    "description": "We write your reusable computer vision tools. 💜",
+    "scrap_id": "bATHxsVm",
     "href": "https://github.com/roboflow/supervision",
+    "description": "We write your reusable computer vision tools. 💜",
     "time": "2022-11-28T14:08:44Z",
     "type": "github-star",
     "images": []
   },
   {
     "id": "109416245472771917",
+    "scrap_id": "rwenFFrl",
     "href": "https://mastodon.social/@ejfox/109416245472771917",
     "description": "<p>Trying to design the ideal process and outputs when working on a project in public and trying to “use the whole buffalo”</p>",
     "time": "2022-11-27T14:30:09.699Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/416/243/538/587/110/small/a4c3bf745677fbb0.jpg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "J1P_S-Aw",
+    "href": "https://www.youtube.com/watch?v=XoEQ8wtawPI",
+    "description": "The Biggest Cheater in Speedrunning History was finally caught",
+    "time": "2022-11-27T13:57:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "drama videogames",
+    "extended": "After 2 years, a top Minecraft Speedrunner was caught in a massive cheating plot, faking multiple world records and getting away with it. MinecrAvenger has n..."
   }
 ]

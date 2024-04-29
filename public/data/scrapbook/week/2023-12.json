@@ -1,13 +1,83 @@
 [
   {
+    "scrap_id": "Szs-_Xr1",
+    "href": "https://manifold.markets/IsaacKing/is-bings-chatbot-gpt4",
+    "description": "Is Bing's chatbot GPT-4? | Manifold Markets",
+    "time": "2023-03-24T21:51:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "DVA-zrQw",
+    "href": "https://www.scielo.br/j/dados/a/TVtvgXwKQQXvtkVYzgv87Ht/?lang=en",
+    "description": "SciELO - Brazil - Epistemology and Domination: Problems with the Coloniality of Knowledge Thesis in Latin American Decolonial Theory Epistemology and Domination: Problems with the Coloniality of Knowledge Thesis in Latin American Decolonial Theory",
+    "time": "2023-03-23T17:01:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-4ZETT3N",
+    "href": "https://github.com/johackim/remark-obsidian",
+    "description": "johackim/remark-obsidian: Remark plugin to support Obsidian markdown syntax",
+    "time": "2023-03-23T15:15:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 20994702,
+    "scrap_id": "clPu-SEi",
     "href": "https://www.are.na/block/20994702",
     "description": "",
     "time": "2023-03-22T01:17:12.099Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDk5NDcwMi9vcmlnaW5hbF8yOGI1MmM5ZmM3NzJjYzFmZmNhZjBiYTFkNTZhYzY2Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Human / Machine Collaborations"
+    ]
+  },
+  {
+    "scrap_id": "6-bXRwLH",
+    "href": "https://www.cs.ubc.ca/labs/imager/tr/2014/Overview/overview.pdf",
+    "description": "",
+    "time": "2023-03-22T01:03:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "VGWpmO9p",
+    "href": "https://zoomcorp.com/en/us/field-recorders/field-recorders/f1-sp/",
+    "description": "F1-SP Audio Recorder | Buy Now | ZOOM",
+    "time": "2023-03-21T03:07:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "$229.99"
+  },
+  {
+    "scrap_id": "VuqpBr8B",
+    "href": "https://zoomcorp.com/en/us/field-recorders/field-recorders/f3/",
+    "description": "F3 Field Recorder | ZOOM",
+    "time": "2023-03-21T03:05:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "$299.99"
+  },
+  {
+    "scrap_id": "kT9CeI_7",
+    "href": "https://huggingface.co/spaces/bookbot/Image-Upscaling-Playground",
+    "description": "Image Upscaling Playground - a Hugging Face Space by bookbot",
+    "time": "2023-03-21T01:19:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

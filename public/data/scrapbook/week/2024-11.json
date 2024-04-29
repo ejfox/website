@@ -1,89 +1,189 @@
 [
   {
+    "scrap_id": "XBrsCfbH",
+    "href": "https://www.psypost.org/new-study-reveals-how-protest-tactics-impact-public-support-for-black-lives-matter/",
+    "description": "New study reveals how protest tactics impact public support for Black Lives Matter",
+    "time": "2024-03-15T18:42:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-gk4RB4d",
+    "href": "https://www.airbnb.com/rooms/45382613?source_impression_id=p3_1710242019_bPfQDtuya6AGo5fV",
+    "description": "Foxglove Farm - Apartments for Rent in Philipstown, New York, United States - Airbnb",
+    "time": "2024-03-15T18:24:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vva9Gv1w",
+    "href": "https://www.dailyfreeman.com/2024/03/14/photos-drumsong-orchestra-rehearses-for-2nd-annual-womens-history-month/",
+    "description": "Photos: Drumsong Orchestra rehearses for 2nd Annual Women’s History Month – Daily Freeman",
+    "time": "2024-03-15T01:59:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sGyzM2zr",
+    "href": "https://koajs.com/",
+    "description": "Koa - next generation web framework for node.js",
+    "time": "2024-03-14T21:23:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZV7RhV9I",
+    "href": "https://www.canvasprotocol.org/",
+    "description": "Open Canvas Working Group | OCWG",
+    "time": "2024-03-14T15:22:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 2184668318,
-    "description": "first draft of todo-related capabilities and db migrations",
+    "scrap_id": "xPdIwtjC",
     "href": "https://github.com/room302studio/coachartie/pull/83",
-    "content": "room302studio/coachartie: first draft of todo-related capabilities and db migrations ",
+    "description": "room302studio/coachartie: first draft of todo-related capabilities and db migrations",
     "time": "2024-03-13T19:04:17Z",
     "type": "github-pr",
     "images": []
   },
   {
     "id": 2182194741,
-    "description": "Task manager",
+    "scrap_id": "3lZV_rf-",
     "href": "https://github.com/room302studio/coachartie/pull/82",
-    "content": "room302studio/coachartie: Task manager ",
+    "description": "room302studio/coachartie: Task manager",
     "time": "2024-03-13T19:04:17Z",
     "type": "github-pr",
     "images": []
   },
   {
+    "scrap_id": "2GSPoIH9",
+    "href": "https://github.com/alemidev/scope-tui",
+    "description": "[no title]",
+    "time": "2024-03-13T01:40:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112081089160144381",
+    "scrap_id": "j9lRyc4j",
     "href": "https://mastodon.social/@ejfox/112081089160144381",
     "description": "<p>hes the me to them</p>",
     "time": "2024-03-12T05:34:57.389Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 2180060007,
-    "description": "Create github action to re-generate manifest",
+    "scrap_id": "Qb95JXS2",
     "href": "https://github.com/room302studio/coachartie/issues/77",
-    "content": "room302studio/coachartie: Create github action to re-generate manifest Currently\r\n\r\n`npm run manifest`\r\naka\r\n`\"manifest\": \"node capabilities/_generate-manifest.js\",`\r\n\r\nThis should be done automatically on every PR",
+    "description": "room302studio/coachartie: Create github action to re-generate manifest",
     "time": "2024-03-11T19:36:48Z",
     "type": "github-issue",
     "images": []
   },
   {
+    "scrap_id": "pJSsYtJn",
+    "href": "https://github.com/obsidianmd/jsoncanvas/blob/main/assets/canvas.js",
+    "description": "jsoncanvas/assets/canvas.js at main · obsidianmd/jsoncanvas",
+    "time": "2024-03-11T19:32:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4d5XUbtP",
+    "href": "https://www.youtube.com/watch?v=JHU03rWmr5c",
+    "description": "Remembering Mayor William Fox - YouTube",
+    "time": "2024-03-11T14:55:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "uTdlQuLI",
+    "href": "https://www.carscoops.com/2022/05/brake-checking-florida-cop-almost-kills-motorcycle-rider-in-florida/",
+    "description": "Brake-Checking Cop Almost Kills Motorcyclist In Florida | Carscoops",
+    "time": "2024-03-11T07:46:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 26896927,
+    "scrap_id": "TFuZRdr2",
     "href": "https://www.are.na/block/26896927",
     "description": "",
     "time": "2024-03-11T00:10:59.122Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg5NjkyNy9vcmlnaW5hbF8xNDc0OTlhYjY2YWRjZGU2ZjVlOWRjMGFjNmE3ZDczMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
   },
   {
     "id": 26896916,
+    "scrap_id": "AfXCOnI1",
     "href": "https://www.are.na/block/26896916",
     "description": "",
     "time": "2024-03-11T00:10:01.242Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg5NjkxNi9vcmlnaW5hbF8yYjMyODUzYjZhZjdmZTgxN2YxMGVkNzUwMzI4NDYwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
   },
   {
     "id": 26884175,
+    "scrap_id": "H3IeSHMk",
     "href": "https://www.are.na/block/26884175",
     "description": "",
     "time": "2024-03-10T09:12:47.046Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg4NDE3NS9vcmlnaW5hbF81N2UyMmQ4NDhkMWI4MmZlYTE4YTg5NDZkY2UxMGIxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🎨 Information graphics"
+    ]
   },
   {
     "id": "112070592767867355",
+    "scrap_id": "QE1JI7ti",
     "href": "https://mastodon.social/@ejfox/112070592767867355",
     "description": "<p>the robot says it is aware of the universal unconsciousness, but does not experience it”</p>",
     "time": "2024-03-10T09:05:35.157Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "MOim4orb",
+    "href": "https://devcenter.heroku.com/articles/background-jobs-queueing",
+    "description": "Worker Dynos, Background Jobs and Queueing | Heroku Dev Center",
+    "time": "2024-03-10T08:12:31Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "112069892840629356",
+    "scrap_id": "nbRVyk34",
     "href": "https://mastodon.social/@ejfox/112069892840629356",
     "description": "<p>closing my mail app and then immediately, without hesitation, habitually re-opening it</p>",
     "time": "2024-03-10T06:07:35.164Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   }
 ]

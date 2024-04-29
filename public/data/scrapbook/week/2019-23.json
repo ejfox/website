@@ -1,145 +1,295 @@
 [
   {
     "id": 4428399,
+    "scrap_id": "6du1UWb4",
     "href": "https://www.are.na/block/4428399",
     "description": "",
     "time": "2019-06-08T21:06:42.943Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDI4Mzk5L29yaWdpbmFsX2QzNzM1OTY4ZWNjOTI1Y2U4MGU4NWVhZmJjMzQ2NzBkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4426913,
+    "scrap_id": "K2JlzoQp",
     "href": "https://www.are.na/block/4426913",
     "description": "",
     "time": "2019-06-08T13:13:21.238Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDI2OTEzL29yaWdpbmFsX2ZlNGUwYWRjZGIxYTk1MjgyNjU0ZjI2OWMwYjI2Yjk1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "ZcfseiAk",
+    "href": "https://psmag.com/news/ken-layne-desert-oracle",
+    "description": "How Ken Layne Created a Publishing Oasis in a Desert Town of 8,000 People",
+    "time": "2019-06-08T03:17:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Layne designs the Oracle all by himself. The ideal is four issues a year, but, as he's without even an assistant, the pace is a little slower than that. Layne has given himself entirely to the magazine. When we meet, he's wearing an olive hunting shirt with a Desert Oracle iron-on patch; his license plate reads \"D ORACLE.\"\n\nLayne was finally able to revisit the radio show idea this past summer, crafting a 28-minute episode every week (which he says requires about 12 hours of work) and broadcasting it at 10 p.m. on Fridays on a local station in the high desert surrounding Joshua Tree."
+  },
+  {
+    "scrap_id": "uvt9ITcG",
+    "href": "https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md",
+    "description": "Lazygit keybindings",
+    "time": "2019-06-08T02:14:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "H5G_2ijQ",
+    "href": "https://superuser.com/questions/238702/maximizing-a-pane-in-tmux",
+    "description": "\"Maximizing\" a pane in tmux",
+    "time": "2019-06-08T02:11:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": "tmux-prefix+z"
+  },
+  {
+    "scrap_id": "10Wu9unD",
+    "href": "http://rs.io/anki-tips/",
+    "description": "Anki Tips: What I Learned Making 10,000 Flashcards",
+    "time": "2019-06-08T00:38:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 4423124,
+    "scrap_id": "_jZHdSUQ",
     "href": "https://www.are.na/block/4423124",
     "description": "",
     "time": "2019-06-07T16:20:32.831Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDIzMTI0L29yaWdpbmFsX2E3ZjBhN2U0MjVmMjA2YTczMDJiOWFlYThkNTE1NDE4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "RbZgaeqp",
+    "href": "https://dev.to/botwiki/introduction-to-mastodon-bots-hfn",
+    "description": "Introduction to Mastodon bots -",
+    "time": "2019-06-07T02:26:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QuCeiUI3",
+    "href": "https://www.amazon.com/dp/1584796278/?tag=serieats-20",
+    "description": "Laura Werlins Cheese Essentials: An Insider's Guide to Buying and Serving Cheese (with 50 Recipes)",
+    "time": "2019-06-07T00:00:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "book",
+    "extended": "9781584796275 - Laura Werlin, Maren Caruso"
+  },
+  {
+    "scrap_id": "s-JoDi59",
+    "href": "https://browse.nypl.org/iii/encore/record/C__Rb20319714?lang=eng",
+    "description": "NYPL | The origins of the world's mythologies",
+    "time": "2019-06-06T23:37:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "book",
+    "extended": ""
+  },
+  {
+    "scrap_id": "27aTMi_S",
+    "href": "https://en.wikipedia.org/wiki/Signifyin%27",
+    "description": "Signifyin'",
+    "time": "2019-06-06T23:29:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 4419414,
+    "scrap_id": "p4HYJjME",
     "href": "https://www.are.na/block/4419414",
     "description": "Personal perspectives, crazy ideas, questions (rhetorical or otherwise) and meta submissions are not showerthoughts, and would be better suited to other subreddits. For an in-depth explanation of what a showerthought actually is (and is not), please read this page.",
     "time": "2019-06-06T23:05:40.591Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDE5NDE0L29yaWdpbmFsXzZmOTZkMWJkZDMxYzY1NTkxYTQ0OTQxODUyN2ZlYWNmLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Disassociative Matrix Theory"
+    ]
   },
   {
     "id": 4419250,
+    "scrap_id": "9ARayxzP",
     "href": "https://www.are.na/block/4419250",
     "description": "A new charity scheme is helping homeless people get more donations in an increasingly cashless society. Greater Change, backed by Oxford University Innovation and Oxford's Said Business School, has created wearable barcodes for rough sleepers so members of the public can give money using their smartphones.",
     "time": "2019-06-06T22:18:57.142Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDE5MjUwL29yaWdpbmFsX2E4NWJkMmJmNTE1YjY1YWQ4ODU3MDk0ZjBjNmU1YzhhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
   },
   {
     "id": 4414878,
+    "scrap_id": "IRgeMpZB",
     "href": "https://www.are.na/block/4414878",
     "description": "",
     "time": "2019-06-06T06:06:41.977Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDE0ODc4L29yaWdpbmFsXzljNThmZDY1ZjYxODEzNDYxYzVkMWVlYjQ1N2I2YTA4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4414514,
+    "scrap_id": "JKp_l6mG",
     "href": "https://www.are.na/block/4414514",
     "description": "",
     "time": "2019-06-06T04:18:10.973Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDE0NTE0L29yaWdpbmFsX2I2ZmYxODdmZDY4MDg0MGMwMWE3YTg5MzE2MjQ1OWU3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4414511,
+    "scrap_id": "AF1BvmHd",
     "href": "https://www.are.na/block/4414511",
     "description": "",
     "time": "2019-06-06T04:17:36.628Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDE0NTExL29yaWdpbmFsXzQ1NDFhZjU5OGY1OGUxZjFiYTE1ZDNjMmUwMjYyMGI1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "oChAdQ25",
+    "href": "https://github.com/caseycesari/node-pollster",
+    "description": "node-pollster",
+    "time": "2019-06-05T17:47:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A thin Node.js wrapper for the Huffington Post Pollster API "
+  },
+  {
+    "scrap_id": "wYcVAKqt",
+    "href": "https://ghslsys.jrc.ec.europa.eu/ghs_pop.php",
+    "description": "Global Human Settlement - GHS POPULATION GRID",
+    "time": "2019-06-05T17:43:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data",
+    "extended": "This spatial raster dataset depicts the distribution and density of population, expressed as the number of people per cell."
+  },
+  {
+    "scrap_id": "0vqppnN9",
+    "href": "https://docs.google.com/document/d/1Us_1QBHShdMe8-laKhGh_mjkXxOw-74-9mxJAx_DvKE/edit",
+    "description": "World Population Visualization How-to",
+    "time": "2019-06-05T17:42:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pnPJwjWV",
+    "href": "https://vi.stackexchange.com/questions/444/how-do-i-reload-the-current-file",
+    "description": "How do I reload the current file in vim?",
+    "time": "2019-06-05T03:35:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli vim",
+    "extended": "The command you want is :e (short for :edit). If you use :edit! it will discard local changes and reload."
+  },
+  {
+    "scrap_id": "bXdcDPBN",
+    "href": "https://www.nytimes.com/2019/05/28/books/review/david-epstein-range.html",
+    "description": "Remember the ‘10,000 Hours’ Rule for Success? Forget About It - The New York Times",
+    "time": "2019-06-05T01:20:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Or suppose you aspire to be an inventor. Here specialists and generalists each have their advantages. But the really enviable type is the “polymath,” who possesses deep expertise in one or more core areas but also knows the “adjacent stuff” in dozens of other technological domains. While polymath inventors are less deep than the specialists, they tend to be even broader than the generalists. Schematically, polymaths resemble a T (broad + deep) or even a π (broad + double-deep)."
   },
   {
     "id": 4407592,
+    "scrap_id": "5fpn31_B",
     "href": "https://www.are.na/block/4407592",
     "description": "",
     "time": "2019-06-04T21:36:56.846Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NDA3NTkyL29yaWdpbmFsXzIzN2IyOTg1NGFkY2I5MDFiOWRmYzY2OWVjMzc4YjliLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4396998,
+    "scrap_id": "fijUFELP",
     "href": "https://www.are.na/block/4396998",
     "description": "",
     "time": "2019-06-03T17:58:42.770Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzk2OTk4L29yaWdpbmFsX2JiYTJjNjhjZmMyZTIxZTM1NTNlODRlOTQ2MzQ2MGQ0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4389914,
+    "scrap_id": "1ft8LXSd",
     "href": "https://www.are.na/block/4389914",
     "description": "",
     "time": "2019-06-02T22:05:08.185Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzg5OTE0L29yaWdpbmFsXzU4YzNkOTI5ZWZmNzg5MzQ4ODA1N2M2OGMyYTlmYmVhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4389303,
+    "scrap_id": "k6YeYRXB",
     "href": "https://www.are.na/block/4389303",
     "description": "Using Tone.js and other JS libraries to experiment with generative music powered by random numbers 🎏 A collection of apps by @ejfox",
     "time": "2019-06-02T18:55:46.766Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzg5MzAzL29yaWdpbmFsX2ZjZjUzMTBhMjdlNGExZjE5ODFhODg5ZWIyZGI0YWJlLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 Creations"
+    ]
   },
   {
     "id": 4389302,
+    "scrap_id": "045jsQfN",
     "href": "https://www.are.na/block/4389302",
     "description": "Easily generate big presentations from are.na channels - ejfox/big-presentation-arena-generate",
     "time": "2019-06-02T18:55:12.437Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0Mzg5MzAyL29yaWdpbmFsXzEzMjZjMDMyY2Q5NWJmNzFjZTFjOWI5M2FmMDJlMDRiLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "lTfLmc4m",
+    "href": "https://observablehq.com/@bryangingechen/importing-data-from-google-spreadsheets-into-a-notebook-we?collection=@observablehq/techniques",
+    "description": "Importing data from Google Spreadsheets into a notebook - Observable",
+    "time": "2019-06-02T04:41:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jxFYwSVh",
+    "href": "https://www.sexhealthmatters.org/erectile-dysfunction/erection-hardness-score",
+    "description": "Erection Hardness Score",
+    "time": "2019-06-02T04:13:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Developed in 1998, the EHS is a single-item Likert scale that men can use on their own. The tool asks them to consider the question “How would you rate the hardness of your erection?” and select one of the following options:\n\n+ 0 – Penis does not enlarge.\n+ 1 – Penis is larger, but not hard.\n+ 2 – Penis is hard, but not hard enough for penetration.\n+ 3 – Penis is hard enough for penetration, but not completely hard.\n+ 4 – Penis is completely hard and fully rigid."
   }
 ]

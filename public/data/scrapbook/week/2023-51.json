@@ -1,117 +1,227 @@
 [
   {
     "id": "111632285155514341",
+    "scrap_id": "jO2gyvOJ",
     "href": "https://mastodon.social/@ejfox/111632285155514341",
     "description": "<p>I keep building tools, and don’t get me wrong, my tools fucking rule, but I think I need to make a few months where it is mandatory to simply create things and not allow myself to build any tools at all</p>",
     "time": "2023-12-23T23:18:11.754Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111625776275691452",
+    "scrap_id": "320wNznE",
     "href": "https://mastodon.social/@ejfox/111625776275691452",
     "description": "<p>Me trying to give the robot access to my front door web cam: “yeah and if you see a fedex truck just text me or discord message me, maybe flash the lights?”</p>",
     "time": "2023-12-22T19:42:54.143Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111625567567445262",
+    "scrap_id": "FdmPohz9",
     "href": "https://mastodon.social/@ejfox/111625567567445262",
     "description": "<p>Why did I not put anything right in the central focal point of my painting, seems like a missed opportunity</p>",
     "time": "2023-12-22T18:49:49.500Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/625/567/209/673/960/small/6ce7ab3c68a3d44a.jpeg"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111625107922113952",
+    "scrap_id": "pgc8Wvy7",
     "href": "https://mastodon.social/@ejfox/111625107922113952",
     "description": "<p>ya boy got a presidential pardon</p>",
     "time": "2023-12-22T16:52:55.899Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/625/107/613/604/770/small/08ff14a11678271e.jpeg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "HuMyc5_p",
+    "href": "https://support.zora.co/en/articles/8730492-split-contracts-on-zora",
+    "description": "Split Contracts on Zora | ZORA Help Center",
+    "time": "2023-12-22T02:44:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111615824885162813",
+    "scrap_id": "NvTq_t4i",
     "href": "https://mastodon.social/@ejfox/111615824885162813",
     "description": "",
     "time": "2023-12-21T01:32:07.960Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "89eed83d2974eeb8857784614bfa0921",
-    "description": "",
-    "content": "hv_restaurants_and_farms.json",
+    "scrap_id": "Ou9pRwLl",
     "href": "https://gist.github.com/ejfox/89eed83d2974eeb8857784614bfa0921",
+    "description": "",
     "time": "2023-12-21T01:03:58Z",
     "type": "github-gist",
     "images": []
   },
   {
+    "scrap_id": "Co-e8_OF",
+    "href": "https://www.historicmapworks.com/Atlas/US/683/",
+    "description": "Hudson River Valley 1891 New York Historical Atlas",
+    "time": "2023-12-21T00:55:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ja_FMWRu",
+    "href": "https://en.wikipedia.org/wiki/History_of_the_Hudson_Valley",
+    "description": "History of the Hudson Valley - Wikipedia",
+    "time": "2023-12-21T00:55:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "bkodVkus",
+    "href": "https://support.teenage.engineering/hc/en-us/articles/360012937739-repairs-in-the-US-who-do-i-contact-",
+    "description": "repairs in the US - who do i contact? – teenage engineering support",
+    "time": "2023-12-21T00:14:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "643e4f5339ae54da1722ad8d5c79e4ab",
-    "description": "",
-    "content": "text-to-csv.js",
+    "scrap_id": "IDltddPD",
     "href": "https://gist.github.com/ejfox/643e4f5339ae54da1722ad8d5c79e4ab",
+    "description": "",
     "time": "2023-12-20T19:48:34Z",
     "type": "github-gist",
     "images": []
   },
   {
     "id": "8e93278084ef462e04ca6950261b1ae0",
-    "description": "yt-watchlater",
-    "content": "output.csv, text-to-csv.js, watchlater.html, watchlater.txt",
+    "scrap_id": "QXHdA1en",
     "href": "https://gist.github.com/ejfox/8e93278084ef462e04ca6950261b1ae0",
+    "description": "yt-watchlater",
     "time": "2023-12-20T19:13:29Z",
     "type": "github-gist",
     "images": []
   },
   {
     "id": "111613948213555405",
+    "scrap_id": "bzgkK5H9",
     "href": "https://mastodon.social/@ejfox/111613948213555405",
     "description": "<p>jesus christ <a href=\"https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">404media.co/laion-datasets-rem</span><span class=\"invisible\">oved-stanford-csam-child-abuse/</span></a></p>",
     "time": "2023-12-20T17:34:52.225Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "NwNYewQR",
+    "href": "https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/",
+    "description": "Largest Dataset Powering AI Images Removed After Discovery of Child Sexual Abuse Material",
+    "time": "2023-12-20T17:34:34Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "waQHSKwO",
+    "href": "https://www.latimes.com/california/story/2023-12-19/750-a-month-no-questions-asked-improved-the-lives-of-homeless-people",
+    "description": "$750 a month, no questions asked, improved the lives of homeless people - Los Angeles Times",
+    "time": "2023-12-19T22:04:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111609270554619799",
+    "scrap_id": "Cvikyivo",
     "href": "https://mastodon.social/@ejfox/111609270554619799",
     "description": "<p>i asked the robot to write some fanfiction about my life and I accidentally had it write 16k words and then turned that into a 2 hour audiobook</p>",
     "time": "2023-12-19T21:45:16.952Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/609/268/476/718/196/small/d865b2041ae86967.png",
       "https://files.mastodon.social/media_attachments/files/111/609/268/580/786/079/small/1ce4a768623dc0fb.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111608918479284110",
+    "scrap_id": "QU-BPNVy",
     "href": "https://mastodon.social/@ejfox/111608918479284110",
     "description": "<p>if your are unable to prompt the robot in a way that elicits an unintended emotional reaction in yourself- skill issue</p>",
     "time": "2023-12-19T20:15:44.571Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "I4XbCeQT",
+    "href": "https://www.radioreference.com/db/browse/ctid/1860",
+    "description": "Orange County, New York (NY) Scanner Frequencies and Radio Frequency Reference",
+    "time": "2023-12-19T18:23:58Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111605301763331744",
+    "scrap_id": "H6cNT9cj",
     "href": "https://mastodon.social/@ejfox/111605301763331744",
     "description": "<p>in order to go really fast, you have to not be a coward, those are the rules</p>",
     "time": "2023-12-19T04:55:57.864Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "zZk3ZLRk",
+    "href": "https://www.cryeprecision.com/G4-Combat-Shirt",
+    "description": "G4 Combat Shirt™",
+    "time": "2023-12-19T00:44:19Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5BikZzAr",
+    "href": "https://wheresyoured.at/p/software-has-beaten-the-world",
+    "description": "Software Is Beating The World",
+    "time": "2023-12-18T19:49:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rtyjMSy5",
+    "href": "https://www.perfectcircuit.com/oxi-one.html?clickId=4603820171",
+    "description": "One MIDI / CV Sequencer",
+    "time": "2023-12-18T19:40:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AfmCK-_e",
+    "href": "https://www.wsj.com/articles/tony-hsieh-zappos-death-entourage-11616761915",
+    "description": "Zappos CEO Tony Hsieh Bankrolled His Followers. In Return, They Enabled His Risky Lifestyle.",
+    "time": "2023-12-17T22:33:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The group that surrounded the late Zappos boss comprised a dozen or so men and women drawing salary and commissions from his $840 million fortune. They helped sustain his drug habit, protected him from outsiders and lived off his largess."
   }
 ]

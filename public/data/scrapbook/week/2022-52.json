@@ -1,55 +1,166 @@
 [
   {
+    "scrap_id": "2x7UKml8",
+    "href": "https://www.youtube.com/watch?v=tIBpanu7zt8",
+    "description": "My Top 10 (Most Used) After Effects Plugins of 2022 - YouTube",
+    "time": "2022-12-23T19:44:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nLRUawFM",
+    "href": "https://rideexpeditions.com/roadbook-navigation-guide-beginners/",
+    "description": "Roadbook navigation - A simple guide for beginners",
+    "time": "2022-12-23T16:40:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "109563901481884514",
+    "scrap_id": "60WOXNiX",
     "href": "https://mastodon.social/@ejfox/109563901481884514",
     "description": "<p>Things are really coming together, tighten up that network. </p><p>Book highlights in yellow 🟡<br />Tags in green 🟢<br />Blog posts in gray 🔘</p>",
     "time": "2022-12-23T16:21:01.574Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/563/898/744/979/778/small/98eab9ce388ead46.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "j_rMcXaB",
+    "href": "https://www.youtube.com/watch?v=AbZeg9I-gQI",
+    "description": "Homeless shepherd shares hunter-gatherer diet & survival tips - YouTube",
+    "time": "2022-12-23T15:38:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "109563420261515389",
+    "scrap_id": "JRh5Y2Yu",
     "href": "https://mastodon.social/@ejfox/109563420261515389",
     "description": "<p>Really loving taking the time with Obsidian to tie links between my notes and build out a graph of everything that is floating around in my brain right now</p>",
     "time": "2022-12-23T14:18:38.737Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/563/416/175/083/001/small/75b6e90d8969f32d.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "JQL9uBEn",
+    "href": "https://www.youtube.com/watch?v=vN6z7-EChIw&list=WL&index=5",
+    "description": "DIGITAL FASHION in Blender - YouTube",
+    "time": "2022-12-23T04:00:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "3d",
+    "extended": ""
+  },
+  {
+    "scrap_id": "lXnbAkTd",
+    "href": "https://github.com/Fil/plot-cli",
+    "description": "Fil/plot-cli: Observable Plot on the command line",
+    "time": "2022-12-21T21:32:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ef0Z3iTL",
+    "href": "https://www.youtube.com/watch?v=erHTpIUFA_g",
+    "description": "(1) Best Knots for the Outdoors || REI - YouTube",
+    "time": "2022-12-20T00:39:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "camping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "A4XqilbA",
+    "href": "https://twitter.com/mathemagic1an/status/1604802787296284674",
+    "description": "Jay Hack on Twitter: \"GPT-3/LLMs' Achilles heel is short context length - how many \"in-context\" examples they can consume to learn a new task. Enter \"Structured Prompting\": scale your examples from dozens =&gt; 1,000+ Here's how👇 https://t.co/ojImIhcIE",
+    "time": "2022-12-20T00:12:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
   },
   {
     "id": "109543082243566417",
+    "scrap_id": "piifnWyi",
     "href": "https://mastodon.social/@ejfox/109543082243566417",
     "description": "<p>🏍️🏕️ June 2023, I hope </p><p><a href=\"https://felt.com/map/Motorcycle-Roadtrip-AnxgkmpmQyWNKWZJtLUiRC\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">felt.com/map/Motorcycle-Roadtr</span><span class=\"invisible\">ip-AnxgkmpmQyWNKWZJtLUiRC</span></a></p>",
     "time": "2022-12-20T00:06:25.211Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/543/080/318/643/714/small/9fd55f49cd9639ac.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "109542717605607779",
+    "scrap_id": "lkzERu-y",
     "href": "https://mastodon.social/@ejfox/109542717605607779",
     "description": "<p>gonna try a new sleep schedule where I go to bed at sunset and wake up at 3am</p>",
     "time": "2022-12-19T22:33:41.281Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "lx0RAUwK",
+    "href": "https://www.revzilla.com/motorcycle/stockton-roadside-tool-kit?rrec=true",
+    "description": "Stockton Roadside Tool Kit | 38% ($30.00) Off! - RevZilla",
+    "time": "2022-12-18T22:29:08Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_M2Pmwai",
+    "href": "https://www.artstation.com/marketplace/p/dooWr/digital-fashion-verybasics-virtualwardrobe-asset-pack-blender-marvelous-designer",
+    "description": "ArtStation - Digital Fashion VERYBASICS - VirtualWardrobe & Asset Pack (Blender & Marvelous Designer) | Game Assets",
+    "time": "2022-12-18T18:17:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
   },
   {
     "id": 19472530,
+    "scrap_id": "J3-46iZy",
     "href": "https://www.are.na/block/19472530",
     "description": "",
     "time": "2022-12-18T15:50:20.364Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxOTQ3MjUzMC9vcmlnaW5hbF9jODUxNjIxYjM3Yjk0MmNjYjcwMjhjOTUxNjUwZmY0Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "id": 19472530,
+    "scrap_id": "J3-46iZy",
+    "href": "https://www.are.na/block/19472530",
+    "description": "",
+    "time": "2022-12-18T15:50:20.364Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxOTQ3MjUzMC9vcmlnaW5hbF9jODUxNjIxYjM3Yjk0MmNjYjcwMjhjOTUxNjUwZmY0Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "27Rg1KB8",
+    "href": "https://joshuaiz.com/words/post-to-mastodon-on-commit-with-github-actions",
+    "description": "Joshua Iz - Words - Post to Mastodon on Commit with GitHub Actions",
+    "time": "2022-12-18T15:37:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mastodon github",
+    "extended": ""
   }
 ]

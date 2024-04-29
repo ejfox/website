@@ -1,79 +1,119 @@
 [
   {
+    "scrap_id": "KNlv3dIy",
+    "href": "https://twitter.com/carolineha_/status/1152682348800073730?s=17",
+    "description": "Caroline Haskins (@carolineha_) Tweeted: If you haven’t already read this by @alibreland, it’s very good https://t.co/UeDDP2uYZ8",
+    "time": "2019-07-20T20:52:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 4665781,
+    "scrap_id": "-5oEjwuq",
     "href": "https://www.are.na/block/4665781",
     "description": "",
     "time": "2019-07-20T20:28:59.934Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjY1NzgxL29yaWdpbmFsXzUwYWViYzk2NjgwODg2YWQwZGE0MTIxZDRkMGNjMGQxLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4665747,
+    "scrap_id": "wj_W6-9C",
     "href": "https://www.are.na/block/4665747",
     "description": "",
     "time": "2019-07-20T20:14:11.100Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjY1NzQ3L29yaWdpbmFsXzU0YTg1Mjg2ODQ4MmRmMGJmZDJhZTJhMWU1Mjc5MDI1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4665031,
+    "scrap_id": "U4PHzCPl",
     "href": "https://www.are.na/block/4665031",
     "description": "",
     "time": "2019-07-20T17:02:13.636Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjY1MDMxL29yaWdpbmFsX2YxMjY0ODAyYjJmZjMyYWRmODBiMmQ4Y2I5NTNmMWM0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4661016,
+    "scrap_id": "rHRwUczc",
     "href": "https://www.are.na/block/4661016",
     "description": "",
     "time": "2019-07-19T17:56:31.849Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjYxMDE2L29yaWdpbmFsX2UxNGEyMDNkM2JhYjAzMjEyOGU4MDAwZGUwZGE3MDM5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4657670,
+    "scrap_id": "st_I3b6K",
     "href": "https://www.are.na/block/4657670",
     "description": "",
     "time": "2019-07-19T02:55:31.096Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjU3NjcwL29yaWdpbmFsXzI2MThkZTM2MWFmYTI3NjNmZGMwYjVhNjc1OGIyMjUxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "y1dOvWw1",
+    "href": "https://en.wikipedia.org/wiki/List_of_confidence_tricks",
+    "description": "List of confidence tricks",
+    "time": "2019-07-18T19:09:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "This list of confidence tricks and scams should not be considered complete, but covers the most common examples."
   },
   {
     "id": 4653284,
+    "scrap_id": "0maU_4XO",
     "href": "https://www.are.na/block/4653284",
     "description": null,
     "time": "2019-07-18T13:58:32.673Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjUzMjg0L29yaWdpbmFsXzk4ZmJlN2FhMjNiMzk0YjY2ZDdkYzIzZTJmYjQxMDYzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 4651237,
+    "scrap_id": "Y9KYYBze",
     "href": "https://www.are.na/block/4651237",
     "description": "",
     "time": "2019-07-18T02:19:06.013Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0NjUxMjM3L29yaWdpbmFsXzVhYTU1MGNiMWY1ZmQxMTA4YjFhOGQ2MDBkMGE5MGY5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "2hR3GUDd",
+    "href": "https://en.wikipedia.org/wiki/Jargon_File",
+    "description": "Jargon File",
+    "time": "2019-07-14T11:02:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "In 1981, a hacker named Charles Spurgeon got a large chunk of the File published in Stewart Brand's CoEvolution Quarterly (issue 29, pages 26–35) with illustrations by Phil Wadler and Guy Steele (including a couple of Steele's Crunchly cartoons). This appears to have been the File's first paper publication."
+  },
+  {
+    "scrap_id": "4dd8n2VM",
+    "href": "https://en.wikipedia.org/wiki/Wikipedia:Backlog",
+    "description": "Wikipedia:Backlog",
+    "time": "2019-07-14T10:39:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "This backlog page lists tasks that should be done to improve Wikipedia (assuming the cleanup templates were placed correctly). Helping reduce backlogs is an important issue, so please feel free to help out and/or develop this page (or ways to quantify these things) further."
   }
 ]

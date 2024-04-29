@@ -1,13 +1,33 @@
 [
   {
+    "scrap_id": "9HkcFakO",
+    "href": "https://onezero.medium.com/how-to-destroy-surveillance-capitalism-8135e6744d59",
+    "description": "How to Destroy Surveillance Capitalism, a New Book by Cory Doctorow | OneZero",
+    "time": "2020-08-27T06:15:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 8457120,
+    "scrap_id": "V9pyTcRo",
     "href": "https://www.are.na/block/8457120",
     "description": "QANON COVID-19 disinformation on Utah FM radio. pic.twitter.com/L2kVZuMn8s",
     "time": "2020-08-26T14:54:34.714Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI4NDU3MTIwL29yaWdpbmFsX2U3OGZkODJlYjcyOTIxZDdkZmM0NWIwYjU4ZWQwOGUwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🧠 Cyberpunk"
+    ]
+  },
+  {
+    "scrap_id": "b1_vubSS",
+    "href": "https://www.youtube.com/watch?v=QAja2jp1VjE&feature=youtu.be",
+    "description": "Freaky Dot Patterns - Numberphile",
+    "time": "2020-08-23T23:15:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "visualization art video",
+    "extended": ""
   }
 ]

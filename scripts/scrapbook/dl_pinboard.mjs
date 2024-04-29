@@ -41,59 +41,57 @@ const fetchBookmarks = async () => {
 
 const isCI = process.env.CI === 'true'
 
-if (isCI) {
-  console.time('Time elapsed')
-  const bookmarks = await fetchBookmarks()
-  const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-  const filePath = path.join(dirPath, 'bookmarks.json')
-  const existingBookmarks = await fs
-    .readFile(filePath, 'utf8')
-    .catch(() => '[]')
-  const mergedBookmarks = JSON.stringify(
-    [...JSON.parse(existingBookmarks), ...bookmarks],
-    null,
-    2,
-  )
-  await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
-  if (!fs.existsSync(filePath)) {
-    await fs.writeFile(filePath, '[]')
+const processBookmarks = async () => {
+  const spinner = ora('Initializing download...').start();
+  try {
+    const bookmarks = await fetchBookmarks();
+    const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
+    await fs.mkdir(dirPath, { recursive: true }); // Ensure directory exists
+    const filePath = path.join(dirPath, 'bookmarks.json');
+    
+    let existingBookmarks = [];
+    try {
+      existingBookmarks = JSON.parse(await fs.readFile(filePath, 'utf8'));
+    } catch (error) {
+      console.error('Failed to read existing bookmarks, assuming none.', error);
+      await fs.writeFile(filePath, '[]'); // Ensure the file exists
+    }
+    
+    const mergedBookmarks = [...existingBookmarks, ...bookmarks];
+    await fs.writeFile(filePath, JSON.stringify(mergedBookmarks, null, 2));
+    spinner.succeed('Bookmarks processed and saved.');
+    return mergedBookmarks;
+  } catch (error) {
+    spinner.fail('Failed to process bookmarks.');
+    console.error(error);
+    throw error; // Rethrow or handle as needed
   }
-  await fs.writeFile(filePath, mergedBookmarks)
-  console.timeEnd('Time elapsed')
+};
+
+if (isCI) {
+  console.time('Time elapsed');
+  processBookmarks().then(bookmarks => {
+    console.timeEnd('Time elapsed');
+    console.log('Bookmarks processed:', bookmarks.length);
+  }).catch(console.error);
 } else {
-  inquirer
-    .prompt([
-      {
-        type: 'confirm',
-        name: 'fetchAll',
-        message: 'Would you like to fetch all bookmarks?',
-        default: true,
-      },
-    ])
-    .then(async (answers) => {
-      console.time('Time elapsed')
-      if (answers.fetchAll) {
-        const bookmarks = await fetchBookmarks()
-        const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-        const filePath = path.join(dirPath, 'bookmarks.json')
-        const existingBookmarks = await fs
-          .readFile(filePath, 'utf8')
-          .catch(() => '[]')
-        const mergedBookmarks = JSON.stringify(
-          [...JSON.parse(existingBookmarks), ...bookmarks],
-          null,
-          2,
-        )
-        await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
-        if (!fs.existsSync(filePath)) {
-          await fs.writeFile(filePath, '[]')
-        }
-        await fs.writeFile(filePath, mergedBookmarks)
-      } else {
-        console.log('Fetching canceled.')
-      }
-      console.timeEnd('Time elapsed')
-    })
+  inquirer.prompt([
+    {
+      type: 'confirm',
+      name: 'fetchAll',
+      message: 'Would you like to fetch all bookmarks?',
+      default: true,
+    }
+  ]).then(async (answers) => {
+    if (answers.fetchAll) {
+      console.time('Time elapsed');
+      const mergedBookmarks = await processBookmarks();
+      console.log('Bookmarks processed:', mergedBookmarks.length);
+      console.timeEnd('Time elapsed');
+    } else {
+      console.log('Fetching canceled.');
+    }
+  });
 }
 
-export { fetchBookmarks }
+export { fetchBookmarks };

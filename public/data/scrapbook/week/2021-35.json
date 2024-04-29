@@ -1,79 +1,210 @@
 [
   {
+    "scrap_id": "KAXJvfSg",
+    "href": "https://www.youtube.com/watch?v=cKx8xE8jJZs&t=1126s",
+    "description": "Enter the Kettlebell - Pavel Tsatsouline - YouTube",
+    "time": "2021-08-29T02:58:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "APcyiE0K",
+    "href": "https://www.youtube.com/watch?v=HpXM7HBSJ6Q",
+    "description": "Bulgarian Bag Training – Eric Doyle – Long Beach Kettlebell Club - YouTube",
+    "time": "2021-08-29T02:51:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ok7JUz2w",
+    "href": "https://www.niemanlab.org/2021/08/facebook-sent-a-ton-of-traffic-to-a-chicago-tribune-story-so-why-is-everyone-mad-at-them/",
+    "description": "Facebook sent a ton of traffic to a Chicago Tribune story. So why is everyone mad at them? » Nieman Journalism Lab",
+    "time": "2021-08-28T13:17:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rIOcS8d-",
+    "href": "https://gizmodo.com/online-trolls-actually-just-assholes-all-the-time-stud-1847575210",
+    "description": "Online Trolls Also Jerks in Real Life: Aarhus University Study",
+    "time": "2021-08-28T02:56:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mMqKFvyD",
+    "href": "https://github.com/nuvious/pam-duress",
+    "description": "nuvious/pam-duress: A Pluggable Authentication Module (PAM) which allows the establishment of alternate passwords that can be used to perform actions to clear sensitive data, notify IT/Security staff, close off sensitive network connections, etc if a user",
+    "time": "2021-08-26T19:29:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 12963980,
+    "scrap_id": "fpckHcqE",
     "href": "https://www.are.na/block/12963980",
     "description": "",
     "time": "2021-08-26T13:59:41.888Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjk2Mzk4MC9vcmlnaW5hbF9lOTliNjQyNjM0NzYyYjM3NDQ5MzM2ZGQ3ZDA4MTgxMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "id": 12963980,
+    "scrap_id": "fpckHcqE",
+    "href": "https://www.are.na/block/12963980",
+    "description": "",
+    "time": "2021-08-26T13:59:41.888Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjk2Mzk4MC9vcmlnaW5hbF9lOTliNjQyNjM0NzYyYjM3NDQ5MzM2ZGQ3ZDA4MTgxMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "nLwOs9J4",
+    "href": "https://www.turntablelab.com/products/handsome-boy-modeling-school-white-people-colored-vinyl-vinyl-2lp?fbclid=IwAR0Z2LxkNp6jdxOf8VpEbaShydXt1XdUmjvGOCSgdJrSMQkSo5r2Digg89I",
+    "description": "Handsome Boy Modeling School: White People (Colored Vinyl) Vinyl 2LP – TurntableLab.com",
+    "time": "2021-08-26T04:30:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 12959796,
+    "scrap_id": "RL_2QeAr",
     "href": "https://www.are.na/block/12959796",
     "description": "",
     "time": "2021-08-26T04:26:05.893Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjk1OTc5Ni9vcmlnaW5hbF9hM2EwNzRlMDEyNjJlZTdhYTNlYjAxNWM1NGNiNThmOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "_RayXG4r",
+    "href": "https://www.youtube.com/watch?v=YMZtYSdhM38",
+    "description": "The Rise of Tim Pool w/ Robert Silverman - YouTube",
+    "time": "2021-08-25T15:52:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mNvvLsXL",
+    "href": "https://t.co/ptEQtYCyz0?ssr=true",
+    "description": "The Last of the Monsters with Iron Teeth",
+    "time": "2021-08-25T15:10:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BVP1qviL",
+    "href": "https://mit.zoom.us/rec/play/miK2Z8Vd1IUZ01JnqFKSZFZ3fL_4-YiSMgHKUI21R3RlDPVZ7tLk9i6tKnWApKIh_KpIt-HW_cIkSxYE.HctbnOpN5NxQBbh7",
+    "description": "Future Sketches Talks",
+    "time": "2021-08-24T22:03:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 12940708,
+    "scrap_id": "4LOW_mjA",
     "href": "https://www.are.na/block/12940708",
     "description": "",
     "time": "2021-08-24T19:02:59.137Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjk0MDcwOC9vcmlnaW5hbF8xMDU5YmY5NjM4MmUxOTkzZWU2NGMyOGY1NzEyZTY4ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   },
   {
     "id": 12932715,
+    "scrap_id": "v20gxsUy",
     "href": "https://www.are.na/block/12932715",
     "description": "",
     "time": "2021-08-24T02:30:49.993Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjkzMjcxNS9vcmlnaW5hbF9jYzljNzYzYmE2N2M5NTdiN2U2ODRkNmI0NjQzMjM4OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 12932696,
+    "scrap_id": "DDI44xjf",
     "href": "https://www.are.na/block/12932696",
     "description": "",
     "time": "2021-08-24T02:29:14.502Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjkzMjY5Ni9vcmlnaW5hbF9iMmU3NTdjNjdhMWMxNDVlZWI4YmNmZTNmOTc1MGM3NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 12932694,
+    "scrap_id": "rdxIz4lm",
     "href": "https://www.are.na/block/12932694",
     "description": "",
     "time": "2021-08-24T02:29:07.654Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjkzMjY5NC9vcmlnaW5hbF9hNjM0MmQzMjRjNTQzYzhlM2NhMTI5MjY5NTljMWZmNC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 12930544,
+    "scrap_id": "gqKzldpB",
     "href": "https://www.are.na/block/12930544",
     "description": "",
     "time": "2021-08-23T22:28:34.374Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjkzMDU0NC9vcmlnaW5hbF8wMWI0NzFjNmVmNjQyOWFjYjg4YzQzNzg0ZmU2ZGUyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "WXxBC2kR",
+    "href": "https://modern.ircdocs.horse/",
+    "description": "IRC Client Protocol Specification",
+    "time": "2021-08-23T17:54:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BI_rDIfb",
+    "href": "https://twitter.com/nicole_rifkin",
+    "description": "Nicole Rifkin🔮 (@nicole_rifkin) / Twitter",
+    "time": "2021-08-23T17:27:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tohire",
+    "extended": ""
+  },
+  {
+    "scrap_id": "u3AhelPs",
+    "href": "https://www.theatlantic.com/science/archive/2021/08/how-we-live-coronavirus-forever/619783/",
+    "description": "How We Live With the Coronavirus Forever - The Atlantic",
+    "time": "2021-08-23T16:02:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "covid",
+    "extended": ""
   }
 ]

@@ -1,29 +1,99 @@
 [
   {
     "id": "110838324051950096",
+    "scrap_id": "xju5sVvP",
     "href": "https://mastodon.social/@ejfox/110838324051950096",
     "description": "<p>I would love, for example, to let my GPT-4 powered discord bot access my specific location to get location-specific answers – he just needs a URL to query that will always return accurate results</p>",
     "time": "2023-08-05T18:03:26.748Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "110838320632910440",
+    "scrap_id": "-Yp8YU8C",
     "href": "https://mastodon.social/@ejfox/110838320632910440",
     "description": "<p>I want a publicly-accessible API endpoint, with some basic auth, that returns an accurate lat/lon of my position at all times. If Im being tracked already might as well make it useful for myself.</p>",
     "time": "2023-08-05T18:02:34.581Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "iAgnsmbZ",
+    "href": "https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github",
+    "description": "GitHub Pull Requests and Issues - Visual Studio Marketplace",
+    "time": "2023-08-04T20:38:03Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ac_mKSl0",
+    "href": "https://www.schuminweb.com/life-and-times/september-24-part-1/",
+    "description": "The Schumin Web » September 24 Protests, Part 1",
+    "time": "2023-08-03T20:22:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "myyk3cdQ",
+    "href": "https://rtyley.github.io/bfg-repo-cleaner/",
+    "description": "BFG Repo-Cleaner by rtyley",
+    "time": "2023-08-03T18:23:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Qu4VlTBe",
+    "href": "https://huggingface.co/thenlper/gte-small",
+    "description": "thenlper/gte-small · Hugging Face",
+    "time": "2023-08-03T16:01:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "blekfvlY",
+    "href": "https://opendata-dcny.hub.arcgis.com/",
+    "description": "Dutchess County GIS Open Data",
+    "time": "2023-08-03T15:51:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EjU3tT-I",
+    "href": "https://www.dailyfreeman.com/2023/07/31/central-hudson-seeks-16-delivery-rate-hike-for-electricity-19-for-gas/",
+    "description": "Central Hudson seeks 16% delivery rate hike for electricity; 19% for gas – Daily Freeman",
+    "time": "2023-08-02T23:35:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "dDfKrPps",
+    "href": "https://www.theringer.com/music/2023/7/27/23808537/grateful-dead-and-company-final-tour-john-mayer",
+    "description": "Requiem for Dead and Co., Grateful Dead, and an American Institution - The Ringer",
+    "time": "2023-08-02T16:17:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110810444317958472",
+    "scrap_id": "kJEmTuDj",
     "href": "https://mastodon.social/@ejfox/110810444317958472",
     "description": "<p>showing my love by not letting the robot touch our correspondence</p>",
     "time": "2023-07-31T19:53:15.780Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "scrap_id": "MTpD68Qg",
+    "href": "https://github.com/marketplace/actions/comment-webpage-screenshot",
+    "description": "Comment Webpage Screenshot · Actions · GitHub Marketplace",
+    "time": "2022-07-14T18:35:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool github",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-boB0vpF",
+    "href": "https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/",
+    "description": "The Cost of Javascript Frameworks - Web Performance Consulting | TimKadlec.com",
+    "time": "2022-07-14T16:19:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "vue",
+    "extended": ""
+  },
+  {
+    "scrap_id": "duPJPA0E",
+    "href": "https://twitter.com/joeyeatsfridays/status/1547273642538565640",
+    "description": "Joseph Hillenbrand on Twitter: \"Lately I've seen some fatigue from graphic designers who are seeing the same mockups over and over. I was just given access to the AI-image generator DALLE-2 and wanted to see how we can use this tool to generate *unique* m",
+    "time": "2022-07-14T16:06:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning design",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Jq9oEdx4",
+    "href": "https://observablehq.com/@observablehq/hello-dataproofer",
+    "description": "Hello, dataproofer / Observable / Observable",
+    "time": "2022-07-11T16:58:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "hAp0YR8y",
+    "href": "https://observablehq.com/@bmschmidt/new-yorkers-from-canada-to-the-amboys",
+    "description": "New Yorkers from Canada to the Amboys / Benjamin Schmidt / Observable",
+    "time": "2022-07-10T14:33:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz ny",
+    "extended": ""
+  }
+]

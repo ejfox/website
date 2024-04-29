@@ -1,19 +1,30 @@
-import md5 from "js-md5";
-// require instead
-// const md5 = require('js-md5')
+import CryptoJS from 'crypto-js';
 
-export function scrapToUUID(scrap) {
-  const hash = md5(scrap?.type + scrap?.href);
-  return hash;
+export function generateShortId(data, length = 8) {
+  const hash = CryptoJS.SHA256(data);
+  const base64 = CryptoJS.enc.Base64.stringify(hash)
+                         .replace(/\+/g, '-')
+                         .replace(/\//g, '_')
+                         .replace(/=+$/, '');
+  return base64.substring(0, length);
+}
+export function scrapToUUID(scrapIdString) {
+  return generateShortId(scrapIdString);
 }
 
 export function uuidToScrap(uuid, scrapArray) {
-  // we need to find the scrap that matches the uuid
-  if (!scrapArray) return console.error('No scrap array');
-  if (!scrapArray.length) return console.error('Empty scrap array');
-  if (!uuid) return console.error('No uuid');
-  const scrap = scrapArray.find((scrap) => scrapToUUID(scrap) === uuid);
-  if (!scrap) return console.error('No scrap found');
+  if (!scrapArray || !scrapArray.length || !uuid) {
+    console.error('Invalid input', uuid);
+    return null;
+  }
+
+  const scrap = scrapArray.find(scrap => scrap.scrap_id === uuid);
+
+  if (!scrap) {
+    console.error('No scrap found for the given UUID', uuid);
+    return null;
+  }
+
   return scrap;
 }
 

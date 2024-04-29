@@ -1,0 +1,102 @@
+[
+  {
+    "scrap_id": "_9kiiuGd",
+    "href": "https://www.hackster.io/middleca/sending-sound-over-the-internet-f097b4",
+    "description": "Sending sound over the internet using photon",
+    "time": "2019-02-03T03:31:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "hacking audio",
+    "extended": "Broadcast audio, record voice commands, build internet walkie-talkies with this simple tutorial!"
+  },
+  {
+    "scrap_id": "6zGD3v-x",
+    "href": "https://www.theverge.com/2018/12/18/18145399/launch-center-pro-nfc-actions-triggers-iphone-update-app-android",
+    "description": "iPhones can now automate tasks using NFC with Launch Center Pro",
+    "time": "2019-02-03T03:20:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "automation ios",
+    "extended": "iPhone users are finally getting a convenient and powerful feature that’s long been available on Android phones: the ability to tap an NFC tag and have their phone automatically perform certain actions, like opening an app or playing music."
+  },
+  {
+    "scrap_id": "J8Jwxp0P",
+    "href": "http://sfpc.io/codesocieties-winter-19/2019/01/18/we-play-programmed.html",
+    "description": "we play programmed",
+    "time": "2019-02-03T00:18:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "art",
+    "extended": "We prioritize certain behaviors curated by social programming, whether by poetry or by survival. Through dissecting Fluct’s latest work ‘everythingmakesmehappy.’, we will discuss the processes used to create performance aimed at exposing and ultimately interrupting the psychology of social programming. With fluid interruption, responsive support and acute presence, we are aiming to disable oppressive structures in order to become the authors of our existence."
+  },
+  {
+    "scrap_id": "BOpFiMWD",
+    "href": "https://www.engadget.com/2019/01/31/sex-censorship-killed-internet-fosta-sesta/",
+    "description": "How sex censorship killed the internet we love",
+    "time": "2019-02-01T22:17:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The ignorance behind the war on sex raged by the Facebooks, the Apples, the Googles, the advertisers, the algorithms, is not only dated, but dangerous. As women fight for control of our reproductive organs, as trans people fight for the right to use a bathroom, the trolls have convinced the gatekeepers that sex must be silent, and 4chan — acting on the urges of right-wing populists — deserves a voice."
+  },
+  {
+    "scrap_id": "mfFUNJNO",
+    "href": "https://medium.com/s/douglas-rushkoff/the-power-of-not-retweeting-868ebff6d42c",
+    "description": "The Power of Not Retweeting – Douglas Rushkoff – Medium",
+    "time": "2019-02-01T17:07:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Tweeting one’s outrage is not real activism, anyway. It’s really just a form of social signaling. Doing so without even knowing anything about the scene we’re commenting on is just adding noise. Worse, it becomes good evidence that whatever side you’re on is just as guilty of disinformation and rushing to judgment as the trolls."
+  },
+  {
+    "scrap_id": "LDoRZEpI",
+    "href": "https://louisabraham.github.io/articles/WPA-wifi-cracking-MBP.html",
+    "description": "WPA wifi cracking on a MacBook Pro with deauth",
+    "time": "2019-02-01T01:32:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "There are 3 steps:\r\n+ Identify the target access point: name (= BSSID), MAC address (= SSID) and channel (~ radio frequency)\r\n+ Sniff the channel in monitor mode to retrieve:\r\n- a beacon (easy)\r\n- a handshake (= four-way handshake), or some frames of it (hard)\r\n+ Crack the password using the dump"
+  },
+  {
+    "scrap_id": "0Whwf-6Z",
+    "href": "https://deardesignstudent.com/in-praise-of-the-ak-47-a24cc8a46c13",
+    "description": "In Praise of the AK-47 – Dear Design Student",
+    "time": "2019-01-31T18:35:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "design",
+    "extended": "Possibly. If Kalashnikov hadn’t designed the AK-47 wouldn’t someone else just have designed another rifle? Most assuredly. And they did. There are as many types of rifles out there shooting up our villages, our churches, and our Marine recruiting stations as there is cereal in the cereal aisle. And they all have a designer’s name attached to them. The shit we design carries our name.\r\n\r\nYour role as a designer is to leave the world in a better state than you found it. You have a responsibility to design work that helps move humanity forward and helps us, as a species, to not only enjoy our time on Earth, but to evolve."
+  },
+  {
+    "scrap_id": "V7MnL3PB",
+    "href": "https://www.nytimes.com/2019/01/30/opinion/buzzfeed-layoffs.html",
+    "description": "nyti.ms",
+    "time": "2019-01-31T05:52:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "x8PVN5VM",
+    "href": "https://www.inc.com/cameron-albert-deitch/atlanta-black-startup-founders-new-generation.html",
+    "description": "www.inc.com",
+    "time": "2019-01-29T15:14:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tTSKmMpS",
+    "href": "https://undark.org/article/junk-science-or-real-thing-inference/",
+    "description": "undark.org",
+    "time": "2019-01-28T14:35:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

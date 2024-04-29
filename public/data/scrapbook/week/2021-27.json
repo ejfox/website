@@ -1,35 +1,155 @@
 [
   {
     "id": 12431273,
+    "scrap_id": "Irj9d6Vg",
     "href": "https://www.are.na/block/12431273",
     "description": "",
     "time": "2021-07-03T16:41:46.558Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjQzMTI3My9vcmlnaW5hbF8yZDUyNmQzODdlZjg2ZTRiNDBlYmIxYTNhNGI0ZDg5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "DV87laL5",
+    "href": "https://www.wnyc.org/story/identifying-network-clusters-nypd-officers-repeatedly-accused-misconduct/",
+    "description": "Identifying The Network Clusters of NYPD Officers Repeatedly Accused Of Misconduct | WNYC News | WNYC",
+    "time": "2021-07-02T00:47:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GPZh7cR1",
+    "href": "https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab/Illustration_workshop",
+    "description": "Wikipedia:Graphics Lab/Illustration workshop - Wikipedia",
+    "time": "2021-07-01T21:26:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wXQdknkg",
+    "href": "https://en.wikipedia.org/wiki/Category:Wikipedia_requested_diagram_images",
+    "description": "Category:Wikipedia requested diagram images - Wikipedia",
+    "time": "2021-07-01T21:26:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NK7-zCqk",
+    "href": "https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab/Map_workshop",
+    "description": "Wikipedia:Graphics Lab/Map workshop - Wikipedia",
+    "time": "2021-07-01T21:25:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZxRYGjtV",
+    "href": "https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab",
+    "description": "Wikipedia:Graphics Lab - Wikipedia",
+    "time": "2021-07-01T21:25:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 12414949,
+    "scrap_id": "9hh18uSL",
     "href": "https://www.are.na/block/12414949",
     "description": "",
     "time": "2021-07-01T13:22:44.267Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjQxNDk0OS9vcmlnaW5hbF80ZjY3MGIxNTQ2ZjRiNDM5MmUzYzlhODI2ZmIyZTQ1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "uJ024-G2",
+    "href": "https://newrepublic.com/article/162875/damning-truth-behind-cop-walkout-stories#Echobox=1625084092",
+    "description": "Are Police Really Quitting Because of Protests? | The New Republic",
+    "time": "2021-07-01T01:35:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EISH3Lqa",
+    "href": "https://observablehq.com/@saneef/029-contours",
+    "description": "029 Map of Somewhere / Saneef H. Ansari / Observable",
+    "time": "2021-07-01T01:03:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gsYfhd5j",
+    "href": "https://georgefrancis.dev/writing/generative-grid-layouts-with-quadtrees/",
+    "description": "Building Generative Grid Layouts With Quadtrees | George Francis",
+    "time": "2021-07-01T01:03:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Cc35YlVl",
+    "href": "https://www.abeautifulsite.net/posts/downloading-a-list-of-urls-automatically/",
+    "description": "Downloading a list of URLs automatically",
+    "time": "2021-06-30T16:11:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Uo6n0FJj",
+    "href": "https://www.youtube.com/watch?v=sKqt6e7EcCs",
+    "description": "(1) how to theoretically turn a sphere inside out - YouTube",
+    "time": "2021-06-30T14:55:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KfSEA-jZ",
+    "href": "https://thewikipedian.net/2020/06/25/how-wikipedia-has-responded-to-the-george-floyd-protests/",
+    "description": "» How Wikipedia Has Responded to the George Floyd Protests The Wikipedian",
+    "time": "2021-06-30T14:01:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "O-tnd6zw",
+    "href": "https://thewikipedian.net/2020/04/15/how-wikipedia-is-covering-the-coronavirus-pandemic/",
+    "description": "» How Wikipedia is Covering the Coronavirus Pandemic The Wikipedian",
+    "time": "2021-06-30T14:01:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 12402295,
+    "scrap_id": "DHc3aSGk",
     "href": "https://www.are.na/block/12402295",
     "description": "",
     "time": "2021-06-30T11:08:43.558Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjQwMjI5NS9vcmlnaW5hbF9jZGQzZWQ2ZDEzZThhOWNkNmVmYWVlZWUxNzQ4MzhmZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   }
 ]

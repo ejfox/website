@@ -1,45 +1,185 @@
 [
   {
+    "scrap_id": "OKdcCyRG",
+    "href": "https://youtube.com/watch?v=C85wVb0yMK0&feature=share",
+    "description": "[no title]",
+    "time": "2023-07-08T03:21:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jseAKDI4",
+    "href": "https://matteo-gabriele.gitbook.io/vue-gtag/v/next/",
+    "description": "Get started - vue-gtag",
+    "time": "2023-07-06T16:20:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "110663488122988029",
+    "scrap_id": "lvoVOCvq",
     "href": "https://mastodon.social/@ejfox/110663488122988029",
     "description": "<p>I find this fact deeply distressing</p>",
     "time": "2023-07-05T21:00:22.201Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/663/487/720/369/813/small/19735ed8f0c7ac38.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "AM_wyT_j",
+    "href": "https://hellgatenyc.com/all-aboard-nycs-communist-yacht-club",
+    "description": "All Aboard NYC's Communist Yacht Club - Hell Gate",
+    "time": "2023-07-05T18:10:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SesAmORR",
+    "href": "https://turbotax.intuit.com/tax-tips/irs-tax-return/how-to-obtain-a-copy-of-your-tax-return/L13d9uLMa",
+    "description": "How to Obtain a Copy of Your Tax Return - TurboTax Tax Tips & Videos",
+    "time": "2023-07-04T15:14:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110652125764320817",
+    "scrap_id": "skWLWQW7",
     "href": "https://mastodon.social/@ejfox/110652125764320817",
     "description": "<p>friendship ended with lightroom and capture one, Finder with tags is my new best friend</p>",
     "time": "2023-07-03T20:50:46.363Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/652/123/852/988/745/small/9134f4a6789e3ab2.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "LvOPQCUf",
+    "href": "https://mudler.pm/posts/smart-slackbot-for-teams/",
+    "description": "Create a Question answering bot for Slack on your data, that you can run locally :: Mudler blog — Place where I write about stuff",
+    "time": "2023-07-03T13:33:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110647987955815119",
+    "scrap_id": "HJ8Ywbnp",
     "href": "https://mastodon.social/@ejfox/110647987955815119",
     "description": "<p>I mean, I know I wrote it, but its crazy to see my robot creating gists on the fly now whenever he chooses <a href=\"https://gist.github.com/coachartie/17ffc2ba38cba6601703d6ecdf140e8c\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">gist.github.com/coachartie/17f</span><span class=\"invisible\">fc2ba38cba6601703d6ecdf140e8c</span></a></p>",
     "time": "2023-07-03T03:18:28.409Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/647/982/420/545/982/small/e4aa5a124cc1064f.png",
       "https://files.mastodon.social/media_attachments/files/110/647/982/642/167/659/small/ea04c82b04e8f2a3.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "dfNRu5uE",
+    "href": "https://rmfpc.com/wp-content/uploads/2022/01/Clean-Water-Act-Lawsuit-Commenced-Against-Dragon-Springs-Buddhist-Inc.-For-Polluting-Bashar-Kill-And-Neversink-River-2.pdf",
+    "description": "",
+    "time": "2023-07-02T23:51:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "JrLVBoqP",
+    "href": "https://www.niemanlab.org/2020/10/what-is-the-epoch-times-a-vehicle-for-pro-trump-conspiracy-theories-and-the-culmination-of-all-that-facebook-has-encouraged/",
+    "description": "What is The Epoch Times? A vehicle for pro-Trump conspiracy theories, and the culmination of all that Facebook has encouraged | Nieman Journalism Lab",
+    "time": "2023-07-02T23:38:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "X9ldSWlC",
+    "href": "https://www.nytimes.com/2020/10/24/technology/epoch-times-influence-falun-gong.html?smid=tw-share",
+    "description": "How The Epoch Times Created a Giant Influence Machine - The New York Times",
+    "time": "2023-07-02T23:34:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4_ijXILY",
+    "href": "https://journals.sagepub.com/doi/10.1177/0097700420942153",
+    "description": "Anti-Activism and Its Impact on Civil Society in Hong Kong: A Case Study of the Anti–Falun Gong Campaign - Cheris Shun-ching Chan, Andrew Junker, 2021",
+    "time": "2023-07-02T18:17:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YKi7DZux",
+    "href": "https://www.amazon.com/Becoming-Activists-Global-China-Movements-ebook/dp/B07N45DCC4/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
+    "description": "Becoming Activists in Global China: Social Movements in the Chinese Diaspora - Kindle edition by Junker, Andrew. Politics & Social Sciences Kindle eBooks @ Amazon.com.",
+    "time": "2023-07-02T18:16:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9unB99M5",
+    "href": "https://www.theepochtimes.com/t-joseph-destefano",
+    "description": "joseph destefano | The Epoch Times",
+    "time": "2023-07-02T18:11:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Mayor of Middletown, New York, Spurs City Redevelopment Under New Vision"
+  },
+  {
+    "scrap_id": "jwC_KMgN",
+    "href": "https://www.vitsoe.com/gb/606",
+    "description": "606 Universal Shelving System | Vitsœ",
+    "time": "2023-07-02T16:03:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eyTeRS-I",
+    "href": "https://www.designpublic.com/products/xavier-pauchard-tolix-indoor-h-45-stool",
+    "description": "Tolix H45 Stool - Indoor by Xavier Pauchard | Design Public",
+    "time": "2023-07-02T16:02:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110645218193763880",
+    "scrap_id": "cXWEKF8_",
     "href": "https://mastodon.social/@ejfox/110645218193763880",
     "description": "<p>the late-capitalist web is failing in front of our eyes, and here we are again, pleading to the muddy techno-anarchists for help building things from the ashes with the contraptions they have been working on</p>",
     "time": "2023-07-02T15:34:05.255Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "uu4O0bde",
+    "href": "https://fedidb.org/",
+    "description": "FediDB - Fediverse Network Statistics",
+    "time": "2023-07-02T15:05:32Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   }
 ]

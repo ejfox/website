@@ -1,105 +1,405 @@
 [
   {
+    "scrap_id": "KtBrsgXp",
+    "href": "https://hackerwarehouse.com/product/portapack-hackrf-one/",
+    "description": "[no title]",
+    "time": "2024-01-20T16:45:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Sf2Wx5qg",
+    "href": "https://kokopelli.com/products/rogue-lite-x?variant=40846559903926",
+    "description": "Rogue-Lite X | KOKOPELLI",
+    "time": "2024-01-20T05:53:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NsbxQnhB",
+    "href": "https://kokopelli.com/collections/garage-sale/products/garage-sale-adventure-series?variant=42609928077494",
+    "description": "Garage Sale: Adventure Series (Flat or Open Water to Class II) Packraf | KOKOPELLI",
+    "time": "2024-01-20T05:51:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BnTsmnYP",
+    "href": "https://hamstudy.org/tech2022",
+    "description": "HamStudy.org: Technician class Ham Radio practice tests, ham radio flash cards, and ham radio question pool.",
+    "time": "2024-01-20T05:39:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "111786594508108835",
+    "scrap_id": "N3OtnMY7",
     "href": "https://mastodon.social/@ejfox/111786594508108835",
     "description": "<p>Realizing part of what I am feeling is withdrawals from what used to be semi regular positive feedback from social media</p>",
     "time": "2024-01-20T05:21:05.616Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "yXube_35",
+    "href": "https://meshtastic.org/",
+    "description": "Meshtastic",
+    "time": "2024-01-20T00:37:21Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "k7WD9zqE",
+    "href": "https://www.lilygo.cc/products/t-echo",
+    "description": "T-Echo Meshtastic – LILYGO®",
+    "time": "2024-01-20T00:36:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "owXciDLr",
+    "href": "https://dash.cloudflare.com/deffa184038440afc07f53b5e7583a97/workers-and-pages/create/workers/new?template=llm-app",
+    "description": "Get started with Workers & Pages | Ejfox@ejfox.com's Account | Cloudflare",
+    "time": "2024-01-19T23:37:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gaTzn_4o",
+    "href": "https://www.itstactical.com/gearcom/apparel/comprehensive-guide-protective-combat-uniform/",
+    "description": "The PCU Protective Combat Uniform: A Buyer's Guide and Clothing System History - ITS Tactical",
+    "time": "2024-01-19T21:31:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111783602197257179",
+    "scrap_id": "kx3DoPTE",
     "href": "https://mastodon.social/@ejfox/111783602197257179",
     "description": "<p>Asking all my tinder matches “jung or freud”</p>",
     "time": "2024-01-19T16:40:06.575Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "2doQSVyQ",
+    "href": "https://atlanticfirearms.com/tommybuilt-tactical-t36c-pistol",
+    "description": "Tommy Built Tactical T36C Pistol SALE - AtlanticFirearms.com",
+    "time": "2024-01-19T15:46:52Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "icwbq9vL",
+    "href": "https://github.com/Helicone/helicone",
+    "description": "Helicone/helicone",
+    "time": "2024-01-18T21:28:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111777608724994172",
+    "scrap_id": "orve0LZg",
     "href": "https://mastodon.social/@ejfox/111777608724994172",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@zubakskees\" class=\"u-url mention\">@<span>zubakskees</span></a></span> i have a hard time trusting the judgement of anyone who is still making free content for that website; feel like I have learned a lot about people I used to respect</p>",
     "time": "2024-01-18T15:15:53.448Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111772780948281073",
+    "scrap_id": "8YGVV0Af",
     "href": "https://mastodon.social/@ejfox/111772780948281073",
     "description": "<p>filling up the context window with code and docs and stuff seems to cause it to forget the instruction (I think this has a bit to do with ordering, more recent things are more strongly followed, it seems like OpenAIs Assistant API puts the system prompt first) - which is pretty fundamentally useless and makes me worried about larger context windows if they arent actually followed (telling me I have 8GB when only 4GB is usable, essentially)</p>",
     "time": "2024-01-17T18:48:07.420Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "295b31afc7d5d0e57de1237ac4d1c0d2",
-    "description": "",
-    "content": "DomElementTo3DPosition.vue",
+    "scrap_id": "rhJsKyu3",
     "href": "https://gist.github.com/ejfox/295b31afc7d5d0e57de1237ac4d1c0d2",
+    "description": "",
     "time": "2024-01-17T18:21:37Z",
     "type": "github-gist",
     "images": []
   },
   {
+    "scrap_id": "oqG3yHAs",
+    "href": "https://www.youtube.com/watch?v=LWpUcaCHD3Q",
+    "description": "Noise Displacement in TouchDesigner - YouTube",
+    "time": "2024-01-17T16:30:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "111772179050603708",
+    "scrap_id": "QoX-WuAm",
     "href": "https://mastodon.social/@ejfox/111772179050603708",
     "description": "<p>Im sure these are well-meaning people who just dont know much about the responsibilities and skills inherent in managing a team I thought, fuckin idiot</p>",
     "time": "2024-01-17T16:15:03.179Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111772175437702688",
+    "scrap_id": "llEh9TY1",
     "href": "https://mastodon.social/@ejfox/111772175437702688",
     "description": "<p>I am no longer teaching mediocre white men who have somehow failed upwards how to be good managers anymore- what a waste of 10 years</p>",
     "time": "2024-01-17T16:14:08.061Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 25751054,
+    "scrap_id": "07VH0Fn-",
     "href": "https://www.are.na/block/25751054",
     "description": "",
     "time": "2024-01-17T15:20:18.019Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTc1MTA1NC9vcmlnaW5hbF9hMmIxYmYwMGFmYjRjZWExOGU5MDgwYjIxMjhjZTg2ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "F5WuVi0S",
+    "href": "https://www.thebaltimorebanner.com/economy/baltimore-sun-david-smith-sinclair-owner-F77S3D47ORD7LNEPZ7PJCXSLWM/",
+    "description": "New Baltimore Sun owner insults staff, says paper should mimic Fox45",
+    "time": "2024-01-17T14:39:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Baltimore businessman David Smith told Sun staff he had not been a regular newspaper reader for decades."
+  },
+  {
+    "scrap_id": "Y2gZj67g",
+    "href": "https://gist.github.com/mbostock/2b85250396c17a79155302f91ec21224",
+    "description": "GeoJSON in Three.js",
+    "time": "2024-01-16T21:15:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111767694784529284",
+    "scrap_id": "mN5ayYUl",
     "href": "https://mastodon.social/@ejfox/111767694784529284",
     "description": "<p>I have unlocked the most powerful, advanced methods of moving around objects in 3D, I can do almost anything, unrestricted by any dimension, in addition I have pulled in the latest unreleased beta version of my favorite animation library, which is applying beautiful gentle easing to every object across 3D space; and yet, idk what the fuck to do with any of this shit</p>",
     "time": "2024-01-16T21:14:38.720Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "yS2nIQHl",
+    "href": "https://www.nytimes.com/2024/01/16/nyregion/mathew-bianchi-nypd-traffic-tickets.html",
+    "description": "An Idealistic Cop, a Forbidden Ticket and a Police Career on the Brink - The New York Times",
+    "time": "2024-01-16T20:30:56Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_Vavvjum",
+    "href": "https://www.confluencephilanthropy.org/Philanthropys-Top-Down-Approach-Is-Undermining-Indigenous-Movements-For-Climate-Justice",
+    "description": "Philanthropy’s Top-Down Approach Is Undermining Indigenous Movements for Climate Justice | Confluence Philanthropy",
+    "time": "2024-01-16T20:17:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2_0LPD08",
+    "href": "https://wildernessinnovation.com/",
+    "description": "Quality Survival Gear & Training - Wilderness Innovation",
+    "time": "2024-01-16T20:15:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kLJrvQBX",
+    "href": "https://www.activeloop.ai/resources/generate-image-embeddings-using-a-pre-trained-cnn-and-store-them-in-hub/",
+    "description": "Generate image embeddings using a pre-trained CNN and store them in Hub",
+    "time": "2024-01-16T17:30:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WSLn72CE",
+    "href": "https://nownownow.com/about",
+    "description": "about nownownow.com",
+    "time": "2024-01-16T16:31:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AMV1GNVz",
+    "href": "https://onlyny.com/collections/winter-sale/products/block-logo-raglan-hoodie?variant=40267734155348",
+    "description": "Block Logo Raglan Hoodie – Only NY",
+    "time": "2024-01-16T16:08:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111766365766961749",
+    "scrap_id": "TbsEfVdl",
     "href": "https://mastodon.social/@ejfox/111766365766961749",
     "description": "<p>When combining election data from different sources, or even years, you will find a candidates name spelled in different ways, or including a middle name (Joseph Biden, Joe Biden, JOSEPH R BIDEN) in ways that make it hard to bind on a single candidate name, so I built a huge list of all the candidates the FEC had data on and built a fuzzy name search to bind them. But there were uh, some hiccups</p><p><a href=\"https://res.cloudinary.com/ejf/image/upload/v1705260808/Screenshot_2024-01-14_at_2.33.16_PM.png\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">res.cloudinary.com/ejf/image/u</span><span class=\"invisible\">pload/v1705260808/Screenshot_2024-01-14_at_2.33.16_PM.png</span></a></p>",
     "time": "2024-01-16T15:36:39.525Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "CiIr1He3",
+    "href": "https://northstbags.com/products/north-st-tool-roll?variant=39678789550236",
+    "description": "Tool Roll | North St Bags | Made in Portland, OR",
+    "time": "2024-01-16T03:59:25Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "xmEYPgft",
+    "href": "https://northstbags.com/products/laptop-sleeve?variant=44271865037025",
+    "description": "Laptop Sleeve | North St Bags | Made in Portland, OR",
+    "time": "2024-01-16T03:58:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "aRYW19Mv",
+    "href": "https://www.us.rains.com/collections/waterproof-laptop-sleeves/products/laptop-portfolio-13?variant=39449756237847",
+    "description": "Rains® Laptop Portfolio 13″/14″ in Black for $75 | Free Shipping",
+    "time": "2024-01-16T03:54:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "N3fUug4z",
+    "href": "https://blog.llamaindex.ai/building-multi-tenancy-rag-system-with-llamaindex-0d6ab4e0c44b",
+    "description": "Building Multi-Tenancy RAG System with LlamaIndex | by Ravi Theja | Jan, 2024 | LlamaIndex Blog",
+    "time": "2024-01-15T23:56:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0SL7yhiS",
+    "href": "https://visakanv.gumroad.com/l/FANbook",
+    "description": "FRIENDLY AMBITIOUS NERD v1.0",
+    "time": "2024-01-15T23:51:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-lLOivJR",
+    "href": "https://visakanv.gumroad.com/l/introspect",
+    "description": "INTROSPECT",
+    "time": "2024-01-15T23:51:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 25706956,
+    "scrap_id": "as43teAk",
     "href": "https://www.are.na/block/25706956",
     "description": "",
     "time": "2024-01-15T15:54:29.547Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTcwNjk1Ni9vcmlnaW5hbF9jMjQxYjhkMzIwZWEyZDcwYTE1Y2FlMzE4ZjcxNTRhNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
+  },
+  {
+    "scrap_id": "Dse-7oko",
+    "href": "https://efficana.com/products/the-productivity-timer?campaign_id=120201396265560554&ad_id=120201396265610554",
+    "description": "The Productivity Timer",
+    "time": "2024-01-15T15:09:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QH1Dmso7",
+    "href": "https://blog.cassidoo.co/post/annoyed-at-react/",
+    "description": "Kind of annoyed at React",
+    "time": "2024-01-14T23:53:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "DClS9R9N",
+    "href": "https://youtube.com/watch?v=f-uMiQ7CRvE&si=SU2o93_AbQnsdRbw",
+    "description": "[no title]",
+    "time": "2024-01-14T22:05:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-G_aa_hT",
+    "href": "https://www.newyorker.com/culture/the-weekend-essay/coming-of-age-at-the-dawn-of-the-social-internet",
+    "description": "Coming of Age at the Dawn of the Social Internet",
+    "time": "2024-01-14T17:06:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Online platforms allowed me to cultivate a freer version of myself. Then the digital world began to close off."
+  },
+  {
+    "scrap_id": "IdyByCpN",
+    "href": "https://www.withings.com/us/en/body-scan",
+    "description": "Get a health check-up - Body Scan",
+    "time": "2024-01-14T05:54:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Withings Body Scan revolutionizes home health monitoring with the ability to measure segmental body composition, record a 6-Lead ECG & assess nerve health."
   }
 ]

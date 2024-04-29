@@ -1,0 +1,102 @@
+[
+  {
+    "scrap_id": "ermVnFT8",
+    "href": "https://medium.com/@satorid23/how-the-sixties-counterculture-shaped-the-personal-computer-industry-b34192c79780",
+    "description": "How the Sixties Counterculture Shaped the Personal Computer Industry",
+    "time": "2019-03-23T18:51:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "In Markoff’s view, it was characterized by a bohemian sensibility that was open to experiments in alternative living arrangements, a disposition to anti-establishment politics (especially opposition to the military-industrial complex and its war in Vietnam), and a willingness to experiment with altered psychic states, especially through ingesting and inhaling certain substances. More fundamentally, in Markoff’s account of the period, what was shared by the hippies and the personal computing pioneers based in and around Stanford was a commitment to transforming the world and the nature of humanity in a fundamental way — bringing about a change that hadn’t come before."
+  },
+  {
+    "scrap_id": "VIuVUG0g",
+    "href": "https://www.wired.com/story/wired25-stewart-brand-whole-earth/",
+    "description": "Stewart Brand and the Tools to Make the Whole Earth Better | WIRED",
+    "time": "2019-03-23T18:43:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "hackers activism inspiration",
+    "extended": "Surveying the landscape that formed and energized WIRED, you can’t avoid the mythic stuff of Brand: He was one of Ken Kesey’s Merry Pranksters, as immortalized in Tom Wolfe’s Electric Kool-Aid Acid Test. He worked with Douglas Engelbart on “The Mother of All Demos,” which in 1968 introduced hypertext, email, the mouse. He created the Whole Earth Catalog and its descendants­; he founded CoEvolution Quarterly."
+  },
+  {
+    "scrap_id": "JZ7mV5tR",
+    "href": "https://patrickcollison.com/advice",
+    "description": "Advice · Patrick Collison",
+    "time": "2019-03-23T18:41:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "- Don't stress out too much about how valuable the things you're going deep on are... but don't ignore it either. It should be a factor you weigh but not by itself dispositive.\r\n- Make friends over the internet with people who are great at things you're interested in. The internet is one of the biggest advantages you have over prior generations. Leverage it."
+  },
+  {
+    "scrap_id": "EQiZEfe-",
+    "href": "https://www.latimes.com/business/technology/la-fi-tn-uber-driver-strike-la-pay-cut-20190323-story.html",
+    "description": "‘I'm really struggling’: Facing pay cuts, some ride-hailing drivers prepare to strike - Los Angeles Times",
+    "time": "2019-03-23T15:49:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "While the organizers want to eventually secure a place among the established unions, the focus now is on spreading the word among a diffuse workforce.\n“This is about person-to-person organizing,” Moore said.\n\nOne method is through an app they’ve built that matches organizers with drivers who have expressed interest in their campaign. Organizers discuss drivers’ concerns, promote the strike and identify potential leaders. Keodara — who can’t afford to take any time off from driving — said it allows him to stay involved."
+  },
+  {
+    "scrap_id": "DcE3H-B0",
+    "href": "https://emma.best/2019/03/20/the-russian-contractor-who-infiltrated-anonymous/",
+    "description": "Leaker, Liar, Hacker, Hoaxer: The Russian contractor who infiltrated Anonymous – Emma Best",
+    "time": "2019-03-20T22:37:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "hrxou6S7",
+    "href": "https://www.drawcutinkpress.com/linocutting-exercises-for-beginners/",
+    "description": "Linocutting Exercises for Beginners - Draw Cut Ink Press",
+    "time": "2019-03-20T22:27:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "I would encourage any beginners out there to practice some of the following exercises that I found in a small book called ‘The Art of Linocutting’, published in 1936 and written by Len A. Doust."
+  },
+  {
+    "scrap_id": "agSka_XH",
+    "href": "https://medium.com/xcblog/generating-jwt-tokens-for-app-store-connect-api-2b2693812a35",
+    "description": "Generating JWT Tokens for App Store Connect API – XCBlog – Medium",
+    "time": "2019-03-20T17:35:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "As mentioned earlier, JWT is used to generate the token that has been used by App Store Connect API. The process of generating token requires following six details\r\n\r\nIssuer ID: The ID found on the top of App Store Connect\r\nPrivate Key ID: The ID associated with Private Key on App Store Connect\r\nExpiration Time: 20 min maximum, the token cannot be valid more than 20 min so that we have to make sure that, we will create new token before it expires.\r\nAudience: This is constant with API version value usually “applestoreconnect-v1”\r\nAlgorithm: This is JWT algorithm required to generate token e.g ES256"
+  },
+  {
+    "scrap_id": "ljqRHzES",
+    "href": "https://github.com/nomic-io/lotion",
+    "description": "nomic-io/lotion: ✨ Smooth, easy blockchain apps ✨",
+    "time": "2019-03-20T05:48:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "javascript crypto",
+    "extended": "Lotion lets you build blockchains. At any moment in time, the whole state of your blockchain is represented by a single JavaScript object called the state.\r\n\r\nUsers will create transactions: JavaScript objects that tell the application how to mutate the blockchain's state.\r\n\r\nEvery user who runs your Lotion app will interact with the same blockchain. Anyone can create a transaction, and it will automagically find its way to everyone else running the app and mutate their state. Everyone's state objects will constantly be kept in sync with each other."
+  },
+  {
+    "scrap_id": "rYWEqKmp",
+    "href": "https://www.documentcloud.org/documents/5763099-NICAR-Doxxing-Handout.html",
+    "description": "NICAR Doxxing Handout",
+    "time": "2019-03-20T05:25:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "qXYGWAWf",
+    "href": "https://www.newyorker.com/culture/culture-desk/stepping-into-the-uncanny-unsettling-world-of-shen-yun",
+    "description": "Stepping Into the Uncanny, Unsettling World of Shen Yun | The New Yorker",
+    "time": "2019-03-19T20:44:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

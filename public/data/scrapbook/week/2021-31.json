@@ -1,10 +1,61 @@
 [
   {
+    "scrap_id": "8TqeqbLY",
+    "href": "https://www.youtube.com/watch?v=WRHzqBjZ4dY",
+    "description": "(1) Portal's Biggest Speedrun Skip Finally Discovered After 14 Years - YouTube",
+    "time": "2021-07-31T01:53:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "etR93XEq",
+    "href": "https://www.cheapjoes.com/frank-webb-watercolor-palette.html",
+    "description": "Frank Webb Watercolor Palette | Cheap Joe's - Cheap Joe's Art Stuff",
+    "time": "2021-07-30T17:46:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 390875517,
-    "description": "The word highlighter library for Vue 2 and Vue 3.",
+    "scrap_id": "tWGJkE8H",
     "href": "https://github.com/kawamataryo/vue-word-highlighter",
+    "description": "The word highlighter library for Vue 2 and Vue 3.",
     "time": "2021-07-29T23:35:30Z",
     "type": "github-star",
     "images": []
+  },
+  {
+    "scrap_id": "7tXzRfq6",
+    "href": "https://github.com/mwilliamson/mammoth.js/",
+    "description": "mwilliamson/mammoth.js: Convert Word documents (.docx files) to HTML",
+    "time": "2021-07-28T19:28:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "egNyhvbw",
+    "href": "https://www.youtube.com/watch?v=JOOSikanIlI",
+    "description": "(1) The Best Way to Cook Rice is All About the Right Ratio | Rice | What's Eating Dan? - YouTube",
+    "time": "2021-07-27T20:07:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QcaDTK6M",
+    "href": "https://observablehq.com/@oliviafvane/i-drawing-water-in-old-maps",
+    "description": "I: Drawing water (in old maps) / Olivia Vane / Observable",
+    "time": "2021-07-27T19:07:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

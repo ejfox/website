@@ -1,10 +1,131 @@
 [
   {
+    "scrap_id": "IXrAuc07",
+    "href": "https://www.youtube.com/watch?v=SZX0sCMREFo",
+    "description": "The EASY way to design for multiple screen sizes in After Effects | Free Template - YouTube",
+    "time": "2022-10-07T20:39:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "video howto",
+    "extended": ""
+  },
+  {
+    "scrap_id": "S4PGGvIs",
+    "href": "https://helpx.adobe.com/after-effects/using/data-driven-animations.html",
+    "description": "Work with Data-driven animation",
+    "time": "2022-10-05T19:28:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data video",
+    "extended": ""
+  },
+  {
     "id": 546206616,
-    "description": "the AI-native open-source embedding database",
+    "scrap_id": "Dp9oyIzk",
     "href": "https://github.com/chroma-core/chroma",
+    "description": "the AI-native open-source embedding database",
     "time": "2022-10-05T17:58:44Z",
     "type": "github-star",
     "images": []
+  },
+  {
+    "scrap_id": "szkvEw43",
+    "href": "https://docs.google.com/spreadsheets/d/1Qz4b75MWojAT6L1ATNI2OaySMoKilMij8re_LxCXz5s/edit#gid=340419034",
+    "description": "Soap Spreadsheet - Google Sheets",
+    "time": "2022-10-05T02:23:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "soap",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ud3-Zr9y",
+    "href": "https://robertorocha.info/getting-tabular-data-from-unstructured-text-with-gpt-3-an-ongoing-experiment/",
+    "description": "Getting tabular data from unstructured text with GPT-3: an ongoing experiment – Roberto Rocha",
+    "time": "2022-10-05T02:22:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SRT6V1_H",
+    "href": "https://observablehq.com/@asg017/introducing-dataflow",
+    "description": "Introducing Dataflow, a self-hosted Observable Notebook Editor / Alex Garcia / Observable",
+    "time": "2022-10-04T04:26:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nQ7oi1w-",
+    "href": "https://www.youtube.com/watch?v=EU-4-Czo77U",
+    "description": "Bulgarian Bag HIIT Workout for Jiu Jitsu - YouTube",
+    "time": "2022-10-04T02:31:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "exercise jiujitsu",
+    "extended": ""
+  },
+  {
+    "scrap_id": "DsllUbdK",
+    "href": "https://www.sapiens.org/archaeology/farming-simulator-anthropology/",
+    "description": "The Anthropology of Farming Simulator – SAPIENS",
+    "time": "2022-10-04T00:24:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Kx3-Uypf",
+    "href": "https://pastebin.com/7f5dcDM5",
+    "description": "GPT-3 Dairy Farm Documentary Shot List",
+    "time": "2022-10-03T14:22:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-HNmKUG_",
+    "href": "https://pastebin.com/9YmCg6nq",
+    "description": "GPT-3 Apple Orchard Documentary Shot List",
+    "time": "2022-10-03T14:22:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jDR6WlRD",
+    "href": "https://pastebin.com/hKbxvrAx",
+    "description": "GPT-3 Coffee Shop Documentary Shot List",
+    "time": "2022-10-03T14:19:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MksAAZPL",
+    "href": "https://millerssunshinecleaning.com/?fbclid=IwAR38ivmqBtP4kZey5hgCAgvPfn2ONLijijvC-Dvs7NnDkTLuAqPL9A0ZaaQ",
+    "description": "Cleaning Services | Walden & Newburgh, NY | Miller’s Sunshine Cleaning",
+    "time": "2022-10-03T11:36:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "OHO9fxxN",
+    "href": "https://midhudsonnews.com/2022/10/01/planeload-of-teens-flown-from-texas-to-orange-county-airport-2/?fbclid=IwAR3MNREF4R5Dwr-cXzrTu_wmYM0onUykhM_Ic17VgmkC3kIxfo97T8agnEc",
+    "description": "Planeload of teens flown from Texas to Orange County Airport - Mid Hudson News",
+    "time": "2022-10-03T11:30:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics",
+    "extended": ""
   }
 ]

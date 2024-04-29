@@ -1,22 +1,82 @@
 [
   {
     "id": "111220532939833130",
+    "scrap_id": "hHo_miwi",
     "href": "https://mastodon.social/@ejfox/111220532939833130",
     "description": "",
     "time": "2023-10-12T06:04:11.551Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/220/532/753/137/729/small/eeb7dcb2e23233be.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "sMYIU_JI",
+    "href": "https://www.adn.com/nation-world/2023/10/10/washington-tribe-catches-first-salmon-on-free-flowing-river-since-dams-removed/",
+    "description": "Washington tribe catches first salmon on free-flowing river since dams removed",
+    "time": "2023-10-12T03:43:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Two dams on the Olympic Peninsulaâs Elwha River were gone by 2014 in what was the largest dam removal project ever undertaken."
   },
   {
     "id": "111214957958223651",
+    "scrap_id": "j6vDIE3_",
     "href": "https://mastodon.social/@ejfox/111214957958223651",
     "description": "<p>are we not conversing with the ashes of our ancestors when we speak to the LLMs? if the corpus contains a shred of their writing, if some of their soul has been absorbed, is being allowed to commune with that not sacred?</p>",
     "time": "2023-10-11T06:26:24.081Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "GO1UZrPJ",
+    "href": "https://www.seriouseats.com/how-to-mince-chop-garlic-microplane-vs-garlic-press",
+    "description": "The Best Way to Mince Garlic",
+    "time": "2023-10-10T20:54:27Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "K9sKOf9W",
+    "href": "https://www.seriouseats.com/israeli-style-extra-smooth-hummus-recipe",
+    "description": "The Best Smooth Hummus Recipe",
+    "time": "2023-10-10T20:50:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "R2AADkT1",
+    "href": "https://www.eddiebauer.com/p/10112594/cirruslite-down-joggers",
+    "description": "Cirruslite Down Joggers",
+    "time": "2023-10-10T14:26:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZHi9K1fS",
+    "href": "https://en.wikipedia.org/wiki/Lenapehoking#/media/File:R_P_Bolton,_indicating_Native_American_Paths_in_Manhattan_,rendered_1922.jpg",
+    "description": "R P Bolton, indicating Native American Paths in Manhattan ,rendered 1922 - Lenapehoking - Wikipedia",
+    "time": "2023-10-09T22:36:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "CBCEzjIu",
+    "href": "https://www.nytimes.com/1983/06/15/nyregion/oldest-streets-are-protected-as-landmark.html",
+    "description": "OLDEST STREETS ARE PROTECTED AS LANDMARK - The New York Times",
+    "time": "2023-10-09T22:35:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The area designated is a rough triangular bounded by Broadway and Wall, Pearl and Whitehall Streets. A number of streets in the area, such as Beaver, Bridge, Marketfield and Wall, carry English translations of their original Dutch names. Broadway, the oldest path in the city, was originally an Indian trail whose Algonquin name was Wickquasgeck, which means birch-bark country."
   }
 ]

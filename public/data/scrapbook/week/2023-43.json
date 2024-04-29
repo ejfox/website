@@ -1,152 +1,202 @@
 [
   {
     "id": "111307225722573859",
+    "scrap_id": "OA3tD1N7",
     "href": "https://mastodon.social/users/ejfox/statuses/111307225722573859/activity",
     "description": "",
     "time": "2023-10-27T13:31:18.855Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111293092288196471",
+    "scrap_id": "D8Vyc6NO",
     "href": "https://mastodon.social/@ejfox/111293092288196471",
     "description": "",
     "time": "2023-10-25T01:36:59.340Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/293/092/017/748/540/small/c42fc450d33f9002.jpeg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "uNpUiA5I",
+    "href": "https://www.theverge.com/2023/10/23/23928550/posse-posting-activitypub-standard-twitter-tumblr-mastodon",
+    "description": "POSSE: a better way to post on social networks - The Verge",
+    "time": "2023-10-24T04:37:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111286522019079198",
+    "scrap_id": "dXZxPWBS",
     "href": "https://mastodon.social/@ejfox/111286522019079198",
     "description": "<p>doing some real culinary innovation (I think) wherein I simmer red kidney beans in sichuan peppers, boy that spice is sneaky</p>",
     "time": "2023-10-23T21:46:05.016Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "qBNVqzIn",
+    "href": "https://guide.cloudnativegeo.org/",
+    "description": "Cloud-Optimized Geospatial Formats Guide",
+    "time": "2023-10-23T19:44:18Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 24294836,
+    "scrap_id": "TYrXDrZW",
     "href": "https://www.are.na/block/24294836",
     "description": "",
     "time": "2023-10-22T18:26:21.364Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgzNi9vcmlnaW5hbF82NzI3MjVlYWExNDRlNzZiZTNlNjIxYjM5ZjE4ODIzMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294831,
+    "scrap_id": "IXEclcnj",
     "href": "https://www.are.na/block/24294831",
     "description": "",
     "time": "2023-10-22T18:26:11.911Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgzMS9vcmlnaW5hbF9mNGZlOWM5NGVmYTY3ZDIxZjViYTJmODVjYzdjMDc3Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294829,
+    "scrap_id": "i-Mbtp__",
     "href": "https://www.are.na/block/24294829",
     "description": "",
     "time": "2023-10-22T18:26:07.371Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgyOS9vcmlnaW5hbF9kZGFhYWUwYzMyYzkwN2UwOTM0ZGVmNjc2MjM1OWExYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294826,
+    "scrap_id": "LVLptSjX",
     "href": "https://www.are.na/block/24294826",
     "description": "",
     "time": "2023-10-22T18:25:54.307Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgyNi9vcmlnaW5hbF85NTkxYjdiZmNhMTg4N2U3NGU2NTg4ZjA0YTJjMzI2MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294822,
+    "scrap_id": "Icftmdi1",
     "href": "https://www.are.na/block/24294822",
     "description": "",
     "time": "2023-10-22T18:25:49.676Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgyMi9vcmlnaW5hbF9lZDZlYjhhMGJjZjRiNDU2NmI0NDlmOWI1MWU2OGYyOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294814,
+    "scrap_id": "-fAWt18o",
     "href": "https://www.are.na/block/24294814",
     "description": "",
     "time": "2023-10-22T18:25:44.118Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgxNC9vcmlnaW5hbF9kMzEyYTZlNDU2YzA1MTFhOTZjMmY0NDU3MDFlZTUwYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294811,
+    "scrap_id": "rcEfD-Qg",
     "href": "https://www.are.na/block/24294811",
     "description": "",
     "time": "2023-10-22T18:25:40.451Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgxMS9vcmlnaW5hbF8wZjU4MDRlYmE1NWU5MmViZGZiNGRhYzEyMzczZWQzZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294804,
+    "scrap_id": "wDcKOtyq",
     "href": "https://www.are.na/block/24294804",
     "description": "",
     "time": "2023-10-22T18:25:32.468Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgwNC9vcmlnaW5hbF83OTM5YWY1N2I2YjNkYTQ0MDlkY2QzNDkzYjcyODc4NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294800,
+    "scrap_id": "pT3YUmcT",
     "href": "https://www.are.na/block/24294800",
     "description": "",
     "time": "2023-10-22T18:25:29.309Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDgwMC9vcmlnaW5hbF9iMmE3MDRiZGZhZGU1MTczYTU2OGVlM2UxMDFkYjZlMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294798,
+    "scrap_id": "jpbs8dnt",
     "href": "https://www.are.na/block/24294798",
     "description": "",
     "time": "2023-10-22T18:25:25.008Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDc5OC9vcmlnaW5hbF83NTQ3Mzg2M2ZlOTllYmIyNDUzMTgxYTY0YTg4OWE4Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
   },
   {
     "id": 24294795,
+    "scrap_id": "J5AvKKKU",
     "href": "https://www.are.na/block/24294795",
     "description": "",
     "time": "2023-10-22T18:25:22.097Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNDI5NDc5NS9vcmlnaW5hbF8yYjU3NTRhZmQ5NDc4YzZmYTQ4MzM4MGM2Yjg1MjQ0NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
+  },
+  {
+    "scrap_id": "rhxtdh4d",
+    "href": "https://futurism.com/the-byte/ai-electricity-use-spiking-power-entire-country",
+    "description": "AI's Electricity Use Is Spiking So Fast It'll Soon Use as Much Power as an Entire Country",
+    "time": "2023-10-22T15:38:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_3C3uro2",
+    "href": "file:///private/var/mobile/Containers/Data/Application/5F0CCB90-C305-47BF-A8C1-94BFD0F3C73B/tmp/OpenIn/2310.10679.pdf",
+    "description": "2310.10679",
+    "time": "2023-10-22T14:49:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1lt5aMNe",
+    "href": "https://www.nature.com/articles/s44220-023-00145-6",
+    "description": "Association of probable post-traumatic stress disorder with dietary pattern and gut microbiome in a cohort of women - Nature Mental Health",
+    "time": "2023-10-22T14:32:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

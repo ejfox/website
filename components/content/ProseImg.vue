@@ -1,27 +1,43 @@
 <template>
   <span v-if="isCloudinary">
     <figure>
-      <img :src="modifyUrlWithSize(src, 640)" :srcset="srcSet" :alt="alt" :width="width" :height="height"
-        class="rounded drop-shadow" loading="lazy" />
+      <img
+        :src="modifyUrlWithSize(src, 640)"
+        :srcset="srcSet"
+        :alt="alt"
+        :width="width"
+        :height="height"
+        class="rounded drop-shadow"
+        loading="lazy"
+      />
     </figure>
   </span>
   <span v-else>
-    <nuxt-picture class="" :imgAttrs="{
-      class: 'text-xs font-thin text-white rounded drop-shadow dark:drop-shadow-md',
-    }" :src="src" :alt="alt" :width="width" :height="height" placeholder />
+    <nuxt-picture
+      class=""
+      :imgAttrs="{
+        class:
+          'text-xs font-thin text-white rounded drop-shadow dark:drop-shadow-md',
+      }"
+      :src="src"
+      :alt="alt"
+      :width="width"
+      :height="height"
+      placeholder
+    />
   </span>
 </template>
 
 <script setup>
-import { isValidHttpUrl } from "~~/helpers";
+import { isValidHttpUrl } from '~~/helpers'
 const props = defineProps({
   src: {
     type: String,
-    default: "",
+    default: '',
   },
   alt: {
     type: String,
-    default: "",
+    default: '',
   },
   width: {
     type: [String, Number],
@@ -31,49 +47,49 @@ const props = defineProps({
     type: [String, Number],
     default: undefined,
   },
-});
+})
 
-const sizes = [640, 900, 1280];
+const sizes = [640, 900, 1280]
 
 // check whether src is linking to a res.cloudinary.com image
 const isCloudinary = computed(() => {
-  if (!props.src) return false;
-  if (!isValidHttpUrl(props.src)) return false;
-  const url = new URL(props.src);
-  return url.hostname === "res.cloudinary.com";
-});
+  if (!props.src) return false
+  if (!isValidHttpUrl(props.src)) return false
+  const url = new URL(props.src)
+  return url.hostname === 'res.cloudinary.com'
+})
 
 // check whether the src is linking to an external image or not
 const isExternal = computed(() => {
-  if (!props.src) return false;
-  if (!isValidHttpUrl(props.src)) return false;
-  const url = new URL(props.src);
-  return url.hostname !== "res.cloudinary.com";
-});
+  if (!props.src) return false
+  if (!isValidHttpUrl(props.src)) return false
+  const url = new URL(props.src)
+  return url.hostname !== 'res.cloudinary.com'
+})
 
 function modifyUrlWithSize(url, width, srcset = false) {
-  let mURL = new URL(url);
-  if (!mURL) return false;
-  let mURLPaths = mURL.pathname.split("/");
-  mURL.protocol = "https";
-  let urlAppendString = "fl_progressive:semi,c_scale,dpr_auto,w_" + width;
-  mURLPaths.splice(mURLPaths.length - 2, 0, urlAppendString);
-  mURL.pathname = mURLPaths.join("/");
+  let mURL = new URL(url)
+  if (!mURL) return false
+  let mURLPaths = mURL.pathname.split('/')
+  mURL.protocol = 'https'
+  let urlAppendString = 'fl_progressive:semi,c_scale,dpr_auto,w_' + width
+  mURLPaths.splice(mURLPaths.length - 2, 0, urlAppendString)
+  mURL.pathname = mURLPaths.join('/')
   if (srcset) {
-    return mURL.toString() + ` ${width}w`;
+    return mURL.toString() + ` ${width}w`
   } else {
-    return mURL.toString();
+    return mURL.toString()
   }
 }
 
 const srcSet = computed(() => {
-  if (!isCloudinary.value) return null;
-  const imgSrc = props.src;
-  const srcSet = [];
+  if (!isCloudinary.value) return null
+  const imgSrc = props.src
+  const srcSet = []
   sizes.forEach((size) => {
-    let nURL = modifyUrlWithSize(imgSrc, size, true);
-    srcSet.push(nURL);
-  });
-  return srcSet.join(", \n");
-});
+    let nURL = modifyUrlWithSize(imgSrc, size, true)
+    srcSet.push(nURL)
+  })
+  return srcSet.join(', \n')
+})
 </script>

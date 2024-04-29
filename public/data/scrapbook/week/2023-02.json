@@ -1,44 +1,184 @@
 [
   {
+    "scrap_id": "0OtROhWH",
+    "href": "https://groovytoadtiedye.wordpress.com/2015/07/12/ice-dyed-tapestry-tutorial/",
+    "description": "Ice Dyed Tapestry Tutorial |",
+    "time": "2023-01-14T17:22:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "91wTMXUh",
+    "href": "https://www.irccloud.com/",
+    "description": "IRCCloud",
+    "time": "2023-01-14T15:36:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GY0XCVcd",
+    "href": "https://www.homedepot.com/p/Milwaukee-M18-18V-Lithium-Ion-Cordless-Combo-Tool-Kit-6-Tool-w-Wet-Dry-Vacuum-and-Random-Orbit-Sander-2696-26-0880-20-2648-20/310746005#overlay",
+    "description": "Milwaukee M18 18V Lithium-Ion Cordless Combo Tool Kit (6-Tool) w/ Wet/Dry Vacuum and Random Orbit Sander 2696-26-0880-20-2648-20 - The Home Depot",
+    "time": "2023-01-13T21:18:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "y7KAj84t",
+    "href": "https://www.eventbrite.com/e/julia-palooza-a-curation-of-short-films-birthday-party-fundraiser-tickets-514467675667?fbclid=IwAR1zwN7QMOBMDzqErw84D8K-Gdv7-R8L3zQGwcT7Ed0GLGEngFbXkhryONY",
+    "description": "Julia-Palooza : A Curation of Short Films / Birthday Party / Fundraiser Tickets, Sat, Jan 28, 2023 at 7:00 PM | Eventbrite",
+    "time": "2023-01-13T21:12:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9F0mNJfx",
+    "href": "https://www.theverge.com/c/23546117/ukraine-tech-workers-russia-war",
+    "description": "As the war drags on, Ukrainian tech workers keep plugging away",
+    "time": "2023-01-13T16:14:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "xwEnbanQ",
+    "href": "https://www.huffpost.com/entry/exclusive-tucker-carlson-alex-jones-texts-revealed_n_63b5ad3ce4b0d6f0b9f77efa?dmk",
+    "description": "Tucker Carlson, Alex Jones Texts Revealed | HuffPost Latest News",
+    "time": "2023-01-12T15:58:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 19804511,
+    "scrap_id": "VH15_Mmo",
     "href": "https://www.are.na/block/19804511",
     "description": "",
     "time": "2023-01-11T22:57:33.692Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxOTgwNDUxMS9vcmlnaW5hbF9lMmNiMjA3MDAxOGNlN2Y4NjZkYjdkMWQ0YWYzMGZiMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
+  },
+  {
+    "scrap_id": "o01t0yzj",
+    "href": "https://www.neodrag.dev/docs/vue",
+    "description": "@neodrag/vue",
+    "time": "2023-01-11T20:17:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "uKq0yN1I",
+    "href": "https://www.npmjs.com/package/masto",
+    "description": "masto - npm",
+    "time": "2023-01-11T20:14:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "UEYExjO3",
+    "href": "https://www.washingtonpost.com/politics/2023/01/09/russian-trolls-twitter-had-little-influence-2016-voters/",
+    "description": "Analysis | Russian trolls on Twitter had little influence on 2016 voters",
+    "time": "2023-01-11T14:11:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A new study finds no measurable impact on how they voted."
   },
   {
     "id": "109669825929993563",
+    "scrap_id": "ujq1kr38",
     "href": "https://mastodon.social/@ejfox/109669825929993563",
     "description": "<p>Cat woke me up at 3am and tried to casually play it off like its breakfast time, nice try weirdo</p>",
     "time": "2023-01-11T09:19:00.387Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "fLADoEOU",
+    "href": "https://github.com/jerryjliu/gpt_index",
+    "description": "jerryjliu/gpt_index: An index created by GPT to organize external information and answer queries!",
+    "time": "2023-01-10T15:28:40Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "machinelearning gpt3",
+    "extended": ""
+  },
+  {
+    "scrap_id": "UBv9n24_",
+    "href": "https://www.audacy.com/connectingvets/news/fear-grips-special-ops-amidst-human-trafficking-drug-arrests",
+    "description": "Fear grips Special Ops amidst human trafficking drug arrests",
+    "time": "2023-01-10T15:01:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sMbS0rYY",
+    "href": "https://www.bloomberg.com/news/features/2022-12-16/how-world-s-top-shipping-company-became-hub-for-drug-trafficking#xj4y7vzkg",
+    "description": "How World’s Top Shipping Company Became Hub for Drug Trafficking - Bloomberg",
+    "time": "2023-01-10T15:01:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "uI1n1Bxm",
+    "href": "https://www.npmjs.com/package/masto-dl",
+    "description": "masto-dl",
+    "time": "2023-01-10T01:25:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Mastodon downloader/archiver. Latest version: 0.2.1, last published: a month ago. Start using masto-dl in your project by running `npm i masto-dl`. There are no other projects in the npm registry using masto-dl."
+  },
+  {
+    "scrap_id": "MjDTkO-C",
+    "href": "https://docs.joinmastodon.org/methods/accounts/",
+    "description": "accounts API methods",
+    "time": "2023-01-10T01:23:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Methods concerning accounts and profiles."
   },
   {
     "id": "109662271796629850",
+    "scrap_id": "zUxdsFoa",
     "href": "https://mastodon.social/@ejfox/109662271796629850",
     "description": "<p>Celebrate to do list complete; so hard, and yet, do</p>",
     "time": "2023-01-10T01:17:53.461Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/662/269/524/053/011/small/64ff3beaae8da58b.jpeg"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "109659830130829469",
+    "scrap_id": "Pch3Nxu7",
     "href": "https://mastodon.social/@ejfox/109659830130829469",
     "description": "<p>Good morning!</p>",
     "time": "2023-01-09T14:56:56.602Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/109/659/829/586/392/504/small/51651a2eaac57b3c.jpeg"
-    ],
-    "videos": []
+    ]
   }
 ]

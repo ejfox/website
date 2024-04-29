@@ -1,120 +1,270 @@
 [
   {
+    "scrap_id": "yReIm7i6",
+    "href": "https://github.com/Xaymar/obs-StreamFX",
+    "description": "Xaymar/obs-StreamFX: StreamFX is a plugin for OBS® Studio which adds many new effects, filters, sources, transitions and encoders! Be it 3D Transform, Blur, complex Masking, or even custom shaders, you'll find it all here.",
+    "time": "2023-12-03T03:29:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 25023014,
+    "scrap_id": "-C68PiRF",
     "href": "https://www.are.na/block/25023014",
     "description": "",
     "time": "2023-12-02T17:25:52.621Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTAyMzAxNC9vcmlnaW5hbF83YmIwNGFjNTc0ZmM5Mzg4YzA4NmM3MjQzZDUwMzhjMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Creations"
+    ]
+  },
+  {
+    "scrap_id": "za8E3wld",
+    "href": "https://developer.mozilla.org/en-US/docs/Glossary/Top_layer",
+    "description": "Top layer - MDN Web Docs Glossary: Definitions of Web-related terms | MDN",
+    "time": "2023-12-02T13:32:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Fihupg7w",
+    "href": "https://twitter.com/ReanneTech/status/1730685029867819232",
+    "description": "Reanne on X: \"@cajunkoi I divide my day in 3 section: 1. Using my Mind - coding -writing - building projects 2. Emptying my Mind - walking - gym - meditating 3. Feeding my Mind - reading - listening - observing\" / X",
+    "time": "2023-12-02T13:16:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "dSBtuEIy",
+    "href": "https://github.com/pi0/nuxt-on-pi",
+    "description": "pi0/nuxt-on-pi",
+    "time": "2023-12-02T12:23:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "D9fX-Xq9",
+    "href": "https://zsa.fun/cart",
+    "description": "Your Cart | ZSA.fun | ZSA.fun",
+    "time": "2023-12-02T01:42:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111507950903454413",
+    "scrap_id": "NXr-MUQY",
     "href": "https://mastodon.social/@ejfox/111507950903454413",
     "description": "<p>I want to express gratitude for the incredible era of stand-up we live in where I basically get to watch a new special from really talented people every day, what a world</p>",
     "time": "2023-12-02T00:18:21.628Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "d-S60pTs",
+    "href": "https://github.com/pedrosbmartins/downtoearth",
+    "description": "pedrosbmartins/downtoearth: Visualize astronomical scales and more by using your own geographical intuition.",
+    "time": "2023-12-01T02:41:59Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111502678775833046",
+    "scrap_id": "LjM8aoMs",
     "href": "https://mastodon.social/@ejfox/111502678775833046",
     "description": "<p>Old website</p>",
     "time": "2023-12-01T01:57:35.351Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/502/678/558/579/841/small/0a9ed8da8ecc6198.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111502665533743099",
+    "scrap_id": "PhfDv2bz",
     "href": "https://mastodon.social/@ejfox/111502665533743099",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://peoplemaking.games/@eniko\" class=\"u-url mention\">@<span>eniko</span></a></span> All of this analysis is true and accurate for the Complete models- but is, for some reason that is strange to every human on earth, not really completely true of the chat models. There is something there beyond auto-complete happening that can do actual synthesis of the corpus materials to create unique, never-before-seen outputs (ie, not in the training data, inferred in realtime that come from interpolating existing knowledge</p>",
     "time": "2023-12-01T01:54:13.288Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111502652813288037",
+    "scrap_id": "8blMZMdT",
     "href": "https://mastodon.social/@ejfox/111502652813288037",
     "description": "<p>one of my favorite features of my new site redesign is the part where I take every image from all my recent bookmarks / are.na blocks / mastodon posts and then just throw them on the page</p>",
     "time": "2023-12-01T01:50:59.191Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/502/650/888/867/289/small/74cfe38c3e9c59f7.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "5PHXW4LU",
+    "href": "https://github.com/aaronpk/Overland-iOS",
+    "description": "aaronpk/Overland-iOS: 📌 GPS logger for iOS devices",
+    "time": "2023-11-30T22:32:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111500097498058104",
+    "scrap_id": "2TFeciU_",
     "href": "https://mastodon.social/@ejfox/111500097498058104",
     "description": "<p>America by definition loves anything that is big and hard, but in my heart, I know the real strength comes from the small and soft</p>",
     "time": "2023-11-30T15:01:08.175Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "XbHoDJ45",
+    "href": "https://oaklandside.org/2023/11/29/oakland-ballers-new-pioneer-league-baseball-team-community/",
+    "description": "[no title]",
+    "time": "2023-11-30T00:01:41Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KsuHWhJd",
+    "href": "https://github.com/passes-org/passes",
+    "description": "passes-org/passes: A client-side web API for making requests directly to users.",
+    "time": "2023-11-29T21:27:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111490750012714799",
+    "scrap_id": "rguj5UjP",
     "href": "https://mastodon.social/@ejfox/111490750012714799",
     "description": "<p>I keep sniffing my oat milk like a god damn idiot</p>",
     "time": "2023-11-28T23:23:56.865Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "5wktPn6O",
+    "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
+    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
+    "time": "2023-11-28T23:10:57Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AeDzjg1s",
+    "href": "https://newrepublic.com/article/176956/medical-examiners-shield-violent-cops-scrutiny",
+    "description": "How Medical Examiners Shield Violent Cops From Scrutiny | The New Republic",
+    "time": "2023-11-28T22:55:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111490492989929142",
+    "scrap_id": "0Ng76rp6",
     "href": "https://mastodon.social/@ejfox/111490492989929142",
     "description": "<p>the robot suggesting (successfully) methods to fix himself is a wonderful experience of computing</p>",
     "time": "2023-11-28T22:18:35.010Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "4eed331a94ea0727bd7c996a2e681ae5",
-    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
-    "content": "split_mp3_by_silence.sh",
+    "scrap_id": "O6fImRse",
     "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
+    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
     "time": "2023-11-28T21:20:56Z",
     "type": "github-gist",
     "images": []
   },
   {
+    "scrap_id": "K9BxDROe",
+    "href": "https://nysroads.com/i86list.php",
+    "description": "I-86/NY 17 Exit List - New York State Roads",
+    "time": "2023-11-28T18:21:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "x-KtAKtw",
+    "href": "https://stackoverflow.com/questions/71561730/authorizing-client-libraries-without-access-to-a-web-browser-gcloud-auth-appli/76129347#76129347",
+    "description": "docker - Authorizing client libraries without access to a web browser - gcloud auth application-default login - Stack Overflow",
+    "time": "2023-11-28T18:18:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "111488650264782266",
+    "scrap_id": "DxmJdCml",
     "href": "https://mastodon.social/@ejfox/111488650264782266",
     "description": "<p>*whispering at my instagram reels feed* more of the weird nyc art kids please</p>",
     "time": "2023-11-28T14:29:57.535Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "wejCzzA-",
+    "href": "https://www.froggtoggs.com/Mens-Ultra-Lite-Rain-Suit-SHORT?quantity=1&custcol_item_color=10",
+    "description": "Men's Ultra-Lite Rain Suit - SHORT",
+    "time": "2023-11-28T01:21:06Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111485144523152012",
+    "scrap_id": "bzmH30hF",
     "href": "https://mastodon.social/@ejfox/111485144523152012",
     "description": "<p>Trying to remember when I lost my inexplicable Snowden shirt</p>",
     "time": "2023-11-27T23:38:23.884Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/485/144/225/352/997/small/0e7a7479a7d49fa2.jpeg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "KOjmD0-v",
+    "href": "https://nuxt.lemonsqueezy.com/checkout",
+    "description": "Nuxt UI Pro - Checkout",
+    "time": "2023-11-27T22:05:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111477910760856377",
+    "scrap_id": "nsEQ-2Pk",
     "href": "https://mastodon.social/@ejfox/111477910760856377",
     "description": "<p>Tired of the woke robot</p>",
     "time": "2023-11-26T16:58:45.430Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/477/910/507/724/692/small/38b6926ca2d7c444.jpeg"
-    ],
-    "videos": []
+    ]
   }
 ]

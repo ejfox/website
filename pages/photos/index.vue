@@ -22,15 +22,15 @@
   </main>
 </template>
 <script setup lang="ts">
-import { countPhotos, filterStrongTags } from "~/helpers";
-import anime from "animejs/lib/anime.es.js";
-import { timeFormat } from "d3-time-format";
+import { countPhotos, filterStrongTags } from '~/helpers'
+import anime from 'animejs/lib/anime.es.js'
+import { timeFormat } from 'd3-time-format'
 
 definePageMeta({
   documentDriven: false,
-});
+})
 
-const formatDate = timeFormat("%B %d, %Y");
+const formatDate = timeFormat('%B %d, %Y')
 
 onMounted(() => {
   // use anime to animate the intro text
@@ -42,7 +42,7 @@ onMounted(() => {
   //   duration: 720,
   //   delay: anime.stagger(250),
   // })
-});
+})
 </script>
 <style>
 a:link,
@@ -50,7 +50,7 @@ a:hover {
   cursor: default;
 }
 .headline-sans-serif {
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .footnotes ul,

@@ -1,20 +1,90 @@
 [
   {
+    "scrap_id": "VR1JNLF_",
+    "href": "https://bittmanproject.com/recipe/no-knead-bread/",
+    "description": "No-Knead Bread | The Bittman Project",
+    "time": "2024-04-26T21:39:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Qm_cVysb",
+    "href": "https://readsludge.com/2024/04/25/hochul-raised-big-bucks-from-real-estate-moguls-before-housing-deal/",
+    "description": "Hochul Raised Big Bucks From Real Estate Moguls Before Housing Deal",
+    "time": "2024-04-26T21:24:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A Sludge analysis found that New York Gov. Kathy Hochul has received at least $1.5 million from real estate industry donors since the start of 2023."
+  },
+  {
+    "scrap_id": "_4X5B8Fp",
+    "href": "https://simonwillison.net/2023/Dec/1/datasette-enrichments/",
+    "description": "Datasette Enrichments: a new plugin framework for augmenting your data",
+    "time": "2024-04-25T04:38:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Today I’m releasing datasette-enrichments, a new feature for Datasette which provides a framework for applying “enrichments” that can augment your data. An enrichment is code that can be run against …"
+  },
+  {
+    "scrap_id": "MRGhRAEr",
+    "href": "https://heated.world/p/nobel-prize-winning-economist-calls",
+    "description": "Nobel Prize-winning economist calls for climate tax on billionaires",
+    "time": "2024-04-24T20:24:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 27758807,
+    "scrap_id": "Ho5pICC1",
     "href": "https://www.are.na/block/27758807",
     "description": "",
     "time": "2024-04-24T20:09:16.524Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzc1ODgwNy9vcmlnaW5hbF9mOWUwMTkzYTdhODE5MzIzMTc0NjAzMjc5M2ZlY2JkMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
+  },
+  {
+    "scrap_id": "MsXp24fb",
+    "href": "https://www.thecity.nyc/2024/04/24/cannabis-fund-social-equity-dispensary/",
+    "description": "How Private Equity Trumped Social Equity in State Cannabis Deal",
+    "time": "2024-04-24T14:35:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "bq8QA_Ah",
+    "href": "https://www.nytimes.com/2024/04/18/style/highsnobiety-magazines.html?smid=nytcore-ios-share&referringSource=articleShare",
+    "description": "What Is a Magazine Now?",
+    "time": "2024-04-24T00:26:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tJOsvVPL",
+    "href": "https://www.npmjs.com/package/vue-audio-visual",
+    "description": "vue-audio-visual - npm",
+    "time": "2024-04-23T17:51:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "e5c1a08c9c2950ab94431e130c49aa18",
-    "description": "Folder action for screenshots folder to automatically upload to Cloudinary",
-    "content": "screenshots_to_cloudinary",
+    "scrap_id": "-iF38wvJ",
     "href": "https://gist.github.com/ejfox/e5c1a08c9c2950ab94431e130c49aa18",
+    "description": "Folder action for screenshots folder to automatically upload to Cloudinary",
     "time": "2024-04-21T23:40:36Z",
     "type": "github-gist",
     "images": []

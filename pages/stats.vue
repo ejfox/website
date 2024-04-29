@@ -1,17 +1,23 @@
 <template>
   <div class="px-4 md:px-24 pt-8">
     <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalWords))">{{ wordNumberFormat(totalWords) }}</h2>
+      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalWords))">
+        {{ wordNumberFormat(totalWords) }}
+      </h2>
       <p :class="captionClasses">Total Words written</p>
     </div>
 
     <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPhotos))">{{ wordNumberFormat(totalPhotos) }}</h2>
+      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPhotos))">
+        {{ wordNumberFormat(totalPhotos) }}
+      </h2>
       <p :class="captionClasses">Photos</p>
     </div>
 
     <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPosts))">{{ wordNumberFormat(totalPosts) }}</h2>
+      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPosts))">
+        {{ wordNumberFormat(totalPosts) }}
+      </h2>
       <p :class="captionClasses">Blog posts</p>
     </div>
 
@@ -24,26 +30,31 @@
 
     <!-- show the words by year-->
     <div class="col-span-2 lg:col-span-4">
-      <h2 class="md:text-5xl font-bold text-center md:text-left">Written words by year</h2>
+      <h2 class="md:text-5xl font-bold text-center md:text-left">
+        Written words by year
+      </h2>
       <div class="py-4 grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div v-for="year in wordsByYear" :key="year.year" class="text-center rounded-md"
-        :style="{ backgroundColor: wordsToColor(year.words) }"
+        <div
+          v-for="year in wordsByYear"
+          :key="year.year"
+          class="text-center rounded-md"
+          :style="{ backgroundColor: wordsToColor(year.words) }"
         >
-          <h2 class="text-lg font-serif font-bold">{{ wordNumberFormat(year.words) }}</h2>
+          <h2 class="text-lg font-serif font-bold">
+            {{ wordNumberFormat(year.words) }}
+          </h2>
           <p class="text-sm">{{ year.year }}</p>
         </div>
       </div>
     </div>
-
-
   </div>
 </template>
 <script setup>
-import { countWords, countLinks, countPhotos } from "~~/helpers";
+import { countWords, countLinks, countPhotos } from '~~/helpers'
 import { format } from 'd3'
 
-const statClasses = "text-8xl font-bold p-4 text-center"
-const captionClasses = "text-sm uppercase font-thin pt-2 opacity-60"
+const statClasses = 'text-8xl font-bold p-4 text-center'
+const captionClasses = 'text-sm uppercase font-thin pt-2 opacity-60'
 
 const wordNumberFormat = format(',')
 
@@ -87,25 +98,26 @@ function stringLengthToFontSize(string) {
   }
 }
 
-
 const { data } = await useAsyncData('blog', () => queryContent('/blog/').find())
 
 // watch docs, and update the totalWords ref whenever the docs change
-watch(data, () => {
-  console.log('data changed')
-  console.log(data.value)
-  totalWords.value = data.value.reduce((acc, article) => {
-    return acc + article.readingTime.words
-  }, 0)
+watch(
+  data,
+  () => {
+    console.log('data changed')
+    console.log(data.value)
+    totalWords.value = data.value.reduce((acc, article) => {
+      return acc + article.readingTime.words
+    }, 0)
 
-  totalPhotos.value = data.value.reduce((acc, article) => {
-    return acc + countPhotos(article)
-  }, 0)
+    totalPhotos.value = data.value.reduce((acc, article) => {
+      return acc + countPhotos(article)
+    }, 0)
 
-  totalPosts.value = data.value.length
-
-
-}, { immediate: true })
+    totalPosts.value = data.value.length
+  },
+  { immediate: true },
+)
 
 const wordsByYear = computed(() => {
   const years = data.value.reduce((acc, article) => {
@@ -117,16 +129,16 @@ const wordsByYear = computed(() => {
     return acc
   }, {})
 
-  return Object.entries(years).map(([year, words]) => {
-    return {
-      year,
-      words
-    }
-  }).reverse().filter((year) => year.year !== 'NaN')
+  return Object.entries(years)
+    .map(([year, words]) => {
+      return {
+        year,
+        words,
+      }
+    })
+    .reverse()
+    .filter((year) => year.year !== 'NaN')
 })
-
-
-
 
 // the website is hosted on a GitHub repo located at https://github.com/ejfox/website
 // we want to use the GitHub public REST API to get the number of commits to the repo
@@ -149,7 +161,4 @@ const wordsByYear = computed(() => {
 // }
 
 // getCommits(githubAPI)
-
-
-
 </script>

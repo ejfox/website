@@ -1,109 +1,339 @@
 [
   {
+    "scrap_id": "Fjy56OlK",
+    "href": "https://vincentschwenk.gumroad.com/l/iymjyd?layout=profile",
+    "description": "100 TILEABLE 4K DESIGN & REALISTIC TEXTURES PT.02",
+    "time": "2023-09-02T23:19:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "fHNpPmJm",
+    "href": "https://www.sweetwater.com/store/detail/CineViewHE--accsoon-cineview-he-multi-spectrum-wireless-video-transmitter-and-receiver",
+    "description": "Accsoon CineView HE Multi-spectrum Wireless Video Transmitter and Receiver | Sweetwater",
+    "time": "2023-09-02T19:08:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "F0SSCnsh",
+    "href": "https://www.youtube.com/watch?v=YUAgGP6VXvA&list=WL&index=4",
+    "description": "2 Camera Interview - Cinematography Breakdown - YouTube",
+    "time": "2023-09-02T19:00:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "52FT0qn2",
+    "href": "https://www.sparrowslockpicks.com/products/night-school-tuxedo-edition?fbclid=IwAR1O2QQogqZ87Viwt7uRMClO3dWee97Gd1Wg3pQ5RcswFpceIpyYJrR8HD8",
+    "description": "Night School + Tuxedo Edition | Sparrows Lock Picks – SPARROWS Lock Picks",
+    "time": "2023-09-02T17:49:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "110996735599646514",
+    "scrap_id": "4OX6dg-f",
     "href": "https://mastodon.social/@ejfox/110996735599646514",
     "description": "<p>just an incense boy in a candle world</p>",
     "time": "2023-09-02T17:29:35.146Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "kxsdCiZe",
+    "href": "https://www.gorillasun.de/blog/sending-midi-signals-between-ableton-and-p5js/",
+    "description": "Sending MIDI signals between Ableton and P5JS",
+    "time": "2023-09-02T17:07:09Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "w2mVb_a1",
+    "href": "https://medium.com/@luisa.ph/making-your-own-musical-instruments-with-p5-js-arduino-and-webmidi-2422b9596791",
+    "description": "Making Your Own Musical Instruments with P5.js, Arduino, and WebMIDI | by Luisa Pereira | Medium",
+    "time": "2023-09-02T17:05:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "IVwWQN0y",
+    "href": "https://webmidijs.org/",
+    "description": "WEBMIDI.js | WEBMIDI.js",
+    "time": "2023-09-02T17:04:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vtC26q-_",
+    "href": "https://www.apple.com/shop/product/MUF82AM/A/usb-c-digital-av-multiport-adapter?fnode=74ef3a8c034e2dc42034b7b5e7bcaf73bbd7408b50e9151fbd9b0b9d361036bcb2b8da5dc01b81deaa01618f83875250947d5b1056767826981866ad41db264d3f565b156403c9f6d76dd1b8e1893ab5d58ce90bae50d1bb6bff91b70da787183b6c8cf1d0e6181edddefc740d0a1660&fs=fh%3D4595%252B3058",
+    "description": "USB-C Digital AV Multiport Adapter - Apple",
+    "time": "2023-09-02T16:17:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "DrzHDM5i",
+    "href": "https://www.explorefall.com/fall-foliage-map",
+    "description": "Fall Foliage Map 2023: Daily Updates and Forecasts!",
+    "time": "2023-09-01T22:59:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110987103258760512",
+    "scrap_id": "xSX8iusX",
     "href": "https://mastodon.social/@ejfox/110987103258760512",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@andersamer\" class=\"u-url mention\">@<span>andersamer</span></a></span> Definitely per entry, never tried to export a whole backup before, I like using their encryption, plus it syncs everywhere… been using it like 6-7 years</p>",
     "time": "2023-09-01T00:39:57.286Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "110986069392651233",
+    "scrap_id": "aZBwSKhJ",
     "href": "https://mastodon.social/@ejfox/110986069392651233",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@andersamer\" class=\"u-url mention\">@<span>andersamer</span></a></span> Things and Day One, where I store like, 65% of my brain</p>",
     "time": "2023-08-31T20:17:01.740Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "x9BuAb5M",
+    "href": "https://refikanadol.com/works/coraldreams/",
+    "description": "Machine Hallucinations – Coral Dreams - Refik Anadol",
+    "time": "2023-08-31T17:51:19Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GTEf_NlS",
+    "href": "https://github.com/vuejs/core/issues/7881",
+    "description": "Use View Transitions API for <transition> · Issue #7881 · vuejs/core",
+    "time": "2023-08-31T17:43:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110985193261405837",
+    "scrap_id": "3tf6P7pM",
     "href": "https://mastodon.social/@ejfox/110985193261405837",
     "description": "<p>The homescreen of kings</p>",
     "time": "2023-08-31T16:34:13.038Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/985/192/987/747/469/small/3dc95e84b64055fd.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "110984605589006548",
+    "scrap_id": "DS9GOe-k",
     "href": "https://mastodon.social/@ejfox/110984605589006548",
     "description": "<p>I always understood the need for accessibility in websites, apps, and technology in general, but now that one of my best friends is a blind robot, that need has become my own</p>",
     "time": "2023-08-31T14:04:45.869Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "110984253286171332",
+    "scrap_id": "QXBaWbvy",
     "href": "https://mastodon.social/@ejfox/110984253286171332",
     "description": "<p>idk if this what YOU all mean by Machine Learning, but I am slowly explaining my bad habits to my robot, one by one</p>",
     "time": "2023-08-31T12:35:10.074Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/984/253/040/509/018/small/7a7cd26b76b6f46b.png"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "hPrgto2j",
+    "href": "https://github.com/dscripka/openWakeWord",
+    "description": "dscripka/openWakeWord: An open-source audio wake word (or phrase) detection framework with a focus on performance and simplicity.",
+    "time": "2023-08-30T22:41:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "iojjh8VF",
+    "href": "https://www.hrw.org/news/2023/08/29/saudi-arabia-man-sentenced-death-tweets",
+    "description": "Saudi Arabia: Man Sentenced to Death for Tweets | Human Rights Watch",
+    "time": "2023-08-30T16:53:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "LTFi92Dk",
+    "href": "https://github.com/FanaHOVA/smol-podcaster",
+    "description": "FanaHOVA/smol-podcaster: smol-podcaster is your autonomous podcast production intern 🐣",
+    "time": "2023-08-30T16:19:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "UvsJRyA2",
+    "href": "https://battleboard.us/products/combat-cards-50-pack?variant=39551011750064",
+    "description": "Combat Cards (50-Pack) – Battle Board",
+    "time": "2023-08-29T23:49:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BWtDHXGp",
+    "href": "https://battleboard.us/products/kneeboard-stabilized-ipad-mini-edition?variant=44039515865323",
+    "description": "Kneeboard - Stabilized iPad Mini Edition – Battle Board",
+    "time": "2023-08-29T23:47:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yzS_UTZC",
+    "href": "https://webcache.googleusercontent.com/search?q=cache:AsseJPczQ7YJ:https://www.timesunion.com/hudsonvalley/news/article/west-point-kosciuszko-time-capsule-18331364.php&cd=10&hl=en&ct=clnk&gl=us",
+    "description": "What was in the West Point Kosciuszko time capsule?",
+    "time": "2023-08-29T21:44:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "110974479382920130",
+    "scrap_id": "nWqGmqPv",
     "href": "https://mastodon.social/@ejfox/110974479382920130",
     "description": "<p>lmfao remnants of SSHing into a server with a buddy long ago</p>",
     "time": "2023-08-29T19:09:32.617Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/974/476/623/703/457/small/e847515dd28ca5b1.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "110974460872790414",
+    "scrap_id": "_E1ZK0KF",
     "href": "https://mastodon.social/@ejfox/110974460872790414",
     "description": "<p>pandemic struck and I was like, well, time to figure out what this discord shit is all about</p>",
     "time": "2023-08-29T19:04:49.786Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/110/974/459/939/033/264/small/d966d2298f675e99.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "110974000142193950",
+    "scrap_id": "kEi1ITWB",
     "href": "https://mastodon.social/@ejfox/110974000142193950",
     "description": "<p>a video series like that white guy who speaks chinese but instead its me buying fronto in different bodegas</p>",
     "time": "2023-08-29T17:07:39.605Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "110967735799792233",
+    "scrap_id": "7iVdN0Zm",
     "href": "https://mastodon.social/@ejfox/110967735799792233",
     "description": "<p>Sometimes Opal kicks in and blocks instagram, and its hard to argue with because in that moment I was watching a man clean a watch</p>",
     "time": "2023-08-28T14:34:33.316Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "150fad3f20d2c86623279ae17b7521e4",
-    "description": "",
-    "content": "gpt_therapist_system.md",
+    "scrap_id": "IZjoH2YL",
     "href": "https://gist.github.com/ejfox/150fad3f20d2c86623279ae17b7521e4",
+    "description": "",
     "time": "2023-08-28T13:54:19Z",
     "type": "github-gist",
     "images": []
+  },
+  {
+    "scrap_id": "ZB2qzmwu",
+    "href": "https://emulsive.org/reviews/push-processing-ilford-hp5-plus-from-ei-800-to-ei-6400-by-daniel-tim",
+    "description": "Push processing ILFORD HP5 PLUS from EI 800 to EI 6400 - EMULSIVE",
+    "time": "2023-08-27T22:38:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eZoFNw_m",
+    "href": "https://stefankunz.com/buildertools",
+    "description": "Builder Tools",
+    "time": "2023-08-27T19:48:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2zvlWHVx",
+    "href": "https://www.hotoctopuss.com/sex-toys/male-sex-toys/pulse-solo-lux-penis-vibrating-male-masturbator/",
+    "description": "PULSE SOLO LUX",
+    "time": "2023-08-27T18:32:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4mgQ9QXV",
+    "href": "https://www.truegrittexturesupply.com/collections/procreate-value-bundles/products/procreate-texture-brush-bundle-v3",
+    "description": "Procreate Texture Brush Bundle",
+    "time": "2023-08-27T17:59:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cZc6XBru",
+    "href": "https://www.kenrockwell.com/fuji/x-pro3.htm",
+    "description": "Fujifilm X-Pro3 Review",
+    "time": "2023-08-27T15:58:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rDDYyPE4",
+    "href": "https://huggingface.co/blog/idefics",
+    "description": "Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model",
+    "time": "2023-08-27T15:43:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

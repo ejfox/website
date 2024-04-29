@@ -78,9 +78,11 @@
 
         <div class="flex" v-if="project.screenshot">
           <UButton
-          icon="i-fe-link-external"
-          trailing
-          color="white" @click="goToProject(project.URL)">
+            icon="i-fe-link-external"
+            trailing
+            color="white"
+            @click="goToProject(project.URL)"
+          >
             See Project
           </UButton>
           <UButton

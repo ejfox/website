@@ -1,127 +1,249 @@
 [
   {
+    "scrap_id": "JptCvxRQ",
+    "href": "https://twitter.com/notchrisvolpe/status/1707909345537659293",
+    "description": "chris cross big apple sauce 🍎🗽 on X: \"For the price of letting 10 cops continuously violate NYers rights, we could have installed 2,615 Bioswales. 2,615 of them would be able to collect over 196 MILLION gallons of water &amp; keep it from flooding o",
+    "time": "2023-09-30T22:18:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 23913715,
+    "scrap_id": "ljorxHJy",
     "href": "https://www.are.na/block/23913715",
     "description": "",
     "time": "2023-09-30T18:10:31.801Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxNS9vcmlnaW5hbF9jYmE3M2Q4Yjc5ODM0NTQyMTY4MjI4ZjgwZGM1OGIwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 23913712,
+    "scrap_id": "nirWEzZK",
     "href": "https://www.are.na/block/23913712",
     "description": "",
     "time": "2023-09-30T18:10:06.837Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxMi9vcmlnaW5hbF9iZTRmNjA5NDgxZWUzNTEyZjQ2YTcyYzA3NzQ2Y2U2OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 23913710,
+    "scrap_id": "qMX1jGpl",
     "href": "https://www.are.na/block/23913710",
     "description": "",
     "time": "2023-09-30T18:09:45.484Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcxMC9vcmlnaW5hbF8xZDYyYzUwNWRkNjJlMDNlYTU2MGQxYjlmMWUxN2U4Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": 23913709,
+    "scrap_id": "fGps1Hui",
     "href": "https://www.are.na/block/23913709",
     "description": "",
     "time": "2023-09-30T18:09:36.627Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMzkxMzcwOS9vcmlnaW5hbF8yMjQ0MDUzMGE3YmM5Yjk1NDVlZjk3ZDU1NGU2NmMzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 Readings"
+    ]
   },
   {
     "id": "111155423284563541",
+    "scrap_id": "6iQAzihx",
     "href": "https://mastodon.social/@ejfox/111155423284563541",
     "description": "<p>Maybe my only legacy will be the sticky notes of BPMs I leave in the sleeves of my vinyl records</p>",
     "time": "2023-09-30T18:05:57.056Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "IQpQ5fMq",
+    "href": "https://highlandscurrent.org/2023/09/29/marijuana-shop-opens-in-beacon/?fbclid=IwAR39SZh-zPwQuNGoEc81-fsDHualDgFEU1MZYpjTrsAxBHsPRy0rAu8L2uQ",
+    "description": "Marijuana Shop Opens in Beacon | The Highlands Current",
+    "time": "2023-09-30T00:15:15Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ldzv18Lh",
+    "href": "https://github.com/nuxt-community/markdownit-module/issues/47",
+    "description": "Nuxt 3 Support ? · Issue #47 · nuxt-community/markdownit-module",
+    "time": "2023-09-29T18:17:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kidHF_XT",
+    "href": "https://twitter.com/mechpil0t/status/1707615754768863588",
+    "description": "mechpil0t on X: \"Experimenting with using historical footage with Polycam's Gaussian Splat function. Quite magical, the trees are especially interesting. source footage: https://t.co/DAeUgkca8S #designium https://t.co/iYe9HF3Mfh\" / X",
+    "time": "2023-09-29T15:38:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8-GrrINb",
+    "href": "https://github.com/eugeneyan/open-llms",
+    "description": "eugeneyan/open-llms: 📋 A list of open LLMs available for commercial use.",
+    "time": "2023-09-28T19:01:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "111132808604482922",
+    "scrap_id": "xdmluGT-",
     "href": "https://mastodon.social/@ejfox/111132808604482922",
     "description": "<p>much like when I said this is my year! covid hit, I said this is my summer and then it rained endlessly</p>",
     "time": "2023-09-26T18:14:44.419Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "WMu2xwen",
+    "href": "https://store.dji.com/product/dji-mini-4-pro?vid=148641",
+    "description": "Buy DJI Mini 4 Pro - DJI Store",
+    "time": "2023-09-26T15:56:23Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1L7XCO1c",
+    "href": "https://slate.com/human-interest/2023/09/hopeton-earthworks-ohio-unesco-world-heritage-history.html",
+    "description": "A UNESCO World Heritage Site in the U.S. on par with the pyramids? Believe it.",
+    "time": "2023-09-26T15:48:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Z7JKWcwB",
+    "href": "https://www.rei.com/product/222626/the-north-face-circaloft-insulated-hoodie-mens",
+    "description": "The North Face Circaloft Insulated Hoodie - Men's | REI Co-op",
+    "time": "2023-09-26T15:12:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A packable, insulated and water-repellent layer, The North Face Circaloft men's hoodie features a vertical quilting pattern that holds insulation in place to provide consistent warmth."
   },
   {
     "id": 696573083,
-    "description": null,
+    "scrap_id": "SH1fuuTZ",
     "href": "https://github.com/omarim1/Nebula-Nights-Pico8",
+    "description": null,
     "time": "2023-09-26T02:44:44Z",
     "type": "github-star",
     "images": []
   },
   {
     "id": 696550253,
-    "description": "Three.js-based implementation of 3D Gaussian splatting",
+    "scrap_id": "W6aSVhRj",
     "href": "https://github.com/mkkellogg/GaussianSplats3D",
+    "description": "Three.js-based implementation of 3D Gaussian splatting",
     "time": "2023-09-26T01:15:29Z",
     "type": "github-star",
     "images": []
   },
   {
+    "scrap_id": "OIZfbQ_m",
+    "href": "https://www.vice.com/en/article/xgykjk/original-gents-trans-motorcycle-club",
+    "description": "Finding Brotherhood in a Trans Motorcycle Club",
+    "time": "2023-09-26T01:06:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BJ0sXq6h",
+    "href": "https://github.com/mohamed-chs/chatgpt-history-export-to-md",
+    "description": "mohamed-chs/chatgpt-history-export-to-md: A Python script to effortlessly extract and format your ChatGPT conversations data export from JSON files to well-structured markdown files, with YAML metadata headers. And it all happens locally !",
+    "time": "2023-09-25T03:47:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WJL7m9Sw",
+    "href": "https://www.koopatv.org/2022/10/why-people-dont-like-fandom-wikis.html",
+    "description": "KoopaTV: Why People Don't Like Fandom Wikis",
+    "time": "2023-09-25T03:44:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "111123609476478432",
+    "scrap_id": "97vY1CaW",
     "href": "https://mastodon.social/@ejfox/111123609476478432",
     "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@crobbler\" class=\"u-url mention\">@<span>crobbler</span></a></span> no, you are right– its fine– just a particularly terrifying thing to be trusting the robot to blindly get right, just casually modifying my volumes and fstab</p>",
     "time": "2023-09-25T03:15:16.868Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111123579914750375",
+    "scrap_id": "lqXKJj6x",
     "href": "https://mastodon.social/@ejfox/111123579914750375",
     "description": "<p>listen, Ill copy random come into the terminal as much as the next guy, but even this command gave me pause</p>",
     "time": "2023-09-25T03:07:45.793Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/111/123/578/364/160/583/small/c2d1e86eb77d392b.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "111123364650386689",
+    "scrap_id": "95ECLBN6",
     "href": "https://mastodon.social/@ejfox/111123364650386689",
     "description": "<p>talking to the robot and just letting a completely unhinged ADHD portion of my personality take over, help me with this, great, now this unrelated thing, great, now this other unrelated thing, great</p>",
     "time": "2023-09-25T02:13:01.118Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111123228778106082",
+    "scrap_id": "7304_tH-",
     "href": "https://mastodon.social/@ejfox/111123228778106082",
     "description": "<p>the year of our lord 2023 and i still have time to get up and do an activity any time I `brew install` anything</p>",
     "time": "2023-09-25T01:38:27.872Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "111122661204169001",
+    "scrap_id": "jc4yXhD0",
     "href": "https://mastodon.social/@ejfox/111122661204169001",
     "description": "<p>ordered chicken katsu, and I dont get to go retrieve it until this fucking code works</p>",
     "time": "2023-09-24T23:14:07.389Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "ySLYDjVv",
+    "href": "https://www.democracydocket.com/opinion/the-growing-threat-of-republican-election-vigilantes/",
+    "description": "The Growing Threat of Republican Election Vigilantes",
+    "time": "2023-09-24T14:26:11Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": "Opinion | States need to act urgently to enact clear laws that forbid private voter challenges."
   }
 ]

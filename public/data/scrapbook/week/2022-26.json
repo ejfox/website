@@ -1,13 +1,153 @@
 [
   {
     "id": 16979458,
+    "scrap_id": "OSuJaEqf",
     "href": "https://www.are.na/block/16979458",
     "description": "",
     "time": "2022-06-24T01:32:07.416Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNjk3OTQ1OC9vcmlnaW5hbF9hOTk2YjIxMjNkN2JkMjA2YzIyMWEzZjI1YTJmOWM5ZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "stN4XkRa",
+    "href": "https://www.youtube.com/watch?v=usEpZTWITcA",
+    "description": "Timeless photography lessons from Robert Frank - YouTube",
+    "time": "2022-06-23T22:32:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "photography",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Alqk7ZU3",
+    "href": "https://www.youtube.com/watch?v=sN-Hj73ES2U",
+    "description": "Things You Probably Didn't Know About Cute Bonobos | National Geographic - YouTube",
+    "time": "2022-06-23T19:58:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "documentary",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tde1tkoX",
+    "href": "https://twitter.com/juweekbro",
+    "description": "juweek (@juweekbro) / Twitter",
+    "time": "2022-06-22T15:55:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tohire",
+    "extended": ""
+  },
+  {
+    "scrap_id": "y6Kc4cAC",
+    "href": "https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/?mbid=social_twitter",
+    "description": "I Finally Reached Computing Nirvana. What Was It All For?",
+    "time": "2022-06-22T07:37:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "F7ux9aoB",
+    "href": "https://www.youtube.com/watch?v=efPrtcLdcdM&t=7s",
+    "description": "This is the worst AI ever - YouTube",
+    "time": "2022-06-22T06:25:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "e1xTkCwk",
+    "href": "https://www.ramdass.org/loving-awareness/",
+    "description": "I Am Loving Awareness",
+    "time": "2022-06-21T20:50:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "meditation",
+    "extended": ""
+  },
+  {
+    "scrap_id": "uMLsIR9P",
+    "href": "https://github.com/tom-doerr/zsh_codex",
+    "description": "tom-doerr/zsh_codex: This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line.",
+    "time": "2022-06-21T20:46:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "c2lMicMP",
+    "href": "https://unsplash.com/blog/unsplash-x-deepmind/?vero_id=828710&vero_conv=PmNPLiUVlfrNjJJhv67vCX0gAQ74i5T-cYkrakR4-DDKNc50Fuo88AqUQkgwKve3uWFWjUswXNe6NLLhe_2RdS_YVh2KLyjOIA%253D%253D",
+    "description": "Unsplash ✕ DeepMind",
+    "time": "2022-06-21T16:31:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_3fbXitW",
+    "href": "https://github.com/gera2ld/markmap",
+    "description": "gera2ld/markmap: Visualize your Markdown as mindmaps with Markmap.",
+    "time": "2022-06-21T13:57:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "markdown",
+    "extended": ""
+  },
+  {
+    "scrap_id": "xKIo_X1e",
+    "href": "https://shields.io/",
+    "description": "Shields.io: Quality metadata badges for open source projects",
+    "time": "2022-06-21T02:17:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "k3JC6l5W",
+    "href": "https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets",
+    "description": "Vue VSCode Snippets - Visual Studio Marketplace",
+    "time": "2022-06-20T17:52:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "vue",
+    "extended": ""
+  },
+  {
+    "scrap_id": "niJFqiMH",
+    "href": "https://github.com/danseethaler/dayone-to-md",
+    "description": "danseethaler/dayone-to-md: Convert the DayOne JSON export to markdown files.",
+    "time": "2022-06-20T15:27:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli node",
+    "extended": ""
+  },
+  {
+    "scrap_id": "fgblRHK-",
+    "href": "https://culturedcode.com/things/support/articles/2803573/",
+    "description": "Things URL Scheme - Things Support",
+    "time": "2022-06-20T15:14:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "automation",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YjvgU4xl",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3442188.3445922",
+    "description": "untitled",
+    "time": "2022-06-19T14:00:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

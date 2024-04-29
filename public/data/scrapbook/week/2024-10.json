@@ -1,91 +1,212 @@
 [
   {
+    "scrap_id": "0M6zmH6r",
+    "href": "https://github.com/tailwindlabs/tailwindcss-container-queries",
+    "description": "tailwindlabs/tailwindcss-container-queries: A plugin for Tailwind CSS v3.2+ that provides utilities for container queries.",
+    "time": "2024-03-10T02:53:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112067654049668496",
+    "scrap_id": "KbzGYijY",
     "href": "https://mastodon.social/@ejfox/112067654049668496",
     "description": "<p>@abreaction@mastodon.world Cool! Have a great weekend!</p>",
     "time": "2024-03-09T20:38:14.114Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": "112067434463570940",
+    "scrap_id": "7NVnuhos",
     "href": "https://mastodon.social/@ejfox/112067434463570940",
     "description": "<p>graffiti is fun because its a bunch of real tough guys who care a lot about the shape of letters</p>",
     "time": "2024-03-09T19:42:23.257Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "OvLr2azo",
+    "href": "https://github.com/arashsheyda/nuxt-neo4j",
+    "description": "arashsheyda/nuxt-neo4j: Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
+    "time": "2024-03-09T19:30:14Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mapje2NI",
+    "href": "https://www.schedium.net/2023/03/alliance-american-far-right-chinese-hongkong-dissidents.html",
+    "description": "The Strange Alliance Between the American Far Right and Chinese Anti-Communists",
+    "time": "2024-03-09T17:35:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 769334289,
-    "description": "Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
+    "scrap_id": "v1KojaHv",
     "href": "https://github.com/arashsheyda/nuxt-neo4j",
+    "description": "Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
     "time": "2024-03-08T20:42:10Z",
     "type": "github-star",
     "images": []
   },
   {
     "id": "112061851151874517",
+    "scrap_id": "3a-yn7IY",
     "href": "https://mastodon.social/@ejfox/112061851151874517",
     "description": "<p>I mean, compare and contrast the creative vibes of GPT-4 vs Claude when it comes to poetry, pretty stark difference</p>",
     "time": "2024-03-08T20:02:28.683Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/061/850/186/533/633/small/ef5f3b4afe332051.png",
       "https://files.mastodon.social/media_attachments/files/112/061/850/887/335/185/small/3f34f3820df27a88.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": 26857896,
+    "scrap_id": "dOA0z79j",
     "href": "https://www.are.na/block/26857896",
     "description": "",
     "time": "2024-03-08T17:34:24.834Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjg1Nzg5Ni9vcmlnaW5hbF9kNzRlZTg3YjM1MGMwN2I4Y2VmN2UwNGYzODFjYTk1Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
+  },
+  {
+    "scrap_id": "Yq7FPqT5",
+    "href": "https://jarango.com/2024/03/03/how-to-get-out-of-ontological-debt/",
+    "description": "How to Get Out of Ontological Debt",
+    "time": "2024-03-08T07:05:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Inconsistent product terminology leads to “ontological debt,” negatively affecting UX — but you can pay it down."
   },
   {
     "id": "112058723998486905",
+    "scrap_id": "ShUOV1uC",
     "href": "https://mastodon.social/@ejfox/112058723998486905",
     "description": "<p>wtf is this shit</p>",
     "time": "2024-03-08T06:47:12.106Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/058/723/723/939/927/small/202ebd40ca223fb2.jpeg"
-    ],
-    "videos": []
+    ]
+  },
+  {
+    "scrap_id": "9ouF8yZ1",
+    "href": "https://naive-yearly.are.na/maya-man",
+    "description": "Maya Man<!-- -->—naive-yearly.are.na",
+    "time": "2024-03-08T01:38:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "112055870823907773",
+    "scrap_id": "4tTxzG8s",
     "href": "https://mastodon.social/@ejfox/112055870823907773",
     "description": "<p>my favorite hack lately is getting the robot to explain everything to me as if I am a caveman, which I am</p>",
     "time": "2024-03-07T18:41:36.119Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/055/870/545/993/647/small/afa51ef8a300bdb2.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": "112051263041660310",
+    "scrap_id": "Xv9LUgdW",
     "href": "https://mastodon.social/@ejfox/112051263041660310",
     "description": "<p>nothing helps me work better than watching a documentary stretch out a stupid story about a cult or something over 3 and a half hours</p>",
     "time": "2024-03-06T23:09:46.940Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "oXI1xzq0",
+    "href": "https://www.youtube.com/watch?v=y6Ymtsjzqj8",
+    "description": "PO-33 BREAKBEAT drum kit | FAKE BREAKS | Teenage Engineering pocket operator PO 33 drum kit - YouTube",
+    "time": "2024-03-06T23:08:13Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ufnONBUN",
+    "href": "https://www.rollingstone.com/tv-movies/tv-movie-features/queer-eye-tensions-bobby-berk-leaving-jvn-temper-1234980316/",
+    "description": "Inside 'Queer Eye' Tensions: Bobby Berk Leaving, JVN's Alleged 'Rage'",
+    "time": "2024-03-05T19:16:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Q70O5WIY",
+    "href": "https://capitolpressroom.org/2024/03/05/senator-gianaris-reflects-on-latest-redistricting-saga/",
+    "description": "Senator Gianaris reflects on latest redistricting saga - The Capitol Pressroom",
+    "time": "2024-03-05T17:30:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   },
   {
     "id": "112043886206222178",
+    "scrap_id": "ROqC2Hhz",
     "href": "https://mastodon.social/@ejfox/112043886206222178",
     "description": "<p>my favorite thing is to build a prototype on your new API, wake up, and its 529 erroring every other request, and your company doesnt have an API status page</p>",
     "time": "2024-03-05T15:53:45.365Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "h1Tt-MCN",
+    "href": "https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/",
+    "description": "BTI360 | What I've Learned in 45 Years in the Software Industry",
+    "time": "2024-03-05T04:10:21Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "t12Q7woo",
+    "href": "https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/",
+    "description": "The Staggering Ecological Impacts of Computation and the Cloud | The MIT Press Reader",
+    "time": "2024-03-04T22:44:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "lYA0B0jt",
+    "href": "https://www.mcgill.ca/newsroom/channels/news/small-dietary-changes-can-cut-your-carbon-footprint-25-355698",
+    "description": "Small dietary changes can cut your carbon footprint by 25% | Newsroom - McGill University",
+    "time": "2024-03-04T16:27:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wyVeJsmo",
+    "href": "https://www.reddit.com/r/Harmontown/comments/1b5bqfm/is_there_a_compilation_of_jokesgags_born_on/",
+    "description": "Is there a compilation of jokes/gags born on Harmontown that show up later on Community/ R&M? : Harmontown",
+    "time": "2024-03-04T04:46:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

@@ -1,13 +1,253 @@
 [
   {
+    "scrap_id": "Gn_2MGzv",
+    "href": "https://fontforge.org/en-US/",
+    "description": "FontForge Open Source Font Editor",
+    "time": "2022-11-25T20:27:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "typography tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rk61XRTy",
+    "href": "https://source.opennews.org/articles/github-actions-scrapers/",
+    "description": "Running scrapers on GitHub to simplify your workflow - Features - Source: An OpenNews project",
+    "time": "2022-11-23T21:12:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "code technique",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yX6tGEkL",
+    "href": "https://github.com/kyrick/cog-prompt-parrot",
+    "description": "kyrick/cog-prompt-parrot: Replicate COG Prompt Parrot",
+    "time": "2022-11-23T20:52:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": "Replicate COG Prompt Parrot. Contribute to kyrick/cog-prompt-parrot development by creating an account on GitHub."
+  },
+  {
+    "scrap_id": "gqSoCjg5",
+    "href": "https://www.wbur.org/news/2022/11/20/massachusetts-police-jobs-departments-accusations",
+    "description": "'Officer shuffle': Some ousted cops find jobs at new departments in Mass.",
+    "time": "2022-11-23T20:42:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police",
+    "extended": "WBUR found more than a dozen current Massachusetts police officers were previously fired or resigned from another department after the launch of a misconduct investigation."
+  },
+  {
+    "scrap_id": "FstxNmTb",
+    "href": "https://laundrysauce.com/products/laundry-sauce/?variant=34640416374921",
+    "description": "Laundry Sauce - Laundry Pods",
+    "time": "2022-11-23T17:16:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MKoI3JP6",
+    "href": "https://developer.visa.com/images2/visa-chart-components/Data%20Experience%20Critique%20Framework.pdf",
+    "description": "",
+    "time": "2022-11-23T16:59:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4g3lqlRX",
+    "href": "https://trashmoon.com/blog/2022/reflections-on-12-years-at-mapbox/",
+    "description": "On leaving Mapbox after 12 years | trash moon",
+    "time": "2022-11-23T16:25:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "culture mapping",
+    "extended": ""
+  },
+  {
     "id": 19121867,
+    "scrap_id": "g1lqETeV",
     "href": "https://www.are.na/block/19121867",
     "description": "",
     "time": "2022-11-23T16:13:20.928Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxOTEyMTg2Ny9vcmlnaW5hbF9iMDIwMmZhYjg2MzFjYTQ4YmU2MWFiZjU0YTI2NTQyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
+  },
+  {
+    "scrap_id": "xLEhaW7V",
+    "href": "https://www.semafor.com/article/11/22/2022/ap-fired-a-reporter-after-a-dangerous-blunder-slack-messages-reveal-a-chaotic-process",
+    "description": "AP fired reporter James LaPorta after a dangerous blunder. Slack messages reveal a chaotic process. | Semafor",
+    "time": "2022-11-22T22:17:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "journalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sGAndO9_",
+    "href": "https://capitalandmain.com/new-nasa-camera-spots-methane-super-emitter-in-new-mexico",
+    "description": "New NASA Camera Spots Methane ‘Super Emitter’ in New Mexico",
+    "time": "2022-11-22T22:15:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mapping climatechange",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eIoA9TuR",
+    "href": "https://www.mtmograph.com/products/motion-4",
+    "description": "Motion 4 – Mt. Mograph",
+    "time": "2022-11-22T22:11:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "video editing tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XBwWqN3n",
+    "href": "https://www.theatlantic.com/newsletters/archive/2022/11/tech-industry-mass-layoffs-recession-twitter/672150/",
+    "description": "Why Everything in Tech Seems to Be Collapsing at Once",
+    "time": "2022-11-22T00:41:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tech culture",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cDVIRcdu",
+    "href": "https://www.beautifulpublicdata.com/visualizing-rivers-and-floodplains/",
+    "description": "Visualizing Rivers and Floodplains with USGS Data",
+    "time": "2022-11-21T23:22:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mapping data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "TQqp-kq-",
+    "href": "https://aescripts.com/ray-dynamic-color/",
+    "description": "Ray Dynamic Color 2",
+    "time": "2022-11-21T22:34:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "video editing tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5xgNgDxu",
+    "href": "https://www.bloomberg.com/graphics/2022-carbon-offsets-renewable-energy/?cmpid%253D=socialflow-twitter-graphics&leadSource=uverify%2520wall",
+    "description": "Delta, Credit Suisse Claim Carbon Neutrality Using Junk Carbon Offsets",
+    "time": "2022-11-21T21:22:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "climatechange",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6gy2K9Is",
+    "href": "https://www.nytimes.com/2022/11/21/us/colorado-springs-shooting-club-q-hero.html?smid=tw-share",
+    "description": "An Army Veteran Says He Went Into ‘Combat Mode’ to Disarm Club Q Gunman - The New York Times",
+    "time": "2022-11-21T21:16:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AIvYb6Qt",
+    "href": "https://www.youtube.com/watch?v=AJJNX243k9E",
+    "description": "(1) QGIS User 0036 - QGIS and Blender - YouTube",
+    "time": "2022-11-21T21:13:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "3d maps qgis blender",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ay4ykfKh",
+    "href": "https://ewool.com/en-US",
+    "description": "Powerful heated clothing",
+    "time": "2022-11-21T19:18:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "zb1yn8YI",
+    "href": "https://generative.ink/plots/block-multiverse-mode-collapse/",
+    "description": "Visualizing mode collapse with block multiverse plots :: — Moire",
+    "time": "2022-11-21T17:05:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning gpt3",
+    "extended": ""
+  },
+  {
+    "scrap_id": "v5U28VKa",
+    "href": "https://www.lesswrong.com/posts/t9svvNPNmFf5Qa3TA/mysteries-of-mode-collapse",
+    "description": "Mysteries of mode collapse - LessWrong",
+    "time": "2022-11-21T16:56:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vDu-m3k0",
+    "href": "https://github.com/LiveSplit/LiveSplit",
+    "description": "LiveSplit/LiveSplit: A sleek, highly customizable timer for speedrunners.",
+    "time": "2022-11-21T00:43:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "livestream tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rm9BjByp",
+    "href": "https://www.npmjs.com/package/hashtag-parser",
+    "description": "hashtag-parser - npm",
+    "time": "2022-11-20T21:06:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool code",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ii2A0eJt",
+    "href": "https://github.com/domlysz/BlenderGIS",
+    "description": "domlysz/BlenderGIS: Blender addons to make the bridge between Blender and geographic data",
+    "time": "2022-11-20T20:12:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "blender qgis mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kGwuEe9w",
+    "href": "https://www.youtube.com/watch?v=WviTi0q2BpA",
+    "description": "Importing Shapefile Data with Blender GIS - YouTube",
+    "time": "2022-11-20T20:11:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "blender qgis mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Wt6SzFmL",
+    "href": "https://www.youtube.com/watch?v=r8hqLh_HE08",
+    "description": "Artistic Coding in Blender by David Mignot - YouTube",
+    "time": "2022-11-20T20:00:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "generative 3d blender",
+    "extended": ""
   }
 ]

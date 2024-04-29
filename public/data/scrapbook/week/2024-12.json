@@ -1,141 +1,232 @@
 [
   {
+    "scrap_id": "BVsn5n_T",
+    "href": "https://news.ycombinator.com/item?id=39788456",
+    "description": "Hexagons and Hilbert curves – The headaches of distributed spatial indices | Hacker News",
+    "time": "2024-03-23T04:12:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MhFKQwN-",
+    "href": "https://www.buzzfeednews.com/article/stephaniesoteriou/skins-april-pearson-script-problematic-description",
+    "description": "“Skins” Has Once Again Been Exposed For Being Seriously Problematic",
+    "time": "2024-03-23T03:23:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 2203275845,
-    "description": "Make chat completion better and more configurable",
+    "scrap_id": "hxUfhPg_",
     "href": "https://github.com/room302studio/coachartie/issues/109",
-    "content": "room302studio/coachartie: Make chat completion better and more configurable ",
+    "description": "room302studio/coachartie: Make chat completion better and more configurable",
     "time": "2024-03-22T20:38:45Z",
     "type": "github-issue",
     "images": []
   },
   {
     "id": 2187781874,
-    "description": "Claude chat completions",
+    "scrap_id": "wOwVBg2V",
     "href": "https://github.com/room302studio/coachartie/pull/86",
-    "content": "room302studio/coachartie: Claude chat completions ",
+    "description": "room302studio/coachartie: Claude chat completions",
     "time": "2024-03-22T20:17:03Z",
     "type": "github-pr",
     "images": []
   },
   {
     "id": 2203153283,
-    "description": "Add button to easily copy entire webhook content to clipboard",
+    "scrap_id": "oYRXkmGK",
     "href": "https://github.com/room302studio/webhook-dev/issues/2",
-    "content": "room302studio/webhook-dev: Add button to easily copy entire webhook content to clipboard ",
+    "description": "room302studio/webhook-dev: Add button to easily copy entire webhook content to clipboard",
     "time": "2024-03-22T19:13:05Z",
     "type": "github-issue",
     "images": []
   },
   {
     "id": 2203133877,
-    "description": "Increase size of Google Cloud VM instance",
+    "scrap_id": "cG6xM0qg",
     "href": "https://github.com/room302studio/coachartie/issues/108",
-    "content": "room302studio/coachartie: Increase size of Google Cloud VM instance <https://console.cloud.google.com/compute/instancesDetail/zones/us-east1-b/instances/instance-1?project=coach-artie&tab=details>",
+    "description": "room302studio/coachartie: Increase size of Google Cloud VM instance",
     "time": "2024-03-22T19:00:37Z",
     "type": "github-issue",
     "images": []
   },
   {
     "id": 2202739982,
-    "description": "Add more \"testing\" to capability-player",
+    "scrap_id": "rf2LZiZx",
     "href": "https://github.com/room302studio/coachartie/issues/99",
-    "content": "room302studio/coachartie: Add more \"testing\" to capability-player `capability-player` should be a one-stop-shop for capability building\r\n- show parsed documentation\r\n- run and re-run capabilities and see their responses with hot-reloading\r\n- run basic sanity checks on what is returned, ensure it is always a string\r\n- make a verbose debug output that can be included alongside capability PRs",
+    "description": "room302studio/coachartie: Add more \"testing\" to capability-player",
     "time": "2024-03-22T15:16:39Z",
     "type": "github-issue",
     "images": []
   },
   {
     "id": 2202737320,
-    "description": "Handle capabilities in XML format",
+    "scrap_id": "qyxw4sy1",
     "href": "https://github.com/room302studio/coachartie/issues/98",
-    "content": "room302studio/coachartie: Handle capabilities in XML format `<module method>args</module>` or something",
+    "description": "room302studio/coachartie: Handle capabilities in XML format",
     "time": "2024-03-22T15:15:15Z",
     "type": "github-issue",
     "images": []
   },
   {
+    "scrap_id": "GxXYAukw",
+    "href": "https://www.patreon.com/spiritedman",
+    "description": "Van Neistat | creating The Spirited Man | Patreon",
+    "time": "2024-03-22T14:18:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112139697313901607",
+    "scrap_id": "yTvuBty3",
     "href": "https://mastodon.social/@ejfox/112139697313901607",
     "description": "<p>Im obsessed with bomb threats; why do they work, why do people even respond to them, when was the last time anyone actually threatened a bombing and actually did it, it seems in my lifetime most bombers do it without warning, it seems like we could probably reduce harm by ignoring bomb threats at this point, but I see like 3 articles a week where buildings or events or institutions are shut down because of it</p>",
     "time": "2024-03-22T13:59:46.859Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "UMEqgR_Z",
+    "href": "https://github.com/endingwithali/another-computer-history-media-list",
+    "description": "endingwithali/another-computer-history-media-list: an awesome list of computer history media that has been collected",
+    "time": "2024-03-22T12:00:09Z",
+    "type": "pinboard",
     "images": [],
-    "videos": []
+    "tags": "",
+    "extended": ""
   },
   {
     "id": 27122909,
+    "scrap_id": "KUvq6ZGo",
     "href": "https://www.are.na/block/27122909",
     "description": "",
     "time": "2024-03-21T21:01:16.259Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzEyMjkwOS9vcmlnaW5hbF82ZjM0ZjcwNWIxMmQzMjljN2UwOWQ0MWY5Njk1ZTMzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🌞 2024"
+    ]
   },
   {
     "id": "112131970566054957",
+    "scrap_id": "lGlIsRXI",
     "href": "https://mastodon.social/@ejfox/112131970566054957",
     "description": "<p>remind me to never use a utility that is a startup that needs an exit, its literally never worked</p>",
     "time": "2024-03-21T05:14:46.136Z",
-    "type": "mastodon",
+    "type": "mastodon-post",
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/131/970/289/364/410/small/825ec9f4fde19c57.png"
-    ],
-    "videos": []
+    ]
   },
   {
     "id": 2199097853,
-    "description": "feat: disable local logging, add papertrail logging endpoint",
+    "scrap_id": "WYXlPJXy",
     "href": "https://github.com/room302studio/coachartie/pull/96",
-    "content": "room302studio/coachartie: feat: disable local logging, add papertrail logging endpoint ",
+    "description": "room302studio/coachartie: feat: disable local logging, add papertrail logging endpoint",
     "time": "2024-03-21T04:36:06Z",
     "type": "github-pr",
     "images": []
   },
   {
     "id": 2199042350,
-    "description": "Logging-refactor",
+    "scrap_id": "a50_3qWl",
     "href": "https://github.com/room302studio/coachartie/pull/95",
-    "content": "room302studio/coachartie: Logging-refactor ",
+    "description": "room302studio/coachartie: Logging-refactor",
     "time": "2024-03-21T04:13:04Z",
     "type": "github-pr",
     "images": []
   },
   {
+    "scrap_id": "qQvQ62Uk",
+    "href": "https://jungiancenter.org/jung-on-the-transcendent-function/",
+    "description": "Jung on the Transcendent Function - Jungian Center for the Spiritual Sciences",
+    "time": "2024-03-19T22:31:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jNoTWGEW",
+    "href": "https://github.com/anthropics/anthropic-tokenizer-typescript",
+    "description": "anthropics/anthropic-tokenizer-typescript",
+    "time": "2024-03-19T22:29:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 27078848,
+    "scrap_id": "1GDoXl_h",
     "href": "https://www.are.na/block/27078848",
     "description": "",
     "time": "2024-03-19T21:57:00.772Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzA3ODg0OC9vcmlnaW5hbF8xNWYxMjBlOWVhMzJjNmM5ZWU4YzRlMmNhY2Q2ZDQ1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ],
-    "channel": "🔨 Conversations With Robots"
+    ]
+  },
+  {
+    "id": 27078848,
+    "scrap_id": "1GDoXl_h",
+    "href": "https://www.are.na/block/27078848",
+    "description": "",
+    "time": "2024-03-19T21:57:00.772Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzA3ODg0OC9vcmlnaW5hbF8xNWYxMjBlOWVhMzJjNmM5ZWU4YzRlMmNhY2Q2ZDQ1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
   },
   {
     "id": "112123842253500289",
+    "scrap_id": "IMjmo3vw",
     "href": "https://mastodon.social/@ejfox/112123842253500289",
     "description": "<p>unfortunately it appears I am going to have to willingly listen to Don Lemon, an unfortunate situation I hoped to never find myself in</p>",
     "time": "2024-03-19T18:47:37.824Z",
-    "type": "mastodon",
-    "images": [],
-    "videos": []
+    "type": "mastodon-post",
+    "images": []
   },
   {
     "id": 2187164031,
-    "description": "feat: prompts in supabase",
+    "scrap_id": "vME1-gvI",
     "href": "https://github.com/room302studio/coachartie/pull/85",
-    "content": "room302studio/coachartie: feat: prompts in supabase ### Prompts Table\r\n```sql\r\ncreate table\r\n  public.prompts (\r\n    id integer generated by default as identity,\r\n    prompt_name text null,\r\n    prompt_text text null,\r\n    notes text null,\r\n    type text null,\r\n    active boolean null,\r\n    updated_at timestamp with time zone not null default now(),\r\n    archived boolean null default false,\r\n    history jsonb null default '[]'::jsonb,\r\n    created_at timestamp with time zone not null default now(),\r\n    constraint prompts_pkey primary key (id)\r\n  ) tablespace pg_default;\r\n```\r\n\r\n### Config Table\r\n```sql\r\ncreate table\r\n  public.config (\r\n    id bigint generated by default as identity,\r\n    created_at timestamp with time zone not null default now(),\r\n    config_key text not null unique,\r\n    config_value text not null,\r\n    history jsonb not null default '[]'::jsonb,\r\n    constraint config_pkey primary key (id)\r\n  ) tablespace pg_default;\r\n```",
+    "description": "room302studio/coachartie: feat: prompts in supabase",
     "time": "2024-03-19T06:40:30Z",
     "type": "github-pr",
     "images": []
   },
   {
+    "scrap_id": "4wOtzU2H",
+    "href": "https://civileats.com/2022/10/20/will-a-buffet-funded-co-op-in-the-hudson-valley-boost-food-access-or-gentrification/",
+    "description": "Will a Buffett-Funded Co-op in the Hudson Valley Boost Food Access or Lead to Gentrification? | Civil Eats",
+    "time": "2024-03-18T02:51:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tOXHng_q",
+    "href": "https://www.tabletmag.com/sections/news/articles/buffett-kingston-sean-cooper",
+    "description": "What Happens When a Buffett Buys Your Town? - Tablet Magazine",
+    "time": "2024-03-18T02:51:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": 2184769869,
-    "description": "feat: pgcron; schedule and list pgcron jobs",
+    "scrap_id": "SZdJFLS6",
     "href": "https://github.com/room302studio/coachartie/pull/84",
-    "content": "room302studio/coachartie: feat: pgcron; schedule and list pgcron jobs ",
+    "description": "room302studio/coachartie: feat: pgcron; schedule and list pgcron jobs",
     "time": "2024-03-18T02:01:57Z",
     "type": "github-pr",
     "images": []

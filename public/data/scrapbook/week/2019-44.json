@@ -1,13 +1,23 @@
 [
   {
+    "scrap_id": "pV_ptVyo",
+    "href": "https://spaceandtim.es/etc/research_tools/",
+    "description": "space and times",
+    "time": "2019-10-31T15:57:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "francis tseng's blog"
+  },
+  {
     "id": 5363096,
+    "scrap_id": "X_vAD62K",
     "href": "https://www.are.na/block/5363096",
     "description": "https://www2.cs.duke.edu/courses/cps124/fall01/resources/p119-weber.pdf",
     "time": "2019-10-28T20:08:56.771Z",
     "type": "arena",
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MzYzMDk2L29yaWdpbmFsXzE5MmMyMjE3Zjg2NzVjMjA4Y2NjMDUzZDMwZGNlYmUzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
-    ],
-    "channel": "🌞 vibes"
+    ]
   }
 ]

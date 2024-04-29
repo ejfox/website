@@ -1,10 +1,19 @@
 <template>
-  <div ref="scrapcontainer" class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace">
+  <div
+    ref="scrapcontainer"
+    class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace"
+  >
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
-    <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-0.5">
+    <div
+      v-for="(group, groupIndex) in groupedScraps"
+      :key="groupIndex"
+      class="mb-0.5"
+    >
       <!-- <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" /> -->
+
       <VerboseScrapItem :scrap="group.items[0]" />
+      <!-- <pre>{{group.items[0]}}</pre> -->
     </div>
     <div v-if="loading" class="text-center">Loading...</div>
   </div>
@@ -34,6 +43,10 @@ const loadMore = () => {
   }, 500)
 }
 
+async function generateScrapId(scrap) {
+  return await scrapToUUID(scrap)
+}
+
 useInfiniteScroll(scrapcontainer, loadMore, { distance: 10 })
 
 const formatDate = (date) => {
@@ -42,13 +55,13 @@ const formatDate = (date) => {
 
 const groupedScraps = computed(() => {
   // Create an empty array to store the grouped scraps
-  const groups = [];
+  const groups = []
 
   // Create a variable to keep track of the current gallery group
-  let currentGalleryGroup = null;
+  let currentGalleryGroup = null
 
   // Create a variable to keep track of the current PR group
-  let currentPRGroup = null;
+  let currentPRGroup = null
 
   // Iterate over each scrap in the displayedData array
   displayedData.value.forEach((scrap, index) => {
@@ -65,37 +78,37 @@ const groupedScraps = computed(() => {
         currentGalleryGroup = {
           type: 'gallery',
           items: [],
-        };
+        }
         // Add the newly created gallery group to the groups array
-        groups.push(currentGalleryGroup);
+        groups.push(currentGalleryGroup)
       }
       // Add the current scrap to the current gallery group
-      currentGalleryGroup.items.push(scrap);
+      currentGalleryGroup.items.push(scrap)
     } else if (scrap.type === 'user-github-pr') {
       // If the current scrap type is 'user-github-pr', add it to the current PR group
       if (!currentPRGroup) {
         currentPRGroup = {
           type: 'pr',
           items: [],
-        };
+        }
         // Add the newly created PR group to the groups array
-        groups.push(currentPRGroup);
+        groups.push(currentPRGroup)
       }
       // Add the current scrap to the current PR group
-      currentPRGroup.items.push(scrap);
+      currentPRGroup.items.push(scrap)
     } else {
       // If the current scrap doesn't have images and is not a PR, add it as an individual item
       groups.push({
         type: 'single',
         items: [scrap],
-      });
+      })
       // Reset the current gallery group and PR group to null
-      currentGalleryGroup = null;
-      currentPRGroup = null;
+      currentGalleryGroup = null
+      currentPRGroup = null
     }
-  });
+  })
 
   // Return the array of grouped scraps
-  return groups;
-});
+  return groups
+})
 </script>

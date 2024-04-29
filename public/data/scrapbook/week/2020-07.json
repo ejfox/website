@@ -1,0 +1,32 @@
+[
+  {
+    "scrap_id": "grQlkx0w",
+    "href": "https://www.gwern.net/GPT-2-preference-learning",
+    "description": "GPT-2 Preference Learning for Music and Poetry Generation",
+    "time": "2020-02-15T03:05:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ad0aqCDF",
+    "href": "https://www.npmjs.com/package/exif-reader",
+    "description": "exif-reader",
+    "time": "2020-02-10T01:57:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "js photography",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yC8fgszh",
+    "href": "https://sysadmincasts.com/episodes/53-extracting-image-metadata-to-json-using-imagemagick",
+    "description": "Extracting Image Metadata to JSON using ImageMagick",
+    "time": "2020-02-09T07:52:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "json photography",
+    "extended": ""
+  }
+]

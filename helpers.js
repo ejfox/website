@@ -1,5 +1,5 @@
 import CryptoJS from 'crypto-js'
-import md5 from 'js-md5'
+import { md5 } from 'js-md5'
 
 export function generateShortId(data, length = 8) {
   const hash = CryptoJS.SHA256(data)

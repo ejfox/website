@@ -4,6 +4,7 @@ import axios from 'axios';
 import ora from 'ora';
 import Bottleneck from 'bottleneck';
 import dotenv from 'dotenv';
+import { readManifest } from './manifestHelpers.js'
 
 dotenv.config();
 
@@ -56,7 +57,6 @@ const fetchStatuses = async (userId) => {
 };
 
 (async () => {
-  console.time('Time elapsed');
   const userId = await fetchUserId();
   if (userId) {
     const statuses = await fetchStatuses(userId);
@@ -67,7 +67,6 @@ const fetchStatuses = async (userId) => {
   } else {
     console.error('User ID could not be found for the specified username.');
   }
-  console.timeEnd('Time elapsed');
   
 })();
 

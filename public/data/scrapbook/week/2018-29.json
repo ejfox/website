@@ -1,0 +1,82 @@
+[
+  {
+    "scrap_id": "tsY8Njd9",
+    "href": "https://www.rollingstone.com/culture/culture-features/oregons-weed-glut-what-happens-to-excess-pot-697985/",
+    "description": "Oregon’s Weed Glut: What Happens to Excess Pot? – Rolling Stone",
+    "time": "2018-07-20T20:04:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3crmzUgr",
+    "href": "https://vimeo.com/280857972",
+    "description": "Road Trip: Iceland Residency on Vimeo",
+    "time": "2018-07-20T20:04:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "H3wGknYD",
+    "href": "https://www.tastecooking.com/lets-call-assimilation-food/",
+    "description": "Let’s Call It Assimilation Food | TASTE",
+    "time": "2018-07-19T16:51:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "iOy0j12y",
+    "href": "https://theintercept.com/2018/07/18/mueller-indictment-russian-hackers/",
+    "description": "What Mueller’s Latest Indictment Reveals About Russian and U.S. Spycraft",
+    "time": "2018-07-18T19:27:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "hacking",
+    "extended": "For example, the spear-phishing emails that John Podesta, Clinton’s campaign chair, and others received included links to the URL shortening service Bitly. \r\n\r\nThe Bitly account that created these links was registered using the email address “dirbinsaabol@mail.com.” The attackers used that same email address to create an account on a provider where they leased a server, which they paid for using an “online cryptocurrency service” (based on the wording of some instructions quoted in the indictment, I think the service in question may be BitPay). \r\n\r\nThis same cryptocurrency account was used to pay for registering the domain name dcleaks.com. This means that whoever was behind the spear-phishing campaign (and thus the DCCC and DNC hacks) also bought the domain name dcleaks.com, and also leased this server.\r\n\r\n...\r\n\r\nHow could U.S. investigators know that Kovalev deleted his search history, as well as records belonging to multiple online accounts? Again, I believe the most likely scenario is that the NSA compromised his computer, accessed his browser history, and perhaps logged his keystrokes and took screenshots from his computer using a C2 server of their own."
+  },
+  {
+    "scrap_id": "hl8V6Ul3",
+    "href": "http://www.teamgal.com/exhibitions/391/mirror_mirror",
+    "description": "Ryan McGinley : Mirror, Mirror",
+    "time": "2018-07-18T19:12:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8dhl51sg",
+    "href": "https://www.buzzfeednews.com/article/josephbernstein/lane-davis-ralph-retort-seattle4truth-alt-right",
+    "description": "Alt-Right Troll To Father Killer: The Unraveling Of Lane Davis",
+    "time": "2018-07-18T13:54:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "u32aAHE6",
+    "href": "http://gawker.com/5932875/lets-have-a-maximum-income",
+    "description": "Let's Have a Maximum Income",
+    "time": "2018-07-17T23:08:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "VSENvAjY",
+    "href": "https://www.theverge.com/2018/7/16/17569520/twitch-streamers-zero-viewers-motivation-community",
+    "description": "The Twitch streamers who spend years broadcasting to no one - The Verge",
+    "time": "2018-07-17T02:39:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

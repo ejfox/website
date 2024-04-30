@@ -9,15 +9,14 @@
     </div>
   </div>
 </template>
-<script setup>
-</script>
+<script setup></script>
 
 <style>
 .sans-serif {
-  font-family: "Signika Negative", sans-serif !important;
+  font-family: 'Signika Negative', sans-serif !important;
 }
 
 .monospace {
-  font-family: "Red Hat Mono", monospace !important;
+  font-family: 'Red Hat Mono', monospace !important;
 }
 </style>

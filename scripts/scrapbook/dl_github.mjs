@@ -30,22 +30,27 @@ const fetchGithubData = async () => {
     }
   });
 
+  const userGists = await axios.get(`https://api.github.com/users/${username}/gists`, {
+    headers: {
+      'Authorization': `token ${token}`
+    }
+  });
+
   spinner.succeed('Downloaded GitHub data');
   return {
     starredRepos: starredRepos.data,
     userRepos: userRepos.data.filter(repo => repo.visibility === 'public'),
-    userIssues: userIssues.data.items
+    userIssues: userIssues.data.items,
+    userGists: userGists.data
   };
 };
 
 const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook');
 const filePath = path.join(dirPath, 'github.json');
 
-console.time('Time elapsed');
 const githubData = await fetchGithubData();
 await fs.mkdir(dirPath, { recursive: true });  // This will create the directories if they don't exist
 await fs.writeFile(filePath, JSON.stringify(githubData, null, 2));
-console.timeEnd('Time elapsed');
 
 export {
   fetchGithubData,

@@ -1,0 +1,85 @@
+[
+  {
+    "scrap_id": "8lDhfR_T",
+    "href": "https://miniflux.app/",
+    "description": "Miniflux - Minimalist and Opinionated Feed Reader",
+    "time": "2023-01-26T21:31:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2Cdhdd6m",
+    "href": "https://www.patterns.app/blog/2023/01/18/crunchbot-sql-analyst-gpt/",
+    "description": "Replacing a SQL analyst with 26 recursive GPT prompts | Patterns",
+    "time": "2023-01-26T21:25:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cOweIEx4",
+    "href": "https://www.pinecone.io/",
+    "description": "Vector Database for Vector Search",
+    "time": "2023-01-26T15:30:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Search through billions of items for similar matches to any object, in milliseconds. It’s the next generation of search, an API call away."
+  },
+  {
+    "id": "109746621734073465",
+    "scrap_id": "IvOB-k48",
+    "href": "https://mastodon.social/@ejfox/109746621734073465",
+    "description": "<p>oh my god taxes, why</p>",
+    "time": "2023-01-24T22:49:11.363Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "109744581295761449",
+    "scrap_id": "dk6ibLZ3",
+    "href": "https://mastodon.social/@ejfox/109744581295761449",
+    "description": "<p>Getting really into seitan</p>",
+    "time": "2023-01-24T14:10:16.746Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/744/580/839/715/855/small/a09cb4dd68b39c59.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/580/927/601/162/small/f13521a62fd4cec4.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/581/013/479/298/small/59e91902f69d801f.jpeg",
+      "https://files.mastodon.social/media_attachments/files/109/744/581/138/383/051/small/bb69597c498be81f.jpeg"
+    ]
+  },
+  {
+    "scrap_id": "wNYCjGdM",
+    "href": "https://www.montbell.us/special/product_info/layering/",
+    "description": "Special Content: How to build your layering system | Montbell America",
+    "time": "2023-01-24T02:28:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "GctpHyvp",
+    "href": "https://insideclimatenews.org/news/24082022/methane-surge-greenhouse-gas/",
+    "description": "Methane Hunters: What Explains the Surge in the Potent Greenhouse Gas? - Inside Climate News",
+    "time": "2023-01-23T17:10:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6uhbhGWG",
+    "href": "https://psycnet.apa.org/buy/2022-82550-001",
+    "description": "APA PsycNet",
+    "time": "2023-01-22T14:08:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

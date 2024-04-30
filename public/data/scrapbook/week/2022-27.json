@@ -1,0 +1,120 @@
+[
+  {
+    "scrap_id": "pioz4Bf2",
+    "href": "https://github.com/vercel/ncc",
+    "description": "vercel/ncc: Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.",
+    "time": "2022-07-03T03:58:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "nodejs cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "xield4iq",
+    "href": "https://github.com/faker-js/faker",
+    "description": "faker-js/faker: Generate massive amounts of fake data in the browser and node.js",
+    "time": "2022-07-03T03:06:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YMmnkRSz",
+    "href": "https://flexbox.malven.co/",
+    "description": "FLEX: A simple visual cheatsheet for flexbox",
+    "time": "2022-07-03T02:40:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "css design cheatsheet",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Qj6DNSLx",
+    "href": "https://www.youtube.com/watch?v=fAHkJ_Dhr50",
+    "description": "Network of The Witcher | Relationship Extraction & Network Analysis with Spacy & NetworkX - YouTube",
+    "time": "2022-06-30T23:54:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "network",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KoCeN0c8",
+    "href": "https://cleanshot.com/",
+    "description": "CleanShot X for Mac",
+    "time": "2022-06-30T01:04:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jA5pbrV-",
+    "href": "https://m.youtube.com/watch?v=HPtnxV-ki6k",
+    "description": "How Evil Geniuses is using data analytics to change esports | EG CEO Interview - YouTube",
+    "time": "2022-06-29T22:23:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5vAApv0S",
+    "href": "https://charmstone.app/",
+    "description": "[no title]",
+    "time": "2022-06-28T05:04:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osx utility",
+    "extended": "The quicker switcher launcher for macOS"
+  },
+  {
+    "id": "60caff5e4a3a5197374c8fe7c6221b55",
+    "scrap_id": "ImO4_uID",
+    "href": "https://gist.github.com/ejfox/60caff5e4a3a5197374c8fe7c6221b55",
+    "description": "Use OpenAI to add tags to a JSON file of tweets",
+    "time": "2022-06-27T18:47:20Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "id": "98ecfa51d0e91d86e23891f67bd8dc1a",
+    "scrap_id": "lFLgzomv",
+    "href": "https://gist.github.com/ejfox/98ecfa51d0e91d86e23891f67bd8dc1a",
+    "description": "",
+    "time": "2022-06-27T18:46:10Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "scrap_id": "6VTQX3Pk",
+    "href": "https://www.eatingwell.com/recipe/7968105/crispy-smashed-shallots-with-goat-cheese-fig-jam/",
+    "description": "Crispy Smashed Shallots with Goat Cheese & Fig Jam",
+    "time": "2022-06-27T14:43:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "recipe cooking",
+    "extended": "These crispy smashed shallots mellow while they roast and become the perfect vessel for sweet fig jam and creamy goat cheese."
+  },
+  {
+    "scrap_id": "sMSO0A0p",
+    "href": "https://twitter.com/fr_brennan/status/1180089499491061760",
+    "description": "\"Jim and @CodeMonkeyZ are in a unique position to take over Q. They don't need Q. And I can prove this with the open source OpenIB code underlying 8chan. OpenIB contains, in broad daylight, a feature called \"custom_tripcode\". https://t.co/l06G1LI3Qj This ",
+    "time": "2022-06-27T03:16:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics opensource",
+    "extended": ""
+  },
+  {
+    "scrap_id": "hgJ41GiY",
+    "href": "https://www.rokoko.com/shops-bundle/full-performance-capture",
+    "description": "Full Performance Capture Bundle - Hands, Body & Face",
+    "time": "2022-06-26T04:31:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

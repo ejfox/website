@@ -1,0 +1,121 @@
+[
+  {
+    "scrap_id": "vjmPTOSL",
+    "href": "https://www.youtube.com/watch?v=Aa6cfdCK9Ns",
+    "description": "Tyler Flight’s insane Harley jump - YouTube",
+    "time": "2022-08-20T03:02:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "motorcycle",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wBq240LN",
+    "href": "https://twitter.com/elierlick/status/1559589363662692353?s=12&t=lD07Xdw_DTIoxKpkK_3Bwg",
+    "description": "[no title]",
+    "time": "2022-08-17T21:27:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4heUJh2m",
+    "href": "https://patch.com/new-york/eastmeadow/few-released-under-bail-reform-rearrested-nassau-police-data-shows",
+    "description": "As Nassau Executive Blasts Bail Reform, Data Shows Few Are Re-Arrested",
+    "time": "2022-08-17T14:51:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Data from the NCPD shows that 87 percent of people arrested last quarter were released without bail. But few went on to commit more crimes."
+  },
+  {
+    "scrap_id": "kVKV9Qyi",
+    "href": "https://twitter.com/alexgarcia_atx/status/1559706626407514113?s=12&t=l-U3rI0AcziHhAe4xKq-8A",
+    "description": "Alex Garcia 🔍 on Twitter",
+    "time": "2022-08-17T01:51:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YPd-1paI",
+    "href": "https://github.com/mapbox/impact-tools/blob/tdf-animation-sequence/journey-animation-sequence/js/util.js#L41-L47",
+    "description": "impact-tools/util.js at tdf-animation-sequence · mapbox/impact-tools",
+    "time": "2022-08-16T23:34:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mapping technique",
+    "extended": "Camera smoothing in mapboxgl\n"
+  },
+  {
+    "scrap_id": "c504J9te",
+    "href": "https://github.com/asg017/sqlite-http",
+    "description": "asg017/sqlite-http: A SQLite extension for making HTTP requests purely in SQL",
+    "time": "2022-08-16T21:53:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "buWOKYk_",
+    "href": "https://observablehq.com/@asg017/100-command-line-tools-for-data-viz",
+    "description": "100+ Command Line Tools for Data Visualization / Alex Garcia / Observable",
+    "time": "2022-08-16T21:50:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cli dataviz tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "zJrgZxXe",
+    "href": "https://time.com/6206343/schools-ventilation-covid-19-air-quality/",
+    "description": "Your Kid's School Needs Better Ventilation to Curb COVID-19",
+    "time": "2022-08-16T19:14:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "covid",
+    "extended": "Many schools have not invested in upgrading their air quality. Here's what you should know."
+  },
+  {
+    "id": 525159492,
+    "scrap_id": "IBSwlLAA",
+    "href": "https://github.com/felt/tippecanoe",
+    "description": "Build vector tilesets from large collections of GeoJSON features.",
+    "time": "2022-08-15T22:41:51Z",
+    "type": "github-star",
+    "images": []
+  },
+  {
+    "scrap_id": "7jYSxzSH",
+    "href": "https://www.cb2.com/nouveau-floor-mirror-48x78/s483908",
+    "description": "Nouveau Floor Mirror 48\"x78\" + Reviews | CB2",
+    "time": "2022-08-15T22:33:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jL5ih1Cz",
+    "href": "https://www.stopthebleed.org/training/",
+    "description": "Training | Stop The Bleed",
+    "time": "2022-08-15T22:00:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "health",
+    "extended": ""
+  },
+  {
+    "scrap_id": "IeRtuVvO",
+    "href": "https://gis.stackexchange.com/questions/166631/applying-osm-z-order-after-osm2pgsql-with-qgis/203771#203771",
+    "description": "postgis - Applying OSM z-order after osm2pgsql with qgis - Geographic Information Systems Stack Exchange",
+    "time": "2022-08-15T16:59:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

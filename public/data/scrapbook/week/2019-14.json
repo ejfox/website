@@ -1,0 +1,430 @@
+[
+  {
+    "scrap_id": "j_UQKOyR",
+    "href": "http://lucasfcosta.com/2019/02/10/terminal-guide-2019.html",
+    "description": "How I'm still not using GUIs in 2019",
+    "time": "2019-04-05T22:10:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 4021134,
+    "scrap_id": "R0vHDhV_",
+    "href": "https://www.are.na/block/4021134",
+    "description": "",
+    "time": "2019-04-05T21:46:11.182Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDIxMTM0L29yaWdpbmFsX2MwMDQzZjZiNzZjZjMxMGFhNDJjMmFlMWYwOGVkMDI0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  },
+  {
+    "id": 4011117,
+    "scrap_id": "fMKDWkhh",
+    "href": "https://www.are.na/block/4011117",
+    "description": "",
+    "time": "2019-04-04T19:22:57.094Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDExMTE3L29yaWdpbmFsXzRiMGVkNGExYjE1NjczNjJhY2E3MzExZjFhMzJiY2YzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "LAYDnsbZ",
+    "href": "https://stackoverflow.com/questions/27910784/is-it-possible-to-backup-firebase-db/27957431#27957431",
+    "description": "Is it possible to backup Firebase DB? - Stack Overflow",
+    "time": "2019-04-04T16:27:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "As of the time of this question, Firebase backs up all instances daily. So while keeping your own backups may still be useful, it's not essential.\r\n\r\nTo create your own backups, you can simply curl the data:\r\n\r\n`>curl https://<instance>.firebaseio.com/.json?format=export`"
+  },
+  {
+    "scrap_id": "lrSBc8zI",
+    "href": "https://www.lettering-daily.com/learning-sign-painting/",
+    "description": "How To Learn Sign Painting (Step-By-Step 2019)",
+    "time": "2019-04-04T01:26:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "design",
+    "extended": ""
+  },
+  {
+    "scrap_id": "7WEsGDf9",
+    "href": "https://t.co/WhshvQYila?ssr=true",
+    "description": "Opinion | Big Techâs Original Sin - The New York Times",
+    "time": "2019-04-03T22:31:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tech politics",
+    "extended": ""
+  },
+  {
+    "id": 3997583,
+    "scrap_id": "EZ1EDsB3",
+    "href": "https://www.are.na/block/3997583",
+    "description": "",
+    "time": "2019-04-03T08:00:49.286Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk3NTgzL29yaWdpbmFsX2YzZjU4M2JiNTc3NmM2MmNlZGZiY2QxN2NlM2VjZTY0LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "VU3a5G1R",
+    "href": "https://t.co/SBg10ay9FN?ssr=true",
+    "description": "Gallagher Is a Paranoid, Right-Wing, Watermelon-Smashing Maniac - Theater - The Stranger",
+    "time": "2019-04-03T06:46:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XgvXap_2",
+    "href": "https://monero.stackexchange.com/questions/2136/understanding-the-structure-of-a-monero-transaction",
+    "description": "Understanding the structure of a Monero transaction",
+    "time": "2019-04-03T06:34:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "crypto",
+    "extended": ""
+  },
+  {
+    "id": 3997211,
+    "scrap_id": "AMuCPc-p",
+    "href": "https://www.are.na/block/3997211",
+    "description": "Welcome back, my hacker apprentices! A you know, Mr. Robot is my favorite TV show this year, and not just for the realistic hacking. Rami Malek, the actor who plays Elliot, is incomparable in his depiction of a young man with social anxiety who is alienated from a superficial, materialistic society and wants to make a better world.",
+    "time": "2019-04-03T05:53:10.181Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk3MjExL29yaWdpbmFsXzU3M2Y4M2ViYTFmZGJmMDYxMDQ3ZTM4Nzg0NTY3NzA0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "APnyGw1N",
+    "href": "https://www.youtube.com/watch?v=jKNMgHzaIk0",
+    "description": "How to Wear Thai Fisherman Pants New Style Tie",
+    "time": "2019-04-03T05:18:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 3996694,
+    "scrap_id": "wQNcD2M8",
+    "href": "https://www.are.na/block/3996694",
+    "description": "",
+    "time": "2019-04-03T05:14:33.682Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2Njk0L29yaWdpbmFsX2YyYTBlZDZlMzZkZWY4M2FmZmRkOTFhYzIxN2Q3NjExLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996691,
+    "scrap_id": "zAqWLWMj",
+    "href": "https://www.are.na/block/3996691",
+    "description": "",
+    "time": "2019-04-03T05:14:26.180Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjkxL29yaWdpbmFsX2Y5Y2ExYzNlYTYzN2I0YTRhMTFhMjVjZTYwOGYwZjk5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996679,
+    "scrap_id": "aYlIyWK0",
+    "href": "https://www.are.na/block/3996679",
+    "description": "",
+    "time": "2019-04-03T05:12:32.659Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2Njc5L29yaWdpbmFsXzc4ZDEwMjVhMzYxZGY3MTQzMjI5ODQ1MjgwYWY4ZjIxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996674,
+    "scrap_id": "-xprkPe1",
+    "href": "https://www.are.na/block/3996674",
+    "description": "",
+    "time": "2019-04-03T05:07:25.845Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2Njc0L29yaWdpbmFsXzNiM2U3YTliMDdkYjFhMWViZjViOTVjNTg1YzU3ODA3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996637,
+    "scrap_id": "gI9NMH0I",
+    "href": "https://www.are.na/block/3996637",
+    "description": "",
+    "time": "2019-04-03T04:51:55.153Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjM3L29yaWdpbmFsXzU5ZTY1YTQ5NDY1ZTk2MWUwYzNiZjZmOGRhZmYxNmEzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996631,
+    "scrap_id": "QmuNP2jB",
+    "href": "https://www.are.na/block/3996631",
+    "description": "The Big Bad is a Computer-Destroying Techwhiz. The Good Guy's on the other side. Now, how do you show the audience that they are awesome, other than having them grab a keyboard, punch a few buttons, and blow up a satellite in 15 minutes? Throw in ...",
+    "time": "2019-04-03T04:48:46.241Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjMxL29yaWdpbmFsXzc0NTZlNGZmYjM4NDE3OWNkY2E2NzhjYjhhMGJjNTA0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  },
+  {
+    "id": 3996626,
+    "scrap_id": "TXnrbdh-",
+    "href": "https://www.are.na/block/3996626",
+    "description": "",
+    "time": "2019-04-03T04:47:34.831Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjI2L29yaWdpbmFsXzliNGQ0NzVkZjk1ZjQ1MWFhYTRkYjgyMzViMWQwOTYxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996623,
+    "scrap_id": "LsEoRTXf",
+    "href": "https://www.are.na/block/3996623",
+    "description": "",
+    "time": "2019-04-03T04:46:05.783Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjIzL29yaWdpbmFsXzAzNWUwNWI5YTQ0NTFhOWU1MmYyYjVlNmU5ODA3ZDE5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996611,
+    "scrap_id": "aVXRN_df",
+    "href": "https://www.are.na/block/3996611",
+    "description": "",
+    "time": "2019-04-03T04:43:45.567Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjExL29yaWdpbmFsXzYwZGZmNjRmZDU4ZGQ0MGU2Mzk5NjE4ODVkMzgzYjcyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996610,
+    "scrap_id": "ZHZiFr-T",
+    "href": "https://www.are.na/block/3996610",
+    "description": "",
+    "time": "2019-04-03T04:43:24.863Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTk2NjEwL29yaWdpbmFsXzY2YTc3NzcxMzBkZGExODhiMDUwNjFkN2M5MzA4NTI4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3996322,
+    "scrap_id": "0TPBI5y4",
+    "href": "https://www.are.na/block/3996322",
+    "description": "",
+    "time": "2019-04-03T03:57:18.425Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "scrap_id": "sD3PbK7i",
+    "href": "https://abcnews.go.com/International/us-officials-isis-toyota-trucks/story?id=34266539",
+    "description": "US Officials Ask How ISIS Got So Many Toyota Trucks",
+    "time": "2019-04-03T01:43:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Toyota Hilux pickups, an overseas model similar to the Toyota Tacoma, and Toyota Land Cruisers have become fixtures in videos of the ISIS campaign in Iraq, Syria and Libya, with their truck beds loaded with heavy weapons and cabs jammed with terrorists. The Iraqi Ambassador to the United States, Lukman Faily, told ABC News that in addition to re-purposing older trucks, his government believes ISIS has acquired “hundreds” of “brand new” Toyotas in recent years."
+  },
+  {
+    "scrap_id": "D_QJDudO",
+    "href": "https://www.nytimes.com/2019/03/28/well/eat/food-mood-depression-anxiety-nutrition-psychiatry.html",
+    "description": "Can What We Eat Affect How We Feel?",
+    "time": "2019-04-02T20:37:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "food",
+    "extended": ""
+  },
+  {
+    "scrap_id": "I75qA2LL",
+    "href": "https://transom.org/2019/how-sruthi-tracks/?mc_cid=6cc986f718&mc_eid=[UNIQID",
+    "description": "How Sruthi Tracks - Transom",
+    "time": "2019-04-02T20:17:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nv01MSZo",
+    "href": "https://ethanmarcotte.com/wrote/trainers/",
+    "description": "Trainers. — Ethan Marcotte",
+    "time": "2019-04-02T20:11:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Nj-HW__k",
+    "href": "https://www.nytimes.com/2019/04/01/upshot/trump-era-molding-young-voters.html",
+    "description": "How the Trump Era Is Molding the Next Generation of Voters - The New York Times",
+    "time": "2019-04-02T18:09:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gHY5GIBg",
+    "href": "http://blog.christophercannon.net/",
+    "description": "Graphic Specimens",
+    "time": "2019-04-02T16:37:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz maps",
+    "extended": "A virtual file cabinet of maps, charts, diagrams, data visualizations and other related curiosities.\r\n"
+  },
+  {
+    "scrap_id": "JWp_Cuas",
+    "href": "https://www.buzzfeednews.com/article/adammorris/jonestown-silicon-valley-ray-kurzweil-american-messiahs#4ldqpgc",
+    "description": "Forty Years After Jonestown, Americans Are Still Searching For Gurus To Follow",
+    "time": "2019-04-02T13:27:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1uDH9Z27",
+    "href": "https://easmussen.itch.io/factory-town",
+    "description": "Factory Town by Erik Asmussen",
+    "time": "2019-04-01T20:02:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "games",
+    "extended": "Build, Expand, Automate, and Optimize your own fantasy village in the wilderness using marble-run chutes, railways, running water, magic currents, and conveyor belts."
+  },
+  {
+    "scrap_id": "6hFUdF10",
+    "href": "http://www.iching123.com/wording_a_text.htm",
+    "description": "terminology of the i ching: the meaning of some wordings",
+    "time": "2019-03-31T23:15:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 3978839,
+    "scrap_id": "i9VmMV7k",
+    "href": "https://www.are.na/block/3978839",
+    "description": "",
+    "time": "2019-03-31T23:03:19.170Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "id": 3978830,
+    "scrap_id": "K6_zeHxo",
+    "href": "https://www.are.na/block/3978830",
+    "description": "",
+    "time": "2019-03-31T23:01:32.806Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "scrap_id": "0UMEeTKC",
+    "href": "https://jacobinmag.com/2019/03/middle-class-white-collar-unions-kickstarter",
+    "description": "Forget Your Middle-Class Dreams",
+    "time": "2019-03-31T22:46:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 3978589,
+    "scrap_id": "XlTPV1wn",
+    "href": "https://www.are.na/block/3978589",
+    "description": "",
+    "time": "2019-03-31T22:10:14.707Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "id": 3978540,
+    "scrap_id": "TiRi7jQo",
+    "href": "https://www.are.na/block/3978540",
+    "description": "",
+    "time": "2019-03-31T22:02:16.726Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "id": 3978453,
+    "scrap_id": "AWBDc1TV",
+    "href": "https://www.are.na/block/3978453",
+    "description": "",
+    "time": "2019-03-31T21:54:53.245Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "id": 3977018,
+    "scrap_id": "0hYgt__d",
+    "href": "https://www.are.na/block/3977018",
+    "description": "An illegal number is a number that represents information which is illegal to possess, utter, propagate, or otherwise transmit in some legal jurisdiction. Any piece of digital information is representable as a number; consequently, if communicating a specific set of information is illegal in some way, then the number may be illegal as well.",
+    "time": "2019-03-31T18:33:59.277Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTc3MDE4L29yaWdpbmFsX2MxMDMyNDI3YjQ3MjNjMmIyMWM5YjA2NmFjZjU0MmUzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  },
+  {
+    "id": 3976932,
+    "scrap_id": "tCVi9vRe",
+    "href": "https://www.are.na/block/3976932",
+    "description": "Eric Hughes Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is the power to selectively reveal oneself to the world.",
+    "time": "2019-03-31T18:14:27.375Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzOTc2OTMyL29yaWdpbmFsX2RlMTFjZGFkNmI4MjVmMjkxNDIxYzViMzAxOWQ0YmUyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  },
+  {
+    "id": 3976906,
+    "scrap_id": "XzzpbioJ",
+    "href": "https://www.are.na/block/3976906",
+    "description": "",
+    "time": "2019-03-31T18:08:26.091Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "id": 3976890,
+    "scrap_id": "UDxcOfUd",
+    "href": "https://www.are.na/block/3976890",
+    "description": "",
+    "time": "2019-03-31T18:05:04.983Z",
+    "type": "arena",
+    "images": []
+  },
+  {
+    "scrap_id": "PN8o91YF",
+    "href": "https://www.theguardian.com/technology/2004/nov/04/onlinesupplement",
+    "description": "Neal Stephenson - the interview",
+    "time": "2019-03-31T17:24:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "hackers opensource",
+    "extended": "NS: For a while I have been nursing the idea that open source software is just the extension of Common Law into the realm of executable code. I daren't think I'm the first person to have thought such a thing, so I did a Google search and found some references to the idea elsewhere. It appears that Michael Tiemann of Cygnus Support (an open source software company) has been thinking along similar lines, and perhaps there are others too. It's certainly the case that commonly used Internet protocols such as TCP/IP and HTTP have attained a status akin to that of common law.\r\n\r\nAssuming one is willing to buy that analogy, then your question boils down to whether the development of this new branch of common law amounts to a heroic purpose. I believe that it is a great purpose and that it can affect society in ways that are more important and far-reaching than heroism in the glorious, swashbuckling sense. It is not, however, glorious and swashbuckling, any more than were all the efforts made by lawyers and magistrates over many centuries to build Common Law. This comes out of the fact that the development of open source software is of necessity a collective enterprise. Unless many people all over the world buy into it, it doesn't get developed, it doesn't get maintained, and it will not be widely adopted. Solitary geniuses need not apply; social and organizational skills are of the essence."
+  }
+]

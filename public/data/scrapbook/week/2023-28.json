@@ -1,0 +1,39 @@
+[
+  {
+    "scrap_id": "50lgBmZ5",
+    "href": "https://platform.openai.com/docs/guides/gpt/completions-api",
+    "description": "GPT - OpenAI API",
+    "time": "2023-07-14T21:25:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "110712895219986358",
+    "scrap_id": "4R1XomX2",
+    "href": "https://mastodon.social/@ejfox/110712895219986358",
+    "description": "<p>if youre not pushing to main 6 minutes before the meeting are you even living</p>",
+    "time": "2023-07-14T14:25:14.663Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 666299222,
+    "scrap_id": "9MoMHwOV",
+    "href": "https://github.com/OpenInterpreter/open-interpreter",
+    "description": "A natural language interface for computers",
+    "time": "2023-07-14T07:10:44Z",
+    "type": "github-star",
+    "images": []
+  },
+  {
+    "id": "110701815370753157",
+    "scrap_id": "ZAtzd7Bs",
+    "href": "https://mastodon.social/@ejfox/110701815370753157",
+    "description": "<p>it appears at 2am last night I ordered *checks notes* 10 audiobooks from audible and an 18 stainless 5.5mm steel chain necklace</p>",
+    "time": "2023-07-12T15:27:29.613Z",
+    "type": "mastodon-post",
+    "images": []
+  }
+]

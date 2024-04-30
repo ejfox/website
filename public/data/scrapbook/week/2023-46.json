@@ -1,0 +1,196 @@
+[
+  {
+    "scrap_id": "SaU2byH1",
+    "href": "https://github.com/bahamas10/hueadm",
+    "description": "bahamas10/hueadm: A command line management interface to Philips hue",
+    "time": "2023-11-17T18:39:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111426913074233135",
+    "scrap_id": "RAvPKJPl",
+    "href": "https://mastodon.social/@ejfox/111426913074233135",
+    "description": "<p>spent all morning freaking out because the bug I spent all day yesterday fixing seemed to have suddenly regressed, approximately 45 minutes later I realized I was looking at it on production, and not my local, which when I opened it up, promptly worked as expected</p>",
+    "time": "2023-11-17T16:49:22.489Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "i6NT-oEg",
+    "href": "https://medium.com/earthrisemedia/food-twin-stress-testing-the-u-s-food-system-af94b06dbd1f",
+    "description": "Food Twin: Stress Testing the U.S. Food System | by Cameron Kruse | Earth Genome | Nov, 2023 | Medium",
+    "time": "2023-11-16T17:56:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111415899565095959",
+    "scrap_id": "_dj5BvHQ",
+    "href": "https://mastodon.social/@ejfox/111415899565095959",
+    "description": "<p>Doing a livecoding stream now playing around with the new capabilities of GPT-4 <a href=\"https://youtube.com/live/lcNEMNGORoc?feature=share\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">youtube.com/live/lcNEMNGORoc?f</span><span class=\"invisible\">eature=share</span></a></p>",
+    "time": "2023-11-15T18:08:29.675Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111415144797261804",
+    "scrap_id": "WuYYpFTZ",
+    "href": "https://mastodon.social/@ejfox/111415144797261804",
+    "description": "<p>website is such an imprecise term; I guess more accurate would be tool - even app feels constraining</p>",
+    "time": "2023-11-15T14:56:32.828Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111415139699899420",
+    "scrap_id": "WTDUXl4s",
+    "href": "https://mastodon.social/@ejfox/111415139699899420",
+    "description": "<p>the smaller and more often you make websites the weirder they can be</p>",
+    "time": "2023-11-15T14:55:14.971Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111415138378013229",
+    "scrap_id": "2l9HI-1Y",
+    "href": "https://mastodon.social/@ejfox/111415138378013229",
+    "description": "<p>more websites, weirder websites, more weirder websites, weirder websites, more</p>",
+    "time": "2023-11-15T14:54:54.882Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111412113749707894",
+    "scrap_id": "-oTb9V4I",
+    "href": "https://mastodon.social/@ejfox/111412113749707894",
+    "description": "<p>I dream of a world where when peace seems least achievable, when our enemies seem least loveable, we choose to use our bravery for peace and choose to end the cycles of death that are within our power to stop</p>",
+    "time": "2023-11-15T02:05:42.717Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "IUQe-TgW",
+    "href": "https://magrawala.substack.com/p/unpredictable-black-boxes-are-terrible",
+    "description": "Unpredictable Black Boxes are Terrible Interfaces",
+    "time": "2023-11-15T00:52:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111410787794302748",
+    "scrap_id": "152mk9kG",
+    "href": "https://mastodon.social/@ejfox/111410787794302748",
+    "description": "<p>just got my first ad from a GPT plugin</p>",
+    "time": "2023-11-14T20:28:30.241Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/410/787/421/482/107/small/ad8ad2cdf8adf2ec.png"
+    ]
+  },
+  {
+    "scrap_id": "lIC-69xb",
+    "href": "https://www.nike.com/t/acg-dri-fit-uv-devastation-trail-mens-top-JlgNds/DN3936-010",
+    "description": "Nike ACG Dri-FIT UV \"Devastation Trail\" Men's Top. Nike.com",
+    "time": "2023-11-14T15:41:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KgGHQ5lo",
+    "href": "https://www.nike.com/t/sportswear-storm-fit-adv-gore-tex-mens-parka-k7wDb7/DV9970-011",
+    "description": "Nike Sportswear Storm-FIT ADV GORE-TEX Men's Parka. Nike.com",
+    "time": "2023-11-14T15:38:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "7h6gTKyS",
+    "href": "https://www.nike.com/t/air-jordan-1-element-shoes-Kcsdzl/DB2889-003",
+    "description": "Air Jordan 1 Element Shoes. Nike.com",
+    "time": "2023-11-14T15:38:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ydb8aF07",
+    "href": "https://dato.mu/",
+    "description": "Dato DUO — the synth for two",
+    "time": "2023-11-14T04:45:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "dT83Wdb6",
+    "href": "https://www.adafruit.com/product/3583",
+    "description": "Great Scott Gadgets HackRF One - Software Defined Radio : ID 3583 : $339.95 : Adafruit Industries, Unique & fun DIY electronics and kits",
+    "time": "2023-11-14T04:40:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111406323317699981",
+    "scrap_id": "6pRGDmfv",
+    "href": "https://mastodon.social/@ejfox/111406323317699981",
+    "description": "<p>Who are the best folks to follow on AI / GPT on Mastodon?</p>",
+    "time": "2023-11-14T01:33:07.735Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "SkUyTZWa",
+    "href": "https://huggingface.co/papers/2311.05661",
+    "description": "Paper page - Prompt Engineering a Prompt Engineer",
+    "time": "2023-11-14T00:09:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WKj5Iupy",
+    "href": "https://leftfieldnyc.com/collections/dust-bowl-works-shirts/products/kerry-blue-wool-dust-bowl-workshirt",
+    "description": "Chambray work shirt - LEFT FIELD NYC – Left Field NYC",
+    "time": "2023-11-14T00:03:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0Ec6IhBk",
+    "href": "https://staysaasy.com/startups/2023/11/10/imprecise-asks.html",
+    "description": "Your Small Imprecise Ask Is a Big Waste of Their Time | Stay SaaSy",
+    "time": "2023-11-13T19:34:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Imprecise asks from managers and leaders cause a disproportionate amount of turmoil and wheel-spinning. To combat this, leaders should be very precise with the amount of time investment they’re asking for when they ask for things. A little bit of awkward precision up front can save major headaches down the line. Here’s some examples:\r\n\r\nClarify the expected time investment: “Please look into this for me. Do not, DO NOT, spend more than 20 minutes on this. Please come back with whatever you have after 20 minutes.”\r\nBe clear about how it should be prioritized: “I expect this to take about 2 weeks and not cause major deprioritization of other efforts. If that timeline doesn’t seem accurate after diving in, or if you end up having to prioritize against other things, reach out to me ASAP.”\r\nDistinguish between whether you’re looking for prior art or new art: “Tell me if we have anything on this topic already; if we haven’t even thought about it yet, that’s all I need to know.”\r\nTell people exactly what you’re going to use the information for so that they can calibrate effort levels: “I am going to put this into a response to a sales prospect”; “I need to know this just in case it comes up during Q&A at our next All Hands”; “this is going to be the main topic of our next board meeting”"
+  },
+  {
+    "scrap_id": "oA5Zn4kZ",
+    "href": "https://hvmag.com/life-style/oldest-forest-world-cairo-hudson-valley/",
+    "description": "The World's Oldest Forest Is Here in the Hudson Valley",
+    "time": "2023-11-13T13:09:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The discovery of fossil trees in Cairo, New York dates the forest to approximately 386 million years old in the Hudson Valley."
+  }
+]

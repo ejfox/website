@@ -1,0 +1,103 @@
+[
+  {
+    "scrap_id": "KA1_n0Sf",
+    "href": "https://hashcat.net/wiki/#core_attack_modes",
+    "description": "Hashcat - Core attack modes",
+    "time": "2019-02-16T23:23:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cua89iZ0",
+    "href": "https://gist.github.com/koenrh/801766782fe65b279b436576d935d5d3",
+    "description": "Running Hashcat on Google Cloud's new GPU-based VMs",
+    "time": "2019-02-16T23:21:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "In February, Google announced the availability GPU-based VMs. Recently, I spun up a few of these instances, and ran some benchmarks. Along the way, I wrote down the steps taken to provision these VM instances, and install relevant drivers.\r\n\r\nMy only use case for GPU-based VMs is cracking (password) hashes, hence the test run with Hashcat."
+  },
+  {
+    "scrap_id": "KI7a7Kgi",
+    "href": "https://www.securitynewspaper.com/2018/11/23/recon-ng-good-tool-for-information-gathering/",
+    "description": "recon-ng – Good tool for Information Gathering",
+    "time": "2019-02-16T20:59:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": "Recon-ng is a tool written in python mostly used in information gathering with its independent modules, keys list and other modules. This tool is preloaded with lots of modules which use online search engines, plugins and API which can help in gathering the information of the target."
+  },
+  {
+    "scrap_id": "kSBYA9iA",
+    "href": "https://www.davidlebovitz.com/marshmallow-recipe-candymaking/",
+    "description": "Marshmallow Recipe",
+    "time": "2019-02-14T14:52:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cooking recipe",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-gAYjvzh",
+    "href": "https://www.cjr.org/tow_center/newsroom-consolidation-product.php",
+    "description": "News media needs to convince readers to open their wallets. Consolidation has not helped. - Columbia Journalism Review",
+    "time": "2019-02-13T01:03:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5YPRg73J",
+    "href": "https://towardsdatascience.com/3rd-wave-data-visualization-824c5dc84967",
+    "description": "3rd Wave Data Visualization – Towards Data Science",
+    "time": "2019-02-12T18:30:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 3624055,
+    "scrap_id": "RVwAqACg",
+    "href": "https://www.are.na/block/3624055",
+    "description": "",
+    "time": "2019-02-12T04:54:44.044Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjI0MDU1L29yaWdpbmFsXzNkZjBjMjE1NTczNGUxMmI1NTY1NjAxOTA4NTc2NDU2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "W-nhTo6r",
+    "href": "https://github.com/davidshimjs/qrcodejs",
+    "description": "davidshimjs/qrcodejs: Cross-browser QRCode generator for javascript",
+    "time": "2019-02-10T22:59:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "javascript",
+    "extended": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies."
+  },
+  {
+    "scrap_id": "RomCG8eO",
+    "href": "https://github.com/mafintosh/hypercore",
+    "description": "mafintosh/hypercore: Hypercore is a secure, distributed append-only log.",
+    "time": "2019-02-10T20:49:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Hypercore is a secure, distributed append-only log.\r\n\r\nBuilt for sharing large datasets and streams of real time data as part of the Dat project.\r\n\r\n"
+  },
+  {
+    "scrap_id": "S699tfeI",
+    "href": "https://www.buzzfeednews.com/article/josephbernstein/tomi-masters-down-the-rabbit-hole-i-go",
+    "description": "Bitcoin, Snapchat, Drugs And Death: How A Woman Followed Two \"UGNazi\" Hackers' Lies To Her Tragic Killing",
+    "time": "2019-02-10T18:16:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

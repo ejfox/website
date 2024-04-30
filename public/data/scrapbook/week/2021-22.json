@@ -1,0 +1,165 @@
+[
+  {
+    "scrap_id": "yOVov2iI",
+    "href": "https://github.com/DevAndyLee/d3fc-webgl#point",
+    "description": "DevAndyLee/d3fc-webgl",
+    "time": "2021-05-29T16:42:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "LirZNpUI",
+    "href": "https://medium.com/neo4j/visualizing-graphs-in-3d-with-webgl-9adaaff6fe43",
+    "description": "Visualizing Graphs in 3D with WebGL | by Michael Hunger | Neo4j Developer Blog | Medium",
+    "time": "2021-05-29T09:57:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "3d dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "CgH91C6Q",
+    "href": "https://codepen.io/samsammurphy/pen/VXdOPv",
+    "description": "Mapbox GL JS Snapshot",
+    "time": "2021-05-28T19:47:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1cJnNQdW",
+    "href": "https://docs.mapbox.com/help/getting-started/static-maps/",
+    "description": "Static and print maps | Help | Mapbox",
+    "time": "2021-05-28T19:46:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "howto reference maps mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PGqfBf7r",
+    "href": "https://air.mirror.xyz/lmV9Dxeos9HvKSu0BKY9pqARK2vAlPXhrNMt68E4GkI",
+    "description": "Crowdfund: $DIRT, the first NFT-driven newsletter — Mirror",
+    "time": "2021-05-28T19:44:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "crypto journalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5BkYmqEs",
+    "href": "https://medium.com/novation-notes/what-is-a-lightshow-and-how-do-i-make-one-c96fea393093",
+    "description": "What Is A Lightshow And How Do I Make One? | by Chris Mayes-Wright | Novation // Notes | Medium",
+    "time": "2021-05-28T15:57:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "howto music",
+    "extended": ""
+  },
+  {
+    "id": 12092343,
+    "scrap_id": "nVLzwgbs",
+    "href": "https://www.are.na/block/12092343",
+    "description": "This is the CEO of Citizen saying \"FIND THIS FUCK\" and \"this guy is the devil\" in Slack as he was offering up a $30,000 bounty for a man he believed started a wildfire.",
+    "time": "2021-05-27T18:33:23.496Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjA5MjM0My9vcmlnaW5hbF9kYThmNTEzZTBmMzhkNGYyYWRhMzNjZTE4OTg4OTJiZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 12092161,
+    "scrap_id": "XIYMVymX",
+    "href": "https://www.are.na/block/12092161",
+    "description": "",
+    "time": "2021-05-27T18:25:13.864Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjA5MjE2MS9vcmlnaW5hbF8wNTg5MWM3YTJiYjc0YTdmMzYzMWMyOWI0MmJiMTM3Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "PwNroIkG",
+    "href": "http://zahlan.net/blog/2012/06/categories-images/",
+    "description": "Categories Images – Zahlan's Blog",
+    "time": "2021-05-27T16:18:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jydZezUi",
+    "href": "https://www.artnews.com/art-news/news/pandemic-drawing-hobby-impressionism-1234594153/",
+    "description": "Rediscovering the Joy of Drawing as a Hobby During the Pandemic – ARTnews.com",
+    "time": "2021-05-27T16:18:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "art",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EFMysdQV",
+    "href": "https://docs.datasette.io/en/stable/publish.html",
+    "description": "Publishing data — Datasette documentation",
+    "time": "2021-05-27T13:04:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data reference",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NHJ7bQVc",
+    "href": "https://www.documentcloud.org/documents/20694100-nypd-civil-disorder-module",
+    "description": "NYPD Civil Disorder Module - DocumentCloud",
+    "time": "2021-05-26T22:26:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "nypd reference",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MzrcElF4",
+    "href": "https://theintercept.com/2021/05/05/nypd-george-floyd-protests-training/",
+    "description": "NYPD Cops Were Sent to Protests With Vague First Amendment Training",
+    "time": "2021-05-26T22:26:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "nypd journalism",
+    "extended": ""
+  },
+  {
+    "scrap_id": "By4YHNrW",
+    "href": "https://thenewstack.io/google-docs-switches-to-canvas-rendering-sidelining-the-dom/",
+    "description": "Google Docs Switches to Canvas Rendering, Sidelining the DOM – The New Stack",
+    "time": "2021-05-24T22:49:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tech",
+    "extended": ""
+  },
+  {
+    "id": 12053224,
+    "scrap_id": "mo8u3tBf",
+    "href": "https://www.are.na/block/12053224",
+    "description": "",
+    "time": "2021-05-24T18:38:51.357Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMjA1MzIyNC9vcmlnaW5hbF85ODZhMDFkMzI5MmNhM2M1M2ZjMzJhNjQ2NWZkYmM2Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "9uwrFfXs",
+    "href": "https://inquisitivity.ghost.io/climate-change/",
+    "description": "What Should I Do About Climate Change?",
+    "time": "2021-05-24T18:34:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "ecology climatechange",
+    "extended": ""
+  }
+]

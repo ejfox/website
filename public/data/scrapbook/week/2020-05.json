@@ -1,0 +1,43 @@
+[
+  {
+    "scrap_id": "-8XqOkzv",
+    "href": "https://bugs.chromium.org/p/chromium/issues/detail?id=392584",
+    "description": "TouchEvent feature detection APIs are available only on devices with a touchscreen at chrome startup time",
+    "time": "2020-01-31T20:56:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "For what it's worth, we are using kiosk devices and the removal of this flag broke all of our client devices as well. I was however able to find a workaround to fix this by adding it as a command line flag `--touch-events=enabled`"
+  },
+  {
+    "scrap_id": "kK16khnM",
+    "href": "https://www.nytimes.com/2020/01/30/magazine/new-york-tv.html",
+    "description": "‘High Maintenance’ and the New TV Fantasy of New York - The New York Times",
+    "time": "2020-01-30T20:17:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eOZaqRqk",
+    "href": "https://twitter.com/dpatrickrodgers/status/1222336816914796544",
+    "description": "",
+    "time": "2020-01-29T22:15:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Julia Stiles as the school newspaper’s cyberpunk editor-in-chief on a 1994 episode of ‘Ghostwriter.’ I will never get tired of this clip."
+  },
+  {
+    "id": 6006736,
+    "scrap_id": "4jZH91qO",
+    "href": "https://www.are.na/block/6006736",
+    "description": "",
+    "time": "2020-01-27T06:02:23.906Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI2MDA2NzM2L29yaWdpbmFsX2M4MDI5ZWM1NTAxMjVkN2MxZjdlNWM2YTg2NTBmMjExLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=0"
+    ]
+  }
+]

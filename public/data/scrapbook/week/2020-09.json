@@ -1,0 +1,72 @@
+[
+  {
+    "scrap_id": "EreChRzR",
+    "href": "https://www.youtube.com/watch?v=08C31JeL5ms",
+    "description": "Literally Everything The New York Times Knows About Elections",
+    "time": "2020-02-27T15:20:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "elections",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2aHHLJaR",
+    "href": "https://www.huffpost.com/entry/2009-acorn-scandal_n_5ae23fa6e4b02baed1b86696",
+    "description": "How The ACORN Scandal Seeded Today's Nightmare Politics",
+    "time": "2020-02-27T04:15:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Kkl7CfXq",
+    "href": "https://towardsdatascience.com/a-guide-to-mining-and-analysing-tweets-with-r-2f56818fdd16",
+    "description": "A Guide to Mining and Analysing Tweets with R - Towards Data Science",
+    "time": "2020-02-26T03:24:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1yJ2h6pf",
+    "href": "https://www.youtube.com/watch?v=_nBK8sAl9nw",
+    "description": "Raspberry Pi Looper/synth/drum thing",
+    "time": "2020-02-25T23:59:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "raspberrypi music",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WhIfNWea",
+    "href": "https://blog.checklyhq.com/how-we-got-a-100-lighthouse-performance-score-for-our-vue-js-app/",
+    "description": "How we got a 100% Lighthouse performance score for our Vue.js app",
+    "time": "2020-02-25T03:52:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "vue",
+    "extended": ""
+  },
+  {
+    "scrap_id": "37oi8Z-B",
+    "href": "https://medium.com/js-dojo/critical-css-and-webpack-automatically-minimize-render-blocking-css-5390850dad45",
+    "description": "Critical CSS and Webpack: Automatically Minimize Render-Blocking CSS",
+    "time": "2020-02-25T03:52:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "vue",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3NDXa-4s",
+    "href": "https://www.gearx.com/blog/knowledge/hikingcamping/what-size-pack-do-i-need/",
+    "description": "What Volume Pack Do I Need?",
+    "time": "2020-02-25T03:40:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "- 0-10 LITERS (THE MINIMALIST)\r\n- 10-20 LITERS (THE FAST AND LIGHT CROWD)\r\n- 20-30 LITERS (THE ESSENTIAL DAYHIKER)\r\n- 30-40 LITERS (THE WEEKEND WARRIOR)\r\n- 40-50 LITERS (THE ULTRALIGHT THRU-HIKER)\r\n- 50-60 LITERS (WEEKEND WARRIOR REDUX)\r\n- 60-70 LITERS (THE CONVENTIONAL BACKPACKER)\r\n- 70-80 LITERS AND BEYOND (THE TROOP LEADER)"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scrap_id": "drVtgUMn",
+    "href": "https://github.com/dariusk/corpora",
+    "description": "A collection of small corpuses of interesting data for the creation of bots and similar stuff",
+    "time": "2019-11-26T20:48:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "github json data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "siQXD3EY",
+    "href": "https://aws.amazon.com/blogs/machine-learning/using-r-with-amazon-sagemaker/",
+    "description": "Using R with Amazon SageMaker",
+    "time": "2019-11-26T14:11:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "R machinelearning",
+    "extended": ""
+  },
+  {
+    "scrap_id": "At7oK8c1",
+    "href": "https://www.nytimes.com/2019/11/23/us/politics/2020-trump-presidential-polls.html?smid=nytcore-ios-share",
+    "description": "Four Problems With 2016 Trump Polling That Could Play Out Again in 2020 - The New York Times",
+    "time": "2019-11-26T02:13:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The issues that led battleground-state polls to miss the mark in the last election could reappear next year, experts warn."
+  }
+]

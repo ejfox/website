@@ -11,19 +11,17 @@
         Back to Scrapbook
       </UButton>
     </div>
-    <div
-      class="max-w-lg mx-auto p-4 lg:p-10 md:min-h-screen justify-center flex flex-col"
-    >
-      <ScrapCard
-        :scrap="scrap"
-        :date-format-string="'MMM d, yyyy – h:mm a'"
-        :max-height="false"
-      />
+
+    <!-- use tresjs to create a 3D style trading card display of the scrap -->
+
+    <div class="mx-auto p-4 lg:p-24 justify-center flex flex-col">
+      <ScrapItem v-if="scrap" :scrap="scrap" />
     </div>
 
-    <!-- {{ scrap }} -->
+    <VerboseScrapItem class="px-4 lg:px-24" v-if="scrap" :scrap="scrap" />
+
     <div
-      class="max-w-lg mx-auto p-4 lg:p-10 md:min-h-screen justify-center flex flex-col monospace text-xs"
+      class="mx-auto p-4 lg:p-24 md:min-h-screen justify-center flex flex-col monospace text-xs"
     >
       <UTable :rows="scrapRows" />
     </div>
@@ -35,21 +33,16 @@ import { scrapToUUID, uuidToScrap } from '~/helpers'
 import useScrap from '~/composables/useScrap.js'
 
 const { combinedData } = useScrap()
-
-// we need to get the desired uuid from the slug
-// we can do this by getting the last item in the slug array
-// and then converting it to a scrap
 const route = useRoute()
 const slug = route.params.slug
-
 const scrap = ref(null)
 
-watchEffect(() => {
-  scrap.value = uuidToScrap(slug[0], combinedData.value)
+watch(combinedData, () => {
+  if (!slug[0]) return
+  if (!combinedData.value) return
+  const matchScrap = uuidToScrap(slug[0], combinedData.value)
+  scrap.value = matchScrap
 })
-
-// to use UTable from Nuxt UI, we need to generate rows and columns from the data
-// we want to use the object keys as each row, with a column for name and value
 
 const scrapRows = computed(() => {
   if (!scrap.value) return []

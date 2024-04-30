@@ -1,0 +1,196 @@
+[
+  {
+    "scrap_id": "2m1ZFpXn",
+    "href": "https://medium.com/mlearning-ai/semantic-enrichment-an-improved-approach-for-semantic-search-results-in-question-answering-f1adda3e03d",
+    "description": "Semantic Enrichment: An Improved Approach for Semantic Search Results in Question Answering",
+    "time": "2023-07-22T14:58:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The problem of semantic search, particularly in the context of question answering over documents, is examined in this paper. Semantic…"
+  },
+  {
+    "scrap_id": "5AZgkKPf",
+    "href": "https://blog.mansueli.com/testing-supabase-edge-functions-with-deno-test",
+    "description": "Testing Supabase Edge Functions with Deno Test - a complete guide",
+    "time": "2023-07-21T17:47:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "110752979994044579",
+    "scrap_id": "AZLTCCTe",
+    "href": "https://mastodon.social/@ejfox/110752979994044579",
+    "description": "<p>Once we get the Supabase CLI working properly, we can start developing our first edge function, I am thinking something to scrape my latest Mastodon posts and put them into my `textposts` table</p>",
+    "time": "2023-07-21T16:19:19.743Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/976/695/919/182/small/39472c43fc51a756.png",
+      "https://files.mastodon.social/media_attachments/files/110/752/978/842/318/991/small/4519cf928c00bee4.png"
+    ]
+  },
+  {
+    "id": "110752973594256408",
+    "scrap_id": "BdD13ioi",
+    "href": "https://mastodon.social/@ejfox/110752973594256408",
+    "description": "<p>Heres a fun tip: if you `brew install supabase` and then run `supabase start` it will give you an error like `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?` - the answer is, no it is not. So you need to `brew install --cask docker` and then open up the Docker app and start it. Couldnt find that documented anywhere, even though it is extremely logical</p>",
+    "time": "2023-07-21T16:17:42.118Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "110752967646812376",
+    "scrap_id": "1wGQ-Jp0",
+    "href": "https://mastodon.social/@ejfox/110752967646812376",
+    "description": "<p>ok, so I made 3 tables in a new supabase project that I can insert all of my content into, and then the robot helped me write a lazy indadvisable SQL rule because I wanna get movin</p>",
+    "time": "2023-07-21T16:16:11.366Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/963/611/244/785/small/33345c64b91c9581.png",
+      "https://files.mastodon.social/media_attachments/files/110/752/966/009/855/331/small/a67fca60c6c2cf83.png"
+    ]
+  },
+  {
+    "id": "110752868424341626",
+    "scrap_id": "DNhIpxZN",
+    "href": "https://mastodon.social/@ejfox/110752868424341626",
+    "description": "<p>Okay, I have a vision in my mind to see all of the content I have ever made arranged by group- and this, finally, this- will be the thing that allows me to unlock my creativity</p>",
+    "time": "2023-07-21T15:50:57.355Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/752/866/637/919/771/small/f5d316d440ec43ea.png"
+    ]
+  },
+  {
+    "scrap_id": "IfYhb7Pf",
+    "href": "https://github.com/TootSDK/TootSDK",
+    "description": "TootSDK/TootSDK: Cross-platform Swift library for the Mastodon and the fediverse",
+    "time": "2023-07-20T21:16:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "110747015836496019",
+    "scrap_id": "gWFOZfsU",
+    "href": "https://mastodon.social/@ejfox/110747015836496019",
+    "description": "<p>I have been publishing blog posts all summer and just not telling a soul about them, not a tweet or DM link sent</p>",
+    "time": "2023-07-20T15:02:33.986Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "110746894618790136",
+    "scrap_id": "L4YkrZJ4",
+    "href": "https://mastodon.social/@ejfox/110746894618790136",
+    "description": "<p>I am legitimately bummed from losing my twitter community, it was an important part of my routine, hearing from all my internet buddies – now these circles are exploded out and disconnected… I can’t help but feel it was extremely intentional</p>",
+    "time": "2023-07-20T14:31:44.369Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "6GaR4h7w",
+    "href": "https://us.goldfieldandbanks.com/products/discovery-sample-collection-9-x-2ml",
+    "description": "Discovery Sample Collection (9 x 2ml)",
+    "time": "2023-07-19T19:08:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Samples of our latest launch, Ingenious Ginger, are not currently included in the Discovery Sample Collection, and are available for purchase here.   Host your very own Goldfield &amp; Banks Perfume Expert Class with our luxury Discovery Sample Collection. Enchant your senses and spoil yourself or your friends with 9 x"
+  },
+  {
+    "id": "110736428121486275",
+    "scrap_id": "lVTaeGpu",
+    "href": "https://mastodon.social/@ejfox/110736428121486275",
+    "description": "<p>now that I run my own studio I am completely drunk with power; to wit; the studio is closed the second week in august so we can enjoy our lives</p>",
+    "time": "2023-07-18T18:09:58.241Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "110736054132819346",
+    "scrap_id": "rOAKqU2_",
+    "href": "https://mastodon.social/@ejfox/110736054132819346",
+    "description": "<p>I do believe it is time to start optimizing my API calls</p>",
+    "time": "2023-07-18T16:34:51.669Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/110/736/053/488/712/630/small/a7b939f17be1d50a.png"
+    ]
+  },
+  {
+    "id": "110735474704827298",
+    "scrap_id": "lP1K25Rx",
+    "href": "https://mastodon.social/@ejfox/110735474704827298",
+    "description": "<p>Wait so if someone can somehow find logs of the IRC channel I grew up on for the past 2 decades then we could digitally resurrect some of my now-dead childhood friends??</p>",
+    "time": "2023-07-18T14:07:30.262Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "MwnpSJPo",
+    "href": "https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375#.7yrscp4y5",
+    "description": "Two React Tips. React is known for its relative lack of… | by Dan Abramov | Medium",
+    "time": "2023-07-17T18:14:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "So what’s the other mistake I wanted to tell you about? It’s much simpler: don’t ever render to document.body. A lot of React examples do that because it’s less typing and looks more clear. Don’t. Do. This."
+  },
+  {
+    "scrap_id": "2EclhHFZ",
+    "href": "https://github.com/liamcain/obsidian-periodic-notes",
+    "description": "liamcain/obsidian-periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian",
+    "time": "2023-07-17T16:05:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "x9z-w_89",
+    "href": "https://www.currentaffairs.org/2023/07/how-aoc-went-from-influencer-to-influenced/",
+    "description": "How AOC Went From Influencer to Influenced ❧ Current Affairs",
+    "time": "2023-07-17T16:01:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "<p>Alexandria Ocasio-Cortez became a star by taking on the Democratic party establishment. Now she’s given up being an “agitator” and become much less vocal in pushing Medicare For All and a Green New Deal.</p>"
+  },
+  {
+    "id": 22689326,
+    "scrap_id": "msIT-ac9",
+    "href": "https://www.are.na/block/22689326",
+    "description": "",
+    "time": "2023-07-17T05:48:43.684Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMyNi9vcmlnaW5hbF8yZTZmZGEyZjI3NTE4YWQyY2I0ZWYxM2ExY2M1ZDQxNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 22689318,
+    "scrap_id": "IMe0vfLn",
+    "href": "https://www.are.na/block/22689318",
+    "description": "",
+    "time": "2023-07-17T05:47:16.631Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMxOC9vcmlnaW5hbF8wODZiOGRmZTljMDU4NmM0NTRmZjk3NDkzNTIyZTIxZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 22689315,
+    "scrap_id": "NwFhHZ_u",
+    "href": "https://www.are.na/block/22689315",
+    "description": "",
+    "time": "2023-07-17T05:45:43.439Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMjY4OTMxNS9vcmlnaW5hbF9mOGQzZmIxMThjMDE1OGVhNjJlZWE0YzUzZDc0NGI1YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  }
+]

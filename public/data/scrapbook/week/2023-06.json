@@ -1,0 +1,142 @@
+[
+  {
+    "scrap_id": "v4XjFJjG",
+    "href": "https://observablehq.com/@plmrry/positioning-text-with-matter-js",
+    "description": "Positioning Text with Matter.js / Paul Murray | Observable",
+    "time": "2023-02-11T21:06:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "SIyo7-ga",
+    "href": "https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web",
+    "description": "ChatGPT Is a Blurry JPEG of the Web | The New Yorker",
+    "time": "2023-02-11T15:36:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Ek_Kk62p",
+    "href": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
+    "description": "stabilityai/sd-x2-latent-upscaler · Hugging Face",
+    "time": "2023-02-10T21:07:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oWSW7gRs",
+    "href": "https://www.lesswrong.com/posts/LAxAmooK4uDfWmbep/anomalous-tokens-reveal-the-original-identities-of-instruct",
+    "description": "Anomalous tokens reveal the original identities of Instruct models - LessWrong",
+    "time": "2023-02-09T17:05:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 599311541,
+    "scrap_id": "sLV3DOiZ",
+    "href": "https://github.com/natemoo-re/clack",
+    "description": "Effortlessly build beautiful command-line apps",
+    "time": "2023-02-08T21:58:49Z",
+    "type": "github-star",
+    "images": []
+  },
+  {
+    "id": "109830454326750092",
+    "scrap_id": "x7VK8pEC",
+    "href": "https://mastodon.social/@ejfox/109830454326750092",
+    "description": "<p>this team is fun</p>",
+    "time": "2023-02-08T18:08:55.210Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/109/830/453/011/243/595/small/fb4bec2db0cb61e5.png"
+    ]
+  },
+  {
+    "scrap_id": "RpC9151Z",
+    "href": "https://twitter.com/MichaelTrazzi/status/1621658944903995393?s=20&t=28HGATqxxiyKhh5VBupmXg",
+    "description": "Michaël Trazzi on Twitter",
+    "time": "2023-02-08T15:01:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "109827273404301030",
+    "scrap_id": "31zwIFnK",
+    "href": "https://mastodon.social/@ejfox/109827273404301030",
+    "description": "<p>11:39pm: finally feel like writing some code</p>",
+    "time": "2023-02-08T04:39:58.188Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 20273930,
+    "scrap_id": "-yJAA8pd",
+    "href": "https://www.are.na/block/20273930",
+    "description": "",
+    "time": "2023-02-07T23:35:08.916Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDI3MzkzMC9vcmlnaW5hbF9iY2JhYmFiNjliMzk5MzkxYWViY2MwODI4MzQ2YjJjZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "7V9YFZsZ",
+    "href": "https://www.mysteryranch.com/satl-assault-pack",
+    "description": "SATL Assault Ruck | MYSTERY RANCH Backpacks",
+    "time": "2023-02-07T22:18:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "109825694605118718",
+    "scrap_id": "wOV0MiPj",
+    "href": "https://mastodon.social/@ejfox/109825694605118718",
+    "description": "<p>4:58PM: finally got my energy in order to sit down and start getting to work</p>",
+    "time": "2023-02-07T21:58:27.623Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 20247998,
+    "scrap_id": "ttzr4kHO",
+    "href": "https://www.are.na/block/20247998",
+    "description": "",
+    "time": "2023-02-06T19:39:12.362Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDI0Nzk5OC9vcmlnaW5hbF8yOWE0YzhiYjM4MTg0NTEwZTUwMzI1NDNiNGIzYjcwOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "8vg9EAnP",
+    "href": "https://www.vice.com/en/article/y3pymx/ai-generated-seinfeld-show-nothing-forever-banned-on-twitch-after-transphobic-standup-bit",
+    "description": "AI-Generated 'Seinfeld' Show 'Nothing Forever' Banned on Twitch After Transphobic Standup Bit",
+    "time": "2023-02-06T19:24:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "“We’ve been investigating the root cause of the issue,” tinylobsta, a staff member, wrote on Discord. “Earlier tonight, we started having an outage using OpenAI’s GPT-3 Davinci model, which caused the show to exhibit errant behaviors (you may have seen empty rooms cycling through). OpenAI has a less sophisticated model, Curie, that was the predecessor to Davinci. When davinci started failing, we switched over to Curie to try to keep the show running without any downtime. The switch to Curie was what resulted in the inappropriate text being generated. We leverage OpenAI’s content moderation tools, which have worked thus far for the Davinci model, but were not successful with Curie. We’ve been able to identify the root cause of our issue with the Davinci model, and will not be using Curie as a fallback in the future. We hope this sheds a little light on how this happened.”"
+  },
+  {
+    "scrap_id": "q6ytNTJi",
+    "href": "https://www.pnas.org/doi/10.1073/pnas.0503610102",
+    "description": "Spontaneous evolution of modularity and network motifs | Proceedings of the National Academy of Sciences",
+    "time": "2023-02-05T18:02:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": 26266650,
+    "scrap_id": "bzOgg1z3",
+    "href": "https://www.are.na/block/26266650",
+    "description": "",
+    "time": "2024-02-11T02:01:10.186Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjI2NjY1MC9vcmlnaW5hbF8yMmM4NDU0NDFlNTIyOWJhMmQ3OGI1ODZmNmRmOTJjOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": "111908210696372222",
+    "scrap_id": "u-oUP0cf",
+    "href": "https://mastodon.social/@ejfox/111908210696372222",
+    "description": "<p>if you look how hard the pendulum swung towards globalization, industrilization, monocropping, and scale-as-ultimate-good, boy oh boy you better hang on for dear life as it swings back</p>",
+    "time": "2024-02-10T16:49:41.376Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111908206765441746",
+    "scrap_id": "SETZeFWJ",
+    "href": "https://mastodon.social/@ejfox/111908206765441746",
+    "description": "<p>in the medium-to-near future, people who can reference hard-copy books in meatspace will be seen as semi-oracles from the before times, able to decipher the pre-robot truth, at least until the robot turns out really convincing fakes of old-smelling weathered-looking volumes, then were truly fucked</p>",
+    "time": "2024-02-10T16:48:41.398Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "da826d138fa344240711a5a4fb673782",
+    "scrap_id": "udMVdQyl",
+    "href": "https://gist.github.com/ejfox/da826d138fa344240711a5a4fb673782",
+    "description": "p5_canvassketch_circles.js",
+    "time": "2024-02-10T16:21:13Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "id": "111908081124260083",
+    "scrap_id": "445jY4nA",
+    "href": "https://mastodon.social/@ejfox/111908081124260083",
+    "description": "<p>the dependency graph for your spirituality is all over the place</p>",
+    "time": "2024-02-10T16:16:44.266Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111905244118795875",
+    "scrap_id": "bsqu8R_1",
+    "href": "https://mastodon.social/@ejfox/111905244118795875",
+    "description": "",
+    "time": "2024-02-10T04:15:14.998Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/905/242/511/143/670/small/e5c711154a87be8a.png",
+      "https://files.mastodon.social/media_attachments/files/111/905/243/018/898/700/small/c1820e8dd10d1775.png",
+      "https://files.mastodon.social/media_attachments/files/111/905/243/821/294/702/small/8c717c7555147385.png"
+    ]
+  },
+  {
+    "id": 26252168,
+    "scrap_id": "5ywmRNLs",
+    "href": "https://www.are.na/block/26252168",
+    "description": "",
+    "time": "2024-02-09T21:51:47.206Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjI1MjE2OC9vcmlnaW5hbF8wMjVkMzc1MzBlMTY4NGIxNzg2OTg2OWZmOWY2OWQ3MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "1X5RTGdm",
+    "href": "https://github.com/jagenjo/litegraph.js",
+    "description": "jagenjo/litegraph.js: A graph node engine and editor written in Javascript similar to PD or UDK Blueprints, comes with its own editor in HTML5 Canvas2D. The engine can run client side or server side using Node. It allows to export graphs as JSONs to be in",
+    "time": "2024-02-09T18:09:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pV3yZhYk",
+    "href": "https://github.com/newcat/baklavajs?tab=readme-ov-file",
+    "description": "newcat/baklavajs: Graph / node editor in the browser using VueJS",
+    "time": "2024-02-09T18:08:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YeyjGb_H",
+    "href": "https://www.figma.com/community/file/768809027799962739",
+    "description": "Tailwind CSS UI | Figma Community",
+    "time": "2024-02-09T15:58:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111902035907748935",
+    "scrap_id": "o7yhVNFS",
+    "href": "https://mastodon.social/@ejfox/111902035907748935",
+    "description": "<p>It has been approximately 3 years since since I last experienced a california morning and my brain is fully rebelling</p>",
+    "time": "2024-02-09T14:39:21.582Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111897457317333014",
+    "scrap_id": "KppiQpS8",
+    "href": "https://mastodon.social/@ejfox/111897457317333014",
+    "description": "<p>my cat has never seen a fresh bright white piece of watercolor paper that he didnt want to stand on</p>",
+    "time": "2024-02-08T19:14:57.871Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "rWx-Nt_B",
+    "href": "https://soniccharge.com/forum/topic/1060-po-35-secret-powers",
+    "description": "Sonic Charge - forum",
+    "time": "2024-02-08T17:51:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111893207642577581",
+    "scrap_id": "egJcg9MT",
+    "href": "https://mastodon.social/@ejfox/111893207642577581",
+    "description": "<p>*whispering to my phone, desperately clamoring for a piece of content I have yet to see* more funnies, give me more funnies</p>",
+    "time": "2024-02-08T01:14:12.946Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "DAD88IQ5",
+    "href": "https://boltsmag.org/mobile-ballot-curing-in-pennsylvania/",
+    "description": "How an ‘Ice Cream Truck’ for Voting Could Stop Pennsylvania Ballots from Being Tossed | Bolts",
+    "time": "2024-02-07T17:52:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111891191150303920",
+    "scrap_id": "LQssYADp",
+    "href": "https://mastodon.social/@ejfox/111891191150303920",
+    "description": "<p>we are blessed with all sorts of fancy tools now that make our lives easier, but my life is absolutely cursed by VSCode auto-closing HTML elements for in the wrong place and making everything more frustrating than it needs to be, I cannot figure out how to turn this off</p>",
+    "time": "2024-02-07T16:41:23.716Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "NEWJnuTr",
+    "href": "https://queenseagle.com/all/2022/12/9/just-one-vote-separates-candidates-in-assembly-district-23-race-with-incumbent-in-lead",
+    "description": "Just one vote separates candidates in Assembly District 23 race, with incumbent in lead — Queens Daily Eagle",
+    "time": "2024-02-07T04:36:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "qRxqNUjT",
+    "href": "https://gist.github.com/alfasin/ddd5b559658751af35f765a7a690f777",
+    "description": "A Nodejs implementation of a console transport logger based on Winston 3.x which also prints the filename and line-number",
+    "time": "2024-02-07T03:59:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "z-v7YOer",
+    "href": "https://github.com/AILab-CVC/YOLO-World",
+    "description": "AILab-CVC/YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "time": "2024-02-07T01:54:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "W9Ea6oDr",
+    "href": "https://atmosiscience.com/",
+    "description": "ATMOSIScience - Humidity Controlled Differently",
+    "time": "2024-02-05T19:48:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111879995840141784",
+    "scrap_id": "Twx6TO3w",
+    "href": "https://mastodon.social/@ejfox/111879995840141784",
+    "description": "<p>Its the season, so, a new 0.1.0 release of election helpers: <a href=\"https://www.npmjs.com/package/election-helpers\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">npmjs.com/package/election-hel</span><span class=\"invisible\">pers</span></a> - now including state planes and county names and helpers for dealing with state abbreviations, names, and fips codes and all sorts of little quality-of-life helpers for working with election data</p>",
+    "time": "2024-02-05T17:14:16.840Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/879/995/289/529/186/small/e831fb9fc478caa3.png",
+      "https://files.mastodon.social/media_attachments/files/111/879/995/600/778/320/small/34b19cfce6812a6c.png"
+    ]
+  },
+  {
+    "id": "111879612336661711",
+    "scrap_id": "rOPLkjFB",
+    "href": "https://mastodon.social/@ejfox/111879612336661711",
+    "description": "<p>room302.studio</p>",
+    "time": "2024-02-05T15:36:45.045Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/879/612/121/357/222/small/83ec0fc945892ece.png"
+    ]
+  },
+  {
+    "id": "111879378223171833",
+    "scrap_id": "SU8N55uY",
+    "href": "https://mastodon.social/@ejfox/111879378223171833",
+    "description": "<p>AM I SUPPOSED TO SPEND THIS WHOLE WEEK WORRYING ABOUT A LOST ROCK BE SERIOUS</p>",
+    "time": "2024-02-05T14:37:12.749Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111879371212092803",
+    "scrap_id": "I1HNpJil",
+    "href": "https://mastodon.social/@ejfox/111879371212092803",
+    "description": "<p>I had an earlier version that bound election winners to the winning candidates most-$$d associated FEC committee but that strayed a bit too close to the sun</p>",
+    "time": "2024-02-05T14:35:25.768Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111879366630910982",
+    "scrap_id": "UU3d9vob",
+    "href": "https://mastodon.social/@ejfox/111879366630910982",
+    "description": "<p>I am now fully onboard on just treating every elections candidate by their FEC ID, fuck names, you dumbasses literally file different names for yourself year-to-year, Im just a boy trying to maintain a god damn database</p>",
+    "time": "2024-02-05T14:34:15.866Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111879360787622778",
+    "scrap_id": "_Ub5NMKs",
+    "href": "https://mastodon.social/@ejfox/111879360787622778",
+    "description": "<p>Im about to be too powerful</p>",
+    "time": "2024-02-05T14:32:46.707Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/111/879/360/217/369/660/small/ef9cad7bdfd2d76b.png"
+    ]
+  },
+  {
+    "id": "111879351543487677",
+    "scrap_id": "J9V444WS",
+    "href": "https://mastodon.social/@ejfox/111879351543487677",
+    "description": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@yuletide\" class=\"u-url mention\">@<span>yuletide</span></a></span> it wouldn’t even be good as a show not called true detective, I hate jump scares, why did they only make one of the characters likable, maybe I shouldn’t have rewatched the first season before this</p>",
+    "time": "2024-02-05T14:30:25.654Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111877048679313774",
+    "scrap_id": "masitvXB",
+    "href": "https://mastodon.social/@ejfox/111877048679313774",
+    "description": "<p>why did they make true detective so bad now, i trusted you people</p>",
+    "time": "2024-02-05T04:44:46.734Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111876828725195308",
+    "scrap_id": "vQ9_xlBd",
+    "href": "https://mastodon.social/@ejfox/111876828725195308",
+    "description": "<p>there is nothing my cat loves more than kennedys fried chicken</p>",
+    "time": "2024-02-05T03:48:50.501Z",
+    "type": "mastodon-post",
+    "images": []
+  }
+]

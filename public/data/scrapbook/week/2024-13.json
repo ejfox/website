@@ -1,0 +1,286 @@
+[
+  {
+    "id": "112182089247493285",
+    "scrap_id": "3MoJsO-o",
+    "href": "https://mastodon.social/@ejfox/112182089247493285",
+    "description": "<p>as far as I can tell, the kids are about 8 months away from independently discovering fleet-foxes stomp clap indie</p>",
+    "time": "2024-03-30T01:40:36.421Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "pXnIU2mf",
+    "href": "https://aescripts.com/plexus/?gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gUuRHEvkpPVX5tKdc3lVJruPm6MnsVBHxI9YijlLSE4zb2dAapTpu4aAr1BEALw_wcB",
+    "description": "Plexus 3 - aescripts + aeplugins - aescripts.com",
+    "time": "2024-03-29T15:07:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 27259214,
+    "scrap_id": "MhvkQQBu",
+    "href": "https://www.are.na/block/27259214",
+    "description": "",
+    "time": "2024-03-29T14:24:58.242Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzI1OTIxNC9vcmlnaW5hbF85ZGZjZjM0YzUwZWVkNzc1ZjM3NGE0ZTkzODk1NDFhMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": "112179190522246026",
+    "scrap_id": "K5QXOkfq",
+    "href": "https://mastodon.social/@ejfox/112179190522246026",
+    "description": "<p>very little in this life better than a sunny morning, a fresh espresso and a spliff, and a nice little 1000 word breaking news article on something fascinating; my personal heaven</p>",
+    "time": "2024-03-29T13:23:25.382Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "OdQQ3cVZ",
+    "href": "https://hudsonvalley.news12.com/gardiner-man-charged-with-manslaughter-in-hit-and-run-death-of-suny-new-paltz-student?fbclid=IwAR1I5laYCZBE4gwMPXoBo9epyQ7t63G4owjqGIDOw_KoTq_TRCVn1-zduNA_aem_AZoV-FKO4q5M79RcJzzDa-CmaCfvex_YjQ5e3d-LNDWyU74qsz-8eMgzvul2GU4IVEyR2ZiyeB8EWnaX_yWnCScm",
+    "description": "Gardiner man charged with manslaughter in hit-and-run death of SUNY New Paltz student",
+    "time": "2024-03-29T13:13:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9mihcTW-",
+    "href": "https://www.wxyz.com/news/local-news/investigations/how-a-troubled-michigan-cop-moved-from-department-to-department-leaving-scandal-in-his-wake",
+    "description": "A troubled cop moved from department to department, leaving scandal in his wake",
+    "time": "2024-03-29T02:29:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jncRbuUv",
+    "href": "https://www.nlead.gov/",
+    "description": "National Law Enforcement Accountability Database",
+    "time": "2024-03-29T02:29:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "UInYitnS",
+    "href": "https://www.reddit.com/r/nottheonion/comments/1bq9iej/how_a_troubled_michigan_cop_moved_from_department/",
+    "description": "How a troubled Michigan cop moved from department to department, leaving scandal in his wake : nottheonion",
+    "time": "2024-03-29T02:29:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "National Law Enforcement Accountability Database"
+  },
+  {
+    "scrap_id": "_ZnlTG5S",
+    "href": "https://sujitpal.blogspot.com/2024/03/hierarchical-and-other-indexes-using.html",
+    "description": "Salmon Run: Hierarchical (and other) Indexes using LlamaIndex for RAG Content Enrichment",
+    "time": "2024-03-29T01:30:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 2214245667,
+    "scrap_id": "XAtIi7Ge",
+    "href": "https://github.com/room302studio/coachartie/pull/135",
+    "description": "room302studio/coachartie: feat(remember): add function to remember robot responses",
+    "time": "2024-03-28T22:15:00Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206484125,
+    "scrap_id": "au8zI43y",
+    "href": "https://github.com/room302studio/coachartie/pull/119",
+    "description": "room302studio/coachartie: Add-tests",
+    "time": "2024-03-28T21:43:57Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2214193396,
+    "scrap_id": "ynhkQ5m2",
+    "href": "https://github.com/room302studio/coachartie/pull/134",
+    "description": "room302studio/coachartie: Properly link memories to messages",
+    "time": "2024-03-28T21:42:56Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "scrap_id": "Tx-HplhS",
+    "href": "https://www.theguardian.com/environment/2024/mar/27/flexitarian-diets-global-warming-climate-change",
+    "description": "Plant-heavy ‘flexitarian’ diets could help limit global heating, study finds | Environment | The Guardian",
+    "time": "2024-03-28T20:10:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 2214016045,
+    "scrap_id": "4UfHxUUo",
+    "href": "https://github.com/room302studio/coachartie/pull/133",
+    "description": "room302studio/coachartie: feat: move ingest prompt to supabase table",
+    "time": "2024-03-28T19:54:59Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213822824,
+    "scrap_id": "dSVGbRgl",
+    "href": "https://github.com/room302studio/coachartie/pull/130",
+    "description": "room302studio/coachartie: feat: add new step to check for previous memories of deep document ingest, make a memory of the deletion, and delete before creating new ones",
+    "time": "2024-03-28T19:41:24Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213835182,
+    "scrap_id": "96mIl8eY",
+    "href": "https://github.com/room302studio/coachartie/pull/131",
+    "description": "room302studio/coachartie: refactor(memory): store Missive conversation Id and Discord channel ID in `conversation_id` column",
+    "time": "2024-03-28T19:41:13Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2213918527,
+    "scrap_id": "TeHc6Lb0",
+    "href": "https://github.com/room302studio/coachartie/pull/132",
+    "description": "room302studio/coachartie: fix: use the field for the user message from missive webhooks",
+    "time": "2024-03-28T19:06:42Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2199145861,
+    "scrap_id": "8ShSpVH8",
+    "href": "https://github.com/room302studio/coachartie/pull/97",
+    "description": "room302studio/coachartie: feat: deep document ingest",
+    "time": "2024-03-25T23:58:24Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206608734,
+    "scrap_id": "V_4JIcmW",
+    "href": "https://github.com/room302studio/coachartie/pull/123",
+    "description": "room302studio/coachartie: feat: add endpoint to receive pgcron webhooks",
+    "time": "2024-03-25T20:30:01Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206594663,
+    "scrap_id": "Y7xQYv-8",
+    "href": "https://github.com/room302studio/coachartie/pull/122",
+    "description": "room302studio/coachartie: capabilities to create and manage projects+orgs",
+    "time": "2024-03-25T20:03:08Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2199002105,
+    "scrap_id": "JaD2iieb",
+    "href": "https://github.com/room302studio/coachartie/pull/94",
+    "description": "room302studio/coachartie: Read Repo Capability",
+    "time": "2024-03-25T19:59:53Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206554529,
+    "scrap_id": "v0PwcYHY",
+    "href": "https://github.com/room302studio/coachartie/issues/121",
+    "description": "room302studio/coachartie: Add deploy script for new updates",
+    "time": "2024-03-25T19:42:20Z",
+    "type": "github-issue",
+    "images": []
+  },
+  {
+    "id": 2206523689,
+    "scrap_id": "fE2KC8fa",
+    "href": "https://github.com/room302studio/coachartie/pull/120",
+    "description": "room302studio/coachartie: feat: supabase raw / prompt editor capability",
+    "time": "2024-03-25T19:40:54Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2206311828,
+    "scrap_id": "JShTDFMu",
+    "href": "https://github.com/room302studio/coachartie/pull/118",
+    "description": "room302studio/coachartie: feat: pgcron webhook improvements",
+    "time": "2024-03-25T19:39:45Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "id": 2192887755,
+    "scrap_id": "fU4e_71w",
+    "href": "https://github.com/room302studio/coachartie/pull/87",
+    "description": "room302studio/coachartie: feat: send response in markdown part of request so we get formatting",
+    "time": "2024-03-25T17:26:49Z",
+    "type": "github-pr",
+    "images": []
+  },
+  {
+    "scrap_id": "agzHR_Y-",
+    "href": "https://aescripts.com/type-morph/",
+    "description": "Type Morph - aescripts + aeplugins - aescripts.com",
+    "time": "2024-03-24T18:35:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9PYpoVCf",
+    "href": "https://aescripts.com/varifont/",
+    "description": "VariFont - aescripts + aeplugins - aescripts.com",
+    "time": "2024-03-24T18:32:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "U5S5Fk9n",
+    "href": "https://ensix.xyz/fonts/tachyo",
+    "description": "Tachyo",
+    "time": "2024-03-24T16:52:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NZM8EALP",
+    "href": "https://limitype.gumroad.com/l/feogra",
+    "description": "Feogra - Futuristic Font",
+    "time": "2024-03-24T16:51:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "veMo0Juf",
+    "href": "https://www.behance.net/gallery/177619987/Feogra-Futuristic-Typeface",
+    "description": "Feogra - Futuristic Typeface :: Behance",
+    "time": "2024-03-24T16:51:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

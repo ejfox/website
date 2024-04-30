@@ -1,5 +1,7 @@
 <template>
-  <div class="p-4 lg:p-10 prose dark:prose-invert mx-auto text-xl lg:text-2xl max-w-screen-md">
+  <div
+    class="p-4 lg:p-10 prose dark:prose-invert mx-auto text-xl lg:text-2xl max-w-screen-md"
+  >
     <NuxtLink to="/reading" class="link">
       <h1 class="text-xl font-extrabold tracking-tight dark:text-white">
         📖 Reading

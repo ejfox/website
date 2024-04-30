@@ -1,0 +1,247 @@
+[
+  {
+    "scrap_id": "IECz1H3-",
+    "href": "https://www.lesswrong.com/posts/Jgs7LQwmvErxR9BCC/current-themes-in-mechanistic-interpretability-research",
+    "description": "Current themes in mechanistic interpretability research - LessWrong",
+    "time": "2023-02-19T04:42:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tVxW94Fi",
+    "href": "https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned?commentId=AAC8jKeDp6xqsZK2K",
+    "description": "Bing Chat is blatantly, aggressively misaligned - LessWrong",
+    "time": "2023-02-19T04:15:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": "So, Sydney is based on as little from OA as possible, and a mad rush to ship a powerful GPT-4 model out to Bing users in a chatbot role. What if Sydney wasn't trained on OA RLHF at all, because OA wouldn't share the crown jewels of years of user feedback and its very expensive hired freelance programmers & whatnot generating data to train on? What if the pretraining vaguely alluded to, which somehow left in embarrassingly ineradicable traces of 'Sydney' & a specific 2022 date, which couldn't simply be edited out of the prompt (implying that Sydney is not using solely prompt engineering), was in fact just regular ol' finetune training?"
+  },
+  {
+    "id": 20452223,
+    "scrap_id": "AHtxCKjI",
+    "href": "https://www.are.na/block/20452223",
+    "description": "",
+    "time": "2023-02-19T00:53:32.244Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDQ1MjIyMy9vcmlnaW5hbF9lZTk2YmE0NmZkNjVlOTJhYjc0YmFmNzczNzYxMDM0Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "Ay8z2Jil",
+    "href": "https://medium.com/@yu-joshua/building-an-academic-knowledge-graph-with-openai-graph-database-part-3-bc86b22617a2",
+    "description": "Building An Academic Knowledge Graph with OpenAI & Graph Database — Part 3 | by Fanghua (Joshua) Yu | Feb, 2023 | Medium",
+    "time": "2023-02-18T17:40:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8Sbo6pgc",
+    "href": "https://road.hmdc.harvard.edu/pages/road-documentation",
+    "description": "ROAD Documentation | The Record of American Democracy",
+    "time": "2023-02-18T16:03:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mDRD4wIv",
+    "href": "https://projects.iq.harvard.edu/eda/home",
+    "description": "HARVARD ELECTION DATA ARCHIVE",
+    "time": "2023-02-18T16:03:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XDl0_U0P",
+    "href": "https://michaellange.substack.com/p/the-seven-factions-of-new-york-city",
+    "description": "The Seven Factions of New York City Politics",
+    "time": "2023-02-17T11:27:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A breakdown of New York City politics into seven distinct factions based on ideology, class, neighborhoods and political institutions. Where are the City's various electoral coalitions headed?"
+  },
+  {
+    "scrap_id": "m0EanUXW",
+    "href": "https://www.youtube.com/watch?v=dR_WW2DHDwg",
+    "description": "Live Judge's Notes: 2022 World Uneven Bars Final (Wei Xiaoyuan, Shilese Jones, Nina Derawel) - YouTube",
+    "time": "2023-02-15T15:40:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ipwFIc7t",
+    "href": "https://tht.fangraphs.com/the-physics-of-radar-guns/",
+    "description": "The Physics of Radar Guns | The Hardball Times",
+    "time": "2023-02-15T15:23:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_NnhYpBh",
+    "href": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/",
+    "description": "What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings",
+    "time": "2023-02-15T04:34:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 20377103,
+    "scrap_id": "2ZKBSQxt",
+    "href": "https://www.are.na/block/20377103",
+    "description": "",
+    "time": "2023-02-14T06:25:50.940Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM3NzEwMy9vcmlnaW5hbF85NDljYTVlNWFiODI3MmZlZTM1MDYzZmU4Y2YxMjU0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 20376553,
+    "scrap_id": "BTrMePpm",
+    "href": "https://www.are.na/block/20376553",
+    "description": "",
+    "time": "2023-02-14T05:05:17.875Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM3NjU1My9vcmlnaW5hbF8zZjk2NjMzNjc0OTM4ZDg3ZDU2NDM0NDA2MTM5MjNmNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 601425931,
+    "scrap_id": "SKlYEecS",
+    "href": "https://github.com/ipno-llead/networks",
+    "description": null,
+    "time": "2023-02-14T03:08:57Z",
+    "type": "github-star",
+    "images": []
+  },
+  {
+    "scrap_id": "d7c7Y2vj",
+    "href": "https://github.com/westlicht/rc505-editor/blob/master/README.md",
+    "description": "rc505-editor/README.md at master · westlicht/rc505-editor",
+    "time": "2023-02-13T20:51:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XJqCUxeC",
+    "href": "https://supabase.com/blog/openai-embeddings-postgres-vector#building-a-simple-search-function",
+    "description": "Storing OpenAI embeddings in Postgres with pgvector",
+    "time": "2023-02-13T14:32:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "An example of how to build an AI-powered search engine using OpenAI's embeddings and PostgreSQL."
+  },
+  {
+    "id": 20354314,
+    "scrap_id": "T9y0EM6Z",
+    "href": "https://www.are.na/block/20354314",
+    "description": "",
+    "time": "2023-02-13T04:50:55.735Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM1NDMxNC9vcmlnaW5hbF8yNzgxZmJkNjJmMzhiY2NkNDZiM2I1MGY1ZDM0OGI5OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "TNw6I_h_",
+    "href": "https://www.nature.com/articles/s41467-022-32483-x",
+    "description": "Deep learning for twelve hour precipitation forecasts | Nature Communications",
+    "time": "2023-02-13T04:47:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pKT3yrqx",
+    "href": "https://arxiv.org/pdf/2210.01478.pdf",
+    "description": "",
+    "time": "2023-02-13T04:46:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 20353974,
+    "scrap_id": "817Fp7x9",
+    "href": "https://www.are.na/block/20353974",
+    "description": "",
+    "time": "2023-02-13T04:09:56.788Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM1Mzk3NC9vcmlnaW5hbF9mMjJmZDA1YWFjNDM3ZjRiYmU1YjhjOTA2NzhkNWY1OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "hC-WeWXX",
+    "href": "https://blog.papareo.nz/whisper-is-another-case-study-in-colonisation/",
+    "description": "OpenAI's Whisper is another case study in Colonisation",
+    "time": "2023-02-13T02:35:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "-gR9sLFO",
+    "href": "https://blog.replit.com/clui",
+    "description": "Replit - CLUI: Building a Graphical Command Line",
+    "time": "2023-02-12T18:23:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "IE7lNo3N",
+    "href": "https://ai.googleblog.com/2023/02/real-time-tracking-of-wildfire.html?m=1",
+    "description": "Real-time tracking of wildfire boundaries using satellite imagery – Google AI Blog",
+    "time": "2023-02-12T18:22:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "_HsyAzye",
+    "href": "https://www.youtube.com/watch?time_continue=1&v=CUmmxW7Ksc8&embeds_euri=https%3A%2F%2Ftwitter.com%2F&feature=emb_logo",
+    "description": "The PriceMaster (full version) - YouTube",
+    "time": "2023-02-12T15:52:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 20345884,
+    "scrap_id": "qgyPqTVp",
+    "href": "https://www.are.na/block/20345884",
+    "description": "",
+    "time": "2023-02-12T15:42:33.682Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM0NTg4NC9vcmlnaW5hbF9lOTdmYjU1OTVlOGRjZGUzZWFiMTIxMzE4ODQwYzMwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  }
+]

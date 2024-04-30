@@ -1,0 +1,121 @@
+[
+  {
+    "scrap_id": "WqfaStd8",
+    "href": "https://mishpacha.com/out-of-the-woods/",
+    "description": "Out of the Woods – Mishpacha Magazine",
+    "time": "2022-09-17T19:51:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "i8yqQwNs",
+    "href": "https://cameraconfidence.aliabdaal.com/#pricing",
+    "description": "Camera Confidence",
+    "time": "2022-09-16T15:44:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "wVjN8Ow1",
+    "href": "https://www.caliper.com/mapping-software-data/congressional-district-map-data.htm",
+    "description": "Congressional Districts - shapefile, KML/KMZ, GeoJSON",
+    "time": "2022-09-15T18:30:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gGS7gg8k",
+    "href": "https://cdmaps.polisci.ucla.edu/",
+    "description": "U.S. Congressional District Shapefiles",
+    "time": "2022-09-15T17:42:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data mapping shapefile",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4TD4c_73",
+    "href": "https://github.com/AbdBarho/stable-diffusion-webui-docker",
+    "description": "AbdBarho/stable-diffusion-webui-docker: Easy Docker setup for Stable Diffusion with user-friendly UI",
+    "time": "2022-09-14T15:17:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning cli",
+    "extended": ""
+  },
+  {
+    "scrap_id": "shlCJwOE",
+    "href": "https://en.wikipedia.org/wiki/Marion_Stokes",
+    "description": "Marion Stokes - Wikipedia",
+    "time": "2022-09-14T14:50:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9-ZnQekb",
+    "href": "https://www.theatlantic.com/books/archive/2022/09/january-6-insurrection-meme-wars/671397/",
+    "description": "What Memes Have to Do With January 6 - The Atlantic",
+    "time": "2022-09-13T18:48:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PZmIdk4y",
+    "href": "https://deno.com/blog/a-whole-website-in-a-single-js-file-continued",
+    "description": "A Whole Website in a Single JavaScript File, cont'd",
+    "time": "2022-09-13T16:27:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "cms",
+    "extended": ""
+  },
+  {
+    "scrap_id": "x7_Hk1vY",
+    "href": "https://www.nber.org/papers/w30163",
+    "description": "The Size and Census Coverage of the U.S. Homeless Population",
+    "time": "2022-09-13T15:57:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data lackofdata",
+    "extended": ""
+  },
+  {
+    "id": "7b6a12465e0dea8e4eea1fb8a6af840a",
+    "scrap_id": "utige-cE",
+    "href": "https://gist.github.com/ejfox/7b6a12465e0dea8e4eea1fb8a6af840a",
+    "description": "",
+    "time": "2022-09-13T14:46:05Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "scrap_id": "4p88WuUy",
+    "href": "https://www.nytimes.com/2015/05/10/realestate/in-clinton-hill-brooklyn-from-broken-angel-to-condos.html?fbclid=IwAR0gJqZSJO0PTXgCZvRwsiIiCihMGcoaDgoNovgwkcF0A5Q6WlbuplwIH4Y",
+    "description": "From ‘Broken Angel’ to Condos - The New York Times",
+    "time": "2022-09-13T00:14:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "beacon art",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8uaURA7U",
+    "href": "https://rockpi.org/rockpi4",
+    "description": "Rock Pi 4 - the next generation RPI.",
+    "time": "2022-09-12T23:38:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

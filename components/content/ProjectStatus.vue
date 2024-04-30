@@ -1,7 +1,11 @@
 <template>
   <div class="project-status flex">
-    <div v-for="n in totalBubbles" :key="n" class="bubble flex items-center justify-center"
-      :class="{ 'bg-primary-500': n <= filledBubbles }"></div>
+    <div
+      v-for="n in totalBubbles"
+      :key="n"
+      class="bubble flex items-center justify-center"
+      :class="{ 'bg-primary-500': n <= filledBubbles }"
+    ></div>
   </div>
 </template>
 
@@ -24,13 +28,13 @@ export default {
   props: {
     totalBubbles: {
       type: Number,
-      default: 10
+      default: 10,
     },
     filledBubbles: {
       type: Number,
-      default: 0
-    }
-  }
+      default: 0,
+    },
+  },
 }
 </script>
 

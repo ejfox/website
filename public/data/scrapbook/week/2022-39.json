@@ -1,0 +1,161 @@
+[
+  {
+    "scrap_id": "125tQdUd",
+    "href": "https://commercialtype.com/catalog/robinson/bold",
+    "description": "Commercial Type » Catalog » Robinson Bold",
+    "time": "2022-09-23T16:05:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "typography",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QYSXHrvY",
+    "href": "https://www.mandiant.com/resources/blog/gru-rise-telegram-minions",
+    "description": "GRU: Rise of the (Telegram) MinIOns | Mandiant",
+    "time": "2022-09-23T15:25:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6K6o6Jl7",
+    "href": "https://www.wsj.com/articles/google-sees-russia-coordinating-with-hackers-in-cyberattacks-tied-to-ukraine-war-11663930801",
+    "description": "Google Sees Russia Coordinating With Hackers in Cyberattacks Tied to Ukraine War - WSJ",
+    "time": "2022-09-23T15:25:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics",
+    "extended": ""
+  },
+  {
+    "id": "ad555d7d8fca5cf5f35db1c3e3486a72",
+    "scrap_id": "Mugv61NI",
+    "href": "https://gist.github.com/ejfox/ad555d7d8fca5cf5f35db1c3e3486a72",
+    "description": "A GPT-3 code-davinci-002 written script to scrape the top 40 worst polluters for all available industries",
+    "time": "2022-09-22T16:31:56Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "scrap_id": "xd-hY7WY",
+    "href": "https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/",
+    "description": "Preserve Vital Online Content With Bellingcat's Auto Archiver - bellingcat",
+    "time": "2022-09-22T14:42:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool osint",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QwWrDJEz",
+    "href": "https://www.npr.org/2022/09/21/1124082877/chess-cheating-scandal-niemann-carlsen",
+    "description": "A stunning move shakes the chess world : NPR",
+    "time": "2022-09-22T13:42:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "chess",
+    "extended": ""
+  },
+  {
+    "scrap_id": "txzeGxhX",
+    "href": "https://nypost.com/2022/09/19/nyc-mcdonalds-ax-man-michael-palacios-speaks-out/amp/",
+    "description": "McDonald’s ‘ax man’ Michael Palacios speaks out on his weapon of choice, says he's not 'unhinged'",
+    "time": "2022-09-21T17:02:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "ny",
+    "extended": ""
+  },
+  {
+    "scrap_id": "dlWzpf7S",
+    "href": "https://www.youtube.com/watch?v=xgTfLThtyzk",
+    "description": "Bulgarian Bag Beginners Workout | 40 Min - YouTube",
+    "time": "2022-09-21T00:37:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "exercise",
+    "extended": ""
+  },
+  {
+    "scrap_id": "t3R_au-_",
+    "href": "https://anitagraser.com/2020/05/10/timemanager-is-dead-long-live-the-temporal-controller/",
+    "description": "TimeManager is dead, long live the Temporal Controller! | Free and Open Source GIS Ramblings",
+    "time": "2022-09-20T22:38:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "qgis mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "HkIA3Lxv",
+    "href": "https://neo4j.com/labs/neosemantics/how-to-guide/",
+    "description": "How to import Wikidata into Neo4j - Neo4j Labs",
+    "time": "2022-09-20T21:35:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "network data",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2Yc_IMWU",
+    "href": "https://observablehq.com/@piecesofuk/us-parliament-cabinet-ministers#show_position",
+    "description": "US Parliament: Cabinet Ministers / piecesofuk / Observable",
+    "time": "2022-09-20T21:19:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rIJpHbco",
+    "href": "https://github.com/findie/wikidata-neo4j-importer",
+    "description": "findie/wikidata-neo4j-importer: Imports WikiData JSON dumps into Neo4j in a meaningful way.",
+    "time": "2022-09-20T21:15:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "data network",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pF8x75qH",
+    "href": "https://www.rollingstone.com/culture/culture-features/tesla-sexual-harassment-lawsuit-investigation-elon-musk-1234590697/",
+    "description": "‘How Many Women Were Abused to Make That Tesla?’ – Rolling Stone",
+    "time": "2022-09-20T16:21:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "f8Vl2MDV",
+    "href": "https://demos.mapbox.com/location-helper/",
+    "description": "Mapbox Location Helper",
+    "time": "2022-09-20T16:19:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "aV-LUUNU",
+    "href": "https://processtypefoundry.com/fonts/landform/purchase-options",
+    "description": "Purchase options: Landform font family – Fonts, Process Type Foundry",
+    "time": "2022-09-20T15:25:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "typography",
+    "extended": ""
+  },
+  {
+    "scrap_id": "lszibN8H",
+    "href": "https://hackaday.io/project/186934-cyberpack",
+    "description": "CyberPack | Hackaday.io",
+    "time": "2022-09-19T19:01:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

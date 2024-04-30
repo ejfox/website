@@ -5,97 +5,224 @@ import { fetchBookmarks } from './dl_pinboard.mjs'
 import { promises as fs } from 'fs'
 import * as helpers from '../../helpers.js'
 import path from 'path'
+import { group } from 'd3'
+import { format } from 'date-fns'
+import { updateManifest } from './manifestHelpers.js'
+
+const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
+await fs.mkdir(dirPath, { recursive: true }) // Ensure the directory exists
+
+function createScrap({
+  id,
+  type,
+  href,
+  description,
+  time,
+  images = [],
+  additionalProps = {},
+}) {
+  const effectiveId = id || href;
+  const scrap_id = helpers.scrapToUUID(`${type}${effectiveId}`);
+
+  return {
+    id,
+    scrap_id,
+    href,
+    description,
+    time,
+    type,
+    images,
+    ...additionalProps,
+  }
+}
+
+const mergeAndDeduplicate = (data) => {
+  const combinedData = []
+  data.forEach((sourceData) => {
+    sourceData.forEach((item) => {
+      const existingItem = combinedData.find(
+        (combinedItem) =>
+          combinedItem.id === item.scrap_id && combinedItem.type === item.type,
+      )
+      if (existingItem) {
+        Object.assign(existingItem, item)
+      } else {
+        combinedData.push(item)
+      }
+    })
+  })
+  return combinedData
+}
+
+const groupDataByWeek = (data) => {
+  const groupedData = group(data, (d) => format(new Date(d.time), 'yyyy-ww'))
+  return Object.fromEntries(
+    Array.from(groupedData, ([week, data]) => [
+      week,
+      data.sort((a, b) => new Date(b.time) - new Date(a.time)),
+    ]),
+  )
+}
+
+function safeFetch(promise) {
+  return promise.catch(error => ({ error, data: null }));
+}
 
 const cleanupAndMergeData = async () => {
-  const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-  await fs.mkdir(dirPath, { recursive: true }) // Ensure the directory exists
-
   // Fetch data from all sources
-  const arenaBlocks = await fetchAllBlocks()
-  const mastodonUserId = await fetchUserId()
-  const mastodonStatuses = mastodonUserId
-    ? await fetchStatuses(mastodonUserId)
-    : []
-  const pinboardBookmarks = await fetchBookmarks()
-  const githubData = await fetchGithubData()
+  // let arenaBlocks = await fetchAllBlocks()
+  let mastodonUserId = await fetchUserId()
+  // let mastodonStatuses = mastodonUserId
+  //   ? await fetchStatuses(mastodonUserId)
+  //   : []
+  // let pinboardBookmarks = await fetchBookmarks()
+  // let githubData = await fetchGithubData()
 
-  // We need to do some sort of merging / de-duplication here
-  // So we don't have duplicate entries in the data
-  // We can do this by checking if the data already exists in the file
-  // If it does, we can skip it
+  const fetchPromises = [
+    safeFetch(fetchAllBlocks()),
+    safeFetch(fetchUserId().then(fetchStatuses)),
+    safeFetch(fetchBookmarks()),
+    safeFetch(fetchGithubData())
+  ];
 
-  // Check if any of the arena blocks are already in arena.json
-  const existingArenaBlocks = await fs.readFile(
-    path.join(dirPath, 'arena.json'),
-    'utf8',
+  let [arenaBlocks, mastodonStatuses, pinboardBookmarks, githubData] = await Promise.all(fetchPromises);
+
+  // Update manifest for each successful fetch
+  const now = new Date().toISOString();
+  if (arenaBlocks) await updateManifest('arena', { lastFetch: now });
+  if (mastodonUserId) await updateManifest('mastodon', { lastFetch: now });
+  if (pinboardBookmarks) await updateManifest('pinboard', { lastFetch: now });
+  if (githubData) await updateManifest('github', { lastFetch: now });
+
+
+  // are.na
+  arenaBlocks = arenaBlocks.map((block) =>
+    createScrap({
+      id: block.id,
+      scrap_id: helpers.scrapToUUID(`${block.type}${block.id}`),
+      href: `https://www.are.na/block/${block.id}`,
+      description: block.description,
+      time: block.created_at,
+      type: 'arena',
+      images: block.image ? [block.image.display.url] : [],
+      channel: block.channel,
+    }),
   )
-  const existingArenaBlocksJson = JSON.parse(existingArenaBlocks)
-  const newArenaBlocks = arenaBlocks.filter(
-    (block) => !existingArenaBlocksJson.includes(block),
+
+  // mastodon
+  mastodonStatuses = mastodonStatuses.map((status) =>
+    createScrap({
+      id: status.id,
+      type: 'mastodon-post',
+      href: status.url,
+      description: status.content.replace(/&[^;]+;/g, ''),
+      time: status.created_at,
+      images: status.media_attachments
+        .filter((attachment) => attachment.type === 'image')
+        .map((attachment) => attachment.preview_url),
+      videos: status.media_attachments
+        .filter((attachment) => attachment.type === 'video')
+        .map((attachment) => attachment.url),
+    }),
   )
+
+  // pinboard
+  pinboardBookmarks = pinboardBookmarks.map((bookmark) =>
+    createScrap({
+      id: bookmark.id,
+      type: 'pinboard',
+      href: bookmark.href,
+      description: bookmark.description,
+      time: bookmark.time,
+      additionalProps: {
+      tags: bookmark.tags, // Assuming you have tags and want to keep them
+      extended: bookmark.extended, // Assuming you want to keep the extended description
+      }
+    }),
+  )
+
+  // github
+  // TODO: Parse all markdown descriptions into HTML for newlines etc
+  const processedStarredRepos = (githubData.starredRepos || []).map((repo) =>
+    createScrap({
+      id: repo.id,
+      type: 'github-star',
+      description: repo.description,
+      href: repo.html_url,
+      time: repo.created_at,
+    }),
+  )
+
+  const processedIssues = (githubData.userIssues || []).map((issue) =>
+    createScrap({
+      id: issue.id,
+      type: issue.pull_request ? 'github-pr' : 'github-issue',
+      description: `${issue.repository_url.split('/').slice(-2).join('/')}: ${
+        issue.title
+      }`,
+      href: issue.html_url,
+      time: issue.updated_at,
+      content: issue.body || '',
+    }),
+  )
+
+  const processedGists = (githubData.userGists || []).map((gist) =>
+    createScrap({
+      id: gist.id,
+      type: 'github-gist',
+      description: gist.description,
+      href: gist.html_url,
+      time: gist.updated_at,
+      content: Object.keys(gist.files)
+        .map((file) => gist.files[file].filename)
+        .join(', '),
+    }),
+  )
+
+  githubData = [...processedStarredRepos, ...processedIssues, ...processedGists]
+
+  // Merge and deduplicate the data
+  const combinedData = mergeAndDeduplicate([
+    arenaBlocks,
+    mastodonStatuses,
+    pinboardBookmarks,
+    githubData,
+  ])
+
+  console.log(`${arenaBlocks.length} are.na blocks`)
+  console.log(`${mastodonStatuses.length} mastodon posts`)
+  console.log(`${pinboardBookmarks.length} pinboard bookmarks`)
+  console.log(`${processedStarredRepos.length} starred github repos`)
+  console.log(`${processedIssues.length} github issues`)
+  console.log(`${processedGists.length} github gists`)
+
+  // Sort the combined data by time in descending order
+  combinedData.sort((a, b) => new Date(b.time) - new Date(a.time))
+
+  console.log(`${combinedData.length} total scraps processed`)
+
+  // Group the combined data by week
+  const groupedData = groupDataByWeek(combinedData)
+
+  // Save each week's data to a separate JSON file
+  const weekFolderPath = path.join(dirPath, 'week')
+  await fs.mkdir(weekFolderPath, { recursive: true }) // Ensure the week folder exists
+
+  for (const [week, data] of Object.entries(groupedData)) {
+    await fs.writeFile(
+      path.join(weekFolderPath, `${week}.json`),
+      JSON.stringify(data, null, 2),
+    )
+  }
+
+  // Update the scraps.json file to include both the combinedData array and the grouped data object
   await fs.writeFile(
-    path.join(dirPath, 'arena.json'),
-    JSON.stringify(newArenaBlocks, null, 2),
-  )
-
-  // Check if any of the mastodon statuses are already in mastodon.json
-  const existingMastodonStatuses = await fs.readFile(
-    path.join(dirPath, 'mastodon.json'),
-    'utf8',
-  )
-  const existingMastodonStatusesJson = JSON.parse(existingMastodonStatuses)
-  const newMastodonStatuses = mastodonStatuses.filter(
-    (status) => !existingMastodonStatusesJson.includes(status),
-  )
-  await fs.writeFile(
-    path.join(dirPath, 'mastodon.json'),
-    JSON.stringify(newMastodonStatuses, null, 2),
-  )
-
-  // Check if any of the pinboard bookmarks are already in pinboard.json
-  const existingPinboardBookmarks = await fs.readFile(
-    path.join(dirPath, 'pinboard.json'),
-    'utf8',
-  )
-  const existingPinboardBookmarksJson = JSON.parse(existingPinboardBookmarks)
-  const newPinboardBookmarks = pinboardBookmarks.filter(
-    (bookmark) => !existingPinboardBookmarksJson.includes(bookmark),
-  )
-  await fs.writeFile(
-    path.join(dirPath, 'pinboard.json'),
-    JSON.stringify(newPinboardBookmarks, null, 2),
-  )
-
-  // And finally, check if any of the github data are already in github.json
-  const existingGithubData = await fs.readFile(
-    path.join(dirPath, 'github.json'),
-    'utf8',
-  )
-  const existingGithubDataJson = JSON.parse(existingGithubData)
-  const newGithubData = githubData.filter(
-    (data) => !existingGithubDataJson.includes(data),
-  )
-  await fs.writeFile(
-    path.join(dirPath, 'github.json'),
-    JSON.stringify(newGithubData, null, 2),
+    path.join(dirPath, 'scraps.json'),
+    JSON.stringify(combinedData, null, 2),
   )
 
   console.log(
-    'Data from Arena, Mastodon, and Pinboard, and GitHub has been fetched and saved.',
-  )
-
-  // combine everything together into a single file now
-  const combinedData = [
-    ...(arenaBlocks || []), // arena blocks
-    ...(mastodonStatuses || []), // mastodon statuses
-    ...(pinboardBookmarks || []), // pinboard bookmarks
-    ...(githubData || []), // github data
-  ]
-
-  // write the combined data to a file
-  await fs.writeFile(
-    path.join(dirPath, 'all_combined.json'),
-    JSON.stringify(combinedData, null, 2),
+    'Data from Arena, Mastodon, and Pinboard, and GitHub has been fetched, merged, and saved.',
   )
 }
 

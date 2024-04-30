@@ -1,0 +1,112 @@
+[
+  {
+    "scrap_id": "xXxwxTMK",
+    "href": "https://www.wikidata.org/wiki/Wikidata:WikiProject_elections",
+    "description": "Wikidata:WikiProject elections - Wikidata",
+    "time": "2022-09-07T18:47:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics elections",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WzbCyfW7",
+    "href": "https://superhighfives.com/pika",
+    "description": "Pika • Super High Fives",
+    "time": "2022-09-07T16:48:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "S1Et0AnP",
+    "href": "https://www.nytimes.com/interactive/2022/04/30/us/tucker-carlson-tonight.html",
+    "description": "How ‘Tucker Carlson Tonight’ Fuels Extremism and Fear - The New York Times",
+    "time": "2022-09-07T14:19:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "politics journalism dataviz",
+    "extended": ""
+  },
+  {
+    "scrap_id": "YeUB0vuF",
+    "href": "https://restofworld.org/2022/russias-6-month-war-on-wikipedia/",
+    "description": "Doxxed, threatened, and arrested: Russia’s war on Wikipedia editors - Rest of World",
+    "time": "2022-09-07T14:15:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oqljyinJ",
+    "href": "https://gist.github.com/liquidcoder1/e1043a97abda0951a713e7bdbdc1ae73",
+    "description": "Streamcast_2.md",
+    "time": "2022-09-06T22:37:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "howto ios",
+    "extended": "How to make an ios/swift podcast app"
+  },
+  {
+    "scrap_id": "peZS52ow",
+    "href": "https://github.com/jlengstorf/air-quality-edge-functions",
+    "description": "jlengstorf/air-quality-edge-functions: This is a demo of updating a map to show air quality data for the user’s current location using Next.js Advanced Middleware, powered by Netlify Edge Functions.",
+    "time": "2022-09-06T14:27:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "howto demo",
+    "extended": ""
+  },
+  {
+    "scrap_id": "a_zhgbJs",
+    "href": "https://github.com/mapbox/mapbox-gl-js/issues/6295",
+    "description": "Repeating symbol patterns · Issue #6295 · mapbox/mapbox-gl-js",
+    "time": "2022-09-05T16:38:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "mapping",
+    "extended": ""
+  },
+  {
+    "scrap_id": "aHXVcxri",
+    "href": "https://timeline.knightlab.com/",
+    "description": "Timeline",
+    "time": "2022-09-05T15:25:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "journalism tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "RjeOM1Th",
+    "href": "http://soundcite.knightlab.com/",
+    "description": "Soundcite",
+    "time": "2022-09-05T15:25:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "journalism tool",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZhL7i90S",
+    "href": "https://www.newsweek.com/2018/01/19/boston-marathon-bomb-maker-loose-776742.html?amp=1",
+    "description": "Whoever Built the Boston Marathon Bombs is Still on the Loose, Able to Kill Again",
+    "time": "2022-09-05T12:55:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NvgPA583",
+    "href": "https://www.welcometohellworld.com/this-was-such-a-uniquely-unusual-murder/",
+    "description": "If police investigated this case thoroughly would they have prevented the Boston Marathon bombing?",
+    "time": "2022-09-05T12:55:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

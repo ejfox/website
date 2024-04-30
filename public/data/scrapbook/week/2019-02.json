@@ -1,0 +1,191 @@
+[
+  {
+    "scrap_id": "24N8_S72",
+    "href": "http://teczd.com/2015/09/23/osx-get-system-info-from-command-line/",
+    "description": "Get OS X System Info from the Command Line – teczd",
+    "time": "2019-01-13T04:50:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "osx reference cli",
+    "extended": ">sw_vers\nThe sw_vers command will give you the current Mac operating system version and build number.\n\n\n>system_profiler -detailLevel mini > systeminfo.log\nThis will generate a text report of information from System Profiler without any personal or identifying information."
+  },
+  {
+    "scrap_id": "247lzdB_",
+    "href": "https://github.com/lra/mackup",
+    "description": "lra/mackup: Keep your application settings in sync (OS X/Linux)",
+    "time": "2019-01-12T23:01:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "resource",
+    "extended": "I change my workstation every X months. Each time I either lose my apps' configurations, or I just waste a bunch of hours getting setup like I was on my old box. I also spend a lot of time reconfiguring the same stuff again on all my workstations (home, work).\r\n\r\nFor years, I've used a personal shell script that was copying known config files into Subversion, Git or Dropbox, and linked them into my home. But I felt a lot of us had the same problem: Making a more generic tool could help others and I could get help from others to support more apps in the tool."
+  },
+  {
+    "scrap_id": "8GzDT9yh",
+    "href": "https://docs.python.org/2/library/simplehttpserver.html",
+    "description": "Python SimpleHTTPServer Documentation",
+    "time": "2019-01-12T21:16:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "coding tool cli",
+    "extended": ">python -m SimpleHTTPServer 8000\n"
+  },
+  {
+    "id": 3394384,
+    "scrap_id": "RPWkHZrG",
+    "href": "https://www.are.na/block/3394384",
+    "description": "",
+    "time": "2019-01-12T10:53:36.058Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzk0Mzg0L29yaWdpbmFsXzNkYmVmYjgyZmZmMjE0OTdhNmE1OWYyNTE3OWRjYjY3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "TataRs2-",
+    "href": "https://en.wikipedia.org/wiki/Sal_Cenicola",
+    "description": "Sal Cenicola - Wikipedia",
+    "time": "2019-01-12T01:04:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "personal",
+    "extended": "Salvatore Cenicola III was born July 13, 1959, at Holy Name Hospital in Teaneck, New Jersey. His parents Salvatore U. Cenicola II and Maria Boccanfuso are both of Italian descent. Cenicola grew up in River Vale, New Jersey and attended Pascack Valley High School, where he competed in interscholastic wrestling.\r\n\r\nCenicola started boxing in 1975 and was trained by amateur trainer Eddie Helbig. "
+  },
+  {
+    "id": 3387127,
+    "scrap_id": "uZyWfqPe",
+    "href": "https://www.are.na/block/3387127",
+    "description": "",
+    "time": "2019-01-11T00:58:35.105Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzg3MTI3L29yaWdpbmFsXzZhNjI1NzgxZGU3Yjc5NDExOWE2YzAyMTRhYzEyYjBhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3379442,
+    "scrap_id": "kbQKaq2T",
+    "href": "https://www.are.na/block/3379442",
+    "description": "",
+    "time": "2019-01-10T12:44:45.757Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzc5NDQyL29yaWdpbmFsX2NhYTk2MmRlNjQxNTJmZmM3MGZjMDQxZWJiOTZkOTEzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "K1Zn39Qd",
+    "href": "http://pico-ate.com/",
+    "description": "pico-ate",
+    "time": "2019-01-09T07:11:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "pico8 reference",
+    "extended": ""
+  },
+  {
+    "id": 3352520,
+    "scrap_id": "Wsf0G-nm",
+    "href": "https://www.are.na/block/3352520",
+    "description": "",
+    "time": "2019-01-08T18:22:17.759Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzUyNTIwL29yaWdpbmFsXzFlNmM3MWJjOTMwNjJhMDViZDYzOTc1ODNhZmJjZDhhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "wR8xf-HF",
+    "href": "https://www.youtube.com/watch?v=HnmjztjSqIo",
+    "description": "MakeCode Minute: External NeoPixel Strip Graph @adafruit",
+    "time": "2019-01-07T18:15:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "vj",
+    "extended": ""
+  },
+  {
+    "id": 3345218,
+    "scrap_id": "rSX3QjYE",
+    "href": "https://www.are.na/block/3345218",
+    "description": "https://twitter.com/wallacetim/status/1078520818085199873",
+    "time": "2019-01-07T17:05:45.997Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzQ1MjE4L29yaWdpbmFsXzk5NDIzODlkZDU0MTAyNTIxYzFkNGYxODFhMjhlMTJkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3345217,
+    "scrap_id": "Vn33uBYf",
+    "href": "https://www.are.na/block/3345217",
+    "description": "https://twitter.com/wallacetim/status/1078520818085199873",
+    "time": "2019-01-07T17:05:45.805Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzQ1MjE3L29yaWdpbmFsX2Y1ZmI0MzYwZWMzYmViYWUwNzg1YTJjYTM0YmE3MDQ2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3345216,
+    "scrap_id": "QUDSPR8O",
+    "href": "https://www.are.na/block/3345216",
+    "description": "https://twitter.com/wallacetim/status/1078520818085199873",
+    "time": "2019-01-07T17:05:40.115Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzQ1MjE2L29yaWdpbmFsXzY1NGI1Zjg0NjlmMTFmZjY0MTAyMWU3NzY0YjgxZDc3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "id": 3345200,
+    "scrap_id": "NEom1mpx",
+    "href": "https://www.are.na/block/3345200",
+    "description": "https://twitter.com/wallacetim/status/1078520818085199873",
+    "time": "2019-01-07T17:01:28.797Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzQ1MjAwL29yaWdpbmFsX2Q5NWRiOWZhOWZjOGM3MWU4MDUzZjdjNWJlYmExNzZmLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "06LZI_aH",
+    "href": "https://www.reddit.com/r/pico8/comments/5p9ohs/my_pico8_development_workflow/",
+    "description": "My PICO-8 development Workflow : pico8",
+    "time": "2019-01-07T01:05:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "pico8 games",
+    "extended": ""
+  },
+  {
+    "scrap_id": "pVPa4EL4",
+    "href": "https://medium.com/@G05P3L/fantasy-console-wars-a-guide-to-the-biggest-players-in-retrogamings-newest-trend-56bbe948474d",
+    "description": "Fantasy Console Wars: A Guide to The Biggest Players in Retrogaming’s Newest Trend",
+    "time": "2019-01-06T20:20:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "pico8 games programming",
+    "extended": "From an outsider’s point of view, code is very similar to magic. It’s an arcane formulae rendering the most amazing interactions and stories. It’s necessarily encrypted, protected and out of reach. It’s the sacred language of an illuminated cast, the developers.\r\nPico-8 has broken that feeling. For the first time, I have had this amazing ability to “follow the trail” of code, directly and instantaneously."
+  },
+  {
+    "id": 3341100,
+    "scrap_id": "emp1qKrW",
+    "href": "https://www.are.na/block/3341100",
+    "description": "",
+    "time": "2019-01-06T20:12:18.891Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzQxMTAwL29yaWdpbmFsXzJkZTNhZTA0YzIwZjJhNWVhY2RiZmU5OTU0ZDkwMzM5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjY1fSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInJvdGF0ZSI6bnVsbH19?bc=1"
+    ]
+  },
+  {
+    "scrap_id": "or9ZYJF-",
+    "href": "https://www.youtube.com/watch?v=mChiaHqgBCI",
+    "description": "How To lay A Flat Watercolour Wash. - YouTube",
+    "time": "2019-01-06T16:24:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "watercolor technique",
+    "extended": ""
+  }
+]

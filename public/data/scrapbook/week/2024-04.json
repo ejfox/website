@@ -1,0 +1,398 @@
+[
+  {
+    "scrap_id": "99IfFJcI",
+    "href": "https://github.com/HudZah/SmartShot",
+    "description": "HudZah/SmartShot: SmartShot automates the task of organizing and renaming screenshots in a specified folder on macOS. It uses the built-in Automater app to auto-detect when new screenshots are taken and runs a script to rename them.",
+    "time": "2024-01-28T03:27:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AaamYK-m",
+    "href": "https://github.com/alexeden/rpi-led-matrix",
+    "description": "alexeden/rpi-led-matrix: Node.js/Typescript bindings for the Raspberry Pi LED Matrix library (https://github.com/hzeller/rpi-rgb-led-matrix)",
+    "time": "2024-01-27T06:22:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "M8M6x_I_",
+    "href": "https://pixelcontroller.com/store/diy-controllers/70-f16v4.html",
+    "description": "E131 Artnet Pixel Controller - F16V4",
+    "time": "2024-01-27T06:19:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Z30PgMAJ",
+    "href": "https://github.com/hzeller/rpi-matrix-pixelpusher",
+    "description": "hzeller/rpi-matrix-pixelpusher: PixelPusher protocol for LED matrix.",
+    "time": "2024-01-27T06:18:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "jFZ1RapB",
+    "href": "https://github.com/hzeller/rpi-rgb-led-matrix",
+    "description": "hzeller/rpi-rgb-led-matrix: Controlling up to three chains of 64x64, 32x32, 16x32 or similar RGB LED displays using Raspberry Pi GPIO",
+    "time": "2024-01-27T06:17:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "a049d8bea5fa7257891d987fef455554",
+    "scrap_id": "pNPOmRv6",
+    "href": "https://gist.github.com/ejfox/a049d8bea5fa7257891d987fef455554",
+    "description": "Processing RGB LED Matrix Visualizer (for Raspberry Pi)",
+    "time": "2024-01-27T06:11:17Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "scrap_id": "k14-Ae9F",
+    "href": "https://hrdag.org/tech-notes/large-language-models-IPNO.html",
+    "description": "formatted-for-tech-corner-toc",
+    "time": "2024-01-26T20:40:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ct4k9Pbq",
+    "href": "https://pluralistic.net/2023/11/27/10-types-of-people/",
+    "description": "Pluralistic: The real AI fight (27 Nov 2023) – Pluralistic: Daily links from Cory Doctorow",
+    "time": "2024-01-26T20:39:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "7tst94uC",
+    "href": "https://github.com/lumpenspace/tikkun-tohu",
+    "description": "lumpenspace/tikkun-tohu: A package to retrieve embeddings for each one of OpenAI's dictionary tokens",
+    "time": "2024-01-26T06:50:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "EH9ZLfv4",
+    "href": "https://www.linkedin.com/pulse/lessons-from-20-years-electioneering-russell-leak-qxeje%3FtrackingId=%252BhDcVtOCXsahjcoRnzsDrA%253D%253D/?trackingId=%2BhDcVtOCXsahjcoRnzsDrA%3D%3D",
+    "description": "Lessons from 20 Years of Electioneering | LinkedIn",
+    "time": "2024-01-26T06:40:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kwdXorTP",
+    "href": "https://www.fourmilab.ch/rpkp/autopsy.html",
+    "description": "The Watkins Objection",
+    "time": "2024-01-26T02:45:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111818192389279549",
+    "scrap_id": "N1mtYNms",
+    "href": "https://mastodon.social/@ejfox/111818192389279549",
+    "description": "<p>hm, 50 degrees? maybe i will step foot outdoors</p>",
+    "time": "2024-01-25T19:16:51.020Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 25921528,
+    "scrap_id": "h5vkpxel",
+    "href": "https://www.are.na/block/25921528",
+    "description": "",
+    "time": "2024-01-25T05:20:12.143Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTkyMTUyOC9vcmlnaW5hbF81NDNiMDQyMzgwODVmOTI1YTQ4MjNiMjk2N2JmZDllNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "0GsxyDFS",
+    "href": "https://www.urban.org/research/publication/austin-guaranteed-income-pilot-participant-outcomes-12-months",
+    "description": "Austin Guaranteed Income Pilot: Participant Outcomes at 12 Months | Urban Institute",
+    "time": "2024-01-25T05:14:41Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "cJ65Z4o4",
+    "href": "https://cults3d.com/en/3d-model/art/rat-hole-shrine",
+    "description": "Free STL file Rat Hole Shrine Stamp 🐀・3D printer design to download・Cults",
+    "time": "2024-01-25T04:55:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "K9iczXRL",
+    "href": "https://twitter.com/the_lettuce_cat/status/1750259983692780031",
+    "description": "Party Lettuce Cat on X: \"SOMEONE 3D SCANNED THE RAT HOLE WE'RE SO FUCKING BACK https://t.co/q3I6nWR83U\" / X",
+    "time": "2024-01-25T04:55:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "iUYMLi14",
+    "href": "https://www.youtube.com/watch?v=1Uw2PWTR_XM",
+    "description": "Easy Feature Tracking with Script TOP and OpenCV in TouchDesigner - Tutorial - YouTube",
+    "time": "2024-01-24T22:04:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111812224784016451",
+    "scrap_id": "X2xxzhmw",
+    "href": "https://mastodon.social/@ejfox/111812224784016451",
+    "description": "<p>Streaming and dreaming <a href=\"https://youtube.com/live/Od5aqBwYU-I?feature=share\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">youtube.com/live/Od5aqBwYU-I?f</span><span class=\"invisible\">eature=share</span></a></p>",
+    "time": "2024-01-24T17:59:12.593Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "111812115990360061",
+    "scrap_id": "Zrxqr918",
+    "href": "https://mastodon.social/@ejfox/111812115990360061",
+    "description": "<p>Going live in half an hour, hang out with us! Everyone is welcome! We love tangents!</p>",
+    "time": "2024-01-24T17:31:32.527Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 25893609,
+    "scrap_id": "95Qgdw6K",
+    "href": "https://www.are.na/block/25893609",
+    "description": "",
+    "time": "2024-01-24T04:06:07.219Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTg5MzYwOS9vcmlnaW5hbF9mOTU0OGYwNzRkMTM3NTg3OGU3N2Y2MzNlY2U3MDg0Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "wUceBFDd",
+    "href": "https://arxiv.org/pdf/2305.16367.pdf",
+    "description": "untitled",
+    "time": "2024-01-24T00:38:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1_YEZBC5",
+    "href": "https://arxiv.org/abs/2308.10248",
+    "description": "[2308.10248] Activation Addition: Steering Language Models Without Optimization",
+    "time": "2024-01-23T22:27:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "A6dlmtz_",
+    "href": "https://github.com/TutteInstitute/datamapplot",
+    "description": "TutteInstitute/datamapplot: Creating beautiful plots of data maps",
+    "time": "2024-01-23T18:23:01Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "PaXtaibi",
+    "href": "https://diagram.website/",
+    "description": "Diagram Website – An internet map",
+    "time": "2024-01-23T18:20:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111806222009819354",
+    "scrap_id": "Rdt5Dhz_",
+    "href": "https://mastodon.social/@ejfox/111806222009819354",
+    "description": "<p>Tomorrow at 1PM ET me and the folks at the studio are doing another Livestream exploring Coach Artie, our GPT-4 powered Discord studio assistant, and some of the latest changes I made to him over the holiday break. <a href=\"https://youtube.com/live/Od5aqBwYU-I?feature=share\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">youtube.com/live/Od5aqBwYU-I?f</span><span class=\"invisible\">eature=share</span></a></p><p>Come hang out!</p>",
+    "time": "2024-01-23T16:32:37.524Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "pBV50Cx8",
+    "href": "https://benchmarks.slaylines.io/dom.html",
+    "description": "DOM — Canvas Engines Comparison",
+    "time": "2024-01-23T01:17:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rdKKo4AQ",
+    "href": "https://docs.llamaindex.ai/en/latest/examples/query_engine/JSONalyze_query_engine.html",
+    "description": "JSONalyze Query Engine - LlamaIndex 🦙 0.9.34",
+    "time": "2024-01-23T01:07:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "OxUPhdJO",
+    "href": "https://supabase.com/docs/guides/platform/going-into-prod",
+    "description": "Production Checklist | Supabase Docs",
+    "time": "2024-01-23T00:43:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111802383306064818",
+    "scrap_id": "CDzSEAgO",
+    "href": "https://mastodon.social/@ejfox/111802383306064818",
+    "description": "<p>I cannot have espresso at 7pm and then, also, go to pottery at 9am tomorrow - but I would very much like to</p>",
+    "time": "2024-01-23T00:16:23.554Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 25866934,
+    "scrap_id": "1SmLUeHH",
+    "href": "https://www.are.na/block/25866934",
+    "description": "",
+    "time": "2024-01-22T23:42:14.074Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTg2NjkzNC9vcmlnaW5hbF8yMjNlYmViZmFmZGQyMTg5MTZjYzZiMWMyNjYwNjhjOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "7rUr0LNM",
+    "href": "https://support.discord.com/hc/en-us/articles/10388356626711",
+    "description": "Connections & Linked Roles: Admins – Discord",
+    "time": "2024-01-22T16:45:51Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "111800348383255541",
+    "scrap_id": "MyaaQ9ho",
+    "href": "https://mastodon.social/@ejfox/111800348383255541",
+    "description": "<p>the best part of cigarettes is you can survey the landscape and no one ever questions you, as soon as they offer another device that provides the service then maybe we can talk</p>",
+    "time": "2024-01-22T15:38:53.095Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "12bfcdaa3b09805f410ac0c1439b8a25",
+    "scrap_id": "9ZkRq35u",
+    "href": "https://gist.github.com/ejfox/12bfcdaa3b09805f410ac0c1439b8a25",
+    "description": "Using anime, tresjs, and canvas to make rotating annotated objects in 3D",
+    "time": "2024-01-22T04:26:06Z",
+    "type": "github-gist",
+    "images": []
+  },
+  {
+    "scrap_id": "nDsSmTRk",
+    "href": "https://www.turbosquid.com/3d-models/cigars-cigarettes-joints-blunts-and-ashtrays-3d-assetkit-pbr-1569848",
+    "description": "3D cigars cigarettes joints blunts - TurboSquid 1569848",
+    "time": "2024-01-22T00:59:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1ujU5QW6",
+    "href": "https://www.turbosquid.com/3d-models/technics-sl1200-mk2-turntable-game-asset-1580948",
+    "description": "Technics sl1200 mk2 turntable model - TurboSquid 1580948",
+    "time": "2024-01-22T00:58:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tjcB-fH2",
+    "href": "https://www.turbosquid.com/3d-models/hackers-office-2165380",
+    "description": "3D Hackers Office - TurboSquid 2165380",
+    "time": "2024-01-22T00:57:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 25838040,
+    "scrap_id": "EZ3ObzFk",
+    "href": "https://www.are.na/block/25838040",
+    "description": "From Wikipedia, the free encyclopedia",
+    "time": "2024-01-21T17:12:56.805Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTgzODA0MC9vcmlnaW5hbF9hMjY0NTY4MDdhOTAyZGVmZmUxMTA0OTE3MWQ1YzQ4My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "NUDDFKjN",
+    "href": "https://www.jstor.org/stable/2738331",
+    "description": "Bouvet and Leibniz: A Scholarly Correspondence on JSTOR",
+    "time": "2024-01-21T17:04:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ka1UvdCC",
+    "href": "https://en.wikipedia.org/wiki/Joachim_Bouvet",
+    "description": "Joachim Bouvet - Wikipedia",
+    "time": "2024-01-21T17:01:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "O5MwesRj",
+    "href": "https://archive.shine.cn/sunday/now-and-then/Understanding-Bagua-sequence/shdaily.shtml",
+    "description": "Understanding Bagua sequence | Shanghai Daily",
+    "time": "2024-01-21T16:49:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

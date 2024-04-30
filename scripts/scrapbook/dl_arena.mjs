@@ -1,5 +1,5 @@
 import Arena from 'are.na'
-import { promises as fs } from 'fs'
+import * as fs from 'fs'
 import path from 'path'
 import ora from 'ora' // Add missing import for ora
 import inquirer from 'inquirer'
@@ -16,39 +16,43 @@ const ARENA_ACCESS_TOKEN = process.env.ARENA_ACCESS_TOKEN
 const arena = new Arena({ accessToken: ARENA_ACCESS_TOKEN })
 
 const fetchAllBlocks = async () => {
-  const spinner = ora('Initializing download...').start();
-  const manifest = await readManifest();
-  let lastFetch = manifest.arena?.lastFetch || new Date(0).toISOString(); // Default to epoch if no timestamp available
-  let allBlocks = [];
+  const spinner = ora('Initializing download...').start()
+  const manifest = await readManifest()
+  let lastFetch = manifest.arena?.lastFetch || new Date(0).toISOString() // Default to epoch if no timestamp available
+  let allBlocks = []
 
   try {
-    const userChannels = await arena.user(USER_SLUG).channels();
+    const userChannels = await arena.user(USER_SLUG).channels()
 
     for (const channel of userChannels) {
-      let page = 1;
-      let fetching = true;
+      let page = 1
+      let fetching = true
 
       while (fetching) {
         const response = await limiter.schedule(() =>
-          arena.channel(channel.id).contents({ page, per: 100, updated_after: lastFetch }),
-        );
-        const blocks = response || [];
-        allBlocks = allBlocks.concat(blocks.map(block => ({ ...block, channel: channel.title })));
-        fetching = blocks.length > 0;
-        page += 1;
-        spinner.text = `Fetched ${allBlocks.length} blocks...`;
+          arena
+            .channel(channel.id)
+            .contents({ page, per: 100, updated_after: lastFetch }),
+        )
+        const blocks = response || []
+        allBlocks = allBlocks.concat(
+          blocks.map((block) => ({ ...block, channel: channel.title })),
+        )
+        fetching = blocks.length > 0
+        page += 1
+        spinner.text = `Fetched ${allBlocks.length} blocks...`
       }
     }
 
-    spinner.succeed(`Downloaded ${allBlocks.length} blocks`);
-    await updateManifest('arena', { lastFetch: new Date().toISOString() }); // Update the timestamp in the manifest
-    return allBlocks;
+    spinner.succeed(`Downloaded ${allBlocks.length} blocks`)
+    await updateManifest('arena', { lastFetch: new Date().toISOString() }) // Update the timestamp in the manifest
+    return allBlocks
   } catch (error) {
-    spinner.fail('An error occurred');
-    console.error(error);
-    throw error; // Rethrow to handle higher up if needed
+    spinner.fail('An error occurred')
+    console.error(error)
+    throw error // Rethrow to handle higher up if needed
   }
-};
+}
 
 const isCI = process.env.CI === 'true'
 

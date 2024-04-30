@@ -21,8 +21,8 @@ function createScrap({
   images = [],
   additionalProps = {},
 }) {
-  const effectiveId = id || href;
-  const scrap_id = helpers.scrapToUUID(`${type}${effectiveId}`);
+  const effectiveId = id || href
+  const scrap_id = helpers.scrapToUUID(`${type}${effectiveId}`)
 
   return {
     id,
@@ -65,7 +65,7 @@ const groupDataByWeek = (data) => {
 }
 
 function safeFetch(promise) {
-  return promise.catch(error => ({ error, data: null }));
+  return promise.catch((error) => ({ error, data: null }))
 }
 
 const cleanupAndMergeData = async () => {
@@ -82,18 +82,21 @@ const cleanupAndMergeData = async () => {
     safeFetch(fetchAllBlocks()),
     safeFetch(fetchUserId().then(fetchStatuses)),
     safeFetch(fetchBookmarks()),
-    safeFetch(fetchGithubData())
-  ];
+    // safeFetch(fetchGithubData())
+  ]
 
-  let [arenaBlocks, mastodonStatuses, pinboardBookmarks, githubData] = await Promise.all(fetchPromises);
+  // let [arenaBlocks, mastodonStatuses, pinboardBookmarks, githubData] = await Promise.all(fetchPromises);
+  let githubData = null // TODO: Right now the github action is having trouble using the github token secret, so we are gonna skip it for now
+  let [arenaBlocks, mastodonStatuses, pinboardBookmarks] = await Promise.all(
+    fetchPromises,
+  )
 
   // Update manifest for each successful fetch
-  const now = new Date().toISOString();
-  if (arenaBlocks) await updateManifest('arena', { lastFetch: now });
-  if (mastodonUserId) await updateManifest('mastodon', { lastFetch: now });
-  if (pinboardBookmarks) await updateManifest('pinboard', { lastFetch: now });
-  if (githubData) await updateManifest('github', { lastFetch: now });
-
+  const now = new Date().toISOString()
+  if (arenaBlocks) await updateManifest('arena', { lastFetch: now })
+  if (mastodonUserId) await updateManifest('mastodon', { lastFetch: now })
+  if (pinboardBookmarks) await updateManifest('pinboard', { lastFetch: now })
+  if (githubData) await updateManifest('github', { lastFetch: now })
 
   // are.na
   arenaBlocks = arenaBlocks.map((block) =>
@@ -135,9 +138,9 @@ const cleanupAndMergeData = async () => {
       description: bookmark.description,
       time: bookmark.time,
       additionalProps: {
-      tags: bookmark.tags, // Assuming you have tags and want to keep them
-      extended: bookmark.extended, // Assuming you want to keep the extended description
-      }
+        tags: bookmark.tags, // Assuming you have tags and want to keep them
+        extended: bookmark.extended, // Assuming you want to keep the extended description
+      },
     }),
   )
 

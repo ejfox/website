@@ -24,7 +24,7 @@ There was one surreal late-night interaction at the conference that felt like a 
 
 ### The Birth of Hacker Ideology: Challenging Authority and Finding Collective Solutions
 
-Many of the core threads of modern life and technology trace back to hackers. The rebellious spirit of the 1960s counterculture didn’t just give us tie-dye shirts and The Grateful Dead – it birthed an entire generation of tech-savvy revolutionaries who challenge authority at every turn.
+Many of the core threads of modern life and technology trace back to hackers. The rebellious spirit of the 1960s counterculture didn’t just give us tie-dye shirts and The Grateful Dead – it birthed an entire generation of tech-savvy revolutionaries who challenge authority at every turn.[^1]
 
 >To a generation that grows up in a world beset by massive armies and by the threat of nuclear holocaust, the cybernetic notion of the globe as a single, interlinked pattern of information is deeply comforting: in the invisible play of information, many think they can see the possibility of global harmony.
 >Fred Turner **From Counterculture to Cyberculture** (2008)
@@ -48,7 +48,7 @@ Open-source development is a collaborative approach to creating software, where 
 
 ### Steve Jobs & The Hippies
 
-In 2005 Steve Jobs credits Brand's work as an inspiration during his famous Stanford commencement speech. What connects Brand and Jobs is their shared belief in challenging authority and pursuing decentralized innovation that can empower individuals.
+In 2005 Steve Jobs credits Brand's work as an inspiration during his famous Stanford commencement speech[^2]. What connects Brand and Jobs is their shared belief in challenging authority and pursuing decentralized innovation that can empower individuals.
 
 Steve Jobs is profoundly influenced by both hacker culture and the psychedelic counterculture of the 1960s. This intersection plays a critical role in shaping his unique vision that would later revolutionize personal computing.
 
@@ -98,3 +98,7 @@ These ideas have always been core to being a hacker for me. On the final night o
 What strikes me most is how different, accepting, and giving the hackers I meet are. They are a tribe of misfits who find solace in each other's eccentricities and knowledge and unite under a common banner – the pursuit of knowledge and creative exploration.
 
 As I stand on that rooftop overlooking Manhattan, bathed in the glow of neon lights reflecting off glass skyscrapers, I feel a profound sense of belonging beneath my fear of being discovered by security. In this anarchic realm where curiosity is king and imagination reigns supreme, I find my tribe.
+
+[^1]: [The Harvard Gazette: Anthropology professor studies the rich, deep world of hackers](https://news.harvard.edu/gazette/story/2022/02/wading-into-culture-of-computer-hackers/) "When some of these hackers started to seek employment, a few prominent figures cautioned against hiring them. So as they stepped out the shadows to engage with a nascent security public, hackers had to do all this labor to rehabilitate their image. Many indeed went pro and became employable, highly respected security professionals."
+
+[^2]: [Steve Jobs' 2005 Sanford Commencement](https://www.youtube.com/watch?v=UF8uR6Z6KLc) and [transcript](https://news.stanford.edu/2005/06/12/youve-got-find-love-jobs-says/) "Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “Stay Hungry. Stay Foolish."

@@ -1,156 +1,102 @@
 <template>
   <main class="dark:bg-gray-900 p-2 md:p-4">
     <!-- year navigation -->
-    <div
-      class="flex flex-col mb-4 sticky md:relative lg:relative backdrop-filter backdrop-blur-lg top-0 z-30"
-    >
+    <div class="flex flex-col mb-4 sticky md:relative lg:relative backdrop-filter backdrop-blur-lg top-0 z-30">
       <div class="flex justify-between items-stretch">
         <!-- filter by year on and off -->
-        <UButton
-          icon="i-heroicons-rectangle-stack-20-solid"
-          :trailing="true"
-          color="gray"
-          class="my-4"
-          @click="filterByYear = !filterByYear"
-        >
+        <UButton icon="i-heroicons-rectangle-stack-20-solid" :trailing="true" color="gray" class="my-4"
+          @click="filterByYear = !filterByYear">
           {{ filterByYear ? 'See all posts' : 'Filter by year' }}
         </UButton>
       </div>
       <div v-if="filterByYear" class="flex flex-wrap mt-2 align-middle">
-        <UIcon
-          name="i-heroicons-calendar-days"
-          class="m-1 mr-3 text-2xl align-middle"
-        />
-        <UButton
-          v-for="availableYear in blogYears"
-          :class="[
-            availableYear === blogYear
-              ? 'bg-primary-500 dark:bg-slate-500 text-white dark:text-white'
-              : 'bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100',
-            'text-sm font-medium rounded-md mr-2 mb-2',
-          ]"
-          :key="availableYear"
-          :to="`/blog/?year=${availableYear}`"
-        >
+        <UIcon name="i-heroicons-calendar-days" class="m-1 mr-3 text-2xl align-middle" />
+        <UButton v-for="availableYear in blogYears" :class="[
+          availableYear === blogYear
+            ? 'bg-primary-500 dark:bg-slate-500 text-white dark:text-white'
+            : 'bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100',
+          'text-sm font-medium rounded-md mr-2 mb-2',
+        ]" :key="availableYear" :to="`/blog/?year=${availableYear}`">
           {{ availableYear }}
         </UButton>
       </div>
     </div>
 
-    <ContentQuery
-      path="/blog/"
-      :sort="{ date: -1, modified: 1 }"
-      v-slot="{ data }"
-    >
+    <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
       <!-- featured article -->
-      <div class="my-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
+      <div class="featured-articlemy-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
         <div class="dark:bg-gray-900"></div>
         <div class="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-40">
-          <h2
-            class="text-4xl font-extrabold tracking-tight dark:text-white sm:text-5xl lg:text-8xl"
-          >
+          <h2 class="text-4xl font-extrabold dark:text-white sm:text-5xl lg:text-8xl uppercase tracking-wide">
             {{ featuredArticle(data).title }}
           </h2>
           <p class="mt-6 max-w-3xl text-xl text-gray-400 dark:text-gray-300">
             {{ featuredArticle(data).dek }}
           </p>
 
-          <div class="mt-5">
-            <UButton
-              icon="i-heroicons-arrow-up-right"
-              size="lg"
-              label="Read more"
-              variant="solid"
-              :trailing="true"
-              @click="navigateTo(featuredArticle(data)._path)"
-            />
+          <div class="mt-5 lg:mt-16">
+            <UButton icon="i-heroicons-arrow-up-right" size="lg" label="Read more" variant="solid" :trailing="true"
+              @click="navigateTo(featuredArticle(data)._path)" />
           </div>
         </div>
       </div>
 
-      <div
-        v-for="article in blogIndexSort(blogIndexFilter(data))"
-        :key="article._path"
-      >
-        <UCard
-          :class="[
-            article.hidden ? 'hidden' : '',
-            'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
-          ]"
-        >
+      <div v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path">
+        <UCard :class="[
+          article.hidden ? 'hidden' : '',
+          'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
+        ]">
           <div>
-            <!-- do another contentquery and contentrenderer instead of contentdoc for this specific article in the list, so we can get additional data in the doc, like readingTime -->
-            <ContentQuery
-              :path="article._path"
-              v-slot="{ data, toc }"
-              find="one"
-            >
-              <div
-                class="flex justify-between items-center text-gray-400 dark:text-gray-600 text-xs md:text-sm mb-2 md:mb-4"
-                v-if="article.title"
-              >
-                <span v-if="article.modified">
-                  {{ formatDate(new Date(article.modified)) }}
-                </span>
+            <div
+              class="flex justify-between items-center text-gray-400 dark:text-gray-600 text-xs md:text-sm mb-2 md:mb-4"
+              v-if="article.title">
+              <span v-if="article.modified">
+                {{ formatDate(new Date(article.modified)) }}
+              </span>
+              <span v-else-if="article.date">
+                {{ formatDate(new Date(article?.date)) }}
+              </span>
+              <span v-else>
+                <USkeleton class="h-4 w-96 my-4" />
+              </span>
 
-                <span v-else>
-                  {{ formatDate(new Date(article?.date)) }}
-                </span>
+              <span class="" v-if="countPhotos(article) > 2">{{ countPhotos(article) }} photos</span>
 
-                <span class="" v-if="countPhotos(article) > 2"
-                  >{{ countPhotos(article) }} photos</span
-                >
+              <span class="inline-block pr-2" v-if="data?.readingTime?.minutes > 1">
+                <UIcon name="i-heroicons-solid-clock" color="gray" />
+                {{ data?.readingTime.text }}
+              </span>
+            </div>
 
-                <span
-                  class="inline-block pr-2"
-                  v-if="data?.readingTime?.minutes > 1"
-                >
-                  <UIcon name="i-heroicons-solid-clock" color="gray" />
-                  {{ data?.readingTime.text }}
-                </span>
+            <NuxtLink v-if="article.title" :to="article._path"
+              class="link font-bold text-gray-900 dark:text-gray-100 text-2xl md:text-3xl tracking-tight mb-2 md:mb-4 block hover:text-primary-500 dark:hover:text-primary-300 transition-colors duration-200 cursor-pointer">
+              {{ article.title }}
+            </NuxtLink>
+            <span v-else>
+              <USkeleton class="h-8 w-96 my-4" />
+            </span>
+
+            <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base mb-2 md:mb-4"></div>
+
+            <div class="text-gray-700 dark:text-gray-300 text-md max-w-prose">
+              <div v-if="article.dek" class="font-light my-6">
+                {{ article.dek }}
               </div>
-
-              <NuxtLink
-                :to="article._path"
-                class="link font-bold text-gray-900 dark:text-gray-100 text-2xl md:text-3xl tracking-tight mb-2 md:mb-4 block hover:text-primary-500 dark:hover:text-primary-300 transition-colors duration-200 cursor-pointer"
-              >
-                {{ article.title }}
-              </NuxtLink>
-
-              <div
-                class="text-gray-600 dark:text-gray-400 text-sm md:text-base mb-2 md:mb-4"
-              ></div>
-
-              <div class="text-gray-700 dark:text-gray-300 text-md max-w-prose">
-                <div v-if="article.dek" class="font-light my-6">
-                  {{ article.dek }}
-                </div>
-                <div v-else="article.description" class="dek">
-                  {{ article.description }}
-                </div>
+              <div v-else-if="article.description" class="dek">
+                {{ article.description }}
               </div>
+            </div>
 
-              <div
-                class="text-gray-600 dark:text-gray-400 text-sm md:text-base"
-              >
-                <div class="article-toc">
-                  <ul
-                    class="list-none flex flex-wrap justify-start items-center"
-                  >
-                    <UButton
-                      v-for="link of article.body.toc.links"
-                      :key="link.id"
-                      color="gray"
-                      class="mr-2 mb-2 font-light"
-                      size="xs"
-                      :to="`${article._path}#${link.id}`"
-                    >
-                      {{ link.text }}
-                    </UButton>
-                  </ul>
-                </div>
+            <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
+              <div class="article-toc">
+                <ul class="list-none flex flex-wrap justify-start items-center">
+                  <UButton v-for="link of article.body.toc.links" :key="link.id" color="gray"
+                    class="mr-2 mb-2 font-light" size="xs" :to="`${article._path}#${link.id}`">
+                    {{ link.text }}
+                  </UButton>
+                </ul>
               </div>
-            </ContentQuery>
+            </div>
           </div>
         </UCard>
       </div>
@@ -215,4 +161,10 @@ function featuredArticle(data) {
   return sortedData[0]
 }
 </script>
-<style></style>
+<style scoped>
+.featured-article h1,
+h2,
+h3 {
+  font-family: "Fjalla One";
+}
+</style>

@@ -69,7 +69,11 @@ const fetchStatuses = async (userId) => {
         console.error('Error creating directories:', err)
       }
     })
-    await fs.writeFile(filePath, JSON.stringify(statuses, null, 2))
+    await fs.writeFile(filePath, JSON.stringify(statuses, null, 2), (err) => {
+      if (err) {
+        console.error('Error writing file:', err)
+      }
+    })
   } else {
     console.error('User ID could not be found for the specified username.')
   }

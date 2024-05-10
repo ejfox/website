@@ -80,3 +80,4 @@ const fetchStatuses = async (userId) => {
 })()
 
 export { fetchStatuses, fetchUserId }
+

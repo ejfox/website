@@ -45,28 +45,29 @@ const fetchAllBlocks = async () => {
     }
 
     spinner.succeed(`Downloaded ${allBlocks.length} blocks`)
-    await updateManifest('arena', { lastFetch: new Date().toISOString() }) // Update the timestamp in the manifest
+    await updateManifest('arena', { lastFetch: new Date().toISOString() })
     return allBlocks
   } catch (error) {
     spinner.fail('An error occurred')
     console.error(error)
-    throw error // Rethrow to handle higher up if needed
+    throw error
   }
 }
 
 const isCI = process.env.CI === 'true'
 
 if (isCI) {
-  fetchAllBlocks().then(async (blocks) => {
-    const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-    await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
-    const filePath = path.join(dirPath, 'arena.json')
-    // create file if it doesn't exist
-    if (!fs.existsSync(filePath)) {
-      await fs.writeFile(filePath, JSON.stringify([], null, 2))
-    }
-    await fs.writeFile(filePath, JSON.stringify(blocks, null, 2))
-  })
+  fetchAllBlocks()
+    .then(async (blocks) => {
+      const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
+      await fs.mkdir(dirPath, { recursive: true }, () => {}) // Add empty callback
+      const filePath = path.join(dirPath, 'arena.json')
+      if (!fs.existsSync(filePath)) {
+        await fs.writeFile(filePath, JSON.stringify([], null, 2), () => {}) // Add empty callback
+      }
+      await fs.writeFile(filePath, JSON.stringify(blocks, null, 2), () => {}) // Add empty callback
+    })
+    .catch(() => {}) // Add empty error handling
 } else {
   inquirer
     .prompt([
@@ -81,13 +82,14 @@ if (isCI) {
       if (answers.fetchAll) {
         const blocks = await fetchAllBlocks()
         const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-        await fs.mkdir(dirPath, { recursive: true }) // This will create the directories if they don't exist
+        await fs.mkdir(dirPath, { recursive: true }, () => {}) // Add empty callback
         const filePath = path.join(dirPath, 'arena.json')
-        await fs.writeFile(filePath, JSON.stringify(blocks, null, 2))
+        await fs.writeFile(filePath, JSON.stringify(blocks, null, 2), () => {}) // Add empty callback
       } else {
         console.log('Fetching canceled.')
       }
     })
+    .catch(() => {}) // Add empty error handling
 }
 
 export { fetchAllBlocks }

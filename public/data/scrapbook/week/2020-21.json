@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "GOavsa79",
-    "href": "https://forensicnews.net/2020/05/21/nso-group-director-served-with-trump-officials-at-us-government-agency/",
-    "description": "NSO Group Director Served With Trump Officials At US Government Agency | Forensic News",
-    "time": "2020-05-24T03:42:59Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "id": 7403338,
     "scrap_id": "-TlypHIj",
     "href": "https://www.are.na/block/7403338",
@@ -274,6 +264,16 @@
     "href": "https://jacobinmag.com/2020/05/real-estate-crash-pandemic-coronavirus",
     "description": "Another Real Estate Crash Is Coming",
     "time": "2020-05-17T05:30:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "nV1LBCHx",
+    "href": "https://ftrain.substack.com/p/why-does-this-have-a-title-and-a",
+    "description": "Why does this have a title and a social share card? It's an email. It's supposed to be correspondence.",
+    "time": "2020-05-17T02:42:48Z",
     "type": "pinboard",
     "images": [],
     "tags": "",

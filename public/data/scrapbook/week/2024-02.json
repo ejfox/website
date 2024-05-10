@@ -182,15 +182,6 @@
     "extended": ""
   },
   {
-    "id": "763ba7f07e8363d1ed2e426d9e34c9e4",
-    "scrap_id": "R8bPr0_i",
-    "href": "https://gist.github.com/ejfox/763ba7f07e8363d1ed2e426d9e34c9e4",
-    "description": "Tween the positions of circles using vueUse's useTween composable",
-    "time": "2024-01-10T18:38:01Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "AS_YPC0I",
     "href": "https://platform.openai.com/docs/assistants/how-it-works/runs-and-run-steps",
     "description": "How Assistants work - OpenAI API",
@@ -303,15 +294,6 @@
     "extended": ""
   },
   {
-    "id": "1ba2ea7cb45099790ef417fd2ef335fa",
-    "scrap_id": "3C2VWBQq",
-    "href": "https://gist.github.com/ejfox/1ba2ea7cb45099790ef417fd2ef335fa",
-    "description": "",
-    "time": "2024-01-09T19:05:01Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "B39qC9qL",
     "href": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_New_York_(state)",
     "description": "List of radio stations in New York (state) - Wikipedia",
@@ -401,5 +383,15 @@
     "images": [],
     "tags": "",
     "extended": "Embeddings are a really neat trick that often come wrapped in a pile of intimidating jargon. If you can make it through that jargon, they unlock powerful and exciting techniques …"
+  },
+  {
+    "scrap_id": "u2K__rFg",
+    "href": "https://equinoxmac.com/",
+    "description": "Equinox - Create dynamic wallpaper for macOS for free.",
+    "time": "2024-01-07T02:11:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

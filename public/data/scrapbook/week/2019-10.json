@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "wI_fAAeU",
-    "href": "https://github.com/release-it/release-it",
-    "description": "release-it/release-it",
-    "time": "2019-03-10T00:39:00Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "github",
-    "extended": "CLI release tool for Git repos and npm packages. Automate the tedious tasks of software releases. Happily release and publish your Git repositories, npm packages, GitHub & GitLab releases, changelogs, and much more!"
-  },
-  {
     "scrap_id": "GaLey7MW",
     "href": "https://gist.github.com/bnagy/8914f712f689cc01c267#footnote---no-signatures",
     "description": "Mutt, Gmail and GPG",

@@ -1,25 +1,5 @@
 [
   {
-    "scrap_id": "LOrY_nK8",
-    "href": "http://www.amazon.com/Crypto-Anarchy-Cyberstates-Pirate-Utopias/dp/0262621517",
-    "description": "Untitled (http://www.amazon.com/Crypto-Anarchy-Cyberstates-Pirate-Utopias/dp/0262621517)",
-    "time": "2012-04-15T03:52:08Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "@jaspergregory I just stumbled on this book on my shelf and for some reason thought of you, have you checked it out? "
-  },
-  {
-    "scrap_id": "UmBBtgSB",
-    "href": "http://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android",
-    "description": "Pebble: E-Paper Watch for iPhone and Android by Pebble Technology — Kickstarter",
-    "time": "2012-04-15T03:48:53Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "I want to write an app for the pebble watch (  ) that'll show my bank account balance at all times instead of the time."
-  },
-  {
     "scrap_id": "ntwVcq76",
     "href": "http://iconicphotos.files.wordpress.com/2009/08/johnny-cash-finger-2.jpg?w=700",
     "description": "Untitled (http://iconicphotos.files.wordpress.com/2009/08/johnny-cash-finger-2.jpg?w=700)",
@@ -178,5 +158,15 @@
     "images": [],
     "tags": "",
     "extended": "RT @newsycombinator: Github is making me feel stupid(er) "
+  },
+  {
+    "scrap_id": "Vn9hhIwo",
+    "href": "http://community.junar.com/datastreams/69071/occupy-arrests-running-total-of-occupy-related-arrests/",
+    "description": "Occupy Arrests | Running total of Occupy-related arrests · Junar · Discovering Data",
+    "time": "2012-04-08T01:47:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Junar-scraped this dataset, would love to map/timeline it => Running total of Occupy-related arrests:  via @Junar"
   }
 ]

@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "99IfFJcI",
-    "href": "https://github.com/HudZah/SmartShot",
-    "description": "HudZah/SmartShot: SmartShot automates the task of organizing and renaming screenshots in a specified folder on macOS. It uses the built-in Automater app to auto-detect when new screenshots are taken and runs a script to rename them.",
-    "time": "2024-01-28T03:27:04Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "scrap_id": "AaamYK-m",
     "href": "https://github.com/alexeden/rpi-led-matrix",
     "description": "alexeden/rpi-led-matrix: Node.js/Typescript bindings for the Raspberry Pi LED Matrix library (https://github.com/hzeller/rpi-rgb-led-matrix)",
@@ -48,15 +38,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": "a049d8bea5fa7257891d987fef455554",
-    "scrap_id": "pNPOmRv6",
-    "href": "https://gist.github.com/ejfox/a049d8bea5fa7257891d987fef455554",
-    "description": "Processing RGB LED Matrix Visualizer (for Raspberry Pi)",
-    "time": "2024-01-27T06:11:17Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "k14-Ae9F",
@@ -313,15 +294,6 @@
     "description": "<p>the best part of cigarettes is you can survey the landscape and no one ever questions you, as soon as they offer another device that provides the service then maybe we can talk</p>",
     "time": "2024-01-22T15:38:53.095Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": "12bfcdaa3b09805f410ac0c1439b8a25",
-    "scrap_id": "9ZkRq35u",
-    "href": "https://gist.github.com/ejfox/12bfcdaa3b09805f410ac0c1439b8a25",
-    "description": "Using anime, tresjs, and canvas to make rotating annotated objects in 3D",
-    "time": "2024-01-22T04:26:06Z",
-    "type": "github-gist",
     "images": []
   },
   {

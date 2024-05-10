@@ -1,16 +1,5 @@
 [
   {
-    "id": 26266650,
-    "scrap_id": "bzOgg1z3",
-    "href": "https://www.are.na/block/26266650",
-    "description": "",
-    "time": "2024-02-11T02:01:10.186Z",
-    "type": "arena",
-    "images": [
-      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjI2NjY1MC9vcmlnaW5hbF8yMmM4NDU0NDFlNTIyOWJhMmQ3OGI1ODZmNmRmOTJjOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ]
-  },
-  {
     "id": "111908210696372222",
     "scrap_id": "u-oUP0cf",
     "href": "https://mastodon.social/@ejfox/111908210696372222",
@@ -26,15 +15,6 @@
     "description": "<p>in the medium-to-near future, people who can reference hard-copy books in meatspace will be seen as semi-oracles from the before times, able to decipher the pre-robot truth, at least until the robot turns out really convincing fakes of old-smelling weathered-looking volumes, then were truly fucked</p>",
     "time": "2024-02-10T16:48:41.398Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": "da826d138fa344240711a5a4fb673782",
-    "scrap_id": "udMVdQyl",
-    "href": "https://gist.github.com/ejfox/da826d138fa344240711a5a4fb673782",
-    "description": "p5_canvassketch_circles.js",
-    "time": "2024-02-10T16:21:13Z",
-    "type": "github-gist",
     "images": []
   },
   {

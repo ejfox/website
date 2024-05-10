@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "YqDASyJq",
-    "href": "http://qr.ae/8e8jz",
-    "description": "(429) http://qr.ae/8e8jz",
-    "time": "2012-09-16T03:57:39Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "How do you remember to press the button on your FitBit to track sleep? "
-  },
-  {
     "scrap_id": "nvbAxvdN",
     "href": "http://www.city-data.com/forum/city-vs-city/1076352-10-sunniest-places-usa-4.html",
     "description": "Untitled (http://www.city-data.com/forum/city-vs-city/1076352-10-sunniest-places-usa-4.html)",
@@ -128,5 +118,15 @@
     "images": [],
     "tags": "youtube",
     "extended": ""
+  },
+  {
+    "scrap_id": "F77cnjAa",
+    "href": "http://twittercounter.com/mrejfox",
+    "description": "EJ Fox Twitter Stats - Twitter Counter",
+    "time": "2012-09-09T01:57:34Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Cool, I'm about to reach 600 followers! See the rest of my stats at Twitter Counter: "
   }
 ]

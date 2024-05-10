@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "u2K__rFg",
-    "href": "https://equinoxmac.com/",
-    "description": "Equinox - Create dynamic wallpaper for macOS for free.",
-    "time": "2024-01-07T02:11:48Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "scrap_id": "Qd4J_oVX",
     "href": "https://journal.chestnet.org/article/S0012-3692(23)02201-8/fulltext",
     "description": "EXPLORING THE RELATIONSHIP BETWEEN MARIJUANA SMOKING AND COVID-19 OUTCOMES - CHEST",
@@ -190,15 +180,6 @@
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTUzMzkyMS9vcmlnaW5hbF8xMTk1YjhiMTQ2MjA4NDZhZDJiYWQ2YjNiZTU2NjMwYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
     ]
-  },
-  {
-    "id": "afd94b193a00645e34fc5030a125758a",
-    "scrap_id": "TgkRp6ty",
-    "href": "https://gist.github.com/ejfox/afd94b193a00645e34fc5030a125758a",
-    "description": "Sets screenshot folder on OS X to ~/screenshots",
-    "time": "2024-01-05T17:27:16Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "id": "111703825973658307",
@@ -394,5 +375,25 @@
     "time": "2024-01-01T05:00:07.701Z",
     "type": "mastodon-post",
     "images": []
+  },
+  {
+    "scrap_id": "X84FeSf6",
+    "href": "https://us.store.bambulab.com/products/p1s",
+    "description": "Bambu Lab P1S 3D Printer | Bambu Lab US",
+    "time": "2024-01-01T04:53:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yYGsY7e7",
+    "href": "https://www.elegoo.com/products/elegoo-neptune-3-max-fdm-3d-printer-massive-printing-size-of-420x420x500mm",
+    "description": "ELEGOO Neptune 3 Max FDM 3D Printer – ELEGOO Official",
+    "time": "2024-01-01T04:51:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

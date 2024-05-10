@@ -1,25 +1,5 @@
 [
   {
-    "scrap_id": "CbT0fGSN",
-    "href": "http://enja.org/2012/12/08/plotting-the-sensors-in-my-android-phone-with-d3-js-and-three-js/",
-    "description": "plotting the sensors in my Android phone with d3.js and three.js | enj",
-    "time": "2012-12-09T02:46:58Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "d3 dataviz data",
-    "extended": "RT @enjalot: visualizing my phone sensors with d3.js and three.js   of course using #tributary"
-  },
-  {
-    "scrap_id": "2wP4nmkL",
-    "href": "http://tributary.io/inlet/4242043/",
-    "description": "Tributary",
-    "time": "2012-12-09T00:34:52Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "d3 tributary",
-    "extended": "Cheers to @enjalot for writing this, totally gonna steal it for first steps in working with my Leap + D3 "
-  },
-  {
     "scrap_id": "-CXJqoPk",
     "href": "http://dribbble.com/shots/849898-sStory-Menu",
     "description": "Dribbble - sStory Menu by EJ Fox",

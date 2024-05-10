@@ -50,24 +50,6 @@
     "extended": ""
   },
   {
-    "id": 2184668318,
-    "scrap_id": "xPdIwtjC",
-    "href": "https://github.com/room302studio/coachartie/pull/83",
-    "description": "room302studio/coachartie: first draft of todo-related capabilities and db migrations",
-    "time": "2024-03-13T19:04:17Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2182194741,
-    "scrap_id": "3lZV_rf-",
-    "href": "https://github.com/room302studio/coachartie/pull/82",
-    "description": "room302studio/coachartie: Task manager",
-    "time": "2024-03-13T19:04:17Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "2GSPoIH9",
     "href": "https://github.com/alemidev/scope-tui",
     "description": "[no title]",
@@ -84,15 +66,6 @@
     "description": "<p>hes the me to them</p>",
     "time": "2024-03-12T05:34:57.389Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": 2180060007,
-    "scrap_id": "Qb95JXS2",
-    "href": "https://github.com/room302studio/coachartie/issues/77",
-    "description": "room302studio/coachartie: Create github action to re-generate manifest",
-    "time": "2024-03-11T19:36:48Z",
-    "type": "github-issue",
     "images": []
   },
   {
@@ -185,5 +158,15 @@
     "time": "2024-03-10T06:07:35.164Z",
     "type": "mastodon-post",
     "images": []
+  },
+  {
+    "scrap_id": "0M6zmH6r",
+    "href": "https://github.com/tailwindlabs/tailwindcss-container-queries",
+    "description": "tailwindlabs/tailwindcss-container-queries: A plugin for Tailwind CSS v3.2+ that provides utilities for container queries.",
+    "time": "2024-03-10T02:53:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

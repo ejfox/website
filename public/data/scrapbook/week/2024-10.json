@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "0M6zmH6r",
-    "href": "https://github.com/tailwindlabs/tailwindcss-container-queries",
-    "description": "tailwindlabs/tailwindcss-container-queries: A plugin for Tailwind CSS v3.2+ that provides utilities for container queries.",
-    "time": "2024-03-10T02:53:54Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "id": "112067654049668496",
     "scrap_id": "KbzGYijY",
     "href": "https://mastodon.social/@ejfox/112067654049668496",
@@ -46,15 +36,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 769334289,
-    "scrap_id": "v1KojaHv",
-    "href": "https://github.com/arashsheyda/nuxt-neo4j",
-    "description": "Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
-    "time": "2024-03-08T20:42:10Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": "112061851151874517",

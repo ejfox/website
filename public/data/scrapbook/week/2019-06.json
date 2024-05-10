@@ -78,5 +78,35 @@
     "images": [],
     "tags": "",
     "extended": ""
+  },
+  {
+    "scrap_id": "_9kiiuGd",
+    "href": "https://www.hackster.io/middleca/sending-sound-over-the-internet-f097b4",
+    "description": "Sending sound over the internet using photon",
+    "time": "2019-02-03T03:31:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "hacking audio",
+    "extended": "Broadcast audio, record voice commands, build internet walkie-talkies with this simple tutorial!"
+  },
+  {
+    "scrap_id": "6zGD3v-x",
+    "href": "https://www.theverge.com/2018/12/18/18145399/launch-center-pro-nfc-actions-triggers-iphone-update-app-android",
+    "description": "iPhones can now automate tasks using NFC with Launch Center Pro",
+    "time": "2019-02-03T03:20:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "automation ios",
+    "extended": "iPhone users are finally getting a convenient and powerful feature that’s long been available on Android phones: the ability to tap an NFC tag and have their phone automatically perform certain actions, like opening an app or playing music."
+  },
+  {
+    "scrap_id": "J8Jwxp0P",
+    "href": "http://sfpc.io/codesocieties-winter-19/2019/01/18/we-play-programmed.html",
+    "description": "we play programmed",
+    "time": "2019-02-03T00:18:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "art",
+    "extended": "We prioritize certain behaviors curated by social programming, whether by poetry or by survival. Through dissecting Fluct’s latest work ‘everythingmakesmehappy.’, we will discuss the processes used to create performance aimed at exposing and ultimately interrupting the psychology of social programming. With fluid interruption, responsive support and acute presence, we are aiming to disable oppressive structures in order to become the authors of our existence."
   }
 ]

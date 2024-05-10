@@ -1,45 +1,5 @@
 [
   {
-    "scrap_id": "xqagC2DI",
-    "href": "https://www.pollen.style/",
-    "description": "Introducing Pollen - Pollen",
-    "time": "2021-09-05T02:38:01Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
-    "scrap_id": "j2-90UwO",
-    "href": "https://en.wikipedia.org/wiki/Kei_truck",
-    "description": "Kei truck - Wikipedia",
-    "time": "2021-09-05T02:27:12Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
-    "scrap_id": "OoV-PGCH",
-    "href": "https://www.wired.co.uk/article/tourettes-youtube-jan-zimmermann",
-    "description": "They saw a YouTube video. Then they got Tourette’s | WIRED UK",
-    "time": "2021-09-05T02:16:40Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
-    "scrap_id": "qf1QxhxR",
-    "href": "https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/",
-    "description": "Can you make AI fairer than a judge? Play our courtroom algorithm game | MIT Technology Review",
-    "time": "2021-09-05T00:16:46Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "scrap_id": "rzNofPhs",
     "href": "https://github.com/hicetnunc2000/hicetnunc/wiki/How-to-mint-%F0%9F%8C%BF",
     "description": "How to mint 🌿 · hicetnunc2000/hicetnunc Wiki",
@@ -156,6 +116,26 @@
     "href": "https://www.ifixit.com/Guide/OP-1+Key-button+Removal+and+Cleaning+Guide/20381",
     "description": "OP-1 Key/button Removal and Cleaning Guide - iFixit Repair Guide",
     "time": "2021-08-29T17:43:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KAXJvfSg",
+    "href": "https://www.youtube.com/watch?v=cKx8xE8jJZs&t=1126s",
+    "description": "Enter the Kettlebell - Pavel Tsatsouline - YouTube",
+    "time": "2021-08-29T02:58:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "APcyiE0K",
+    "href": "https://www.youtube.com/watch?v=HpXM7HBSJ6Q",
+    "description": "Bulgarian Bag Training – Eric Doyle – Long Beach Kettlebell Club - YouTube",
+    "time": "2021-08-29T02:51:03Z",
     "type": "pinboard",
     "images": [],
     "tags": "",

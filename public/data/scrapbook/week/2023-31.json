@@ -95,5 +95,15 @@
     "time": "2023-07-31T19:53:15.780Z",
     "type": "mastodon-post",
     "images": []
+  },
+  {
+    "scrap_id": "BnCLqZC8",
+    "href": "https://www.washingtonpost.com/nation/2023/07/29/oppenheimer-bomb-downwinders-new-mexico/",
+    "description": "Oppenheimer fanfare ignores N.M. ‘downwinders’ caught in bomb fallout - The Washington Post",
+    "time": "2023-07-30T03:33:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

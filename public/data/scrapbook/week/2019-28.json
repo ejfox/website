@@ -208,5 +208,25 @@
     "images": [],
     "tags": "crypto",
     "extended": "In a synchronous stream cipher, the sender and receiver must be exactly in step for decryption to be successful. If digits are added or removed from the message during transmission, synchronisation is lost. To restore synchronisation, various offsets can be tried systematically to obtain the correct decryption. Another approach is to tag the ciphertext with markers at regular points in the output."
+  },
+  {
+    "scrap_id": "h7gnqkhD",
+    "href": "https://github.com/russellgoldenberg/enter-view",
+    "description": "enter-view",
+    "time": "2019-07-07T03:40:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Dependency-free JavaScript library to detect when element enters into view by Russell Goldenberg"
+  },
+  {
+    "scrap_id": "r7cPvxya",
+    "href": "https://www.electrosmash.com/forum/pedal-pi/202-how-to-start-programming-pedal-pi",
+    "description": "How to Start Programming Pedal-Pi",
+    "time": "2019-07-07T01:59:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "raspberrypi music",
+    "extended": ""
   }
 ]

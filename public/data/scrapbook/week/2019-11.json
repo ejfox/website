@@ -121,5 +121,15 @@
     "images": [],
     "tags": "",
     "extended": "Create fancy lists that use emoji for bullet points.\r\n\r\n"
+  },
+  {
+    "scrap_id": "wI_fAAeU",
+    "href": "https://github.com/release-it/release-it",
+    "description": "release-it/release-it",
+    "time": "2019-03-10T00:39:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "github",
+    "extended": "CLI release tool for Git repos and npm packages. Automate the tedious tasks of software releases. Happily release and publish your Git repositories, npm packages, GitHub & GitLab releases, changelogs, and much more!"
   }
 ]

@@ -30,15 +30,6 @@
     "extended": ""
   },
   {
-    "id": "ad555d7d8fca5cf5f35db1c3e3486a72",
-    "scrap_id": "Mugv61NI",
-    "href": "https://gist.github.com/ejfox/ad555d7d8fca5cf5f35db1c3e3486a72",
-    "description": "A GPT-3 code-davinci-002 written script to scrape the top 40 worst polluters for all available industries",
-    "time": "2022-09-22T16:31:56Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "xd-hY7WY",
     "href": "https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/",
     "description": "Preserve Vital Online Content With Bellingcat's Auto Archiver - bellingcat",

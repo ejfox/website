@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "HbPpWc8K",
-    "href": "http://www.youtube.com/watch?v=y4FfBDLVclQ&feature=youtu.be&a",
-    "description": "\"The Scrapper\" Feat. Deniro Farrar & Felipe - Live From the Streets - YouTube",
-    "time": "2014-10-19T00:56:57Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "I liked a @YouTube video  \"The Scrapper\" Feat. Deniro Farrar & Felipe - Live From the Streets"
-  },
-  {
     "scrap_id": "J46cLdjv",
     "href": "http://www.cjr.org/the_kicker/trolling_readers.php",
     "description": "Stop trolling your readers : Columbia Journalism Review",
@@ -288,5 +278,25 @@
     "images": [],
     "tags": "",
     "extended": "RT @Gothamist: NYC Has Paid Out Nearly Half A Billion Dollars In Police-Related Settlements Since 2009 "
+  },
+  {
+    "scrap_id": "xwMiF6a-",
+    "href": "http://www.reddit.com/r/dataisbeautiful/comments/2iv98y/reading_level_of_presidential_speeches_declines/",
+    "description": "Reading Level of Presidential Speeches Declines Over Time - Flesch-Kincaid readability test; by EJ Fox and Mike Spies : dataisbeautiful",
+    "time": "2014-10-12T03:13:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "RT @DataIsBeautiful: Reading Level of Presidential Speeches Declines Over Time - Flesch-Kincaid readability test; by EJ Fox an...  #dataviz"
+  },
+  {
+    "scrap_id": "DLp6DQjq",
+    "href": "http://instagram.com/p/uCQBxTBmnz/",
+    "description": "Instagram",
+    "time": "2014-10-12T02:15:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "RT @Lukewearechange: Protestors decide to sit and have a moment of silence at the #ferguson police dept #fergusonoctober @… "
   }
 ]

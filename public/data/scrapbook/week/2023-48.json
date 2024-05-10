@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "yReIm7i6",
-    "href": "https://github.com/Xaymar/obs-StreamFX",
-    "description": "Xaymar/obs-StreamFX: StreamFX is a plugin for OBS® Studio which adds many new effects, filters, sources, transitions and encoders! Be it 3D Transform, Blur, complex Masking, or even custom shaders, you'll find it all here.",
-    "time": "2023-12-03T03:29:03Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "id": 25023014,
     "scrap_id": "-C68PiRF",
     "href": "https://www.are.na/block/25023014",
@@ -185,15 +175,6 @@
     "description": "<p>the robot suggesting (successfully) methods to fix himself is a wonderful experience of computing</p>",
     "time": "2023-11-28T22:18:35.010Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": "4eed331a94ea0727bd7c996a2e681ae5",
-    "scrap_id": "O6fImRse",
-    "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
-    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
-    "time": "2023-11-28T21:20:56Z",
-    "type": "github-gist",
     "images": []
   },
   {

@@ -1,15 +1,5 @@
 [
   {
-    "scrap_id": "24N8_S72",
-    "href": "http://teczd.com/2015/09/23/osx-get-system-info-from-command-line/",
-    "description": "Get OS X System Info from the Command Line – teczd",
-    "time": "2019-01-13T04:50:07Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "osx reference cli",
-    "extended": ">sw_vers\nThe sw_vers command will give you the current Mac operating system version and build number.\n\n\n>system_profiler -detailLevel mini > systeminfo.log\nThis will generate a text report of information from System Profiler without any personal or identifying information."
-  },
-  {
     "scrap_id": "247lzdB_",
     "href": "https://github.com/lra/mackup",
     "description": "lra/mackup: Keep your application settings in sync (OS X/Linux)",

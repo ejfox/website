@@ -40,15 +40,6 @@
     "extended": ""
   },
   {
-    "id": 599311541,
-    "scrap_id": "sLV3DOiZ",
-    "href": "https://github.com/natemoo-re/clack",
-    "description": "Effortlessly build beautiful command-line apps",
-    "time": "2023-02-08T21:58:49Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "id": "109830454326750092",
     "scrap_id": "x7VK8pEC",
     "href": "https://mastodon.social/@ejfox/109830454326750092",
@@ -134,6 +125,16 @@
     "href": "https://www.pnas.org/doi/10.1073/pnas.0503610102",
     "description": "Spontaneous evolution of modularity and network motifs | Proceedings of the National Academy of Sciences",
     "time": "2023-02-05T18:02:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "8Z9kaNwZ",
+    "href": "https://neo4j.com/blog/graph-embeddings-ai-learns-solve-problems/",
+    "description": "Graph Embeddings: AI That Learns from Your Data to Solve Problems",
+    "time": "2023-02-05T02:17:20Z",
     "type": "pinboard",
     "images": [],
     "tags": "",

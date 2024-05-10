@@ -1,35 +1,5 @@
 [
   {
-    "scrap_id": "pioz4Bf2",
-    "href": "https://github.com/vercel/ncc",
-    "description": "vercel/ncc: Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.",
-    "time": "2022-07-03T03:58:44Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "nodejs cli",
-    "extended": ""
-  },
-  {
-    "scrap_id": "xield4iq",
-    "href": "https://github.com/faker-js/faker",
-    "description": "faker-js/faker: Generate massive amounts of fake data in the browser and node.js",
-    "time": "2022-07-03T03:06:29Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "data tool",
-    "extended": ""
-  },
-  {
-    "scrap_id": "YMmnkRSz",
-    "href": "https://flexbox.malven.co/",
-    "description": "FLEX: A simple visual cheatsheet for flexbox",
-    "time": "2022-07-03T02:40:33Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "css design cheatsheet",
-    "extended": ""
-  },
-  {
     "scrap_id": "Qj6DNSLx",
     "href": "https://www.youtube.com/watch?v=fAHkJ_Dhr50",
     "description": "Network of The Witcher | Relationship Extraction & Network Analysis with Spacy & NetworkX - YouTube",
@@ -68,24 +38,6 @@
     "images": [],
     "tags": "osx utility",
     "extended": "The quicker switcher launcher for macOS"
-  },
-  {
-    "id": "60caff5e4a3a5197374c8fe7c6221b55",
-    "scrap_id": "ImO4_uID",
-    "href": "https://gist.github.com/ejfox/60caff5e4a3a5197374c8fe7c6221b55",
-    "description": "Use OpenAI to add tags to a JSON file of tweets",
-    "time": "2022-06-27T18:47:20Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
-    "id": "98ecfa51d0e91d86e23891f67bd8dc1a",
-    "scrap_id": "lFLgzomv",
-    "href": "https://gist.github.com/ejfox/98ecfa51d0e91d86e23891f67bd8dc1a",
-    "description": "",
-    "time": "2022-06-27T18:46:10Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "6VTQX3Pk",

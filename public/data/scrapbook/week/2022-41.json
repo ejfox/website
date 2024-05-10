@@ -20,15 +20,6 @@
     "extended": ""
   },
   {
-    "id": 546206616,
-    "scrap_id": "Dp9oyIzk",
-    "href": "https://github.com/chroma-core/chroma",
-    "description": "the AI-native open-source embedding database",
-    "time": "2022-10-05T17:58:44Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "szkvEw43",
     "href": "https://docs.google.com/spreadsheets/d/1Qz4b75MWojAT6L1ATNI2OaySMoKilMij8re_LxCXz5s/edit#gid=340419034",
     "description": "Soap Spreadsheet - Google Sheets",
@@ -126,6 +117,16 @@
     "type": "pinboard",
     "images": [],
     "tags": "politics",
+    "extended": ""
+  },
+  {
+    "scrap_id": "UElBuMqr",
+    "href": "https://fonts.google.com/specimen/Big+Shoulders+Display?category=Display&vfonly=true",
+    "description": "Big Shoulders Display - Google Fonts",
+    "time": "2022-10-02T01:22:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "typography",
     "extended": ""
   }
 ]

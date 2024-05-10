@@ -20,60 +20,6 @@
     "extended": ""
   },
   {
-    "id": 2203275845,
-    "scrap_id": "hxUfhPg_",
-    "href": "https://github.com/room302studio/coachartie/issues/109",
-    "description": "room302studio/coachartie: Make chat completion better and more configurable",
-    "time": "2024-03-22T20:38:45Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2187781874,
-    "scrap_id": "wOwVBg2V",
-    "href": "https://github.com/room302studio/coachartie/pull/86",
-    "description": "room302studio/coachartie: Claude chat completions",
-    "time": "2024-03-22T20:17:03Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2203153283,
-    "scrap_id": "oYRXkmGK",
-    "href": "https://github.com/room302studio/webhook-dev/issues/2",
-    "description": "room302studio/webhook-dev: Add button to easily copy entire webhook content to clipboard",
-    "time": "2024-03-22T19:13:05Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2203133877,
-    "scrap_id": "cG6xM0qg",
-    "href": "https://github.com/room302studio/coachartie/issues/108",
-    "description": "room302studio/coachartie: Increase size of Google Cloud VM instance",
-    "time": "2024-03-22T19:00:37Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2202739982,
-    "scrap_id": "rf2LZiZx",
-    "href": "https://github.com/room302studio/coachartie/issues/99",
-    "description": "room302studio/coachartie: Add more \"testing\" to capability-player",
-    "time": "2024-03-22T15:16:39Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2202737320,
-    "scrap_id": "qyxw4sy1",
-    "href": "https://github.com/room302studio/coachartie/issues/98",
-    "description": "room302studio/coachartie: Handle capabilities in XML format",
-    "time": "2024-03-22T15:15:15Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
     "scrap_id": "GxXYAukw",
     "href": "https://www.patreon.com/spiritedman",
     "description": "Van Neistat | creating The Spirited Man | Patreon",
@@ -123,24 +69,6 @@
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/131/970/289/364/410/small/825ec9f4fde19c57.png"
     ]
-  },
-  {
-    "id": 2199097853,
-    "scrap_id": "WYXlPJXy",
-    "href": "https://github.com/room302studio/coachartie/pull/96",
-    "description": "room302studio/coachartie: feat: disable local logging, add papertrail logging endpoint",
-    "time": "2024-03-21T04:36:06Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2199042350,
-    "scrap_id": "a50_3qWl",
-    "href": "https://github.com/room302studio/coachartie/pull/95",
-    "description": "room302studio/coachartie: Logging-refactor",
-    "time": "2024-03-21T04:13:04Z",
-    "type": "github-pr",
-    "images": []
   },
   {
     "scrap_id": "qQvQ62Uk",
@@ -194,15 +122,6 @@
     "images": []
   },
   {
-    "id": 2187164031,
-    "scrap_id": "vME1-gvI",
-    "href": "https://github.com/room302studio/coachartie/pull/85",
-    "description": "room302studio/coachartie: feat: prompts in supabase",
-    "time": "2024-03-19T06:40:30Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "4wOtzU2H",
     "href": "https://civileats.com/2022/10/20/will-a-buffet-funded-co-op-in-the-hudson-valley-boost-food-access-or-gentrification/",
     "description": "Will a Buffett-Funded Co-op in the Hudson Valley Boost Food Access or Lead to Gentrification? | Civil Eats",
@@ -221,14 +140,5 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 2184769869,
-    "scrap_id": "SZdJFLS6",
-    "href": "https://github.com/room302studio/coachartie/pull/84",
-    "description": "room302studio/coachartie: feat: pgcron; schedule and list pgcron jobs",
-    "time": "2024-03-18T02:01:57Z",
-    "type": "github-pr",
-    "images": []
   }
 ]

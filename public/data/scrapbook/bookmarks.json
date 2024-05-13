@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://aeon.co/essays/the-tragedy-of-the-commons-is-a-false-and-dangerous-myth",
+    "description": "The tragedy of the commons is a false and dangerous myth | Aeon Essays",
+    "extended": "",
+    "meta": "ed78664edfa54129c2689c84eced106d",
+    "hash": "c752ee68a853124d744299d6865e3568",
+    "time": "2024-05-13T02:23:38Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://arxiv.org/abs/2405.05417",
     "description": "Fishing for Magikarp: Automatically Detecting Under-trained Tokens in Large Language Models",
     "extended": "",

@@ -228,5 +228,25 @@
     "images": [],
     "tags": "",
     "extended": "This week, the startup incubator Y Combinator put up a job listing for a researcher to study basic income, a policy where the government would, as described by Y Combinator boss Sam Altman, give all citizens “enough money to live on with no strings attached."
+  },
+  {
+    "scrap_id": "Y7PyUA8E",
+    "href": "https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b#.cq85ozoc3",
+    "description": "How do you learn d3.js? — Medium",
+    "time": "2016-01-31T03:21:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "I’ve been thinking quite a bit about how people learn d3.js, I don’t mean technical mastery of a useful library, I mean learning the craft enabled by a new tool. Creating data visualizations with d3."
+  },
+  {
+    "scrap_id": "94Tsrx3N",
+    "href": "http://www.nytimes.com/2016/01/23/nyregion/success-academy-founder-defends-schools-against-charges-of-bias.html?_r=1",
+    "description": "www.nytimes.com",
+    "time": "2016-01-31T03:21:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Eva S. Moskowitz defended her Success Academy charter schools on Friday, two days after a group of parents filed a federal complaint accusing the network of discriminating against students with disabilities."
   }
 ]

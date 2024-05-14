@@ -1,25 +1,5 @@
 [
   {
-    "scrap_id": "R5SqT6rE",
-    "href": "https://www.youtube.com/watch?v=NPrqIgVpYrk",
-    "description": "CALL OF DUTY: MODERN WARFARE 2 - Main Theme Music (Official Soundtrack) - YouTube",
-    "time": "2022-12-04T00:42:02Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
-    "scrap_id": "HNM9l-gr",
-    "href": "https://www.youtube.com/watch?v=a9P_j1gMXBo",
-    "description": "Popular Meme Sound Effects (For Video Editing) - YouTube",
-    "time": "2022-12-04T00:41:57Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "scrap_id": "Jfzg68A0",
     "href": "https://www.trippingly.net/lsd-studies/2018/5/22/the-mystical-experience-questionaire-30-questions",
     "description": "The Mystical Experience Questionnaire (30 Questions) — Trippingly",
@@ -376,15 +356,6 @@
     "description": "<p>Going live now, doing some livecoding / dataviz on global climate emissions data: <a href=\"https://youtu.be/gWRVV-4mxHE\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">youtu.be/gWRVV-4mxHE</span><span class=\"invisible\"></span></a></p>",
     "time": "2022-11-28T15:31:07.798Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": 571613891,
-    "scrap_id": "bATHxsVm",
-    "href": "https://github.com/roboflow/supervision",
-    "description": "We write your reusable computer vision tools. 💜",
-    "time": "2022-11-28T14:08:44Z",
-    "type": "github-star",
     "images": []
   },
   {

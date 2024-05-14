@@ -1,36 +1,5 @@
 [
   {
-    "scrap_id": "IECz1H3-",
-    "href": "https://www.lesswrong.com/posts/Jgs7LQwmvErxR9BCC/current-themes-in-mechanistic-interpretability-research",
-    "description": "Current themes in mechanistic interpretability research - LessWrong",
-    "time": "2023-02-19T04:42:05Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
-    "scrap_id": "tVxW94Fi",
-    "href": "https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned?commentId=AAC8jKeDp6xqsZK2K",
-    "description": "Bing Chat is blatantly, aggressively misaligned - LessWrong",
-    "time": "2023-02-19T04:15:44Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "machinelearning",
-    "extended": "So, Sydney is based on as little from OA as possible, and a mad rush to ship a powerful GPT-4 model out to Bing users in a chatbot role. What if Sydney wasn't trained on OA RLHF at all, because OA wouldn't share the crown jewels of years of user feedback and its very expensive hired freelance programmers & whatnot generating data to train on? What if the pretraining vaguely alluded to, which somehow left in embarrassingly ineradicable traces of 'Sydney' & a specific 2022 date, which couldn't simply be edited out of the prompt (implying that Sydney is not using solely prompt engineering), was in fact just regular ol' finetune training?"
-  },
-  {
-    "id": 20452223,
-    "scrap_id": "AHtxCKjI",
-    "href": "https://www.are.na/block/20452223",
-    "description": "",
-    "time": "2023-02-19T00:53:32.244Z",
-    "type": "arena",
-    "images": [
-      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDQ1MjIyMy9vcmlnaW5hbF9lZTk2YmE0NmZkNjVlOTJhYjc0YmFmNzczNzYxMDM0Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
-    ]
-  },
-  {
     "scrap_id": "Ay8z2Jil",
     "href": "https://medium.com/@yu-joshua/building-an-academic-knowledge-graph-with-openai-graph-database-part-3-bc86b22617a2",
     "description": "Building An Academic Knowledge Graph with OpenAI & Graph Database — Part 3 | by Fanghua (Joshua) Yu | Feb, 2023 | Medium",
@@ -121,15 +90,6 @@
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDM3NjU1My9vcmlnaW5hbF8zZjk2NjMzNjc0OTM4ZDg3ZDU2NDM0NDA2MTM5MjNmNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
     ]
-  },
-  {
-    "id": 601425931,
-    "scrap_id": "SKlYEecS",
-    "href": "https://github.com/ipno-llead/networks",
-    "description": null,
-    "time": "2023-02-14T03:08:57Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "d7c7Y2vj",

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "112417755695313342",
+    "scrap_id": "VaO_t-6t",
+    "href": "https://mastodon.social/@ejfox/112417755695313342",
+    "description": "<p>sending the homies photos of my cornucopia of fruits</p>",
+    "time": "2024-05-10T16:33:41.037Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112413003111942012",
+    "scrap_id": "oyOksMm4",
+    "href": "https://mastodon.social/@ejfox/112413003111942012",
+    "description": "<p>turns out `npx npm-check-updates -u` is what I thought `yarn upgrade --force` did</p>",
+    "time": "2024-05-09T20:25:02.389Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "9KxypaYY",
+    "href": "https://madebyknock.com/products/aergrind",
+    "description": "Aergrind Compact Coffee Grinder",
+    "time": "2024-05-09T15:33:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": "The compact coffee grinder that fits inside an Aeropress. 38mm titanium nitride burrs and walnut wood crank arm knob. Hand built in the UK."
+  },
+  {
+    "id": "112407750688911259",
+    "scrap_id": "SDmhxTem",
+    "href": "https://mastodon.social/@ejfox/112407750688911259",
+    "description": "<p>At the good taco spot where there is never even an attempt to speak english</p>",
+    "time": "2024-05-08T22:09:16.753Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "M6nZJYsF",
+    "href": "https://www.noemamag.com/we-need-to-rewild-the-internet/",
+    "description": "We Need To Rewild The Internet",
+    "time": "2024-05-08T19:34:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112406177621346619",
+    "scrap_id": "hG9xyZET",
+    "href": "https://mastodon.social/@ejfox/112406177621346619",
+    "description": "<p>When will AI solve computer generated strings / brass that sound realistic and don’t require 100GB of samples– a real problem</p>",
+    "time": "2024-05-08T15:29:13.647Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "sxXE0KNc",
+    "href": "https://alecmuffett.com/article/109753",
+    "description": "GitHub Copilot is not infringing your copyright | Felix Reda | …essential debunking of “AI-generated content is derivative work” and other myths",
+    "time": "2024-05-08T06:14:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "On Mastodon I’m encountering people dismissing creative commons and demanding new open source licences which are… open except to people or organisations they don’t like. For lack of thi…"
+  },
+  {
+    "id": "112403398450445248",
+    "scrap_id": "W56ofFxZ",
+    "href": "https://mastodon.social/@ejfox/112403398450445248",
+    "description": "<p>how many tokens do you lift bro</p>",
+    "time": "2024-05-08T03:42:26.865Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/403/398/211/230/300/small/88be21779dbfcebf.png"
+    ]
+  },
+  {
+    "scrap_id": "QyHBb996",
+    "href": "https://www.wired.com/story/ballot-verifier-idaho-new-tech-election-deniers/",
+    "description": "The Answer to Election Deniers Is in an Idaho County Website",
+    "time": "2024-05-07T13:33:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Ada County has rolled out a first-of-its-kind transparency tool that even election conspiracy theorists can get behind."
+  },
+  {
+    "id": "112397768283430456",
+    "scrap_id": "oLsmFE7Z",
+    "href": "https://mastodon.social/@ejfox/112397768283430456",
+    "description": "<p>me and the robot really building a rapport</p>",
+    "time": "2024-05-07T03:50:37.334Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/397/768/010/805/653/small/87a28d53eaebd0cf.png"
+    ]
+  },
+  {
+    "scrap_id": "V647RTPn",
+    "href": "https://www.revzilla.com/motorcycle/arai-xd-4-helmet?gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjufU_gZCiuoRYjEYFeZ7CAvncYTJkxBVFLB4abzqVh1O99GWJsxDCQaAloqEALw_wcB",
+    "description": "Arai XD-4 Helmet - RevZilla",
+    "time": "2024-05-07T03:30:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NXN33auh",
+    "href": "https://pair-code.github.io/understanding-umap/",
+    "description": "Understanding UMAP",
+    "time": "2024-05-07T01:52:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "35cdAoyy",
+    "href": "https://mosaicartsupply.com/shop/stained-glass-y/?attribute_pa_color=Plum-Princess-Y3000-SPi&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjsy8jEjrLkvQIv1aTe8_JbETr3xmAt_Hn5qHrDwbBlt3nM0kx39tFcaAtFeEALw_wcB",
+    "description": "Stained Glass for Mosaics - 6-inch Square Sheets for Mosaic Art",
+    "time": "2024-05-06T18:05:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5Ks38cjS",
+    "href": "https://www.franklinartglass.com/product/oceanside-deep-aqua-blue-waterglass-533-3w-f/",
+    "description": "Oceanside Deep Aqua Blue Waterglass (533-3W-F) - Franklin Art Glass",
+    "time": "2024-05-06T18:03:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vGswT0-a",
+    "href": "https://www.franklinartglass.com/product/oceanside-iridescent-icicle-clear-transparent-smooth-glass-100s-ice-f-ir/",
+    "description": "Oceanside Iridescent Icicle Clear Transparent Smooth Glass (100S-ICE-F-IR) - Franklin Art Glass",
+    "time": "2024-05-06T18:02:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rcL7V2H5",
+    "href": "https://www.theceramicshop.com/product/22176/sio-2-black-ice-porcelain/",
+    "description": "Sio-2 BLACK ICE Porcelain - The Ceramic Shop",
+    "time": "2024-05-06T17:09:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oDdZ-WuP",
+    "href": "https://github.com/ggerganov/whisper.cpp/blob/master/README.md",
+    "description": "whisper.cpp/README.md at master · ggerganov/whisper.cpp",
+    "time": "2024-05-06T01:11:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "T5IHzxd4",
+    "href": "https://business.yougov.com/content/49309-drake-vs-kendrick-lamar-who-do-us-hip-hop-fans-think-is-winning-the-feud",
+    "description": "Drake vs. Kendrick Lamar: Who do US hip-hop fans think is winning the feud?",
+    "time": "2024-05-06T00:15:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "TNXFZrb4",
+    "href": "https://www.daginge.com/blog/running-whisper-on-an-m1-mac-to-transcribe-audio-data-locally",
+    "description": "Running Whisper on an M1 Max to transcribe audio data — Dag-Inge Aas",
+    "time": "2024-05-05T23:42:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "If you ever find yourself having to transcribe hours upon hours of audio data, for example for your thesis or user research, Whisper might be of help. In this blog post I show you how to run speech recognition on your M1 Mac"
+  },
+  {
+    "scrap_id": "8Cbg9Lax",
+    "href": "https://maputnik.github.io/",
+    "description": "Maputnik",
+    "time": "2024-05-05T19:21:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

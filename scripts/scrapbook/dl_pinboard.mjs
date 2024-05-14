@@ -46,19 +46,25 @@ const processBookmarks = async () => {
   try {
     const bookmarks = await fetchBookmarks()
     const dirPath = path.join(process.cwd(), 'public', 'data', 'scrapbook')
-    await fs.mkdir(dirPath, { recursive: true }) // Ensure directory exists
+    await fs.mkdir(dirPath, { recursive: true }, () => {}) // Ensure directory exists
     const filePath = path.join(dirPath, 'bookmarks.json')
 
     let existingBookmarks = []
     try {
-      existingBookmarks = JSON.parse(await fs.readFile(filePath, 'utf8'))
+      existingBookmarks = JSON.parse(
+        await fs.readFile(filePath, 'utf8', () => {}),
+      )
     } catch (error) {
       console.error('Failed to read existing bookmarks, assuming none.', error)
-      await fs.writeFile(filePath, '[]') // Ensure the file exists
+      await fs.writeFile(filePath, '[]', () => {}) // Ensure the file exists
     }
 
     const mergedBookmarks = [...existingBookmarks, ...bookmarks]
-    await fs.writeFile(filePath, JSON.stringify(mergedBookmarks, null, 2))
+    await fs.writeFile(
+      filePath,
+      JSON.stringify(mergedBookmarks, null, 2),
+      () => {},
+    )
     spinner.succeed('Bookmarks processed and saved.')
     return mergedBookmarks
   } catch (error) {

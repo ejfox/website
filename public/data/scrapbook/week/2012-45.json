@@ -1,25 +1,5 @@
 [
   {
-    "scrap_id": "KxqKYIMB",
-    "href": "http://lea.verou.me/css3patterns/",
-    "description": "CSS3 Patterns Gallery",
-    "time": "2012-11-11T04:27:33Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "design",
-    "extended": "Like a SubtlePatterns for CSS3"
-  },
-  {
-    "scrap_id": "7XlRkghi",
-    "href": "http://www.buzzfeed.com/zekejmiller/anonymous-may-have-hacked-petraeus-mistress",
-    "description": "Anonymous May Have Hacked Petraeus Mistress",
-    "time": "2012-11-11T02:59:40Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "RT @LeidermanDevine: Anonymous May Have Hacked Petraeus Mistress "
-  },
-  {
     "scrap_id": "2_c4oEJP",
     "href": "http://howto.cnet.com/8301-11310_39-20082711-285/how-to-use-preview-in-os-x-lion-to-digitally-sign-documents/",
     "description": "How to use Preview in OS X Lion to digitally sign documents | How To - CNET",
@@ -338,5 +318,25 @@
     "images": [],
     "tags": "dataviz d3 politics",
     "extended": "RT @ffunction: @mbostock explains how he created the fantastic NYT's visual election outcome explorer using D3.js "
+  },
+  {
+    "scrap_id": "3-8KGHku",
+    "href": "http://newsfeed.time.com/2012/11/02/cory-booker-cements-his-reputation-as-newarks-super-mayor/#ixzz2BDrVgvwP",
+    "description": "Cory Booker Cements His Reputation as Newark ‘Super Mayor,’ Lets Sandy Victims Crash at His House | TIME.com",
+    "time": "2012-11-04T03:53:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "RT @AdamInOakland: #TIME @CoryBooker Cements Rep as Newark ‘Super Mayor,’ Lets Sandy Victims Crash at His House \n ht ..."
+  },
+  {
+    "scrap_id": "FxPNgZlg",
+    "href": "http://www.snopes.com/politics/medical/microchip.asp",
+    "description": "snopes.com: Health Care Reform Legislation Requires Microchip Implantation?",
+    "time": "2012-11-04T03:43:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "resource politics",
+    "extended": ""
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "scrap_id": "cU0plgWR",
-    "href": "http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?_r=2&",
-    "description": "303 See Other",
-    "time": "2013-03-31T00:49:33Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "RT @bycoffe: @albertocairo  d3.selectAll(\".g-overlay path\").style({stroke: \"#000\"})"
-  },
-  {
-    "scrap_id": "Yj5CyafX",
-    "href": "https://twitter.com/bycoffe/status/318143082484887553/photo/1",
-    "description": "Twitter / bycoffe: Nice Voronoi http://t.co/jLG2ECBWl0",
-    "time": "2013-03-31T00:49:28Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": "RT @bycoffe: Nice Voronoi "
-  },
-  {
     "scrap_id": "IUjxnWqg",
     "href": "http://seeingdataclearly.tumblr.com/post/46696571674#_=_",
     "description": "Seeing Data Clearly",

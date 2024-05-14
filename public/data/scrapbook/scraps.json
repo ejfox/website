@@ -1,5 +1,359 @@
 [
   {
+    "scrap_id": "AdCESUVc",
+    "href": "https://twitter.com/netcapgirl/status/1789999155458248809",
+    "description": "sophie on X: \"x dot com is a commit history of your thoughts\" / X",
+    "time": "2024-05-14T00:12:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "qmruQq3L",
+    "href": "https://aeon.co/essays/the-tragedy-of-the-commons-is-a-false-and-dangerous-myth",
+    "description": "The tragedy of the commons is a false and dangerous myth | Aeon Essays",
+    "time": "2024-05-13T02:23:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "eNf7ecj8",
+    "href": "https://arxiv.org/abs/2405.05417",
+    "description": "Fishing for Magikarp: Automatically Detecting Under-trained Tokens in Large Language Models",
+    "time": "2024-05-12T14:54:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0yfXMcNu",
+    "href": "https://twitter.com/mfsgottenshook/status/1789451716485648765",
+    "description": "Luis.Documents🧢 (@mfsgottenshook) on X",
+    "time": "2024-05-12T03:42:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112417755695313342",
+    "scrap_id": "VaO_t-6t",
+    "href": "https://mastodon.social/@ejfox/112417755695313342",
+    "description": "<p>sending the homies photos of my cornucopia of fruits</p>",
+    "time": "2024-05-10T16:33:41.037Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112413003111942012",
+    "scrap_id": "oyOksMm4",
+    "href": "https://mastodon.social/@ejfox/112413003111942012",
+    "description": "<p>turns out `npx npm-check-updates -u` is what I thought `yarn upgrade --force` did</p>",
+    "time": "2024-05-09T20:25:02.389Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "9KxypaYY",
+    "href": "https://madebyknock.com/products/aergrind",
+    "description": "Aergrind Compact Coffee Grinder",
+    "time": "2024-05-09T15:33:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": "The compact coffee grinder that fits inside an Aeropress. 38mm titanium nitride burrs and walnut wood crank arm knob. Hand built in the UK."
+  },
+  {
+    "id": "112407750688911259",
+    "scrap_id": "SDmhxTem",
+    "href": "https://mastodon.social/@ejfox/112407750688911259",
+    "description": "<p>At the good taco spot where there is never even an attempt to speak english</p>",
+    "time": "2024-05-08T22:09:16.753Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "M6nZJYsF",
+    "href": "https://www.noemamag.com/we-need-to-rewild-the-internet/",
+    "description": "We Need To Rewild The Internet",
+    "time": "2024-05-08T19:34:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112406177621346619",
+    "scrap_id": "hG9xyZET",
+    "href": "https://mastodon.social/@ejfox/112406177621346619",
+    "description": "<p>When will AI solve computer generated strings / brass that sound realistic and don’t require 100GB of samples– a real problem</p>",
+    "time": "2024-05-08T15:29:13.647Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "sxXE0KNc",
+    "href": "https://alecmuffett.com/article/109753",
+    "description": "GitHub Copilot is not infringing your copyright | Felix Reda | …essential debunking of “AI-generated content is derivative work” and other myths",
+    "time": "2024-05-08T06:14:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "On Mastodon I’m encountering people dismissing creative commons and demanding new open source licences which are… open except to people or organisations they don’t like. For lack of thi…"
+  },
+  {
+    "id": "112403398450445248",
+    "scrap_id": "W56ofFxZ",
+    "href": "https://mastodon.social/@ejfox/112403398450445248",
+    "description": "<p>how many tokens do you lift bro</p>",
+    "time": "2024-05-08T03:42:26.865Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/403/398/211/230/300/small/88be21779dbfcebf.png"
+    ]
+  },
+  {
+    "scrap_id": "QyHBb996",
+    "href": "https://www.wired.com/story/ballot-verifier-idaho-new-tech-election-deniers/",
+    "description": "The Answer to Election Deniers Is in an Idaho County Website",
+    "time": "2024-05-07T13:33:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Ada County has rolled out a first-of-its-kind transparency tool that even election conspiracy theorists can get behind."
+  },
+  {
+    "id": "112397768283430456",
+    "scrap_id": "oLsmFE7Z",
+    "href": "https://mastodon.social/@ejfox/112397768283430456",
+    "description": "<p>me and the robot really building a rapport</p>",
+    "time": "2024-05-07T03:50:37.334Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/397/768/010/805/653/small/87a28d53eaebd0cf.png"
+    ]
+  },
+  {
+    "scrap_id": "V647RTPn",
+    "href": "https://www.revzilla.com/motorcycle/arai-xd-4-helmet?gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjufU_gZCiuoRYjEYFeZ7CAvncYTJkxBVFLB4abzqVh1O99GWJsxDCQaAloqEALw_wcB",
+    "description": "Arai XD-4 Helmet - RevZilla",
+    "time": "2024-05-07T03:30:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "NXN33auh",
+    "href": "https://pair-code.github.io/understanding-umap/",
+    "description": "Understanding UMAP",
+    "time": "2024-05-07T01:52:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "35cdAoyy",
+    "href": "https://mosaicartsupply.com/shop/stained-glass-y/?attribute_pa_color=Plum-Princess-Y3000-SPi&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjsy8jEjrLkvQIv1aTe8_JbETr3xmAt_Hn5qHrDwbBlt3nM0kx39tFcaAtFeEALw_wcB",
+    "description": "Stained Glass for Mosaics - 6-inch Square Sheets for Mosaic Art",
+    "time": "2024-05-06T18:05:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "5Ks38cjS",
+    "href": "https://www.franklinartglass.com/product/oceanside-deep-aqua-blue-waterglass-533-3w-f/",
+    "description": "Oceanside Deep Aqua Blue Waterglass (533-3W-F) - Franklin Art Glass",
+    "time": "2024-05-06T18:03:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "vGswT0-a",
+    "href": "https://www.franklinartglass.com/product/oceanside-iridescent-icicle-clear-transparent-smooth-glass-100s-ice-f-ir/",
+    "description": "Oceanside Iridescent Icicle Clear Transparent Smooth Glass (100S-ICE-F-IR) - Franklin Art Glass",
+    "time": "2024-05-06T18:02:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rcL7V2H5",
+    "href": "https://www.theceramicshop.com/product/22176/sio-2-black-ice-porcelain/",
+    "description": "Sio-2 BLACK ICE Porcelain - The Ceramic Shop",
+    "time": "2024-05-06T17:09:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "oDdZ-WuP",
+    "href": "https://github.com/ggerganov/whisper.cpp/blob/master/README.md",
+    "description": "whisper.cpp/README.md at master · ggerganov/whisper.cpp",
+    "time": "2024-05-06T01:11:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "T5IHzxd4",
+    "href": "https://business.yougov.com/content/49309-drake-vs-kendrick-lamar-who-do-us-hip-hop-fans-think-is-winning-the-feud",
+    "description": "Drake vs. Kendrick Lamar: Who do US hip-hop fans think is winning the feud?",
+    "time": "2024-05-06T00:15:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "TNXFZrb4",
+    "href": "https://www.daginge.com/blog/running-whisper-on-an-m1-mac-to-transcribe-audio-data-locally",
+    "description": "Running Whisper on an M1 Max to transcribe audio data — Dag-Inge Aas",
+    "time": "2024-05-05T23:42:31Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "If you ever find yourself having to transcribe hours upon hours of audio data, for example for your thesis or user research, Whisper might be of help. In this blog post I show you how to run speech recognition on your M1 Mac"
+  },
+  {
+    "scrap_id": "8Cbg9Lax",
+    "href": "https://maputnik.github.io/",
+    "description": "Maputnik",
+    "time": "2024-05-05T19:21:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "E-7ce99M",
+    "href": "https://github.com/maplibre/font-maker",
+    "description": "maplibre/font-maker: Web app to convert font files into fontstacks for MapLibre GL",
+    "time": "2024-05-03T01:44:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "kJILK8CM",
+    "href": "https://studioaaa.com/product-category/glitch/",
+    "description": "[no title]",
+    "time": "2024-05-02T20:56:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "aadYazme",
+    "href": "https://palladiumboots.com/products/77356-116-m",
+    "description": "PAMPA HI HTG SUPPLY",
+    "time": "2024-05-02T20:35:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!tobuy",
+    "extended": ""
+  },
+  {
+    "scrap_id": "IkkYCcos",
+    "href": "https://www.animatedknots.com/arbor-knot",
+    "description": "Arbor Knot",
+    "time": "2024-05-01T19:31:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The Arbor Knot is used to attach the fishing line to the \"Arbor\" or \"Spool Center\" and is a simple, easily learned and effective fishing knot."
+  },
+  {
+    "scrap_id": "9_Kc7W5L",
+    "href": "https://www.psychologytoday.com/intl/blog/the-digital-self/202404/large-language-models-and-the-paradox-of-the-unsayable",
+    "description": "Large Language Models and the Paradox of the Unsayable",
+    "time": "2024-05-01T13:30:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Are LLMs pushing the bounds of language beyond the inconceivable?"
+  },
+  {
+    "scrap_id": "mdKxtDkk",
+    "href": "https://www.cnn.com/2024/04/27/us/campus-protests-palestine-outside-agitator-cec/index.html",
+    "description": "The ‘outside agitator’ narrative has a long history | CNN",
+    "time": "2024-05-01T01:09:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112361074460779322",
+    "scrap_id": "XbIP0Xwe",
+    "href": "https://mastodon.social/@ejfox/112361074460779322",
+    "description": "<p>in Vue, the correct solution is almost always less code - in React, the correct solution is almost always *more* code</p>",
+    "time": "2024-04-30T16:18:54.034Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "MDD5UU98",
+    "href": "https://github.com/marketplace/actions/discord-webhook-action",
+    "description": "Discord Webhook Action · Actions · GitHub Marketplace",
+    "time": "2024-04-30T14:53:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112355938703409018",
+    "scrap_id": "JmvH2jZL",
+    "href": "https://mastodon.social/@ejfox/112355938703409018",
+    "description": "<p>Talking to the bookkeepers is unpleasant, like talking to the dentist, they are like “dude you are profoundly stupid” and I am like yes, I know, thats why I came to you, stop bullying me</p>",
+    "time": "2024-04-29T18:32:48.595Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "8el-JWko",
+    "href": "https://inthesetimes.com/article/taxes-pentagon-military-boeing-lockheed-martin",
+    "description": "Last Year, $1,748 of Your Taxes Went to Corporate Pentagon Contractors",
+    "time": "2024-04-29T17:00:11Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112348525435820997",
+    "scrap_id": "QadIG7h-",
+    "href": "https://mastodon.social/@ejfox/112348525435820997",
+    "description": "<p>“You motherfuckers seeing this shit?” she tweets loudly to the neighborhood</p>",
+    "time": "2024-04-28T11:07:31.104Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112348522539976923",
+    "scrap_id": "uQWXDd6v",
+    "href": "https://mastodon.social/@ejfox/112348522539976923",
+    "description": "<p>Each morning I rise and watch the blue jay beat the shit out of the squirrel trying to steal the eggs out of its nest</p>",
+    "time": "2024-04-28T11:06:46.924Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "VR1JNLF_",
     "href": "https://bittmanproject.com/recipe/no-knead-bread/",
     "description": "No-Knead Bread | The Bittman Project",
@@ -81,24 +435,6 @@
     "extended": ""
   },
   {
-    "id": "e5c1a08c9c2950ab94431e130c49aa18",
-    "scrap_id": "-iF38wvJ",
-    "href": "https://gist.github.com/ejfox/e5c1a08c9c2950ab94431e130c49aa18",
-    "description": "Folder action for screenshots folder to automatically upload to Cloudinary",
-    "time": "2024-04-21T23:40:36Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
-    "id": 789480255,
-    "scrap_id": "Q5ACn6Cx",
-    "href": "https://github.com/mishushakov/llm-scraper",
-    "description": "Turn any webpage into structured data using LLMs",
-    "time": "2024-04-20T17:06:57Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "VKjA-62r",
     "href": "https://reactionary.international/cases/immolations-extraterrestrials-and-anti-communism-the-falun-gong/en/",
     "description": "\"Become Regular Media\"",
@@ -139,24 +475,6 @@
     "extended": ""
   },
   {
-    "id": "e97f19d4232ef839dddc93bc3ae87fe8",
-    "scrap_id": "ZRUaB4gV",
-    "href": "https://gist.github.com/ejfox/e97f19d4232ef839dddc93bc3ae87fe8",
-    "description": "Usage: `./files-to-md.sh *`",
-    "time": "2024-04-17T18:05:14Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
-    "id": 2244622003,
-    "scrap_id": "YOwl9SGc",
-    "href": "https://github.com/ejfox/website/pull/75",
-    "description": "ejfox/website: build: node 18->20, npm upgrade",
-    "time": "2024-04-15T21:07:07Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "8ifNSjcq",
     "href": "https://twitter.com/PubliColaNews/status/1779197442531213757",
     "description": "PubliColaNews (@PubliColaNews) on X",
@@ -187,15 +505,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 2241713839,
-    "scrap_id": "MvYlsufL",
-    "href": "https://github.com/ejfox/website/pull/74",
-    "description": "ejfox/website: feat: add meta download script for scrapbook",
-    "time": "2024-04-13T19:37:36Z",
-    "type": "github-pr",
-    "images": []
   },
   {
     "scrap_id": "zUP58Xd6",
@@ -829,33 +1138,6 @@
     "extended": ""
   },
   {
-    "id": 2214245667,
-    "scrap_id": "XAtIi7Ge",
-    "href": "https://github.com/room302studio/coachartie/pull/135",
-    "description": "room302studio/coachartie: feat(remember): add function to remember robot responses",
-    "time": "2024-03-28T22:15:00Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2206484125,
-    "scrap_id": "au8zI43y",
-    "href": "https://github.com/room302studio/coachartie/pull/119",
-    "description": "room302studio/coachartie: Add-tests",
-    "time": "2024-03-28T21:43:57Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2214193396,
-    "scrap_id": "ynhkQ5m2",
-    "href": "https://github.com/room302studio/coachartie/pull/134",
-    "description": "room302studio/coachartie: Properly link memories to messages",
-    "time": "2024-03-28T21:42:56Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "Tx-HplhS",
     "href": "https://www.theguardian.com/environment/2024/mar/27/flexitarian-diets-global-warming-climate-change",
     "description": "Plant-heavy ‘flexitarian’ diets could help limit global heating, study finds | Environment | The Guardian",
@@ -864,114 +1146,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 2214016045,
-    "scrap_id": "4UfHxUUo",
-    "href": "https://github.com/room302studio/coachartie/pull/133",
-    "description": "room302studio/coachartie: feat: move ingest prompt to supabase table",
-    "time": "2024-03-28T19:54:59Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2213822824,
-    "scrap_id": "dSVGbRgl",
-    "href": "https://github.com/room302studio/coachartie/pull/130",
-    "description": "room302studio/coachartie: feat: add new step to check for previous memories of deep document ingest, make a memory of the deletion, and delete before creating new ones",
-    "time": "2024-03-28T19:41:24Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2213835182,
-    "scrap_id": "96mIl8eY",
-    "href": "https://github.com/room302studio/coachartie/pull/131",
-    "description": "room302studio/coachartie: refactor(memory): store Missive conversation Id and Discord channel ID in `conversation_id` column",
-    "time": "2024-03-28T19:41:13Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2213918527,
-    "scrap_id": "TeHc6Lb0",
-    "href": "https://github.com/room302studio/coachartie/pull/132",
-    "description": "room302studio/coachartie: fix: use the field for the user message from missive webhooks",
-    "time": "2024-03-28T19:06:42Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2199145861,
-    "scrap_id": "8ShSpVH8",
-    "href": "https://github.com/room302studio/coachartie/pull/97",
-    "description": "room302studio/coachartie: feat: deep document ingest",
-    "time": "2024-03-25T23:58:24Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2206608734,
-    "scrap_id": "V_4JIcmW",
-    "href": "https://github.com/room302studio/coachartie/pull/123",
-    "description": "room302studio/coachartie: feat: add endpoint to receive pgcron webhooks",
-    "time": "2024-03-25T20:30:01Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2206594663,
-    "scrap_id": "Y7xQYv-8",
-    "href": "https://github.com/room302studio/coachartie/pull/122",
-    "description": "room302studio/coachartie: capabilities to create and manage projects+orgs",
-    "time": "2024-03-25T20:03:08Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2199002105,
-    "scrap_id": "JaD2iieb",
-    "href": "https://github.com/room302studio/coachartie/pull/94",
-    "description": "room302studio/coachartie: Read Repo Capability",
-    "time": "2024-03-25T19:59:53Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2206554529,
-    "scrap_id": "v0PwcYHY",
-    "href": "https://github.com/room302studio/coachartie/issues/121",
-    "description": "room302studio/coachartie: Add deploy script for new updates",
-    "time": "2024-03-25T19:42:20Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2206523689,
-    "scrap_id": "fE2KC8fa",
-    "href": "https://github.com/room302studio/coachartie/pull/120",
-    "description": "room302studio/coachartie: feat: supabase raw / prompt editor capability",
-    "time": "2024-03-25T19:40:54Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2206311828,
-    "scrap_id": "JShTDFMu",
-    "href": "https://github.com/room302studio/coachartie/pull/118",
-    "description": "room302studio/coachartie: feat: pgcron webhook improvements",
-    "time": "2024-03-25T19:39:45Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2192887755,
-    "scrap_id": "fU4e_71w",
-    "href": "https://github.com/room302studio/coachartie/pull/87",
-    "description": "room302studio/coachartie: feat: send response in markdown part of request so we get formatting",
-    "time": "2024-03-25T17:26:49Z",
-    "type": "github-pr",
-    "images": []
   },
   {
     "scrap_id": "agzHR_Y-",
@@ -1044,60 +1218,6 @@
     "extended": ""
   },
   {
-    "id": 2203275845,
-    "scrap_id": "hxUfhPg_",
-    "href": "https://github.com/room302studio/coachartie/issues/109",
-    "description": "room302studio/coachartie: Make chat completion better and more configurable",
-    "time": "2024-03-22T20:38:45Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2187781874,
-    "scrap_id": "wOwVBg2V",
-    "href": "https://github.com/room302studio/coachartie/pull/86",
-    "description": "room302studio/coachartie: Claude chat completions",
-    "time": "2024-03-22T20:17:03Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2203153283,
-    "scrap_id": "oYRXkmGK",
-    "href": "https://github.com/room302studio/webhook-dev/issues/2",
-    "description": "room302studio/webhook-dev: Add button to easily copy entire webhook content to clipboard",
-    "time": "2024-03-22T19:13:05Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2203133877,
-    "scrap_id": "cG6xM0qg",
-    "href": "https://github.com/room302studio/coachartie/issues/108",
-    "description": "room302studio/coachartie: Increase size of Google Cloud VM instance",
-    "time": "2024-03-22T19:00:37Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2202739982,
-    "scrap_id": "rf2LZiZx",
-    "href": "https://github.com/room302studio/coachartie/issues/99",
-    "description": "room302studio/coachartie: Add more \"testing\" to capability-player",
-    "time": "2024-03-22T15:16:39Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
-    "id": 2202737320,
-    "scrap_id": "qyxw4sy1",
-    "href": "https://github.com/room302studio/coachartie/issues/98",
-    "description": "room302studio/coachartie: Handle capabilities in XML format",
-    "time": "2024-03-22T15:15:15Z",
-    "type": "github-issue",
-    "images": []
-  },
-  {
     "scrap_id": "GxXYAukw",
     "href": "https://www.patreon.com/spiritedman",
     "description": "Van Neistat | creating The Spirited Man | Patreon",
@@ -1147,24 +1267,6 @@
     "images": [
       "https://files.mastodon.social/media_attachments/files/112/131/970/289/364/410/small/825ec9f4fde19c57.png"
     ]
-  },
-  {
-    "id": 2199097853,
-    "scrap_id": "WYXlPJXy",
-    "href": "https://github.com/room302studio/coachartie/pull/96",
-    "description": "room302studio/coachartie: feat: disable local logging, add papertrail logging endpoint",
-    "time": "2024-03-21T04:36:06Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2199042350,
-    "scrap_id": "a50_3qWl",
-    "href": "https://github.com/room302studio/coachartie/pull/95",
-    "description": "room302studio/coachartie: Logging-refactor",
-    "time": "2024-03-21T04:13:04Z",
-    "type": "github-pr",
-    "images": []
   },
   {
     "scrap_id": "qQvQ62Uk",
@@ -1218,15 +1320,6 @@
     "images": []
   },
   {
-    "id": 2187164031,
-    "scrap_id": "vME1-gvI",
-    "href": "https://github.com/room302studio/coachartie/pull/85",
-    "description": "room302studio/coachartie: feat: prompts in supabase",
-    "time": "2024-03-19T06:40:30Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "4wOtzU2H",
     "href": "https://civileats.com/2022/10/20/will-a-buffet-funded-co-op-in-the-hudson-valley-boost-food-access-or-gentrification/",
     "description": "Will a Buffett-Funded Co-op in the Hudson Valley Boost Food Access or Lead to Gentrification? | Civil Eats",
@@ -1245,15 +1338,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 2184769869,
-    "scrap_id": "SZdJFLS6",
-    "href": "https://github.com/room302studio/coachartie/pull/84",
-    "description": "room302studio/coachartie: feat: pgcron; schedule and list pgcron jobs",
-    "time": "2024-03-18T02:01:57Z",
-    "type": "github-pr",
-    "images": []
   },
   {
     "scrap_id": "XBrsCfbH",
@@ -1306,24 +1390,6 @@
     "extended": ""
   },
   {
-    "id": 2184668318,
-    "scrap_id": "xPdIwtjC",
-    "href": "https://github.com/room302studio/coachartie/pull/83",
-    "description": "room302studio/coachartie: first draft of todo-related capabilities and db migrations",
-    "time": "2024-03-13T19:04:17Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
-    "id": 2182194741,
-    "scrap_id": "3lZV_rf-",
-    "href": "https://github.com/room302studio/coachartie/pull/82",
-    "description": "room302studio/coachartie: Task manager",
-    "time": "2024-03-13T19:04:17Z",
-    "type": "github-pr",
-    "images": []
-  },
-  {
     "scrap_id": "2GSPoIH9",
     "href": "https://github.com/alemidev/scope-tui",
     "description": "[no title]",
@@ -1340,15 +1406,6 @@
     "description": "<p>hes the me to them</p>",
     "time": "2024-03-12T05:34:57.389Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": 2180060007,
-    "scrap_id": "Qb95JXS2",
-    "href": "https://github.com/room302studio/coachartie/issues/77",
-    "description": "room302studio/coachartie: Create github action to re-generate manifest",
-    "time": "2024-03-11T19:36:48Z",
-    "type": "github-issue",
     "images": []
   },
   {
@@ -1489,15 +1546,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 769334289,
-    "scrap_id": "v1KojaHv",
-    "href": "https://github.com/arashsheyda/nuxt-neo4j",
-    "description": "Effortlessly integrate Neo4j's powerful graph database into your Nuxt applications!",
-    "time": "2024-03-08T20:42:10Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": "112061851151874517",
@@ -2560,15 +2608,6 @@
     "images": []
   },
   {
-    "id": "da826d138fa344240711a5a4fb673782",
-    "scrap_id": "udMVdQyl",
-    "href": "https://gist.github.com/ejfox/da826d138fa344240711a5a4fb673782",
-    "description": "p5_canvassketch_circles.js",
-    "time": "2024-02-10T16:21:13Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "id": "111908081124260083",
     "scrap_id": "445jY4nA",
     "href": "https://mastodon.social/@ejfox/111908081124260083",
@@ -3071,15 +3110,6 @@
     "extended": ""
   },
   {
-    "id": "a049d8bea5fa7257891d987fef455554",
-    "scrap_id": "pNPOmRv6",
-    "href": "https://gist.github.com/ejfox/a049d8bea5fa7257891d987fef455554",
-    "description": "Processing RGB LED Matrix Visualizer (for Raspberry Pi)",
-    "time": "2024-01-27T06:11:17Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "k14-Ae9F",
     "href": "https://hrdag.org/tech-notes/large-language-models-IPNO.html",
     "description": "formatted-for-tech-corner-toc",
@@ -3337,15 +3367,6 @@
     "images": []
   },
   {
-    "id": "12bfcdaa3b09805f410ac0c1439b8a25",
-    "scrap_id": "9ZkRq35u",
-    "href": "https://gist.github.com/ejfox/12bfcdaa3b09805f410ac0c1439b8a25",
-    "description": "Using anime, tresjs, and canvas to make rotating annotated objects in 3D",
-    "time": "2024-01-22T04:26:06Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "nDsSmTRk",
     "href": "https://www.turbosquid.com/3d-models/cigars-cigarettes-joints-blunts-and-ashtrays-3d-assetkit-pbr-1569848",
     "description": "3D cigars cigarettes joints blunts - TurboSquid 1569848",
@@ -3550,15 +3571,6 @@
     "description": "<p>filling up the context window with code and docs and stuff seems to cause it to forget the instruction (I think this has a bit to do with ordering, more recent things are more strongly followed, it seems like OpenAIs Assistant API puts the system prompt first) - which is pretty fundamentally useless and makes me worried about larger context windows if they arent actually followed (telling me I have 8GB when only 4GB is usable, essentially)</p>",
     "time": "2024-01-17T18:48:07.420Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": "295b31afc7d5d0e57de1237ac4d1c0d2",
-    "scrap_id": "rhJsKyu3",
-    "href": "https://gist.github.com/ejfox/295b31afc7d5d0e57de1237ac4d1c0d2",
-    "description": "",
-    "time": "2024-01-17T18:21:37Z",
-    "type": "github-gist",
     "images": []
   },
   {
@@ -4002,15 +4014,6 @@
     "extended": ""
   },
   {
-    "id": "763ba7f07e8363d1ed2e426d9e34c9e4",
-    "scrap_id": "R8bPr0_i",
-    "href": "https://gist.github.com/ejfox/763ba7f07e8363d1ed2e426d9e34c9e4",
-    "description": "Tween the positions of circles using vueUse's useTween composable",
-    "time": "2024-01-10T18:38:01Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "AS_YPC0I",
     "href": "https://platform.openai.com/docs/assistants/how-it-works/runs-and-run-steps",
     "description": "How Assistants work - OpenAI API",
@@ -4121,15 +4124,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": "1ba2ea7cb45099790ef417fd2ef335fa",
-    "scrap_id": "3C2VWBQq",
-    "href": "https://gist.github.com/ejfox/1ba2ea7cb45099790ef417fd2ef335fa",
-    "description": "",
-    "time": "2024-01-09T19:05:01Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "B39qC9qL",
@@ -4413,15 +4407,6 @@
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTUzMzkyMS9vcmlnaW5hbF8xMTk1YjhiMTQ2MjA4NDZhZDJiYWQ2YjNiZTU2NjMwYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
     ]
-  },
-  {
-    "id": "afd94b193a00645e34fc5030a125758a",
-    "scrap_id": "TgkRp6ty",
-    "href": "https://gist.github.com/ejfox/afd94b193a00645e34fc5030a125758a",
-    "description": "Sets screenshot folder on OS X to ~/screenshots",
-    "time": "2024-01-05T17:27:16Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "id": "111703825973658307",
@@ -4878,15 +4863,6 @@
     "extended": ""
   },
   {
-    "id": "075557d7bb167f6ccd70a653024a151e",
-    "scrap_id": "9ed2_fO_",
-    "href": "https://gist.github.com/ejfox/075557d7bb167f6ccd70a653024a151e",
-    "description": "Sonic Pi + Midi Christmas Medley",
-    "time": "2023-12-25T20:57:43Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "g2C7oDWO",
     "href": "https://www.minghui.org/",
     "description": "minghui.org 法轮大法明慧网|法轮功真相大全",
@@ -4965,15 +4941,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": "492436ba80f9762e87bf51041f58221c",
-    "scrap_id": "TOxNqS2T",
-    "href": "https://gist.github.com/ejfox/492436ba80f9762e87bf51041f58221c",
-    "description": "",
-    "time": "2023-12-25T02:58:02Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "id": "111638506697127436",
@@ -5055,15 +5022,6 @@
     "images": []
   },
   {
-    "id": "89eed83d2974eeb8857784614bfa0921",
-    "scrap_id": "Ou9pRwLl",
-    "href": "https://gist.github.com/ejfox/89eed83d2974eeb8857784614bfa0921",
-    "description": "",
-    "time": "2023-12-21T01:03:58Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "Co-e8_OF",
     "href": "https://www.historicmapworks.com/Atlas/US/683/",
     "description": "Hudson River Valley 1891 New York Historical Atlas",
@@ -5092,24 +5050,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": "643e4f5339ae54da1722ad8d5c79e4ab",
-    "scrap_id": "IDltddPD",
-    "href": "https://gist.github.com/ejfox/643e4f5339ae54da1722ad8d5c79e4ab",
-    "description": "",
-    "time": "2023-12-20T19:48:34Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
-    "id": "8e93278084ef462e04ca6950261b1ae0",
-    "scrap_id": "QXHdA1en",
-    "href": "https://gist.github.com/ejfox/8e93278084ef462e04ca6950261b1ae0",
-    "description": "yt-watchlater",
-    "time": "2023-12-20T19:13:29Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "id": "111613948213555405",
@@ -5725,15 +5665,6 @@
     ]
   },
   {
-    "id": 726710647,
-    "scrap_id": "q_lrzoF4",
-    "href": "https://github.com/koratkar/harmontown",
-    "description": "Transcripts for Harmontown.",
-    "time": "2023-12-03T06:32:34Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "yReIm7i6",
     "href": "https://github.com/Xaymar/obs-StreamFX",
     "description": "Xaymar/obs-StreamFX: StreamFX is a plugin for OBS® Studio which adds many new effects, filters, sources, transitions and encoders! Be it 3D Transform, Blur, complex Masking, or even custom shaders, you'll find it all here.",
@@ -5919,15 +5850,6 @@
     "description": "<p>the robot suggesting (successfully) methods to fix himself is a wonderful experience of computing</p>",
     "time": "2023-11-28T22:18:35.010Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": "4eed331a94ea0727bd7c996a2e681ae5",
-    "scrap_id": "O6fImRse",
-    "href": "https://gist.github.com/ejfox/4eed331a94ea0727bd7c996a2e681ae5",
-    "description": "Use ffmpeg to split an mp3 file into separate files based on periods of silence",
-    "time": "2023-11-28T21:20:56Z",
-    "type": "github-gist",
     "images": []
   },
   {
@@ -6382,15 +6304,6 @@
     ]
   },
   {
-    "id": 716312360,
-    "scrap_id": "Gp94VMtq",
-    "href": "https://github.com/paulSambolin/github-org-env-vars",
-    "description": "GHA workflows for creating Github Organization Environment Variables and Secrets",
-    "time": "2023-11-08T21:51:04Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "id": "111369935631052754",
     "scrap_id": "CiIEPQOu",
     "href": "https://mastodon.social/@ejfox/111369935631052754",
@@ -6817,15 +6730,6 @@
     "extended": ""
   },
   {
-    "id": 708159221,
-    "scrap_id": "qYugdDGP",
-    "href": "https://github.com/OneFolderApp/OneFolder",
-    "description": "File explorer made for pictures",
-    "time": "2023-10-21T17:43:36Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "kI7pqa2f",
     "href": "https://www.courier-journal.com/story/news/2023/10/18/myles-cosgrove-who-killed-breonna-taylor-carroll-county-deputy/71233893007/",
     "description": "Myles Cosgrove, officer who killed Breonna Taylor, rams car, pulls gun, witnesses say",
@@ -6834,15 +6738,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 707777913,
-    "scrap_id": "onlA19vn",
-    "href": "https://github.com/passes-org/passes",
-    "description": "A client-side web API for making requests directly to users.",
-    "time": "2023-10-20T16:27:14Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "DfQWD8cT",
@@ -7479,24 +7374,6 @@
     "images": [],
     "tags": "",
     "extended": "A packable, insulated and water-repellent layer, The North Face Circaloft men's hoodie features a vertical quilting pattern that holds insulation in place to provide consistent warmth."
-  },
-  {
-    "id": 696573083,
-    "scrap_id": "SH1fuuTZ",
-    "href": "https://github.com/omarim1/Nebula-Nights-Pico8",
-    "description": null,
-    "time": "2023-09-26T02:44:44Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
-    "id": 696550253,
-    "scrap_id": "W6aSVhRj",
-    "href": "https://github.com/mkkellogg/GaussianSplats3D",
-    "description": "Three.js-based implementation of 3D Gaussian splatting",
-    "time": "2023-09-26T01:15:29Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "OIZfbQ_m",
@@ -8994,15 +8871,6 @@
     "images": []
   },
   {
-    "id": "150fad3f20d2c86623279ae17b7521e4",
-    "scrap_id": "IZjoH2YL",
-    "href": "https://gist.github.com/ejfox/150fad3f20d2c86623279ae17b7521e4",
-    "description": "",
-    "time": "2023-08-28T13:54:19Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "ZB2qzmwu",
     "href": "https://emulsive.org/reviews/push-processing-ilford-hp5-plus-from-ei-800-to-ei-6400-by-daniel-tim",
     "description": "Push processing ILFORD HP5 PLUS from EI 800 to EI 6400 - EMULSIVE",
@@ -9171,15 +9039,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 682033985,
-    "scrap_id": "2SFm_mTv",
-    "href": "https://github.com/sdan/functioncalling",
-    "description": "turn small javascript functions into GPT function calls ",
-    "time": "2023-08-23T09:45:07Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": "110935352105705115",
@@ -10286,15 +10145,6 @@
     "description": "<p>if youre not pushing to main 6 minutes before the meeting are you even living</p>",
     "time": "2023-07-14T14:25:14.663Z",
     "type": "mastodon-post",
-    "images": []
-  },
-  {
-    "id": 666299222,
-    "scrap_id": "9MoMHwOV",
-    "href": "https://github.com/OpenInterpreter/open-interpreter",
-    "description": "A natural language interface for computers",
-    "time": "2023-07-14T07:10:44Z",
-    "type": "github-star",
     "images": []
   },
   {
@@ -11500,15 +11350,6 @@
     "extended": ""
   },
   {
-    "id": 625090767,
-    "scrap_id": "_KIjQCGR",
-    "href": "https://github.com/jeremiak/cal-access-lobbying-5k-filers",
-    "description": "Data about orgs who spend $5K or more to influence California legislation",
-    "time": "2023-04-08T03:32:40Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "K-7dhONF",
     "href": "https://www.technologyreview.com/2023/04/06/1071059/chatgpt-change-not-destroy-education-openai/",
     "description": "ChatGPT is going to change education, not destroy it | MIT Technology Review",
@@ -11517,15 +11358,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 624677197,
-    "scrap_id": "55wzVOUZ",
-    "href": "https://github.com/enjalot/latent-scope",
-    "description": "A scientific instrument for investigating latent spaces",
-    "time": "2023-04-07T02:14:05Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "Fd63Ov3a",
@@ -12849,15 +12681,6 @@
     ]
   },
   {
-    "id": 601425931,
-    "scrap_id": "SKlYEecS",
-    "href": "https://github.com/ipno-llead/networks",
-    "description": null,
-    "time": "2023-02-14T03:08:57Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "d7c7Y2vj",
     "href": "https://github.com/westlicht/rc505-editor/blob/master/README.md",
     "description": "rc505-editor/README.md at master · westlicht/rc505-editor",
@@ -13009,15 +12832,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 599311541,
-    "scrap_id": "sLV3DOiZ",
-    "href": "https://github.com/natemoo-re/clack",
-    "description": "Effortlessly build beautiful command-line apps",
-    "time": "2023-02-08T21:58:49Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": "109830454326750092",
@@ -13334,15 +13148,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 591432160,
-    "scrap_id": "aiwGVcAz",
-    "href": "https://github.com/vizhub-core/vzcode",
-    "description": "Multiplayer code editor system",
-    "time": "2023-01-20T18:39:15Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": "109722635917074055",
@@ -15105,15 +14910,6 @@
     "images": []
   },
   {
-    "id": 571613891,
-    "scrap_id": "bATHxsVm",
-    "href": "https://github.com/roboflow/supervision",
-    "description": "We write your reusable computer vision tools. 💜",
-    "time": "2022-11-28T14:08:44Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "id": "109416245472771917",
     "scrap_id": "rwenFFrl",
     "href": "https://mastodon.social/@ejfox/109416245472771917",
@@ -15767,15 +15563,6 @@
     "extended": ""
   },
   {
-    "id": "deedd43d8b2de49a95016dd47f5c38b8",
-    "scrap_id": "dKi3DINg",
-    "href": "https://gist.github.com/ejfox/deedd43d8b2de49a95016dd47f5c38b8",
-    "description": "",
-    "time": "2022-11-03T01:00:50Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "id": 18799335,
     "scrap_id": "L6iVeNZM",
     "href": "https://www.are.na/block/18799335",
@@ -16212,15 +15999,6 @@
     "extended": ""
   },
   {
-    "id": 546206616,
-    "scrap_id": "Dp9oyIzk",
-    "href": "https://github.com/chroma-core/chroma",
-    "description": "the AI-native open-source embedding database",
-    "time": "2022-10-05T17:58:44Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "szkvEw43",
     "href": "https://docs.google.com/spreadsheets/d/1Qz4b75MWojAT6L1ATNI2OaySMoKilMij8re_LxCXz5s/edit#gid=340419034",
     "description": "Soap Spreadsheet - Google Sheets",
@@ -16491,15 +16269,6 @@
     "extended": ""
   },
   {
-    "id": "ad555d7d8fca5cf5f35db1c3e3486a72",
-    "scrap_id": "Mugv61NI",
-    "href": "https://gist.github.com/ejfox/ad555d7d8fca5cf5f35db1c3e3486a72",
-    "description": "A GPT-3 code-davinci-002 written script to scrape the top 40 worst polluters for all available industries",
-    "time": "2022-09-22T16:31:56Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "xd-hY7WY",
     "href": "https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/",
     "description": "Preserve Vital Online Content With Bellingcat's Auto Archiver - bellingcat",
@@ -16708,15 +16477,6 @@
     "images": [],
     "tags": "data lackofdata",
     "extended": ""
-  },
-  {
-    "id": "7b6a12465e0dea8e4eea1fb8a6af840a",
-    "scrap_id": "utige-cE",
-    "href": "https://gist.github.com/ejfox/7b6a12465e0dea8e4eea1fb8a6af840a",
-    "description": "",
-    "time": "2022-09-13T14:46:05Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "4p88WuUy",
@@ -17077,15 +16837,6 @@
     "images": [],
     "tags": "covid",
     "extended": "Many schools have not invested in upgrading their air quality. Here's what you should know."
-  },
-  {
-    "id": 525159492,
-    "scrap_id": "IBSwlLAA",
-    "href": "https://github.com/felt/tippecanoe",
-    "description": "Build vector tilesets from large collections of GeoJSON features.",
-    "time": "2022-08-15T22:41:51Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "7jYSxzSH",
@@ -17728,24 +17479,6 @@
     "images": [],
     "tags": "osx utility",
     "extended": "The quicker switcher launcher for macOS"
-  },
-  {
-    "id": "60caff5e4a3a5197374c8fe7c6221b55",
-    "scrap_id": "ImO4_uID",
-    "href": "https://gist.github.com/ejfox/60caff5e4a3a5197374c8fe7c6221b55",
-    "description": "Use OpenAI to add tags to a JSON file of tweets",
-    "time": "2022-06-27T18:47:20Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
-    "id": "98ecfa51d0e91d86e23891f67bd8dc1a",
-    "scrap_id": "lFLgzomv",
-    "href": "https://gist.github.com/ejfox/98ecfa51d0e91d86e23891f67bd8dc1a",
-    "description": "",
-    "time": "2022-06-27T18:46:10Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "6VTQX3Pk",
@@ -18863,15 +18596,6 @@
     "extended": ""
   },
   {
-    "id": "5678aa4d934b87d0c8ab6bf0805ea5f1",
-    "scrap_id": "6sW1dHud",
-    "href": "https://gist.github.com/ejfox/5678aa4d934b87d0c8ab6bf0805ea5f1",
-    "description": "",
-    "time": "2022-06-02T22:24:17Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "xm6pfM37",
     "href": "https://www.readthepresentage.com/p/johnny-depp-amber-heard?s=r",
     "description": "The bleak spectacle of the Amber Heard-Johnny Depp trial",
@@ -19181,15 +18905,6 @@
     "extended": ""
   },
   {
-    "id": "4433ddc1e66322b48a24a4b811551d49",
-    "scrap_id": "MYEr4aNJ",
-    "href": "https://gist.github.com/ejfox/4433ddc1e66322b48a24a4b811551d49",
-    "description": "Vue method to set width and height based on component element size",
-    "time": "2022-05-13T13:38:01Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "cJdvuFRB",
     "href": "https://www.justsecurity.org/79446/the-absence-of-the-donald/",
     "description": "The Absence of “The Donald”",
@@ -19208,15 +18923,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 489985764,
-    "scrap_id": "46pVrvnU",
-    "href": "https://github.com/johackim/remark-obsidian",
-    "description": "Remark plugin to support Obsidian markdown syntax",
-    "time": "2022-05-08T15:43:56Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "yw1f1RMp",
@@ -19360,15 +19066,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 482246851,
-    "scrap_id": "HbvpOdxj",
-    "href": "https://github.com/noahflk/railtrack",
-    "description": "Next.js and Supabase app to track your train journeys in Europe",
-    "time": "2022-04-16T12:22:54Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": 16075459,
@@ -21120,15 +20817,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 436305747,
-    "scrap_id": "zIBBlt67",
-    "href": "https://github.com/fatihsolhan/v-onboarding",
-    "description": "v-onboarding is a super-slim, fully-typed onboarding component for Vue 3",
-    "time": "2021-12-08T15:55:34Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "yGJ_weRx",
@@ -23692,15 +23380,6 @@
     "extended": ""
   },
   {
-    "id": 390875517,
-    "scrap_id": "tWGJkE8H",
-    "href": "https://github.com/kawamataryo/vue-word-highlighter",
-    "description": "The word highlighter library for Vue 2 and Vue 3.",
-    "time": "2021-07-29T23:35:30Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "7tXzRfq6",
     "href": "https://github.com/mwilliamson/mammoth.js/",
     "description": "mwilliamson/mammoth.js: Convert Word documents (.docx files) to HTML",
@@ -24834,15 +24513,6 @@
     "extended": ""
   },
   {
-    "id": "f9540f9b776fdebf6b976ed3a7c4d20a",
-    "scrap_id": "5ng3-UyT",
-    "href": "https://gist.github.com/ejfox/f9540f9b776fdebf6b976ed3a7c4d20a",
-    "description": "",
-    "time": "2021-05-19T17:18:27Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "id": 11993120,
     "scrap_id": "RYY4twCW",
     "href": "https://www.are.na/block/11993120",
@@ -25243,15 +24913,6 @@
     "images": [
       "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxMTg2ODI1NS9vcmlnaW5hbF83ODhhNTFlZjY5ZmUwZmM4NDVlMThlMzkxZTM3OTc3Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
     ]
-  },
-  {
-    "id": "5204cf3094de9261e05e3291cd22daca",
-    "scrap_id": "G09TI4fT",
-    "href": "https://gist.github.com/ejfox/5204cf3094de9261e05e3291cd22daca",
-    "description": "Import CSV with Neo4J Cypher",
-    "time": "2021-05-06T17:10:45Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "2V-LmLCK",
@@ -26295,15 +25956,6 @@
     "extended": ""
   },
   {
-    "id": 351951207,
-    "scrap_id": "IV8mCkXD",
-    "href": "https://github.com/hadynz/obsidian-kindle-plugin",
-    "description": "Sync your Kindle notes and highlights directly into your Obsidian vault",
-    "time": "2021-03-27T01:06:47Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "A1U4m0uz",
     "href": "https://gen.medium.com/the-return-of-the-micromort-28a61d1bd3c7",
     "description": "How Much Risk Should You Take Now? | by Will Leitch | Mar, 2021 | GEN",
@@ -26916,15 +26568,6 @@
     "extended": ""
   },
   {
-    "id": "feb5169d649ec09ce0b5ae856209426c",
-    "scrap_id": "POWI6kdh",
-    "href": "https://gist.github.com/ejfox/feb5169d649ec09ce0b5ae856209426c",
-    "description": "",
-    "time": "2021-03-01T22:39:37Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "id": 10985345,
     "scrap_id": "VyG3YfpH",
     "href": "https://www.are.na/block/10985345",
@@ -27511,15 +27154,6 @@
     ]
   },
   {
-    "id": 339507137,
-    "scrap_id": "ePmOVUe3",
-    "href": "https://github.com/mdlindsey/callofdutyapi",
-    "description": "Open-source interaction resources for Call of Duty; support for Cold War, Warzone, Modern Warfare, Black Ops 4, and WWII",
-    "time": "2021-02-16T19:27:14Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "id": 10779098,
     "scrap_id": "bzG067Up",
     "href": "https://www.are.na/block/10779098",
@@ -28022,15 +27656,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": "a081d4b59064a31e16ff9bf17d3531a6",
-    "scrap_id": "3n39-utW",
-    "href": "https://gist.github.com/ejfox/a081d4b59064a31e16ff9bf17d3531a6",
-    "description": "Doomscroller Processing Script",
-    "time": "2021-02-10T23:00:04Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "id": 10695529,
@@ -31626,15 +31251,6 @@
     "extended": ""
   },
   {
-    "id": "01ade40ba81d27601d20a77d7c845115",
-    "scrap_id": "WJh3jmxX",
-    "href": "https://gist.github.com/ejfox/01ade40ba81d27601d20a77d7c845115",
-    "description": "",
-    "time": "2020-10-05T01:29:42Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "_FqZJllY",
     "href": "https://www.boredpanda.com/chico-the-sloth-meets-dolphins-texas-aquarium/",
     "description": "These Dolphins Have Lost Their Minds With Excitement At The Sight Of A Sloth | Bored Panda",
@@ -32450,15 +32066,6 @@
     "extended": ""
   },
   {
-    "id": "80165a888453f2b38d0fbd9b9f839eb0",
-    "scrap_id": "-tX9s9AP",
-    "href": "https://gist.github.com/ejfox/80165a888453f2b38d0fbd9b9f839eb0",
-    "description": "",
-    "time": "2020-08-11T03:16:37Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "id": 8288323,
     "scrap_id": "CeP8HXzk",
     "href": "https://www.are.na/block/8288323",
@@ -32595,15 +32202,6 @@
     "images": [],
     "tags": "3d",
     "extended": ""
-  },
-  {
-    "id": "2ac9fc80384918f30b0f781add06dc86",
-    "scrap_id": "vSREn5Oc",
-    "href": "https://gist.github.com/ejfox/2ac9fc80384918f30b0f781add06dc86",
-    "description": "",
-    "time": "2020-08-05T03:17:13Z",
-    "type": "github-gist",
-    "images": []
   },
   {
     "scrap_id": "fWamrX9j",
@@ -34413,15 +34011,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 270722949,
-    "scrap_id": "46BxuNNW",
-    "href": "https://github.com/lucide-icons/lucide",
-    "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
-    "time": "2020-06-08T15:36:21Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "id": 7582135,
@@ -43775,15 +43364,6 @@
     "extended": ""
   },
   {
-    "id": 110914910,
-    "scrap_id": "6m01xSuE",
-    "href": "https://github.com/bogaudio/BogaudioModules",
-    "description": "Modules for VCV Rack.",
-    "time": "2017-11-16T02:55:24Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "id": 1417233,
     "scrap_id": "zyzYcRlU",
     "href": "https://www.are.na/block/1417233",
@@ -47107,15 +46687,6 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 71995937,
-    "scrap_id": "WUbKJ8Tc",
-    "href": "https://github.com/nuxt/nuxt",
-    "description": "The Intuitive Vue Framework.",
-    "time": "2016-10-26T11:18:47Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "grmEkx2n",
@@ -52462,15 +52033,6 @@
     "images": [],
     "tags": "data dataviz datajournalism",
     "extended": "An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them. As a reporter your world is full of data. And that data are full of problems."
-  },
-  {
-    "id": 47716038,
-    "scrap_id": "P2UVt8ES",
-    "href": "https://github.com/krausest/js-framework-benchmark",
-    "description": "A comparison of the performance of a few popular javascript frameworks",
-    "time": "2015-12-09T20:10:53Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "HdguOW_e",
@@ -58684,15 +58246,6 @@
     "images": [],
     "tags": "",
     "extended": "Ombré nails (om-BRAY for @mrejfox). Cc @banikarim "
-  },
-  {
-    "id": 38149450,
-    "scrap_id": "sLKEBL3_",
-    "href": "https://github.com/IanVS/eslint-nibble",
-    "description": "Ease into ESLint, by fixing one rule at a time",
-    "time": "2015-06-27T06:12:55Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "psC56hgb",
@@ -75475,15 +75028,6 @@
     "images": [],
     "tags": "",
     "extended": "RT @ejfoxverbose: Github: ejfox starred enjalot/bart "
-  },
-  {
-    "id": 11858025,
-    "scrap_id": "JExDdzFt",
-    "href": "https://github.com/steveukx/git-js",
-    "description": "A light weight interface for running git commands in any node.js application.",
-    "time": "2013-08-03T04:48:11Z",
-    "type": "github-star",
-    "images": []
   },
   {
     "scrap_id": "kdPWu4i-",

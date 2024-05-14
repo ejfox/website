@@ -1,14 +1,5 @@
 [
   {
-    "id": "4433ddc1e66322b48a24a4b811551d49",
-    "scrap_id": "MYEr4aNJ",
-    "href": "https://gist.github.com/ejfox/4433ddc1e66322b48a24a4b811551d49",
-    "description": "Vue method to set width and height based on component element size",
-    "time": "2022-05-13T13:38:01Z",
-    "type": "github-gist",
-    "images": []
-  },
-  {
     "scrap_id": "cJdvuFRB",
     "href": "https://www.justsecurity.org/79446/the-absence-of-the-donald/",
     "description": "The Absence of “The Donald”",
@@ -27,14 +18,5 @@
     "images": [],
     "tags": "",
     "extended": ""
-  },
-  {
-    "id": 489985764,
-    "scrap_id": "46pVrvnU",
-    "href": "https://github.com/johackim/remark-obsidian",
-    "description": "Remark plugin to support Obsidian markdown syntax",
-    "time": "2022-05-08T15:43:56Z",
-    "type": "github-star",
-    "images": []
   }
 ]

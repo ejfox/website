@@ -203,5 +203,15 @@
     "time": "2024-01-29T15:06:48.153Z",
     "type": "mastodon-post",
     "images": []
+  },
+  {
+    "scrap_id": "99IfFJcI",
+    "href": "https://github.com/HudZah/SmartShot",
+    "description": "HudZah/SmartShot: SmartShot automates the task of organizing and renaming screenshots in a specified folder on macOS. It uses the built-in Automater app to auto-detect when new screenshots are taken and runs a script to rename them.",
+    "time": "2024-01-28T03:27:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
   }
 ]

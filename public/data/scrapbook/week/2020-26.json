@@ -441,5 +441,15 @@
     "images": [],
     "tags": "",
     "extended": ""
+  },
+  {
+    "scrap_id": "PVIpbIRV",
+    "href": "https://github.com/milo-trujillo/ServiceDispatch",
+    "description": "milo-trujillo/ServiceDispatch",
+    "time": "2020-06-21T03:48:42Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "police datajournalism code github",
+    "extended": "Automatically log emergency services like police and fire department dispatch channels"
   }
 ]

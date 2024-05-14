@@ -20,15 +20,6 @@
     "extended": ""
   },
   {
-    "id": 390875517,
-    "scrap_id": "tWGJkE8H",
-    "href": "https://github.com/kawamataryo/vue-word-highlighter",
-    "description": "The word highlighter library for Vue 2 and Vue 3.",
-    "time": "2021-07-29T23:35:30Z",
-    "type": "github-star",
-    "images": []
-  },
-  {
     "scrap_id": "7tXzRfq6",
     "href": "https://github.com/mwilliamson/mammoth.js/",
     "description": "mwilliamson/mammoth.js: Convert Word documents (.docx files) to HTML",

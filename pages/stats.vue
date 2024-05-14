@@ -34,12 +34,8 @@
         Written words by year
       </h2>
       <div class="py-4 grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div
-          v-for="year in wordsByYear"
-          :key="year.year"
-          class="text-center rounded-md"
-          :style="{ backgroundColor: wordsToColor(year.words) }"
-        >
+        <div v-for="year in wordsByYear" :key="year.year" class="text-center rounded-md"
+          :style="{ backgroundColor: wordsToColor(year.words) }">
           <h2 class="text-lg font-serif font-bold">
             {{ wordNumberFormat(year.words) }}
           </h2>

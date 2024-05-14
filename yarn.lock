@@ -4010,6 +4010,14 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
+cloudinary@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-2.2.0.tgz#9736a7421b5552c43603950fa41d9997c869d0b5"
+  integrity sha512-akbLTZcNegGSkl07Frnt9fyiK9KZ2zPS+a+j7uLrjNYxVhDpDdIBz9G6snPCYqgk+WLVMRPfXTObalLr5L6g0Q==
+  dependencies:
+    lodash "^4.17.21"
+    q "^1.5.1"
+
 cluster-key-slot@^1.1.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.1.2.tgz#88ddaa46906e303b5de30d3153b7d9fe0a0c19ac"
@@ -8714,6 +8722,11 @@ puppeteer@^20.8.2:
     "@puppeteer/browsers" "1.4.6"
     cosmiconfig "8.2.0"
     puppeteer-core "20.9.0"
+
+q@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
+  integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
 qs@^6.5.1:
   version "6.12.1"

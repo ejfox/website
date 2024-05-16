@@ -8,13 +8,13 @@ kindle-sync:
   bookImageUrl: 'https://m.media-amazon.com/images/I/71jgxi5WW2L._SY160.jpg'
   highlightsCount: 8
 date: 2022-12-14T15:26:39-05:00
-modified: 2022-12-23T10:56:01-05:00
+modified: 2024-03-13T18:51:53-04:00
 ---
-# The War of Art
+## The War of Art
 
-#art 
+#art
 
-# Metadata
+## Metadata
 
 * Author: [Steven Pressfield and Shawn Coyne](https://www.amazon.com/Steven-Pressfield/e/B000AQ8R8Q/ref=dp_byline_cont_ebooks_1)
 
@@ -26,7 +26,7 @@ modified: 2022-12-23T10:56:01-05:00
 
 * [Kindle link](kindle://book?action=open&asin=B007A4SDCG)
 
-# Highlights
+## Highlights
 
 Like a magnetized needle floating on a surface of oil, Resistance will unfailingly point to true North — meaning that calling or action it most wants to stop us from doing. We can use this. We can use it as a compass. We can navigate by Resistance, letting it guide us to that calling or action that we must follow before all others. Rule of thumb: The more important a call or action is to our soul's evolution, the more Resistance we will feel toward pursuing it. — location: [217](kindle://book?action=open&asin=B007A4SDCG&location=217) ^ref-59828
 

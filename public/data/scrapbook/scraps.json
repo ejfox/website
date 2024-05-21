@@ -1,5 +1,15 @@
 [
   {
+    "scrap_id": "6FfBfQ2B",
+    "href": "https://stackoverflow.com/questions/72940087/nuxt-app-deployed-to-netlify-fetch-to-api-working-locally-but-not-on-deployed",
+    "description": "javascript - nuxt app deployed to Netlify: fetch to api working locally, but not on deployed site: getting a 404 - Stack Overflow",
+    "time": "2024-05-21T03:42:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "You can have netlify host your /server/api endpoints if you specify in your environment variables NITRO_PRESET=netlify-edge, and use nuxt build to build your deployment. It will then create edge functions that handles your /server/api endpoints. I think this used to be the default until recently with nuxt / nitro, but I believed it changes recently, possibly in nitropack v2.4.0(?) to default to NITRO_PRESET=netlify, where I believe it doesn't create functions for the /server/api endpoints."
+  },
+  {
     "scrap_id": "f8M9weZL",
     "href": "https://highlandscurrent.org/2024/05/17/clearwater-confronts-rough-weather/?fbclid=IwZXh0bgNhZW0CMTAAAR20Booi16eZXOnKKKdlDCDrH9JeHeGV9eOu_vGZ91lzRIQ8Hsx3bVS_oK8_aem_AWVHl4IqHoR39BFtvHf7cmPIRO8G7XV4ZwzLpM3VsY5kL0WOG7cyo82BsXis7PNZ1gCvDxuh8S_vNrFwsX7e3r4z",
     "description": "Clearwater Confronts Rough Weather – The Current",

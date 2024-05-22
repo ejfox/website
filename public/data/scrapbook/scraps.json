@@ -1,5 +1,65 @@
 [
   {
+    "scrap_id": "xXpG7lR_",
+    "href": "https://observablehq.com/plot/getting-started#plot-in-vue",
+    "description": "Observable Plot in Vue",
+    "time": "2024-05-21T21:08:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "fb5-vfDo",
+    "href": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+    "description": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+    "time": "2024-05-21T19:43:14Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "35aBp06N",
+    "href": "https://www.indiegogo.com/projects/copperhead-club-in-peekskill#/",
+    "description": "Copperhead Club in Peekskill | Indiegogo",
+    "time": "2024-05-21T19:10:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2Ufmr32T",
+    "href": "https://www.fastcompany.com/91126211/the-onion-ceo-ben-collins-jeff-lawson-nbc-news-elon-musk",
+    "description": "Meet the new CEO of 'The Onion' - Fast Company",
+    "time": "2024-05-21T17:24:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Jdxhsci2",
+    "href": "https://www.fastcompany.com/91119990/where-the-human-brain-still-has-an-edge-over-ai",
+    "description": "Where the human brain (still) has an edge over AI - Fast Company",
+    "time": "2024-05-21T17:24:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "w1SlYvvR",
+    "href": "https://enjalot.substack.com/p/insights-with-embeddings?triedRedirect=true",
+    "description": "Insights with Embeddings - by Ian Johnson",
+    "time": "2024-05-21T17:24:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112479516888470066",
     "scrap_id": "FCyJ0uGt",
     "href": "https://mastodon.social/@ejfox/112479516888470066",

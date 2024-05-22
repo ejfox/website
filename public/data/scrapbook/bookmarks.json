@@ -1,5 +1,71 @@
 [
   {
+    "href": "https://observablehq.com/plot/getting-started#plot-in-vue",
+    "description": "Observable Plot in Vue",
+    "extended": "",
+    "meta": "f5f4a31b0d28c3a506b554a55b4ade60",
+    "hash": "9062108efb19b55b7ca77f5587cf694d",
+    "time": "2024-05-21T21:08:29Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+    "description": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+    "extended": "",
+    "meta": "1dd6b3e34c77a0f8da8eb0ee233ae87b",
+    "hash": "ad86fe1e5870d19b791e7dce78fa5cfe",
+    "time": "2024-05-21T19:43:14Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.indiegogo.com/projects/copperhead-club-in-peekskill#/",
+    "description": "Copperhead Club in Peekskill | Indiegogo",
+    "extended": "",
+    "meta": "848eea2dd47c63df7c70fbffa4590a44",
+    "hash": "49780b0f417c07f403b187cea21898b6",
+    "time": "2024-05-21T19:10:28Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.fastcompany.com/91126211/the-onion-ceo-ben-collins-jeff-lawson-nbc-news-elon-musk",
+    "description": "Meet the new CEO of 'The Onion' - Fast Company",
+    "extended": "",
+    "meta": "fd63040d0fdd4c38483d7c58efe0f11a",
+    "hash": "5317c098bf5b6ac989fc9c11686a6b47",
+    "time": "2024-05-21T17:24:56Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.fastcompany.com/91119990/where-the-human-brain-still-has-an-edge-over-ai",
+    "description": "Where the human brain (still) has an edge over AI - Fast Company",
+    "extended": "",
+    "meta": "6c71eb038991af11a8851cf295f5b8bd",
+    "hash": "b6549ac69e9af80c60e228dd11f0bcf8",
+    "time": "2024-05-21T17:24:54Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://enjalot.substack.com/p/insights-with-embeddings?triedRedirect=true",
+    "description": "Insights with Embeddings - by Ian Johnson",
+    "extended": "",
+    "meta": "e948f53b1a85519655c97d852a2a1e94",
+    "hash": "9c0bd43cf4ef80f1e158d00c3ff02ec8",
+    "time": "2024-05-21T17:24:03Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://stackoverflow.com/questions/72940087/nuxt-app-deployed-to-netlify-fetch-to-api-working-locally-but-not-on-deployed",
     "description": "javascript - nuxt app deployed to Netlify: fetch to api working locally, but not on deployed site: getting a 404 - Stack Overflow",
     "extended": "You can have netlify host your /server/api endpoints if you specify in your environment variables NITRO_PRESET=netlify-edge, and use nuxt build to build your deployment. It will then create edge functions that handles your /server/api endpoints. I think this used to be the default until recently with nuxt / nitro, but I believed it changes recently, possibly in nitropack v2.4.0(?) to default to NITRO_PRESET=netlify, where I believe it doesn't create functions for the /server/api endpoints.",

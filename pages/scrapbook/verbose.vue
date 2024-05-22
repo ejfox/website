@@ -1,18 +1,11 @@
 <template>
-  <div
-    ref="scrapcontainer"
-    class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace"
-  >
+  <div ref="scrapcontainer" class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace">
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
-    <div
-      v-for="(group, groupIndex) in groupedScraps"
-      :key="groupIndex"
-      class="mb-0.5"
-    >
+    <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-0.5">
       <!-- <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" /> -->
 
-      <VerboseScrapItem :scrap="group.items[0]" />
+      <ScrapVerboseScrapItem :scrap="group.items[0]" />
       <!-- <pre>{{group.items[0]}}</pre> -->
     </div>
     <div v-if="loading" class="text-center">Loading...</div>
@@ -23,8 +16,8 @@
 import { useInfiniteScroll } from '@vueuse/core'
 import useScrap from '~/composables/useScrap.js'
 import { format } from 'date-fns'
-import ScrapItem from '~/components/ScrapItem.vue'
-import ScrapGallery from '~/components/ScrapGallery.vue'
+import ScrapItem from '~/components/Scrap/Item.vue'
+import ScrapGallery from '~/components/Scrap/Gallery.vue'
 
 const scrapcontainer = ref(null)
 const { combinedData } = useScrap()

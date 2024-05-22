@@ -1,23 +1,13 @@
 <template>
-  <div
-    ref="scrapcontainer"
-    class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace"
-  >
+  <div ref="scrapcontainer" class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace">
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
     <NuxtLink :to="`/scrapbook/verbose`" class="underline block">
-      Verbose view</NuxtLink
-    >
+      Verbose view</NuxtLink>
     <NuxtLink :to="`/scrapbook/graph`" class="underline block">
-      Graph view</NuxtLink
-    >
+      Graph view</NuxtLink>
     <NuxtLink :to="`/scrapbook/graph`" class="underline block">
-      Card view</NuxtLink
-    >
-    <div
-      v-for="(group, groupIndex) in groupedScraps"
-      :key="groupIndex"
-      class="mb-4"
-    >
+      Card view</NuxtLink>
+    <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
       <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
@@ -30,8 +20,8 @@
 import { useInfiniteScroll } from '@vueuse/core'
 import useScrap from '~/composables/useScrap.js'
 import { format } from 'date-fns'
-import ScrapItem from '~/components/ScrapItem.vue'
-import ScrapGallery from '~/components/ScrapGallery.vue'
+import ScrapItem from '~/components/Scrap/Item.vue'
+import ScrapGallery from '~/components/Scrap/Gallery.vue'
 
 const scrapcontainer = ref(null)
 const { combinedData } = useScrap()

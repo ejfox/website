@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://academicworks.cuny.edu/gc_etds/5835/",
+    "description": "\"Who do Civilian Review Boards Serve and Protect? Applying Andre Gorz’s\" by Jackson Diamond",
+    "extended": "",
+    "meta": "8a732b839b7b611d1174de3a31d6cf7d",
+    "hash": "438f67ece0e4549352cf6afe3e52c4b2",
+    "time": "2024-05-22T22:37:21Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://youtube.com/watch?v=2cT6ULpScZA&si=3qEWnPAb9E9Au3SH",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "f42887f54f4ebf4f927a05bb9c340130",
+    "hash": "2b23bf89d54bfa5473665fdc414b6c47",
+    "time": "2024-05-22T17:33:09Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://observablehq.com/plot/getting-started#plot-in-vue",
     "description": "Observable Plot in Vue",
     "extended": "",

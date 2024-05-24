@@ -1,5 +1,16 @@
 [
   {
+    "id": "112494265828590177",
+    "scrap_id": "Em5vBRh3",
+    "href": "https://mastodon.social/@ejfox/112494265828590177",
+    "description": "<p>`pbpaste | jq -c paths(scalars) | map(if type == number then [] else tostring end) | join(.) | sort | uniq | pbcopy`</p><p>if you have a huge JSON file in your clipboard, this command will extract all of the paths of all of the objects/arrays- which I find is really useful when designing views/visualizations for data without constantly clicking around</p>",
+    "time": "2024-05-24T04:51:13.020Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/494/265/585/499/172/small/cfcec466f4e3c491.png"
+    ]
+  },
+  {
     "scrap_id": "a7vijtNd",
     "href": "https://www.lexaloffle.com/bbs/?tid=42809",
     "description": "Sample Sandbox",

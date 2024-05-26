@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://towardsdatascience.com/relation-extraction-with-llama3-models-f8bc41858b9e?gi=992609418b06",
+    "description": "Relation Extraction with Llama3 Models",
+    "extended": "Enhanced relation extraction by fine-tuning Llama3–8B with a synthetic dataset created using Llama3–70B",
+    "meta": "13a0c75849c8f7929c88f6bfc05a53bc",
+    "hash": "f006750abc4e193cc4b57384cd7e22ae",
+    "time": "2024-05-25T17:31:50Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/rvanwijnen/spectral.js",
     "description": "rvanwijnen/spectral.js: Spectral.js is a paint like color mixing library utilizing the Kubelka-Munk theory.",
     "extended": "",

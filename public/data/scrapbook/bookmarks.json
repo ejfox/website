@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://regl.neocities.org/",
+    "description": "learn regl!",
+    "extended": "",
+    "meta": "12b765c0115901070e857206f7beec59",
+    "hash": "5c285f11d83288a7fc3d24429c3a0863",
+    "time": "2024-05-26T23:16:44Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://vallandingham.me/regl_intro.html",
+    "description": "An Intro to regl for Data Visualization - Jim Vallandingham",
+    "extended": "",
+    "meta": "34b8cf8526df61ccf3fe9878413770c6",
+    "hash": "b7d405cdb36ad6a4b41914b5256b7289",
+    "time": "2024-05-26T23:16:36Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/huginn/huginn",
+    "description": "huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!",
+    "extended": "",
+    "meta": "be843c996652d7266847835bd5c1bb99",
+    "hash": "d0be434f1278134ee1f19cc6169bd65b",
+    "time": "2024-05-26T20:25:05Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://towardsdatascience.com/relation-extraction-with-llama3-models-f8bc41858b9e?gi=992609418b06",
     "description": "Relation Extraction with Llama3 Models",
     "extended": "Enhanced relation extraction by fine-tuning Llama3–8B with a synthetic dataset created using Llama3–70B",

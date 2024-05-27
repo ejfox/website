@@ -1,5 +1,53 @@
 [
   {
+    "id": "112510099769906495",
+    "scrap_id": "1i8UdDv1",
+    "href": "https://mastodon.social/@ejfox/112510099769906495",
+    "description": "<p>So it turns out that I have been using Things since approximately 2012, so every single thing I ever put on my todo list is held in a huge 5,074 logbook, approximately 422 things done a year (and written down) - thats about 1.1 things done per day, which sounds about right with my lived experience</p>",
+    "time": "2024-05-26T23:57:59.791Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "1penOdq6",
+    "href": "https://regl.neocities.org/",
+    "description": "learn regl!",
+    "time": "2024-05-26T23:16:44Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "MRjCOLr0",
+    "href": "https://vallandingham.me/regl_intro.html",
+    "description": "An Intro to regl for Data Visualization - Jim Vallandingham",
+    "time": "2024-05-26T23:16:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112509443980614640",
+    "scrap_id": "SHJxawK8",
+    "href": "https://mastodon.social/@ejfox/112509443980614640",
+    "description": "<p>Now I just need a 6 hour long documentary to put on in the background while I work and I’ll be good to go</p>",
+    "time": "2024-05-26T21:11:13.239Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "pFdE6I3y",
+    "href": "https://github.com/huginn/huginn",
+    "description": "huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!",
+    "time": "2024-05-26T20:25:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "TkFP0ACu",
     "href": "https://towardsdatascience.com/relation-extraction-with-llama3-models-f8bc41858b9e?gi=992609418b06",
     "description": "Relation Extraction with Llama3 Models",

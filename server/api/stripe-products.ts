@@ -3,17 +3,17 @@ import { useServerStripe } from '#stripe/server'
 
 export default defineEventHandler(async (event) => {
   const stripe = await useServerStripe(event)
-  console.info('Stripe instance:', stripe)
 
   const products = await stripe.products.list({})
 
-  // get prices for each product by taking the product.default_price
-  // and looking it up
-  // like const price = await stripe.prices.retrieve('price_1MoBy5LkdIwHu7ixZhnattbh');
-
   const prices = await Promise.all(
     products.data.map(async (product) => {
-      const stripePrice = await stripe.prices.retrieve(product.default_price)
+      const stripePrices = await stripe.prices.list()
+
+      const stripePrice = stripePrices.data.find((price) => {
+        return price.product === product.id
+      })
+
       return {
         ...product,
         price: stripePrice,
@@ -21,10 +21,7 @@ export default defineEventHandler(async (event) => {
     }),
   )
 
-  // add the prices to the products
   products.data = prices
-
-  // return the products with prices
 
   return new Response(JSON.stringify(products), {
     headers: {

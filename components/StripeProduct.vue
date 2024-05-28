@@ -1,6 +1,6 @@
 <template>
   <div class="rounded-lg">
-    <!-- <pre>{{ product }}</pre> -->
+    <!-- <pre class="max-h-96 overflow-y-auto">{{ product }}</pre> -->
     <div class="product-image-container relative shadow-lg overflow-hidden rounded-lg" v-if="product?.images">
       <!-- get the price SVG and put it on the top right -->
       <img :src="priceSvgPath" alt="Price" class="w-16 md:w-32 h-auto absolute top-4 right-4 md:right-8 z-20 invert"
@@ -20,7 +20,7 @@
 
 
       <div v-if="!productSold">
-        <UButton @click="addToCart" color="green">
+        <UButton @click="buyProduct(product.id)" color="green">
           <img :src="`/images/handdrawn_ceramics_text/handdrawn_ceramics_text-11.svg`" alt="Buy"
             class="mx-4 my-1 w-16 h-auto" />
         </UButton>
@@ -39,6 +39,7 @@
     <!-- <UButton @click="addProductLike" color="green" variant="outline">Make More Like This</UButton> -->
   </div>
   <div class="product-info-container py-2">
+
     <div class="flex flex-row justify-between items-center">
       <!-- <div class="product-name text-3xl py-2">{{ product.name }}</div> -->
 
@@ -62,12 +63,21 @@ const { product } = defineProps(['product']);
 const stripe = useClientStripe();
 
 
+const buyProduct = async (productId) => {
+  const { data } = await useFetch('/api/stripe-checkout', {
+    method: 'POST',
+    body: JSON.stringify({
+      productId,
 
-// MAJOR, HUGE TODO:
-// MAKE THIS BUTTON WORK, YA KNOW?
-function addToCart() {
-  console.log('add to cart');
-}
+      success_url: 'https://ejfox.com/pottery/success',
+      cancel_url: 'https://ejfox.com/pottery',
+    }),
+  });
+
+  const { id: sessionId, url } = data.value.body;
+
+  navigateTo(url, { external: true });
+};
 
 // use the product ID and the stripe client API to find out if the product is sold or not
 const productSold = computed(() => {

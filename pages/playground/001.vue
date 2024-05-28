@@ -5,6 +5,8 @@
 </template>
 
 <script setup>
+import { createNoise2D } from 'simplex-noise';
+
 
 </script>
 

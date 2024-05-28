@@ -47,6 +47,7 @@
     "remark-unwrap-images": "^4.0.0",
     "remark-wiki-link": "^2.0.1",
     "rss": "^1.2.2",
+    "simplex-noise": "^4.0.1",
     "unicode-string": "^2.1.0",
     "unicodechar-string": "^1.0.0",
     "uuid": "^9.0.1",

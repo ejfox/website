@@ -61,12 +61,13 @@ export default {
       'Red Hat Mono': [400],
     },
   },
-  // nitro: {
-  //   prerender: {
-  //     crawlLinks: true,
-  //     failOnError: false,
-  //   },
-  // },
+  nitro: {
+    prerender: {
+      routes: ['/rss.xml'],
+      // crawlLinks: true,
+      // failOnError: false,
+    },
+  },
   app: {
     head: {
       script: [],

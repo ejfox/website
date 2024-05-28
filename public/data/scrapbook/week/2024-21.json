@@ -1,5 +1,124 @@
 [
   {
+    "scrap_id": "TkFP0ACu",
+    "href": "https://towardsdatascience.com/relation-extraction-with-llama3-models-f8bc41858b9e?gi=992609418b06",
+    "description": "Relation Extraction with Llama3 Models",
+    "time": "2024-05-25T17:31:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Enhanced relation extraction by fine-tuning Llama3–8B with a synthetic dataset created using Llama3–70B"
+  },
+  {
+    "id": "112502646091476495",
+    "scrap_id": "J0-C2TEP",
+    "href": "https://mastodon.social/@ejfox/112502646091476495",
+    "description": "<p>God is like “I’ll just have each agent auto-increment the day ID by hand each day independently” and the other engineers were like uhhhhhh</p>",
+    "time": "2024-05-25T16:22:25.683Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "ahXl0XKS",
+    "href": "https://github.com/rvanwijnen/spectral.js",
+    "description": "rvanwijnen/spectral.js: Spectral.js is a paint like color mixing library utilizing the Kubelka-Munk theory.",
+    "time": "2024-05-25T01:59:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "fRC4652n",
+    "href": "https://github.com/desaroger/pm2-hooks",
+    "description": "desaroger/pm2-hooks: Webhook server for pm2",
+    "time": "2024-05-24T14:52:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Webhook server for pm2. Contribute to desaroger/pm2-hooks development by creating an account on GitHub."
+  },
+  {
+    "scrap_id": "mYNJaX7i",
+    "href": "https://wisconsinexaminer.com/2024/05/24/wisconsin-is-in-the-minority-of-states-shielding-police-data-were-suing-to-change-that/",
+    "description": "Wisconsin is in the minority of states shielding police data. We're suing to change that. • Wisconsin Examiner",
+    "time": "2024-05-24T13:19:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112496228739694109",
+    "scrap_id": "eyWkCkCD",
+    "href": "https://mastodon.social/users/ejfox/statuses/112496228739694109/activity",
+    "description": "",
+    "time": "2024-05-24T13:10:24.667Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "yAtZhy30",
+    "href": "https://www.washingtonpost.com/national-security/2023/05/27/police-vacancies-hiring-recruiting-reform/",
+    "description": "Police agencies are desperate to hire. But they say few want the job.",
+    "time": "2024-05-24T12:49:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Police departments across the U.S. are struggling to fill their ranks, creating what many officials say is a staffing emergency that threatens public safety."
+  },
+  {
+    "id": "112494265828590177",
+    "scrap_id": "Em5vBRh3",
+    "href": "https://mastodon.social/@ejfox/112494265828590177",
+    "description": "<p>`pbpaste | jq -c paths(scalars) | map(if type == number then [] else tostring end) | join(.) | sort | uniq | pbcopy`</p><p>if you have a huge JSON file in your clipboard, this command will extract all of the paths of all of the objects/arrays- which I find is really useful when designing views/visualizations for data without constantly clicking around</p>",
+    "time": "2024-05-24T04:51:13.020Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/494/265/585/499/172/small/cfcec466f4e3c491.png"
+    ]
+  },
+  {
+    "scrap_id": "a7vijtNd",
+    "href": "https://www.lexaloffle.com/bbs/?tid=42809",
+    "description": "Sample Sandbox",
+    "time": "2024-05-23T20:56:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "reClzG4_",
+    "href": "https://github.com/dansanderson/picotool",
+    "description": "dansanderson/picotool: Tools and Python libraries for manipulating Pico-8 game files. http://www.lexaloffle.com/pico-8.php",
+    "time": "2024-05-23T20:56:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "0Zxwupj5",
+    "href": "https://academicworks.cuny.edu/gc_etds/5835/",
+    "description": "\"Who do Civilian Review Boards Serve and Protect? Applying Andre Gorz’s\" by Jackson Diamond",
+    "time": "2024-05-22T22:37:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "r0b3QMr0",
+    "href": "https://youtube.com/watch?v=2cT6ULpScZA&si=3qEWnPAb9E9Au3SH",
+    "description": "[no title]",
+    "time": "2024-05-22T17:33:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "xXpG7lR_",
     "href": "https://observablehq.com/plot/getting-started#plot-in-vue",
     "description": "Observable Plot in Vue",

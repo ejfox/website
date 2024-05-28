@@ -1,5 +1,148 @@
 [
   {
+    "href": "https://opencagedata.com/api",
+    "description": "OpenCage Geocoding API Documentation",
+    "extended": "",
+    "meta": "92654f14c3b0091f3c393f586e75c346",
+    "hash": "dac69a4fefba0dae4cf660c237e66b63",
+    "time": "2024-05-27T23:43:33Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": "api"
+  },
+  {
+    "href": "https://regl.neocities.org/",
+    "description": "learn regl!",
+    "extended": "",
+    "meta": "12b765c0115901070e857206f7beec59",
+    "hash": "5c285f11d83288a7fc3d24429c3a0863",
+    "time": "2024-05-26T23:16:44Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://vallandingham.me/regl_intro.html",
+    "description": "An Intro to regl for Data Visualization - Jim Vallandingham",
+    "extended": "",
+    "meta": "34b8cf8526df61ccf3fe9878413770c6",
+    "hash": "b7d405cdb36ad6a4b41914b5256b7289",
+    "time": "2024-05-26T23:16:36Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/huginn/huginn",
+    "description": "huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!",
+    "extended": "",
+    "meta": "be843c996652d7266847835bd5c1bb99",
+    "hash": "d0be434f1278134ee1f19cc6169bd65b",
+    "time": "2024-05-26T20:25:05Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://towardsdatascience.com/relation-extraction-with-llama3-models-f8bc41858b9e?gi=992609418b06",
+    "description": "Relation Extraction with Llama3 Models",
+    "extended": "Enhanced relation extraction by fine-tuning Llama3–8B with a synthetic dataset created using Llama3–70B",
+    "meta": "13a0c75849c8f7929c88f6bfc05a53bc",
+    "hash": "f006750abc4e193cc4b57384cd7e22ae",
+    "time": "2024-05-25T17:31:50Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/rvanwijnen/spectral.js",
+    "description": "rvanwijnen/spectral.js: Spectral.js is a paint like color mixing library utilizing the Kubelka-Munk theory.",
+    "extended": "",
+    "meta": "1ee3facddadf20c426fe9861edee43f9",
+    "hash": "7786acd873d66574fdbdde92d3980d68",
+    "time": "2024-05-25T01:59:33Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/desaroger/pm2-hooks",
+    "description": "desaroger/pm2-hooks: Webhook server for pm2",
+    "extended": "Webhook server for pm2. Contribute to desaroger/pm2-hooks development by creating an account on GitHub.",
+    "meta": "626d8113a2f1b0ee5ad3198d9e0054df",
+    "hash": "c4312d3a80984a2f25e19708039ac06c",
+    "time": "2024-05-24T14:52:58Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://wisconsinexaminer.com/2024/05/24/wisconsin-is-in-the-minority-of-states-shielding-police-data-were-suing-to-change-that/",
+    "description": "Wisconsin is in the minority of states shielding police data. We're suing to change that. • Wisconsin Examiner",
+    "extended": "",
+    "meta": "ddae4e0721b30137a211516f2c3c47d7",
+    "hash": "716969955c12f4668f8aefa13fb33e88",
+    "time": "2024-05-24T13:19:49Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.washingtonpost.com/national-security/2023/05/27/police-vacancies-hiring-recruiting-reform/",
+    "description": "Police agencies are desperate to hire. But they say few want the job.",
+    "extended": "Police departments across the U.S. are struggling to fill their ranks, creating what many officials say is a staffing emergency that threatens public safety.",
+    "meta": "3acc507f548f0798c69c14adca6d5623",
+    "hash": "49f8aa034284bfc97dc086634783f4e7",
+    "time": "2024-05-24T12:49:49Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.lexaloffle.com/bbs/?tid=42809",
+    "description": "Sample Sandbox",
+    "extended": "",
+    "meta": "f483f5399b231e58a7d030508d876881",
+    "hash": "173e2356268138168f89a1bec32d9223",
+    "time": "2024-05-23T20:56:21Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/dansanderson/picotool",
+    "description": "dansanderson/picotool: Tools and Python libraries for manipulating Pico-8 game files. http://www.lexaloffle.com/pico-8.php",
+    "extended": "",
+    "meta": "8f921be66b26e4c01a25abef8e1f56aa",
+    "hash": "7fd441851407b2325a549cc404f4942b",
+    "time": "2024-05-23T20:56:09Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://academicworks.cuny.edu/gc_etds/5835/",
+    "description": "\"Who do Civilian Review Boards Serve and Protect? Applying Andre Gorz’s\" by Jackson Diamond",
+    "extended": "",
+    "meta": "8a732b839b7b611d1174de3a31d6cf7d",
+    "hash": "438f67ece0e4549352cf6afe3e52c4b2",
+    "time": "2024-05-22T22:37:21Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://youtube.com/watch?v=2cT6ULpScZA&si=3qEWnPAb9E9Au3SH",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "f42887f54f4ebf4f927a05bb9c340130",
+    "hash": "2b23bf89d54bfa5473665fdc414b6c47",
+    "time": "2024-05-22T17:33:09Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://observablehq.com/plot/getting-started#plot-in-vue",
     "description": "Observable Plot in Vue",
     "extended": "",
@@ -223,7 +366,7 @@
     "href": "https://www.noemamag.com/we-need-to-rewild-the-internet/",
     "description": "We Need To Rewild The Internet",
     "extended": "",
-    "meta": "186a57fd9b00ff4bdca5a72d5a99f29b",
+    "meta": "3eb063b87a51dab07f92309f692969cc",
     "hash": "21f1fc65a0499d19ded2b8d326791fee",
     "time": "2024-05-08T19:34:53Z",
     "shared": "yes",
@@ -348,7 +491,7 @@
     "hash": "9ee6ea240dc8f288b2d26cafe8600a92",
     "time": "2024-05-05T23:42:31Z",
     "shared": "yes",
-    "toread": "yes",
+    "toread": "no",
     "tags": ""
   },
   {

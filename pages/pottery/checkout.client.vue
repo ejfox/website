@@ -30,6 +30,7 @@ onMounted(() => {
           unit_amount: 2000,
         },
         quantity: 1,
+
       },
     ],
     mode: 'payment',

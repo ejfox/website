@@ -1,6 +1,6 @@
 {
   "arena": {
-    "lastFetch": "2024-05-30T00:15:45.907Z",
+    "lastFetch": "2024-05-30T08:05:50.412Z",
     "errors": []
   },
   "github": {
@@ -8,11 +8,11 @@
     "errors": []
   },
   "mastodon": {
-    "lastFetch": "2024-05-30T00:15:45.907Z",
+    "lastFetch": "2024-05-30T08:05:50.412Z",
     "errors": []
   },
   "pinboard": {
-    "lastFetch": "2024-05-30T00:15:45.907Z",
+    "lastFetch": "2024-05-30T08:05:50.412Z",
     "errors": []
   }
 }

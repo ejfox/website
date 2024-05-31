@@ -18421,8 +18421,8 @@
         "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/109/371/978/165/037/924/original/6a0cf192dfe9ad7a.jpg",
         "header": "https://mastodon.social/headers/original/missing.png",
         "header_static": "https://mastodon.social/headers/original/missing.png",
-        "followers_count": 360,
-        "following_count": 1014,
+        "followers_count": 363,
+        "following_count": 1018,
         "statuses_count": 333,
         "last_status_at": "2024-05-30",
         "hide_collections": false,
@@ -18436,7 +18436,7 @@
           {
             "name": "Website",
             "value": "<a href=\"https://www.jeremiak.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">jeremiak.com</span><span class=\"invisible\"></span></a>",
-            "verified_at": "2024-05-17T22:49:09.520+00:00"
+            "verified_at": "2024-05-31T01:06:02.436+00:00"
           },
           {
             "name": "Location",
@@ -21559,9 +21559,9 @@
         "avatar_static": "https://files.mastodon.social/accounts/avatars/000/322/617/original/f88f17f4d2c8ad8c.jpg",
         "header": "https://mastodon.social/headers/original/missing.png",
         "header_static": "https://mastodon.social/headers/original/missing.png",
-        "followers_count": 5277,
+        "followers_count": 5292,
         "following_count": 1387,
-        "statuses_count": 23551,
+        "statuses_count": 23553,
         "last_status_at": "2024-05-31",
         "hide_collections": false,
         "noindex": false,

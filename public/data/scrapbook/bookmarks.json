@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://github.com/dlvhdr/gh-dash",
+    "description": "dlvhdr/gh-dash: A beautiful CLI dashboard for GitHub 🚀",
+    "extended": "",
+    "meta": "cc447016da8a7c5e6202993e33a7acc4",
+    "hash": "4ec9827c963ba5ba97bc9fe6164efd3d",
+    "time": "2024-06-01T00:37:49Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.reddit.com/r/vjing/comments/18q204s/editing_video_for_resolume_beat_sync/",
     "description": "Editing Video for Resolume Beat Sync : r/vjing",
     "extended": "Work in 30 or 60 FPS. Animate so your visual beats happen on a frame number divisible by 30. Now your video clip is 120 bpm and will stretch or compress to any BPM in Resolume and stay on beat.\r\n\r\n",

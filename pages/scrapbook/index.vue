@@ -75,8 +75,8 @@
           </div>
         </h2>
         <div v-if="scrapOnDeck.length === 0" class="text-center text-gray-500">No scraps on deck</div>
-        <div v-else class="p-1 md:px-4 lg:px-8 ">
-          <div v-for="scrap in scrapOnDeckObjects" :key="scrapId"
+        <div v-else class="p-1 md:px-4 lg:px-8 " v-if="scrapOnDeck.length > 0">
+          <div v-for="scrap in scrapOnDeckObjects" :key="scrap?.scrap_id || scrap?.id"
             class="border-b border-gray-200 bg-gray-200 dark:bg-gray-800 p-1 md:p-2 lg:px-4 rounded-sm w-full py-2 my-2 flex flex-row justify-between">
             <ScrapVerboseScrapItem v-if="scrap" :scrap="scrap" class="leading-none" />
             <UButton @click="removeScrapFromDeck(scrap.scrap_id)" color="red" variant="outline">Remove</UButton>

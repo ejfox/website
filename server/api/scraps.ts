@@ -1,13 +1,14 @@
-const { createClient } = require('@supabase/supabase-js')
-const dotenv = require('dotenv')
-
+// const { createClient } = require('@supabase/supabase-js')
+// const dotenv = require('dotenv')
+// these should be imports
+import { createClient } from '@supabase/supabase-js'
+import dotenv from 'dotenv'
 dotenv.config()
 
-const supabaseUrl = process.env.SUPABASE_URL
-const supabaseKey = process.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
-
 export default defineEventHandler(async (event) => {
+  const supabaseUrl = process.env.SUPABASE_URL
+  const supabaseKey = process.env.SUPABASE_KEY
+  const supabase = createClient(supabaseUrl, supabaseKey)
   // read the number of scraps out of the event body
   const body = await readBody(event)
 

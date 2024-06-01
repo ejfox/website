@@ -11,6 +11,7 @@
       </a>
     </div> -->
     <!-- <pre>{{ scrap }}</pre> -->
+
     <div class="hidden">
       <!-- PR icon if type is user-github-pr -->
       <UIcon v-if="scrap.type === 'github-pr'" name="i-ph-git-pull-request-fill" class="w-4 h-4 inline ml-0.5" />
@@ -32,7 +33,7 @@
     <small class="opacity-50 inline-block overflow-hidden mr-1 align-top mb-0.5 text-xs"
       @click="navigateTo(scrap.href, { external: true })">
       {{ formatDate(scrap.time) }}
-      &lt;+{{ scrap.type }}&gt;
+      &lt;+{{ scrapTypeToSymbol(scrap.type) }} {{ scrap.type }}&gt;
     </small>
 
     <!-- <span v-if="scrap.type === 'mastodon'" class="mb-0.5 text-xs font-medium leading-7 w-5/6"
@@ -63,6 +64,7 @@
 
 <script setup>
 import { format } from 'date-fns'
+import { scrapTypeSymbols } from '~/helpers'
 
 const props = defineProps({
   scrap: {
@@ -70,6 +72,15 @@ const props = defineProps({
     required: true,
   },
 })
+
+function scrapTypeToSymbol(type) {
+  // if the type is 'github-pr'
+  // just turn it into 'github'
+  if (type.includes('github')) {
+    return 'github'
+  }
+  return scrapTypeSymbols[type]
+}
 
 const formatDate = (date) => {
   return format(new Date(date), 'M-dd|hh:mma')

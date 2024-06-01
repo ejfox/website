@@ -162,3 +162,15 @@ export function generatePassword(titleSlug) {
   const password = hash.slice(0, 8) + hash.slice(-8)
   return password
 }
+
+export const scrapTypeSymbols = {
+  pinboard: '■', // U+25A0
+  'mastodon-post': '▲', // U+25B2
+  arena: '●', // U+25BC
+  github: '◆', // U+25C6
+  'github-star': '◆', // U+25C6
+  // 'github-pr': '◆', // U+25C6
+  // slight difference in shape
+  'github-pr': '◇', // U+25C7
+  twitter: '○', // U+25CB
+}

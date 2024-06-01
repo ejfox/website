@@ -11,8 +11,35 @@
       <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
+      <UButton @click="addScrapToDeck(group.items[0])" color="green">Add</UButton>
+      <UButton @click="removeScrapFromDeck(group.items[0])" color="red">Remove</UButton>
     </div>
     <div v-if="loading" class="text-center">Loading...</div>
+
+
+    <!-- the little on deck drawer -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 h-80 overflow-x-auto overflow-y-hidden"
+      v-if="scrapOnDeck.length > 0">
+      <!-- <pre>{{ scrapOnDeckObjects }}</pre> -->
+
+      <div class="p-4 w-full">
+        <h2 class="text-lg font-bold m-0 py-1">On Deck
+          <span class="mr-2">
+            <UBadge color="black">{{ scrapOnDeck.length }}</UBadge>
+          </span>
+          <UButton @click="clearDeck" color="red">Clear all</UButton>
+        </h2>
+        <div v-if="scrapOnDeck.length === 0" class="text-center text-gray-500">No scraps on deck</div>
+        <div v-else class="flex flex-nowrap overflow-x-auto">
+          <div v-for="scrap in scrapOnDeckObjects" :key="scrapId"
+            class="border-b border-gray-200 bg-gray-200 dark:bg-gray-800 p-1 rounded-sm min-h-48 min-w-48 mr-2">
+            <ScrapVerboseScrapItem v-if="scrap" :scrap="scrap" class="min-h-32" />
+            <UButton @click="removeScrapFromDeck(scrap.scrap_id)" color="red" variant="outline">Remove</UButton>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -23,11 +50,66 @@ import { format } from 'date-fns'
 import ScrapItem from '~/components/Scrap/Item.vue'
 import ScrapGallery from '~/components/Scrap/Gallery.vue'
 
+
+
+
+
+
+
 const scrapcontainer = ref(null)
 const { combinedData } = useScrap()
 const displayedData = ref([])
 const loading = ref(false)
 const PAGE_SIZE = 20
+
+
+// we are gonna make a sort of, ya know, scrap shopping cart
+// in the first step of letting the user put together threads
+// first we want an easy way to like, accumulate an "on deck" list
+// in a drawer some where (probably at the bottom of the screen)
+// and we will store the scraps we grab by their ID in local storage
+// so we can grab it on other pages
+
+const scrapOnDeck = useLocalStorage('scrapOnDeck', [])
+
+
+const scrapOnDeckObjects = ref([])
+
+watchEffect(() => {
+  if (!combinedData.value) return
+  scrapOnDeckObjects.value = scrapOnDeck.value.map(scrapId => {
+    return combinedData.value.find(scrap => scrap.scrap_id === scrapId)
+  })
+})
+
+// now we need some mutation functions to add and remove scraps from the on deck list
+
+const addScrapToDeck = (scrapId) => {
+  // if its an object, maybe we accidentally passed the whole scrap object
+  // lets just grab the ID
+  if (typeof scrapId === 'object') {
+    scrapId = scrapId.scrap_id
+  }
+  scrapOnDeck.value.push(scrapId)
+}
+
+const removeScrapFromDeck = (scrapId) => {
+  // if its an object, maybe we accidentally passed the whole scrap object
+  // lets just grab the ID
+  if (typeof scrapId === 'object') {
+    scrapId = scrapId.scrap_id
+  }
+  const index = scrapOnDeck.value.indexOf(scrapId)
+  if (index > -1) {
+    scrapOnDeck.value.splice(index, 1)
+  }
+}
+
+const clearDeck = () => {
+  scrapOnDeck.value = []
+}
+
+
 
 const loadMore = () => {
   loading.value = true

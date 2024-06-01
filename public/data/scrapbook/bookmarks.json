@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://github.com/yaronn/blessed-contrib?tab=readme-ov-file",
+    "description": "yaronn/blessed-contrib: Build terminal dashboards using ascii/ansi art and javascript",
+    "extended": "",
+    "meta": "51773c2b8f8736260c6c5743e7116f22",
+    "hash": "4a79eeabc002f7661fc22f15e83e7f86",
+    "time": "2024-06-01T08:21:56Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/dlvhdr/gh-dash",
     "description": "dlvhdr/gh-dash: A beautiful CLI dashboard for GitHub 🚀",
     "extended": "",

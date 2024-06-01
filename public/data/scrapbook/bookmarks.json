@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.nysenate.gov/legislation/laws/RPP/235-G",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "59f8ab5d1f4fef759206726c4311114e",
+    "hash": "48d31f05c87d52e6df6506b3b99c8d11",
+    "time": "2024-06-01T16:41:00Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/yaronn/blessed-contrib?tab=readme-ov-file",
     "description": "yaronn/blessed-contrib: Build terminal dashboards using ascii/ansi art and javascript",
     "extended": "",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "112543144916913599",
+    "scrap_id": "SCyWBIxF",
+    "href": "https://mastodon.social/@ejfox/112543144916913599",
+    "description": "<p>be careful what you hope for</p>",
+    "time": "2024-06-01T20:01:48.720Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/543/144/664/723/751/small/bdfe4f910fed43b7.png"
+    ]
+  },
+  {
+    "scrap_id": "-kXUGXkd",
+    "href": "https://www.nysenate.gov/legislation/laws/RPP/235-G",
+    "description": "[no title]",
+    "time": "2024-06-01T16:41:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "6mo0b3jN",
     "href": "https://github.com/yaronn/blessed-contrib?tab=readme-ov-file",
     "description": "yaronn/blessed-contrib: Build terminal dashboards using ascii/ansi art and javascript",

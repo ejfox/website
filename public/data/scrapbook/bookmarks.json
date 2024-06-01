@@ -1,5 +1,60 @@
 [
   {
+    "href": "https://www.reddit.com/r/vjing/comments/18q204s/editing_video_for_resolume_beat_sync/",
+    "description": "Editing Video for Resolume Beat Sync : r/vjing",
+    "extended": "Work in 30 or 60 FPS. Animate so your visual beats happen on a frame number divisible by 30. Now your video clip is 120 bpm and will stretch or compress to any BPM in Resolume and stay on beat.\r\n\r\n",
+    "meta": "85ccc055009f16f6fcd7fa82de51a1e1",
+    "hash": "05e190f5b8ca47041565407ecebda5ff",
+    "time": "2024-05-31T20:04:20Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://unix.stackexchange.com/questions/261531/how-to-send-output-from-one-terminal-to-another-without-making-any-new-pipe-or-f",
+    "description": "command line - How to send output from one terminal to another without making any new pipe or file - Unix & Linux Stack Exchange",
+    "extended": "Use the tty command in each terminal to identify them:\r\n\r\n$ tty\r\n/dev/pts/0\r\n\r\n$ tty\r\n/dev/pts/1\r\nAssuming these TTYs, to redirect the first's stdout to the second, run this in the first terminal:\r\n\r\nexec 1>/dev/pts/1",
+    "meta": "9acaaf3156c6d7580f0369529eb1d0aa",
+    "hash": "45ee5ef9fe1455095a239da59de09b8f",
+    "time": "2024-05-31T19:37:27Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/borolgs/enchanted-canvas/tree/master",
+    "description": "borolgs/enchanted-canvas: The plugin for Obsidian that extends the functionality of the standard canvas-plugin.",
+    "extended": "",
+    "meta": "58ddb61a2df66c9707f9e0847a619fe7",
+    "hash": "b2439c182827d9fe9fb7c5e8a9d8da1a",
+    "time": "2024-05-31T19:03:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://forum.obsidian.md/t/any-details-on-the-canvas-api/57120/2",
+    "description": "Any details on the canvas API? - Developers: Plugin & API - Obsidian Forum",
+    "extended": "app.workspace.getLeavesOfType('canvas')[0].view.canvas",
+    "meta": "8b79f65f97936503a212dbb7548b3106",
+    "hash": "96640e91eb1902493739a74acb4b6bae",
+    "time": "2024-05-31T19:03:32Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.thecity.nyc/2024/05/31/booze-patrol-sheriffs-no-charges/",
+    "description": "‘Booze Patrol’ Sheriffs Had ‘Man-Cave’ Full of Stolen COVID Liquor — But Escaped Criminal Charges",
+    "extended": "",
+    "meta": "00ce3406f44bb77ca4968ee8e5af6e09",
+    "hash": "c43ad73cd2a38e6d5025ab17b081d378",
+    "time": "2024-05-31T16:15:36Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/Twisted-Fields/acorn-robot-electronics/tree/main",
     "description": "Twisted-Fields/acorn-robot-electronics: PCB hardware designs in KICAD for Acorn, the precision farming rover from Twisted Fields.",
     "extended": "",

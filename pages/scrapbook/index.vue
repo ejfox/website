@@ -59,7 +59,7 @@
           <UButton @click="saveDeck" color="green" class="m-1">Save as deck
             {{ currentDeck + 1 }}
           </UButton>
-          <div class="inline-flex flex-row">
+          <div class="inline md:inline-flex md:flex-row">
             <UButton v-for="(deck, index) in savedDecks" @click="loadDeck(index)" color="blue" class="mx-1">
               Load deck {{ index }}
 
@@ -77,12 +77,14 @@
         <div v-if="scrapOnDeck.length === 0" class="text-center text-gray-500">No scraps on deck</div>
         <div v-else class="p-1 md:px-4 lg:px-8 " v-if="scrapOnDeck.length > 0">
           <div v-for="scrap in scrapOnDeckObjects" :key="scrap?.scrap_id || scrap?.id"
-            class="border-b border-gray-200 bg-gray-200 dark:bg-gray-800 p-1 md:p-2 lg:px-4 rounded-sm w-full py-2 my-2 flex flex-row justify-between">
+            class="border-b border-gray-200 bg-gray-200 dark:bg-gray-800 p-1 md:p-2 lg:px-4 rounded-sm w-full py-2 my-2 md:flex flex-row justify-between">
             <ScrapVerboseScrapItem v-if="scrap" :scrap="scrap" class="leading-none" />
             <UButton @click="removeScrapFromDeck(scrap.scrap_id)" color="red" variant="outline">Remove</UButton>
           </div>
         </div>
       </div>
+      <UButton @click="saveDeckAsThread" color="primary" class="m-1 md:mx-6 px-1 md:p-2 lg:p-4 
+      ">Save deck as thread</UButton>
     </div>
 
   </div>
@@ -140,6 +142,19 @@ const loadDeck = (deckIndex) => {
 
 const removeDeck = (deckIndex) => {
   savedDecks.value.splice(deckIndex, 1)
+}
+
+
+// when a deck is finalized, we will save it as a thread
+// which means sending the user to
+// the /scrapbook/threads/new page
+// with an array of scrap IDs in the query string as "scrapIds"
+const saveDeckAsThread = () => {
+  // we will save the deck as a thread
+  // and then redirect the user to the new thread page
+  // with the scrap IDs in the query string
+  const scrapIds = scrapOnDeck.value.join(',')
+  navigateTo(`/scrapbook/threads/new?scrapIds=${scrapIds}`)
 }
 
 

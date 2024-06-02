@@ -9,6 +9,7 @@ export default {
     '@vueuse/nuxt',
     '@nuxt/image',
     '@unlok-co/nuxt-stripe',
+    '@nuxtjs/supabase',
   ],
   ui: {
     icons: 'all',
@@ -17,6 +18,13 @@ export default {
     public: {
       DEV: process.env.NODE_ENV !== 'production',
     },
+  },
+  redirectOptions: {
+    login: '/login',
+    callback: '/confirm',
+    include: undefined,
+    exclude: ['/*', '*'],
+    cookieRedirect: false,
   },
   stripe: {
     // Server

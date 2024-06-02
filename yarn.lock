@@ -1310,7 +1310,7 @@
     unist-util-visit "^5.0.0"
     unwasm "^0.3.7"
 
-"@nuxtjs/supabase@^1.0.1":
+"@nuxtjs/supabase@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/supabase/-/supabase-1.2.2.tgz#7992620f884a84a089e0f949c4523554151db1b1"
   integrity sha512-DNEuB7YXaOhV118bNway6SUpQLGq0zsK1kzddyETrwx3dHz+7etEw+QKU7iVs/GZog9Q7xkUQtGhcEQYaTZ71w==

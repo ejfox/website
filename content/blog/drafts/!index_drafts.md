@@ -52,7 +52,7 @@ draft: true
 - [[drafts/i-just-do-what-my-calendar-says|i-just-do-what-my-calendar-says]]
 - [[drafts/hudson-valley-motorcycle-rides|hudson-valley-motorcycle-rides]]
 - [[drafts/how-to-make-an-infographic|how-to-make-an-infographic]]
-- [[drafts/how-to-give-credit|how-to-give-credit]]
+- [[how-to-give-credit 1|how-to-give-credit 1]]
 - [[drafts/how-to-get-started-with-data-analysis-visualization|how-to-get-started-with-data-analysis-visualization]]
 - [[drafts/how-to-decide-if-an-idea-is-worth-pursuing|how-to-decide-if-an-idea-is-worth-pursuing]]
 - [[drafts/how-men-use-radios|how-men-use-radios]]

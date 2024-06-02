@@ -23,7 +23,7 @@ export default {
     login: '/login',
     callback: '/confirm',
     include: undefined,
-    exclude: ['/*', '*'],
+    exclude: ['/*', '*', '/'],
     cookieRedirect: false,
   },
   stripe: {

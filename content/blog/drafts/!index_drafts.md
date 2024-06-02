@@ -39,7 +39,7 @@ draft: true
 - [[drafts/my-vscode-setup|my-vscode-setup]]
 - [[drafts/my-struggle-with-wasting-food|my-struggle-with-wasting-food]]
 - [[drafts/motorcycle-pico-8-game|motorcycle-pico-8-game]]
-- [[drafts/motorcycle-camping|motorcycle-camping]]
+- [[motorcycle-camping 1|motorcycle-camping 1]]
 - [[drafts/minecraft-is-the-metaverse|minecraft-is-the-metaverse]]
 - [[drafts/mental-model-of-robot-brains|mental-model-of-robot-brains]]
 - [[drafts/media-diet|media-diet]]

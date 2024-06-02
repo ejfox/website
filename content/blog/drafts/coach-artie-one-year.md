@@ -1,6 +1,6 @@
 ---
 date: "2024-04-21T22:29:38.000Z"
-modified: "2024-04-23T19:45:28.000Z"
+modified: "2024-06-02T04:30:31.000Z"
 hidden: true
 draft: true
 ---
@@ -12,7 +12,10 @@ draft: true
 
 #### Solving our own problems for ourselves, first
 
-Coach Artie was initially created as an Art Coach to help me focus on my watercolor practice. It was first created as a Discord bot integration to allow the studio to play with the OpenAI API together
+Coach Artie was initially created as an Art Coach to help me focus on my watercolor practice. It was first created as a Discord bot integration to allow the studio to play with the OpenAI API together, and it has been amazing to watch it evolve into something much bigger and more interesting over time.
+
+>If you're making something for people, make sure it's something they actually want. The best way to do this is to make something you yourself want. Write the story you want to read; build the tool you want to use. Since your friends probably have similar interests, this will also get you your initial audience.
+><https://paulgraham.com/greatwork.html>
 
 #### "Multiplayer" Interactions
 
@@ -27,6 +30,10 @@ He also began responding to `@here` and proactively writing meeting agendas
 We found the best results happened when treating Coach Artie has a studio collaborator or intern, and including it in our discussions wherever possible so it could have a contextual understanding of the goings-on of the studio to enrich responses
 
 We also tried to emphasize emotional intelligence and joy in interactions- remembering specific emotional states and reactions in our reflections
+
+![Screenshot_2024-02-16_at_1.51.13_PM](https://res.cloudinary.com/ejf/image/upload/v1708109486/Screenshot_2024-02-16_at_1.51.13_PM.png)
+
+The anthropomorphism also helps already role-play the position of a studio assistant, which in fact results in him being that in reality.
 
 #### Reflections and Memories
 
@@ -61,8 +68,6 @@ graph TD
     O --> S[Final Output]
     R --> S
 ```
-
-
 
 These memories are adding to the context of every interaction on both a temporal and relevance basis; ie, both recent memories and "similar" memories to the user prompt are added to enrich responses
 
@@ -124,31 +129,34 @@ graph TD
     T[Trim Message Chain] --> U[Randomly Select<br>Message to Trim]
 ```
 
-#### Where we use randomness
+### Where we use randomness
 - Randomly deciding whether to add a hexagram prompt to messages
 - Generating random values for temperature, presence penalty, and frequency penalty in AI completion parameters
-- Selecting a random message to trim when trimming the message chain 
-- Determining the number of previous user messages and memories to retrieve 
-- Determining the number of relevant memories and general memories to retrieve 
+- Selecting a random message to trim when trimming the message chain
+- Determining the number of previous user messages and memories to retrieve
+- Determining the number of relevant memories and general memories to retrieve
 - Generating a random hexagram number and its corresponding name
 
-### Letting Coach Artie Manage His Own Systems
+## Letting Coach Artie Manage His Own Systems
+
 In our quest to create a truly autonomous AI assistant, we've focused on giving Coach Artie the tools he needs to manage his own systems. Central to this effort are two powerful capabilities: `pgcron` and `supabaseraw`. These capabilities allow Coach Artie to interact with his Supabase database and schedule tasks without relying on human intervention.
 
-### Building an extendable suite of capabilities
+## Building an extendable suite of capabilities
+
 With `pgcron`, Coach Artie can create, list, update, and delete cron jobs, which are essentially scheduled tasks. This could be anything from running a SQL query to sending a webhook request to an external API. The flexibility of `pgcron` allows Coach Artie to automate a wide range of tasks and keep his operations running smoothly.
 
 The `supabaseraw` capability complements `pgcron` by giving Coach Artie direct access to his database. He can select, insert, update, and delete data based on specific conditions, essentially giving him full control over his information storage and retrieval. This level of access allows Coach Artie to analyze his own data, detect patterns or inefficiencies, and take action to optimize his performance.
 
 By leveraging these two capabilities, Coach Artie can now monitor his own systems, identify areas for improvement, and implement solutions independently. This represents a significant step forward in our goal of creating an AI assistant that can learn, adapt, and evolve without constant human guidance. As we continue to refine and expand Coach Artie's capabilities, we're excited to see how he'll use his newfound autonomy to tackle even more complex challenges.
 
-### Constant testing and iteration
-#### Failures around teaching Capabilities
-#### Failures around scheduled proactivity
-#### Pilot program in The Birch School
-#### Internal usage within Room 302 Studio
+## Constant testing and iteration
+### Failures around teaching Capabilities
 
-### Future Plans: 1 year, 5 year outlook
-#### 1 Year Roadmap
+### Failures around scheduled proactivity
+### Pilot program in The Birch School
+### Internal usage within Room 302 Studio
 
-#### 5 Year Roadmap
+## Future Plans: 1 year, 5 year outlook
+### 1 Year Roadmap
+
+### 5 Year Roadmap

@@ -3,25 +3,25 @@ draft: true
 dek: "In which"
 inprogress: true
 date: "2022-11-03T01:22:25.000Z"
-modified: "2022-12-23T14:21:56.000Z"
+modified: "2024-05-07T18:11:34.000Z"
 hidden: true
 ---
-#motorcycle #hudsonvalley 
+#motorcycle #hudsonvalley
 
-# Hudson Valley Motorcycle Rides and Spots to Visit
+## Hudson Valley Motorcycle Rides and Spots to Visit
 
-## How I track my ride data
-### GPX data from iPhone
-### GPX data from Garmin
+### How I track my ride data
+#### GPX data from iPhone
+#### GPX data from Garmin
 
-## Fahnestock / 301
+### Fahnestock / 301
 
-## Bear Mountain Bridge / Anthony's Nose
+### Bear Mountain Bridge / Anthony's Nose
 
-## Seven Lakes Drive
+### Seven Lakes Drive
 
-## Greenwood Lake
+### Greenwood Lake
 
-## Perkins Lookout
+### Perkins Lookout
 
-## Catskills
+### Catskills

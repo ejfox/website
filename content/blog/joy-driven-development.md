@@ -2,7 +2,7 @@
 dek: In which we use joy and curiosity as fuel to propel us forward
 inprogress: true
 date: 2022-11-02T20:06:51-04:00
-modified: 2024-05-07T14:55:14-04:00
+modified: 2024-05-16T16:43:59-04:00
 tags: programming process
 ---
 
@@ -31,6 +31,9 @@ You have to set an intention to lean into what you are naturally drawn to. Harne
 #### Follow the Joyful Compass: How To Approach Decision-Making
 
 Embracing Joy-Driven Development is akin to navigating your creative odyssey with a compass forged from joy. As you face countless decisions, let each step be guided by the direction that invites the most joy for the people embarking on this voyage with you.
+
+>There's a kind of excited curiosity that's both the engine and the rudder of great work. It will not only drive you, but if you let it have its way, will also show you what to work on.
+><https://paulgraham.com/greatwork.html>
 
 ### Addressing the Skeptics
 

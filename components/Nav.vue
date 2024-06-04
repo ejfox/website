@@ -7,6 +7,7 @@
       <NuxtLink :class="linkClasses" to="/"> Home </NuxtLink>
       <NuxtLink :class="linkClasses" to="/projects"> Projects </NuxtLink>
       <NuxtLink :class="linkClasses" to="/blog/">Blog </NuxtLink>
+      <NuxtLink :class="linkClasses" to="https://ejfox.photos">Photos</NuxtLink>
       <NuxtLink :class="linkClasses" to="/scrapbook/">Scrapbook</NuxtLink>
 
       <div class="px-2 md:px-4 mt-12 text-xs">

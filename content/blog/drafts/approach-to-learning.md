@@ -3,21 +3,21 @@ draft: true
 dek: "In which we embark on a journey of introspection and adaptation, unveiling the secrets to unlocking the power of effective learning tailored to our unique selves"
 inprogress: true
 date: "2023-01-19T06:31:34.000Z"
-modified: "2024-05-07T21:20:35.000Z"
+modified: "2023-04-03T04:38:44.000Z"
 tags: "personal"
 hidden: true
 ---
-## My approach to learning
+# My approach to learning
 
-One of the most important things to become aware of his **how you best learn things**. Once you have mastered this superpower, you can apply this meta-tool to any field of study that interests and see results almost instantly. Unfortunately this is not something that can be taught easily, but comes through a process of self-learning and reflection.
+One of the most important things to become aware of his **how you best learn things**. Once you have mastered this superpower, you can apply this meta-tool to any field of study that interests and see results almost instantly. Unfortunately this is not something that can be taught easily, but comes through a process of self-learning and reflection. 
 
->The teaching which is written on paper is not the true teaching. Written teaching is a kind of food for your brain. Of course it is necessary to take some food for your brain, but it is more important to be yourself by practicing the right way of life.
->[Suzuki-Chadwick-Zen Mind, Beginners Mind](Suzuki-Chadwick-Zen%20Mind,%20Beginners%20Mind.md)
+> The teaching which is written on paper is not the true teaching. Written teaching is a kind of food for your brain. Of course it is necessary to take some food for your brain, but it is more important to be yourself by practicing the right way of life.
+> [Suzuki-Chadwick-Zen Mind, Beginners Mind](Suzuki-Chadwick-Zen%20Mind,%20Beginners%20Mind.md)
 
 ---
 
->In the beginner’s mind there are many possibilities; in the expert’s mind there are few.
->[Suzuki-Chadwick-Zen Mind, Beginners Mind](Suzuki-Chadwick-Zen%20Mind,%20Beginners%20Mind.md)
+> In the beginner’s mind there are many possibilities; in the expert’s mind there are few.
+> [Suzuki-Chadwick-Zen Mind, Beginners Mind](Suzuki-Chadwick-Zen%20Mind,%20Beginners%20Mind.md)
 
 ---
 

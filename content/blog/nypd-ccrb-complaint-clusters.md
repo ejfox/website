@@ -1,37 +1,35 @@
 ---
-date: 2021-06-11T04:00:17-04:00
+date: "2021-06-11T15:10:17-04:00"
 type: words
 hidden: false
 inprogress: false
 dek: In which various tools and methods are explored for analyzing data that describes a network of complaints against NYPD officers (or any other PD with similar public data)
-modified: 2024-06-03T16:17:16-04:00
 ---
 
-## Finding Clusters of NYPD Officers In CCRB Complaint Data
+# Finding Clusters of NYPD Officers In CCRB Complaint Data
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624505769/Screen_Shot_2021-06-21_at_8.58.50_PM.jpg" />
 
-### Why?
+## Why?
 
 Complaints filed against police officers by the public are often the first and only warning sign that a cop might be on a course of escalating violence.
 
 In the deaths of George Floyd and Eric Garner their killers had a documented history of complaints filed against them. Unfortunately nothing was done to disrupt their pattern of abuse, and both cases ended in those officers killing members of the public they had sworn to protect.
 
 ::table-of-contents
-
 ::
 
-#### George Floyd
+### George Floyd
 
->Chauvin, who was fired, has said through his attorney that his handling of Floyd’s arrest was a reasonable use of authorized force. But he was the subject of at least **22 complaints or internal investigations during his more than 19 years at the department, only one of which resulted in discipline**. These new interviews show not only that he may have used excessive force in the past, but that he had used startlingly similar techniques.
->['That could have been me': The people Derek Chauvin choked before George Floyd](https://www.mprnews.org/story/2021/02/05/that-could-have-been-me-the-people-derek-chauvin-choked-before-george-floyd)
+> Chauvin, who was fired, has said through his attorney that his handling of Floyd’s arrest was a reasonable use of authorized force. But he was the subject of at least **22 complaints or internal investigations during his more than 19 years at the department, only one of which resulted in discipline**. These new interviews show not only that he may have used excessive force in the past, but that he had used startlingly similar techniques.
+> ['That could have been me': The people Derek Chauvin choked before George Floyd](https://www.mprnews.org/story/2021/02/05/that-could-have-been-me-the-people-derek-chauvin-choked-before-george-floyd)
 
 The officer convicted of murdering George Floyd had at least 22 complaints against him. The officer who put Eric Garner in a chokehold and killed him had [7 complaints](https://www.scribd.com/document/342591738/D-Pantaleo-Alleged-CCRB-File) [filed against him](https://gothamist.com/news/newly-leaked-documents-suggests-cop-who-killed-eric-garner-had-history-of-misconduct).
 
-#### Eric Garner
+### Eric Garner
 
->Before he put Garner in the chokehold, the records show, he had _seven disciplinary complaints and 14 individual allegations_ lodged against him. Four of those allegations were substantiated by an independent review board.
->[The disturbing secret history of the NYPD officer who killed Eric Garner](https://archive.thinkprogress.org/daniel-pantaleo-records-75833e6168f3/)
+> Before he put Garner in the chokehold, the records show, he had _seven disciplinary complaints and 14 individual allegations_ lodged against him. Four of those allegations were substantiated by an independent review board.
+> [The disturbing secret history of the NYPD officer who killed Eric Garner](https://archive.thinkprogress.org/daniel-pantaleo-records-75833e6168f3/)
 
 Of the 14 individual allegations against Garner's killer, 5 are for force: "hit against inanimate object", "physical force", and a single complaint in 2014 that would foreshadow the behavior that would eventually end the Officer's career: "Force - Chokehold".
 
@@ -41,7 +39,7 @@ I am documenting my analysis in detail for a few reasons:
 - So that every step is documented, and any mistake [can be easily caught and fixed](https://en.wikipedia.org/wiki/Linus%27s_law) by the infinite supply of people on the internet who are smarter than me
 - To maybe inspire people to use computers to investigate the things in the world that are important to them, and share the tools I use to do that
 
-#### Network visualization prior work / inspiration
+### Network visualization prior work / inspiration
 
 You may have seen network analysis like this before.
 
@@ -49,13 +47,13 @@ You may have seen network analysis like this before.
 
 [Adi Cohen](https://twitter.com/adico11) has pioneered a method of [combining Gephi with CrowdTangle](https://help.crowdtangle.com/en/articles/4495952-network-mapping-with-gephi-and-crowdtangle) to analyze the network of groups and pages sharing links.
 
-#### Provenance
+### Provenance
 
 WNYC/Gothamist received the data in response to a Freedom of Information Law request and provided me an excel file for analysis.
 
-### The Dataset
+## The Dataset
 
-#### Differences from data previously released by ProPublica
+### Differences from data previously released by ProPublica
 
 ProPublica released and covered [similar data](https://www.propublica.org/article/nypd-civilian-complaint-review-board-editors-note) in July of 2020.
 
@@ -69,15 +67,15 @@ This makes it a "noisier" dataset. In our case this can be an advantage since we
 
 Being named with another officer on a complaint, even if that complaint is unfounded, is a signal that those officers interacted in a way that was noticed by the public. Being the subject of an unfounded complaint together might even cause officers to form a tighter relationship. Because of that, I will incorporate witness data into our analysis.
 
-#### NYPD internal structure as it relates to our data
+### NYPD internal structure as it relates to our data
 
 The NYPD is divided into coverage areas within the 5 boroughs known as precincts. When I lived in Brooklyn, I lived in the 81st Precinct which covers Bed-Stuy.
 
 The NYPD also has a number of units, like the Warrant Squad or Narcotics that span different precincts. An officer might report to a numbered precinct, but their command is Brooklyn Narcotics, and they are interacting with other officers in their unit more than the precinct they work out of. Our data reflects this.
 
-### Analysis
+## Analysis
 
-#### Overview exploration / metadata
+### Overview exploration / metadata
 
 The source dataset is an 81.2MB excel file that I received as `FOIL2021-00167_Dataset.xlsx`. It has 3 tabs. The first has some general notes[^1] about the dataset.
 
@@ -85,7 +83,7 @@ The first tab has the title of `OfficerAllegationHistory` and has 181,627 entrie
 
 The second tab has the title of `OfficersInvolvedInComplaints` and has 239,608 entries and 18[^3] columns.
 
-### Analyzing our data with Datasette / SQLite
+## Analyzing our data with Datasette / SQLite
 
 Once we [convert our CSV files](https://pypi.org/project/csvs-to-sqlite/) into SQLite `.db` files we can use [Datasette](https://github.com/simonw/datasette) to get a sense of the data and slice off pieces for further analysis.
 
@@ -137,7 +135,7 @@ We also looked at which commands received the most complaints across the entire 
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036139/Screen_Shot_2021-05-26_at_12.03.54_PM.png" />
 
-#### Filtering out "Exonerated" and "Unfounded" complaints for our network
+### Filtering out "Exonerated" and "Unfounded" complaints for our network
 
 To get our network closer to a representation of officers who are receiving complaints for misconduct we want to filter out any of the cases in which the officer was `Exonerated` or the CCRB's disposition was that it was _Unfounded_.
 
@@ -151,7 +149,7 @@ AND [CCRB Allegation Disposition] IS NOT 'Unfounded')
 
 Which gives us a slightly more manageable _65,401 rows_. We'll save these results off as a .csv for further analysis.
 
-I had to do some funky stuff[^3] to fix the dates in SQLite, but once I did that, it was easy to filter by the date column.
+I had to do some funky stuff[^4] to fix the dates in SQLite, but once I did that, it was easy to filter by the date column.
 
 We can also export new CSVs for all of the incidents since 2010 for a particular precinct:
 
@@ -170,7 +168,7 @@ where ([Incident Date] BETWEEN '2010-01-01' AND '2021-12-31') AND ([CCRB Allegat
 OR [CCRB Allegation Disposition] IS 'Substantiated (Command Discipline B)'
 ```
 
-### Analyzing our data with Neo4J
+## Analyzing our data with Neo4J
 
 I first encountered Neo4J when I was working with Ben Popken on an [NBC News analysis of tweets tied to Senate Intelligence-identified Russian Twitter Bots](https://neo4j.com/blog/story-behind-russian-twitter-trolls/) where Neo4J provided analysts who were crucial to understanding the shape of our data.
 
@@ -178,7 +176,7 @@ It is an incredibly useful tool for generating and analyzing networks, and I was
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624506093/Screen_Shot_2021-05-31_at_12.05.00_PM.jpg" />
 
-#### Importing our CSV with Cypher
+### Importing our CSV with Cypher
 
 To import our `.csv` into a network of node and relationships in Neo4J, we will use the [Cypher](https://neo4j.com/developer/cypher/) query language, which makes this process really easy and the code is relatively readable and easy to follow.
 
@@ -186,7 +184,7 @@ Special thanks to [David Allen](https://twitter.com/mdavidallen) at Neo4J for hi
 
 Basically we take the CSV files we exported from Datasette (when we filtered our Exonerated, Unfounded, and everything before 2010) and go through every row and push it into our network.
 
-##### Creating officer nodes
+#### Creating officer nodes
 
 First we tell Neo4J to use officer.id as a unique constraint (this makes things faster, I think?) and create a node for each officer from one CSV.
 
@@ -244,7 +242,7 @@ Now we've marked _4,768_ of New York's ~36,000 (13%) finest as having a substant
 
 Let's NOT do the same thing for OfficersInvolved - because that file contains officers who were merely witnesses to substantiated complaints, and we don't want to accidentally label a witness to a substantiated case.
 
-#### Creating officer labels
+### Creating officer labels
 
 Now we need to set labels for our nodes depending on whether they have ever had a complaint substantiated. We don't want to label nodes with names for any officers who may have complaints but have never had any substantiated. I have been told that lawyers think this is a good idea.
 
@@ -264,7 +262,7 @@ SET o.label = COALESCE(o.firstName ,"") + ' ' + COALESCE(o.lastName ,"")
 
 Now we have our officers created, we need to create our incidents.
 
-##### Creating incident nodes
+#### Creating incident nodes
 
 We are going to continue to use our CSV which _filtered out_ incidents _before 2010_ or that were _unfounded or exonerated_.
 
@@ -304,7 +302,7 @@ SET i.label = i.allegation
 
 Now that we have our _Incidents_ and our _Officers_ we need to create our relationships between them.
 
-#### Creating relationships between incidents and officers
+### Creating relationships between incidents and officers
 
 Now for the fun part.
 
@@ -346,7 +344,7 @@ So officers who appear on 3 complaints together have a `CO_OCCURANCE` relationsh
 MATCH (o1:Officer)-[:INVOLVED_IN]->(i:Incident)<-[:INVOLVED_IN]-(o2:Officer) WHERE id(o1)<id(o2) with o1, o2, count(i) as weightCount CREATE (o1)-[:CO_OCCURANCE { weight: weightCount }]->(o2)
 ```
 
-#### Officers without connections
+### Officers without connections
 
 ```sql
 MATCH (o:Officer) WHERE NOT (o)-[:CO_OCCURANCE]-() RETURN count(o)
@@ -354,7 +352,7 @@ MATCH (o:Officer) WHERE NOT (o)-[:CO_OCCURANCE]-() RETURN count(o)
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624506696/Screen_Shot_2021-06-13_at_7.16.11_PM.jpg" />
 
-#### Eigenvector analysis on our network
+### Eigenvector analysis on our network
 
 Let's run a standard centrality analysis algorithm called ["Eigenvector Centrality"](https://neo4j.com/docs/graph-data-science/current/algorithms/eigenvector-centrality/)
 
@@ -371,7 +369,7 @@ YIELD nodes, iterations, dampingFactor, writeProperty
 
 Now every Officer node has an `eigenvector` value that represents its centrality across our entire NYPD-wide network. The larger the value, the more central that node is.
 
-### Analyzing our data with Gephi
+## Analyzing our data with Gephi
 
 Neo4J is cool for processing and analyzing tons of data, but I want to draw thousands of circles and lines now and start untangling the hairball of our network.
 
@@ -379,7 +377,7 @@ I am going to use Gephi, which I have a love-hate relationship with, but is unri
 
 We are going to [stream our data from Neo4J to Gephi](https://neo4j.com/labs/apoc/4.1/export/gephi/) in order to leverage Neo4J's power to handle huge amounts of data (way more than Gephi) but still get to use Gephi's layout algorithms and analysis techniques.
 
-#### Flattened co-occurance network
+### Flattened co-occurance network
 
 To get our flattened network, which removed incident nodes:
 
@@ -407,7 +405,7 @@ Then we can add some labels and we've made a map of the network of officers who 
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036311/Screen_Shot_2021-05-31_at_12.59.34_PM.png" />
 
-#### Precinct-specific networks including incidents (un-flattened network)
+### Precinct-specific networks including incidents (un-flattened network)
 
 Let's put it all together and stream all the officers from a single precinct using only incidents since 2010.
 
@@ -441,10 +439,10 @@ In the reporting that George Joseph did for Gothamist/WNYC, he found that a numb
 
 He looked at another large node in the network, Adnan Radoncic:
 
->Atunbi asserted that Radoncic was a catalyst for a group assault on the street that day.
->“As soon as he grabbed me, all the officers was hands on,” he said. “It’s like they just followed his lead.”
+> Atunbi asserted that Radoncic was a catalyst for a group assault on the street that day.
+> “As soon as he grabbed me, all the officers was hands on,” he said. “It’s like they just followed his lead.”
 
-### Potential Next Steps
+## Potential Next Steps
 
 There are a few different directions for further analysis that I didn't have time for, but may result in interesting findings.
 
@@ -456,7 +454,7 @@ There are a few different directions for further analysis that I didn't have tim
 - Analysis of length/outcomes of CCRB investigations
 - Geographic analysis
 
-### Flotsam & Jetsam
+## Flotsam & Jetsam
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624505603/Screen_Shot_2021-06-23_at_9.54.21_PM.png" />
 
@@ -470,154 +468,85 @@ There are a few different directions for further analysis that I didn't have tim
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1624036455/Screen_Shot_2021-06-13_at_10.33.01_PM.png" />
 
-### Hire me to do work like this
+## Hire me to do work like this
 
 I do freelance data exploration and visualization for clients who aren't evil. If you'd like to hire me to take a look at a dataset for you, just get in touch at <ejfox@ejfox.com>
 
 [^1]: The notes say, basically: these are complaints received in or after the year 2000. Cases that are mediated or were attempted to be mediated are excluded.
 [^2]:
-
     OfficerAllegationHistory columns: <pre>
-
     1: As Of Date
-
     2: Allegation Record Identity
-
     3: Unique Officer Id
-
     4: Active Per Last Reported Status
-
     5: Last Reported Active Date
-
     6: Officer First Name
-
     7: Officer Last Name
-
     8: Officer Race
-
     9: Officer Gender
-
     10: Current Rank Abbreviation
-
     11: Current Rank
-
     12: Current Command
-
     13: Shield No
-
     14: Complaint Id
-
     15: Incident Date
-
     16: CCRB Received Date
-
     17: Close Date
-
     18: Officer Rank Abbreviation At Incident
-
     19: Officer Rank At Incident
-
     20: Officer Command At Incident
-
     21: Officer Days On Force At Incident
-
     22: Borough Of Incident Occurrence
-
     23: Precinct Of Incident Occurrence
-
     24: Location Type Of Incident
-
     25: Reason for Police Contact
-
     26: Outcome Of Police Encounter
-
     27: Victim Age At Incident
-
     28: Victim Race
-
     29: Victim Gender
-
     30: FADO Type
-
     31: Allegation
-
     32: CCRB Allegation Disposition
-
     33: Board Discipline Recommendation
-
     34: Non-APU Penalty Report Date
-
     35: Officer Is APU
-
     36: APU CCRB Trial Recommended Penalty
-
     37: APU Trial Commissioner Recommended Penalty
-
     38: APU Plea Agreed Penalty
-
     39: APU Case Status
-
     40: APU Closing Date
-
     41: NYPD Allegation Disposition
-
     42: NYPD Officer Penalty
-
     43: Reconsideration Requested
-
     44: Reconsideration Request Withdrawn
-
     45: Reconsideration Request Rejected
-
     46: Reconsideration Occurred
-
     47: Reconsideration Decision Pending
 
     </pre>
-
-
-    :[^3] OfficersInvolvedInComplaints columns: <pre>
-
+     
+    [^3]: OfficersInvolvedInComplaints columns: <pre>
     1: As Of Date
-
     2: Officer Status
-
     3: Unique Officer Id
-
     4: Active Per Last Reported Status
-
     5: Last Reported Active Date
-
     6: Officer First Name
-
     7: Officer Last Name
-
     8: Officer Race
-
     9: Officer Gender
-
     10: Current Rank Abbreviation
-
     11: Current Rank
-
     12: Current Command
-
     13: Shield No
-
     14: Complaint Id
-
     15: Complaint Disposition
-
     16: Incident Date
-
     17: CCRB Recieved Date
-
     18: Close Date
-
     </pre>
 
-[^3]:
-
+[^4]:
     I ran this in the CLI SQLite client to chop up the date string and re-write it in the way SQLite wants it:
 
     ```sql

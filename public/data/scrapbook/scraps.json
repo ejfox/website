@@ -1,5 +1,61 @@
 [
   {
+    "id": "112566404826189108",
+    "scrap_id": "rIsuZOjf",
+    "href": "https://mastodon.social/@ejfox/112566404826189108",
+    "description": "<p>“Are their costs low because its just a laptop and… autism?”</p>",
+    "time": "2024-06-05T22:37:06.768Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112566088788379112",
+    "scrap_id": "ZiwAl_UL",
+    "href": "https://mastodon.social/@ejfox/112566088788379112",
+    "description": "<p>If you have depression, one thing you can do is buy yourself a secret stash bulk pack of white t shirts, they are very cheap, and come by the dozen, and when you find yourself without executive function you can just rip out a brand-spanking new fresh white T and go about your day, it definitely doesn’t hurt</p>",
+    "time": "2024-06-05T21:16:44.410Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112566075540768319",
+    "scrap_id": "r4fuxYKs",
+    "href": "https://mastodon.social/@ejfox/112566075540768319",
+    "description": "<p>“Talking to the robot” goes in the budget right next to the eggs and bread, tbqh</p>",
+    "time": "2024-06-05T21:13:22.271Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112565490898881094",
+    "scrap_id": "kmYKuUUL",
+    "href": "https://mastodon.social/@ejfox/112565490898881094",
+    "description": "<p>I am starting to get a better intuition for when I am taking a simple, beautiful idea and overcomplicating it – not doing any more work on it is more difficult than actually making it</p>",
+    "time": "2024-06-05T18:44:41.353Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "w5Aif5FO",
+    "href": "https://www.inkandswitch.com/local-first/",
+    "description": "Local-first software: You own your data, in spite of the cloud",
+    "time": "2024-06-05T16:18:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "2uqFaAwS",
+    "href": "https://maggieappleton.com/home-cooked-software",
+    "description": "Home-Cooked Software and Barefoot Developers",
+    "time": "2024-06-05T16:18:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "kMW-nAj4",
     "href": "https://wiggle.three.tools/",
     "description": "Wiggle Bones for Three.js",

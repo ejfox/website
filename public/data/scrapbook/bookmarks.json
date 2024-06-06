@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://www.inkandswitch.com/local-first/",
+    "description": "Local-first software: You own your data, in spite of the cloud",
+    "extended": "",
+    "meta": "1920fffe6af1a77834aec46a1beb6943",
+    "hash": "b68e4f7c235ff4b04c0a96c4bf2fa3ed",
+    "time": "2024-06-05T16:18:53Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://maggieappleton.com/home-cooked-software",
+    "description": "Home-Cooked Software and Barefoot Developers",
+    "extended": "",
+    "meta": "39668eb5f4c68cad20bb124ef8457c32",
+    "hash": "2076d04718bb00f7824155298c32c216",
+    "time": "2024-06-05T16:18:49Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://wiggle.three.tools/",
     "description": "Wiggle Bones for Three.js",
     "extended": "",

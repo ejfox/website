@@ -26,7 +26,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v14
+        uses: tj-actions/changed-files@v41
 
       - name: Post to Mastodon
         if: steps.changed-files.outputs.any_changed == 'true'

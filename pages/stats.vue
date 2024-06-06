@@ -1,160 +1,125 @@
 <template>
   <div class="px-4 md:px-24 pt-8">
-    <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalWords))">
-        {{ wordNumberFormat(totalWords) }}
-      </h2>
-      <p :class="captionClasses">Total Words written</p>
+    <!-- Stats grid -->
+    <div class="grid grid-flow-col grid-rows-3 gap-4">
+      <StatsCard :value="totalWords" label="Total Words written" />
+      <StatsCard :value="totalPhotos" label="Photos Posted" />
+      <StatsCard :value="totalPosts" label="Blog posts" />
+      <StatsCard v-if="typeof draftCount === 'number'" :value="draftCount" label="Current Drafts" />
     </div>
 
-    <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPhotos))">
-        {{ wordNumberFormat(totalPhotos) }}
-      </h2>
-      <p :class="captionClasses">Photos</p>
-    </div>
+    <UDivider class="py-16" />
 
-    <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalPosts))">
-        {{ wordNumberFormat(totalPosts) }}
-      </h2>
-      <p :class="captionClasses">Blog posts</p>
-    </div>
-
-    <!-- <div :class="statClasses">
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(totalCommits))">{{ wordNumberFormat(totalCommits) }}</h2>
-      <p :class="captionClasses">Website commits</p>
-    </div> -->
-
-    <UDivider class="py-32" />
-
-    <!-- show the words by year-->
+    <!-- Words by year section -->
     <div class="col-span-2 lg:col-span-4">
-      <h2 class="md:text-5xl font-bold text-center md:text-left">
-        Written words by year
-      </h2>
-      <div class="py-4 grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div v-for="year in wordsByYear" :key="year.year" class="text-center rounded-md"
+      <h2 class="text-3xl">Words written by year</h2>
+      <div class="py-4 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div v-for="year in wordsByYear" :key="year.year" class="text-center rounded-md min-h-24 pt-5"
           :style="{ backgroundColor: wordsToColor(year.words) }">
-          <h2 class="text-lg font-serif font-bold">
-            {{ wordNumberFormat(year.words) }}
-          </h2>
-          <p class="text-sm">{{ year.year }}</p>
+          <h2 class="text-2xl">{{ year.year }}</h2>
+          <div class="flex items-baseline justify-evenly text-balance leading-5">
+            <span class="p-2">
+              <UIcon name="i-ic-round-text-snippet" class="mr-1" />
+              {{ wordNumberFormat(year.words) }} published words
+            </span>
+            <span v-if="draftWordsByYear[year.year]" class="p-2">
+              <UIcon name="i-ic-baseline-textsms" class="mr-1" />
+              <span class="opacity-50">
+                {{ wordNumberFormat(draftWordsByYear[year.year]) }} drafted words
+              </span>
+            </span>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 <script setup>
-import { countWords, countLinks, countPhotos } from '~~/helpers'
-import { format } from 'd3'
+import { countPhotos, stringLengthToFontSize } from '~~/helpers'
+import { format, scaleLinear } from 'd3'
+import tailwindConfig from '#tailwind-config'
 
-const statClasses = 'text-8xl font-bold p-4 text-center'
-const captionClasses = 'text-sm uppercase font-thin pt-2 opacity-60'
-
+const primaryColor = useAppConfig().ui.primary
+const primaryColorHex = tailwindConfig.theme.colors[primaryColor][500]
 const wordNumberFormat = format(',')
 
 const totalPosts = ref(0)
 const totalWords = ref(0)
 const totalPhotos = ref(0)
 
+const { data: blogData } = await useAsyncData('blog', () => queryContent('/blog/').find())
+const { data: draftPosts } = await useAsyncData('draftPosts', () => queryContent('blog/drafts/').find())
+
+// Compute total years
+const totalYears = computed(() => {
+  return [...new Set(blogData.value.map((article) => new Date(article.date).getFullYear()))]
+})
+
+// Compute maximum words in a year
+const maxWordsInAYear = computed(() => {
+  return Math.max(...wordsByYear.value.map((year) => year.words))
+})
+
+// Function to convert word count to color
 function wordsToColor(wordCount) {
-  return `rgba(0, 255, 0, ${wordCount / totalWords.value})`
+  const colorScale = scaleLinear()
+    .domain([0, maxWordsInAYear.value])
+    .range(['rgba(0, 255, 0, 0)', primaryColorHex])
+
+  return colorScale(wordCount)
 }
 
-// make a widget to turn a string, determinehe # of chars (digits, really) and then decide which tailwindcss text size class to use
-function stringLengthToFontSize(string) {
-  const length = string.length
-  if (length < 5) {
-    return 'text-8xl'
-  } else if (length < 6) {
-    return 'text-7xl'
-  } else if (length < 7) {
-    return 'text-6xl'
-  } else if (length < 8) {
-    return 'text-5xl'
-  } else if (length < 9) {
-    return 'text-4xl'
-  } else if (length < 10) {
-    return 'text-3xl'
-  } else if (length < 11) {
-    return 'text-2xl'
-  } else if (length < 12) {
-    return 'text-xl'
-  } else if (length < 13) {
-    return 'text-lg'
-  } else if (length < 14) {
-    return 'text-base'
-  } else if (length < 15) {
-    return 'text-sm'
-  } else if (length < 16) {
-    return 'text-xs'
-  } else {
-    return 'text-xxs'
-  }
-}
-
-const { data } = await useAsyncData('blog', () => queryContent('/blog/').find())
-
-// watch docs, and update the totalWords ref whenever the docs change
+// Watch blogData and update stats
 watch(
-  data,
+  blogData,
   () => {
-    console.log('data changed')
-    console.log(data.value)
-    totalWords.value = data.value.reduce((acc, article) => {
-      return acc + article.readingTime.words
-    }, 0)
-
-    totalPhotos.value = data.value.reduce((acc, article) => {
-      return acc + countPhotos(article)
-    }, 0)
-
-    totalPosts.value = data.value.length
+    totalWords.value = blogData.value.reduce((acc, article) => acc + article.readingTime.words, 0)
+    totalPhotos.value = blogData.value.reduce((acc, article) => acc + countPhotos(article), 0)
+    totalPosts.value = blogData.value.length
   },
   { immediate: true },
 )
 
+// Compute words by year
 const wordsByYear = computed(() => {
-  const years = data.value.reduce((acc, article) => {
+  const years = blogData.value.reduce((acc, article) => {
     const year = new Date(article.date).getFullYear()
-    if (!acc[year]) {
-      acc[year] = 0
-    }
-    acc[year] += article.readingTime.words
+    acc[year] = (acc[year] || 0) + article.readingTime.words
     return acc
   }, {})
 
   return Object.entries(years)
-    .map(([year, words]) => {
-      return {
-        year,
-        words,
-      }
-    })
+    .map(([year, words]) => ({ year, words }))
     .reverse()
     .filter((year) => year.year !== 'NaN')
 })
 
-// the website is hosted on a GitHub repo located at https://github.com/ejfox/website
-// we want to use the GitHub public REST API to get the number of commits to the repo
-// const githubAPI = 'https://api.github.com/repos/ejfox/website/commits'
-// const totalCommits = ref(0)
-// const getCommits = async (url) => {
-//   const githubResponse = await fetch(url)
-//   const githubData = await githubResponse.json()
+// Compute draft words by year
+const draftWordsByYear = computed(() => {
+  const years = draftPosts.value.reduce((acc, article) => {
+    const year = new Date(article.date).getFullYear()
+    acc[year] = (acc[year] || 0) + (article?.readingTime.words || 0)
+    return acc
+  }, {})
 
-//   totalCommits.value += githubData.length
+  return Object.fromEntries(
+    Object.entries(years)
+      .map(([year, words]) => [year, words])
+      .reverse(),
+  )
+})
 
-//   if (githubResponse.headers.get('Link')) {
-//     const links = githubResponse.headers.get('Link').split(',')
-//     const nextLink = links.find((link) => link.includes('rel="next"'))
-//     if (nextLink) {
-//       const nextURL = nextLink.split(';')[0].replace('<', '').replace('>', '')
-//       getCommits(nextURL)
-//     }
-//   }
-// }
-
-// getCommits(githubAPI)
+// Compute draft count
+const draftCount = computed(() => draftPosts.value.length)
 </script>
+
+<style>
+.stats-classes {
+  @apply text-8xl font-bold p-4 text-center min-h-48 min-w-48 bg-gray-200 dark:bg-gray-800 rounded-lg flex items-center justify-center;
+}
+
+.captions-classes {
+  @apply text-sm uppercase font-thin py-2 lg:py-4;
+}
+</style>

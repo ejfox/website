@@ -18,6 +18,9 @@ export default {
       DEV: process.env.NODE_ENV !== 'production',
     },
   },
+  tailwindcss: {
+    exposeConfig: true,
+  },
   stripe: {
     // Server
     server: {
@@ -39,13 +42,15 @@ export default {
   content: {
     documentDriven: true,
     markdown: {
+      rehypePlygins: ['rehype-external-links'],
+
       remarkPlugins: [
         'remark-wiki-link',
         'remark-reading-time',
         //   'remark-gfm',
         //   'remark-emoji',
         //   'remark-unwrap-images',
-        //   'remark-wiki-link',
+        // 'remark-wiki-link',
         //   'remark-external-links',
       ],
     },

@@ -174,3 +174,35 @@ export const scrapTypeSymbols = {
   'github-pr': '◇', // U+25C7
   twitter: '○', // U+25CB
 }
+
+// make a widget to turn a string, determinehe # of chars (digits, really) and then decide which tailwindcss text size class to use
+export function stringLengthToFontSize(string) {
+  const length = string.length
+  if (length < 5) {
+    return 'text-8xl'
+  } else if (length < 6) {
+    return 'text-7xl'
+  } else if (length < 7) {
+    return 'text-6xl'
+  } else if (length < 8) {
+    return 'text-5xl'
+  } else if (length < 9) {
+    return 'text-4xl'
+  } else if (length < 10) {
+    return 'text-3xl'
+  } else if (length < 11) {
+    return 'text-2xl'
+  } else if (length < 12) {
+    return 'text-xl'
+  } else if (length < 13) {
+    return 'text-lg'
+  } else if (length < 14) {
+    return 'text-base'
+  } else if (length < 15) {
+    return 'text-sm'
+  } else if (length < 16) {
+    return 'text-xs'
+  } else {
+    return 'text-xxs'
+  }
+}

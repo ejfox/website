@@ -2,13 +2,12 @@
 draft: false
 dek: In which we learn to perform the magic of conversing with a super-intelligent computer
 inprogress: false
-date: Wednesday, November 2nd 2022, 7:57:21 pm
-modified: Friday, December 1st 2023, 8:02:56 pm
+date: 2022-11-02T19:57:21Z
+modified: 2023-12-01T20:02:56Z
 tags:
   - machinelearning
   - howto
   - process
-title: How I Us
 ---
 
 ## How I Use GPT

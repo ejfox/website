@@ -4,19 +4,23 @@
     <div class="flex flex-col mb-4 sticky md:relative lg:relative backdrop-filter backdrop-blur-lg top-0 z-30">
       <div class="flex justify-between items-stretch">
         <!-- filter by year on and off -->
-        <UButton icon="i-heroicons-rectangle-stack-20-solid" :trailing="true" color="gray" class="my-4"
+        <!-- <UButton icon="i-heroicons-rectangle-stack-20-solid" :trailing="true" color="gray" class="my-4"
           @click="filterByYear = !filterByYear">
           {{ filterByYear ? 'See all posts' : 'Filter by year' }}
-        </UButton>
+        </UButton> -->
+
+        <NuxtLink to="/blog/index_verbose" class="my-4">
+          See all posts
+        </NuxtLink>
       </div>
       <div v-if="filterByYear" class="flex flex-wrap mt-2 align-middle">
         <UIcon name="i-heroicons-calendar-days" class="m-1 mr-3 text-2xl align-middle" />
         <UButton v-for="availableYear in blogYears" :class="[
-          availableYear === blogYear
-            ? 'bg-primary-500 dark:bg-slate-500 text-white dark:text-white'
-            : 'bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100',
-          'text-sm font-medium rounded-md mr-2 mb-2',
-        ]" :key="availableYear" :to="`/blog/?year=${availableYear}`">
+        availableYear === blogYear
+          ? 'bg-primary-500 dark:bg-slate-500 text-white dark:text-white'
+          : 'bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100',
+        'text-sm font-medium rounded-md mr-2 mb-2',
+      ]" :key="availableYear" :to="`/blog/?year=${availableYear}`">
           {{ availableYear }}
         </UButton>
       </div>
@@ -43,9 +47,9 @@
 
       <div v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path">
         <UCard :class="[
-          article.hidden ? 'hidden' : '',
-          'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
-        ]">
+        article.hidden ? 'hidden' : '',
+        'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
+      ]">
           <div>
             <div
               class="flex justify-between items-center text-gray-400 dark:text-gray-600 text-xs md:text-sm mb-2 md:mb-4"

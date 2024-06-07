@@ -20,6 +20,7 @@
           <tr>
             <th class="border-b py-2">Title</th>
             <!-- <th class="border-b py-2">Slug</th> -->
+            <th class="border-b py-2">Words</th>
             <th class="border-b py-2">Date</th>
             <th class="border-b py-2">Modified</th>
             <th class="border-b py-2">Time Diff</th>
@@ -49,6 +50,12 @@
                 </span>
               </div>
             </td>
+
+            <!-- words -->
+            <td class=" py-2 text-right pr-2" :style="{
+        color: wordCountColorScale(article.readingTime?.words)
+      }">{{ article.readingTime?.words }}</td>
+
             <!-- <td class="text-xs py-2">
               <span class="text-gray-500 dark:text-gray-500">
                 {{ article._path }}
@@ -91,6 +98,11 @@ function calcTimeDiff(date1, date2) {
   // otherwise return null
   return isNaN(diffDays) ? null : diffDays
 }
+
+//wordcount color scale from 300 to 3000
+const wordCountColorScale = scaleLinear()
+  .domain([300, 3000])
+  .range(['rgba(50, 50, 50, 0.6)', primaryColorHex])
 
 // date color scale from 2015 to 2025
 const dateColorScale = scaleLinear()

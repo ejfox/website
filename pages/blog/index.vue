@@ -24,7 +24,7 @@
 
     <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
       <!-- featured article -->
-      <div class="featured-articlemy-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
+      <!-- <div class="featured-articlemy-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
         <div class="dark:bg-gray-900"></div>
         <div class="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-40">
           <h2 class="text-4xl font-extrabold dark:text-white sm:text-5xl lg:text-8xl uppercase tracking-wide">
@@ -39,7 +39,7 @@
               @click="navigateTo(featuredArticle(data)._path)" />
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path">
         <UCard :class="[

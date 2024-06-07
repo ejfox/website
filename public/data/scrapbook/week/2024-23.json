@@ -1,5 +1,25 @@
 [
   {
+    "id": "112576144378915534",
+    "scrap_id": "b0zFaU7G",
+    "href": "https://mastodon.social/@ejfox/112576144378915534",
+    "description": "<p>Thinking of doing a 6-10 hour video course on Rapid Prototyping, with guides on Nuxt, Supabase, Netlify, D3, and all sorts of techniques I have gathered for turning data and ideas into prototypes absurdly fast. Anything I should be sure to cover? Or avoid?</p>",
+    "time": "2024-06-07T15:54:00.549Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": 28621637,
+    "scrap_id": "JDnKCPms",
+    "href": "https://www.are.na/block/28621637",
+    "description": "",
+    "time": "2024-06-07T15:23:12.812Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYyMTYzNy9vcmlnaW5hbF85ZWUzZjBmM2EyOTZkZGZlMDE5NzcwZmUwZDhlN2NkNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
     "scrap_id": "GPYc90g0",
     "href": "https://huggingface.co/datasets/monology/pile-uncopyrighted",
     "description": "monology/pile-uncopyrighted · Datasets at Hugging Face",

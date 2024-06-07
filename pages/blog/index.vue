@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <ContentQuery path="/blog/" :sort="{ date: -1, modified: 1 }" v-slot="{ data }">
+    <ContentQuery path="/blog/" :sort="{ date: -1 }" v-slot="{ data }">
       <!-- featured article -->
       <!-- <div class="featured-articlemy-8 md:my-2 min-h-min pb-4 z-0" v-if="featuredArticle(data)">
         <div class="dark:bg-gray-900"></div>
@@ -50,10 +50,7 @@
             <div
               class="flex justify-between items-center text-gray-400 dark:text-gray-600 text-xs md:text-sm mb-2 md:mb-4"
               v-if="article.title">
-              <span v-if="article.modified">
-                {{ formatDate(new Date(article.modified)) }}
-              </span>
-              <span v-else-if="article.date">
+              <span v-if="article.date">
                 {{ formatDate(new Date(article?.date)) }}
               </span>
               <span v-else>
@@ -140,15 +137,18 @@ const blogIndexFilter = (articles) => {
 /* take in some articles loaded through content and sort them by date, some articles also have a `modified` date that should be used so that articles modified most recently are at the top - not all articles have `modified` properties, but all articles should have `date` properties */
 const blogIndexSort = (articles) => {
   // sorting prefers the modified date, but if that doesn't exist, it uses the date
-  return articles.sort((a, b) => {
-    if (a.modified && b.modified) {
-      return new Date(b.modified) - new Date(a.modified)
-    } else if (a.date && b.date) {
-      return new Date(b?.date) - new Date(a?.date)
-    } else {
-      return 0
-    }
-  })
+  // return articles.sort((a, b) => {
+  //   if (a.modified && b.modified) {
+  //     return new Date(b.modified) - new Date(a.modified)
+  //   } else if (a.date && b.date) {
+  //     return new Date(b?.date) - new Date(a?.date)
+  //   } else {
+  //     return 0
+  //   }
+  // })
+
+  // simple sort by date
+  return articles.sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
 function featuredArticle(data) {

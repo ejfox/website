@@ -1,5 +1,5 @@
 <template>
-  <main class="mx-auto p-5 md:p-10 lg:p-20">
+  <main class="blogpost mx-auto p-5 md:p-10 lg:p-20">
     <!-- back to blog link -->
     <NuxtLink to="/blog" class="text-gray-500 hover:text-gray-700">
       <UIcon name="i-heroicons-arrow-left" class="mr-2" />
@@ -15,14 +15,10 @@
     </div>
 
     <div v-if="page">
-      <NuxtLink
-        v-if="isHidden && password === 'showpassword'"
-        :to="{
-          path: page?._path,
-          query: { password: generatePassword(page?._path) },
-        }"
-        class="text-xs text-gray-500 block mt-4"
-      >
+      <NuxtLink v-if="isHidden && password === 'showpassword'" :to="{
+      path: page?._path,
+      query: { password: generatePassword(page?._path) },
+    }" class="text-xs text-gray-500 block mt-4">
         Password protected:
         <UIcon name="i-heroicons-lock-closed" class="" />
         {{ page._path }}?password=
@@ -30,31 +26,32 @@
       </NuxtLink>
     </div>
 
-    <div
-      :class="[
-        'text-lg text-gray-900',
-        isHidden ? 'blur-lg select-none pointer-events-none' : '',
-      ]"
-    >
+    <div :class="[
+      'text-gray-900',
+      isHidden ? 'blur-lg select-none pointer-events-none' : '',
+    ]">
       <ContentDoc>
         <template v-slot="{ doc }">
           <div>
-            <PageMetadata :doc="doc" />
+
             <div
-              class="prose md:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-800 prose-pre:py-2 prose-pre:my-0 max-w-none"
-            >
-              <ContentRenderer :value="doc" class="" />
+              class="prose xl:prose-xl dark:prose-invert dark:prose-pre:bg-black prose-pre:bg-neutral-50 prose-pre:text-neutral-500 prose-pre:py-2 prose-pre:my-1">
+              <!-- <ContentRenderer :value="doc" class="" /> -->
+              <ContentRenderer :value="doc">
+                <PageMetadata :doc="doc" />
+                <ContentRendererMarkdown :value="doc" />
+              </ContentRenderer>
             </div>
           </div>
         </template>
 
         <template #not-found>
-          <div class="text-8xl font-bold">
+          <div class="text-8xl text-center p-4 dark:text-white min-h-96">
             <!-- <h1
             class="mx-auto inline-block min-h-96"
           >Document not found</h1> -->
-            <UIcon name="i-svg-spinners-wind-toy" class="w-16 h-16" />
-            <span class="mr-2 uppercase">Not found</span>
+            <UIcon name="i-svg-spinners-wind-toy" class="my-8" />
+            <span class="block mr-2 uppercase">Not found</span>
           </div>
         </template>
 
@@ -65,11 +62,8 @@
     </div>
 
     <div class="clearfix py-8 px-4 md:px-8">
-      <NuxtLink
-        v-if="prev"
-        :to="prev._path"
-        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute left-2 lh-title"
-      >
+      <NuxtLink v-if="prev" :to="prev._path"
+        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute left-2 lh-title">
         <span class="inline-block">&#8592;</span>
         {{ prev.title }}
         <div class="text-gray-500 text-sm font-light">
@@ -78,11 +72,8 @@
         <!-- <p class="moon-gray fw1 f6 mv0 pv2">{{ countWords(prev) }} words</p> -->
       </NuxtLink>
 
-      <NuxtLink
-        v-if="next"
-        :to="next._path"
-        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute right-2 lh-title text-right"
-      >
+      <NuxtLink v-if="next" :to="next._path"
+        class="dim px-4 py-4 w-40 w-20-ns text-gray-500 block absolute right-2 lh-title text-right">
         {{ next.title }}
         <span class="inline-block">&#8594;</span>
         <div class="text-gray-500 text-sm font-light text-right">
@@ -100,6 +91,20 @@ import { useRouteQuery } from '@vueuse/router'
 
 const { toc, page, excerpt } = useContent()
 const password = useRouteQuery('password')
+
+// set useHead meta based on the page
+useHead({
+  title: 'EJ Fox | ' + page.value?.title,
+})
+
+useSeoMeta({
+  title: page.value?.title,
+  ogTitle: page.value?.title,
+  description: page.value?.dek || excerpt.value,
+  ogDescription: page.value?.dek || excerpt.value,
+  // ogImage: ogImageUrl.value,
+
+})
 
 // a computed property based on if the page has a .hidden property
 const isPasswordCorrect = computed(() => {
@@ -209,8 +214,14 @@ const ogImageUrl = computed(() => {
   }
 })
 </script>
-<style scoped>
+<style>
 /* strong {
   color: #E7040F;
 } */
+
+.blogpost h1,
+.blogpost h2,
+{
+@apply text-5xl lg:text-6xl xl:text-8xl my-0.5 mb-2 font-bold !important;
+}
 </style>

@@ -1,5 +1,240 @@
 [
   {
+    "id": "112543144916913599",
+    "scrap_id": "SCyWBIxF",
+    "href": "https://mastodon.social/@ejfox/112543144916913599",
+    "description": "<p>be careful what you hope for</p>",
+    "time": "2024-06-01T20:01:48.720Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/543/144/664/723/751/small/bdfe4f910fed43b7.png"
+    ]
+  },
+  {
+    "scrap_id": "-kXUGXkd",
+    "href": "https://www.nysenate.gov/legislation/laws/RPP/235-G",
+    "description": "[no title]",
+    "time": "2024-06-01T16:41:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6mo0b3jN",
+    "href": "https://github.com/yaronn/blessed-contrib?tab=readme-ov-file",
+    "description": "yaronn/blessed-contrib: Build terminal dashboards using ascii/ansi art and javascript",
+    "time": "2024-06-01T08:21:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Z1aUkPaK",
+    "href": "https://github.com/dlvhdr/gh-dash",
+    "description": "dlvhdr/gh-dash: A beautiful CLI dashboard for GitHub 🚀",
+    "time": "2024-06-01T00:37:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112537655197474961",
+    "scrap_id": "O6aDYreF",
+    "href": "https://mastodon.social/@ejfox/112537655197474961",
+    "description": "<p>*wondering if a coke on my desk is old or recently-opened* Is this a... modern coke?”</p>",
+    "time": "2024-05-31T20:45:42.248Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "VKBaKTDC",
+    "href": "https://www.reddit.com/r/vjing/comments/18q204s/editing_video_for_resolume_beat_sync/",
+    "description": "Editing Video for Resolume Beat Sync : r/vjing",
+    "time": "2024-05-31T20:04:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Work in 30 or 60 FPS. Animate so your visual beats happen on a frame number divisible by 30. Now your video clip is 120 bpm and will stretch or compress to any BPM in Resolume and stay on beat.\r\n\r\n"
+  },
+  {
+    "scrap_id": "F8itSz2A",
+    "href": "https://unix.stackexchange.com/questions/261531/how-to-send-output-from-one-terminal-to-another-without-making-any-new-pipe-or-f",
+    "description": "command line - How to send output from one terminal to another without making any new pipe or file - Unix & Linux Stack Exchange",
+    "time": "2024-05-31T19:37:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Use the tty command in each terminal to identify them:\r\n\r\n$ tty\r\n/dev/pts/0\r\n\r\n$ tty\r\n/dev/pts/1\r\nAssuming these TTYs, to redirect the first's stdout to the second, run this in the first terminal:\r\n\r\nexec 1>/dev/pts/1"
+  },
+  {
+    "scrap_id": "8LoJCJvU",
+    "href": "https://github.com/borolgs/enchanted-canvas/tree/master",
+    "description": "borolgs/enchanted-canvas: The plugin for Obsidian that extends the functionality of the standard canvas-plugin.",
+    "time": "2024-05-31T19:03:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "FCid3M2J",
+    "href": "https://forum.obsidian.md/t/any-details-on-the-canvas-api/57120/2",
+    "description": "Any details on the canvas API? - Developers: Plugin & API - Obsidian Forum",
+    "time": "2024-05-31T19:03:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "app.workspace.getLeavesOfType('canvas')[0].view.canvas"
+  },
+  {
+    "id": "112536961893001257",
+    "scrap_id": "HmVXXyGq",
+    "href": "https://mastodon.social/@ejfox/112536961893001257",
+    "description": "<p>a lot of time spent talking to the robot and coding</p>",
+    "time": "2024-05-31T17:49:23.259Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112536937354046736",
+    "scrap_id": "kw9AmwAj",
+    "href": "https://mastodon.social/@ejfox/112536937354046736",
+    "description": "<p>most of them are just me being a weird little hacker in my lair over the winter</p>",
+    "time": "2024-05-31T17:43:08.825Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112536909942624861",
+    "scrap_id": "sw1Xxegq",
+    "href": "https://mastodon.social/@ejfox/112536909942624861",
+    "description": "<p>casually captured 200gb of timelapses in the past year on my old iPhone</p>",
+    "time": "2024-05-31T17:36:10.572Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "GT2FIXNN",
+    "href": "https://www.thecity.nyc/2024/05/31/booze-patrol-sheriffs-no-charges/",
+    "description": "‘Booze Patrol’ Sheriffs Had ‘Man-Cave’ Full of Stolen COVID Liquor — But Escaped Criminal Charges",
+    "time": "2024-05-31T16:15:36Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1vPqZqKw",
+    "href": "https://github.com/Twisted-Fields/acorn-robot-electronics/tree/main",
+    "description": "Twisted-Fields/acorn-robot-electronics: PCB hardware designs in KICAD for Acorn, the precision farming rover from Twisted Fields.",
+    "time": "2024-05-31T09:14:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112534823188189586",
+    "scrap_id": "Rwihi2ek",
+    "href": "https://mastodon.social/@ejfox/112534823188189586",
+    "description": "<p>chirpy bird thinks its wake up time, dumb bird, haven’t even gone to sleep yet</p>",
+    "time": "2024-05-31T08:45:29.215Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "Q7xA3HDe",
+    "href": "https://www.wnyc.org/story/when-gentrification-leaves-the-city/?fbclid=IwZXh0bgNhZW0CMTEAAR0juxKoZ8d0cxYwNZ2PQQVU7AvJfsnMmP7sB2wwWMaCDl_Ba0mg6FxzHRk_aem_ARSm-YR5ochsG-morBkYslp0hEWSXe-NB1H1ajTndKEMLjAdke6gz8dgTWBRDRqS2f_Yk8vzFo4yLuTWqFVUMofn",
+    "description": "When Gentrification Leaves the City | The Brian Lehrer Show | WNYC",
+    "time": "2024-05-30T21:31:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "aRklSKtD",
+    "href": "https://www.404media.co/internet-sleuths-trace-the-backrooms-creepypasta-to-an-rc-car-race-track-in-wisconsin/",
+    "description": "Internet Sleuths Finally Find Origin of 'The Backrooms' Creepypasta Image",
+    "time": "2024-05-30T20:26:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6seBgE7v",
+    "href": "https://www.youtube.com/watch?v=U4Z2bhQqUo0",
+    "description": "The Backrooms Photo Origins - YouTube",
+    "time": "2024-05-30T20:26:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "Lc7hoz4A",
+    "href": "https://github.com/P3pp3rF1y/AncientWarfare2",
+    "description": "P3pp3rF1y/AncientWarfare2: Ancient Warfare Mod for Minecraft 1.12.x",
+    "time": "2024-05-29T23:03:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112521780122542568",
+    "scrap_id": "8RpjLf9-",
+    "href": "https://mastodon.social/@ejfox/112521780122542568",
+    "description": "<p>I can already tell sexyy red is gonna ruin my summer with these awful songs the radio cannot stop playing on repeat, theres no way people actually like this</p>",
+    "time": "2024-05-29T01:28:27.826Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "pT1MeM24",
+    "href": "https://cdromance.org/ps2-iso/the-matrix-path-of-neo-usa/",
+    "description": "The Matrix: Path of Neo (USA) PS2 ISO - CDRomance",
+    "time": "2024-05-28T22:27:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "49MdXQ5d",
+    "href": "https://github.com/imzbf/md-editor-v3",
+    "description": "imzbf/md-editor-v3: Markdown editor for vue3, developed in jsx and typescript, dark theme、beautify content by prettier、render articles directly、paste or clip the picture and upload it...",
+    "time": "2024-05-28T21:25:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "tXThMFR0",
+    "href": "https://vueup.github.io/vue-quill/#demo",
+    "description": "VueQuill | Rich Text Editor Component for Vue 3",
+    "time": "2024-05-28T21:24:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "🧙‍♂️ Fully Typescript: VueQuill source code is written entirely in TypeScript.\r\n"
+  },
+  {
+    "scrap_id": "UxJUbDgl",
+    "href": "https://www.bloomberg.com/graphics/2024-south-africa-election-racial-inequality/",
+    "description": "South Africa Election: ANC Threatened by Apartheid’s Legacy",
+    "time": "2024-05-28T18:55:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "!inspo",
+    "extended": ""
+  },
+  {
     "id": "112517100486916094",
     "scrap_id": "Y6HjnnMU",
     "href": "https://mastodon.social/@ejfox/112517100486916094",

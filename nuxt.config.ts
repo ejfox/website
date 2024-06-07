@@ -8,6 +8,7 @@ export default {
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@nuxt/image',
+    '@unlok-co/nuxt-stripe',
   ],
   ui: {
     icons: 'all',
@@ -17,16 +18,41 @@ export default {
       DEV: process.env.NODE_ENV !== 'production',
     },
   },
+  tailwindcss: {
+    exposeConfig: true,
+  },
+  stripe: {
+    // Server
+    server: {
+      // key: "sk_test_123",
+      key: process.env.STRIPE_SECRET_KEY,
+      options: {
+        // your api options override for stripe server side
+        // https://github.com/stripe/stripe-node?tab=readme-ov-file#configuration
+      },
+      // CLIENT
+    },
+    client: {
+      // key: "pk_test_123",
+      key: process.env.STRIPE_PUBLISHABLE_KEY,
+      // your api options override for stripe client side https://stripe.com/docs/js/initializing#init_stripe_js-options
+      options: {},
+    },
+  },
   content: {
+    experimental: {
+      // clientDB: true,
+    },
     documentDriven: true,
     markdown: {
+      rehypePlygins: ['rehype-external-links'],
       remarkPlugins: [
         'remark-wiki-link',
         'remark-reading-time',
         //   'remark-gfm',
         //   'remark-emoji',
         //   'remark-unwrap-images',
-        //   'remark-wiki-link',
+        // 'remark-wiki-link',
         //   'remark-external-links',
       ],
     },

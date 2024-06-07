@@ -11,19 +11,14 @@ definePageMeta({
 </script>
 
 <template>
-  <section class="lg:mt-20 xl:mt-24">
+  <section class="lg:mt-8 xl:mt-16">
     <section
-      class="p-8 lg:px-24 max-w-prose text-xl md:text-3xl lg:text-5xl text-justify prose-p:leading-normal prose-a:underline prose-a:decoration-primary xl:py-32"
-    >
+      class="p-4 md:px-8 lg:px-24 max-w-prose text-xl md:text-3xl lg:text-5xl text-justify prose-p:leading-normal prose-a:underline prose-a:decoration-primary xl:py-32">
       <ContentDoc path="/" />
     </section>
 
     <div id=" hcard-EJ-Fox" class="vcard invisible">
-      <img
-        src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7"
-        alt="Photo of EJ Fox"
-        class="photo dn"
-      />
+      <img src="https://gravatar.com/avatar/4a503ee102c67cc632d77f97721d83f7" alt="Photo of EJ Fox" class="photo dn" />
       <div><a class="url fn db" href="https://ejfox.com">EJ Fox</a></div>
       <a class="email db" href="mailto:ejfox@ejfox.com">ejfox@ejfox.com</a>
       <div class="adr">

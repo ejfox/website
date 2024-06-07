@@ -2,12 +2,12 @@
 dek: "In which we deploy Nuxt 3 to Netlify and avoid a variety of potential pitfalls in the process"
 inprogress: true
 date: "2023-08-28T15:58:16.000Z"
-modified: "2023-08-28T16:29:13.000Z"
+modified: "2024-06-07T18:32:55.000Z"
 tags: "tech programming"
 hidden: true
 draft: true
 ---
-# Deploying Nuxt 3 apps to Netlify
+## Deploying Nuxt 3 apps to Netlify
 
 ### Pinia Store
 ```js

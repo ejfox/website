@@ -39,6 +39,14 @@
               <!-- <ContentRenderer :value="doc" class="" /> -->
               <ContentRenderer :value="doc">
                 <PageMetadata :doc="doc" />
+
+                <!-- if we are on DEV, show an obsidian deeplink for editing -->
+                <div v-if="DEV" class="">
+                  <a :href="generateObsidianDeepLink(page)" class="">
+                    Edit in Obsidian
+                  </a>
+                </div>
+
                 <ContentRendererMarkdown :value="doc" />
               </ContentRenderer>
             </div>
@@ -89,38 +97,34 @@ import { timeFormat } from 'd3-time-format'
 import { generatePassword } from '~/helpers'
 import { useRouteQuery } from '@vueuse/router'
 
-const { toc, page, excerpt } = useContent()
-const password = useRouteQuery('password')
+const { toc, page, excerpt } = useContent();
 
-// set useHead meta based on the page
-useHead({
-  title: 'EJ Fox | ' + page.value?.title,
-})
 
-useSeoMeta({
-  title: page.value?.title,
-  ogTitle: page.value?.title,
-  description: page.value?.dek || excerpt.value,
-  ogDescription: page.value?.dek || excerpt.value,
-  // ogImage: ogImageUrl.value,
+const formatDate = timeFormat("%B %Y");
 
-})
+// get DEV from the public runtime config
+// const { DEV } = useRuntimeConfig().public;
+// console.log('DEV', DEV);
 
-// a computed property based on if the page has a .hidden property
-const isPasswordCorrect = computed(() => {
-  const titleSlug = page.value._path
-  const correctPassword = generatePassword(titleSlug)
-  return password.value === correctPassword
-})
 
 const isHidden = computed(() => {
-  if (!page.value) return
-  return page.value.hidden && !isPasswordCorrect.value
+  return page.value?.hidden
 })
 
-const formatDate = timeFormat('%B %Y')
-
+// const publicRuntimeConfig = useRuntimeConfig();
+// console.log('publicRuntimeConfig', publicRuntimeConfig);
 // const formatBlogDate = timeFormat('%B %d, %Y')
+
+const DEV = import.meta.dev
+
+function generateObsidianDeepLink(page) {
+
+
+  let path = page._path
+  // the path starts with /blog/ which we need to strip out
+  path = path.replace('/blog/', '')
+  return `obsidian://open?vault=ejfox&file=${path}`
+}
 
 // TODO: The prev / next are based on the directory structure
 // NOT the data, which I assumed was the case

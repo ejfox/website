@@ -14,8 +14,10 @@ export default {
     icons: 'all',
   },
   useRuntimeConfig: {
+    test: 'foo',
     public: {
-      DEV: process.env.NODE_ENV !== 'production',
+      test2: 'bar',
+      DEV: process.env.NODE_ENV,
     },
   },
   tailwindcss: {

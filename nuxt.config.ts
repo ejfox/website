@@ -9,6 +9,7 @@ export default {
     '@vueuse/nuxt',
     '@nuxt/image',
     '@unlok-co/nuxt-stripe',
+    '@tresjs/nuxt',
   ],
   ui: {
     icons: 'all',

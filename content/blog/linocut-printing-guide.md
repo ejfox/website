@@ -3,12 +3,11 @@ dek: In which the author explains his reasoning for exploring analog methods of 
 type: words
 hidden: false
 inprogress: false
-date: 2019-08-18T04:00:39-04:00
+date: "2019-08-18T11:29:39-04:00"
 hidetimestamp: false
-modified: 2024-06-03T16:17:14-04:00
 ---
 
-## Linocut printing for a bright future
+# Linocut printing for a bright future
 
 I have made my income using computers for my entire adult life. Designing graphics, writing code, and making websites. I think a lot about what would happen if our world suddenly shifted (for any variety of reasons) and we lost our easy access to computers or the internet.
 
@@ -25,7 +24,6 @@ As a result I’ve been experimenting with different methods of distributing inf
 The same way some people stock up on rice and beans and ammo I’ve been stocking up on linoleum, ink, and chisels.
 
 ::table-of-contents
-
 ::
 
 Linocut printing is a really interesting medium to me as a means for the easy distribution of information and imagery. It has a long history of successful usage. Descending from a long lineage of woodblock printing used by a range of printers from medieval monks illustrating their bibles to Japanese artisans depicting elaborate samurais and mountain views. The desired image is painstakingly carved into wood– in reverse. Ink is applied, covering only the uncarved parts of the wood. Paper is laid on top and gently rubbed, absorbing the shape of the image.
@@ -40,9 +38,9 @@ In a world different but very similar to ours I can imagine that our networks ha
 
 “Medic”, “Water here”, we always need signs is what I’m saying.
 
-### Making a linocut
+## Making a linocut
 
-#### Creating your image
+### Creating your image
 
 The easiest method I have found for creating an image that you want to print by hand is to start the drawing on tracing paper. It is cheap, plentiful, and to iterate you can lay one sheet over the other. You can rearrange things slightly until everything is proportioned to your liking. (You can also use a projector to project the image onto your tracing paper or the reversed image directly onto the linoleum)
 
@@ -54,7 +52,7 @@ Each of these steps is a little “lossy” as they say, every re-tracing of you
 
 Once I have retraced in pencil, I will make any adjustments (I can still erase at this point!) looking at it for a while. Once I can’t look at it anymore I’ll start going over my lines with a thick sharpie. Thin sharpies can lead you to create thin intricate designs that might not actually be accomplishable for a beginner.
 
-#### Carving
+### Carving
 
 I fill in all of my shapes so that I can disconnect my mind and follow a simple rule. If it’s the color of the linoleum: _carve_. If it’s a color: _don’t carve_.
 
@@ -76,7 +74,7 @@ Film, on the other hand, has it’s inherent god-given limits. There are 36 shot
 
 I don’t think that is necessarily a better way to create, but it is undeniably a different way. It produces different work. Creating good work is sometimes simply making things differently than the current fads in lighting or composition or subject. If you had to go to the darkroom every time you wanted to post to instagram, it would be very different (but maybe not better!)
 
-#### Printing
+### Printing
 
 The process of printing a linocut, once you have [assembled your mise en place](https://ejfox.com/blog/step-zero), is astoundingly easy and efficient. I have also done the field research and the entire process of laying out ink, laying the paper, rubbing it, and slowly unpeeling the print can be conducted by a reasonably intelligent child. I say this as a form of the strongest encouragement to try it yourself.
 

@@ -1,0 +1,129 @@
+<template>
+  <main class="dark:bg-gray-900 p-2 md:p-4 text-sm">
+
+    <div class="flex items-center space-x-4">
+      <span v-if="filterOutDrafts">Filtering out drafts</span>
+      <span v-else>Showing drafts</span>
+      <UToggle v-model="filterOutDrafts" />
+    </div>
+
+
+    <ContentQuery path="/blog/" :sort="{ date: -1 }" v-slot="{ data }">
+      <h2>
+        {{ data.length }} articles
+      </h2>
+      <h3 v-if="filterOutDrafts">
+        {{ blogIndexFilter(data).length }} articles after filtering drafts
+      </h3>
+      <table class="table-auto">
+        <thead>
+          <tr>
+            <th class="border-b py-2">Title</th>
+            <!-- <th class="border-b py-2">Slug</th> -->
+            <th class="border-b py-2">Date</th>
+            <th class="border-b py-2">Modified</th>
+            <th class="border-b py-2">Time Diff</th>
+
+            <!-- <th class="border-b py-2">Description</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="article in blogIndexSort(blogIndexFilter(data))" :key="article._path">
+            <td class="p-2">
+              <UIcon v-if="article.hidden" name="i-formkit-hidden" class="opacity-80 mr-1" />
+
+              <NuxtLink :to="article._path"
+                :class="['pr-4 link cursor-pointer', !article.draft ? 'font-bold' : 'font-light']">
+                {{ article.title }}
+              </NuxtLink>
+
+              <UIcon v-if="article.draft" name="i-carbon-result-draft" class="opacity-30" />
+
+
+
+
+
+              <div>
+                <span class="text-xs tracking-wider font-light text-gray-500 dark:text-gray-500">
+                  {{ article._path }}
+                </span>
+              </div>
+            </td>
+            <!-- <td class="text-xs py-2">
+              <span class="text-gray-500 dark:text-gray-500">
+                {{ article._path }}
+              </span>
+            </td> -->
+            <td class=" py-2" :style="{
+        color: dateColorScale(new Date(article.date))
+      }">{{ article.date }}</td>
+            <td class=" py-2" :style="{
+        color: timeDiffScale(calcTimeDiff(new Date(article.date), new Date(article.modified)))
+      }">{{ article.modified }}</td>
+            <td :style="{
+        color: timeDiffScale(calcTimeDiff(new Date(article.date), new Date(article.modified)))
+      }">{{ calcTimeDiff(new Date(article.date), new Date(article.modified)) }}</td>
+
+            <!-- <td class="border-b py-2">{{ article.description }}</td> -->
+          </tr>
+        </tbody>
+      </table>
+    </ContentQuery>
+  </main>
+</template>
+<script setup lang="ts">
+import { useRouteQuery } from '@vueuse/router'
+import { countPhotos, filterStrongTags } from '~/helpers'
+// import anime from "animejs/lib/anime.es.js";
+import { timeFormat } from 'd3-time-format'
+import { scaleLinear } from 'd3'
+import tailwindConfig from '#tailwind-config'
+
+const primaryColor = useAppConfig().ui.primary
+const primaryColorHex = tailwindConfig.theme.colors[primaryColor][500]
+
+const formatDate = timeFormat('%B %d, %Y')
+
+function calcTimeDiff(date1, date2) {
+  const diff = Math.abs(date1 - date2)
+  const diffDays = Math.ceil(diff / (1000 * 60 * 60 * 24))
+  // make sure diffDays is a number
+  // otherwise return null
+  return isNaN(diffDays) ? null : diffDays
+}
+
+// date color scale from 2015 to 2025
+const dateColorScale = scaleLinear()
+  .domain([new Date('2015-01-01'), new Date()])
+  // .range(['black', 'rgba(30,30,30'])
+  .range(['rgba(0, 255, 0, 0)', primaryColorHex])
+
+const timeDiffScale = scaleLinear()
+  .domain([0, 100])
+  .range(['rgba(50, 50, 50, 0.6)', primaryColorHex])
+
+
+const filterOutDrafts = ref(true)
+
+const blogIndexFilter = (articles) => {
+  if (!articles) return articles
+
+  // filter out drafts
+  if (filterOutDrafts.value) {
+    articles = articles.filter((article) => !article.draft)
+  }
+
+  return articles
+}
+
+const blogIndexSort = (articles) => {
+  return articles.sort((a, b) => new Date(b.date) - new Date(a.date))
+}
+
+function featuredArticle(data) {
+  if (!data) return null
+
+  const sortedData = blogIndexSort(blogIndexFilter(data))
+  return sortedData[0]
+}
+</script>

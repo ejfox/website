@@ -116,7 +116,7 @@ const draftCount = computed(() => draftPosts.value.length)
 
 <style>
 .stats-classes {
-  @apply text-8xl font-bold p-4 text-center min-h-48 min-w-48 bg-gray-200 dark:bg-gray-800 rounded-lg flex items-center justify-center;
+  @apply text-8xl font-bold p-4 text-center min-h-48 min-w-48 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center;
 }
 
 .captions-classes {

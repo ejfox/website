@@ -1,7 +1,7 @@
 <template>
   <div class="stats-classes">
     <div>
-      <h2 :class="stringLengthToFontSize(wordNumberFormat(value))">
+      <h2 :class="[stringLengthToFontSize(wordNumberFormat(value)), 'dark:text-primary-300 text-primary-500']">
         {{ wordNumberFormat(value) }}
       </h2>
       <p class="captions-classes">{{ label }}</p>

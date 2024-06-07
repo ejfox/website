@@ -40,10 +40,12 @@ export default {
     },
   },
   content: {
+    experimental: {
+      // clientDB: true,
+    },
     documentDriven: true,
     markdown: {
       rehypePlygins: ['rehype-external-links'],
-
       remarkPlugins: [
         'remark-wiki-link',
         'remark-reading-time',

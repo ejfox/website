@@ -9,10 +9,22 @@ export default function useScrap() {
     server: false,
   })
 
+  function processScrapData(scrapData) {
+    const filteredData = scrapData.filter((d) => d.time && d.id)
+    const sortedData = filteredData.sort((a, b) => {
+      const dateA = new Date(a.time)
+      const dateB = new Date(b.time)
+      return dateB - dateA
+    })
+    const scrapByWeekMap = scrapbookDataToWeeks(sortedData)
+    return { sortedData, scrapByWeekMap }
+  }
+
   watchEffect(() => {
     if (scrapData.value) {
-      combinedData.value = scrapData.value
-      scrapByWeek.value = scrapbookDataToWeeks(combinedData.value)
+      const { sortedData, scrapByWeekMap } = processScrapData(scrapData.value)
+      combinedData.value = sortedData
+      scrapByWeek.value = scrapByWeekMap
     }
   })
 

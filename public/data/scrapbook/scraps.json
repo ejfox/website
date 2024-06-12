@@ -1,5 +1,25 @@
 [
   {
+    "id": "112604936366245238",
+    "scrap_id": "XAMfWRCN",
+    "href": "https://mastodon.social/@ejfox/112604936366245238",
+    "description": "<p>inside those IDs are little posts like this (all Mastodon posts right now, need to fix that next)</p>",
+    "time": "2024-06-12T17:56:11.407Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/604/936/123/240/257/small/9d473ba72553af29.png"
+    ]
+  },
+  {
+    "id": "112604878566702136",
+    "scrap_id": "cv54L1ax",
+    "href": "https://mastodon.social/@ejfox/112604878566702136",
+    "description": "<p>I have succeeded in creating a visual that looks at the patterns of my research/bookmarks/work each week (linking them sequentially) - there are definitely shapes to my research, but what they mean, or why I made this- very unclear</p>",
+    "time": "2024-06-12T17:41:29.460Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "id": 28683784,
     "scrap_id": "Cmh82J8u",
     "href": "https://www.are.na/block/28683784",

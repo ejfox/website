@@ -1,5 +1,73 @@
 [
   {
+    "id": "112606157469837338",
+    "scrap_id": "lbo2fE5D",
+    "href": "https://mastodon.social/@ejfox/112606157469837338",
+    "description": "<p>a pomodoro? you mean like one side of a record?</p>",
+    "time": "2024-06-12T23:06:43.972Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "68lLe_v8",
+    "href": "https://themarkup.org/2024/06/12/these-wrongly-arrested-black-men-say-a-california-bill-would-let-police-misuse-face-recognition",
+    "description": "These Wrongly Arrested Black Men Say a California Bill Would Let Police Misuse Face Recognition – The Markup",
+    "time": "2024-06-12T22:06:28Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AqY3ujCB",
+    "href": "https://github.com/vueuse/vueuse/issues/1288",
+    "description": "useDraggable with absolute positioning · Issue #1288 · vueuse/vueuse",
+    "time": "2024-06-12T21:52:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112605860748247941",
+    "scrap_id": "FOAL0pEE",
+    "href": "https://mastodon.social/@ejfox/112605860748247941",
+    "description": "<p>well this sparks joy for sure</p>",
+    "time": "2024-06-12T21:51:16.358Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "8GSGfzTO",
+    "href": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+    "description": "[1hr Talk] Intro to Large Language Models - YouTube",
+    "time": "2024-06-12T19:56:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112605236507611776",
+    "scrap_id": "YqHDUs2J",
+    "href": "https://mastodon.social/@ejfox/112605236507611776",
+    "description": "<p>I want my software to collect a patina from its ongoing usage</p>",
+    "time": "2024-06-12T19:12:31.206Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112605130533106788",
+    "scrap_id": "QmKwwtc9",
+    "href": "https://mastodon.social/@ejfox/112605130533106788",
+    "description": "<p>or maybe just lay them all out as cards and arrange them myself</p>",
+    "time": "2024-06-12T18:45:34.158Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/605/130/270/972/066/small/a89fb2caabfc78b6.png"
+    ]
+  },
+  {
     "id": "112604936366245238",
     "scrap_id": "XAMfWRCN",
     "href": "https://mastodon.social/@ejfox/112604936366245238",

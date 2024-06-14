@@ -1,5 +1,52 @@
 [
   {
+    "id": "112611119269015257",
+    "scrap_id": "kPGnSvLH",
+    "href": "https://mastodon.social/@ejfox/112611119269015257",
+    "description": "<p>I want a whisper powered scene switcher in OBS- it listens to what I am saying, and given a brief description of what each scene shows, chooses to switch to the appropriate one. “Let’s look at the code” fullscreens my browser, “let’s sketch a bit” goes to the iPad sketching scene, giving advice goes to host close-up scene, stuff like that</p>",
+    "time": "2024-06-13T20:08:35.019Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "YSf7oQKB",
+    "href": "https://arstechnica.com/tech-policy/2024/06/cop-busted-for-unauthorized-use-of-clearview-ai-facial-recognition-resigns/",
+    "description": "Cop busted for unauthorized use of Clearview AI facial recognition resigns",
+    "time": "2024-06-13T20:05:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Indiana cop easily hid frequent personal use of Clearview AI face scans."
+  },
+  {
+    "scrap_id": "QJKRBQps",
+    "href": "https://www.wetdogweather.com/2024/06/12/how-to-make-stamen-watercolor-in-maplibre/",
+    "description": "How to Make Stamen Watercolor in MapLibre",
+    "time": "2024-06-13T19:59:23Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "With a few adjustments, we can easily replicate the Stamen Watercolor style in MapLibre. This post provides a detailed guide on how to do this."
+  },
+  {
+    "id": "112611068999409869",
+    "scrap_id": "IiC_DVv_",
+    "href": "https://mastodon.social/@ejfox/112611068999409869",
+    "description": "<p>If programmers spoke like they chose frameworks and libraries, they would say the shortest word is always the best, and using longer words is inefficient and naive. They would say slow and dumb.</p>",
+    "time": "2024-06-13T19:55:47.963Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112611065385158385",
+    "scrap_id": "fqhhW_Hu",
+    "href": "https://mastodon.social/@ejfox/112611065385158385",
+    "description": "<p>Learning to do things in multiple technologies is like acquiring a vocabulary; you can say the same thing in lots of different ways, choosing the most appropriate one based on your message</p>",
+    "time": "2024-06-13T19:54:52.817Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "id": "112607955706765100",
     "scrap_id": "ytJeAqbd",
     "href": "https://mastodon.social/@ejfox/112607955706765100",

@@ -1,5 +1,64 @@
 [
   {
+    "scrap_id": "qvzP-OIk",
+    "href": "https://stackblitz.com/edit/vitejs-vite-ik4fhx?file=src%2FApp.vue",
+    "description": "vueUse useNow (start) (forked) - StackBlitz",
+    "time": "2024-06-14T07:12:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "t1H7dapU",
+    "href": "https://stackblitz.com/edit/vitejs-vite-e2rk8f?file=src%2FApp.vue",
+    "description": "Vitejs (forked) - StackBlitz",
+    "time": "2024-06-14T07:07:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112613388181228529",
+    "scrap_id": "LgoP2Kjn",
+    "href": "https://mastodon.social/@ejfox/112613388181228529",
+    "description": "<p>Me and the robot put together a little quality-of-life command line script that scans the current directory for git repos and reports their git status, polling for changes every 5 seconds – for lunatics like me who spin up new repos constantly and work on them across 2 computers: <a href=\"https://github.com/ejfox/git-status-monitor\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/ejfox/git-status-mo</span><span class=\"invisible\">nitor</span></a></p>",
+    "time": "2024-06-14T05:45:35.871Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/613/387/932/374/191/small/2817adf6d8c6e8d6.png"
+    ]
+  },
+  {
+    "id": "112613381527770198",
+    "scrap_id": "jcw2NcMJ",
+    "href": "https://mastodon.social/@ejfox/112613381527770198",
+    "description": "<p>there is virtue in learning to use someone elses difficult but powerful tool- and I have spent a lot of time doing it- but other times, and even moreso for the simple and everyday tasks, and with the ease of creation with AI writing code, it is nice to have my own</p>",
+    "time": "2024-06-14T05:43:54.347Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112613191768016004",
+    "scrap_id": "pkLHWEQx",
+    "href": "https://mastodon.social/@ejfox/112613191768016004",
+    "description": "<p>I keep building my own tools- there are, of course, tools that already exist that perform the same if not the exact functions- but with one deficit that I am valuing more with age: they are not made by *me*</p>",
+    "time": "2024-06-14T04:55:38.845Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "FDxPgvAL",
+    "href": "https://journals.sagepub.com/doi/10.1177/02637758241232758",
+    "description": "The work of landlord technology: The fictions of frictionless property management - Erin McElroy, 2024",
+    "time": "2024-06-14T04:11:35Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Landlord technologyâor the systems used by landlords to control and regulate tenant lives, spaces, and dataâfrequently promises âfrictionlessâ building manageme..."
+  },
+  {
     "id": "112611119269015257",
     "scrap_id": "kPGnSvLH",
     "href": "https://mastodon.social/@ejfox/112611119269015257",

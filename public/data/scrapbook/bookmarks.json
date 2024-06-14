@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://www.compadre.us/about",
+    "description": "About — Competitive Advantage Research",
+    "extended": "Curiosity. Automation. Innovation.",
+    "meta": "268d25e388a7afc48515b8cd5288b68e",
+    "hash": "6a45ff1ee30957569458886838e0faa9",
+    "time": "2024-06-14T15:45:37Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://stackblitz.com/edit/vitejs-vite-ik4fhx?file=src%2FApp.vue",
     "description": "vueUse useNow (start) (forked) - StackBlitz",
     "extended": "",

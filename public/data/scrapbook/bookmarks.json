@@ -1,4 +1,5 @@
-[]  {
+[
+  {
     "href": "https://www.storyblok.com/faq/setting-up-https-on-localhost-in-nuxt-3",
     "description": "Setting Up HTTPS on localhost in Nuxt 3",
     "extended": "",

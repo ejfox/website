@@ -42,9 +42,12 @@
 
                 <!-- if we are on DEV, show an obsidian deeplink for editing -->
                 <div v-if="DEV" class="">
-                  <a :href="generateObsidianDeepLink(page)" class="">
+                  <!-- <a :href="generateObsidianDeepLink(page)" class="">
                     Edit in Obsidian
-                  </a>
+                  </a> -->
+                  <UButton color="white" @click="navigateTo(generateObsidianDeepLink(page), { external: true })">
+                    Edit in Obsidian
+                  </UButton>
                 </div>
 
                 <ContentRendererMarkdown :value="doc" />

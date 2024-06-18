@@ -1,5 +1,71 @@
 [
   {
+    "href": "https://github.com/xenova/transformers.js",
+    "description": "xenova/transformers.js: State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
+    "extended": "",
+    "meta": "852c731f6eed63dd7c0b07d37b297c66",
+    "hash": "66403a94ece78d61e1d52de43d913819",
+    "time": "2024-06-18T15:30:49Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/shuding/apple-pencil-safari-api-test",
+    "description": "shuding/apple-pencil-safari-api-test: Canvas based sketch board, with force touch and real-time Bezier curves.",
+    "extended": "",
+    "meta": "3af3f895e179df3474d054eec781cdd7",
+    "hash": "de02edc73e0ddcfe6552ca5d61da8271",
+    "time": "2024-06-18T14:47:52Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://dataphoenix.info/a-guide-to-the-yolo-family-of-computer-vision-models/",
+    "description": "A Guide to the YOLO Family of Computer Vision Models",
+    "extended": "",
+    "meta": "c089f23ae0041a84c2f24e80804aaf6e",
+    "hash": "84968f6d390d7083a4aa0033c592d8ae",
+    "time": "2024-06-18T14:47:15Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": "machinelearning computervision"
+  },
+  {
+    "href": "https://blog.roboflow.com/dimension-measurement/#",
+    "description": "Dimension Measurement with Computer Vision",
+    "extended": "",
+    "meta": "98b40ad5a8d6ba5f53c449e3f307e2b3",
+    "hash": "09b2c02eb001d28e6e433616b0462763",
+    "time": "2024-06-18T14:47:06Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": "machinelearning"
+  },
+  {
+    "href": "https://medium.com/@softarex/computer-vision-stereo-vision-and-volume-measurement-910c381f0f75",
+    "description": "Computer Vision: Stereo Vision and Volume Measurement | by Max Dimanov | Medium",
+    "extended": "",
+    "meta": "839e15816ae292991556561c8ffcf6dd",
+    "hash": "d261edf66ebab705561a9b2a862e264a",
+    "time": "2024-06-18T14:45:57Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://maverickbeyond.com/2020/09/06/tips-for-cyanotype-printing-on-to-ceramics/",
+    "description": "Tips for cyanotype printing on to ceramics",
+    "extended": "",
+    "meta": "0a33554f0987c53151c911ac69e9b819",
+    "hash": "d0ffa4c3fa6944312fed59fdc9b1c814",
+    "time": "2024-06-18T14:05:58Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.jpost.com/israel-hamas-war/article-806634",
     "description": "IDF knew of Hamas's plan to kidnap 250 before October 7 attack - report",
     "extended": "The IDF had precise information about Hamas's intentions, but due to prevailing conceptions in the security establishment and possible negligence by officials, the warning signs were not acted on.",

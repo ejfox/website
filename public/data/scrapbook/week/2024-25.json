@@ -1,5 +1,25 @@
 [
   {
+    "scrap_id": "1c9H6YF8",
+    "href": "https://github.com/google-gemini/generative-ai-js",
+    "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",
+    "time": "2024-06-18T17:26:47Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "yAuOe6fV",
+    "href": "https://stackoverflow.com/questions/78245422/import-gltf-with-tresjs-in-nuxt",
+    "description": "Import GLTF with TresJS in Nuxt",
+    "time": "2024-06-18T17:03:37Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "I'm stuggling to import a gltf model with TresJS.\nGLTFModel is working fine - useGLTF doesn't find my asset.\nI'm totally new to nuxt and TresJS, so any help is appreciated.\nI keep getting a &quot;5..."
+  },
+  {
     "id": 28843812,
     "scrap_id": "yJg6twXJ",
     "href": "https://www.are.na/block/28843812",

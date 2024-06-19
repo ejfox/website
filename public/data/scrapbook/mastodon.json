@@ -4367,17 +4367,17 @@
         "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/109/388/122/520/056/632/original/617492f91c7f518a.jpeg",
         "header": "https://files.mastodon.social/cache/accounts/headers/109/388/122/520/056/632/original/e6195bc0bd2ba85c.jpeg",
         "header_static": "https://files.mastodon.social/cache/accounts/headers/109/388/122/520/056/632/original/e6195bc0bd2ba85c.jpeg",
-        "followers_count": 179,
-        "following_count": 112,
-        "statuses_count": 1181,
-        "last_status_at": "2024-06-18",
+        "followers_count": 182,
+        "following_count": 114,
+        "statuses_count": 1184,
+        "last_status_at": "2024-06-19",
         "hide_collections": false,
         "emojis": [],
         "fields": [
           {
             "name": "github",
             "value": "<a href=\"https://github.com/wader\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/wader</span><span class=\"invisible\"></span></a>",
-            "verified_at": "2024-06-10T18:53:48.792+00:00"
+            "verified_at": "2024-06-19T11:49:25.294+00:00"
           }
         ]
       },
@@ -24742,7 +24742,7 @@
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 5315,
         "following_count": 1399,
-        "statuses_count": 24219,
+        "statuses_count": 24229,
         "last_status_at": "2024-06-19",
         "hide_collections": false,
         "noindex": false,

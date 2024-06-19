@@ -1,5 +1,25 @@
 [
   {
+    "scrap_id": "q_GHcObn",
+    "href": "https://www.theguardian.com/us-news/article/2024/jun/19/nypd-complaints-increase-mayor-adams",
+    "description": "[no title]",
+    "time": "2024-06-19T14:36:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "muLFzAwu",
+    "href": "https://www.wired.com/story/perplexity-is-a-bullshit-machine/",
+    "description": "Perplexity Is a Bullshit Machine",
+    "time": "2024-06-19T14:34:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A WIRED investigation shows that the AI search startup Perplexity is surreptitiously downloading your data."
+  },
+  {
     "scrap_id": "UH9W5_zW",
     "href": "https://nymag.com/intelligencer/article/doj-says-epoch-times-is-an-epic-money-laundering-operation.html",
     "description": "DOJ Says Epoch Times Newspaper Is an Epic Money-Laundering Operation",

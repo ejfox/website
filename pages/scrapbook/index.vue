@@ -7,6 +7,20 @@
       Graph view</NuxtLink>
     <NuxtLink :to="`/scrapbook/graph`" class="underline block">
       Card view</NuxtLink>
+
+    <div class="scrap-metadata-container">
+      <div class="scrap-heatmap">
+        <div class="scrap-heatmap-grid leading-none flex flex-wrap py-4">
+          <div v-for="(block, index) in heatmapData" :key="index"
+            class="mr-0.5 mb-0.5 w-2 h-2 overflow-visible sans-serif">
+            <UTooltip :text="`${block.count} scraps on ${formatDate(block.date)}`">
+              <div class="scrap-heatmap-block w-2 h-2 " :style="{ backgroundColor: block.color }"></div>
+            </UTooltip>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
       <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
@@ -22,6 +36,8 @@ import useScrap from '~/composables/useScrap.js'
 import { format } from 'date-fns'
 import ScrapItem from '~/components/Scrap/Item.vue'
 import ScrapGallery from '~/components/Scrap/Gallery.vue'
+import { scaleLinear } from 'd3'
+import * as d3 from 'd3'
 
 const scrapcontainer = ref(null)
 const { combinedData } = useScrap()
@@ -103,5 +119,50 @@ const groupedScraps = computed(() => {
 
   // Return the array of grouped scraps
   return groups
+})
+
+
+// generate a count of total scraps per day
+const scrapCountByDay = computed(() => {
+  const scrapCountByDay = {}
+  displayedData.value.forEach((scrap) => {
+    if (!scrap.time) return console.error(`Scrap ${scrap.id} has no time`)
+    const date = formatDate(scrap.time)
+    if (!scrapCountByDay[date]) {
+      scrapCountByDay[date] = 0
+    }
+    scrapCountByDay[date]++
+  })
+  return scrapCountByDay
+})
+
+const isDark = useDark()
+
+// we are gonna use the total scraps per day
+// to generate a github style heatmap of recent activity
+// we will use the same color scale as github
+const colorScale = scaleLinear()
+  .domain([0, 6])
+  // .range(['#ebedf0', '#196127'])
+  .range([isDark ? '#1a1a1a' : '#ebedf0', isDark ? '#196127' : '#196127'])
+
+// and now we generate the data for each block, which will be a 2d array
+// with the date and the color
+// for the last 90 days
+const heatmapData = computed(() => {
+  const heatmapData = []
+  for (let i = 0; i < 90; i++) {
+
+    // const count = scrapCountByDay.value[formatDate(new Date(Date.now() - i * 24 * 60 * 60 * 1000))] || 0
+    const date = new Date(Date.now() - i * 24 * 60 * 60 * 1000)
+    const count = scrapCountByDay.value[formatDate(date)] || 0
+    heatmapData.push({
+      count,
+      date,
+      color: colorScale(count),
+
+    })
+  }
+  return heatmapData
 })
 </script>

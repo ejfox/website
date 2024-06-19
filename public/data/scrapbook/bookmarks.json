@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://github.com/asg017/sqlite-vec",
+    "description": "asg017/sqlite-vec: Work-in-progress vector search SQLite extension that runs anywhere.",
+    "extended": "",
+    "meta": "db49c64881220e459d4f2f827d569007",
+    "hash": "cc1b87b8406e4250ceb3469b285431b4",
+    "time": "2024-06-18T22:51:52Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://medium.com/radiant-earth-insights/duckdb-the-indispensable-geospatial-tool-you-didnt-know-you-were-missing-5fe11c5633e5",
+    "description": "DuckDB: The indispensable geospatial tool you didn’t know you were missing | by Chris Holmes | Radiant Earth Insights | Medium",
+    "extended": "",
+    "meta": "230b073cb4181500fd3abf0560985589",
+    "hash": "0b9bffa2318d57ee5cbba5f920dc094f",
+    "time": "2024-06-18T22:38:18Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/google-gemini/generative-ai-js",
     "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",
     "extended": "",

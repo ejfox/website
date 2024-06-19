@@ -1,5 +1,84 @@
 [
   {
+    "scrap_id": "YL20fTmO",
+    "href": "https://www.woolichracing.com/products/kawasaki/kawasaki-ecu-flashing.aspx#productTable",
+    "description": "ECU Flashing Products - Suzuki, Kawasaki, Yamaha, BMW, Honda and Ducati - Woolich Racing",
+    "time": "2024-06-19T07:54:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "s41bTS4J",
+    "href": "https://www.npr.org/2024/06/13/nx-s1-5005297/epoch-times-turmoil-money-laundering",
+    "description": "Money laundering charges raise questions about the direction of The Epoch Times",
+    "time": "2024-06-19T06:30:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The media site founded by adherents of Falun Gong morphed into a pro-Trump outlet that spouted conspiracy theories. Now the CEO is out after money laundering charges were filed against the CFO."
+  },
+  {
+    "scrap_id": "RKyPnjc2",
+    "href": "https://youtube.com/watch?v=lCARHatJQJA&si=gI040ToQShgBnJ2q",
+    "description": "[no title]",
+    "time": "2024-06-19T06:22:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112641642255104985",
+    "scrap_id": "jbuQSKVs",
+    "href": "https://mastodon.social/@ejfox/112641642255104985",
+    "description": "<p>youd think Id be good at it by now</p>",
+    "time": "2024-06-19T05:30:58.821Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112641641397162539",
+    "scrap_id": "nC1nmZ-Y",
+    "href": "https://mastodon.social/@ejfox/112641641397162539",
+    "description": "<p>fuck I just realized Ive been coding for 20 years</p>",
+    "time": "2024-06-19T05:30:45.740Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112641571100590322",
+    "scrap_id": "cggmSlc8",
+    "href": "https://mastodon.social/@ejfox/112641571100590322",
+    "description": "<p>what if I just take a completely brutalist approach to my share images</p>",
+    "time": "2024-06-19T05:12:53.092Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/641/570/857/965/562/small/c82141928113b653.png"
+    ]
+  },
+  {
+    "scrap_id": "jHiVkrET",
+    "href": "https://www.youtube.com/watch?v=iQRAgR_01Dk",
+    "description": "Hermann Zschiegner & Natalie Erdem—Designing the MSNBC Big Board (Talk, Outlier 2023)",
+    "time": "2024-06-19T04:41:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Designing the MSNBC Big BoardIn 2018 we worked with MSNBC to design and implement Steve Kornacki's \"big board\" for the midterm elections. The \"election map\" ..."
+  },
+  {
+    "scrap_id": "5-5ydz6k",
+    "href": "https://visualisingdata.com/2024/06/explore-explain-s5-e3-natalie-erdem/",
+    "description": "Explore Explain S5 E3: Natalie Erdem - Data Viz Excellence, Everywhere",
+    "time": "2024-06-19T04:41:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Welcome to S5E3 of Explore Explain, a long-form video and podcast series about data visualisation design. In this episode I chat with Natalie Erdem to explore the story behind TWO-N's work developing MSNBC's election big board."
+  },
+  {
     "scrap_id": "utqVVWdM",
     "href": "https://github.com/asg017/sqlite-vec",
     "description": "asg017/sqlite-vec: Work-in-progress vector search SQLite extension that runs anywhere.",

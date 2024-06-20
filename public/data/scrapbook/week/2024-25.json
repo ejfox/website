@@ -1,8 +1,74 @@
 [
   {
+    "scrap_id": "RaEFbmMa",
+    "href": "https://www.lrb.co.uk/the-paper/v46/n12/adam-shatz/israel-s-descent",
+    "description": "[no title]",
+    "time": "2024-06-20T00:04:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AVjVNpaz",
+    "href": "https://bun.sh/docs/api/sqlite",
+    "description": "SQLite – API | Bun Docs",
+    "time": "2024-06-19T19:32:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9PQDXdG2",
+    "href": "https://arxiv.org/abs/2406.08651",
+    "description": "[2406.08651] How to Distinguish AI-Generated Images from Authentic Photographs",
+    "time": "2024-06-19T18:22:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112644547182830364",
+    "scrap_id": "VsTz5POv",
+    "href": "https://mastodon.social/@ejfox/112644547182830364",
+    "description": "<p>Having a lot of fun with TresJS - got a 3D model I scanned in Polycam of my friend the other day rotating with anime.js createAnimatable and vue refs - pretty dope</p>",
+    "time": "2024-06-19T17:49:44.505Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644413235489117",
+    "scrap_id": "fB6ntrmm",
+    "href": "https://mastodon.social/@ejfox/112644413235489117",
+    "description": "<p>but now I get to enjoy the sensory experience of typing on ice-cold keys, like minty gum for your fingertips</p>",
+    "time": "2024-06-19T17:15:40.627Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644410731758254",
+    "scrap_id": "0dLVR4X9",
+    "href": "https://mastodon.social/@ejfox/112644410731758254",
+    "description": "<p>in its defense I *was* recording OBS while working on a 3D scene in 98° heat</p>",
+    "time": "2024-06-19T17:15:02.423Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644407631617679",
+    "scrap_id": "LpaQEV45",
+    "href": "https://mastodon.social/@ejfox/112644407631617679",
+    "description": "<p>my macbook stopped being able to read the filesystem for a while so I had to put in the freezer</p>",
+    "time": "2024-06-19T17:14:15.122Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "q_GHcObn",
     "href": "https://www.theguardian.com/us-news/article/2024/jun/19/nypd-complaints-increase-mayor-adams",
-    "description": "[no title]",
+    "description": "Revealed: NYPD complaints surge under Adams to reach highest level since 2012",
     "time": "2024-06-19T14:36:07Z",
     "type": "pinboard",
     "images": [],

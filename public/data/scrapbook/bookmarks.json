@@ -1,9 +1,42 @@
 [
   {
-    "href": "https://www.theguardian.com/us-news/article/2024/jun/19/nypd-complaints-increase-mayor-adams",
+    "href": "https://www.lrb.co.uk/the-paper/v46/n12/adam-shatz/israel-s-descent",
     "description": "[no title]",
     "extended": "",
-    "meta": "ff8e6dd549b294932989a864da3b80ab",
+    "meta": "77f5651d2d43224997e0348c6f96e598",
+    "hash": "c5c99c0daadf467163d08b9ed37d997f",
+    "time": "2024-06-20T00:04:48Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://bun.sh/docs/api/sqlite",
+    "description": "SQLite – API | Bun Docs",
+    "extended": "",
+    "meta": "85e0bf0801b99658670fcb00dbae85ca",
+    "hash": "b8de6bb54e20154a0e0ab7a01f90b1ec",
+    "time": "2024-06-19T19:32:50Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://arxiv.org/abs/2406.08651",
+    "description": "[2406.08651] How to Distinguish AI-Generated Images from Authentic Photographs",
+    "extended": "",
+    "meta": "a0ac8b8db08759f49fff71d16a766a5f",
+    "hash": "c8aefaa116ac180d13cbf5f315031f36",
+    "time": "2024-06-19T18:22:02Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.theguardian.com/us-news/article/2024/jun/19/nypd-complaints-increase-mayor-adams",
+    "description": "Revealed: NYPD complaints surge under Adams to reach highest level since 2012",
+    "extended": "",
+    "meta": "358073218e011b6f3113cf40481a8b68",
     "hash": "fc535ea19ed9063c3da12601c0d7ee9d",
     "time": "2024-06-19T14:36:07Z",
     "shared": "yes",

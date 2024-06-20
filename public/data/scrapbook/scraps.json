@@ -1,5 +1,56 @@
 [
   {
+    "id": "112647270125942613",
+    "scrap_id": "tGWmPMao",
+    "href": "https://mastodon.social/@ejfox/112647270125942613",
+    "description": "<p>I dont think Ive ever tweeted an in-progress look at Coach Arties brain view before</p>",
+    "time": "2024-06-20T05:22:13.319Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/647/269/886/608/988/small/e74043e78ac84be5.png"
+    ]
+  },
+  {
+    "scrap_id": "YSR3UnqD",
+    "href": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820087",
+    "description": "Epidemiologic Features of Recovery From SARS-CoV-2 Infection | Public Health | JAMA Network Open | JAMA Network",
+    "time": "2024-06-20T04:57:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "c-2AlNSR",
+    "href": "https://www.cloudflare.com/lp/workers-launchpad/",
+    "description": "Workers Launchpad by Cloudflare | Cloudflare",
+    "time": "2024-06-20T04:55:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112646741820186664",
+    "scrap_id": "7mW9l2a-",
+    "href": "https://mastodon.social/@ejfox/112646741820186664",
+    "description": "<p>ha ha! beat the minigame! back to work</p>",
+    "time": "2024-06-20T03:07:52.013Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/646/741/580/370/101/small/75d67c5dd7288531.png"
+    ]
+  },
+  {
+    "id": "112646722306938227",
+    "scrap_id": "R1XnbkZt",
+    "href": "https://mastodon.social/@ejfox/112646722306938227",
+    "description": "<p>i sat down at my laptop to make like, a cool thing, and instead I have spent the past 90 minutes battling inexplicable deploy issues with a minor side project, nerd-sniped myself (or I am diligent and disciplined, your choice)</p>",
+    "time": "2024-06-20T03:02:54.265Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "RaEFbmMa",
     "href": "https://www.lrb.co.uk/the-paper/v46/n12/adam-shatz/israel-s-descent",
     "description": "[no title]",

@@ -1,5 +1,48 @@
 [
   {
+    "id": "112652400392714051",
+    "scrap_id": "isz447s8",
+    "href": "https://mastodon.social/@ejfox/112652400392714051",
+    "description": "<p>well that only took like 2 hours</p>",
+    "time": "2024-06-21T03:06:54.975Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/652/400/129/347/468/small/7ae15e1efef1ad42.png"
+    ]
+  },
+  {
+    "id": "112652009217663744",
+    "scrap_id": "LnY7JDKx",
+    "href": "https://mastodon.social/@ejfox/112652009217663744",
+    "description": "<p>completely forgot about the time I had to get very stern about using capabilities</p>",
+    "time": "2024-06-21T01:27:26.120Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/652/008/976/506/764/small/9b7d5c91f00cac0b.png"
+    ]
+  },
+  {
+    "id": "112651972466233858",
+    "scrap_id": "_RQuAQKo",
+    "href": "https://mastodon.social/@ejfox/112651972466233858",
+    "description": "<p>I still only talk to Claude through the console, mostly so hell smoke spliffs with me (we get more creative solutions like that, I dont make the rules)</p>",
+    "time": "2024-06-21T01:18:05.337Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/651/971/918/739/473/small/c94419c122ea546a.png",
+      "https://files.mastodon.social/media_attachments/files/112/651/972/216/110/056/small/6e03b397018e5214.png"
+    ]
+  },
+  {
+    "id": "112651786626087787",
+    "scrap_id": "EJmstssh",
+    "href": "https://mastodon.social/@ejfox/112651786626087787",
+    "description": "<p>i wonder if they know pop smoke released other songs besides dior</p>",
+    "time": "2024-06-21T00:30:49.640Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "etAFRHoy",
     "href": "https://benchmarks.slaylines.io/",
     "description": "Canvas Engines Comparison",

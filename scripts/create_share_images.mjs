@@ -1,14 +1,12 @@
 import { readFileSync, readdirSync, existsSync, mkdirSync } from 'fs'
 import path from 'path'
 import puppeteer from 'puppeteer-core'
-import { createSSRApp, createApp, h } from 'vue'
+import { createSSRApp, h } from 'vue'
 import { renderToString } from '@vue/server-renderer'
 import matter from 'gray-matter'
 import pLimit from 'p-limit'
 
 const limit = pLimit(2)
-
-// const imageRegex = /!\[[^\]]*\]\(([^)]*)\)/g
 const imageRegex = /\!\[[^\]]*\]\(([^)]+\.(?:png|jpg|jpeg|gif|webp|svg))/g
 
 /**
@@ -58,6 +56,24 @@ function processFiles() {
   })
 }
 
+// we need to get the title from the first header
+// which will be like \n## Title\n
+// or \n# Title\n
+function getTitle(contentString) {
+  const h1TitleRegex = /\n#\s(.*)\n/
+  const h2TitleRegex = /\n##\s(.*)\n/
+
+  if (h1TitleRegex.test(contentString)) {
+    return contentString.match(h1TitleRegex)[1]
+  }
+
+  if (h2TitleRegex.test(contentString)) {
+    return contentString.match(h2TitleRegex)[1]
+  }
+
+  return ''
+}
+
 /**
  * Process a single Markdown file and generate a share image.
  * @param {string} fileName - The name of the Markdown file.
@@ -78,14 +94,10 @@ async function processFile(fileName) {
     // Get the path to the Chrome executable
     const chromePath = getChromePath()
 
-    // Generate the share image using Vue templates
-    // await generateShareImage(data, content, destinationFilePath, chromePath)
-    // use the limiter
+    // Generate the share image using Vue templates with the limiter
     await limit(() =>
       generateShareImage(data, content, destinationFilePath, chromePath),
     )
-
-    // console.log(`Share image generated for file: ${destinationFilePath}`)
   } catch (error) {
     console.error(`Error processing file ${fileName}:`, error)
   }
@@ -107,75 +119,157 @@ async function generateShareImage(
   // Extract the first image URL from the body
   const imageUrl = extractFirstImageUrl(body)
 
+  // get the title from the first header
+  const title = getTitle(body)
+
   if (imageUrl !== null && imageUrl !== undefined) {
     console.log(
       `First image extracted from post ${destinationFilePath}: ${imageUrl}`,
     )
+  } else {
+    console.log(`No image found in post ${destinationFilePath}`)
   }
 
-  // Create a Vue SSR app with the frontmatter, body, and image URL as data
-  const app = createApp({
-    head() {
-      return {
-        // add https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js
-        script: [
-          {
-            src: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js',
-          },
-        ],
-        bodyAttrs: {
-          class: 'h-screen bg-red-500',
-        },
+  // if there IS an image, we will use it as the background
+  // otherwise we will pick a random color
+  const computedBgStyle = imageUrl
+    ? {
+        backgroundImage: `url(${imageUrl})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }
-    },
+    : {
+        backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(
+          16,
+        )}`,
+      }
+
+  // Create a Vue SSR app with the frontmatter, body, and image URL as data
+  const app = createSSRApp({
     data() {
       return {
         frontmatter,
         body,
         imageUrl,
+        title,
       }
     },
     render() {
       return h(
         'div',
         {
-          class: [
-            'bg-red text-8xl text-white flex items-center justify-center',
-          ],
           style: {
-            backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(
-              16,
-            )}`,
+            ...computedBgStyle,
+            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: '100vh',
+            fontSize: '48px',
           },
         },
         [
-          h('div', { class: { 'max-w-3xl': true, 'mx-auto': true } }, [
+          h('div', { style: { maxWidth: '960px', margin: '0 auto' } }, [
             h(
-              'h1',
+              'div',
               {
-                class: { 'f-headline': true, 'font-bold': true, 'mb-4': true },
+                style: {
+                  display: 'flex',
+                  alignItems: 'center',
+                  marginBottom: '16px',
+                  padding: '8px',
+                  borderRadius: '8px',
+                  // backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                },
               },
-              this.frontmatter.title,
+              [
+                h('img', {
+                  src: 'https://avatars.githubusercontent.com/u/530073?v=4',
+                  style: {
+                    width: '52px',
+                    height: '52px',
+                    borderRadius: '50%',
+                    marginRight: '16px',
+                  },
+                }),
+                h(
+                  'span',
+                  { style: { fontSize: '48px', fontWeight: 'bold' } },
+                  'EJ Fox',
+                ),
+                // add the title to the image
+                h(
+                  'span',
+                  {
+                    style: {
+                      fontSize: '42px',
+                      fontWeight: 'bold',
+                      marginLeft: '16px',
+                    },
+                  },
+                  title,
+                ),
+              ],
             ),
             h(
               'p',
-              { class: { 'text-xl': true, 'mb-8': true } },
+              {
+                style: {
+                  fontSize: '42px',
+                  marginBottom: '32px',
+                  padding: '16px',
+                  borderRadius: '8px',
+                  textShadow: '2px 2px 0 #000',
+                },
+              },
               this.frontmatter.dek,
             ),
-            h('div', { class: { 'mb-8': true } }, [
-              h(
-                'p',
-                { class: { 'text-gray-600': true } },
-                `Read time: ${calculateReadTime(this.body)} min`,
-              ),
-              h(
-                'p',
-                { class: { 'text-gray-600': true } },
-                `Total images: ${countImages(this.body)}`,
-              ),
-            ]),
+            h(
+              'div',
+              {
+                style: {
+                  marginBottom: '32px',
+                  padding: '16px',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                },
+              },
+              [
+                h(
+                  'div',
+                  {
+                    style: {
+                      padding: '16px',
+                      borderRadius: '8px',
+                      color: '#666',
+                      // backgroundColor: '#eee',
+                      // use rgba for some opacity
+                      backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                      flex: '1',
+                      marginRight: '8px',
+                    },
+                  },
+                  `Read time: ${calculateReadTime(this.body)} min`,
+                ),
+                h(
+                  'div',
+                  {
+                    style: {
+                      padding: '16px',
+                      borderRadius: '8px',
+                      color: '#666',
+                      backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                      flex: '1',
+                      marginLeft: '8px',
+                    },
+                  },
+                  `Total images: ${countImages(this.body)}`,
+                ),
+              ],
+            ),
             h('div', {
-              class: { prose: true },
+              style: { fontSize: '18px' },
               domProps: { innerHTML: this.body },
             }),
           ]),
@@ -187,39 +281,55 @@ async function generateShareImage(
   // Render the app to HTML
   let html = await renderToString(app)
 
-  // Inject Tailwind CSS
-  // const tailwindCss = `<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">`
-  // html = html.replace('</head>', `${tailwindCss}</head>`)
-
-  // inject as script
-  // from   <script src="https://cdn.tailwindcss.com"></script>
-  // const tailwindCss = `<script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>`
-  // const tailwindCss = `<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>`
-
-  // html = html.replace('</head>', `${tailwindCss}</head>`)
-
-  // lets use tachyons instead
-  // https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css
-  // const tachyonsCss = `<link href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" rel="stylesheet">`
-  // html = html.replace('</head>', `${tachyonsCss}</head>`)
-
   // Launch a headless browser instance
   const browser = await puppeteer.launch({
     executablePath: chromePath,
-    headless: true, // Set to false for debugging
+    // headless: true,
+    headless: false,
   })
 
   // Create a new page in the browser
   const page = await browser.newPage()
   await page.setViewport({ width: 1200, height: 630 }) // Set viewport size for Twitter card
 
-  // wait for the js to load an execute
-  await page.goto('data:text/html;charset=UTF-8,' + html, {
-    waitUntil: 'networkidle0',
+  // set some CSS on the root
+  // like body * { box-sizing: border-box; margin: 0; padding: 0; }
+  // await page.addStyleTag({
+  //   content: `
+  //     body *, html {
+  //       box-sizing: border-box;
+  //       margin: 0;
+  //       padding: 0;
+  //       font-family: 'Inter', sans-serif;
+  //     }
+  //   `,
+  // })
+
+  // this doesn't work
+  // we need to remove the default margin and padding from the body
+  // we will add them inline to the body with javascript
+  page.on('load', async () => {
+    await page.evaluate(() => {
+      document.body.style.margin = '0'
+      document.body.style.padding = '0'
+      document.body.style.fontFamily = 'Inter, sans-serif'
+    })
+  })
+
+  // add Inter google web font
+  await page.addStyleTag({
+    url: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap',
   })
 
   // Set the HTML content of the page
   await page.setContent(html)
+
+  // Wait for the page to finish rendering
+  // await page.evaluate(() => {
+  //   return new Promise((resolve) => {
+  //     setTimeout(resolve, 600)
+  //   })
+  // })
 
   // Save a screenshot of the page as a PNG image
   await page.screenshot({ path: destinationFilePath })

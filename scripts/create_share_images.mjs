@@ -161,118 +161,158 @@ async function generateShareImage(
         {
           style: {
             ...computedBgStyle,
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
             height: '100vh',
             fontSize: '48px',
           },
         },
         [
-          h('div', { style: { maxWidth: '960px', margin: '0 auto' } }, [
-            h(
-              'div',
-              {
-                style: {
-                  display: 'flex',
-                  alignItems: 'center',
-                  marginBottom: '16px',
-                  padding: '8px',
-                  borderRadius: '8px',
-                  // backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                },
+          h(
+            'div',
+            {
+              style: {
+                // maxWidth: '960px',
+                margin: '0 auto',
+                position: 'fixed',
+                top: '0px',
+                left: '0px',
+                width: '100%',
+                height: '48px',
               },
-              [
-                h('img', {
-                  src: 'https://avatars.githubusercontent.com/u/530073?v=4',
+            },
+            [
+              // Background image element
+              h('img', {
+                src: imageUrl,
+                style: {
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: '-1',
+                  // filter: 'blur(24px)', // Apply blur to the background image
+                  // make it grayscale AND blurred
+                  filter: 'grayscale(100%) blur(24px)',
+                },
+              }),
+              h(
+                'div',
+                {
                   style: {
-                    width: '52px',
-                    height: '52px',
-                    borderRadius: '50%',
-                    marginRight: '16px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: '8px',
+                    borderRadius: '8px',
+                    position: 'relative',
+                    top: '0',
+                    left: '0',
+                    width: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.8)',
                   },
-                }),
-                h(
-                  'span',
-                  { style: { fontSize: '48px', fontWeight: 'bold' } },
-                  'EJ Fox',
-                ),
-                // add the title to the image
-                h(
-                  'span',
-                  {
-                    style: {
-                      fontSize: '42px',
-                      fontWeight: 'bold',
-                      marginLeft: '16px',
-                    },
-                  },
-                  title,
-                ),
-              ],
-            ),
-            h(
-              'p',
-              {
-                style: {
-                  fontSize: '42px',
-                  marginBottom: '32px',
-                  padding: '16px',
-                  borderRadius: '8px',
-                  textShadow: '2px 2px 0 #000',
                 },
-              },
-              this.frontmatter.dek,
-            ),
-            h(
-              'div',
-              {
-                style: {
-                  marginBottom: '32px',
-                  padding: '16px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
+                [
+                  h('img', {
+                    src: 'https://avatars.githubusercontent.com/u/530073?v=4',
+                    style: {
+                      width: '52px',
+                      height: '52px',
+                      borderRadius: '50%',
+                      marginRight: '16px',
+                    },
+                  }),
+                  h(
+                    'div',
+                    {
+                      style: {
+                        fontSize: '48px',
+                        color: 'white',
+                      },
+                    },
+                    'EJ Fox',
+                  ),
+                  // add the title to the image
+                  h(
+                    'div',
+                    {
+                      style: {
+                        fontSize: '42px',
+                        marginLeft: '32px',
+                        color: 'white',
+                      },
+                    },
+                    title,
+                  ),
+                ],
+              ),
+              h(
+                'p',
+                {
+                  style: {
+                    fontSize: '52px',
+                    marginBottom: '32px',
+                    paddingLeft: '64px',
+                    paddingRight: '64px',
+                    borderRadius: '8px',
+                    textShadow: '0 2px 1rem white',
+                    color: 'black',
+                    position: 'relative',
+                  },
                 },
-              },
-              [
-                h(
-                  'div',
-                  {
-                    style: {
-                      padding: '16px',
-                      borderRadius: '8px',
-                      color: '#666',
-                      // backgroundColor: '#eee',
-                      // use rgba for some opacity
-                      backgroundColor: 'rgba(255, 255, 255, 0.5)',
-                      flex: '1',
-                      marginRight: '8px',
-                    },
+                this.frontmatter.dek,
+              ),
+              h(
+                'div',
+                {
+                  style: {
+                    marginBottom: '32px',
+                    padding: '16px',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    position: 'relative',
                   },
-                  `Read time: ${calculateReadTime(this.body)} min`,
-                ),
-                h(
-                  'div',
-                  {
-                    style: {
-                      padding: '16px',
-                      borderRadius: '8px',
-                      color: '#666',
-                      backgroundColor: 'rgba(255, 255, 255, 0.5)',
-                      flex: '1',
-                      marginLeft: '8px',
+                },
+                [
+                  h(
+                    'div',
+                    {
+                      style: {
+                        padding: '16px',
+                        borderRadius: '8px',
+                        flex: '1',
+                        marginRight: '8px',
+                        position: 'fixed',
+                        bottom: '0',
+                        left: '0',
+                      },
                     },
-                  },
-                  `Total images: ${countImages(this.body)}`,
-                ),
-              ],
-            ),
-            h('div', {
-              style: { fontSize: '18px' },
-              domProps: { innerHTML: this.body },
-            }),
-          ]),
+                    `Read time: ${calculateReadTime(this.body)} min`,
+                  ),
+                  countImages(this.body) > 1 &&
+                    h(
+                      'div',
+                      {
+                        style: {
+                          padding: '16px',
+                          borderRadius: '8px',
+                          flex: '1',
+                          marginLeft: '8px',
+                          position: 'fixed',
+                          bottom: '0',
+                          right: '0',
+                        },
+                      },
+                      `Total images: ${countImages(this.body)}`,
+                    ),
+                ],
+              ),
+              h('div', {
+                style: { fontSize: '18px', position: 'relative' },
+                domProps: { innerHTML: this.body },
+              }),
+            ],
+          ),
         ],
       )
     },
@@ -284,8 +324,8 @@ async function generateShareImage(
   // Launch a headless browser instance
   const browser = await puppeteer.launch({
     executablePath: chromePath,
-    // headless: true,
-    headless: false,
+    headless: true,
+    // headless: false,
   })
 
   // Create a new page in the browser

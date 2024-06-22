@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://npmgraph.js.org/",
+    "description": "npmgraph - NPM Dependency Diagrams",
+    "extended": "",
+    "meta": "fd033673ab2057524464657e00e99cac",
+    "hash": "532134aeae1def13f003c64ec5ce3d21",
+    "time": "2024-06-22T00:09:13Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.lohud.com/story/news/politics/2024/06/21/downstate-correctional-facility-in-fishkill-could-be-rebuilt-with-1300-homes/74166969007/?fbclid=IwZXh0bgNhZW0CMTAAAR05U3vHFvGvqP_iSAm1_0p507eWmeZTbImY6ziCn-KKJcCYtWfAlpQWBhw_aem_TIYg9Oi2ECwPezdpZTYesg",
+    "description": "Downstate prison site in Fishkill could be rebuilt with 1,300 homes",
+    "extended": "",
+    "meta": "72d3f07994eb3d083cb850ca9275f891",
+    "hash": "bd1314cfe4704d05b1d52457087535c0",
+    "time": "2024-06-21T23:31:43Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://benchmarks.slaylines.io/",
     "description": "Canvas Engines Comparison",
     "extended": "",

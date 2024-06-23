@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://journals.sagepub.com/doi/abs/10.1177/09567976221108944",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "1fa314845bb4abbacf7f0f5e9ec694af",
+    "hash": "9e099920cac37e522af8e91610dcac1c",
+    "time": "2024-06-23T13:55:19Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://x.com/wojtekmaj91/status/1804811004330590258",
+    "description": "Wojciech Maj (@wojtekmaj91) on X",
+    "extended": "",
+    "meta": "a5d6f24157fbc9c1d3b4d644d4c86f53",
+    "hash": "da60df28a5ea9d5d67be1c16ca3dc6e5",
+    "time": "2024-06-23T13:07:07Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://thesephist.com/posts/prism/",
     "description": "Prism: mapping interpretable concepts and features in a latent space of language",
     "extended": "",

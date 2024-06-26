@@ -23140,7 +23140,7 @@
         "header": "https://mastodon.social/headers/original/missing.png",
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 363,
-        "following_count": 1024,
+        "following_count": 1027,
         "statuses_count": 337,
         "last_status_at": "2024-06-25",
         "hide_collections": false,
@@ -23154,7 +23154,7 @@
           {
             "name": "Website",
             "value": "<a href=\"https://www.jeremiak.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">jeremiak.com</span><span class=\"invisible\"></span></a>",
-            "verified_at": "2024-06-18T15:04:29.557+00:00"
+            "verified_at": "2024-06-26T01:29:40.250+00:00"
           },
           {
             "name": "Location",
@@ -26279,8 +26279,8 @@
         "header_static": "https://mastodon.social/headers/original/missing.png",
         "followers_count": 5324,
         "following_count": 1406,
-        "statuses_count": 24478,
-        "last_status_at": "2024-06-25",
+        "statuses_count": 24466,
+        "last_status_at": "2024-06-26",
         "hide_collections": false,
         "noindex": false,
         "emojis": [],

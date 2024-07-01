@@ -24,9 +24,9 @@
     <div v-for="article in sortedFilteredArticles" :key="article._path">
       <UCard :class="[
         article.hidden ? 'hidden' : '',
-        'opacity-80 xl:opacity-60 hover:opacity-100 transition duration-200 ease-in-out mb-4',
+        'mb-4 max-w-screen-md',
       ]">
-        <div>
+        <div class="lg:p-4 xl:p-8">
           <div
             class="flex justify-between items-center text-gray-400 dark:text-gray-600 text-xs md:text-sm mb-2 md:mb-4"
             v-if="article.title">
@@ -45,24 +45,15 @@
             </span>
           </div>
 
-          <NuxtLink v-if="article.title" :to="article._path"
+          <!-- <NuxtLink v-if="article.title" :to="article._path"
             class="link font-bold text-gray-900 dark:text-gray-100 text-2xl md:text-3xl tracking-tight mb-2 md:mb-4 block hover:text-primary-500 dark:hover:text-primary-300 transition-colors duration-200 cursor-pointer">
             {{ article.title }}
           </NuxtLink>
           <span v-else>
             <USkeleton class="h-8 w-96 my-4" />
-          </span>
+          </span> -->
 
           <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base mb-2 md:mb-4"></div>
-
-          <div class="text-gray-700 dark:text-gray-300 text-md max-w-prose">
-            <div v-if="article.dek" class="font-light my-6">
-              {{ article.dek }}
-            </div>
-            <div v-else-if="article.description" class="dek">
-              {{ article.description }}
-            </div>
-          </div>
 
           <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
             <div class="article-toc">
@@ -74,6 +65,21 @@
               </ul>
             </div>
           </div>
+
+          <div class="text-gray-700 dark:text-gray-300 text-md max-w-prose">
+            <!-- <div v-if="article.dek" class="font-light my-6">
+              {{ article.dek }}
+            </div>
+            <div v-else-if="article.description" class="dek">
+              {{ article.description }}
+            </div> -->
+
+            <div class="prose lg:prose-lg dark:prose-invert">
+              <ContentRendererMarkdown :value="article" />
+            </div>
+          </div>
+
+
         </div>
       </UCard>
     </div>

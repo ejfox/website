@@ -7,9 +7,9 @@
     </NuxtLink>
 
     <div v-if="isHidden">
-      <div class="text-8xl text-red-500">This is a draft / private page</div>
+      <div class="text-8xl text-red-500 text-balance">This is a draft / private page</div>
 
-      <div class="text-lg text-gray-900 my-8">
+      <div class="text-lg text-gray-900 dark:text-white my-8">
         You need a password to access this page
       </div>
     </div>

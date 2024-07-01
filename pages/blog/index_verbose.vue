@@ -15,7 +15,7 @@
       <h3 v-if="filterOutDrafts">
         {{ blogIndexFilter(data).length }} articles after filtering drafts
       </h3>
-      <table class="table-auto">
+      <table class="table-auto w-full">
         <thead>
           <tr>
             <th class="border-b py-2">Title</th>
@@ -61,15 +61,16 @@
                 {{ article._path }}
               </span>
             </td> -->
-            <td class=" py-2" :style="{
+            <td class=" p-2" :style="{
         color: dateColorScale(new Date(article.date))
-      }">{{ article.date }}</td>
-            <td class=" py-2" :style="{
+      }">{{ prettyTime(article.date) }}</td>
+            <td class=" p-2" :style="{
         color: timeDiffScale(calcTimeDiff(new Date(article.date), new Date(article.modified)))
-      }">{{ article.modified }}</td>
-            <td :style="{
+      }">{{ prettyTime(article.modified) }}</td>
+            <td class="text-right" :style="{
+        display: article.modified && article.date ? 'table-cell' : 'none',
         color: timeDiffScale(calcTimeDiff(new Date(article.date), new Date(article.modified)))
-      }">{{ calcTimeDiff(new Date(article.date), new Date(article.modified)) }}</td>
+      }">{{ calcTimeDiff(new Date(article.date), new Date(article.modified)) }} days</td>
 
             <!-- <td class="border-b py-2">{{ article.description }}</td> -->
           </tr>
@@ -85,11 +86,26 @@ import { countPhotos, filterStrongTags } from '~/helpers'
 import { timeFormat } from 'd3-time-format'
 import { scaleLinear } from 'd3'
 import tailwindConfig from '#tailwind-config'
+// get date formatting and parsing from date-fns
+import { formatDistanceToNow, format } from 'date-fns'
 
 const primaryColor = useAppConfig().ui.primary
 const primaryColorHex = tailwindConfig.theme.colors[primaryColor][500]
 
 const formatDate = timeFormat('%B %d, %Y')
+
+function prettyTime(dateIsoString) {
+  if (!dateIsoString) return null
+  // parse the date iso string into a date 
+  // console.log('dateIsoString', dateIsoString)
+  // const date = new Date(dateIsoString)
+  // make sure we can handle 2023-10822-207T8:1409:38:50-04:00 too
+  const date = new Date(dateIsoString.split('T')[0])
+  // if it's not a valid time value return null
+  if (isNaN(date)) return null
+  // format the date into a human readable string
+  return format(date, 'yyyy-MM-dd')
+}
 
 function calcTimeDiff(date1, date2) {
   const diff = Math.abs(date1 - date2)

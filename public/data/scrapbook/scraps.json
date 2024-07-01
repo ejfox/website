@@ -1,5 +1,35 @@
 [
   {
+    "scrap_id": "OvXN-jvX",
+    "href": "https://github.com/farux/obsidian-auto-note-mover",
+    "description": "farux/obsidian-auto-note-mover: This is a plugin for Obsidian (https://obsidian.md).",
+    "time": "2024-07-01T02:04:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "6f-myiQf",
+    "href": "https://github.com/mProjectsCode/obsidian-media-db-plugin",
+    "description": "mProjectsCode/obsidian-media-db-plugin: A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.",
+    "time": "2024-07-01T02:04:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KEUZbTtx",
+    "href": "https://github.com/trganda/obsidian-attachment-management",
+    "description": "trganda/obsidian-attachment-management: Attachment Management of Obsidian",
+    "time": "2024-07-01T02:04:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "YysQifqh",
     "href": "https://echofeed.app/",
     "description": "EchoFeed",

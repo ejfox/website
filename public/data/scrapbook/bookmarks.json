@@ -1,4 +1,36 @@
-[
+[]  {
+    "href": "https://github.com/farux/obsidian-auto-note-mover",
+    "description": "farux/obsidian-auto-note-mover: This is a plugin for Obsidian (https://obsidian.md).",
+    "extended": "",
+    "meta": "4269030025c03aa1f89909c6aa018183",
+    "hash": "92f3dd8f9d1c5ad7ba047be53173dd27",
+    "time": "2024-07-01T02:04:18Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/mProjectsCode/obsidian-media-db-plugin",
+    "description": "mProjectsCode/obsidian-media-db-plugin: A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.",
+    "extended": "",
+    "meta": "6e54c8e42352632ab589eeeb5d065063",
+    "hash": "a21acefe0216977cd118acca5c6511e9",
+    "time": "2024-07-01T02:04:15Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/trganda/obsidian-attachment-management",
+    "description": "trganda/obsidian-attachment-management: Attachment Management of Obsidian",
+    "extended": "",
+    "meta": "ade3a9aa4a1c64b9ebf174dc58e41520",
+    "hash": "57b442e01db09403aa6896551b6e528c",
+    "time": "2024-07-01T02:04:10Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
   {
     "href": "https://echofeed.app/",
     "description": "EchoFeed",

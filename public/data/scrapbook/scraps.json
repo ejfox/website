@@ -1,5 +1,36 @@
 [
   {
+    "scrap_id": "YysQifqh",
+    "href": "https://echofeed.app/",
+    "description": "EchoFeed",
+    "time": "2024-06-30T17:07:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "rHtwE9od",
+    "href": "https://kevquirk.com/blog/cross-posting-with-echofeed",
+    "description": "Cross-Posting with EchoFeed | Kev Quirk",
+    "time": "2024-06-30T17:07:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112706593231667673",
+    "scrap_id": "T6CQKDlQ",
+    "href": "https://mastodon.social/@ejfox/112706593231667673",
+    "description": "<p>found a new mean thing to do to yourself; I wrote this README as if this was a completely functional repo, and its pretty sick, except the only thing that exists is the README :|</p>",
+    "time": "2024-06-30T16:48:52.076Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/706/592/991/007/931/small/da7e5244d3d0363b.png"
+    ]
+  },
+  {
     "scrap_id": "OgHWNsKD",
     "href": "https://www.nbcnews.com/news/crime-courts/police-shoot-kill-teen-armed-replica-handgun-upstate-new-york-authorit-rcna159622",
     "description": "Police shoot and kill teen armed with a replica handgun in upstate New York, authorities say",

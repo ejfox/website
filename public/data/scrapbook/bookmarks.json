@@ -1,4 +1,27 @@
-[]  {
+[
+  {
+    "href": "https://www.digitalrebellion.com/posthaste/",
+    "description": "Post Haste",
+    "extended": "",
+    "meta": "7f20a7e44273d42d7c9b360044f0a3f5",
+    "hash": "89ce0d6beb79f35e5e8e9f952a84a335",
+    "time": "2024-07-01T03:38:59Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.bhphotovideo.com/c/product/1675164-REG/tentacle_sync_te2_mk2_sync_e_mk2_sync.html",
+    "description": "Tentacle Sync E mkII Timecode Generator with Bluetooth 5.0 (Dual Set)",
+    "extended": "Buy Tentacle Sync E mkII Timecode Generator with Bluetooth 5.0 (Dual Set) featuring 2 x Timecode Generator Units, 2 x Sync Software Licenses (macOS), iOS/Android App Bluetooth 5.0 Control, Locking 3.5mm Tentacle Cable Clamp, 23.98/24/25/29.97/30 fps TC Rates, Master Clock & Jam-Sync Modes, 3.5mm Mic Jack & USB-C Port, Up to 35-Hour Runtime, 1.5-Hour Charging, Precision TCXO, <1 Frame/Day Drift Rate, Built-In Mic for Reference Sound. Review Tentacle Sync E mkII",
+    "meta": "1435bb0d12b7ea31a06509babcb302b0",
+    "hash": "36e588e9b1429607c6dbdf37360c97ab",
+    "time": "2024-07-01T03:37:57Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/farux/obsidian-auto-note-mover",
     "description": "farux/obsidian-auto-note-mover: This is a plugin for Obsidian (https://obsidian.md).",
     "extended": "",

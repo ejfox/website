@@ -1,5 +1,34 @@
 [
   {
+    "id": "112711499935349899",
+    "scrap_id": "9i0Xt4wo",
+    "href": "https://mastodon.social/@ejfox/112711499935349899",
+    "description": "<p>Freelancing has dried up for me in a really terrifying way for me in the past few months- if you have any leads, projects, or advice I would really appreciate it</p>",
+    "time": "2024-07-01T13:36:42.439Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "REaA_4jy",
+    "href": "https://www.digitalrebellion.com/posthaste/",
+    "description": "Post Haste",
+    "time": "2024-07-01T03:38:59Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "H-wjshqw",
+    "href": "https://www.bhphotovideo.com/c/product/1675164-REG/tentacle_sync_te2_mk2_sync_e_mk2_sync.html",
+    "description": "Tentacle Sync E mkII Timecode Generator with Bluetooth 5.0 (Dual Set)",
+    "time": "2024-07-01T03:37:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Buy Tentacle Sync E mkII Timecode Generator with Bluetooth 5.0 (Dual Set) featuring 2 x Timecode Generator Units, 2 x Sync Software Licenses (macOS), iOS/Android App Bluetooth 5.0 Control, Locking 3.5mm Tentacle Cable Clamp, 23.98/24/25/29.97/30 fps TC Rates, Master Clock & Jam-Sync Modes, 3.5mm Mic Jack & USB-C Port, Up to 35-Hour Runtime, 1.5-Hour Charging, Precision TCXO, <1 Frame/Day Drift Rate, Built-In Mic for Reference Sound. Review Tentacle Sync E mkII"
+  },
+  {
     "scrap_id": "OvXN-jvX",
     "href": "https://github.com/farux/obsidian-auto-note-mover",
     "description": "farux/obsidian-auto-note-mover: This is a plugin for Obsidian (https://obsidian.md).",

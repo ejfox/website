@@ -10,13 +10,13 @@
       <span class="mr-4 inline-flex items-center" v-if="doc.date" title="Date created">
         <UIcon name="ant-design:calendar-outlined" class="mr-1 text-sm pb-1" />
         <span class="hidden lg:inline-block mr-1 font-bold">Started</span>
-        {{ formatBlogDate(new Date(doc.date)) }}
+        <ruby>{{ formatBlogDate(new Date(doc.date)) }}<rt>{{ formatRelativeTime(doc.date) }}</rt></ruby>
       </span>
 
       <span class="mr-4 whitespace-nowrap inline-flex items-center" v-if="doc.modified" title="Date modified">
         <UIcon name="ic:round-edit-calendar" class="mr-1 text-sm pb-1" />
         <span class="hidden lg:inline-block mr-1 font-bold">Last Updated</span>
-        {{ formatBlogDate(new Date(doc.modified)) }}
+        <ruby>{{ formatBlogDate(new Date(doc.modified)) }}<rt>{{ formatRelativeTime(doc.modified) }}</rt></ruby>
       </span>
 
 
@@ -53,6 +53,8 @@
 </template>
 <script setup>
 import { timeFormat } from 'd3-time-format'
+// use date-fns for relative date formatting
+import { formatDistanceToNow } from 'date-fns'
 import {
   countWords,
   countPhotos,
@@ -67,4 +69,7 @@ const { doc } = defineProps({
 })
 
 const formatBlogDate = timeFormat('%B %d, %Y')
+const formatRelativeTime = (date) => formatDistanceToNow(new Date(date), {
+  addSuffix: true,
+})
 </script>

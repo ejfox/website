@@ -1,5 +1,35 @@
 [
   {
+    "scrap_id": "iliupehg",
+    "href": "https://developer.chrome.com/docs/ai/built-in#get_an_early_preview",
+    "description": "[no title]",
+    "time": "2024-07-01T20:25:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1sH5jgZY",
+    "href": "https://www.npr.org/2024/07/01/nx-s1-5024766/carlo-acutis-first-millennial-saint-pope-canonization",
+    "description": "A teen tech whiz nicknamed 'God's influencer' will become the first millennial saint",
+    "time": "2024-07-01T19:51:19Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Carlo Acutis, who died at 15 in 2006, has long been called the \"patron saint of the internet.\" After many years, two miracles and Vatican approval, he's officially set to be canonized, likely in 2025."
+  },
+  {
+    "scrap_id": "jSgK9EuU",
+    "href": "https://github.com/p1ngul1n0/blackbird",
+    "description": "p1ngul1n0/blackbird: An OSINT tool to search for accounts by username and email in social networks.",
+    "time": "2024-07-01T17:26:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112711499935349899",
     "scrap_id": "9i0Xt4wo",
     "href": "https://mastodon.social/@ejfox/112711499935349899",

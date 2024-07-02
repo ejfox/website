@@ -1,5 +1,49 @@
 [
   {
+    "href": "https://youtube.com/watch?v=sKSsxWB4ee4&si=-aFrlgYr_Wa-9qOg",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "500d9d01e1a3c20d7087b96759bfa8ab",
+    "hash": "afeefc85b630b7f62718e8b377c2f02a",
+    "time": "2024-07-02T15:31:45Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/tinylibs/tinyexec",
+    "description": "tinylibs/tinyexec: 📟 A tiny, higher level interface around child_process",
+    "extended": "",
+    "meta": "6a86d18cde43312b072be159348d26c0",
+    "hash": "0231c62b1bb425aa01de84abea6a85f0",
+    "time": "2024-07-02T14:30:39Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.wired.com/story/youtube-israel-gaza-moderation/",
+    "description": "YouTube’s Rulings on Gaza War Videos Spark Internal Backlash",
+    "extended": "Insiders have shared YouTubeâs playbook for handling the Gaza crisis. They argue that it shows inconsistent enforcement.",
+    "meta": "8e764498c92af85769257cc286323c33",
+    "hash": "d9485419203d412cb9873ee0d7e0a173",
+    "time": "2024-07-02T13:49:21Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://hudsonvalley.news12.com/ramapo-police-rockland-man-made-terroristic-threat-to-new-square-community",
+    "description": "Ramapo police: Rockland man made terroristic threat to New Square community",
+    "extended": "Ramapo police and the FBI Joint Terrorism Task Force say they investigated a series of social media posts that involved a map highlighting certain neighborhoods with the caption \"Zionists live here.\"",
+    "meta": "188ef0cd1f1a5119b76dd55b97179135",
+    "hash": "dc6d2047daf07d52be7ddaf7be74179f",
+    "time": "2024-07-02T05:14:37Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://developer.chrome.com/docs/ai/built-in#get_an_early_preview",
     "description": "[no title]",
     "extended": "",

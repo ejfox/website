@@ -1,5 +1,51 @@
 [
   {
+    "scrap_id": "aGYB4Y9K",
+    "href": "https://codepen.io/jordanamblin/pen/xxNvWMW",
+    "description": "[no title]",
+    "time": "2024-07-02T22:25:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112718409867318392",
+    "scrap_id": "4IUbd6UY",
+    "href": "https://mastodon.social/@ejfox/112718409867318392",
+    "description": "<p>slept outside by the fire at lake george at night and was rewarded with only one (1) mysterious spider bite</p>",
+    "time": "2024-07-02T18:53:59.627Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112718142618696727",
+    "scrap_id": "SeTk-UcV",
+    "href": "https://mastodon.social/@ejfox/112718142618696727",
+    "description": "<p>Sometimes I am forced to write React, and every time without fail I feel a huge rush of motivation to return to a personal project in Nuxt so I can feel safe and cared for again</p>",
+    "time": "2024-07-02T17:46:01.736Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112718104183304563",
+    "scrap_id": "4EBTg672",
+    "href": "https://mastodon.social/@ejfox/112718104183304563",
+    "description": "<p>Also why does the fully charged airpod play the distressing low battery sound when its brother is charging in the case, everything is fine guys calm down</p>",
+    "time": "2024-07-02T17:36:15.255Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112718100356804280",
+    "scrap_id": "vqkVohfs",
+    "href": "https://mastodon.social/@ejfox/112718100356804280",
+    "description": "<p>Would it hurt to make the airpod low battery noises slightly less distressing</p>",
+    "time": "2024-07-02T17:35:16.872Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "_4my6tEX",
     "href": "https://youtube.com/watch?v=sKSsxWB4ee4&si=-aFrlgYr_Wa-9qOg",
     "description": "[no title]",

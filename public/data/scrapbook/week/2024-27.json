@@ -1,5 +1,85 @@
 [
   {
+    "scrap_id": "ZywF1j9Y",
+    "href": "https://developer.chrome.com/docs/ai",
+    "description": "[no title]",
+    "time": "2024-07-04T02:54:22Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "R7jOrqoj",
+    "href": "https://www.youtube.com/watch?v=EREN4yTa9eI",
+    "description": "Create NEXT LEVEL interactive Twitch streams - OBS and SAMMI tutorial - YouTube",
+    "time": "2024-07-04T02:09:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": 29221862,
+    "scrap_id": "A0kCnZFL",
+    "href": "https://www.are.na/block/29221862",
+    "description": "",
+    "time": "2024-07-04T01:57:37.363Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTIyMTg2Mi9vcmlnaW5hbF84MGFjZmJhN2I0YjYxY2UzMzRhMTQ3MTE0NDE1MDI2Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": "112724894216395450",
+    "scrap_id": "Tuj_lhQl",
+    "href": "https://mastodon.social/@ejfox/112724894216395450",
+    "description": "<p>how come we never celebrate interdependence day</p>",
+    "time": "2024-07-03T22:23:02.942Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112723394091578329",
+    "scrap_id": "sqXt67up",
+    "href": "https://mastodon.social/@ejfox/112723394091578329",
+    "description": "<p>The new *swish* is finishing your conversation with the robot at the exact second your credits / rate limit runs dry, my new useless skill</p>",
+    "time": "2024-07-03T16:01:32.877Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/723/393/816/939/220/small/34a06be591ebc81f.jpeg"
+    ]
+  },
+  {
+    "id": "112723219290239866",
+    "scrap_id": "22Wap_D9",
+    "href": "https://mastodon.social/@ejfox/112723219290239866",
+    "description": "<p>Someone build an AI to auto-blur my screen if it contains .env</p>",
+    "time": "2024-07-03T15:17:05.611Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "hcwHEhng",
+    "href": "https://turningpointmag.org/2024/07/03/the-three-dimensions-of-militarism-in-the-climate-crisis/",
+    "description": "[no title]",
+    "time": "2024-07-03T11:25:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ENT0Idnq",
+    "href": "https://riverjournalonline.com/news/annsville-circle-to-become-hub-of-enhanced-waterfront-district/126435/",
+    "description": "Annsville Circle to Become Hub of Enhanced Waterfront District",
+    "time": "2024-07-03T10:58:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The Town of Cortlandt has assembled a $40 million infrastructure package that could transform 40 acres of undeveloped land from the Annsville Circle north into housing, offices, retail shops and […]"
+  },
+  {
     "scrap_id": "PR_IVJHg",
     "href": "https://cardinal.kx.studio/live",
     "description": "Cardinal",

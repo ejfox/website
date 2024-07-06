@@ -1,5 +1,15 @@
 [
   {
+    "scrap_id": "3l_5qmk7",
+    "href": "https://clig.dev/",
+    "description": "Command Line Interface Guidelines",
+    "time": "2024-07-06T14:04:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day."
+  },
+  {
     "scrap_id": "I9XZewLa",
     "href": "https://www.sequoiacap.com/article/ais-600b-question/",
     "description": "AI’s $600B Question",

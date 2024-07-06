@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://clig.dev/",
+    "description": "Command Line Interface Guidelines",
+    "extended": "An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.",
+    "meta": "d1f915c44f33a532272b51945786b875",
+    "hash": "b8b3703806e71286316ae6492b358dee",
+    "time": "2024-07-06T14:04:24Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.sequoiacap.com/article/ais-600b-question/",
     "description": "AI’s $600B Question",
     "extended": "The AI bubble is reaching a tipping point. As we continue to follow the GPUs, navigating what comes next will be essential.",

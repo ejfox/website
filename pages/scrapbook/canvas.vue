@@ -65,7 +65,7 @@ watchEffect(() => {
         href: bookmark.href,
         description: bookmark.description,
         content: bookmark.extended,
-        time: bookmark.time,
+        time: bookmark.created_at,
         type: 'pinboard',
         ...bookmark,
       })),
@@ -293,14 +293,14 @@ function addElement(data) {
 function scrapbookDataToWeeks(data) {
   if (!data.length) return null
   const scrapByWeekMap = d3.group(data, (d) => {
-    const date = new Date(d.time)
+    const date = new Date(d.created_at)
     const week = d3.timeWeek.floor(date)
     return week
   })
 
   // sort scraps within each week in descending order of their time property
   scrapByWeekMap.forEach((scraps, week) => {
-    scraps.sort((a, b) => new Date(b.time) - new Date(a.time))
+    scraps.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
   })
 
   // trim to only the selected year

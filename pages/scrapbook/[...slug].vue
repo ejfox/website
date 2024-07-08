@@ -2,12 +2,7 @@
   <div>
     <!-- a back button to the index -->
     <div class="flex md:justify-end">
-      <UButton
-        class="mx-4 md:m-4"
-        color="gray"
-        size="xs"
-        :to="{ name: 'scrapbook' }"
-      >
+      <UButton class="mx-4 md:m-4" color="gray" size="xs" :to="{ name: 'scrapbook' }">
         Back to Scrapbook
       </UButton>
     </div>
@@ -20,9 +15,7 @@
 
     <VerboseScrapItem class="px-4 lg:px-24" v-if="scrap" :scrap="scrap" />
 
-    <div
-      class="mx-auto p-4 lg:p-24 md:min-h-screen justify-center flex flex-col monospace text-xs"
-    >
+    <div class="mx-auto p-4 lg:p-24 md:min-h-screen justify-center flex flex-col monospace text-xs">
       <UTable :rows="scrapRows" />
     </div>
   </div>

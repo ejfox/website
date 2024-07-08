@@ -26,7 +26,7 @@
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
     </div>
-    <div v-if="dataLoading" class="text-center">Loading data...</div>
+    <div v-if="!combinedData" class="text-center">Loading data...</div>
     <div v-else-if="error" class="text-center text-red-500">Error: {{ error }}</div>
     <template v-else>
       <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
@@ -41,7 +41,7 @@
 
 <script setup>
 import { useInfiniteScroll } from '@vueuse/core'
-import useScrap from '~/composables/useScrap.js'
+import { ref, computed } from 'vue'
 import { format } from 'date-fns'
 import ScrapItem from '~/components/Scrap/Item.vue'
 import ScrapGallery from '~/components/Scrap/Gallery.vue'
@@ -49,27 +49,45 @@ import { scaleLinear } from 'd3'
 import * as d3 from 'd3'
 
 const scrapcontainer = ref(null)
-const { combinedData, isLoading: dataLoading, error } = useScrap()
 const displayedData = ref([])
 const loading = ref(false)
 const PAGE_SIZE = 20
+const currentPage = ref(1)
+const totalCount = ref(0)
+const combinedData = ref(null)
 
-const loadMore = () => {
-  if (dataLoading.value || loading.value) return
+const fetchScraps = async (page) => {
   loading.value = true
-  setTimeout(() => {
-    const startIndex = displayedData.value.length
-    const endIndex = startIndex + PAGE_SIZE
-    if (combinedData.value) {
-      console.log('combinedData.value', combinedData.value)
-      const newData = combinedData.value.slice(startIndex, endIndex)
-      displayedData.value.push(...newData)
+  try {
+    const { data, error } = await useFetch('/api/scraps', {
+      method: 'POST',
+      body: JSON.stringify({ page, pageSize: PAGE_SIZE }),
+    })
+
+    if (error.value) throw error.value
+
+    if (data.value) {
+      displayedData.value.push(...data.value.scraps)
+      totalCount.value = data.value.count
     }
+  } catch (err) {
+    console.error('Error fetching scraps:', err)
+  } finally {
     loading.value = false
-  }, 500)
+  }
+}
+
+const loadMore = async () => {
+  if (loading.value || displayedData.value.length >= totalCount.value) return
+
+  currentPage.value++
+  await fetchScraps(currentPage.value)
 }
 
 useInfiniteScroll(scrapcontainer, loadMore, { distance: 10 })
+
+// Initial load
+fetchScraps(currentPage.value)
 
 const formatDate = (date) => {
   return format(new Date(date), 'MMM d, yyyy')
@@ -140,8 +158,8 @@ const scrapCountByDay = computed(() => {
   const scrapCountByDay = {}
   if (combinedData.value) {
     combinedData.value.forEach((scrap) => {
-      if (!scrap.time) return console.error(`Scrap ${scrap.id} has no time`)
-      const date = formatDate(scrap.time)
+      if (!scrap.created_at) return console.error(`Scrap ${scrap.id} has no time`)
+      const date = formatDate(scrap.created_at)
       if (!scrapCountByDay[date]) {
         scrapCountByDay[date] = 0
       }

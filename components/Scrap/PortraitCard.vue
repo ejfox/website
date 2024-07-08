@@ -40,7 +40,7 @@
 
     <div class="date-info mt-12 break-words dark:text-slate-300" @click="navigateTo(scrap.href, { external: true })">
 
-      {{ formatDate(scrap.time) }}
+      {{ formatDate(scrap.created_at) }}
 
 
     </div>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="mb-12 text-base dark:text-slate-600">
-      {{ hoursAgo(scrap.time) }} hours ago
+      {{ hoursAgo(scrap.created_at) }} hours ago
     </div>
 
 

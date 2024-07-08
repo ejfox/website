@@ -2,7 +2,7 @@
   <div class="scrap-item group cursor-default py-2">
     <div class="flex items-center justify-between mb-1">
       <div class=" text-gray-500 opacity-5 group-hover:opacity-100 transition-opacity">
-        {{ formatDate(scrap.time) }}
+        {{ formatDate(scrap.created_at) }}
       </div>
       <a :href="scrap.href" target="_blank" class=" text-blue-500 hover:underline">
         Link

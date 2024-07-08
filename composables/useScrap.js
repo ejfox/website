@@ -1,4 +1,5 @@
-import { ref, watchEffect, watch } from 'vue'
+// useScrap.js
+import { ref, watchEffect } from 'vue'
 import * as d3 from 'd3'
 
 export default function useScrap() {
@@ -12,7 +13,7 @@ export default function useScrap() {
     pending,
     error: fetchError,
     refresh,
-  } = useFetch('/api/scraps', { method: 'POST' })
+  } = $fetch('/api/scraps', { method: 'POST', body: { page: 1, limit: 10 } })
 
   function processScrapData(scrapData) {
     const filteredData = scrapData.filter((d) => d.time && d.id)
@@ -28,17 +29,37 @@ export default function useScrap() {
       const { sortedData, scrapByWeekMap } = processScrapData(scrapData.value)
       combinedData.value = sortedData
       scrapByWeek.value = scrapByWeekMap
+      console.log(`Processed ${sortedData.length} scraps`)
     }
   })
 
-  watch(pending, (value) => {
-    isLoading.value = value
-  })
+  // watchEffect(() => {
+  //   isLoading.value = pending.value
+  // })
 
-  watch(fetchError, (value) => {
-    error.value = value
-    if (value) console.error('Error fetching scraps:', value)
-  })
+  // watchEffect(() => {
+  //   error.value = fetchError.value
+  // })
+
+  const fetchScraps = async (page = 1, limit = 10) => {
+    isLoading.value = true
+    error.value = null
+    try {
+      const { data } = await $fetch('/api/scraps', {
+        method: 'POST',
+        body: { page, limit },
+      })
+      if (data.value) {
+        const { sortedData, scrapByWeekMap } = processScrapData(data.value)
+        combinedData.value = [...combinedData.value, ...sortedData]
+        scrapByWeek.value = scrapByWeekMap
+      }
+    } catch (err) {
+      error.value = err
+    } finally {
+      isLoading.value = false
+    }
+  }
 
   function scrapbookDataToWeeks(data) {
     if (!data.length) return null
@@ -51,5 +72,6 @@ export default function useScrap() {
     isLoading,
     error,
     refresh,
+    fetchScraps,
   }
 }

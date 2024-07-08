@@ -90,7 +90,7 @@ const weekPaths = computed(() => {
 
   // Group the scrap nodes by week
   const weekData = d3.group(scrapNodes.value, (d) => {
-    const time = new Date(d.time)
+    const time = new Date(d.created_at)
     // Find the index of the week that the scrap node belongs to
     return weeks.value.findIndex((week) => time >= week && time < d3.timeWeek.offset(week, 0))
   })

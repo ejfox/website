@@ -1,5 +1,45 @@
 [
   {
+    "scrap_id": "C10W-wB8",
+    "href": "https://artificialanalysis.ai/",
+    "description": "Model & API Providers Analysis | Artificial Analysis",
+    "time": "2024-07-07T21:08:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "BzhFa6IT",
+    "href": "http://rtomayko.github.io/ronn/ronn.1.html",
+    "description": "ronn(1) - convert markdown files to manpages",
+    "time": "2024-07-07T17:11:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sNxOPnyO",
+    "href": "https://www.npmjs.com/package/tty-table",
+    "description": "tty-table",
+    "time": "2024-07-07T17:05:17Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Node cli table. Latest version: 4.2.3, last published: 8 months ago. Start using tty-table in your project by running `npm i tty-table`. There are 240 other projects in the npm registry using tty-table."
+  },
+  {
+    "scrap_id": "HG_McpxF",
+    "href": "https://oclif.github.io/",
+    "description": "The Open CLI Framework",
+    "time": "2024-07-07T17:02:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "3l_5qmk7",
     "href": "https://clig.dev/",
     "description": "Command Line Interface Guidelines",

@@ -26,7 +26,16 @@
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
     </div>
-    <div v-if="loading" class="text-center">Loading...</div>
+    <div v-if="dataLoading" class="text-center">Loading data...</div>
+    <div v-else-if="error" class="text-center text-red-500">Error: {{ error }}</div>
+    <template v-else>
+      <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
+        <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
+        <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
+        <ScrapItem v-else :scrap="group.items[0]" />
+      </div>
+      <div v-if="loading" class="text-center">Loading more...</div>
+    </template>
   </div>
 </template>
 
@@ -40,18 +49,22 @@ import { scaleLinear } from 'd3'
 import * as d3 from 'd3'
 
 const scrapcontainer = ref(null)
-const { combinedData } = useScrap()
+const { combinedData, isLoading: dataLoading, error } = useScrap()
 const displayedData = ref([])
 const loading = ref(false)
 const PAGE_SIZE = 20
 
 const loadMore = () => {
+  if (dataLoading.value || loading.value) return
   loading.value = true
   setTimeout(() => {
     const startIndex = displayedData.value.length
     const endIndex = startIndex + PAGE_SIZE
-    const newData = combinedData.value.slice(startIndex, endIndex)
-    displayedData.value.push(...newData)
+    if (combinedData.value) {
+      console.log('combinedData.value', combinedData.value)
+      const newData = combinedData.value.slice(startIndex, endIndex)
+      displayedData.value.push(...newData)
+    }
     loading.value = false
   }, 500)
 }
@@ -125,16 +138,19 @@ const groupedScraps = computed(() => {
 // generate a count of total scraps per day
 const scrapCountByDay = computed(() => {
   const scrapCountByDay = {}
-  displayedData.value.forEach((scrap) => {
-    if (!scrap.time) return console.error(`Scrap ${scrap.id} has no time`)
-    const date = formatDate(scrap.time)
-    if (!scrapCountByDay[date]) {
-      scrapCountByDay[date] = 0
-    }
-    scrapCountByDay[date]++
-  })
+  if (combinedData.value) {
+    combinedData.value.forEach((scrap) => {
+      if (!scrap.time) return console.error(`Scrap ${scrap.id} has no time`)
+      const date = formatDate(scrap.time)
+      if (!scrapCountByDay[date]) {
+        scrapCountByDay[date] = 0
+      }
+      scrapCountByDay[date]++
+    })
+  }
   return scrapCountByDay
 })
+
 
 const isDark = useDark()
 

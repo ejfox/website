@@ -5,7 +5,7 @@
       <!-- <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
       <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" /> -->
 
-      <ScrapVerboseScrapItem :scrap="group.items[0]" class="text-xs" />
+      <VerboseScrapItem :scrap="group.items[0]" class="text-xs" />
       <!-- <pre>{{group.items[0]}}</pre> -->
     </div>
     <div v-if="loading" class="text-center">Loading...</div>

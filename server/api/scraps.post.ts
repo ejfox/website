@@ -6,13 +6,13 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 export default defineEventHandler(async (event) => {
-  const supabaseUrl = process.env.SUPABASE_URL
-  const supabaseKey = process.env.SUPABASE_KEY
+  const supabaseUrl = process.env.SUPABASE_URL || ''
+  const supabaseKey = process.env.SUPABASE_KEY || ''
   const supabase = createClient(supabaseUrl, supabaseKey)
   // read the number of scraps out of the event body
   const body = await readBody(event)
 
-  const limit = body.limit || 10
+  const limit = body?.limit ? parseInt(body.limit) : 10
 
   const { data: scraps, error } = await supabase
     .from('scraps')

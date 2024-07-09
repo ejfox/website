@@ -1,5 +1,102 @@
 [
   {
+    "scrap_id": "4v9y8CdQ",
+    "href": "https://www.nature.com/articles/s41586-024-07643-2",
+    "description": "Semantic encoding during language comprehension at single-cell resolution | Nature",
+    "time": "2024-07-08T21:58:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gDOChTnr",
+    "href": "https://github.com/dfreelon/pyktok",
+    "description": "dfreelon/pyktok: A simple module to collect video, text, and metadata from Tiktok.",
+    "time": "2024-07-08T21:04:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3NIXtMmW",
+    "href": "https://benji.org/family-values",
+    "description": "Family Values",
+    "time": "2024-07-08T20:34:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "I-C9wJ1g",
+    "href": "https://riverqueue.com/",
+    "description": "River - Fast, reliable background jobs in Go",
+    "time": "2024-07-08T20:23:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "M1qgfIEl",
+    "href": "https://www.972mag.com/israeli-soldiers-gaza-firing-regulations/",
+    "description": "‘I’m bored, so I shoot’: The Israeli army’s approval of free-for-all violence in Gaza",
+    "time": "2024-07-08T20:12:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112752501636452999",
+    "scrap_id": "vWkZ1bD6",
+    "href": "https://mastodon.social/@ejfox/112752501636452999",
+    "description": "<p>No AC global warming daily log; we have reached the point in the day where my brain no longer works until I put a chair in the bathtub and run icy cold water over my feet until my core temp goes back to normal</p>",
+    "time": "2024-07-08T19:23:58.741Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112752198467119161",
+    "scrap_id": "cS5LulV5",
+    "href": "https://mastodon.social/@ejfox/112752198467119161",
+    "description": "<p>one thing they dont tell you about driving a motorcycle is that you will now be aware of every single motorcycle crash in a 200 mile radius at all times</p>",
+    "time": "2024-07-08T18:06:52.752Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "fHNDy9iD",
+    "href": "https://dailyvoice.com/new-york/southorange/happy-go-lucky-westchester-police-officer-killed-in-highlands-crash/",
+    "description": "'Happy-Go-Lucky' Westchester Police Officer Killed In Highlands Crash | South Orange Daily Voice",
+    "time": "2024-07-08T18:05:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZO2itAxL",
+    "href": "https://huggingface.co/docs/transformers.js/en/index",
+    "description": "Transformers.js",
+    "time": "2024-07-08T17:51:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "id": "112751666802117367",
+    "scrap_id": "6dVJcH4U",
+    "href": "https://mastodon.social/@ejfox/112751666802117367",
+    "description": "<p>in an AI-powered engineering world, all programming is QA</p>",
+    "time": "2024-07-08T15:51:40.180Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "3IG4mCrE",
     "href": "https://x.com/RyanMorrisonJer/status/1809257277267804229",
     "description": "Ryan Morrison on X: \"I decided to see what would happen if I had Moshi Chat @kyutai_labs talk to EVI @hume_ai. While different types of models, they both claim emotional understanding. I was not prepared for what happened and I may never sleep again. http",

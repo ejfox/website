@@ -1,5 +1,82 @@
 [
   {
+    "href": "https://www.nature.com/articles/s41586-024-07643-2",
+    "description": "Semantic encoding during language comprehension at single-cell resolution | Nature",
+    "extended": "",
+    "meta": "38cb3416a92c123fcefb69d73d7634c7",
+    "hash": "e9826c61bc4595681ba48eb66d579a59",
+    "time": "2024-07-08T21:58:39Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/dfreelon/pyktok",
+    "description": "dfreelon/pyktok: A simple module to collect video, text, and metadata from Tiktok.",
+    "extended": "",
+    "meta": "03742a43af85cda86fa8c3c871b5fa92",
+    "hash": "1395aab5f3eb17ccf85583924946b8b9",
+    "time": "2024-07-08T21:04:55Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://benji.org/family-values",
+    "description": "Family Values",
+    "extended": "",
+    "meta": "bb5626e76d3417ba1c25aea54068bc70",
+    "hash": "06391e731659925001ae2a3cdf24dc06",
+    "time": "2024-07-08T20:34:06Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://riverqueue.com/",
+    "description": "River - Fast, reliable background jobs in Go",
+    "extended": "",
+    "meta": "6ab7e3fc10171f1ec0745d4043f66401",
+    "hash": "9b3b32a473aa622695184e4ad702c270",
+    "time": "2024-07-08T20:23:43Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.972mag.com/israeli-soldiers-gaza-firing-regulations/",
+    "description": "‘I’m bored, so I shoot’: The Israeli army’s approval of free-for-all violence in Gaza",
+    "extended": "",
+    "meta": "e4d36a3d897cb8045be8215480692ed8",
+    "hash": "564874e01fd586c4151d8043ab3fddb9",
+    "time": "2024-07-08T20:12:12Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://dailyvoice.com/new-york/southorange/happy-go-lucky-westchester-police-officer-killed-in-highlands-crash/",
+    "description": "'Happy-Go-Lucky' Westchester Police Officer Killed In Highlands Crash | South Orange Daily Voice",
+    "extended": "",
+    "meta": "45da3d71dfe1b6686f91a98c7494288a",
+    "hash": "fa33f89eda2b75e2ea83bb562cee680b",
+    "time": "2024-07-08T18:05:25Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://huggingface.co/docs/transformers.js/en/index",
+    "description": "Transformers.js",
+    "extended": "",
+    "meta": "16ef4bc4b79720698532d24b80fa4381",
+    "hash": "68b62ffaa05a62a23170e899266b102b",
+    "time": "2024-07-08T17:51:27Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": "machinelearning"
+  },
+  {
     "href": "https://x.com/RyanMorrisonJer/status/1809257277267804229",
     "description": "Ryan Morrison on X: \"I decided to see what would happen if I had Moshi Chat @kyutai_labs talk to EVI @hume_ai. While different types of models, they both claim emotional understanding. I was not prepared for what happened and I may never sleep again. http",
     "extended": "",

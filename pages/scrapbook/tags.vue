@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <ClientOnly>
-      <div v-for="scrap in tagData" :key="scrap.id">
-        <ScrapItem :scrap="scrap" />
-      </div>
-      <div v-if="loading" class="text-center">Loading...</div>
-    </ClientOnly>
+  <div class="p-4 lg:p-8 flex flex-wrap justify-between">
+    <div v-for="scrap in tagData" :key="scrap.id" class="w-full md:w-1/2 p-4">
+      <ScrapItem :scrap="scrap" />
+    </div>
+    <div v-if="loading" class="text-center">Loading...</div>
   </div>
 </template>
 
@@ -22,15 +20,15 @@ const fetchScraps = async () => {
   console.log(`Fetching scraps with tag: ${tag.value}...`)
   try {
     const tagsArray = tag.value.split(',')
-    console.log(tagsArray)
+    // console.log(tagsArray)
     const { data, error } = await useFetch('/api/scrap-tags', {
       method: 'POST',
       body: JSON.stringify({ tags: tagsArray }),
     })
 
-    console.log('error', error.value)
+    // console.log('error', error.value)
 
-    console.log('data', data.value)
+    // console.log('data', data.value)
 
     if (error.value) throw error.value
 

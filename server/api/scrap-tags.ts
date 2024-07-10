@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
   // Get the tags from the request body
   const tags = body?.tags || []
 
-  console.log('tags', tags)
+  // console.log('tags', tags)
   const { data: scraps, error } = await supabase
     .from('scraps')
     .select('*', { count: 'exact' })

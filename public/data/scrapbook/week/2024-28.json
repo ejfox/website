@@ -1,5 +1,14 @@
 [
   {
+    "id": "112763033061326232",
+    "scrap_id": "ElhsQl79",
+    "href": "https://mastodon.social/@ejfox/112763033061326232",
+    "description": "<p>Teaching my robot about how humans use email: “yeah so basically, you write it, and the re-read it and change it a bit, and then think about it some more, and then make a few more changes to make it nicer and remove exclamation points, and then you think about it some more, and then you hit send”</p>",
+    "time": "2024-07-10T16:02:15.534Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
     "scrap_id": "UmmukZGY",
     "href": "https://til.simonwillison.net/macos/1password-terminal",
     "description": "Accessing 1Password items from the terminal | Simon Willison’s TILs",

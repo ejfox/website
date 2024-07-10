@@ -1,5 +1,36 @@
 [
   {
+    "scrap_id": "UmmukZGY",
+    "href": "https://til.simonwillison.net/macos/1password-terminal",
+    "description": "Accessing 1Password items from the terminal | Simon Willison’s TILs",
+    "time": "2024-07-10T04:15:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WIDsbwCE",
+    "href": "https://retejs.org/",
+    "description": "JavaScript framework for visual programming",
+    "time": "2024-07-10T02:00:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112759499607709193",
+    "scrap_id": "iV_25fgN",
+    "href": "https://mastodon.social/@ejfox/112759499607709193",
+    "description": "<p>good god</p>",
+    "time": "2024-07-10T01:03:39.308Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/759/499/367/725/178/small/a858cccf1020859b.png"
+    ]
+  },
+  {
     "scrap_id": "kKe5R0P9",
     "href": "https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/",
     "description": "[no title]",

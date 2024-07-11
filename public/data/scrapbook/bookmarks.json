@@ -1,5 +1,38 @@
 [
   {
+    "href": "https://www.axios.com/2024/07/10/us-military-future-weapons-ai-warfare",
+    "description": "U.S. military's future rests on today's global warfare",
+    "extended": "",
+    "meta": "a27e77228cff2c649a3d76679cb0a363",
+    "hash": "860a45466a49b5642cd67075b3f64c64",
+    "time": "2024-07-10T20:45:24Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://commoncrawl.org/blog/june-2024-crawl-archive-now-available",
+    "description": "Common Crawl - Blog - June 2024 Crawl Archive Now Available",
+    "extended": "",
+    "meta": "8db46846c11ae63be35422369f277534",
+    "hash": "84ec3e322a7c14e279f5ec66420fea9d",
+    "time": "2024-07-10T16:51:03Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": "dataset"
+  },
+  {
+    "href": "https://www.orionreed.com/posts/scoped-propagators",
+    "description": "Scoped Propagators",
+    "extended": "",
+    "meta": "d9d00a36866a5cb2ca85b0464ecadafe",
+    "hash": "84fa8f561b070fe6766d2e742a2f5f91",
+    "time": "2024-07-10T16:50:09Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
     "href": "https://til.simonwillison.net/macos/1password-terminal",
     "description": "Accessing 1Password items from the terminal | Simon Willison’s TILs",
     "extended": "",

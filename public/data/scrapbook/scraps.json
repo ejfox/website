@@ -1,5 +1,333 @@
 [
   {
+    "id": "112802592755172057",
+    "scrap_id": "GHQj0vvh",
+    "href": "https://mastodon.social/@ejfox/112802592755172057",
+    "description": "<p>made a robot to read the news for me</p>",
+    "time": "2024-07-17T15:42:48.558Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/802/592/503/053/828/small/6de5b99c2083603f.png"
+    ]
+  },
+  {
+    "scrap_id": "bwvEKvVV",
+    "href": "https://regs.health.ny.gov/content/subpart-14-4-mobile-food-service-establishments-and-pushcarts",
+    "description": "SubPart 14-4 - Mobile Food Service Establishments and Pushcarts | New York Codes, Rules and Regulations",
+    "time": "2024-07-14T16:32:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "io6sT5N-",
+    "href": "https://medium.com/@catgirlthyme/sitting-down-with-midi-bunny-playing-at-anthrocon-and-combating-cynicism-10848d5ffa70",
+    "description": "Sitting Down with MIDI Bunny: Playing at AnthroCon and Combating Cynicism",
+    "time": "2024-07-14T12:25:21Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "I sit down with MIDI Bunny and have them pour out their history alongside InkyFirefly and A.J. Vega after their successful show at…"
+  },
+  {
+    "scrap_id": "vk49zb3E",
+    "href": "https://roe.dev/blog/using-ai-in-open-source",
+    "description": "Using AI in open source - Daniel Roe",
+    "time": "2024-07-12T16:20:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9PDWLQ0x",
+    "href": "https://www.kjzz.org/news/2024-07-04/phoenix-police-union-56-of-officers-thinking-about-quitting-unless-city-fights-doj-oversight",
+    "description": "Phoenix police union: 56% of officers thinking about quitting unless city fights DOJ oversight",
+    "time": "2024-07-12T13:42:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QN51ZW-D",
+    "href": "https://www.youtube.com/watch?v=Jho0qeTUZnA",
+    "description": "DIY: An Innovative, Automated Cannabis Curing System / Derek Gilman / Green Flower - YouTube",
+    "time": "2024-07-12T02:56:57Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112771134712122380",
+    "scrap_id": "tYK4H3UM",
+    "href": "https://mastodon.social/@ejfox/112771134712122380",
+    "description": "<p>Can’t bring myself to care about the election, or AI, or anything besides survival really</p>",
+    "time": "2024-07-12T02:22:36.915Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "Fx-Rj6ux",
+    "href": "https://www.thedriftmag.com/the-fortress-university/",
+    "description": "[no title]",
+    "time": "2024-07-11T17:08:32Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "liQA8uH8",
+    "href": "https://www.axios.com/2024/07/10/us-military-future-weapons-ai-warfare",
+    "description": "U.S. military's future rests on today's global warfare",
+    "time": "2024-07-10T20:45:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "KS7fWD0E",
+    "href": "https://commoncrawl.org/blog/june-2024-crawl-archive-now-available",
+    "description": "Common Crawl - Blog - June 2024 Crawl Archive Now Available",
+    "time": "2024-07-10T16:51:03Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "dataset",
+    "extended": ""
+  },
+  {
+    "scrap_id": "mkSwvLLj",
+    "href": "https://www.orionreed.com/posts/scoped-propagators",
+    "description": "Scoped Propagators",
+    "time": "2024-07-10T16:50:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112763033061326232",
+    "scrap_id": "ElhsQl79",
+    "href": "https://mastodon.social/@ejfox/112763033061326232",
+    "description": "<p>Teaching my robot about how humans use email: “yeah so basically, you write it, and the re-read it and change it a bit, and then think about it some more, and then make a few more changes to make it nicer and remove exclamation points, and then you think about it some more, and then you hit send”</p>",
+    "time": "2024-07-10T16:02:15.534Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "UmmukZGY",
+    "href": "https://til.simonwillison.net/macos/1password-terminal",
+    "description": "Accessing 1Password items from the terminal | Simon Willison’s TILs",
+    "time": "2024-07-10T04:15:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "WIDsbwCE",
+    "href": "https://retejs.org/",
+    "description": "JavaScript framework for visual programming",
+    "time": "2024-07-10T02:00:54Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112759499607709193",
+    "scrap_id": "iV_25fgN",
+    "href": "https://mastodon.social/@ejfox/112759499607709193",
+    "description": "<p>good god</p>",
+    "time": "2024-07-10T01:03:39.308Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/759/499/367/725/178/small/a858cccf1020859b.png"
+    ]
+  },
+  {
+    "scrap_id": "kKe5R0P9",
+    "href": "https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/",
+    "description": "[no title]",
+    "time": "2024-07-09T20:37:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112757882468857266",
+    "scrap_id": "vq0wmltH",
+    "href": "https://mastodon.social/@ejfox/112757882468857266",
+    "description": "<p>Typescript and React just bullied me into writing this, truly evil, god-forsaken code</p>",
+    "time": "2024-07-09T18:12:23.737Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/757/882/214/440/906/small/f73d849aa4b12a2e.png"
+    ]
+  },
+  {
+    "scrap_id": "aDgGnecw",
+    "href": "https://x.com/canna_brain/status/1810406674861273470",
+    "description": "[no title]",
+    "time": "2024-07-09T16:08:10Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "TCkOvFur",
+    "href": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267498",
+    "description": "[no title]",
+    "time": "2024-07-09T16:07:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ATfq0gp8",
+    "href": "https://www.theguardian.com/us-news/article/2024/jul/08/anti-defamation-league-surveillance",
+    "description": "Internal memo reveals Anti-Defamation League surveillance of leftwing activist",
+    "time": "2024-07-09T14:30:29Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "QV42Y0YL",
+    "href": "https://t.co/5XCkBW2KHg",
+    "description": "[no title]",
+    "time": "2024-07-09T01:12:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "RYLi3R9g",
+    "href": "https://time.com/6982015/bitcoin-mining-texas-health/",
+    "description": "[no title]",
+    "time": "2024-07-09T01:09:16Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "4v9y8CdQ",
+    "href": "https://www.nature.com/articles/s41586-024-07643-2",
+    "description": "Semantic encoding during language comprehension at single-cell resolution | Nature",
+    "time": "2024-07-08T21:58:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gDOChTnr",
+    "href": "https://github.com/dfreelon/pyktok",
+    "description": "dfreelon/pyktok: A simple module to collect video, text, and metadata from Tiktok.",
+    "time": "2024-07-08T21:04:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "3NIXtMmW",
+    "href": "https://benji.org/family-values",
+    "description": "Family Values",
+    "time": "2024-07-08T20:34:06Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "I-C9wJ1g",
+    "href": "https://riverqueue.com/",
+    "description": "River - Fast, reliable background jobs in Go",
+    "time": "2024-07-08T20:23:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "M1qgfIEl",
+    "href": "https://www.972mag.com/israeli-soldiers-gaza-firing-regulations/",
+    "description": "‘I’m bored, so I shoot’: The Israeli army’s approval of free-for-all violence in Gaza",
+    "time": "2024-07-08T20:12:12Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112752501636452999",
+    "scrap_id": "vWkZ1bD6",
+    "href": "https://mastodon.social/@ejfox/112752501636452999",
+    "description": "<p>No AC global warming daily log; we have reached the point in the day where my brain no longer works until I put a chair in the bathtub and run icy cold water over my feet until my core temp goes back to normal</p>",
+    "time": "2024-07-08T19:23:58.741Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112752198467119161",
+    "scrap_id": "cS5LulV5",
+    "href": "https://mastodon.social/@ejfox/112752198467119161",
+    "description": "<p>one thing they dont tell you about driving a motorcycle is that you will now be aware of every single motorcycle crash in a 200 mile radius at all times</p>",
+    "time": "2024-07-08T18:06:52.752Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "fHNDy9iD",
+    "href": "https://dailyvoice.com/new-york/southorange/happy-go-lucky-westchester-police-officer-killed-in-highlands-crash/",
+    "description": "'Happy-Go-Lucky' Westchester Police Officer Killed In Highlands Crash | South Orange Daily Voice",
+    "time": "2024-07-08T18:05:25Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "ZO2itAxL",
+    "href": "https://huggingface.co/docs/transformers.js/en/index",
+    "description": "Transformers.js",
+    "time": "2024-07-08T17:51:27Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "machinelearning",
+    "extended": ""
+  },
+  {
+    "id": "112751666802117367",
+    "scrap_id": "6dVJcH4U",
+    "href": "https://mastodon.social/@ejfox/112751666802117367",
+    "description": "<p>in an AI-powered engineering world, all programming is QA</p>",
+    "time": "2024-07-08T15:51:40.180Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "3IG4mCrE",
+    "href": "https://x.com/RyanMorrisonJer/status/1809257277267804229",
+    "description": "Ryan Morrison on X: \"I decided to see what would happen if I had Moshi Chat @kyutai_labs talk to EVI @hume_ai. While different types of models, they both claim emotional understanding. I was not prepared for what happened and I may never sleep again. http",
+    "time": "2024-07-08T03:42:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "C10W-wB8",
     "href": "https://artificialanalysis.ai/",
     "description": "Model & API Providers Analysis | Artificial Analysis",

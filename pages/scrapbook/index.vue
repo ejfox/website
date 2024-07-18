@@ -1,15 +1,12 @@
 <template>
   <div ref="scrapcontainer" class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace">
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
-    <NuxtLink :to="`/scrapbook/verbose`" class="underline block">
-      Verbose view</NuxtLink>
     <NuxtLink :to="`/scrapbook/graph`" class="underline block">
       Graph view</NuxtLink>
     <NuxtLink :to="`/scrapbook/graph`" class="underline block">
       Card view</NuxtLink>
 
-    <div class="scrap-metadata-container">
-      <div class="scrap-heatmap">
+    <!-- <div class="scrap-heatmap">
         <div class="scrap-heatmap-grid leading-none flex flex-wrap py-4">
           <div v-for="(block, index) in heatmapData" :key="index"
             class="mr-0.5 mb-0.5 w-2 h-2 overflow-visible sans-serif">
@@ -19,11 +16,11 @@
           </div>
 
         </div>
-      </div>
-    </div>
-    <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
+      </div> -->
+
+
+    <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="my-0.5">
       <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
-      <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
       <ScrapItem v-else :scrap="group.items[0]" />
     </div>
     <div v-if="!combinedData" class="text-center">Loading data...</div>
@@ -31,7 +28,6 @@
     <template v-else>
       <div v-for="(group, groupIndex) in groupedScraps" :key="groupIndex" class="mb-4">
         <ScrapGallery v-if="group.type === 'gallery'" :scraps="group.items" />
-        <ScrapPRBlock v-else-if="group.type === 'pr'" :scraps="group.items" />
         <ScrapItem v-else :scrap="group.items[0]" />
       </div>
       <div v-if="loading" class="text-center">Loading more...</div>

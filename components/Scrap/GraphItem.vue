@@ -1,34 +1,24 @@
 <template>
-  <div class="dark:border-white max-w-screen-md border border-gray-500 rounded mb-8">
+  <div class="max-w-screen-md border border-gray-500 rounded mb-8 text-[10px]">
     <!-- pull the right scrap component based on the source -->
-    <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" class="" />
+    <!-- <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" class="" />
     <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" class="" />
     <ScrapMastodon v-if="scrap.source === 'mastodon'" :scrap="scrap" class="" />
-    <ScrapGitHub v-else-if="scrap.source === 'github'" :scrap="scrap" class="" />
+    <ScrapGitHub v-else-if="scrap.source === 'github'" :scrap="scrap" class="" /> -->
+    <p class="p-0.5" v-html="scrap.content" />
 
+    <div class="flex items-center space-x-2">
+      <UIcon :name="getIconName(scrap.source)" class="w-2 h-2" />
 
-
-    <div class="flex items-center justify-between text-sm text-gray-500 mt-4 p-2 ">
-
-
-      <div class="flex items-center space-x-2">
-        <UIcon :name="getIconName(scrap.source)" class="w-4 h-4" />
-        <span>
-
-          <!-- {{ formatDate(scrap.created_at) }} -->
-          {{ scrap.source }}
-        </span>
-      </div>
-
-      <p class="timestamp text-xs p-2">{{ scrap.created_at }}</p>
-      <div v-if="scrap.metadata.latitude && scrap.metadata.longitude"
-        class="opacity-50 hover:opacity-100 transition-opacity">
+      <!-- <p class="timestamp">{{ scrap.created_at }}</p> -->
+      <!-- <div v-if="scrap.metadata.latitude && scrap.metadata.longitude" class="">
         {{ scrap.metadata.latitude }}, {{ scrap.metadata.longitude }}
-      </div>
-      <UButton :to="scrap.href" target="_blank" color="primary" variant="ghost" icon="i-heroicons-link" size="xs">
+      </div> -->
+      <NuxtLink :to="scrap.href" target="_blank" color="primary" class="inline-block">
+        <UIcon name="i-heroicons-link" class="w-2 h-2" />
         Link
-      </UButton>
-      <div>
+      </NuxtLink>
+      <!-- <div>
         Raw
         <UToggle v-model="showRaw" label="Show Raw" size="xs" />
       </div>
@@ -36,19 +26,19 @@
       <div v-if="relationshipNodes.length">
         Relationships
         <UToggle v-model="showRelationships" label="Show Relationships" size="xs" />
-      </div>
+      </div> -->
 
     </div>
 
     <!-- Tags -->
-    <div v-if="scrap.tags.length > 3" class="flex flex-wrap gap-2 p-2">
+    <!-- <div v-if="scrap.tags.length > 3" class="flex flex-wrap gap-2">
       <NuxtLink v-for="tag in JSON.parse(scrap.tags)" :key="tag" :to="`/scrapbook/tags?tag=${tag}`">
         <UBadge color="gray" size="sm">{{ tag }}</UBadge>
       </NuxtLink>
-    </div>
+    </div> -->
 
     <!-- relationship nodes -->
-    <div v-if="relationshipNodes.length && showRelationships" class="mt-4 text-xs">
+    <div v-if="relationshipNodes.length && showRelationships" class="">
       <h3 class="font-bold text-gray-500">Relationships</h3>
       <div class="flex flex-wrap items-center">
         <!-- <div v-for="node in relationshipNodes" :key="node.name" class="flex items-center space-x-2">
@@ -88,9 +78,6 @@ const props = defineProps({
 })
 
 
-/*
-{ "id": "75893589-7ce7-4789-8902-1d18e52b5205", "source": "pinboard", "content": "[no title]", "summary": "1. Paramount deleted 25 years of content from Comedy Central, MTV News, and CMT prior to its merger with Skydance. [Source](https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/)\n2. The deletion included episodes of \"The Daily Show\" dating back to 1999, \"The Colbert Report,\" \"Key & Peele,\" and \"South Park.\"\n3. Paramount+ archives only the last two years of \"The Daily Show.\"\n4. Commentators like Washington Post columnist Karen Attiah view the deletion as cultural heritage destruction.\n5. Paramount has a reported $15 billion in debt and recent losses of $268 million in the first quarter of 2024.\n6. The Skydance merger involves billions in debt funding and aims for $1.5 billion in cuts.\n7. \"The Daily Show\" production was impacted due to reliance on the Comedy Central site for old clips, per producer Daniel Radosh.\n8. The entertainment industry is trending towards drastic cost-cutting measures due to streaming platform losses.\n9. Media companies, including Paramount, are removing content to cut costs during a financially challenging period.", "created_at": "2024-07-09T20:37:02", "updated_at": "2024-07-10T02:48:07.207", "tags": "[\"media\", \"culture\", \"tv\"]", "relationships": [ { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Comedy Central", "type": "Organization" } }, { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "MTV News", "type": "Organization" } }, { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "CMT", "type": "Organization" } }, { "type": "MERGED_WITH", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Skydance", "type": "Organization" } }, { "type": "HAS_DEBT", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Financial Debt", "type": "Concept" } }, { "type": "INVOLVED_IN", "source": { "name": "Skydance", "type": "Organization" }, "target": { "name": "Merger with Paramount", "type": "Event" } } ], "metadata": { "href": "https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/", "latitude": 38.8950368, "location": "Washington, USA", "longitude": -77.0365427, "screenshotUrl": "./screenshots/httpswwwthenationcomarticleculturehowcomedycentralfellintoparamountscorporatememoryhole.png" }, "scrap_id": "kKe5R0P9",
- */
 
 const relationshipNodes = computed(() => {
   const nodes = []

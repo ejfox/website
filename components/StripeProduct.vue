@@ -88,7 +88,7 @@ const productSold = computed(() => {
 
 // we have hand-drawn SVGs for specific prices
 function priceAmountToSvg(priceAmount) {
-  console.log(priceAmount);
+  // console.log(priceAmount);
   // $80 = handdrawn_ceramics_text-18.svg
   // $40 = handdrawn_ceramics_text-25.svg
   // $30 = handdrawn_ceramics_text-22.svg

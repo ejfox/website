@@ -25,7 +25,7 @@
 
 <script setup>
 const linkClasses =
-  "inline-block md:block md:w-full px-2 md:px-4 my-2 text-lg md:text-xl'"
+  "inline-block md:block md:w-full px-2 md:px-4 my-2 text-lg md:text-xl active:bg-white active:text-black rounded-lg active:shadow-lg"
 
 // make a computed that checks the route
 // if we are in /scrapbook/

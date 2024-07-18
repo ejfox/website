@@ -29,7 +29,7 @@ export default function useScrap() {
       const { sortedData, scrapByWeekMap } = processScrapData(scrapData.value)
       combinedData.value = sortedData
       scrapByWeek.value = scrapByWeekMap
-      console.log(`Processed ${sortedData.length} scraps`)
+      // console.log(`Processed ${sortedData.length} scraps`)
     }
   })
 

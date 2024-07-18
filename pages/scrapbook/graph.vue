@@ -26,7 +26,7 @@
                   <div class="text-white">
                     {{ formatDate(circle.created_at) }}
                   </div>
-                  <ScrapGraphItem :scrap="circle" :showDetails="false" class="text-[11px]" />
+                  <ScrapGraphItem :scrap="circle" :showDetails="false" class="text-[10px]" />
                 </div>
               </foreignObject>
             </g>

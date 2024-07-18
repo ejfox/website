@@ -1,10 +1,9 @@
 <template>
   <div ref="scrapcontainer" class="container mx-auto px-4 py-8 max-h-screen overflow-y-auto monospace">
     <h1 class="text-3xl font-bold mb-4 lg:mb-8">Scrapbook</h1>
-    <NuxtLink :to="`/scrapbook/graph`" class="underline block">
-      Graph view</NuxtLink>
-    <NuxtLink :to="`/scrapbook/graph`" class="underline block">
-      Card view</NuxtLink>
+    <!-- <NuxtLink :to="`/scrapbook/graph/`" class="underline block">
+      Graph view</NuxtLink> -->
+
 
     <!-- <div class="scrap-heatmap">
         <div class="scrap-heatmap-grid leading-none flex flex-wrap py-4">

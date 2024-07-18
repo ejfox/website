@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-md border border-gray-500 rounded mb-8 text-[10px]">
+  <div class="max-w-screen-md border border-gray-500 rounded mb-8">
     <!-- pull the right scrap component based on the source -->
     <!-- <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" class="" />
     <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" class="" />

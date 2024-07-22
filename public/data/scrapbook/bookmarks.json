@@ -1,4 +1,5 @@
-[]  {
+[
+  {
     "href": "https://ionicframework.com/docs/vue/your-first-app/deploying-mobile",
     "description": "Deploying to iOS and Android | Ionic Documentation",
     "extended": "Build and Deploy Vue Apps for iOS and Android with Capacitor",
@@ -1628,13 +1629,13 @@
   },
   {
     "href": "https://vallandingham.me/regl_intro.html",
-    "description": "An Intro to regl for Data Visualization - Jim Vallandingham",
-    "extended": "",
-    "meta": "34b8cf8526df61ccf3fe9878413770c6",
+    "description": "An Intro to regl for Data Visualization",
+    "extended": "An introduction to using regl to harness the power of WebGL for visualization purposes.",
+    "meta": "cf2b3c07df45fc514d87a8b4ddb38843",
     "hash": "b7d405cdb36ad6a4b41914b5256b7289",
     "time": "2024-05-26T23:16:36Z",
     "shared": "yes",
-    "toread": "no",
+    "toread": "yes",
     "tags": ""
   },
   {

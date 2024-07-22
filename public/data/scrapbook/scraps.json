@@ -1,5 +1,24 @@
 [
   {
+    "id": "112826333504195312",
+    "scrap_id": "jEcnk8G_",
+    "href": "https://mastodon.social/@ejfox/112826333504195312",
+    "description": "<p>getting all of my website deploys to build (secretly deleting all the ones that won’t)</p>",
+    "time": "2024-07-21T20:20:23.640Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "tXU7HiCD",
+    "href": "https://ionicframework.com/docs/vue/your-first-app/deploying-mobile",
+    "description": "Deploying to iOS and Android | Ionic Documentation",
+    "time": "2024-07-21T18:42:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Build and Deploy Vue Apps for iOS and Android with Capacitor"
+  },
+  {
     "scrap_id": "OwBCQNiL",
     "href": "https://www.nysenate.gov/legislation/bills/2023/S9534",
     "description": "NY State Senate Bill 2023-S9534",

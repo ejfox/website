@@ -1,5 +1,49 @@
 [
   {
+    "href": "https://www.nytimes.com/2024/07/24/business/blake-benthall-silk-road-crypto.html",
+    "description": "From Online Drug Lord to Crypto Entrepreneur, Blake Benthall Is Back in Business - The New York Times",
+    "extended": "",
+    "meta": "252521ebec46c2ad63cc307943ec2887",
+    "hash": "9116924f4e289d970f892317df184b8f",
+    "time": "2024-07-24T19:51:27Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://arxiv.org/abs/2407.01376",
+    "description": "Badllama 3: removing safety finetuning from Llama 3 in minutes",
+    "extended": "We show that extensive LLM safety fine-tuning is easily subverted when an attacker has access to model weights. We evaluate three state-of-the-art fine-tuning methods-QLoRA, ReFT, and Ortho-and show how algorithmic advances enable constant jailbreaking performance with cuts in FLOPs and optimisation power. We strip safety fine-tuning from Llama 3 8B in one minute and Llama 3 70B in 30 minutes on a single GPU, and sketch ways to reduce this further.",
+    "meta": "b0d77bc756b06b8358d918f63bfc8e1e",
+    "hash": "8f6f0059d8786b45de654ac4ac34cc3e",
+    "time": "2024-07-24T17:15:08Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://ipmnewsroom.org/deputy-who-killed-sonya-massey-in-springfield-was-discharged-from-army-for-serious-misconduct/",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "2b21e64c1c9fd40121d18e83b56c7c66",
+    "hash": "a9966bf360ade8f4f5a60e9baea90045",
+    "time": "2024-07-24T17:11:23Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://www.dailyfreeman.com/2024/07/23/kingston-planning-board-eyes-hearing-for-planned-mixed-used-project-on-broadway/?fbclid=IwZXh0bgNhZW0CMTEAAR2uCAFYXkgcXYuxedtH_QrvTngA8Ath6ln5-GDGOiiNKSuJSKhH88Bmr20_aem_29tWOP3oA-7nIEtjCmKNfg",
+    "description": "Kingston Planning Board eyes hearing for planned mixed-use project on Broadway – Daily Freeman",
+    "extended": "",
+    "meta": "013d70a7a03baeb389350f346ff45a0a",
+    "hash": "a4784dcf620febf2f0fb44193d8d5080",
+    "time": "2024-07-24T16:38:59Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://www.bloomberg.com/news/articles/2024-07-24/why-is-coffee-so-expensive-bean-supply-leads-to-rising-costs",
     "description": "Your Cup of Coffee Is Already Expensive. It’s About to Get Even Worse",
     "extended": "Coffee shops around the world, pinching pennies to prevent another round of hikes, are running out of options as bean costs spike.",

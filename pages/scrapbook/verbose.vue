@@ -15,6 +15,9 @@
           <td class="border whitespace-nowrap px-1">{{ formatDate(scrap.created_at) }}</td>
           <td class="border whitespace-nowrap px-1">{{ scrap.source }}</td>
           <td class="border px-1">
+            <a :href="`/scrapbook/${scrap.scrap_id}`" class="hover:underline pr-1">
+              {{ scrap.scrap_id }}
+            </a>
             <span v-if="scrap.content" v-html="scrap.content" />
             <span v-if="scrap.tags" class="px-2 opacity-20 hover:opacity-100">
               <span v-for="tag in scrapToTags(scrap)" :key="tag"

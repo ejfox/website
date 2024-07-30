@@ -1,84 +1,100 @@
 <template>
-  <div class="dark:border-white max-w-screen-md border border-gray-500 rounded mb-8">
-    <!-- pull the right scrap component based on the source -->
-    <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" class="" />
-    <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" class="" />
-    <ScrapMastodon v-if="scrap.source === 'mastodon'" :scrap="scrap" class="" />
-    <ScrapGitHub v-else-if="scrap.source === 'github'" :scrap="scrap" class="" />
+  <div class="max-w-screen-md border border-gray-500 dark:border-white rounded mb-8">
+    <!-- Scrap components based on source -->
+    <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" />
+    <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" />
+    <ScrapMastodon v-if="scrap.source === 'mastodon'" :scrap="scrap" />
+    <ScrapGitHub v-else-if="scrap.source === 'github'" :scrap="scrap" />
 
 
-
-    <div class="flex items-center justify-between text-sm text-gray-500 mt-4 p-2 ">
-
-
+    <div class="flex items-center justify-between text-sm text-gray-500 mt-4 p-2">
       <div class="flex items-center space-x-2">
         <UIcon :name="getIconName(scrap.source)" class="w-4 h-4" />
-        <span>
-
-          <!-- {{ formatDate(scrap.created_at) }} -->
-          {{ scrap.source }}
-        </span>
+        <span>{{ scrap.source }}</span>
       </div>
 
-      <p class="timestamp text-xs p-2">{{ scrap.created_at }}</p>
-      <div v-if="scrap.metadata.latitude && scrap.metadata.longitude"
-        class="opacity-50 hover:opacity-100 transition-opacity">
+      <p class="timestamp text-xs">{{ formatDate(scrap.created_at) }}</p>
+
+      <div v-if="hasLocation" class="opacity-50 hover:opacity-100 transition-opacity">
         {{ scrap.metadata.latitude }}, {{ scrap.metadata.longitude }}
       </div>
+
       <UButton :to="scrap.href" target="_blank" color="primary" variant="ghost" icon="i-heroicons-link" size="xs">
         Link
       </UButton>
-      <div>
-        Raw
-        <UToggle v-model="showRaw" label="Show Raw" size="xs" />
+
+      <div class="flex items-center space-x-2">
+        <span>Raw</span>
+        <UToggle v-model="showRaw" size="xs" />
       </div>
 
-      <div v-if="relationshipNodes.length">
-        Relationships
-        <UToggle v-model="showRelationships" label="Show Relationships" size="xs" />
+      <div v-if="hasRelationships" class="flex items-center space-x-2">
+        <span>Relationships</span>
+        <UToggle v-model="showRelationships" size="xs" />
       </div>
-
     </div>
 
     <!-- Tags -->
-    <div v-if="scrap.tags.length > 3" class="flex flex-wrap gap-2 p-2">
-      <NuxtLink v-for="tag in JSON.parse(scrap.tags)" :key="tag" :to="`/scrapbook/tags?tag=${tag}`">
-        <UBadge color="gray" size="sm">{{ tag }}</UBadge>
+    <div v-if="hasTags" class="flex flex-wrap gap-2 p-2">
+      <NuxtLink v-for="tag in parsedTags" :key="tag" :to="`/scrapbook/tags?tag=${tag}`">
+        <UBadge :color="isMainTag(tag) ? 'blue' : 'gray'" size="sm" :class="{ 'font-bold': isMainTag(tag) }">
+          {{ tag }}
+        </UBadge>
       </NuxtLink>
     </div>
 
-    <!-- relationship nodes -->
-    <div v-if="relationshipNodes.length && showRelationships" class="mt-4 text-xs">
-      <h3 class="font-bold text-gray-500">Relationships</h3>
-      <div class="flex flex-wrap items-center">
-        <!-- <div v-for="node in relationshipNodes" :key="node.name" class="flex items-center space-x-2">
-          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1">{{ node }}</span>
-        </div> -->
+    <!-- Relationships -->
+    <div v-show="hasRelationships && showRelationships" class="mt-4 text-xs">
 
-        <!-- and the edges -->
-        <div v-for="edge in relationshipEdges" :key="edge.source + edge.target"
+      <ClientOnly>
+        <svg ref="relationshipGraph" class="w-full h-96">
+
+          <g v-for="edge in edges" :key="`${edge.source}-${edge.target}`">
+            <line :x1="edge.source.x" :y1="edge.source.y" :x2="edge.target.x" :y2="edge.target.y" stroke="black" />
+            <!-- edge label, rotated to match the line -->
+            <text :transform="calcLineLabelTransform(edge)" fill="red" font-size="8" text-anchor="middle">{{ edge.type
+              }}</text>
+          </g>
+          <g v-for="node in nodes" :key="node.name">
+            <foreignObject :x="node.x" :y="node.y - 16" width="100" height="64">
+              <div class="text-xs bg-white/50 p-1 leading-none border rounded backdrop-blur-sm">
+                <p class="text-black">{{ node.name }}</p>
+              </div>
+            </foreignObject>
+          </g>
+        </svg>
+      </ClientOnly>
+
+
+      <h3 class="font-bold text-gray-500">Relationships</h3>
+      <div class="flex flex-wrap items-center" v-if="relationshipEdges.length > 0">
+        <div v-for="edge in relationshipEdges" :key="`${edge.source.name}-${edge.target.name}`"
           class="flex w-full items-center space-x-2">
-          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">{{ edge.source
-            }}</span>
+          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
+            {{ edge.source }}
+          </span>
           <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
           {{ edge.type }}
           <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
-          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">{{ edge.target
-            }}</span>
+          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
+            {{ edge.target }}
+          </span>
         </div>
-
       </div>
     </div>
 
-    <pre v-if="showRaw" class="text-xs max-h-48 overflow-auto bg-gray-950 text-white p-1">{{ scrap }}</pre>
+    <!-- Raw Data -->
+    <pre v-if="showRaw" class="text-xs max-h-48 overflow-auto bg-gray-950 text-white p-1">
+      {{ scrap }}
+    </pre>
   </div>
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
 import { format } from 'date-fns'
-
-const showRaw = ref(false)
-const showRelationships = ref(false)
+import useScrapTags from '~/composables/useScrapTags'
+import * as d3 from 'd3'
 
 const props = defineProps({
   scrap: {
@@ -87,52 +103,31 @@ const props = defineProps({
   },
 })
 
+const showRaw = ref(false)
+const showRelationships = ref(false)
 
-/*
-{ "id": "75893589-7ce7-4789-8902-1d18e52b5205", "source": "pinboard", "content": "[no title]", "summary": "1. Paramount deleted 25 years of content from Comedy Central, MTV News, and CMT prior to its merger with Skydance. [Source](https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/)\n2. The deletion included episodes of \"The Daily Show\" dating back to 1999, \"The Colbert Report,\" \"Key & Peele,\" and \"South Park.\"\n3. Paramount+ archives only the last two years of \"The Daily Show.\"\n4. Commentators like Washington Post columnist Karen Attiah view the deletion as cultural heritage destruction.\n5. Paramount has a reported $15 billion in debt and recent losses of $268 million in the first quarter of 2024.\n6. The Skydance merger involves billions in debt funding and aims for $1.5 billion in cuts.\n7. \"The Daily Show\" production was impacted due to reliance on the Comedy Central site for old clips, per producer Daniel Radosh.\n8. The entertainment industry is trending towards drastic cost-cutting measures due to streaming platform losses.\n9. Media companies, including Paramount, are removing content to cut costs during a financially challenging period.", "created_at": "2024-07-09T20:37:02", "updated_at": "2024-07-10T02:48:07.207", "tags": "[\"media\", \"culture\", \"tv\"]", "relationships": [ { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Comedy Central", "type": "Organization" } }, { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "MTV News", "type": "Organization" } }, { "type": "DELETED_CONTENT_FROM", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "CMT", "type": "Organization" } }, { "type": "MERGED_WITH", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Skydance", "type": "Organization" } }, { "type": "HAS_DEBT", "source": { "name": "Paramount", "type": "Organization" }, "target": { "name": "Financial Debt", "type": "Concept" } }, { "type": "INVOLVED_IN", "source": { "name": "Skydance", "type": "Organization" }, "target": { "name": "Merger with Paramount", "type": "Event" } } ], "metadata": { "href": "https://www.thenation.com/article/culture/how-comedy-central-fell-into-paramounts-corporate-memory-hole/", "latitude": 38.8950368, "location": "Washington, USA", "longitude": -77.0365427, "screenshotUrl": "./screenshots/httpswwwthenationcomarticleculturehowcomedycentralfellintoparamountscorporatememoryhole.png" }, "scrap_id": "kKe5R0P9",
- */
+const { mainTags } = useScrapTags()
 
-const relationshipNodes = computed(() => {
-  const nodes = []
-  // check if we have relationships in the metadata
-  if (props.scrap.relationships) {
-    // go through each relationship and add the source and target to the nodes
-    props.scrap.relationships.forEach((relationship) => {
-      nodes.push(relationship.source.name)
-      nodes.push(relationship.target.name)
-    })
-  }
+const hasLocation = computed(() => props.scrap.metadata?.latitude && props.scrap.metadata?.longitude)
+const hasRelationships = computed(() => props.scrap.relationships?.length > 0)
+const hasTags = computed(() => props.scrap.tags && JSON.parse(props.scrap.tags).length > 0)
+const parsedTags = computed(() => JSON.parse(props.scrap.tags || '[]'))
 
-
-  // return unique nodes
-  const uniqueNodes = [...new Set(nodes)]
-
-
-  return uniqueNodes
+const formattedSummary = computed(() => {
+  if (!props.scrap.summary) return ''
+  return props.scrap.summary.replace(/\n/g, '<br>')
 })
 
-// to show a graph we need to compute
-// the nodes and edges
-// in a format that we can feed to d3 force simulation
-// we can use the relationshipNodes computed property
-// to get the nodes
-// and the relationships in the metadata to get the edges
-const relationshipEdges = computed(() => {
-  const edges = []
-  // check if we have relationships in the metadata
-  if (props.scrap.relationships) {
-    // go through each relationship and add the source and target to the nodes
-    props.scrap.relationships.forEach((relationship) => {
-      edges.push({
-        source: relationship.source.name,
-        target: relationship.target.name,
-        type: relationship.type,
-      })
-    })
-  }
-
-  return edges
-})
+function calcLineLabelTransform(edge) {
+  const dx = edge.target.x - edge.source.x
+  const dy = edge.target.y - edge.source.y
+  let angle = Math.atan2(dy, dx) * 180 / Math.PI
+  if (angle > 90) angle -= 180
+  if (angle < -90) angle += 180
+  const x = (edge.source.x + edge.target.x) / 2
+  const y = (edge.source.y + edge.target.y) / 2
+  return `translate(${x}, ${y}) rotate(${angle})`
+}
 
 
 const formatDate = (date) => format(new Date(date), 'MMM d')
@@ -149,5 +144,83 @@ const getIconName = (type) => {
   return iconMap[type] || 'i-heroicons-document'
 }
 
-const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1)
+const isMainTag = (tag) => mainTags.value.includes(tag)
+
+
+
+// set up the relationship graph
+const relationshipEdges = computed(() => {
+  if (!hasRelationships.value) return []
+  return props.scrap.relationships.map(rel => ({
+    source: rel.source.name,
+    target: rel.target.name,
+    type: rel.type,
+  }))
+})
+
+const relationshipNodes = computed(() => {
+  if (!hasRelationships.value) return []
+  const nodes = new Set()
+  props.scrap.relationships.forEach(rel => {
+    nodes.add(rel.source.name)
+    nodes.add(rel.target.name)
+  })
+  return Array.from(nodes).map(name => ({ id: name }))
+})
+
+
+const relationshipGraph = ref(null)
+
+const { width: graphWidth, height: graphHeight } = useElementSize(relationshipGraph)
+
+// Simulation setup
+const simulation = ref(null)
+const nodes = ref([])
+const edges = ref([])
+onMounted(async () => {
+  // console.log(relationshipNodes.value)
+
+  await nextTick()
+
+  // minimum width of 320px
+  const width = Math.max(graphWidth.value, 320)
+  const height = Math.max(graphHeight.value, 320)
+
+  nodes.value = unref(relationshipNodes).map(d => {
+    return {
+      name: d.id,
+      x: Math.random() * width,
+      y: Math.random() * height
+    }
+  })
+    // remove any orphan nodes
+    .filter(d => relationshipEdges.value.some(e => e.source === d.name || e.target === d.name))
+
+
+  edges.value = relationshipEdges.value.map(d => {
+    return {
+      source: nodes.value.find(n => n.name === d.source),
+      target: nodes.value.find(n => n.name === d.target),
+      type: d.type
+    }
+  })
+  // Initialize the simulation
+  simulation.value = d3.forceSimulation(nodes.value)
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(2))
+    .force('link', d3.forceLink(edges.value).id(d => d.name).distance(200).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-900))
+    // a new force to contain the nodes within the bounds of the svg
+    // with a % padding
+    .force('box', () => {
+      for (const node of nodes.value) {
+        node.x = Math.max(node.x, 0)
+        node.x = Math.min(node.x, width)
+        node.y = Math.max(node.y, 0)
+        node.y = Math.min(node.y, height)
+      }
+    })
+
+})
+
+
 </script>

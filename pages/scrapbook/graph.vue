@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full p-4">
     <div ref="scrapgraphcontainer" class="container mx-auto p-0 min-h-screen w-full">
       <svg ref="graphsvg" id="graph-svg" class="w-full" :height="svgHeight">
         <path :d="weekPath" stroke="#CCC" fill="none" stroke-width="2" :stroke-dashoffset="dashOffset"

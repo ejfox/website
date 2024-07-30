@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h4 class="text-lg dark:text-white">{{ scrap.title }}</h4>
+    <h4 class="text-lg">{{ scrap.title }}</h4>
     <!-- show the actual URL as metadata -->
-    <div class="bg-primary-300 tracking-wide  p-2">
-      <a :href="scrap.metadata.href" target="_blank" class="text-xs text-white">{{
+    <div class="tracking-wide px-4 pt-4">
+      <a :href="scrap.metadata.href" target="_blank" class="text-xs">{{
       scrap.metadata.href }}</a>
     </div>
 
@@ -14,8 +14,7 @@
 
     <div v-if="scrap.description" class="font-medium" v-html="scrap.description" />
 
-    <div class="space-y-4 mt-4">
-
+    <div class="">
       <!-- Content -->
       <div v-if="parsedMarkdown && showSummary" class="font-serif prose prose-sm dark:prose-invert p-2">
         <ContentRenderer :value="parsedMarkdown" />

@@ -2,7 +2,7 @@ import { ref, computed } from 'vue'
 import * as d3 from 'd3'
 
 export default function useScrap() {
-  console.log('useScrap composable initialized')
+  // console.log('useScrap composable initialized')
   const combinedData = ref([])
   const scrapByWeek = ref(null)
   const isLoading = ref(true)
@@ -11,7 +11,7 @@ export default function useScrap() {
   const hasMorePages = ref(true)
 
   const fetchScraps = async (page = 1, limit = 20) => {
-    console.log(`Fetching scraps: page ${page}, limit ${limit}`)
+    // console.log(`Fetching scraps: page ${page}, limit ${limit}`)
     if (!hasMorePages.value) return
 
     isLoading.value = true
@@ -21,13 +21,13 @@ export default function useScrap() {
         method: 'POST',
         body: { page, limit },
       })
-      console.log('Fetched data:', data)
+      // console.log('Fetched data:', data)
       if (data && data.scraps && data.scraps.length > 0) {
         const { sortedData, scrapByWeekMap } = processScrapData(data.scraps)
         combinedData.value = [...combinedData.value, ...sortedData]
         scrapByWeek.value = scrapByWeekMap
         currentPage.value = page
-        console.log(`Processed ${sortedData.length} scraps`)
+        // console.log(`Processed ${sortedData.length} scraps`)
         if (data.scraps.length < limit) {
           hasMorePages.value = false
           console.log('No more scraps to fetch')

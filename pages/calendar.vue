@@ -3,10 +3,9 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
 
 onMounted(() => {
-  ;(function (C, A, L) {
+  ; (function (C, A, L) {
     let p = function (a, ar) {
       a.q.push(ar)
     }

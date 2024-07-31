@@ -1,5 +1,27 @@
 [
   {
+    "href": "https://seebitcoin.com/2016/05/everything-makes-sense-if-david-kleiman-was-satoshi-nakamoto-heres-why/",
+    "description": "Everything makes sense if David Kleiman was Satoshi Nakamoto. Here's why",
+    "extended": "",
+    "meta": "1936c3fdc16fc6ca42d17a972d827f3a",
+    "hash": "db1ca06da66def136d1fd4876050ca5a",
+    "time": "2024-07-30T18:01:33Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://newstracs.com/chart-and-overview-of-key-links-for-jd-vance-with-thiel-mercer-rockbridge/2024/07/29/",
+    "description": "Chart and overview of key links for J.D. Vance with mentor Peter Thiel, the little-known Rockbridge Network and 2016 kingmaker Rebekah Mercer",
+    "extended": "Chart and overview of key links for J.D. Vance with his mentor Peter Thiel, the little-known Rockbridge Network and Cambridge Analytica funder and 2016 kingmaker Rebekah Mercer.",
+    "meta": "c46550ac67b09decf7c2d133d728ac1c",
+    "hash": "c115f8589fba197a286a22cd54050bd7",
+    "time": "2024-07-30T13:37:05Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://lav.io/notes/exploring-cop-data/",
     "description": "Exploring Cop Data",
     "extended": "",
@@ -1062,6 +1084,17 @@
     "meta": "230b073cb4181500fd3abf0560985589",
     "hash": "0b9bffa2318d57ee5cbba5f920dc094f",
     "time": "2024-06-18T22:38:18Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/google-gemini/generative-ai-js",
+    "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",
+    "extended": "",
+    "meta": "53f8dda3325197d2a43250bfec1b2bfb",
+    "hash": "45a18a13dc8d8cf6f7f36003a5d0757b",
+    "time": "2024-06-18T17:26:47Z",
     "shared": "yes",
     "toread": "no",
     "tags": ""

@@ -1,5 +1,25 @@
 [
   {
+    "scrap_id": "zaiSkph6",
+    "href": "https://seebitcoin.com/2016/05/everything-makes-sense-if-david-kleiman-was-satoshi-nakamoto-heres-why/",
+    "description": "Everything makes sense if David Kleiman was Satoshi Nakamoto. Here's why",
+    "time": "2024-07-30T18:01:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "sMiVLva5",
+    "href": "https://newstracs.com/chart-and-overview-of-key-links-for-jd-vance-with-thiel-mercer-rockbridge/2024/07/29/",
+    "description": "Chart and overview of key links for J.D. Vance with mentor Peter Thiel, the little-known Rockbridge Network and 2016 kingmaker Rebekah Mercer",
+    "time": "2024-07-30T13:37:05Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Chart and overview of key links for J.D. Vance with his mentor Peter Thiel, the little-known Rockbridge Network and Cambridge Analytica funder and 2016 kingmaker Rebekah Mercer."
+  },
+  {
     "scrap_id": "eh9YPK-G",
     "href": "https://lav.io/notes/exploring-cop-data/",
     "description": "Exploring Cop Data",
@@ -1505,6 +1525,16 @@
     "href": "https://medium.com/radiant-earth-insights/duckdb-the-indispensable-geospatial-tool-you-didnt-know-you-were-missing-5fe11c5633e5",
     "description": "DuckDB: The indispensable geospatial tool you didn’t know you were missing | by Chris Holmes | Radiant Earth Insights | Medium",
     "time": "2024-06-18T22:38:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "1c9H6YF8",
+    "href": "https://github.com/google-gemini/generative-ai-js",
+    "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",
+    "time": "2024-06-18T17:26:47Z",
     "type": "pinboard",
     "images": [],
     "tags": "",

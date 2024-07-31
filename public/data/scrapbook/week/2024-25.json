@@ -426,16 +426,6 @@
     "extended": ""
   },
   {
-    "scrap_id": "1c9H6YF8",
-    "href": "https://github.com/google-gemini/generative-ai-js",
-    "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",
-    "time": "2024-06-18T17:26:47Z",
-    "type": "pinboard",
-    "images": [],
-    "tags": "",
-    "extended": ""
-  },
-  {
     "scrap_id": "yAuOe6fV",
     "href": "https://stackoverflow.com/questions/78245422/import-gltf-with-tresjs-in-nuxt",
     "description": "Import GLTF with TresJS in Nuxt",

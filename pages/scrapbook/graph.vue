@@ -8,16 +8,31 @@
           class="scrap-node">
           <foreignObject :width="cardWidth" :height="cardHeight" :x="-cardWidth / 2" :y="-cardHeight / 2">
             <div xmlns="http://www.w3.org/1999/xhtml"
-              class="w-full h-full p-2 bg-white border border-gray-200 overflow-hidden rounded shadow"
-              style="font-size: 12px">
+              class="w-full p-2 bg-white border border-gray-200 overflow-hidden rounded shadow text-[10px] font-mono font-bold overflow-y-auto"
+              :style="{
+        position: 'relative',
+        height: `${cardHeight}px`,
+      }">
+              <img :src="scrap.metadata.screenshotUrl" alt="Scrap Image"
+                class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none " />
               <!-- <div class="font-bold">{{ formatDate(scrap.created_at) }}</div> -->
-              <div class="mt-1 text-gray-600" v-html="scrap.content" />
+              <div class="mt-1 text-gray-600">
+                {{ scrap.content }}
+              </div>
               <!-- the link -->
               <div class="" v-if="scrap.metadata.href">
-                <a :href="scrap.metadata.href" class="text-blue-500">Read more</a>
+                <a :href="scrap.metadata.href" class="text-blue-500">
+                  <UIcon name="i-heroicons-link" class="w-4 h-4 inline" />
+                </a>
               </div>
             </div>
           </foreignObject>
+          <text :y="-cardHeight / 2 - 9" class="text-[8px] text-gray-500" text-anchor="middle">
+            {{ formatHrefForDisplay(scrap.metadata.href) }}
+          </text>
+          <text :y="cardHeight / 2 + 9" class="text-[8px]" text-anchor="middle">
+            {{ formatDate(scrap.created_at) }}
+          </text>
         </g>
       </svg>
     </div>
@@ -40,12 +55,12 @@ const { width } = useElementSize(scrapgraphcontainer)
 const svgHeight = ref(5000)
 
 const formatDate = (date) => {
-  return format(new Date(date), 'MMM d, yyyy')
+  return format(new Date(date), 'MMM d, yyyy ha')
 }
 
 const MAX_SCRAPS_TO_SHOW = 100
 const cardWidth = 124
-const cardHeight = 172
+const cardHeight = 224
 const buffer = 92
 
 const forceSim = ref(null)
@@ -54,6 +69,26 @@ const line = d3.line()
   .curve(d3.curveCatmullRom.alpha(0.5))
   .x(d => d.x)
   .y(d => d.y)
+
+
+
+// remove any query params from the href
+const formatHrefForDisplay = (href) => {
+  if (!href) return ''
+  try {
+    let url = new URL(href)
+    let formattedUrl = url.hostname + url.pathname
+    // remove trailing slash
+    formattedUrl = formattedUrl.replace(/\/$/, "")
+    // remove www. if it's the first part of the hostname
+    formattedUrl = formattedUrl.replace(/^www\./, "")
+    return formattedUrl
+  } catch (error) {
+    console.error('Invalid URL:', href)
+    return ''
+  }
+}
+
 
 const weekPath = computed(() => {
   if (!scrapNodes.value.length) return ''
@@ -75,7 +110,7 @@ function processData() {
       ...scrap,
       x: (index % 5) * (cardWidth + buffer) + cardWidth / 2,
       y: Math.floor(index / 5) * (cardHeight + buffer) + cardHeight / 2,
-      radius: Math.sqrt(cardWidth * cardHeight) / 2
+      radius: (Math.sqrt(cardWidth * cardHeight) / 2) * 1.2
     }))
 
   scrapNodes.value = trimmedData
@@ -86,7 +121,7 @@ function processData() {
 
   const timeScale = d3.scaleTime()
     .domain(timeExtent)
-    .range([cardHeight, svgHeight.value - cardHeight])
+    .range([svgHeight.value - cardHeight, cardHeight])
 
   if (forceSim.value) forceSim.value.stop()
 
@@ -113,7 +148,7 @@ function processData() {
 watch(combinedData, processData, { immediate: true })
 
 function animateWeekPath() {
-  dashOffset.value += 0.1
+  dashOffset.value -= 0.1
   requestAnimationFrame(animateWeekPath)
 }
 

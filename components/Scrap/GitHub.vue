@@ -1,26 +1,28 @@
 <template>
-  <div class="p-2 md:p-4">
-    <div class="text-xs">
+  <div class="px-2 py-4 md:py-6">
+    <div class="text-xs py-4">
       {{ scrap.metadata.href }}
     </div>
     <div v-if="scrap.metadata.type === 'starred'">
       ⭐️
     </div>
 
+    <p class="text-xs py-2 leading-4">{{ scrap.content }}</p>
 
 
-    <div class="inline-block">
+
+    <div class="py-4 prose-sm leading-4">
       {{ scrap.summary }}
     </div>
 
-    <NuxtLink :to="scrap.metadata.href" target="_blank" class="">
+    <NuxtLink :to="scrap.metadata.href" target="_blank" class="py-4">
       <h2 class="text-lg leading-none">
         <span v-if="scrap.metadata.number" class="text-primary-500">
           #{{ scrap.metadata.number }}
         </span>
         {{ scrap.metadata.name }}
       </h2>
-      <p class="text-xs py-2 leading-4">{{ scrap.content }}</p>
+
     </NuxtLink>
   </div>
 </template>

@@ -4,6 +4,8 @@
       <ScrapItem :scrap="scrap" />
     </div>
     <div v-if="loading" class="text-center">Loading...</div>
+
+    <div v-if="!tag" class="text-center">No tag selected</div>
   </div>
 </template>
 

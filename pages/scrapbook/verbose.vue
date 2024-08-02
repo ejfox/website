@@ -1,42 +1,56 @@
 <template>
-  <div ref="scrapcontainer" class="container mx-auto px-2 py-4 max-h-screen overflow-y-auto text-xs">
-    <h1 class="text-xl font-bold mb-2">Scrapbook (Verbose)</h1>
+  <div ref="scrapcontainer" class="container mx-auto px-2 py-4 max-h-screen overflow-y-auto text-xs  max-w-screen-xl">
+    <h1 class="text-xl font-bold mb-2">Scrapbook <span class="opacity-50 font-light"> (Verbose)</span></h1>
     <table class="w-full border-collapse">
       <thead>
-        <tr class="bg-gray-200 dark:bg-gray-800">
-          <th class="p-1 border w-1/6">Date</th>
-          <th class="p-1 border w-1/6">Source</th>
-          <th class="p-1 border w-3/6">Content</th>
-          <th class="p-1 border w-2/6 hidden lg:table-cell">Available Data</th>
+        <tr class="">
+          <th class="bg-gray-200 dark:bg-gray-900 text-gray-500 p-1 w-1/8">Date</th>
+          <th class="bg-gray-200 dark:bg-gray-900 text-gray-500 p-1 w-2/8">Source</th>
+          <th class="bg-gray-200 dark:bg-gray-950 p-1 w-2/8">Content</th>
+          <th class="bg-gray-200 dark:bg-gray-950 p-1 w-2/8 hidden xl:table-cell">Summary</th>
+          <th class="bg-gray-200 dark:bg-gray-950 p-1 w-1/8 hidden lg:table-cell">Available Data</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="scrap in combinedData" :key="scrap.id" class="hover:bg-gray-100 dark:hover:bg-gray-750">
-          <td class="border whitespace-nowrap px-1">{{ formatDate(scrap.created_at) }}</td>
-          <td class="border whitespace-nowrap px-1">{{ scrap.source }}</td>
-          <td class="border px-1">
+        <tr v-for="scrap in combinedData" :key="scrap.id"
+          class="opacity-90 hover:opacity-100 dark:text-gray-400 dark:hover:text-gray-300">
+          <td class="border dark:border-gray-800 whitespace-nowrap px-1">{{ formatDate(scrap.created_at) }}</td>
+          <td class="border dark:border-gray-800 whitespace-nowrap px-1">{{ scrap.source }}</td>
+          <td class="border dark:border-gray-800 px-1">
             <a :href="`/scrapbook/${scrap.scrap_id}`" class="hover:underline pr-1">
               {{ scrap.scrap_id }}
             </a>
-            <span v-if="scrap.content" v-html="scrap.content" />
-            <span v-if="scrap.tags" class="px-2 opacity-20 hover:opacity-100">
+            <span v-if="scrap.content" v-html="scrap.content" class="dark:text-white text-black" />
+            <span v-if="scrap.tags" class="px-2 opacity-20 hover:opacity-100 text-[10px]">
               <span v-for="tag in scrapToTags(scrap)" :key="tag"
                 class="bg-gray-200 dark:bg-gray-700 px-1 rounded mr-1">{{ tag }}</span>
             </span>
           </td>
+          <td class="border dark:border-gray-800 px-1 hidden xl:table-cell">
+            <div class="max-h-16 overflow-y-auto">
+              <div v-if="scrap.summary" v-html="scrap.summary" />
+              <div v-else class="opacity-20 hover:opacity-100">No summary available</div>
+            </div>
+
+          </td>
           <td class="border overflow-x-auto hidden lg:table-cell">
-            <span v-if="!scrap.metadata">No metadata available</span>
-            <span v-else-if="Object.keys(scrap.metadata).length === 0">Empty metadata</span>
-            <span v-else class="space-x-1">
-              <UTooltip v-for="key in Object.keys(scrap.metadata)" :key="key" :text="String(scrap.metadata[key])">
-                <span class="bg-gray-200 dark:bg-gray-700 px-1 rounded cursor-help mr-1">{{ key }}</span>
-                <span v-if="key === 'screenshotUrl'">
-                  <a :href="scrap.metadata[key]" target="_blank" rel="noopener noreferrer">
-                    <img class="w-4 h-4" :src="scrap.metadata[key]" alt="External link" />
-                  </a>
+            <div class="flex items-center space-x-1">
+              <span v-if="!scrap.metadata">No metadata available</span>
+              <span v-else-if="Object.keys(scrap.metadata).length === 0">Empty metadata</span>
+              <span v-else class="space-x-1">
+                <span v-for="key in Object.keys(scrap.metadata)" :key="key">
+                  <UTooltip :text="String(scrap.metadata[key])">
+
+                    <span v-if="key === 'screenshotUrl'">
+                      <a :href="scrap.metadata[key]" target="_blank" rel="noopener noreferrer">
+                        <img class="w-auto h-4 " :src="scrap.metadata[key]" alt="External link" />
+                      </a>
+                    </span>
+                    <span v-else class="bg-gray-200 dark:bg-gray-700 px-1 rounded cursor-help">{{ key }}</span>
+                  </UTooltip>
                 </span>
-              </UTooltip>
-            </span>
+              </span>
+            </div>
           </td>
         </tr>
       </tbody>

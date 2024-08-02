@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-md border border-gray-500 dark:border-white rounded mb-8">
+  <div class="max-w-screen-md border border-gray-100 dark:border-gray-800 rounded mb-8">
     <!-- Scrap components based on source -->
     <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" />
     <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" />
@@ -7,13 +7,58 @@
     <ScrapGitHub v-else-if="scrap.source === 'github'" :scrap="scrap" />
 
 
-    <div class="flex items-center justify-between text-sm text-gray-500 mt-4 p-2">
-      <div class="flex items-center space-x-2">
+
+    <!-- Relationships -->
+    <div v-show="hasRelationships && showRelationships" class="mt-4 text-xs">
+
+      <ClientOnly>
+        <svg ref="relationshipGraph" class="w-full h-96">
+
+          <g v-for="edge in edges" :key="`${edge.source}-${edge.target}`" class="group">
+            <line :x1="edge.source.x" :y1="edge.source.y" :x2="edge.target.x" :y2="edge.target.y"
+              :stroke="isDark ? '#999' : '#ccc'" />
+            class="group-line" />
+            <!-- edge label, rotated to match the line -->
+            <text :transform="calcLineLabelTransform(edge)" fill="red" font-size="8" text-anchor="middle">{{ edge.type
+              }}</text>
+          </g>
+          <g v-for="node in nodes" :key="node.name">
+            <foreignObject :x="node.x" :y="node.y - 16" width="128" height="64">
+              <div class="text-xs p-1 leading-none rounded w-full break-words text-balance">
+                <p class="text-black dark:text-white">{{ node.name }}</p>
+              </div>
+            </foreignObject>
+          </g>
+        </svg>
+      </ClientOnly>
+
+
+      <!-- <h3 class="font-bold text-gray-500">Relationships</h3>
+<div class="flex flex-wrap items-center" v-if="relationshipEdges.length > 0">
+  <div v-for="edge in relationshipEdges" :key="`${edge.source.name}-${edge.target.name}`"
+    class="flex w-full items-center space-x-2">
+    <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
+      {{ edge.source }}
+    </span>
+    <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
+    {{ edge.type }}
+    <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
+    <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
+      {{ edge.target }}
+    </span>
+  </div>
+</div> -->
+    </div>
+
+    <div class="flex items-center justify-between text-[10px] text-gray-500 px-2">
+
+      <div class="flex items-center space-x-2 justify-center">
         <UIcon :name="getIconName(scrap.source)" class="w-4 h-4" />
         <span>{{ scrap.source }}</span>
+        <span class="text-gray-300 dark:text-gray-700">{{ scrap.scrap_id }}</span>
       </div>
 
-      <p class="timestamp text-xs">{{ formatDate(scrap.created_at) }}</p>
+      <p class="timestamp">{{ formatDate(scrap.created_at) }}</p>
 
       <div v-if="hasLocation" class="opacity-50 hover:opacity-100 transition-opacity">
         {{ scrap.metadata.latitude }}, {{ scrap.metadata.longitude }}
@@ -34,57 +79,21 @@
       </div>
     </div>
 
+
     <!-- Tags -->
     <div v-if="hasTags" class="flex flex-wrap gap-2 p-2">
       <NuxtLink v-for="tag in parsedTags" :key="tag" :to="`/scrapbook/tags?tag=${tag}`">
-        <UBadge :color="isMainTag(tag) ? 'blue' : 'gray'" size="sm" :class="{ 'font-bold': isMainTag(tag) }">
+        <UBadge :color="isDark ? 'white' : 'black'" size="sm"
+          :class="{ 'dark:border-white border-black border': isMainTag(tag) }">
           {{ tag }}
         </UBadge>
       </NuxtLink>
     </div>
 
-    <!-- Relationships -->
-    <div v-show="hasRelationships && showRelationships" class="mt-4 text-xs">
 
-      <ClientOnly>
-        <svg ref="relationshipGraph" class="w-full h-96">
-
-          <g v-for="edge in edges" :key="`${edge.source}-${edge.target}`">
-            <line :x1="edge.source.x" :y1="edge.source.y" :x2="edge.target.x" :y2="edge.target.y" stroke="black" />
-            <!-- edge label, rotated to match the line -->
-            <text :transform="calcLineLabelTransform(edge)" fill="red" font-size="8" text-anchor="middle">{{ edge.type
-              }}</text>
-          </g>
-          <g v-for="node in nodes" :key="node.name">
-            <foreignObject :x="node.x" :y="node.y - 16" width="100" height="64">
-              <div class="text-xs bg-white/50 p-1 leading-none border rounded backdrop-blur-sm">
-                <p class="text-black">{{ node.name }}</p>
-              </div>
-            </foreignObject>
-          </g>
-        </svg>
-      </ClientOnly>
-
-
-      <h3 class="font-bold text-gray-500">Relationships</h3>
-      <div class="flex flex-wrap items-center" v-if="relationshipEdges.length > 0">
-        <div v-for="edge in relationshipEdges" :key="`${edge.source.name}-${edge.target.name}`"
-          class="flex w-full items-center space-x-2">
-          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
-            {{ edge.source }}
-          </span>
-          <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
-          {{ edge.type }}
-          <UIcon name="i-heroicons-arrow-right" class="w-4 h-4" />
-          <span class="bg-gray-200 text-gray-800 rounded-md mr-0.5 mb-0.5 py-0.5 px-1 max-w-2/6">
-            {{ edge.target }}
-          </span>
-        </div>
-      </div>
-    </div>
 
     <!-- Raw Data -->
-    <pre v-if="showRaw" class="text-xs max-h-48 overflow-auto bg-gray-950 text-white p-1">
+    <pre v-if="showRaw" class="text-[9px] max-h-48 overflow-auto bg-gray-950 text-white p-1">
       {{ scrap }}
     </pre>
   </div>
@@ -106,17 +115,14 @@ const props = defineProps({
 const showRaw = ref(false)
 const showRelationships = ref(false)
 
+const isDark = useDark()
+
 const { mainTags } = useScrapTags()
 
 const hasLocation = computed(() => props.scrap.metadata?.latitude && props.scrap.metadata?.longitude)
 const hasRelationships = computed(() => props.scrap.relationships?.length > 0)
 const hasTags = computed(() => props.scrap.tags && JSON.parse(props.scrap.tags).length > 0)
 const parsedTags = computed(() => JSON.parse(props.scrap.tags || '[]'))
-
-const formattedSummary = computed(() => {
-  if (!props.scrap.summary) return ''
-  return props.scrap.summary.replace(/\n/g, '<br>')
-})
 
 function calcLineLabelTransform(edge) {
   const dx = edge.target.x - edge.source.x
@@ -125,7 +131,7 @@ function calcLineLabelTransform(edge) {
   if (angle > 90) angle -= 180
   if (angle < -90) angle += 180
   const x = (edge.source.x + edge.target.x) / 2
-  const y = (edge.source.y + edge.target.y) / 2
+  const y = (edge.source.y + edge.target.y) / 2 - 5 // Adjust the y-coordinate to be 5px above the midpoint
   return `translate(${x}, ${y}) rotate(${angle})`
 }
 
@@ -183,7 +189,7 @@ onMounted(async () => {
   await nextTick()
 
   // minimum width of 320px
-  const width = Math.max(graphWidth.value, 320)
+  const width = Math.max(graphWidth.value, 700)
   const height = Math.max(graphHeight.value, 320)
 
   nodes.value = unref(relationshipNodes).map(d => {
@@ -204,19 +210,24 @@ onMounted(async () => {
       type: d.type
     }
   })
+
+
+
+
   // Initialize the simulation
   simulation.value = d3.forceSimulation(nodes.value)
     .force('center', d3.forceCenter(width / 2, height / 2).strength(2))
-    .force('link', d3.forceLink(edges.value).id(d => d.name).distance(200).strength(0.5))
-    .force('charge', d3.forceManyBody().strength(-900))
+    .force('link', d3.forceLink(edges.value).id(d => d.name).distance(92).strength(0.35))
+    .force('charge', d3.forceManyBody().strength(-1000).distanceMax(200))
+    .force('collide', d3.forceCollide().radius(132).strength(0.52))
     // a new force to contain the nodes within the bounds of the svg
     // with a % padding
     .force('box', () => {
       for (const node of nodes.value) {
-        node.x = Math.max(node.x, 0)
-        node.x = Math.min(node.x, width)
-        node.y = Math.max(node.y, 0)
-        node.y = Math.min(node.y, height)
+        node.x = Math.max(node.x, 92)
+        node.x = Math.min(node.x, width - 320)
+        node.y = Math.max(node.y, 124)
+        node.y = Math.min(node.y, height - 92)
       }
     })
 
@@ -224,3 +235,12 @@ onMounted(async () => {
 
 
 </script>
+<style scoped>
+svg .group text {
+  opacity: 0;
+}
+
+svg .group:hover text {
+  opacity: 1;
+}
+</style>

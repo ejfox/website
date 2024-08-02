@@ -16,7 +16,8 @@
 
     <div class="">
       <!-- Content -->
-      <div v-if="parsedMarkdown && showSummary" class="font-serif prose prose-sm dark:prose-invert p-2">
+      <div v-if="parsedMarkdown && showSummary"
+        class="font-serif prose prose-sm text-[12px] md:text-xs lg:text-sm dark:prose-invert p-2">
         <ContentRenderer :value="parsedMarkdown" />
       </div>
     </div>

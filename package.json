@@ -6,11 +6,9 @@
     "dev": "NODE_OPTIONS='--max-old-space-size=8192' nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "content:blog": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ ./content/blog/ && echo 'Synced files:' && rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ ./content/blog/ --dry-run --list-only",
-    "content:assets": "rsync -avz --delete --exclude='/drafts/' --include='*.{png,mp3,jpg,svg}' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/drafts/assets/ ./*/static/",
+    "content:blog": "find /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ -type f -name '*.md' ! -path '*/drafts/*' -exec rsync -avz --relative {} ./content/blog/ \\; && echo 'Synced files:' && find /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/ -type f -name '*.md' ! -path '*/drafts/*' -exec rsync -avz --relative {} ./content/blog/ --dry-run --list-only \\;",
     "content:reading": "rsync -avz --delete --exclude='/drafts/' --include='*.md' --exclude='*' /Users/ejfox/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/ejfox/reading/ ./content/reading/",
-    "content:all": "yarn run content:blog && yarn run content:reading && git add \\*.md && git commit -m 'Update content' && git push",
-    "content:scrapbook": "node scripts/scrapbook/dl_arena.mjs && node scripts/scrapbook/dl_mastodon.mjs && node scripts/scrapbook/dl_pinboard.mjs"
+    "content:all": "yarn run content:blog && yarn run content:reading && git add \\*.md && git commit -m 'Update content' && git push"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.3.9",

@@ -2,13 +2,15 @@
 type: words
 hidden: false
 inprogress: false
-date: "2019-03-19T21:25:22-04:00"
+date: 2019-03-19T21:25:22-04:00
 hidetimestamp: false
+modified: 2024-08-01T10:21:39-04:00
 ---
 
-# How I prototype apps and dataviz quickly
+## How I prototype apps and dataviz quickly
 
 ::table-of-contents
+
 ::
 
 I’ve been really enjoying using Vue as a framework for my javascript applications. It allows me to quickly and easily lay out my data structure, some DOM-elements that are controlled by data, and handle any interactions / application state stuff I might need.
@@ -16,13 +18,14 @@ I’ve been really enjoying using Vue as a framework for my javascript applicati
 In years past, my development workflow usually started with me cloning my [@ejfox/starter](https://github.com/ejfox/starter) project, which has gulp, webpack, and a handful of other useful frameworks for making things quickly already set up.
 
 Now, since it’s upgrade to 3.0, I pretty much exclusively use
+
 `> vue create project-name` which gives you a little CLI wizard to create a new Vue project. Importantly, you can manually select the features you want and create your own project defaults.
 
 Mine, for example, automatically pulls in the Router, Vuex, Linter, and Stylus.
 
 I [recorded a video of myself spinning up a prototype](https://www.youtube.com/watch?v=Q6e4pQccMH4) of a D3 force layout using the techniques I describe below, it’s around 90 minutes but you can tell YouTube to play it double-speed and click around - if you’re curious.
 
-## Pulling in data
+### Pulling in data
 
 In my old starter project, I would pull in data with [d3.queue](https://github.com/ejfox/starter/blob/master/src/coffee/app.coffee#L19) which was super easy and very little code.
 
@@ -30,7 +33,7 @@ With Vue as my default framework, I’ve moved over to using the [pattern of usi
 
 When I’m pulling data from an API, it’s as simple as setting up the keys, building the API call, looking at the returned data in the Vue Chrome Devtools Inspector, and then building out the DOM elements with Vue’s [v-if and v-for](https://vuejs.org/v2/guide/list.html) directives.
 
-## Combining Vue and D3 for dataviz
+### Combining Vue and D3 for dataviz
 
 Part of the reason that I really like using Vue is that it meshes with my understanding of D3, which I use to create a majority of my data visualization work both personally and professionally.
 
@@ -83,13 +86,13 @@ If I want to fade elements in and out like you would do with `d3.select(selectio
 
 It’s also easy enough to use this same pattern with custom-made CSS transitions or animations, but I don’t find myself doing that too often.
 
-## Database and user authentication
+### Database and user authentication
 
 Over the past 3 months or so, I’ve fallen head over heels for the combination of Vue and Firestore via the [vue-firestore](https://www.npmjs.com/package/vue-firestore) Vue binding. You set up your Firebase app, plug in all your auth keys, and then bind data objects to firestore collections. This binding is instantaneous and reactive, so if your Vue template references an object that is bound to a collection, the page automatically updates if an item is added, removed, or changed in firestore. You don’t have to do anything different. It feels like magic.
 
 So far for me Vue + Firestore has been fast, easy, and scalable. It reminds me of working with Meteor.js way back when.
 
-## Deploying
+### Deploying
 
 I’ve been really enjoying using Netlify, and the Netlify CLI makes things even easier and faster. Once I’m ready to show someone what I’ve been working on, I just do `npm run build; netlify deploy —dir=dist` and the CLI walks me through creating a URL.
 

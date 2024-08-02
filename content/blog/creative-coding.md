@@ -4,7 +4,7 @@ type: words
 hidden: false
 inprogress: true
 dek: In which a computer is used as divination tool for random numbers (for the purposes of beauty, art, and poetry)
-modified: 2024-06-02T00:37:09-04:00
+modified: 2024-06-21T10:11:27-04:00
 ---
 
 ## Generative Art

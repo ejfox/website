@@ -41,6 +41,6 @@ TODO
 
 - For more info on the studio as a whole and my overall goals: [[the-studio]]
 - For digital art and prototyping: [[2022-prototyping-toolkit]]
-- For garment dying: [[garment-dying-experiments]]
+- For garment dying: [[drafts/garment-dying-experiments]]
 - For woodworking: [[woodworking-setup]]
-- For soapmaking [[soapmaking]]
+- For soapmaking [[drafts/soapmaking]]

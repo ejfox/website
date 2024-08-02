@@ -3,11 +3,12 @@ dek: In which the author divulges a shameful secret
 type: words
 hidden: false
 inprogress: false
-date: "2019-06-13T18:19:39-04:00"
+date: 2019-06-13T04:00:39-04:00
 hidetimestamp: true
+modified: 2024-06-21T10:12:52-04:00
 ---
 
-# Movies to Watch
+## Movies to Watch
 
 For a variety of reasons there are many movies that I have not seen. Often in conversation, these movies will come up and people will say “you haven’t seen that?” and I feel pangs of guilt.
 
@@ -87,10 +88,3 @@ Wish me luck.
 - Man With A Movie Camera (1929)
 - An Andalusian Dog (1928)
 - Rosemarys Baby
-
-<style>
-li { 
-	font-weight: bold; 
-	text-transform: capitalize;
-}
-</style>

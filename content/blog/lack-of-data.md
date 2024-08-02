@@ -1,13 +1,12 @@
 ---
-date: 2021-05-17T04:00:10-04:00
+date: "2021-05-17T11:02:10-04:00"
 type: words
 hidden: false
 inprogress: true
 dek: An exploration of what we choose to track, and what we don't – and what that means if we want to make the world a better place
-modified: 2024-06-21T10:12:43-04:00
 ---
 
-## The Lack of Data
+# The Lack of Data
 
 If I wanted to, I could tell you the precise angle and speed of a small ball thrown in a game of professional baseball. I can tell you all sorts of information about each of the nearly 300 pitches thrown in any of the 162 games each baseball team plays each year.
 
@@ -33,4 +32,4 @@ We are able to track the things we care about to an incredible, awe-inspiring am
 
 But without a baseline, there is no way to determine if an intervention is successful or not. If we don't know a patient's cholesterol, we can't tell if the medicine we have given them is working or not. So we track those things and use all of that data to guide our actions.
 
-#data #dataviz
+#data #dataviz 

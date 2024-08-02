@@ -3,12 +3,11 @@ dek: In which the author is grateful for the hackers who invented the internet
 type: words
 hidden: false
 inprogress: false
-date: 2019-02-01T05:00:56-05:00
+date: "2019-02-01T12:08:56-05:00"
 hidetimestamp: false
-modified: 2024-06-21T10:13:20-04:00
 ---
 
-## The Internet Was Built To Be Hacked
+# The Internet Was Built To Be Hacked
 
 Nothing we ever do is truly novel, no matter how much we convince ourselves it is. Faced with nearly any seemingly insurmountable problem, you can easily scare up comparable examples from the not-too-distant past.
 
@@ -34,8 +33,8 @@ The internet was built with an idyllic vision where everyone could craft anythin
 
 Much of our current world ties back to the stew of hippies and hackers in California in the late 70s and early 80s that birthed much of the technology we use. Academics and college students and computer scientists bounced off each other and got a lot of things rolling in ways we still experience today.
 
->"The e-mail list started at Stanford a decade ago, now connected to MIT, has gotten so big that it needs to be split into two: Dead-Heads, for people who only need to have the set lists and tour dates… and Dead-Flames… for the people who want to talk about everything. They burn through memes in a way that won't become common to the rest of the world for almost a quarter century.
-><cite>Jesse Jarnow in "Heads: A Biography of Psychedelic America"</cite>
+> "The e-mail list started at Stanford a decade ago, now connected to MIT, has gotten so big that it needs to be split into two: Dead-Heads, for people who only need to have the set lists and tour dates… and Dead-Flames… for the people who want to talk about everything. They burn through memes in a way that won't become common to the rest of the world for almost a quarter century.
+> <cite>Jesse Jarnow in "Heads: A Biography of Psychedelic America"</cite>
 
 We can barely understand the ability ideas have to spread from person to person now. The only thing we can relate it to is viruses– going viral. Ideas can spread like a cough, person to person, out of the control of any leader, director, or king. They can be a joke, or a dance, or a rhyme like they've been for thousands of years. Or they can be ideas like freedom, liberty, truths that powerful people don't want told. We've seen the effects of those memes too.
 
@@ -49,13 +48,13 @@ We have direct access to all of that. We have the ability to harness some of the
 
 I like the idea of living in a world where everyone has hand-crafted their own house because I want to live on that block. I want to see the ways people express themselves. I want to visit those houses. I think the will of humanity in the absence of self-imposed scarcity bends towards goodness and beauty.
 
->"It is quite clear that the society of open-source hackers is in fact a gift culture. Within it, there is no serious shortage of the 'survival necessities' – disk space, network bandwidth, computing power. Software is freely shared. This abundance creates a situation in which the only available measure of competitive success is reputation among one's peers"
-><cite>Eric S. Raymond in "The Cathedral & The Bazaar"</cite>
+> "It is quite clear that the society of open-source hackers is in fact a gift culture. Within it, there is no serious shortage of the 'survival necessities' – disk space, network bandwidth, computing power. Software is freely shared. This abundance creates a situation in which the only available measure of competitive success is reputation among one's peers"
+> <cite>Eric S. Raymond in "The Cathedral & The Bazaar"</cite>
 
 There is definitely some privilege required to learn how to code. You need consistent access to a computer, electricity, the internet. You need time in your day, you need to have food in your belly. But compared with the effort required to get a message to 100 or 1,000 or a million people without a computer, it is easier than it ever has been to make an impact on the world. We will continue to see that impact us all in beautiful and terrible ways.
 
->"Online communication has given rise to a new global commerce in ideas, information, and services. Because electronic messages readily cross territorial borders, and many online transactions have no necessary relationship to any particular physical location, existing geographically based legal systems have difficulty regulating this new phenomenon. This creates a new form of law– a law of cyberspace… Will this emerging cyberlaw provide 'due process'? Will it, in other words, respect basic principles of fairness, as embodied in current legal doctrines?"
-><cite>David R. Johnson in "Due Process and Cyberjurisdiction" 1996</cite>
+> "Online communication has given rise to a new global commerce in ideas, information, and services. Because electronic messages readily cross territorial borders, and many online transactions have no necessary relationship to any particular physical location, existing geographically based legal systems have difficulty regulating this new phenomenon. This creates a new form of law– a law of cyberspace… Will this emerging cyberlaw provide 'due process'? Will it, in other words, respect basic principles of fairness, as embodied in current legal doctrines?"
+> <cite>David R. Johnson in "Due Process and Cyberjurisdiction" 1996</cite>
 
 The only necessary right we have in our new digital world is to move on to new systems or create our own. We were given those with intention. But we will have to defend those rights.
 

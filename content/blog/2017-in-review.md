@@ -1,12 +1,11 @@
 ---
 hidden: false
 type: photos
-date: 2017-01-01T05:00:21-05:00
+date: "2017-01-01T23:31:21-05:00"
 hidetimestamp: false
-modified: 2024-08-01T10:21:46-04:00
 ---
 
-## 2017 In Review
+# 2017 In Review
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1527996599/trumpinauguration-209.jpg" />
 

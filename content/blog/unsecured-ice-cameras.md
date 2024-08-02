@@ -3,22 +3,20 @@ dek: In which the author attempts and fails to find interesting unsecured webcam
 type: words
 hidden: false
 inprogress: false
-date: 2019-03-24T04:00:39-04:00
+date: "2019-03-24T21:19:39-04:00"
 hidetimestamp: false
-modified: 2024-06-21T10:13:37-04:00
 ---
 
-## Attempting to find unsecured ICE cameras
+# Attempting to find unsecured ICE cameras
 
 A friend DMs me on Twitter:
 
->yo, you know how security cameras are sometimes open feeds on the internet?
->is there any chance ICE fucked up in this very specific way at a facility?
+> yo, you know how security cameras are sometimes open feeds on the internet?
+> is there any chance ICE fucked up in this very specific way at a facility?
 
 That sounds very plausible. Let’s give it a try. [Webcam scanning with Shodan](https://www.vice.com/en_us/article/59vm4x/tool-exposed-cameras-map-shodan-python-github) is a pretty well-known technique at this point. I’m not very familiar with it, so it’s time to learn.
 
 ::table-of-contents
-
 ::
 
 ### First idea: IP ranges
@@ -29,7 +27,7 @@ To do this, first you would need to find [IP ranges for the state of Texas](http
 
 The first thing that jumps out to me is El Paso, home to the [ICE El Paso Processing Center](https://www.ice.gov/detention-facility/el-paso-processing-center) where a [Honduran migrant died in late May](https://www.nbcnews.com/news/latino/honduran-man-dies-ice-custody-texas-facility-n1025526).
 
->El Paso: 12.162.129.0 - 12.162.129.255
+> El Paso: 12.162.129.0 - 12.162.129.255
 
 ### Better idea: query by latitude and longitude
 
@@ -37,9 +35,9 @@ But then I started doing more research on how to use shodan, and found a great g
 
 [How to Find Vulnerable Webcams Across the Globe Using Shodan](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerable-webcams-across-globe-using-shodan-0154830/)
 
->Shodan even enables us to be very specific in searching for web-enabled devices. In some cases, we can specify the longitude and latitude of the devices we want to find.
->In this case, we will be looking for WebcamXP cameras at the longitude and latitude (-37.81, 144.96) of the city of Melbourne, Australia. When we search, we get a list of every WebcamXP at those coordinates on the globe. We must use the keyword geo followed by the longitude and latitude.
->`webcamxp geo: -37.81,144.96`
+> Shodan even enables us to be very specific in searching for web-enabled devices. In some cases, we can specify the longitude and latitude of the devices we want to find.
+> In this case, we will be looking for WebcamXP cameras at the longitude and latitude (-37.81, 144.96) of the city of Melbourne, Australia. When we search, we get a list of every WebcamXP at those coordinates on the globe. We must use the keyword geo followed by the longitude and latitude.
+> `webcamxp geo: -37.81,144.96`
 
 Oh! I don’t need to use IP ranges at all. I can just feed [latitudes and longitudes](https://en.wikipedia.org/wiki/Geo-fence) directly into my searches.
 
@@ -47,8 +45,8 @@ Now, we need a geocoded list of every ICE facility. Luckily, [I’ve already don
 
 This [excellent resource on manipulating CSVs with the command line](https://bconnelly.net/posts/working_with_csvs_on_the_command_line/) teaches us:
 
->Specific columns can also be easily extracted from CSVs. For example, if we wanted to extract columns 2, 4, 5, and 6 from input.csv:
->`cut -d , -f 2,4-6 input.csv`
+> Specific columns can also be easily extracted from CSVs. For example, if we wanted to extract columns 2, 4, 5, and 6 from input.csv:
+> `cut -d , -f 2,4-6 input.csv`
 
 [How do you use CSV lines as command parameters?](https://unix.stackexchange.com/questions/41598/using-csv-line-as-command-parameters)
 

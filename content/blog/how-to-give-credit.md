@@ -2,7 +2,7 @@
 dek: In which we do what is right by being clear about the contributions each member of the team brings to a project
 inprogress: true
 date: 2023-09-03T14:18:33-04:00
-modified: 2024-06-12T15:12:00-04:00
+modified: 2023-12-17T19:08:46-05:00
 tags: howto process
 ---
 
@@ -84,8 +84,6 @@ Credit and gratitude are a practice that transcends contractual obligations and 
 In a world obsessed with individual achievement, giving credit is a radical act. It disrupts the narrative of the lone genius and recognizes the collective effort behind any meaningful endeavor. It's not just ethical; it's profoundly human. It's the way we say to each other, "Your presence in this world makes a difference."
 
 ### Additional Resources
-
-<https://x.com/raphaelsalaja/status/1800447298570519007>
 
 #### Industry Practices in Credit
 

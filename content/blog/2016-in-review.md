@@ -1,19 +1,17 @@
 ---
 hidden: false
 type: photos
-date: 2016-01-01T05:00:00-05:00
+date: "2016-01-01T00:42:00-05:00"
 hidetimestamp: true
 bgcolorclass: ""
 textcolorclass: ""
-modified: 2024-08-01T10:21:50-04:00
 ---
 
-## 2016 In Review
+# 2016 In Review
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1526535162/20161227-untitled_shoot-312.jpg" />
 
-<img src="<https://res.cloudinary.com/ejf/image/upload/v1526535166/20161227->
-
+<img src="https://res.cloudinary.com/ejf/image/upload/v1526535166/20161227-
 untitled_shoot-527.jpg" />
 
 <img src="https://res.cloudinary.com/ejf/image/upload/v1526535166/20161227-untitled_shoot-524.jpg" />

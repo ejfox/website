@@ -1,5 +1,25 @@
 [
   {
+    "scrap_id": "7jNuWa7l",
+    "href": "https://nymag.com/intelligencer/article/bloombergs-risky-embargo-breaking-evan-gershkovich-scoop.html",
+    "description": "Bloomberg’s Risky, Embargo-Breaking Evan Gershkovich Scoop",
+    "time": "2024-08-02T15:33:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "gaOT77z8",
+    "href": "https://cloudinary.com/documentation/animated_images",
+    "description": "Manage Animated Images | Cloudinary",
+    "time": "2024-08-02T15:07:45Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "kc4gDndQ",
     "href": "https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/",
     "description": "Use an llm to automagically generate meaningful git commit messages | Harper Reed's Blog",

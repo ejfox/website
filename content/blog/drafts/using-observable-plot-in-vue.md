@@ -2,7 +2,7 @@
 dek: "In which we use two javascript frameworks to quickly scale from prototype to functional tool"
 inprogress: true
 date: "2022-12-15T15:18:53.000Z"
-modified: "2024-06-07T18:33:22.000Z"
+modified: "2024-07-18T18:27:31.000Z"
 tags: "tech howto"
 hidden: true
 draft: true
@@ -89,5 +89,3 @@ Then we render this computed HTML with a simple template
 ```vue
 <div ref="chart" id="chart" v-html="chartHTML"></div>
 ```
-
-### Bonus: Modifying an Observable runtime with Vue

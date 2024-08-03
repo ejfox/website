@@ -2,8 +2,9 @@ import { ref } from 'vue'
 import * as d3 from 'd3'
 
 export default function useScrap() {
-  const combinedData = ref([])
-  const scrapByWeek = ref(null)
+  // console.log('useScrap composable initialized')
+  const combinedData = shallowRef([])
+  const scrapByWeek = shallowRef(null)
 
   const { data: scrapData } = useFetch('/data/scrapbook/scraps.json', {
     server: false,

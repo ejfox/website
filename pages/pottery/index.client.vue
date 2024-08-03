@@ -18,7 +18,9 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-4 lg:gap-6 xl:gap-8 my-8">
 
 
-      <div v-for="product in products" :key="product.id" class="p-2 max-w-screen-md ">
+      <div v-for="product in products" :key="product.id" class="p-2 max-w-screen-md "
+        v-show="product.metadata.sold !== 'true'">
+
         <StripeProduct :product="product" />
       </div>
     </div>

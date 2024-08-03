@@ -3,8 +3,8 @@
     <!-- <pre class="max-h-96 overflow-y-auto">{{ product }}</pre> -->
     <div class="product-image-container relative shadow-lg overflow-hidden rounded-lg" v-if="product?.images">
       <!-- get the price SVG and put it on the top right -->
-      <img :src="priceSvgPath" alt="Price" class="w-16 md:w-32 h-auto absolute top-4 right-4 md:right-8 z-20 invert"
-        v-if="!productSold" />
+      <img :src="priceSvgPath" alt="Price"
+        class="w-16 md:w-24 xl:w-30 h-auto absolute top-4 right-4 md:right-8 z-20 invert" v-if="!productSold" />
       <img v-else src="/images/handdrawn_ceramics_text/handdrawn_ceramics_text-14.svg"
         class="w-1/3 h-auto absolute top-4 right-4 md:right-8 z-20 invert" alt="Sold Out" />
 
@@ -33,6 +33,7 @@
       </div>
 
       <div v-show="!productSold" class="product-price text-lg py-2
+      hidden xl:block
       ">{{ unitAmountToUSD(product.price.unit_amount) }} + shipping</div>
     </div>
     <!-- make more like this button -->
@@ -40,7 +41,7 @@
   </div>
   <div class="product-info-container py-2">
 
-    <div class="flex flex-row justify-between items-center">
+    <div class="flex flex-wrap justify-between items-center">
       <!-- <div class="product-name text-3xl py-2">{{ product.name }}</div> -->
 
 
@@ -48,7 +49,7 @@
       <div class="product-description prose dark:prose-invert my-1 lg:my-2">{{ product.description }}</div>
 
       <img :src="`/images/handdrawn_ceramics_text/handdrawn_ceramics_text-13.svg`" alt="USA Shipping Only"
-        class="h-12 w-auto my-2 dark:invert inline-block" />
+        class="h-10 xl:h-12 w-auto my-2 dark:invert inline-block" />
 
 
 

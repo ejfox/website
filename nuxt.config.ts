@@ -1,8 +1,8 @@
 export default {
   // ssr: false, // for netlify deploy
   modules: [
+    'nuxt-gtag',
     '@nuxt/ui',
-    '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@nuxt/content',
     '@nuxtjs/google-fonts',
@@ -10,6 +10,9 @@ export default {
     '@nuxt/image',
     '@unlok-co/nuxt-stripe',
   ],
+  gtag: {
+    id: 'G-0CBMSSNG8P',
+  },
   ui: {
     icons: 'all',
   },

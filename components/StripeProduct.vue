@@ -69,8 +69,8 @@ const buyProduct = async (productId) => {
     method: 'POST',
     body: JSON.stringify({
       productId,
-
-      success_url: 'https://ejfox.com/pottery/success',
+      success_url: `https://ejfox.com/pottery/success?productId=${productId}`,
+      // success_url: `http://localhost:3000/pottery/success?productId=${productId}`,
       cancel_url: 'https://ejfox.com/pottery',
     }),
   });

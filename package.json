@@ -40,6 +40,7 @@
     "front-matter": "^4.0.2",
     "inquirer": "^10.1.0",
     "js-md5": "^0.8.3",
+    "nuxt-gtag": "^2.1.0",
     "rehype-external-links": "^3.0.0",
     "remark-emoji": "^5.0.1",
     "remark-external-links": "^9.0.1",

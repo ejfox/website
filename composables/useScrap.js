@@ -3,12 +3,8 @@ import * as d3 from 'd3'
 
 export default function useScrap() {
   // console.log('useScrap composable initialized')
-  const combinedData = ref([])
-  const scrapByWeek = ref(null)
-  const isLoading = ref(true)
-  const error = ref(null)
-  const currentPage = ref(1)
-  const hasMorePages = ref(true)
+  const combinedData = shallowRef([])
+  const scrapByWeek = shallowRef(null)
 
   const fetchScraps = async (page = 1, limit = 20) => {
     // console.log(`Fetching scraps: page ${page}, limit ${limit}`)
@@ -82,13 +78,8 @@ export default function useScrap() {
   fetchScraps()
 
   return {
-    combinedData,
-    scrapByWeek,
-    isLoading,
-    error,
     loadMore,
     prefetchNextPage,
-    hasMorePages,
     fetchScraps,
   }
 }

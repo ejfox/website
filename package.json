@@ -17,7 +17,7 @@
     "@nuxt/image": "^1.7.0",
     "@types/node": "^20.14.2",
     "@unlok-co/nuxt-stripe": "^3.0.0",
-    "nuxt": "^3.11.2"
+    "nuxt": "^3.12.4"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.22.0",

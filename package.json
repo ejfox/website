@@ -13,7 +13,7 @@
     "content:scrapbook": "node scripts/scrapbook/dl_arena.mjs && node scripts/scrapbook/dl_mastodon.mjs && node scripts/scrapbook/dl_pinboard.mjs"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.3.3",
+    "@nuxt/devtools": "^1.3.9",
     "@nuxt/image": "^1.7.0",
     "@types/node": "^20.14.2",
     "@unlok-co/nuxt-stripe": "^3.0.0",

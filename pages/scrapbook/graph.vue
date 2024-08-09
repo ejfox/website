@@ -1,32 +1,38 @@
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full p-4">
     <div ref="scrapgraphcontainer" class="container mx-auto p-0 min-h-screen w-full">
-      <svg ref="graphsvg" id="graph-svg" class="w-full">
-        <g v-for="(weekPath, i) in weekPaths" :key="i">
-          <path :d="weekPath" stroke="#CCC" fill="transparent" :stroke-width="0.5" :data-week="i"
-            :stroke-dashoffset="dashOffset" stroke-dasharray="2 2" />
-        </g>
-
-        <g v-for="circle in scrapNodes" :transform="`translate(${circle.x}, ${circle.y})`" class="scrap-node">
-          <g v-if="circle.type === 'week'">
-            <text font-size="24" text-anchor="middle" fill="#CCC" y="-4.5" x="20" class="uppercase">
-              {{ dateToWeekLabel(circle.time) }}
-            </text>
-          </g>
-          <g v-else>
-            <foreignObject :width="cardWidth" :height="cardHeight">
-              <div class="w-full leading-none bg-white/30 dark:bg-black/30 bg-blur-md" style="font-size: 9px">
-                <!-- <ScrapVerboseScrapItem :scrap="circle" :show-details="false" class="text-[11px]" /> -->
-
-                <!-- day of week -->
-                <div class="text-white ">
-                  {{ formatDate(circle.time) }}
-                </div>
-
-                <ScrapItem :scrap="circle" :showDetails="false" class="text-[11px]" />
+      <svg ref="graphsvg" id="graph-svg" class="w-full" :height="svgHeight">
+        <path :d="weekPath" stroke="#CCC" fill="none" stroke-width="2" :stroke-dashoffset="dashOffset"
+          stroke-dasharray="4 4" />
+        <g v-for="scrap in scrapNodes" :key="scrap.id" :transform="`translate(${scrap.x}, ${scrap.y})`"
+          class="scrap-node">
+          <foreignObject :width="cardWidth" :height="cardHeight" :x="-cardWidth / 2" :y="-cardHeight / 2">
+            <div xmlns="http://www.w3.org/1999/xhtml"
+              class="w-full p-2 bg-white border border-gray-200 overflow-hidden rounded shadow text-[10px] font-mono font-bold overflow-y-auto"
+              :style="{
+        position: 'relative',
+        height: `${cardHeight}px`,
+      }">
+              <img :src="scrap.metadata.screenshotUrl" alt="Scrap Image"
+                class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none " />
+              <!-- <div class="font-bold">{{ formatDate(scrap.created_at) }}</div> -->
+              <div class="mt-1 text-gray-600">
+                {{ scrap.content }}
               </div>
-            </foreignObject>
-          </g>
+              <!-- the link -->
+              <div class="" v-if="scrap.metadata.href">
+                <a :href="scrap.metadata.href" class="text-blue-500">
+                  <UIcon name="i-heroicons-link" class="w-4 h-4 inline" />
+                </a>
+              </div>
+            </div>
+          </foreignObject>
+          <text :y="-cardHeight / 2 - 9" class="text-[8px] text-gray-500" text-anchor="middle">
+            {{ formatHrefForDisplay(scrap.metadata.href) }}
+          </text>
+          <text :y="cardHeight / 2 + 9" class="text-[8px]" text-anchor="middle">
+            {{ formatDate(scrap.created_at) }}
+          </text>
         </g>
       </svg>
     </div>
@@ -34,181 +40,125 @@
 </template>
 
 <script setup>
+import { ref, computed, watch, onMounted } from 'vue'
 import useScrap from '~/composables/useScrap.js'
 import { format } from 'date-fns'
+import { useElementSize } from '@vueuse/core'
 import * as d3 from 'd3'
 
 const { combinedData } = useScrap()
 
 const scrapNodes = ref([])
 const scrapgraphcontainer = ref(null)
-const { width, height } = useElementSize(scrapgraphcontainer)
+const { width } = useElementSize(scrapgraphcontainer)
 
-const line = d3.line()
-  // .curve(d3.curveLinear)
-  // catmull rom
-  .curve(d3.curveCatmullRom.alpha(0.5))
-  .x((d) => d[0])
-  .y((d) => d[1])
-
+const svgHeight = ref(5000)
 
 const formatDate = (date) => {
-  return format(new Date(date), 'MMM d, yyyy')
+  return format(new Date(date), 'MMM d, yyyy ha')
 }
-
 
 const MAX_SCRAPS_TO_SHOW = 100
+const cardWidth = 124
+const cardHeight = 224
+const buffer = 92
 
-const cardSize = 132
-const cardHeight = cardSize
-const cardWidth = cardSize
-const buffer = 28
-const padding = cardWidth * 1.5
+const forceSim = ref(null)
 
-const forceSim = shallowRef(null)
-const forceLinks = ref([])
+const line = d3.line()
+  .curve(d3.curveCatmullRom.alpha(0.5))
+  .x(d => d.x)
+  .y(d => d.y)
 
-const serviceColors = {
-  'mastodon-post': '#b3e2cd',
-  pinboard: '#fdcdac',
-  'github-gist': '#cbd5e8',
-  arena: '#f4cae4',
+
+
+// remove any query params from the href
+const formatHrefForDisplay = (href) => {
+  if (!href) return ''
+  try {
+    let url = new URL(href)
+    let formattedUrl = url.hostname + url.pathname
+    // remove trailing slash
+    formattedUrl = formattedUrl.replace(/\/$/, "")
+    // remove www. if it's the first part of the hostname
+    formattedUrl = formattedUrl.replace(/^www\./, "")
+    return formattedUrl
+  } catch (error) {
+    console.error('Invalid URL:', href)
+    return ''
+  }
 }
 
-function getServiceColor(serviceName) {
-  return serviceColors[serviceName] || '#999'
-}
 
-const weeks = shallowRef([])
-/**
- * Computes the week paths based on the scrap nodes.
- * @returns {Array} The array of week paths.
- */
-const weekPaths = computed(() => {
-  // If there are no scrap nodes, return an empty array
-  if (!scrapNodes.value.length) return []
-
-  // Group the scrap nodes by week
-  const weekData = d3.group(scrapNodes.value, (d) => {
-    const time = new Date(d.time)
-    // Find the index of the week that the scrap node belongs to
-    return weeks.value.findIndex((week) => time >= week && time < d3.timeWeek.offset(week, 0))
-  })
-
-  // Convert the week data into an array of week paths
-  return Array.from(weekData, ([weekIndex, weekNodes]) => {
-    // Map the week nodes to their coordinates
-    const weekCoordinates = weekNodes.map((d) => [d.x, d.y])
-    // Generate a line path based on the week coordinates
-    return line(weekCoordinates)
-  })
+const weekPath = computed(() => {
+  if (!scrapNodes.value.length) return ''
+  const sortedNodes = [...scrapNodes.value].sort((a, b) => new Date(a.created_at) - new Date(b.created_at))
+  return line(sortedNodes)
 })
 
-// const pathLength = ref(null)
-const pathLength = ref(200)
 const dashOffset = ref(0)
 
 function processData() {
-  if (!combinedData.value) console.error('no data!')
+  if (!combinedData.value) {
+    console.error('no data!')
+    return
+  }
 
-  const data = combinedData.value.map((d) => ({
-    type: d.type,
-    radius: cardHeight / 2,
-    fill: getServiceColor(d.type),
-    time: d.time,
-    ...d,
-  }))
-
-  const trimmedData = data
-    .filter((d) => d.description)
-    // sort by time
-    .sort((a, b) => new Date(b.time) - new Date(a.time))
+  const trimmedData = combinedData.value
     .slice(0, MAX_SCRAPS_TO_SHOW)
+    .map((scrap, index) => ({
+      ...scrap,
+      x: (index % 5) * (cardWidth + buffer) + cardWidth / 2,
+      y: Math.floor(index / 5) * (cardHeight + buffer) + cardHeight / 2,
+      radius: (Math.sqrt(cardWidth * cardHeight) / 2) * 1.2
+    }))
 
   scrapNodes.value = trimmedData
+  console.log('Processed scrap nodes:', scrapNodes.value.length)
 
-  const times = trimmedData.map((d) => new Date(d.time))
+  const times = trimmedData.map(d => new Date(d.created_at))
   const timeExtent = d3.extent(times)
 
-  const timeScale = d3
-    .scaleTime()
+  const timeScale = d3.scaleTime()
     .domain(timeExtent)
-    // .range([height.value, 0])
-    // add some padding
-    // .range([cardHeight * 2, height.value - cardHeight])
-    // upside down
-    .range([height.value - cardHeight, cardHeight * 2])
+    .range([svgHeight.value - cardHeight, cardHeight])
 
-  scrapNodes.value.forEach((d) => {
-    const time = new Date(d.time)
-    const day = time.getDay()
-    const JITTER = Math.random() * 20 - 10
-    d.x = width.value * (day / 6) + JITTER
-    d.y = timeScale(time)
-  })
+  if (forceSim.value) forceSim.value.stop()
 
-  weeks.value = d3.timeWeeks(d3.min(data, (d) => new Date(d.time)), d3.max(trimmedData, (d) => new Date(d.time)))
-
-  forceSim.value = d3
-    .forceSimulation(scrapNodes.value)
-    .force('link', d3.forceLink(forceLinks.value).id((d) => d.id).strength(0.25).distance(width.value * 0.2))
-    .force('charge', d3.forceManyBody().strength(-4).distanceMax(width.value * 0.25).distanceMin(cardHeight))
-    .force(
-      'collide',
-      d3.forceCollide((d) => d.radius + buffer),
-    )
-    .force(
-      'y',
-      d3.forceY((d) => timeScale(new Date(d.time))),
-    )
-    .force('x', d3.forceX((d) => {
-      const time = new Date(d.time)
-      if (isNaN(time)) {
-        console.log('Invalid time:', d.time)
-      }
+  forceSim.value = d3.forceSimulation(trimmedData)
+    .force('charge', d3.forceManyBody().strength(-100))
+    .force('collide', d3.forceCollide(d => d.radius + buffer))
+    .force('y', d3.forceY(d => timeScale(new Date(d.created_at))).strength(0.1))
+    .force('x', d3.forceX(d => {
+      const time = new Date(d.created_at)
       const day = time.getDay()
-
-      const xPosition = width.value * (day / 6) + padding
-      const totalWidth = width.value - padding * 2
-      return xPosition * (totalWidth / width.value)
-    }))
-    // add a force to make sure that the nodes don't go off the screen
-    .force('bounds', (alpha) => {
-      scrapNodes.value.forEach((d) => {
-        const radius = d.radius + buffer
-        d.x = Math.max(radius, Math.min(width.value - radius, d.x))
-        d.y = Math.max(radius, Math.min(height.value - radius, d.y))
-        // Make sure they don't go off the right side of the screen
-        const rightBound = width.value - radius
-        if (d.x > rightBound) {
-          d.x = rightBound
-        }
-      })
+      return width.value * (day / 6)
+    }).strength(0.1))
+    .force('boundingBox', () => {
+      for (let node of trimmedData) {
+        node.x = Math.max(cardWidth / 2, Math.min(width.value - cardWidth / 2, node.x))
+        node.y = Math.max(cardHeight / 2, Math.min(svgHeight.value - cardHeight / 2, node.y))
+      }
+    })
+    .on('tick', () => {
+      scrapNodes.value = [...trimmedData]
     })
 }
 
-watch(combinedData, processData)
+watch(combinedData, processData, { immediate: true })
 
-function animateWeekPaths() {
-  dashOffset.value += 0.05
-  requestAnimationFrame(animateWeekPaths)
+function animateWeekPath() {
+  dashOffset.value -= 0.1
+  requestAnimationFrame(animateWeekPath)
 }
 
 onMounted(() => {
-  pathLength.value = Math.max(...weekPaths.value.map((path) => path.getTotalLength()))
-
-  animateWeekPaths()
+  animateWeekPath()
 })
-
-const dateToWeekLabel = (date) => {
-  return format(new Date(date), 'MMM d yy')
-}
 </script>
 
 <style>
-#graph-svg {
-  min-height: 720vh;
-}
+#graph-svg {}
 
 .scrap-node {
   will-change: transform;

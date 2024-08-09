@@ -2,7 +2,7 @@
   <main class="dark:bg-gray-900 p-2 md:p-4">
     <!-- year navigation -->
     <div
-      class="flex flex-col mb-4 sticky md:relative lg:relative backdrop-filter backdrop-blur-lg top-0 w-full pointer-events-auto">
+      class="flex flex-col mb-4 md:relative lg:relative backdrop-filter backdrop-blur-lg top-0 w-full pointer-events-auto">
       <div class="">
         <UButton to="/blog/index_verbose" class="my-4" color="white">
           See all posts
@@ -21,10 +21,10 @@
       </div>
     </div>
 
-    <div v-for="article in sortedFilteredArticles" :key="article._path">
+    <div v-for="article in  sortedFilteredArticles " :key="article._path">
       <UCard :class="[
         article.hidden ? 'hidden' : '',
-        'mb-4 max-w-screen-md',
+        'mb-4 max-w-screen-md overflow-hidden',
       ]">
         <div class="lg:p-4 xl:p-8">
           <div
@@ -55,15 +55,15 @@
 
           <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base mb-2 md:mb-4"></div>
 
-          <div class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
-            <div class="article-toc">
-              <ul class="list-none flex flex-wrap justify-start items-center">
-                <UButton v-for="link of article.body?.toc?.links" :key="link.id" color="gray"
-                  class="mr-2 mb-2 font-light" size="xs" :to="`${article._path}#${link.id}`">
+          <div class="article-toc text-gray-600 dark:text-gray-400 text-sm md:text-base pb-4">
+            <ul class="list-none flex flex-wrap justify-start items-center">
+              <li v-for="link of article.body?.toc?.links" :key="link.id">
+                <UButton color="gray" class="mr-2 mb-2 font-light" size="xs" :to="`${article._path}#${link.id}`">
                   {{ link.text }}
                 </UButton>
-              </ul>
-            </div>
+              </li>
+
+            </ul>
           </div>
 
           <div class="text-gray-700 dark:text-gray-300 text-md max-w-prose">
@@ -95,7 +95,7 @@ const formatDate = timeFormat('%B %d, %Y')
 
 const blogYear = useRouteQuery('year', 2023, { transform: Number })
 
-const { data } = await useAsyncData('blog', () => queryContent('/blog/').find())
+const { status, data } = await useLazyAsyncData('blog', () => queryContent('/blog/').find())
 
 const blogYears = ref([
   2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015,
@@ -105,7 +105,7 @@ const filterByYear = ref(true)
 
 
 const blogIndexFilter = (articles) => {
-  console.log('articles', articles)
+  // console.log('articles', articles)
   if (!articles) return
   if (!articles.length) return
 

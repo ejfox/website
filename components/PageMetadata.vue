@@ -69,7 +69,14 @@ const { doc } = defineProps({
 })
 
 const formatBlogDate = timeFormat('%B %d, %Y')
-const formatRelativeTime = (date) => formatDistanceToNow(new Date(date), {
-  addSuffix: true,
-})
+const formatRelativeTime = (date) => {
+  try {
+    return formatDistanceToNow(new Date(date), {
+      addSuffix: true,
+    })
+  } catch (error) {
+    console.error('Error formatting relative time:', error)
+    return ''
+  }
+}
 </script>

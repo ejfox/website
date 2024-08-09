@@ -1,5 +1,35 @@
 [
   {
+    "id": "112927827191719002",
+    "scrap_id": "ZLJOgsvA",
+    "href": "https://mastodon.social/@ejfox/112927827191719002",
+    "description": "<p>follow-up, I made 4 PRs in about an hour, and then spent the next 3 hours fixing their bullshit before ultimately throwing all 4 away, would have been better if I had just done it myself, too hard to wrap my head around the misassumptions of the robot, almost like having a real junior developer!</p>",
+    "time": "2024-08-08T18:31:34.404Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "hm8SPILZ",
+    "href": "https://github.com/LiheYoung/Depth-Anything",
+    "description": "LiheYoung/Depth-Anything: [CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation",
+    "time": "2024-08-08T17:52:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112927024694548771",
+    "scrap_id": "x6aV9ryQ",
+    "href": "https://mastodon.social/@ejfox/112927024694548771",
+    "description": "<p>if anyone needs me im busy doing 2 PRs at once in copilot workspaces</p>",
+    "time": "2024-08-08T15:07:29.281Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/927/024/379/559/701/small/c4eead50430fb475.png"
+    ]
+  },
+  {
     "id": "112924144121574647",
     "scrap_id": "qH3M-Odb",
     "href": "https://mastodon.social/@ejfox/112924144121574647",

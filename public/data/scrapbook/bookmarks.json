@@ -1,5 +1,16 @@
 [
   {
+    "href": "https://interconnected.org/home/2024/08/09/no-apps-no-masters",
+    "description": "[no title]",
+    "extended": "",
+    "meta": "c539e310784043d99da0cb242d2bee59",
+    "hash": "cbac95f4d6e41a36f14a1347cc4539ba",
+    "time": "2024-08-09T14:04:40Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://github.com/LiheYoung/Depth-Anything",
     "description": "LiheYoung/Depth-Anything: [CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation",
     "extended": "",

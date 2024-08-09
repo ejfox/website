@@ -1,5 +1,26 @@
 [
   {
+    "scrap_id": "zxaUsj5Y",
+    "href": "https://interconnected.org/home/2024/08/09/no-apps-no-masters",
+    "description": "[no title]",
+    "time": "2024-08-09T14:04:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112929608707622072",
+    "scrap_id": "qEyIhWiW",
+    "href": "https://mastodon.social/@ejfox/112929608707622072",
+    "description": "<p>Claudes worst, laziest habit</p>",
+    "time": "2024-08-09T02:04:38.179Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/929/608/457/032/010/small/d3680bafa51ddac6.png"
+    ]
+  },
+  {
     "id": "112927827191719002",
     "scrap_id": "ZLJOgsvA",
     "href": "https://mastodon.social/@ejfox/112927827191719002",

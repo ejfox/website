@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-md border border-gray-100 dark:border-gray-800 rounded mb-8">
+  <div class="max-w-screen-md border border-gray-100 dark:border-gray-800 rounded mb-8 break-words">
     <!-- Scrap components based on source -->
     <ScrapArena v-if="scrap.source === 'arena'" :scrap="scrap" />
     <ScrapPinboard v-if="scrap.source === 'pinboard'" :scrap="scrap" />

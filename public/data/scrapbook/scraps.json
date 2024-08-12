@@ -1,5 +1,46 @@
 [
   {
+    "scrap_id": "XykUuAWb",
+    "href": "https://www.clearerthinking.org/post/can-astrologers-use-astrological-charts-to-understand-people-s-character-and-lives-our-new-study-pu",
+    "description": "Can astrologers use astrological charts to understand people's character and lives? Our new study put astrologers to the test",
+    "time": "2024-08-11T18:15:39Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112944583004356118",
+    "scrap_id": "iL-_wlMD",
+    "href": "https://mastodon.social/@ejfox/112944583004356118",
+    "description": "<p>Heres a little realtime demo– youre meant to throw 3 coins irl and report the results back</p>",
+    "time": "2024-08-11T17:32:47.815Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112944570497147097",
+    "scrap_id": "P3k4WQ1j",
+    "href": "https://mastodon.social/@ejfox/112944570497147097",
+    "description": "<p>made a little command line tool to help with throwing the I Ching (and sends your question + the result to a local LLM to help you interpret)</p>",
+    "time": "2024-08-11T17:29:36.975Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/944/569/856/510/890/small/9250c8e7871d4ef0.png",
+      "https://files.mastodon.social/media_attachments/files/112/944/570/240/114/369/small/a9b7fc51928c127d.png"
+    ]
+  },
+  {
+    "scrap_id": "Sgwqr--T",
+    "href": "https://github.com/liddiard/harmontown-search",
+    "description": "liddiard/harmontown-search: Search all transcripts from the Harmontown podcast. Transcription powered by OpenAI's Whisper model. Search powered by Typesense.",
+    "time": "2024-08-11T16:33:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "id": "112941833506220892",
     "scrap_id": "mYtWupKj",
     "href": "https://mastodon.social/@ejfox/112941833506220892",

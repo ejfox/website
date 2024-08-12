@@ -143,4 +143,9 @@ export default {
       ],
     },
   },
+  postcss: {
+    plugins: {
+      cssnano: false,
+    },
+  },
 }

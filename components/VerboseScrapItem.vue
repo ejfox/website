@@ -16,7 +16,7 @@
 
     <small class="opacity-50 inline-block overflow-hidden mr-1 align-top mb-0.5"
       @click="navigateTo(scrap.href, { external: true })">
-      {{ formatDate(scrap.time) }}
+      {{ formatDate(scrap.created_at) }}
       &lt;+{{ scrapTypeToSymbol(scrap.type) }} {{ scrap.type }}&gt;
     </small>
 

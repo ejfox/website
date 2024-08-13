@@ -1,5 +1,71 @@
 [
   {
+    "href": "https://github.com/zed-0xff/zsteg",
+    "description": "zed-0xff/zsteg: detect stegano-hidden data in PNG & BMP",
+    "extended": "",
+    "meta": "2f8ae730bc9765873dfe26653028dad9",
+    "hash": "fb629578d5b667c2246963eca485bbdb",
+    "time": "2024-08-12T23:00:12Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://github.com/kciter/ascii-3d-renderer.js",
+    "description": "kciter/ascii-3d-renderer.js: 3D Renderer using ASCII.",
+    "extended": "",
+    "meta": "b742a9f487db10cb519acdab07431d4e",
+    "hash": "a846316f97a980b46bfd3c7fad910b5d",
+    "time": "2024-08-12T22:34:47Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://tivadar.gumroad.com/l/mathematics-of-machine-learning?wanted=true&referrer=https%3A%2F%2Ftivadardanka.com%2Fbooks%2Fmathematics-of-machine-learning",
+    "description": "Mathematics of Machine Learning early access",
+    "extended": "",
+    "meta": "13884846f9315b15091945e72711c325",
+    "hash": "df9984d784f154b129e8590a192f4fc6",
+    "time": "2024-08-12T18:11:09Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://x.com/svpino/status/1822966303642308903",
+    "description": "Santiago on X: \"The single most undervalued fact of linear algebra: Matrices are graphs, and graphs are matrices. Encoding matrices as graphs is a cheat code, making complex behavior simple to study. Let me show you how! https://t.co/gGDkhYIfKt\" / X",
+    "extended": "",
+    "meta": "dc621250874f34e1798224091ea5d988",
+    "hash": "708b044e1272d164a22e5cbd2cff18c5",
+    "time": "2024-08-12T18:10:34Z",
+    "shared": "yes",
+    "toread": "no",
+    "tags": ""
+  },
+  {
+    "href": "https://www.bloomberg.com/graphics/2024-flood-fire-climate-risk-analytics/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTcyMzQyNDg3MCwiZXhwIjoxNzI0MDI5NjcwLCJhcnRpY2xlSWQiOiJTSFlLR0VEV1gyUFMwMCIsImJjb25uZWN0SWQiOiJFQzUzMkU0NDM2OTc0ODRGOTJGOUY3MTdGQ0QzQUZBQiJ9.jhFpdkD1ts3Y2qvjunwZoA45YdnE5NeAvRjAR9n86d4",
+    "description": "The Risky Business of Predicting Where Climate Disaster Will Hit",
+    "extended": "",
+    "meta": "96e86a9419de2e2554438d0891dbf55e",
+    "hash": "17f5fd60f8a5446a8331121133584233",
+    "time": "2024-08-12T16:57:43Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
+    "href": "https://gothamist.com/news/nyc-has-spent-82-million-on-police-misconduct-lawsuits-this-year-advocacy-group-says",
+    "description": "NYC has spent $82 million on police misconduct lawsuits this year, advocacy group says",
+    "extended": "That's a 61% increase compared to the same period last year, according to the Legal Aid Society.",
+    "meta": "c216b2d68b6c48212d72457a4ed7272a",
+    "hash": "d269d05096bc86005447160584009785",
+    "time": "2024-08-12T16:56:38Z",
+    "shared": "yes",
+    "toread": "yes",
+    "tags": ""
+  },
+  {
     "href": "https://nymag.com/intelligencer/article/the-ballad-of-barrett-brown.html",
     "description": "The Ballad of Barrett Brown",
     "extended": "",

@@ -2,12 +2,12 @@
 dek: "In which we put words into space and then explore the constellations they create"
 inprogress: true
 date: "2023-07-16T20:34:14.000Z"
-modified: "2023-07-18T00:29:11.000Z"
+modified: "2024-08-02T16:28:36.000Z"
 tags: "programming howto machinelearning"
 hidden: true
 draft: true
 ---
-# Getting started with embeddings in JS
+## Getting started with embeddings in JS
 
 [pgvector: Embeddings and vector similarity](https://supabase.com/docs/guides/database/extensions/pgvector)
 
@@ -43,7 +43,6 @@ const { data, error } = await supabase.from('posts').insert({
 })
 ```
 
-
 Need to create `match_documents` function: [Database Functions | Supabase Docs](https://supabase.com/docs/guides/database/functions)
 
 [Storing OpenAI embeddings in Postgres with pgvector](https://supabase.com/blog/openai-embeddings-postgres-vector)
@@ -72,10 +71,7 @@ as $$
 $$;
 ```
 
-
-
-
-> pgvector introduces 3 new operators that can be used to calculate similarity:
+>pgvector introduces 3 new operators that can be used to calculate similarity:
 	- `<->` Euclidean distance
 	- `<#>` Negative inner product
 	- `<=>` Cosine distance

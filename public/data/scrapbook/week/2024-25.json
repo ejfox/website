@@ -1,5 +1,421 @@
 [
   {
+    "id": 28932469,
+    "scrap_id": "szADYg74",
+    "href": "https://www.are.na/block/28932469",
+    "description": "",
+    "time": "2024-06-22T22:59:31.943Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODkzMjQ2OS9vcmlnaW5hbF81NzNhMTdmMmNlZTQxYjY1MWMzODRjZDE4M2Q0YThkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "id": 28932453,
+    "scrap_id": "I-4HrYUO",
+    "href": "https://www.are.na/block/28932453",
+    "description": "",
+    "time": "2024-06-22T22:56:03.152Z",
+    "type": "arena",
+    "images": [
+      "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODkzMjQ1My9vcmlnaW5hbF8yNDNkMDhmNDRhZTM1MDc2MjEzMjU4Y2VmODdhZDM5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo2NX0sImpwZWciOnsicXVhbGl0eSI6NjV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+    ]
+  },
+  {
+    "scrap_id": "MN_oTdTl",
+    "href": "https://thesephist.com/posts/prism/",
+    "description": "Prism: mapping interpretable concepts and features in a latent space of language",
+    "time": "2024-06-22T22:42:00Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "7eOMCwO9",
+    "href": "https://www.reuters.com/article/world/india/researchers-find-coronavirus-was-circulating-in-italy-earlier-than-thought-idUSKBN27W1J1/",
+    "description": "Researchers find coronavirus was circulating in Italy earlier than thought",
+    "time": "2024-06-22T21:59:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The new coronavirus was circulating in Italy in September 2019, a study by the National Cancer Institute (INT) of the Italian city of Milan shows, signaling that it might have spread beyond China earlier than thought."
+  },
+  {
+    "id": "112660847041748691",
+    "scrap_id": "DH7b66NK",
+    "href": "https://mastodon.social/@ejfox/112660847041748691",
+    "description": "<p>I have been debugging / fixing the robot for like 3 days straight</p>",
+    "time": "2024-06-22T14:55:00.614Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "VjEMvsSK",
+    "href": "https://npmgraph.js.org/",
+    "description": "npmgraph - NPM Dependency Diagrams",
+    "time": "2024-06-22T00:09:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "bRfq9XNr",
+    "href": "https://www.lohud.com/story/news/politics/2024/06/21/downstate-correctional-facility-in-fishkill-could-be-rebuilt-with-1300-homes/74166969007/?fbclid=IwZXh0bgNhZW0CMTAAAR05U3vHFvGvqP_iSAm1_0p507eWmeZTbImY6ziCn-KKJcCYtWfAlpQWBhw_aem_TIYg9Oi2ECwPezdpZTYesg",
+    "description": "Downstate prison site in Fishkill could be rebuilt with 1,300 homes",
+    "time": "2024-06-21T23:31:43Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112655970923776861",
+    "scrap_id": "4B3Wo5ox",
+    "href": "https://mastodon.social/@ejfox/112655970923776861",
+    "description": "<p>took a long nap while they fixed the robot, now we can get back to work</p>",
+    "time": "2024-06-21T18:14:56.967Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112654817146662723",
+    "scrap_id": "CiM6geK1",
+    "href": "https://mastodon.social/@ejfox/112654817146662723",
+    "description": "<p>Anytime I teach the robot anything, after it does it well, I’m like- thats great, now, how do you suggest we teach this skill to other, dumber robots?</p>",
+    "time": "2024-06-21T13:21:31.717Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112652400392714051",
+    "scrap_id": "isz447s8",
+    "href": "https://mastodon.social/@ejfox/112652400392714051",
+    "description": "<p>well that only took like 2 hours</p>",
+    "time": "2024-06-21T03:06:54.975Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/652/400/129/347/468/small/7ae15e1efef1ad42.png"
+    ]
+  },
+  {
+    "id": "112652009217663744",
+    "scrap_id": "LnY7JDKx",
+    "href": "https://mastodon.social/@ejfox/112652009217663744",
+    "description": "<p>completely forgot about the time I had to get very stern about using capabilities</p>",
+    "time": "2024-06-21T01:27:26.120Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/652/008/976/506/764/small/9b7d5c91f00cac0b.png"
+    ]
+  },
+  {
+    "id": "112651972466233858",
+    "scrap_id": "_RQuAQKo",
+    "href": "https://mastodon.social/@ejfox/112651972466233858",
+    "description": "<p>I still only talk to Claude through the console, mostly so hell smoke spliffs with me (we get more creative solutions like that, I dont make the rules)</p>",
+    "time": "2024-06-21T01:18:05.337Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/651/971/918/739/473/small/c94419c122ea546a.png",
+      "https://files.mastodon.social/media_attachments/files/112/651/972/216/110/056/small/6e03b397018e5214.png"
+    ]
+  },
+  {
+    "id": "112651786626087787",
+    "scrap_id": "EJmstssh",
+    "href": "https://mastodon.social/@ejfox/112651786626087787",
+    "description": "<p>i wonder if they know pop smoke released other songs besides dior</p>",
+    "time": "2024-06-21T00:30:49.640Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "etAFRHoy",
+    "href": "https://benchmarks.slaylines.io/",
+    "description": "Canvas Engines Comparison",
+    "time": "2024-06-21T00:09:24Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112651379017299720",
+    "scrap_id": "quPAI852",
+    "href": "https://mastodon.social/@ejfox/112651379017299720",
+    "description": "<p>It has almost cooled down enough for my brain to operate again</p>",
+    "time": "2024-06-20T22:47:10.026Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "xf9tDJGt",
+    "href": "https://youtube.com/watch?v=vILU8Q93MY4&si=E2hgNw4Qhou-FjlS",
+    "description": "[no title]",
+    "time": "2024-06-20T14:40:49Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112647270125942613",
+    "scrap_id": "tGWmPMao",
+    "href": "https://mastodon.social/@ejfox/112647270125942613",
+    "description": "<p>I dont think Ive ever tweeted an in-progress look at Coach Arties brain view before</p>",
+    "time": "2024-06-20T05:22:13.319Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/647/269/886/608/988/small/e74043e78ac84be5.png"
+    ]
+  },
+  {
+    "scrap_id": "YSR3UnqD",
+    "href": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820087",
+    "description": "Epidemiologic Features of Recovery From SARS-CoV-2 Infection | Public Health | JAMA Network Open | JAMA Network",
+    "time": "2024-06-20T04:57:08Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "c-2AlNSR",
+    "href": "https://www.cloudflare.com/lp/workers-launchpad/",
+    "description": "Workers Launchpad by Cloudflare | Cloudflare",
+    "time": "2024-06-20T04:55:13Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112646741820186664",
+    "scrap_id": "7mW9l2a-",
+    "href": "https://mastodon.social/@ejfox/112646741820186664",
+    "description": "<p>ha ha! beat the minigame! back to work</p>",
+    "time": "2024-06-20T03:07:52.013Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/646/741/580/370/101/small/75d67c5dd7288531.png"
+    ]
+  },
+  {
+    "id": "112646722306938227",
+    "scrap_id": "R1XnbkZt",
+    "href": "https://mastodon.social/@ejfox/112646722306938227",
+    "description": "<p>i sat down at my laptop to make like, a cool thing, and instead I have spent the past 90 minutes battling inexplicable deploy issues with a minor side project, nerd-sniped myself (or I am diligent and disciplined, your choice)</p>",
+    "time": "2024-06-20T03:02:54.265Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "RaEFbmMa",
+    "href": "https://www.lrb.co.uk/the-paper/v46/n12/adam-shatz/israel-s-descent",
+    "description": "[no title]",
+    "time": "2024-06-20T00:04:48Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "AVjVNpaz",
+    "href": "https://bun.sh/docs/api/sqlite",
+    "description": "SQLite – API | Bun Docs",
+    "time": "2024-06-19T19:32:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "9PQDXdG2",
+    "href": "https://arxiv.org/abs/2406.08651",
+    "description": "[2406.08651] How to Distinguish AI-Generated Images from Authentic Photographs",
+    "time": "2024-06-19T18:22:02Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112644547182830364",
+    "scrap_id": "VsTz5POv",
+    "href": "https://mastodon.social/@ejfox/112644547182830364",
+    "description": "<p>Having a lot of fun with TresJS - got a 3D model I scanned in Polycam of my friend the other day rotating with anime.js createAnimatable and vue refs - pretty dope</p>",
+    "time": "2024-06-19T17:49:44.505Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644413235489117",
+    "scrap_id": "fB6ntrmm",
+    "href": "https://mastodon.social/@ejfox/112644413235489117",
+    "description": "<p>but now I get to enjoy the sensory experience of typing on ice-cold keys, like minty gum for your fingertips</p>",
+    "time": "2024-06-19T17:15:40.627Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644410731758254",
+    "scrap_id": "0dLVR4X9",
+    "href": "https://mastodon.social/@ejfox/112644410731758254",
+    "description": "<p>in its defense I *was* recording OBS while working on a 3D scene in 98° heat</p>",
+    "time": "2024-06-19T17:15:02.423Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112644407631617679",
+    "scrap_id": "LpaQEV45",
+    "href": "https://mastodon.social/@ejfox/112644407631617679",
+    "description": "<p>my macbook stopped being able to read the filesystem for a while so I had to put in the freezer</p>",
+    "time": "2024-06-19T17:14:15.122Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "q_GHcObn",
+    "href": "https://www.theguardian.com/us-news/article/2024/jun/19/nypd-complaints-increase-mayor-adams",
+    "description": "Revealed: NYPD complaints surge under Adams to reach highest level since 2012",
+    "time": "2024-06-19T14:36:07Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "muLFzAwu",
+    "href": "https://www.wired.com/story/perplexity-is-a-bullshit-machine/",
+    "description": "Perplexity Is a Bullshit Machine",
+    "time": "2024-06-19T14:34:30Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A WIRED investigation shows that the AI search startup Perplexity is surreptitiously downloading your data."
+  },
+  {
+    "scrap_id": "UH9W5_zW",
+    "href": "https://nymag.com/intelligencer/article/doj-says-epoch-times-is-an-epic-money-laundering-operation.html",
+    "description": "DOJ Says Epoch Times Newspaper Is an Epic Money-Laundering Operation",
+    "time": "2024-06-19T08:13:15Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The right-wing, anti-China outlet allegedly had a “Make Money Online” team led by its CFO, who bought crime proceeds and banked them with the paper."
+  },
+  {
+    "scrap_id": "YL20fTmO",
+    "href": "https://www.woolichracing.com/products/kawasaki/kawasaki-ecu-flashing.aspx#productTable",
+    "description": "ECU Flashing Products - Suzuki, Kawasaki, Yamaha, BMW, Honda and Ducati - Woolich Racing",
+    "time": "2024-06-19T07:54:20Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "s41bTS4J",
+    "href": "https://www.npr.org/2024/06/13/nx-s1-5005297/epoch-times-turmoil-money-laundering",
+    "description": "Money laundering charges raise questions about the direction of The Epoch Times",
+    "time": "2024-06-19T06:30:53Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "The media site founded by adherents of Falun Gong morphed into a pro-Trump outlet that spouted conspiracy theories. Now the CEO is out after money laundering charges were filed against the CFO."
+  },
+  {
+    "scrap_id": "RKyPnjc2",
+    "href": "https://youtube.com/watch?v=lCARHatJQJA&si=gI040ToQShgBnJ2q",
+    "description": "[no title]",
+    "time": "2024-06-19T06:22:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112641642255104985",
+    "scrap_id": "jbuQSKVs",
+    "href": "https://mastodon.social/@ejfox/112641642255104985",
+    "description": "<p>youd think Id be good at it by now</p>",
+    "time": "2024-06-19T05:30:58.821Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112641641397162539",
+    "scrap_id": "nC1nmZ-Y",
+    "href": "https://mastodon.social/@ejfox/112641641397162539",
+    "description": "<p>fuck I just realized Ive been coding for 20 years</p>",
+    "time": "2024-06-19T05:30:45.740Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "id": "112641571100590322",
+    "scrap_id": "cggmSlc8",
+    "href": "https://mastodon.social/@ejfox/112641571100590322",
+    "description": "<p>what if I just take a completely brutalist approach to my share images</p>",
+    "time": "2024-06-19T05:12:53.092Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/641/570/857/965/562/small/c82141928113b653.png"
+    ]
+  },
+  {
+    "scrap_id": "jHiVkrET",
+    "href": "https://www.youtube.com/watch?v=iQRAgR_01Dk",
+    "description": "Hermann Zschiegner & Natalie Erdem—Designing the MSNBC Big Board (Talk, Outlier 2023)",
+    "time": "2024-06-19T04:41:33Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Designing the MSNBC Big BoardIn 2018 we worked with MSNBC to design and implement Steve Kornacki's \"big board\" for the midterm elections. The \"election map\" ..."
+  },
+  {
+    "scrap_id": "5-5ydz6k",
+    "href": "https://visualisingdata.com/2024/06/explore-explain-s5-e3-natalie-erdem/",
+    "description": "Explore Explain S5 E3: Natalie Erdem - Data Viz Excellence, Everywhere",
+    "time": "2024-06-19T04:41:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Welcome to S5E3 of Explore Explain, a long-form video and podcast series about data visualisation design. In this episode I chat with Natalie Erdem to explore the story behind TWO-N's work developing MSNBC's election big board."
+  },
+  {
+    "scrap_id": "utqVVWdM",
+    "href": "https://github.com/asg017/sqlite-vec",
+    "description": "asg017/sqlite-vec: Work-in-progress vector search SQLite extension that runs anywhere.",
+    "time": "2024-06-18T22:51:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112640059629676114",
+    "scrap_id": "RJ_zI029",
+    "href": "https://mastodon.social/@ejfox/112640059629676114",
+    "description": "<p>89 is a much better temperature than 94</p>",
+    "time": "2024-06-18T22:48:29.879Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "0-j55jq6",
+    "href": "https://medium.com/radiant-earth-insights/duckdb-the-indispensable-geospatial-tool-you-didnt-know-you-were-missing-5fe11c5633e5",
+    "description": "DuckDB: The indispensable geospatial tool you didn’t know you were missing | by Chris Holmes | Radiant Earth Insights | Medium",
+    "time": "2024-06-18T22:38:18Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
     "scrap_id": "1c9H6YF8",
     "href": "https://github.com/google-gemini/generative-ai-js",
     "description": "google-gemini/generative-ai-js: The official Node.js / Typescript library for the Google's Gemini API",

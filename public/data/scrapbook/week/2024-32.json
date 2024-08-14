@@ -1,0 +1,170 @@
+[
+  {
+    "scrap_id": "tINUfLHW",
+    "href": "https://blockonomi.com/tech-investor-funds-ai-bot-with-50000-in-bitcoin/",
+    "description": "Tech Investor Funds AI Bot with $50,000 in Bitcoin",
+    "time": "2024-08-10T14:06:58Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "zxaUsj5Y",
+    "href": "https://interconnected.org/home/2024/08/09/no-apps-no-masters",
+    "description": "[no title]",
+    "time": "2024-08-09T14:04:40Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112929608707622072",
+    "scrap_id": "qEyIhWiW",
+    "href": "https://mastodon.social/@ejfox/112929608707622072",
+    "description": "<p>Claudes worst, laziest habit</p>",
+    "time": "2024-08-09T02:04:38.179Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/929/608/457/032/010/small/d3680bafa51ddac6.png"
+    ]
+  },
+  {
+    "id": "112927827191719002",
+    "scrap_id": "ZLJOgsvA",
+    "href": "https://mastodon.social/@ejfox/112927827191719002",
+    "description": "<p>follow-up, I made 4 PRs in about an hour, and then spent the next 3 hours fixing their bullshit before ultimately throwing all 4 away, would have been better if I had just done it myself, too hard to wrap my head around the misassumptions of the robot, almost like having a real junior developer!</p>",
+    "time": "2024-08-08T18:31:34.404Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "hm8SPILZ",
+    "href": "https://github.com/LiheYoung/Depth-Anything",
+    "description": "LiheYoung/Depth-Anything: [CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation",
+    "time": "2024-08-08T17:52:50Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112927024694548771",
+    "scrap_id": "x6aV9ryQ",
+    "href": "https://mastodon.social/@ejfox/112927024694548771",
+    "description": "<p>if anyone needs me im busy doing 2 PRs at once in copilot workspaces</p>",
+    "time": "2024-08-08T15:07:29.281Z",
+    "type": "mastodon-post",
+    "images": [
+      "https://files.mastodon.social/media_attachments/files/112/927/024/379/559/701/small/c4eead50430fb475.png"
+    ]
+  },
+  {
+    "id": "112924144121574647",
+    "scrap_id": "qH3M-Odb",
+    "href": "https://mastodon.social/@ejfox/112924144121574647",
+    "description": "<p>I am mad because whatever math they wrote to make these rocks speak english seems to cause my laptop to lose battery at an alarming rate</p>",
+    "time": "2024-08-08T02:54:55.216Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "cZc2o8g-",
+    "href": "https://indi.ca/gaza-is-colonialism-101/",
+    "description": "Gaza Is Colonialism 101",
+    "time": "2024-08-07T23:21:55Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "Genocide has always been the business model"
+  },
+  {
+    "scrap_id": "dm4BBew9",
+    "href": "https://www.aigrant.com",
+    "description": "AI Grant",
+    "time": "2024-08-07T02:55:38Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "It's time for AI-native products!"
+  },
+  {
+    "scrap_id": "vxAlQMEf",
+    "href": "https://www.404media.co/where-facebooks-ai-slop-comes-from/",
+    "description": "Where Facebook's AI Slop Comes From",
+    "time": "2024-08-07T02:18:52Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "W1ozrgDa",
+    "href": "https://apnews.com/article/gaza-nypd-sam-seligson-brooklyn-museum-eea8ee12248d38d856fe5cabcac7a0d1",
+    "description": "NYC journalist who documented pro-Palestinian vandalism arrested on felony hate crime charges",
+    "time": "2024-08-06T19:34:26Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": "A New York City journalist has been arrested on felony hate crime charges after filming a pro-Palestinian protest earlier this summer in which activ"
+  },
+  {
+    "scrap_id": "gD7-vq4D",
+    "href": "https://www.deepseek.com/",
+    "description": "DeepSeek",
+    "time": "2024-08-06T19:24:46Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112910643455157710",
+    "scrap_id": "kaRgnSxr",
+    "href": "https://mastodon.social/@ejfox/112910643455157710",
+    "description": "<p>be wary of Im going to completely change how I live my life and *this piece of code* is going to fix it”</p>",
+    "time": "2024-08-05T17:41:31.391Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "yImzTXIi",
+    "href": "https://farm.bot/",
+    "description": "FarmBot | Open-Source CNC Farming",
+    "time": "2024-08-05T17:21:04Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "id": "112909610211473997",
+    "scrap_id": "cVUKO5VE",
+    "href": "https://mastodon.social/@ejfox/112909610211473997",
+    "description": "<p>talking to the robots has drastically changed my need for a long-running searchable clipboard history because I be copyin and pastin so god dang much</p>",
+    "time": "2024-08-05T13:18:45.348Z",
+    "type": "mastodon-post",
+    "images": []
+  },
+  {
+    "scrap_id": "tq_ph0kz",
+    "href": "https://cloudinary.com/documentation/audio_transformations",
+    "description": "Audio Transformations | Cloudinary",
+    "time": "2024-08-04T17:09:56Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  },
+  {
+    "scrap_id": "XSE7mehH",
+    "href": "http://www.lagom.nl/lcd-test/",
+    "description": "LCD monitor test images",
+    "time": "2024-08-04T16:47:09Z",
+    "type": "pinboard",
+    "images": [],
+    "tags": "",
+    "extended": ""
+  }
+]

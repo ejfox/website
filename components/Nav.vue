@@ -7,8 +7,14 @@
       <NuxtLink :class="linkClasses" to="/"> Home </NuxtLink>
       <NuxtLink :class="linkClasses" to="/projects"> Projects </NuxtLink>
       <NuxtLink :class="linkClasses" to="/blog/">Blog </NuxtLink>
-      <NuxtLink :class="linkClasses" to="https://ejfox.photos">Photos</NuxtLink>
+
       <NuxtLink :class="linkClasses" to="/scrapbook/">Scrapbook</NuxtLink>
+      <NuxtLink :class="linkClasses" to="/pottery/">Pottery</NuxtLink>
+
+      <NuxtLink :class="linkClasses" to="https://ejfox.photos">
+        Photos
+        <UIcon name="i-ei-external-link" class="w-4 h-4 inline-block" />
+      </NuxtLink>
 
       <div class="px-2 md:px-4 lg:mt-12 text-xs">
         <iframe src="https://github.com/sponsors/ejfox/button" title="Sponsor ejfox" height="32" width="114"
@@ -22,7 +28,7 @@
 
 <script setup>
 const linkClasses =
-  "inline-block md:block md:w-full px-2 md:px-4 my-2 text-lg md:text-xl'"
+  "inline-block md:block md:w-full px-2 md:px-4 my-2 text-lg md:text-xl active:bg-white active:text-black rounded-lg active:shadow-lg"
 
 // make a computed that checks the route
 // if we are in /scrapbook/

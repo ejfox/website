@@ -1,8 +1,5 @@
 <template>
-  <h1
-    :id="id"
-    class="text-5xl sm:text-6xl md:text-8xl font-bold mb-1 text-gray-900 dark:text-gray-100 pt-8 ml-0 xl:pt-24 xl:pb-20"
-  >
+  <h1 :id="id" class="">
     <slot />
   </h1>
 </template>

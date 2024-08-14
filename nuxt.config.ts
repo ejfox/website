@@ -1,8 +1,8 @@
 export default {
   // ssr: false, // for netlify deploy
   modules: [
+    'nuxt-gtag',
     '@nuxt/ui',
-    '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@nuxt/content',
     '@nuxtjs/google-fonts',
@@ -10,12 +10,16 @@ export default {
     '@nuxt/image',
     '@unlok-co/nuxt-stripe',
   ],
+  gtag: {
+    id: 'G-0CBMSSNG8P',
+  },
   ui: {
     icons: 'all',
   },
-  useRuntimeConfig: {
-    test: 'foo',
+  runtimeConfig: {
     public: {
+      supabaseUrl: process.env.SUPABASE_URL,
+      supabaseKey: process.env.SUPABASE_KEY,
       test2: 'bar',
       DEV: process.env.NODE_ENV,
     },
@@ -137,6 +141,11 @@ export default {
         },
         { name: 'twitter:image', content: 'https://ejfox.com/og-image.png' },
       ],
+    },
+  },
+  postcss: {
+    plugins: {
+      cssnano: false,
     },
   },
 }

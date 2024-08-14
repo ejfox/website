@@ -3,49 +3,49 @@ draft: true
 dek: "In which"
 inprogress: true
 date: "2023-01-19T05:39:28.000Z"
-modified: "2023-09-09T19:03:59.000Z"
+modified: "2024-07-18T18:24:22.000Z"
 tags: "art"
 hidden: true
 ---
-# Making soap
+## Making soap
 
-There's something truly special about sharing a creative hobby with a loved one. For my mom and me, that shared passion is making soap. In this blog post, I'll take you on a journey through our soap-making process, complete with instructional steps and visuals to help you create your own beautiful, scented soaps at home.
+There's something truly special about sharing a creative hobby with a loved one. For my mom and I, that shared passion is making soap. In this blog post, I'll take you on a journey through our soap-making process.
 
-## Choosing Colors
+### Choosing Colors
 
 The first step in our soap-making adventure is selecting the colors that will bring our creations to life. We like to choose colors that complement each other and reflect the scent or theme of the soap. You can use natural colorants like clays and botanicals or synthetic colorants like micas and pigments.
 
 [Insert photo/video of color selection process]
 
-## Choosing Scents
+### Choosing Scents
 
 Next, we decide on the fragrance for our soap. This can be achieved using essential oils for a natural scent or fragrance oils for a wider range of options. We love experimenting with different combinations to create unique and delightful scents.
 
 [Insert photo/video of scent selection process]
 
-## Weighing Ingredients
+### Weighing Ingredients
 
 Accuracy is key when it comes to measuring out the ingredients for our soap. We carefully weigh all oils, lye, and water using a digital scale to ensure the correct proportions for a successful batch.
 
 [Insert photo/video of weighing ingredients]
 
-## Melting Oils
+### Melting Oils
 
 Once we have our ingredients measured out, we gently heat the oils in a double boiler until they are fully melted and combined. It's essential to monitor the temperature during this process to prevent overheating.
 
 [Insert photo/video of melting oils]
 
-## Lye + Mineral Water Reaction
+### Lye + Mineral Water Reaction
 
 Safety comes first when working with lye. Wearing gloves and goggles, we slowly add lye to cold mineral water (never reverse this order) while stirring. This creates a chemical reaction that heats the water and releases fumes, so it's important to do this in a well-ventilated area.
 
-### Using Lye and Tea-Brewed Water
+#### Using Lye and Tea-Brewed Water
 
 For a unique twist, we sometimes replace mineral water with tea-brewed water to add an extra layer of fragrance and color to our soap.
 
 [Insert photo/video of lye and water reaction]
 
-## Pouring Techniques
+### Pouring Techniques
 
 Once our oils and lye solution have cooled to the appropriate temperature, we combine them and blend until we reach "trace"—the point at which the mixture thickens slightly. Now comes the fun part: pouring our soap into molds! We use various pouring techniques, such as layers, swirls, or embeds, to create visually stunning designs.
 

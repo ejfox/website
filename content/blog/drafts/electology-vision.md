@@ -1,11 +1,12 @@
 ---
-dek: See behind the scenes of election night coverage with Electology, the new tool transforming live data analysis. 
+dek: "See behind the scenes of election night coverage with Electology, the new tool transforming live data analysis."
 inprogress: true
-date: 2022-12-05T18:34:09-05:00
-modified: 2024-05-16T14:14:44-04:00
-tags:
+date: "2022-12-05T23:34:09.000Z"
+modified: "2024-05-16T18:14:44.000Z"
+tags: null
+hidden: true
+draft: true
 ---
-
 ## Unveiling Electology: The Election Analysis Tool You Didn’t Know You Needed
 
 I'm excited to tell you about Electology, my passion project that brings together everything I've learned and wanted to achieve in the realm of election data visualization and analysis. After working at NBC News and creating the app used by Steve Kornacki for live election coverage, I decided to take all the ideas and features I couldn't implement there and build something even better on my own. That's how Electology was born.

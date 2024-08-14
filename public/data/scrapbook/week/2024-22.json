@@ -348,12 +348,12 @@
   {
     "scrap_id": "MRjCOLr0",
     "href": "https://vallandingham.me/regl_intro.html",
-    "description": "An Intro to regl for Data Visualization - Jim Vallandingham",
+    "description": "An Intro to regl for Data Visualization",
     "time": "2024-05-26T23:16:36Z",
     "type": "pinboard",
     "images": [],
     "tags": "",
-    "extended": ""
+    "extended": "An introduction to using regl to harness the power of WebGL for visualization purposes."
   },
   {
     "id": "112509443980614640",

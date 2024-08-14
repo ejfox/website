@@ -1,5 +1,6 @@
 <template>
   <div id="app-container" class="sans-serif w-100">
+    <NuxtLoadingIndicator />
     <div class="flex flex-col md:flex-row h-screen">
       <Nav class="w-full md:w-1/6 md:min-h-min md:border-none" />
 

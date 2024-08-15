@@ -816,6 +816,13 @@
   dependencies:
     "@tanstack/vue-virtual" "^3.0.0-beta.60"
 
+"@iconify-json/ei@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@iconify-json/ei/-/ei-1.1.9.tgz#c70199aa0edb7bbaf28088dbf5ada7bbf904ccc8"
+  integrity sha512-I1Ea4rQZ0QPa44+iYpQoAdtUiHvdw07VvZgJmPZ7WfsicTyF85yA/Gj9me2tHaQwaQ/zS6HCH+lkEWH6A1XHJA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/heroicons@^1.1.23":
   version "1.1.24"
   resolved "https://registry.yarnpkg.com/@iconify-json/heroicons/-/heroicons-1.1.24.tgz#91b8e1a1f6fffdc5104c5fa4e7195164d5234c2e"
@@ -6146,6 +6153,11 @@ fast-npm-meta@^0.1.1:
   resolved "https://registry.yarnpkg.com/fast-npm-meta/-/fast-npm-meta-0.1.1.tgz#2fb1e111595aec787ec523c06901ccb1d44a9422"
   integrity sha512-uS9DjGncI/9XZ6HJFrci0WzSi++N8Jskbb2uB7+9SQlrgA3VaLhXhV9Gl5HwIGESHkayYYZFGnVNhJwRDKCWIA==
 
+fast-simplex-noise@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fast-simplex-noise/-/fast-simplex-noise-4.0.0.tgz#aeec71d2f4deebab310c088dc465bbc875c2a1b7"
+  integrity sha512-2zRCJkPdMnPyXNEeI5IYgH555Nbd/j9nC8YVoOm5dmFDjqxuLD888nEAGB8cSUIyxLlNHCZVlZ7AO27Fm3boJA==
+
 fastq@^1.6.0:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.17.1.tgz#2a523f07a4e7b1e81a42b91b8bf2254107753b47"
@@ -9193,6 +9205,11 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+p5@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/p5/-/p5-1.10.0.tgz#91dd95e7266d943718e565119106cbb419d49e66"
+  integrity sha512-6cWYBFhnZz7jNC6p1VWvlt3QReMqrRSmO90bgECQIKB9oko2w/sKrOAVMyei5tjIzSYcSY0JHy+BRtSAWq24jQ==
+
 pac-proxy-agent@^7.0.0:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/pac-proxy-agent/-/pac-proxy-agent-7.0.2.tgz#0fb02496bd9fb8ae7eb11cfd98386daaac442f58"
@@ -10515,6 +10532,11 @@ simple-swizzle@^0.2.2:
   integrity sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==
   dependencies:
     is-arrayish "^0.3.1"
+
+simplex-noise@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/simplex-noise/-/simplex-noise-4.0.3.tgz#e60b840ecfb9ac972870c8c7979bd867a5b4032f"
+  integrity sha512-qSE2I4AngLQG7BXqoZj51jokT4WUXe8mOBrvfOXpci8+6Yu44+/dD5zqDpOx3Ux792eamTd2lLcI8jqFntk/lg==
 
 sirv@^2.0.4:
   version "2.0.4"

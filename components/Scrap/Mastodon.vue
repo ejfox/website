@@ -1,9 +1,7 @@
 <template>
-  <div class="post">
+  <div class="post p-8">
     <div class="content">
-      <div v-if="parsedMarkdown" class="p-4 font-serif prose prose-2xl dark:prose-invert max-w-none">
-        <ContentRenderer :value="parsedMarkdown" />
-      </div>
+      <div v-html="scrap.content" />
       <!-- if it has any images in the image metadata, show them all -->
       <div v-if="scrap.metadata.images" :class="[scrap.metadata.images.length > 1 ? 'grid grid-cols-2 gap-4' : '']">
         <img v-for="image in scrap.metadata.images" :key="image.url" :src="image.url" alt="Scrap Image" />
